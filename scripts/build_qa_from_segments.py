@@ -36,6 +36,7 @@ import json
 import sys
 import uuid
 from dataclasses import dataclass
+import random
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
@@ -83,21 +84,30 @@ class BuildConfig:
     none_token: str
     source_tag: str
     use_all_labels_for_multi: bool
+    q_templates_single: List[str]
+    q_templates_multi: List[str]
+    rng: random.Random
+
+
+def _fill_single_template(tmpl: str, label: str) -> str:
+    # Replace placeholder with curly-braced label
+    return tmpl.replace("{TARGET_LABEL}", f"{{{label}}}")
+
+
+def _fill_multi_template(tmpl: str, labels: Sequence[str]) -> str:
+    listed = ", ".join(labels)
+    return tmpl.replace("{EVENT_SET}", f"{{{listed}}}")
 
 
 def build_question(cfg: BuildConfig) -> str:
     if cfg.task == "single":
         assert cfg.label, "--label is required for single task"
-        # English only; include curly braces with the label as requested
-        return f"Please continuously watch the match status. When {{{cfg.label}}} occurs, alert me."
+        tmpl = cfg.rng.choice(cfg.q_templates_single)
+        return _fill_single_template(tmpl, cfg.label)
     else:
         assert cfg.event_set, "--event-set is required for multi task"
-        listed = ", ".join(cfg.event_set)
-        # Include all labels inside curly braces as requested
-        return (
-            f"Please continuously watch the match status and monitor {{{listed}}}. "
-            f"Whenever a key event occurs, tell me which key event happened?"
-        )
+        tmpl = cfg.rng.choice(cfg.q_templates_multi)
+        return _fill_multi_template(tmpl, cfg.event_set)
 
 
 def make_answer_text(label: str, team: str, single: bool) -> str:
@@ -211,8 +221,44 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     p.add_argument("--none-token", type=str, default="none", help="Text for no-event case if needed")
     p.add_argument("--source-tag", type=str, default="soccernet-dense", help="Value for 'source' field")
     p.add_argument("--multi-use-all-labels", action="store_true", help="For task=multi, auto-fill EVENT_SET with all labels found under --segments-dir if --event-set is not provided")
+    p.add_argument("--question-templates", type=str, default=None, help="Optional JSON file with keys 'single' and 'multi' providing question templates")
+    p.add_argument("--random-seed", type=int, default=42, help="Seed for question template selection")
 
     args = p.parse_args(argv)
+
+    # Load question templates
+    default_single = [
+        "Please continuously watch the match status. When {TARGET_LABEL} occurs, alert me.",
+        "Keep watching the match. Notify me when {TARGET_LABEL} happens.",
+        "Monitor the game and alert me upon any {TARGET_LABEL}.",
+        "Observe the match and tell me whenever {TARGET_LABEL} occurs.",
+        "Watch this segment and report when {TARGET_LABEL} happens."
+    ]
+    default_multi = [
+        "Please continuously watch the match status and monitor {EVENT_SET}. Whenever a key event occurs, tell me which key event happened?",
+        "Keep watching the match and monitor {EVENT_SET}. Each time one occurs, state which event happened.",
+        "Observe the game and track {EVENT_SET}. Report which key event occurs whenever it happens.",
+        "Monitor {EVENT_SET} throughout this segment. Whenever an event occurs, tell me which event it is.",
+        "Scan the segment for {EVENT_SET}. Every time one occurs, say which event happened."
+    ]
+
+    if args.question_templates:
+        try:
+            tmpl_obj = json.loads(Path(args.question_templates).read_text(encoding="utf-8"))
+            single_list = tmpl_obj.get("single") or []
+            multi_list = tmpl_obj.get("multi") or []
+            if not isinstance(single_list, list) or not single_list:
+                single_list = default_single
+            if not isinstance(multi_list, list) or not multi_list:
+                multi_list = default_multi
+        except Exception:
+            single_list = default_single
+            multi_list = default_multi
+    else:
+        single_list = default_single
+        multi_list = default_multi
+
+    rng = random.Random(args.random_seed)
 
     cfg = BuildConfig(
         task=args.task,
@@ -228,6 +274,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         none_token=args.none_token,
         source_tag=args.source_tag,
         use_all_labels_for_multi=bool(args.multi_use_all_labels),
+        q_templates_single=single_list,
+        q_templates_multi=multi_list,
+        rng=rng,
     )
 
     if cfg.task == "single" and not cfg.label:
