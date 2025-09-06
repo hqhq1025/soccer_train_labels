@@ -31,6 +31,12 @@ Usage examples
 
 Return format: prints JSON to stdout with the segments per file, and
 also human-readable table. Use --out to save JSON to a file.
+
+Defaults and special handling
+- Visibility: events with visibility == 'not shown' are ignored by default.
+  Use --include-not-shown or --include-visibility to include them explicitly.
+- Lead time: each segment ensures the first event occurs at least
+  --lead-seconds (default 5s) after the segment start.
 """
 
 from __future__ import annotations
@@ -118,6 +124,7 @@ def filter_events(
     exclude_labels: Optional[Sequence[str]] = None,
     only_visible: bool = False,
     include_visibility: Optional[Sequence[str]] = None,
+    ignore_not_shown: bool = True,
 ) -> List[Event]:
     include_set = set(l.lower() for l in include_labels) if include_labels else None
     exclude_set = set(l.lower() for l in exclude_labels) if exclude_labels else set()
@@ -133,6 +140,8 @@ def filter_events(
         if include_set is not None and label_l not in include_set:
             continue
         if label_l in exclude_set:
+            continue
+        if ignore_not_shown and vis_l == "not shown":
             continue
         if only_visible and vis_l != "visible":
             continue
@@ -177,6 +186,8 @@ def find_segments_avg(
     min_bins: int,
     max_bins: int,
     allow_overlap: bool,
+    event_seconds: Sequence[float],
+    lead_seconds: float,
 ) -> List[Segment]:
     ps = prefix_sums(counts)
     n = len(counts)
@@ -190,8 +201,19 @@ def find_segments_avg(
             s = window_sum(ps, i, L)
             density = s / float(L)
             if density + 1e-12 >= threshold:
-                best = (L, s, density)
-                break  # prefer longest
+                start_s = i * bin_size_s
+                end_s = (i + L) * bin_size_s
+                # lead constraint: first event must be >= lead_seconds after start
+                # Find the first event >= start_s
+                from bisect import bisect_left
+                idx = bisect_left(event_seconds, start_s)
+                ok_lead = False
+                if idx < len(event_seconds) and event_seconds[idx] < end_s:
+                    ok_lead = (event_seconds[idx] - start_s) >= lead_seconds - 1e-9
+                # If density passes and lead constraint satisfied, accept
+                if ok_lead:
+                    best = (L, s, density)
+                    break  # prefer longest
         if best is None:
             i += 1
             continue
@@ -221,6 +243,8 @@ def find_segments_strict(
     min_bins: int,
     max_bins: int,
     allow_overlap: bool,
+    event_seconds: Sequence[float],
+    lead_seconds: float,
 ) -> List[Segment]:
     # threshold is per-bin minimal count
     n = len(counts)
@@ -236,30 +260,41 @@ def find_segments_strict(
         while j < n and counts[j] >= threshold:
             j += 1
         run_len = j - i
-        # Carve non-overlapping windows within this run
+        # Carve windows within this run respecting lead_seconds
         k = i
+        from bisect import bisect_left
         while k < j:
             remaining = j - k
             if remaining < min_bins:
                 break
-            L = min(max_bins, remaining)
-            start_s = k * bin_size_s
-            end_s = (k + L) * bin_size_s
-            s = sum(counts[k : k + L])
-            density = s / float(L)
-            segments.append(
-                Segment(
-                    start_s=start_s,
-                    end_s=end_s,
-                    bins=L,
-                    events=s,
-                    density_per_bin=density,
-                )
-            )
-            if allow_overlap:
+            found = False
+            for L in range(min(max_bins, remaining), min_bins - 1, -1):
+                start_s = k * bin_size_s
+                end_s = (k + L) * bin_size_s
+                idx = bisect_left(event_seconds, start_s)
+                ok_lead = False
+                if idx < len(event_seconds) and event_seconds[idx] < end_s:
+                    ok_lead = (event_seconds[idx] - start_s) >= lead_seconds - 1e-9
+                if ok_lead:
+                    s = sum(counts[k : k + L])
+                    density = s / float(L)
+                    segments.append(
+                        Segment(
+                            start_s=start_s,
+                            end_s=end_s,
+                            bins=L,
+                            events=s,
+                            density_per_bin=density,
+                        )
+                    )
+                    if allow_overlap:
+                        k += 1
+                    else:
+                        k += L
+                    found = True
+                    break
+            if not found:
                 k += 1
-            else:
-                k += L
         i = j
     return segments
 
@@ -285,6 +320,8 @@ def process_file(
     exclude_labels: Optional[Sequence[str]],
     mode: str,
     allow_overlap: bool,
+    lead_seconds: float,
+    include_not_shown: bool,
 ) -> Dict[str, object]:
     events = load_events(file_path)
     events = filter_events(
@@ -293,18 +330,34 @@ def process_file(
         exclude_labels=exclude_labels,
         only_visible=only_visible,
         include_visibility=include_visibility,
+        ignore_not_shown=not include_not_shown,
     )
     counts, duration_s = build_bins(events, bin_size_s=bin_size_s)
     min_bins = max(1, min_seconds // bin_size_s)
     max_bins = max(min_bins, max_seconds // bin_size_s)
+    event_seconds = [e.position_ms / 1000.0 for e in events]
 
     if mode == "avg":
         segments = find_segments_avg(
-            counts, bin_size_s, threshold, min_bins, max_bins, allow_overlap
+            counts,
+            bin_size_s,
+            threshold,
+            min_bins,
+            max_bins,
+            allow_overlap,
+            event_seconds,
+            lead_seconds,
         )
     elif mode == "strict":
         segments = find_segments_strict(
-            counts, bin_size_s, threshold, min_bins, max_bins, allow_overlap
+            counts,
+            bin_size_s,
+            threshold,
+            min_bins,
+            max_bins,
+            allow_overlap,
+            event_seconds,
+            lead_seconds,
         )
     else:
         raise ValueError("mode must be 'avg' or 'strict'")
@@ -362,6 +415,12 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     p.add_argument("--min-seconds", type=int, default=20, help="Min segment length")
     p.add_argument("--max-seconds", type=int, default=120, help="Max segment length")
     p.add_argument(
+        "--lead-seconds",
+        type=float,
+        default=5.0,
+        help="Require first event to occur at least this many seconds after segment start",
+    )
+    p.add_argument(
         "--mode",
         choices=["avg", "strict"],
         default="avg",
@@ -398,6 +457,11 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         help="Labels to exclude (e.g., 'ball out of play')",
     )
     p.add_argument(
+        "--include-not-shown",
+        action="store_true",
+        help="Include events with visibility == 'not shown' (ignored by default)",
+    )
+    p.add_argument(
         "--out",
         type=str,
         default=None,
@@ -426,6 +490,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             exclude_labels=args.exclude_labels,
             mode=args.mode,
             allow_overlap=args.allow_overlap,
+            lead_seconds=args.lead_seconds,
+            include_not_shown=args.include_not_shown,
         )
         all_summaries.append(summary)
         print_human_readable(summary)
@@ -449,4 +515,3 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
