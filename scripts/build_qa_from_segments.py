@@ -228,18 +228,18 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
 
     # Load question templates
     default_single = [
-        "Please continuously watch the match status. When {TARGET_LABEL} occurs, alert me.",
-        "Keep watching the match. Notify me when {TARGET_LABEL} happens.",
-        "Monitor the game and alert me upon any {TARGET_LABEL}.",
-        "Observe the match and tell me whenever {TARGET_LABEL} occurs.",
-        "Watch this segment and report when {TARGET_LABEL} happens."
+        "Please continuously watch the match video. When {TARGET_LABEL} occurs, alert me.",
+        "Keep watching the live broadcast and notify me when {TARGET_LABEL} happens.",
+        "Monitor the game stream and alert me upon any {TARGET_LABEL}.",
+        "Observe the match footage and tell me whenever {TARGET_LABEL} occurs.",
+        "Watch the video and report when {TARGET_LABEL} happens."
     ]
     default_multi = [
-        "Please continuously watch the match status and monitor {EVENT_SET}. Whenever a key event occurs, tell me which key event happened?",
-        "Keep watching the match and monitor {EVENT_SET}. Each time one occurs, state which event happened.",
-        "Observe the game and track {EVENT_SET}. Report which key event occurs whenever it happens.",
-        "Monitor {EVENT_SET} throughout this segment. Whenever an event occurs, tell me which event it is.",
-        "Scan the segment for {EVENT_SET}. Every time one occurs, say which event happened."
+        "Please continuously watch the match video and monitor {EVENT_SET}. Whenever a key event occurs, tell me which key event happened?",
+        "Keep watching the live broadcast and monitor {EVENT_SET}. Each time one occurs, state which event happened.",
+        "Observe the game stream and track {EVENT_SET}. Report which event occurs whenever it happens.",
+        "Monitor {EVENT_SET} in the match footage. Whenever an event occurs, tell me which event it is.",
+        "Watch the video and monitor {EVENT_SET}. Every time one occurs, say which event happened."
     ]
 
     if args.question_templates:
