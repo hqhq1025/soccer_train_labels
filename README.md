@@ -228,3 +228,91 @@ Path: `scripts/extract_single_event_segments.py`
 
 If you need customized strategies (per‑label adaptive thresholds, minimum event counts per segment, top‑K densest segments, etc.), feel free to request.
 
+---
+
+## Build QA Datasets / 构建 QA 数据集
+
+Path: `scripts/build_qa_from_segments.py`
+
+- 作用：将已切好的片段 JSON（多事件或单事件）转换为目标 QA 格式（数组或逐片段单文件），用于“状态确认 / 指令遵循”类任务。
+- 任务类型：
+  - `--task multi`：监控一组标签，发生时回答“是哪种事件”。`question_category` 自动置为 `Status Confirmation`。
+  - `--task single`：监控单一标签，发生时提醒。`question_category` 自动置为 `Instruction Following`。
+- 时间基准：
+  - `--time-mode global`（默认演示）：`start/end` 为整场相对秒（来自 `position`）。
+  - `--time-mode segment`：相对片段起点的秒。
+- 问句模板（英文）：
+  - 内置多样化模板，自动随机选取（可通过 `--random-seed` 复现；可用 `--question-templates` 自定义）。
+  - 多事件问句会在花括号中列出全部监控标签；单事件在花括号中仅放该标签。
+- 输出字段：`source`、`id`、`video_id`（由源路径稳定派生 UUID5）、`data_type`、`train_stage`、`length`、`question_category`、`question`、`answer[]`、`segment_path`。
+
+### Aggregated JSON / 汇总文件
+
+- 多事件（列出全部标签）：
+  ```bash
+  python3 scripts/build_qa_from_segments.py \
+    --task multi \
+    --segments-dir dense_segments \
+    --output qa/multi/qa_multi_all_labels.json \
+    --time-mode global \
+    --multi-use-all-labels \
+    --random-seed 123
+  ```
+
+- 单事件（以角球为例）：
+  ```bash
+  python3 scripts/build_qa_from_segments.py \
+    --task single --label "Corner" \
+    --segments-dir dense_single_event_segments/corner \
+    --output qa/single/corner.json \
+    --time-mode global \
+    --random-seed 123
+  ```
+
+### Per‑Segment Files / 每片段单文件
+
+- 多事件（全量逐片段）：
+  ```bash
+  python3 scripts/build_qa_from_segments.py \
+    --task multi \
+    --segments-dir dense_segments \
+    --output qa/multi/placeholder.json \
+    --per-file --output-dir qa/multi_files \
+    --time-mode global \
+    --multi-use-all-labels \
+    --random-seed 123
+  ```
+
+- 单事件（按标签目录逐片段）：
+  ```bash
+  python3 scripts/build_qa_from_segments.py \
+    --task single --label "Corner" \
+    --segments-dir dense_single_event_segments/corner \
+    --output qa/single/placeholder.json \
+    --per-file --output-dir qa/single_files/corner \
+    --time-mode global \
+    --random-seed 123
+  ```
+
+### Output Layout / 输出目录组织
+
+- 多事件每片段：`qa/multi_files/<联赛>/<赛季>/<比赛>/segment_XXXXXX_YYYYYY.qa.json`
+- 单事件每片段：`qa/single_files/<label>/<联赛>/<赛季>/<比赛>/segment_XXXXXX_YYYYYY.qa.json`
+
+每个 QA JSON 均包含 `segment_path` 指向其来源的片段 JSON，以便追溯。
+
+### Count / 数量统计
+
+```bash
+find qa/multi_files  -type f -name "*.qa.json" | wc -l   # 多事件条目数
+find qa/single_files -type f -name "*.qa.json" | wc -l   # 单事件条目数
+```
+
+### Template Customization / 自定义问句模板
+
+- 提供一个 JSON 文件：
+  ```json
+  { "single": ["Watch the video and alert me when {TARGET_LABEL} occurs."],
+    "multi":  ["Monitor {EVENT_SET} and report which event occurs each time."] }
+  ```
+- 通过 `--question-templates my_templates.json` 指定。
