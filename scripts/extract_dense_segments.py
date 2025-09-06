@@ -37,6 +37,11 @@ Defaults and special handling
   Use --include-not-shown or --include-visibility to include them explicitly.
 - Lead time: each segment ensures the first event occurs at least
   --lead-seconds (default 5s) after the segment start.
+
+Exports
+- For each qualifying segment, writes a per-segment JSON containing only the
+  annotations within the segment time window (after applying the same filters).
+- Output path mirrors the input directory layout under --out-dir.
 """
 
 from __future__ import annotations
@@ -322,6 +327,9 @@ def process_file(
     allow_overlap: bool,
     lead_seconds: float,
     include_not_shown: bool,
+    export: bool,
+    out_dir: Optional[Path],
+    root_base: Optional[Path],
 ) -> Dict[str, object]:
     events = load_events(file_path)
     events = filter_events(
@@ -362,7 +370,7 @@ def process_file(
     else:
         raise ValueError("mode must be 'avg' or 'strict'")
 
-    return {
+    summary = {
         "file": str(file_path),
         "duration_seconds": round(duration_s, 3),
         "bin_size_seconds": bin_size_s,
@@ -373,6 +381,24 @@ def process_file(
         "total_events_considered": len(events),
         "segments": [s.to_dict() for s in segments],
     }
+
+    if export and segments:
+        export_segments_for_file(
+            file_path=file_path,
+            segments=segments,
+            bin_size_s=bin_size_s,
+            threshold=threshold,
+            mode=mode,
+            include_labels=include_labels,
+            exclude_labels=exclude_labels,
+            only_visible=only_visible,
+            include_visibility=include_visibility,
+            include_not_shown=include_not_shown,
+            out_dir=out_dir if out_dir is not None else Path("dense_segments"),
+            root_base=root_base,
+        )
+
+    return summary
 
 
 def print_human_readable(summary: Dict[str, object]) -> None:
@@ -467,6 +493,17 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         default=None,
         help="Optional output JSON file to write aggregated results",
     )
+    p.add_argument(
+        "--out-dir",
+        type=str,
+        default="dense_segments",
+        help="Directory to write per-segment JSON files (mirrors input tree)",
+    )
+    p.add_argument(
+        "--no-export",
+        action="store_true",
+        help="Disable writing per-segment JSON files",
+    )
 
     args = p.parse_args(argv)
 
@@ -477,6 +514,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         return 2
 
     all_summaries: List[Dict[str, object]] = []
+    # Determine base for mirroring directory layout
+    root_base: Optional[Path] = root if root.is_dir() else root.parent
+
     for f in files:
         summary = process_file(
             f,
@@ -492,9 +532,14 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             allow_overlap=args.allow_overlap,
             lead_seconds=args.lead_seconds,
             include_not_shown=args.include_not_shown,
+            export=not args.no_export,
+            out_dir=Path(args.out_dir) if args.out_dir else None,
+            root_base=root_base,
         )
         all_summaries.append(summary)
         print_human_readable(summary)
+
+    # Also print JSON to stdout
 
     # Also print JSON to stdout
     as_json = {
@@ -511,6 +556,117 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         print(text)
 
     return 0
+
+
+# ---------------------------- Export helpers ----------------------------
+
+def _normalize_label(x: Optional[str]) -> str:
+    return (x or "").lower()
+
+
+def _visibility_included(
+    vis: str,
+    only_visible: bool,
+    include_visibility: Optional[Sequence[str]],
+    include_not_shown: bool,
+) -> bool:
+    vis_l = (vis or "").lower()
+    if include_visibility is not None:
+        return vis_l in {v.lower() for v in include_visibility}
+    if only_visible and vis_l != "visible":
+        return False
+    if not include_not_shown and vis_l == "not shown":
+        return False
+    return True
+
+
+def export_segments_for_file(
+    file_path: Path,
+    segments: Sequence[Segment],
+    bin_size_s: int,
+    threshold: float,
+    mode: str,
+    include_labels: Optional[Sequence[str]],
+    exclude_labels: Optional[Sequence[str]],
+    only_visible: bool,
+    include_visibility: Optional[Sequence[str]],
+    include_not_shown: bool,
+    out_dir: Path,
+    root_base: Optional[Path],
+) -> int:
+    # Load source JSON once
+    with file_path.open("r", encoding="utf-8") as f:
+        src = json.load(f)
+    anns = src.get("annotations", [])
+
+    include_set = {l.lower() for l in include_labels} if include_labels else None
+    exclude_set = {l.lower() for l in exclude_labels} if exclude_labels else set()
+
+    # Compute output directory for this file
+    if root_base is not None:
+        try:
+            rel_dir = file_path.parent.relative_to(root_base)
+        except ValueError:
+            rel_dir = file_path.parent.name
+            rel_dir = Path(str(rel_dir))
+    else:
+        rel_dir = file_path.parent
+    base_dir = out_dir / rel_dir
+    base_dir.mkdir(parents=True, exist_ok=True)
+
+    written = 0
+    for idx, seg in enumerate(segments):
+        start_s = seg.start_s
+        end_s = seg.end_s
+        # Select annotations inside [start_s, end_s)
+        seg_anns = []
+        for a in anns:
+            try:
+                pos_ms = int(a.get("position"))
+            except Exception:
+                continue
+            pos_s = pos_ms / 1000.0
+            if not (start_s <= pos_s < end_s):
+                continue
+            # Apply same filters used for density
+            lab_l = _normalize_label(a.get("label"))
+            if include_set is not None and lab_l not in include_set:
+                continue
+            if lab_l in exclude_set:
+                continue
+            if not _visibility_included(
+                a.get("visibility", ""), only_visible, include_visibility, include_not_shown
+            ):
+                continue
+            seg_anns.append(a)
+
+        # Compose output JSON
+        out_obj: Dict[str, object] = {
+            "UrlLocal": src.get("UrlLocal", ""),
+            "UrlYoutube": src.get("UrlYoutube", ""),
+            "source_file": str(file_path),
+            "segment": {
+                "start_seconds": round(start_s, 3),
+                "end_seconds": round(end_s, 3),
+                "length_seconds": round(end_s - start_s, 3),
+                "start_time_mmss": seconds_to_mmss(start_s),
+                "end_time_mmss": seconds_to_mmss(end_s),
+                "bin_size_seconds": bin_size_s,
+                "threshold_per_bin": threshold,
+                "mode": mode,
+            },
+            "annotations": seg_anns,
+        }
+
+        # File name based on time range
+        s_i = int(round(start_s))
+        e_i = int(round(end_s))
+        out_name = f"segment_{s_i:06d}_{e_i:06d}.json"
+        out_path = base_dir / out_name
+        out_path.write_text(json.dumps(out_obj, ensure_ascii=False, indent=2), encoding="utf-8")
+        written += 1
+
+    return written
 
 
 if __name__ == "__main__":
