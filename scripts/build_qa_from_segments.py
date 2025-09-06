@@ -173,6 +173,9 @@ def build_item_from_segment(cfg: BuildConfig, seg_path: Path) -> Optional[Dict[s
     answers.sort(key=lambda x: (x.get("start", 0.0), x.get("end", 0.0)))
 
     # Compose sample
+    # Category mapping per request: single -> Instruction Following, multi -> Status Confirmation
+    question_category = "Instruction Following" if cfg.task == "single" else "Status Confirmation"
+
     sample: Dict[str, object] = {
         "source": cfg.source_tag,
         "id": 0,  # filled later
@@ -180,9 +183,11 @@ def build_item_from_segment(cfg: BuildConfig, seg_path: Path) -> Optional[Dict[s
         "data_type": cfg.data_type,
         "train_stage": cfg.train_stage,
         "length": round(seg_len, 6),
-        "question_category": cfg.question_category,
+        "question_category": question_category,
         "question": build_question(cfg),
         "answer": answers,
+        # add original segment json path for traceability
+        "segment_path": str(seg_path),
     }
 
     return sample
