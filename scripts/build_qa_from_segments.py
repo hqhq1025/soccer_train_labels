@@ -213,6 +213,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     p.add_argument("--event-set", nargs="*", default=None, help="Event labels to monitor (for task=multi)")
     p.add_argument("--segments-dir", type=str, required=True, help="Root directory of segment_*.json files")
     p.add_argument("--output", type=str, required=True, help="Output JSON file path (array)")
+    p.add_argument("--per-file", action="store_true", help="Write one QA json per segment instead of a single aggregated array")
+    p.add_argument("--output-dir", type=str, default=None, help="Root directory for per-file outputs (used with --per-file). If omitted, uses parent of --output")
     p.add_argument("--data-type", type=str, default="online", help="online/offline")
     p.add_argument("--train-stage", type=int, default=2)
     p.add_argument("--question-category", type=str, default="Status Confirmation & Instruction Following")
@@ -308,19 +310,46 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
 
     out_list: List[Dict[str, object]] = []
     count = 0
-    for seg_path in iter_segment_files(cfg.segments_dir):
-        item = build_item_from_segment(cfg, seg_path)
-        if item is None:
-            continue
-        count += 1
-        item["id"] = count
-        out_list.append(item)
-        if cfg.max_samples is not None and len(out_list) >= cfg.max_samples:
-            break
 
-    cfg.output.parent.mkdir(parents=True, exist_ok=True)
-    cfg.output.write_text(json.dumps(out_list, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Wrote {len(out_list)} samples to: {cfg.output}")
+    if args.per_file:
+        base_out_dir = Path(args.output_dir) if args.output_dir else cfg.output.parent
+        base_out_dir.mkdir(parents=True, exist_ok=True)
+        seg_root = cfg.segments_dir.resolve()
+        for seg_path in iter_segment_files(cfg.segments_dir):
+            item = build_item_from_segment(cfg, seg_path)
+            if item is None:
+                continue
+            count += 1
+            item["id"] = count
+            # Compute relative path under segments_dir
+            try:
+                rel = seg_path.resolve().relative_to(seg_root)
+            except Exception:
+                rel = Path(seg_path.name)
+            # Change filename to .qa.json
+            out_rel = rel.with_suffix("")  # remove .json
+            out_name = out_rel.name + ".qa.json"
+            out_dir = base_out_dir / rel.parent
+            out_dir.mkdir(parents=True, exist_ok=True)
+            out_fp = out_dir / out_name
+            out_fp.write_text(json.dumps(item, ensure_ascii=False, indent=2), encoding="utf-8")
+            if cfg.max_samples is not None and count >= cfg.max_samples:
+                break
+        print(f"Wrote {count} per-segment QA files under: {base_out_dir}")
+    else:
+        for seg_path in iter_segment_files(cfg.segments_dir):
+            item = build_item_from_segment(cfg, seg_path)
+            if item is None:
+                continue
+            count += 1
+            item["id"] = count
+            out_list.append(item)
+            if cfg.max_samples is not None and len(out_list) >= cfg.max_samples:
+                break
+
+        cfg.output.parent.mkdir(parents=True, exist_ok=True)
+        cfg.output.write_text(json.dumps(out_list, ensure_ascii=False, indent=2), encoding="utf-8")
+        print(f"Wrote {len(out_list)} samples to: {cfg.output}")
     return 0
 
 
