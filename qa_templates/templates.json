@@ -1,0 +1,139 @@
+{
+  "version": "1.0",
+  "description": "English-only QA templates for composing questions and answers from pre-cut soccer event segments without LLMs.",
+  "placeholders": {
+    "EVENT_SET": "List of event labels to monitor, e.g. ['Corner','Throw-in','Shots on target'].",
+    "TARGET_EVENT": "Single event label to monitor, e.g. 'Corner'.",
+    "LEAGUE": "League name from path, e.g. 'england_epl'.",
+    "SEASON": "Season folder, e.g. '2014-2015'.",
+    "MATCH": "Match folder, e.g. '2015-02-21 - 18-00 Chelsea 1 - 1 Burnley'.",
+    "SEGMENT_START_MMSS": "Segment start time in mm:ss.",
+    "SEGMENT_END_MMSS": "Segment end time in mm:ss.",
+    "SEGMENT_LEN_S": "Segment length in seconds.",
+    "BIN_SIZE_S": "Bin size seconds used when cutting segments.",
+    "THRESHOLD": "Density threshold used when cutting segments.",
+    "LEAD_S": "Required seconds before first event in a segment (usually 5).",
+    "TICK_S": "Streaming tick size seconds for incremental reveals (e.g., 5 or 10).",
+    "NONE_TOKEN": "Text token to emit when no target events occur (default: 'none')."
+  },
+  "compose_rules": {
+    "time_filter": "Keep annotations with start_seconds <= t < end_seconds.",
+    "visibility": "By default ignore visibility == 'not shown'; keep others.",
+    "sort_order": "Sort by ascending time.",
+    "format_mmss": "Format seconds to mm:ss, zero-padded.",
+    "team_fallback": "If team missing, use 'n/a' or 'not applicable'.",
+    "none_behavior": "If no qualifying events, answer with NONE_TOKEN or an empty list per format.",
+    "single_event_filter": "For single-event tasks, filter annotations to TARGET_EVENT only.",
+    "multi_event_filter": "For multi-event tasks, filter annotations to labels in EVENT_SET."
+  },
+  "answer_formats": {
+    "text_list": {
+      "description": "One event per line. Good for quick human reading.",
+      "multi_event": "{lines of 'mm:ss - <label> [<team>]'} or 'none' if empty.",
+      "single_event": "{lines of 'mm:ss [<team>]'} or 'none' if empty."
+    },
+    "csv": {
+      "description": "CSV with header row.",
+      "multi_event": "header: mm:ss,label,team; rows for each event; zero rows allowed.",
+      "single_event": "header: mm:ss,team; rows for each TARGET_EVENT; zero rows allowed."
+    },
+    "json": {
+      "description": "Structured JSON for programmatic evaluation.",
+      "multi_event_schema": {"events": [{"t_sec": "number", "mmss": "string", "label": "string", "team": "string"}], "none_token": "string"},
+      "single_event_schema": {"occurrences": [{"t_sec": "number", "mmss": "string", "team": "string"}], "label": "string", "none_token": "string"},
+      "none_token": "none"
+    }
+  },
+  "tasks": {
+    "multi_event_offline": {
+      "name": "Multi-event monitoring (offline)",
+      "question_templates": [
+        "Continuously watch the match. Monitor {EVENT_SET}. Whenever any occurs, report the event type and timestamp (mm:ss).",
+        "Observe the game and keep an eye on {EVENT_SET}. Each time one occurs, list the event with its time (mm:ss).",
+        "Track {EVENT_SET} throughout the segment. Output each detected event and its timestamp in mm:ss.",
+        "Within this segment, detect {EVENT_SET}. Report events in time order as 'mm:ss - <label> [team]'.",
+        "Scan the following segment for {EVENT_SET}. For every occurrence, provide 'mm:ss - <label>'."
+      ],
+      "answer_format": "text_list",
+      "notes": [
+        "Filter to labels in EVENT_SET only.",
+        "If no events from EVENT_SET are present, answer with NONE_TOKEN (default: 'none').",
+        "Include team in brackets when available."
+      ]
+    },
+    "multi_event_offline_json": {
+      "name": "Multi-event monitoring (offline, JSON)",
+      "question_templates": [
+        "List all occurrences of {EVENT_SET} in this segment as JSON with fields: t_sec, mmss, label, team."
+      ],
+      "answer_format": "json"
+    },
+    "single_event_offline": {
+      "name": "Single-event monitoring (offline)",
+      "question_templates": [
+        "Continuously watch the match. When a {TARGET_EVENT} occurs, alert me with the timestamp (mm:ss).",
+        "Monitor the segment for {TARGET_EVENT}. List each occurrence time (mm:ss).",
+        "Detect {TARGET_EVENT} only. Output occurrence times as 'mm:ss [team]'.",
+        "Find all {TARGET_EVENT} events in this segment and report their times in ascending order (mm:ss)."
+      ],
+      "answer_format": "text_list",
+      "notes": [
+        "Filter to TARGET_EVENT only.",
+        "If none occur, answer with NONE_TOKEN (default: 'none')."
+      ]
+    },
+    "single_event_offline_json": {
+      "name": "Single-event monitoring (offline, JSON)",
+      "question_templates": [
+        "Return all {TARGET_EVENT} occurrences as JSON with fields: t_sec, mmss, team."
+      ],
+      "answer_format": "json"
+    },
+    "multi_event_streaming": {
+      "name": "Multi-event streaming (incremental)",
+      "question_templates": [
+        "You will receive the timeline in {TICK_S}s increments. Monitor {EVENT_SET}. As soon as any occurs, immediately respond 'mm:ss - <label>'. If none so far, respond 'none'.",
+        "We reveal the segment in chunks of {TICK_S}s. Watch for {EVENT_SET}. At the tick when one occurs, output 'mm:ss - <label>', otherwise 'none'."
+      ],
+      "answer_format": "text_list",
+      "notes": [
+        "For each tick, either emit the events that occur within the newly revealed window or 'none'.",
+        "Ensure outputs are time-ordered and do not anticipate future events."
+      ]
+    },
+    "single_event_streaming": {
+      "name": "Single-event streaming (incremental)",
+      "question_templates": [
+        "Timeline arrives every {TICK_S}s. When {TARGET_EVENT} occurs, immediately output its time (mm:ss). If none within the revealed window, output 'none'.",
+        "Feed arrives in {TICK_S}s slices. Detect {TARGET_EVENT} and report times as they occur, else 'none'."
+      ],
+      "answer_format": "text_list"
+    }
+  },
+  "examples": {
+    "multi_event_text_list": {
+      "question": "Continuously watch the match. Monitor {EVENT_SET}. Whenever any occurs, report the event type and timestamp (mm:ss).",
+      "filled_placeholders": {
+        "EVENT_SET": ["Corner", "Throw-in", "Shots on target", "Goal"],
+        "SEGMENT_START_MMSS": "05:00",
+        "SEGMENT_END_MMSS": "06:00"
+      },
+      "answer": "05:19 - Offside [left]\n05:47 - Shots on target [left]"
+    },
+    "single_event_text_list": {
+      "question": "Continuously watch the match. When a {TARGET_EVENT} occurs, alert me with the timestamp (mm:ss).",
+      "filled_placeholders": {
+        "TARGET_EVENT": "Throw-in",
+        "SEGMENT_START_MMSS": "40:30",
+        "SEGMENT_END_MMSS": "40:50"
+      },
+      "answer": "40:40 [right]"
+    },
+    "single_event_json": {
+      "question": "Return all {TARGET_EVENT} occurrences as JSON with fields: t_sec, mmss, team.",
+      "filled_placeholders": {"TARGET_EVENT": "Corner"},
+      "answer": {"occurrences": [{"t_sec": 292, "mmss": "04:52", "team": "right"}], "label": "Corner", "none_token": "none"}
+    }
+  }
+}
+
