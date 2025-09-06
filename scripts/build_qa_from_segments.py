@@ -82,24 +82,30 @@ class BuildConfig:
     max_samples: Optional[int]
     none_token: str
     source_tag: str
+    use_all_labels_for_multi: bool
 
 
 def build_question(cfg: BuildConfig) -> str:
     if cfg.task == "single":
         assert cfg.label, "--label is required for single task"
-        return f"Alert me every time {cfg.label} occurs."
+        # English only; include curly braces with the label as requested
+        return f"Please continuously watch the match status. When {{{cfg.label}}} occurs, alert me."
     else:
         assert cfg.event_set, "--event-set is required for multi task"
         listed = ", ".join(cfg.event_set)
-        return f"Monitor these events and report each occurrence with a timestamp (mm:ss): {listed}."
+        # Include all labels inside curly braces as requested
+        return (
+            f"Please continuously watch the match status and monitor {{{listed}}}. "
+            f"Whenever a key event occurs, tell me which key event happened?"
+        )
 
 
 def make_answer_text(label: str, team: str, single: bool) -> str:
-    team_sfx = f" [{team}]" if team else ""
+    # Answers should directly use the label per request; keep templates minimal.
     if single:
-        return f"Alert: {label} occurred.{team_sfx}" if label else f"Alert: occurred.{team_sfx}"
+        return f"Alert: {label}."
     else:
-        return f"{label}{team_sfx}"
+        return f"{label}"
 
 
 def event_passes_filters(event: Dict[str, object], allowed: Optional[set]) -> bool:
@@ -199,6 +205,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     p.add_argument("--max-samples", type=int, default=None, help="Optional cap on number of samples")
     p.add_argument("--none-token", type=str, default="none", help="Text for no-event case if needed")
     p.add_argument("--source-tag", type=str, default="soccernet-dense", help="Value for 'source' field")
+    p.add_argument("--multi-use-all-labels", action="store_true", help="For task=multi, auto-fill EVENT_SET with all labels found under --segments-dir if --event-set is not provided")
 
     args = p.parse_args(argv)
 
@@ -215,14 +222,35 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         max_samples=args.max_samples,
         none_token=args.none_token,
         source_tag=args.source_tag,
+        use_all_labels_for_multi=bool(args.multi_use_all_labels),
     )
 
     if cfg.task == "single" and not cfg.label:
         print("--label is required for task=single", file=sys.stderr)
         return 2
     if cfg.task == "multi" and (not cfg.event_set or len(cfg.event_set) == 0):
-        print("--event-set is required for task=multi", file=sys.stderr)
-        return 2
+        if cfg.use_all_labels_for_multi:
+            # Discover all labels under segments_dir by scanning annotations
+            all_labels_set = set()
+            for seg_path in iter_segment_files(cfg.segments_dir):
+                try:
+                    data = json.loads(Path(seg_path).read_text(encoding="utf-8"))
+                except Exception:
+                    continue
+                for a in data.get("annotations", []):
+                    vis = str(a.get("visibility", "")).lower()
+                    if vis == "not shown":
+                        continue
+                    lab = a.get("label")
+                    if lab:
+                        all_labels_set.add(normalize_label(str(lab)))
+            cfg.event_set = sorted(all_labels_set, key=lambda x: x.lower())
+            if not cfg.event_set:
+                print("No labels found under --segments-dir for multi task", file=sys.stderr)
+                return 2
+        else:
+            print("--event-set is required for task=multi (or use --multi-use-all-labels)", file=sys.stderr)
+            return 2
 
     out_list: List[Dict[str, object]] = []
     count = 0
