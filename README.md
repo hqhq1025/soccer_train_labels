@@ -41,6 +41,31 @@ Two Python scripts extract “dense” event segments from SoccerNet‑style `La
   python3 scripts/extract_single_event_segments.py --path . --threshold 0.5 --out-dir dense_single_event_segments --out dense_single_event_segments/summary.json
   ```
 
+### Train/Val 一键示例
+
+若数据已按 `raw_jsons/train_labels` 与 `raw_jsons/test_labels` 组织，可直接批量生成 Train/Val 的片段与 QA：
+
+```bash
+# 1) 生成 train 片段
+python3 scripts/extract_dense_segments.py --path raw_jsons/train_labels --out-dir train/dense_segments --out train/dense_segments/summary.json
+python3 scripts/extract_single_event_segments.py --path raw_jsons/train_labels --out-dir train/dense_single_event_segments --out train/dense_single_event_segments/summary.json
+
+# 2) 由片段生成 QA（多事件 + 单事件）
+python3 scripts/build_qa_from_segments.py --task multi --segments-dir train/dense_segments --output train/qa/multi.json --multi-use-all-labels --per-file --output-dir train/qa/multi_files
+python3 scripts/build_qa_from_segments.py --task single --label "Goal" --segments-dir train/dense_single_event_segments/goal --output train/qa/single_goal.json --per-file --output-dir train/qa/single_files/goal
+
+# 可按需为更多标签生成单事件 QA，例如：
+# python3 scripts/build_qa_from_segments.py --task single --label "Corner" --segments-dir train/dense_single_event_segments/corner --output train/qa/single_corner.json --per-file --output-dir train/qa/single_files/corner
+
+# 3) 生成 val 片段（使用 test_labels 作为验证集）
+python3 scripts/extract_dense_segments.py --path raw_jsons/test_labels --out-dir val/dense_segments --out val/dense_segments/summary.json
+python3 scripts/extract_single_event_segments.py --path raw_jsons/test_labels --out-dir val/dense_single_event_segments --out val/dense_single_event_segments/summary.json
+
+# 4) 由片段生成 Val QA
+python3 scripts/build_qa_from_segments.py --task multi --segments-dir val/dense_segments --output val/qa/multi.json --multi-use-all-labels --per-file --output-dir val/qa/multi_files
+python3 scripts/build_qa_from_segments.py --task single --label "Goal" --segments-dir val/dense_single_event_segments/goal --output val/qa/single_goal.json --per-file --output-dir val/qa/single_files/goal
+```
+
 ---
 
 ## Input Format / 输入格式
