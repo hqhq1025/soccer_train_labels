@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3843,
+  "video_id": "779a1d1f-94e7-5cd8-a7a5-80d89bc67494",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Substitution}.",
+  "answer": [
+    {
+      "start": 3439.0,
+      "end": 3439.0,
+      "text": "Trigger: Shots off target by right @ 2 - 12:19"
+    },
+    {
+      "start": 3458.0,
+      "end": 3458.0,
+      "text": "Then: Substitution by right"
+    },
+    {
+      "start": 3464.0,
+      "end": 3464.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3439000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/segment_003390_003470.json",
+  "segment_meta": {
+    "start_seconds": 3390,
+    "end_seconds": 3470,
+    "length_seconds": 80,
+    "start_time_mmss": "56:30",
+    "end_time_mmss": "57:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

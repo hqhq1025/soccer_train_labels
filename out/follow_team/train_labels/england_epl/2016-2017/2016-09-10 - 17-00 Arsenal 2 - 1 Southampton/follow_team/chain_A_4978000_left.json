@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23525,
+  "video_id": "1b8f7c8e-bd37-5ba1-9995-f43a813e10c6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Corner and Foul}.",
+  "answer": [
+    {
+      "start": 4978.0,
+      "end": 4978.0,
+      "text": "Trigger: Shots on target by left @ 2 - 37:58"
+    },
+    {
+      "start": 5013.0,
+      "end": 5013.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 5015.0,
+      "end": 5015.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4978000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/segment_004900_005020.json",
+  "segment_meta": {
+    "start_seconds": 4900,
+    "end_seconds": 5020,
+    "length_seconds": 120,
+    "start_time_mmss": "81:40",
+    "end_time_mmss": "83:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

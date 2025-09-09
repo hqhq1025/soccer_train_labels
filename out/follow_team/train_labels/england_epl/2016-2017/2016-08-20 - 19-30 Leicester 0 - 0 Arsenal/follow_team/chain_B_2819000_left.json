@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24762,
+  "video_id": "59e0083c-c5f7-538c-879f-b78958382afa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 2819.0,
+      "end": 2819.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2839.0,
+      "end": 2839.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2819000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/segment_002780_002900.json",
+  "segment_meta": {
+    "start_seconds": 2780,
+    "end_seconds": 2900,
+    "length_seconds": 120,
+    "start_time_mmss": "46:20",
+    "end_time_mmss": "48:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

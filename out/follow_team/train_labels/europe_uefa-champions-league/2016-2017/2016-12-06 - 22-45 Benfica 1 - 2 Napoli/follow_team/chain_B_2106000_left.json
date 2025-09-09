@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9382,
+  "video_id": "c3491b59-c011-55dc-a36f-03dda295b47e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 2106.0,
+      "end": 2106.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2127.0,
+      "end": 2127.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2106000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/segment_002050_002170.json",
+  "segment_meta": {
+    "start_seconds": 2050,
+    "end_seconds": 2170,
+    "length_seconds": 120,
+    "start_time_mmss": "34:10",
+    "end_time_mmss": "36:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

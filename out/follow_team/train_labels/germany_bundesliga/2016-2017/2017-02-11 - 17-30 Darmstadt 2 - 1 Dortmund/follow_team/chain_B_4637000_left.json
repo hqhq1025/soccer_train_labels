@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3372,
+  "video_id": "65156e3a-c548-535f-a54a-b1677ea752c6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 4637.0,
+      "end": 4637.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4657.0,
+      "end": 4657.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4637000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/segment_004620_004660.json",
+  "segment_meta": {
+    "start_seconds": 4620,
+    "end_seconds": 4660,
+    "length_seconds": 40,
+    "start_time_mmss": "77:00",
+    "end_time_mmss": "77:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

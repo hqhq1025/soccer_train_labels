@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22588,
+  "video_id": "a1c0cd36-6da5-5d09-aafb-f72e9b976d13",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 2503.0,
+      "end": 2503.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 2523.0,
+      "end": 2523.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2503000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_002410_002530.json",
+  "segment_meta": {
+    "start_seconds": 2410,
+    "end_seconds": 2530,
+    "length_seconds": 120,
+    "start_time_mmss": "40:10",
+    "end_time_mmss": "42:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8208,
+  "video_id": "44b65e8d-67e4-56e1-a572-41f4a9f7c195",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Offside}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 2747.0,
+      "end": 2747.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 2716.0,
+      "end": 2716.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2747000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/segment_002670_002750.json",
+  "segment_meta": {
+    "start_seconds": 2670,
+    "end_seconds": 2750,
+    "length_seconds": 80,
+    "start_time_mmss": "44:30",
+    "end_time_mmss": "45:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

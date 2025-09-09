@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23185,
+  "video_id": "07289b2e-1d76-5f3e-bd25-39e1068a2efc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 1037.0,
+      "end": 1037.0,
+      "text": "Trigger: Throw-in by left @ 1 - 17:17"
+    },
+    {
+      "start": 1057.0,
+      "end": 1057.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1037000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_000980_001060.json",
+  "segment_meta": {
+    "start_seconds": 980,
+    "end_seconds": 1060,
+    "length_seconds": 80,
+    "start_time_mmss": "16:20",
+    "end_time_mmss": "17:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1584,
+  "video_id": "6f8989d0-f500-5ff7-8348-7c8c16087296",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots off target}, stick with that team and alert me for {Corner}.",
+  "answer": [
+    {
+      "start": 349.0,
+      "end": 349.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 385.0,
+      "end": 385.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 349000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/segment_000340_000460.json",
+  "segment_meta": {
+    "start_seconds": 340,
+    "end_seconds": 460,
+    "length_seconds": 120,
+    "start_time_mmss": "05:40",
+    "end_time_mmss": "07:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

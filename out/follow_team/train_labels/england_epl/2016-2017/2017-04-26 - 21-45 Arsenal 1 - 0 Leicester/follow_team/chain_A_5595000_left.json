@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25589,
+  "video_id": "f19cae40-e772-5fbb-b727-eac6b78421d1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Shots on target and Foul}.",
+  "answer": [
+    {
+      "start": 5595.0,
+      "end": 5595.0,
+      "text": "Trigger: Direct free-kick by left @ 2 - 48:15"
+    },
+    {
+      "start": 5604.0,
+      "end": 5604.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 5606.0,
+      "end": 5606.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5595000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/segment_005530_005610.json",
+  "segment_meta": {
+    "start_seconds": 5530,
+    "end_seconds": 5610,
+    "length_seconds": 80,
+    "start_time_mmss": "92:10",
+    "end_time_mmss": "93:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

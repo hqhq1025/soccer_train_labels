@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3716,
+  "video_id": "6ad7d807-dd64-5b2f-9ea6-1bd916dff70c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 2003.0,
+      "end": 2003.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2030.0,
+      "end": 2030.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2003000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_001970_002070.json",
+  "segment_meta": {
+    "start_seconds": 1970,
+    "end_seconds": 2070,
+    "length_seconds": 100,
+    "start_time_mmss": "32:50",
+    "end_time_mmss": "34:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

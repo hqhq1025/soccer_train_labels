@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10596,
+  "video_id": "7ebcd7da-e1e9-5e68-aa32-1a8830c864c7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 5037.0,
+      "end": 5037.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 5059.0,
+      "end": 5059.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5037000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/segment_004940_005060.json",
+  "segment_meta": {
+    "start_seconds": 4940,
+    "end_seconds": 5060,
+    "length_seconds": 120,
+    "start_time_mmss": "82:20",
+    "end_time_mmss": "84:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

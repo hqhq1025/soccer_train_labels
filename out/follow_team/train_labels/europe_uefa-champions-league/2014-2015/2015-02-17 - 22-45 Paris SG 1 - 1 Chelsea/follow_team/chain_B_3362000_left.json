@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7940,
+  "video_id": "5f1553ac-5205-504f-a348-e8f74a31b4dc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Corner}.",
+  "answer": [
+    {
+      "start": 3362.0,
+      "end": 3362.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3399.0,
+      "end": 3399.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3362000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/segment_003320_003400.json",
+  "segment_meta": {
+    "start_seconds": 3320,
+    "end_seconds": 3400,
+    "length_seconds": 80,
+    "start_time_mmss": "55:20",
+    "end_time_mmss": "56:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

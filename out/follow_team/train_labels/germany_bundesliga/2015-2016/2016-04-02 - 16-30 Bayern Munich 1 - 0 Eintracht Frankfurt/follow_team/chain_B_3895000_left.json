@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2334,
+  "video_id": "40b2e6dc-4015-572e-85cd-37c85c844a1b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner}.",
+  "answer": [
+    {
+      "start": 3895.0,
+      "end": 3895.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 3908.0,
+      "end": 3908.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3895000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/segment_003870_003910.json",
+  "segment_meta": {
+    "start_seconds": 3870,
+    "end_seconds": 3910,
+    "length_seconds": 40,
+    "start_time_mmss": "64:30",
+    "end_time_mmss": "65:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

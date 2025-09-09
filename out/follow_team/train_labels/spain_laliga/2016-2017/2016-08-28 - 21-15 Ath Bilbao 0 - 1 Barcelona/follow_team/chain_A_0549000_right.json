@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12435,
+  "video_id": "812dec1e-2974-5c5d-b200-656cb79bbef4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Yellow card}.",
+  "answer": [
+    {
+      "start": 549.0,
+      "end": 549.0,
+      "text": "Trigger: Foul by right @ 1 - 09:09"
+    },
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-08-28 - 21-15 Ath Bilbao 0 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-08-28 - 21-15 Ath Bilbao 0 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 549000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-08-28 - 21-15 Ath Bilbao 0 - 1 Barcelona/segment_000490_000570.json",
+  "segment_meta": {
+    "start_seconds": 490,
+    "end_seconds": 570,
+    "length_seconds": 80,
+    "start_time_mmss": "08:10",
+    "end_time_mmss": "09:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

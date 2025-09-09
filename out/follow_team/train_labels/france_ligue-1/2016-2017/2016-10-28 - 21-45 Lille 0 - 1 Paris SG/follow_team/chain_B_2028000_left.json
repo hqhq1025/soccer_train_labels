@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1406,
+  "video_id": "0f3c0526-113d-5ee1-8d8d-737f726b8ec1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 2028.0,
+      "end": 2028.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 2070.0,
+      "end": 2070.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2028000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/segment_001980_002080.json",
+  "segment_meta": {
+    "start_seconds": 1980,
+    "end_seconds": 2080,
+    "length_seconds": 100,
+    "start_time_mmss": "33:00",
+    "end_time_mmss": "34:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

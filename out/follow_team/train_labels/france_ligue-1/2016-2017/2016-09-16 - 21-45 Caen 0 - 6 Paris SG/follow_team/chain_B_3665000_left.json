@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 490,
+  "video_id": "de91bcf1-7871-5665-ac12-51e19e197fb2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 3665.0,
+      "end": 3665.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 3697.0,
+      "end": 3697.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3665000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/segment_003590_003710.json",
+  "segment_meta": {
+    "start_seconds": 3590,
+    "end_seconds": 3710,
+    "length_seconds": 120,
+    "start_time_mmss": "59:50",
+    "end_time_mmss": "61:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

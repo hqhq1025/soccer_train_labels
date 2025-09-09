@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7533,
+  "video_id": "c8d7265f-b6a8-5c6f-aa4b-2cdfd26229bc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 4721.0,
+      "end": 4721.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4722.0,
+      "end": 4722.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 4723.0,
+      "end": 4723.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4721000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/segment_004610_004730.json",
+  "segment_meta": {
+    "start_seconds": 4610,
+    "end_seconds": 4730,
+    "length_seconds": 120,
+    "start_time_mmss": "76:50",
+    "end_time_mmss": "78:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

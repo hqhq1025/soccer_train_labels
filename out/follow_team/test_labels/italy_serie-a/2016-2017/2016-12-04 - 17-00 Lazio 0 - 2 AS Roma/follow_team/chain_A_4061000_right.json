@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6431,
+  "video_id": "f4af5a15-55b7-5f08-9fe3-d4c5a4c77b21",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Kick-off}, keep following that team and alert me whenever {Foul and Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 4061.0,
+      "end": 4061.0,
+      "text": "Trigger: Kick-off by right"
+    },
+    {
+      "start": 4079.0,
+      "end": 4079.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 4130.0,
+      "end": 4130.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4061000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/segment_004040_004140.json",
+  "segment_meta": {
+    "start_seconds": 4040,
+    "end_seconds": 4140,
+    "length_seconds": 100,
+    "start_time_mmss": "67:20",
+    "end_time_mmss": "69:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

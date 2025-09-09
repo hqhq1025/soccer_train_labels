@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20511,
+  "video_id": "4a61b9c7-4776-58a2-88ce-de9cdf7dec56",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Shots on target and Foul}.",
+  "answer": [
+    {
+      "start": 4491.0,
+      "end": 4491.0,
+      "text": "Trigger: Throw-in by right @ 2 - 29:51"
+    },
+    {
+      "start": 4507.0,
+      "end": 4507.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 4510.0,
+      "end": 4510.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4491000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/segment_004440_004520.json",
+  "segment_meta": {
+    "start_seconds": 4440,
+    "end_seconds": 4520,
+    "length_seconds": 80,
+    "start_time_mmss": "74:00",
+    "end_time_mmss": "75:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

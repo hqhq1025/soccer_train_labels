@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4165,
+  "video_id": "e2096671-33fd-5cd7-a349-3c20a1c9ec9b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 5468.0,
+      "end": 5468.0,
+      "text": "Trigger: Foul by right @ 2 - 46:08"
+    },
+    {
+      "start": 5522.0,
+      "end": 5522.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5468000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/segment_005450_005530.json",
+  "segment_meta": {
+    "start_seconds": 5450,
+    "end_seconds": 5530,
+    "length_seconds": 80,
+    "start_time_mmss": "90:50",
+    "end_time_mmss": "92:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

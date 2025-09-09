@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2568,
+  "video_id": "43e5e5ac-6176-5cc5-bd29-728b52db3039",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 2910.0,
+      "end": 2910.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2931.0,
+      "end": 2931.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2910000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/segment_002870_002990.json",
+  "segment_meta": {
+    "start_seconds": 2870,
+    "end_seconds": 2990,
+    "length_seconds": 120,
+    "start_time_mmss": "47:50",
+    "end_time_mmss": "49:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

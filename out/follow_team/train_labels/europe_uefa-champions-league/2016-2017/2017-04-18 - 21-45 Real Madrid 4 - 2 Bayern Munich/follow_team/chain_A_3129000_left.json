@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9099,
+  "video_id": "ecaa8ee1-0572-509c-8de5-8a9bbd739391",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 3129.0,
+      "end": 3129.0,
+      "text": "Trigger: Shots on target by left @ 2 - 07:09"
+    },
+    {
+      "start": 3130.0,
+      "end": 3130.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3129000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/segment_003080_003140.json",
+  "segment_meta": {
+    "start_seconds": 3080,
+    "end_seconds": 3140,
+    "length_seconds": 60,
+    "start_time_mmss": "51:20",
+    "end_time_mmss": "52:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

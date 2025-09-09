@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2184,
+  "video_id": "7e469a52-2f94-5b34-ac1f-206716955808",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 3998.0,
+      "end": 3998.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4007.0,
+      "end": 4007.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3998000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_003970_004010.json",
+  "segment_meta": {
+    "start_seconds": 3970,
+    "end_seconds": 4010,
+    "length_seconds": 40,
+    "start_time_mmss": "66:10",
+    "end_time_mmss": "66:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

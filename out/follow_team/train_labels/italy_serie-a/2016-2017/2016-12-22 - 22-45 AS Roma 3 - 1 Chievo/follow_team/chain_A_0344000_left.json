@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19503,
+  "video_id": "b9b01d87-b57d-5bd8-bfd2-97610239f385",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 344.0,
+      "end": 344.0,
+      "text": "Trigger: Throw-in by left @ 1 - 05:44"
+    },
+    {
+      "start": 363.0,
+      "end": 363.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 344000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/segment_000290_000390.json",
+  "segment_meta": {
+    "start_seconds": 290,
+    "end_seconds": 390,
+    "length_seconds": 100,
+    "start_time_mmss": "04:50",
+    "end_time_mmss": "06:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

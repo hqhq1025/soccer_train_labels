@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14777,
+  "video_id": "a85ddd7f-46ff-5510-95ac-13f7277bd900",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Substitution} occurs, follow the initiating team and report all {Indirect free-kick, Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 3688.0,
+      "end": 3688.0,
+      "text": "Trigger: Substitution by left @ 2 - 16:28"
+    },
+    {
+      "start": 3699.0,
+      "end": 3699.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 3723.0,
+      "end": 3723.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 3730.0,
+      "end": 3730.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3688000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/segment_003630_003750.json",
+  "segment_meta": {
+    "start_seconds": 3630,
+    "end_seconds": 3750,
+    "length_seconds": 120,
+    "start_time_mmss": "60:30",
+    "end_time_mmss": "62:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

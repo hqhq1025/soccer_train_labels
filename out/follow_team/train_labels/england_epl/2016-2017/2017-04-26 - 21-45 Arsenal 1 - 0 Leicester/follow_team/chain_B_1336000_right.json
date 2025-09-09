@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25632,
+  "video_id": "500f3c1c-38d1-5592-a8a6-65e67561ae62",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 1336.0,
+      "end": 1336.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 1364.0,
+      "end": 1364.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1336000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/segment_001310_001390.json",
+  "segment_meta": {
+    "start_seconds": 1310,
+    "end_seconds": 1390,
+    "length_seconds": 80,
+    "start_time_mmss": "21:50",
+    "end_time_mmss": "23:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

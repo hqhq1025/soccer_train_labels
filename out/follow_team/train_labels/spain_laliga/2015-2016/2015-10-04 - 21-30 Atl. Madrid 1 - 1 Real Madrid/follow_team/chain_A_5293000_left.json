@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10811,
+  "video_id": "129dd94f-67ec-50b5-9fdd-e8ad5b40e687",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 5293.0,
+      "end": 5293.0,
+      "text": "Trigger: Direct free-kick by left @ 2 - 43:13"
+    },
+    {
+      "start": 5309.0,
+      "end": 5309.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 5314.0,
+      "end": 5314.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5293000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_005260_005320.json",
+  "segment_meta": {
+    "start_seconds": 5260,
+    "end_seconds": 5320,
+    "length_seconds": 60,
+    "start_time_mmss": "87:40",
+    "end_time_mmss": "88:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

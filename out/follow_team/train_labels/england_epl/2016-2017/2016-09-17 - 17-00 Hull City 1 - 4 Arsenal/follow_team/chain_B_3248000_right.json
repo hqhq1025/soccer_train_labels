@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24266,
+  "video_id": "a5a61b5c-a1d6-5cb6-a905-726f2b7ef546",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Goal}.",
+  "answer": [
+    {
+      "start": 3248.0,
+      "end": 3248.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3249.0,
+      "end": 3249.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3248000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/segment_003210_003250.json",
+  "segment_meta": {
+    "start_seconds": 3210,
+    "end_seconds": 3250,
+    "length_seconds": 40,
+    "start_time_mmss": "53:30",
+    "end_time_mmss": "54:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

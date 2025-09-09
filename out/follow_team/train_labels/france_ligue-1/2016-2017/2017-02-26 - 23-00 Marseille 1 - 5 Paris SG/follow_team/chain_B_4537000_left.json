@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 398,
+  "video_id": "f0c90def-7ee9-5865-9bec-e0e7d5320112",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Offside}.",
+  "answer": [
+    {
+      "start": 4537.0,
+      "end": 4537.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 4541.0,
+      "end": 4541.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4537000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/segment_004480_004600.json",
+  "segment_meta": {
+    "start_seconds": 4480,
+    "end_seconds": 4600,
+    "length_seconds": 120,
+    "start_time_mmss": "74:40",
+    "end_time_mmss": "76:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

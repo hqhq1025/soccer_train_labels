@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18298,
+  "video_id": "f48d4e6e-efc9-5849-97d9-4dde1c9a943a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 4299.0,
+      "end": 4299.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4346.0,
+      "end": 4346.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4299000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/segment_004250_004370.json",
+  "segment_meta": {
+    "start_seconds": 4250,
+    "end_seconds": 4370,
+    "length_seconds": 120,
+    "start_time_mmss": "70:50",
+    "end_time_mmss": "72:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

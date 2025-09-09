@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12160,
+  "video_id": "2ff9dc3f-e227-5083-9116-92611a19f1a0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Substitution}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 5141.0,
+      "end": 5141.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 5165.0,
+      "end": 5165.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5141000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/segment_005080_005200.json",
+  "segment_meta": {
+    "start_seconds": 5080,
+    "end_seconds": 5200,
+    "length_seconds": 120,
+    "start_time_mmss": "84:40",
+    "end_time_mmss": "86:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

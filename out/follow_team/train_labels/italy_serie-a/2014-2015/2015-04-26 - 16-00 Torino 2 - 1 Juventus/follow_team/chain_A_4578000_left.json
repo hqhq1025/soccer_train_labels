@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15957,
+  "video_id": "b04c23d3-c4c5-5182-a51c-a53352fc4207",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 4578.0,
+      "end": 4578.0,
+      "text": "Trigger: Foul by left @ 2 - 31:18"
+    },
+    {
+      "start": 4583.0,
+      "end": 4583.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4578000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/segment_004550_004610.json",
+  "segment_meta": {
+    "start_seconds": 4550,
+    "end_seconds": 4610,
+    "length_seconds": 60,
+    "start_time_mmss": "75:50",
+    "end_time_mmss": "76:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

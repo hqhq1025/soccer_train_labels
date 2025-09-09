@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16266,
+  "video_id": "7a2eae73-aa1c-5a13-8533-961cf35181eb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2536.0,
+      "end": 2536.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 2565.0,
+      "end": 2565.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2536000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/segment_002520_002620.json",
+  "segment_meta": {
+    "start_seconds": 2520,
+    "end_seconds": 2620,
+    "length_seconds": 100,
+    "start_time_mmss": "42:00",
+    "end_time_mmss": "43:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

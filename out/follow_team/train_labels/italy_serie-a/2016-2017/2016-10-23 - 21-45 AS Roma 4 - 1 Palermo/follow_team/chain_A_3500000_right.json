@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17883,
+  "video_id": "791d242c-0a4e-50f5-9382-870bbbab7a4d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 3500.0,
+      "end": 3500.0,
+      "text": "Trigger: Throw-in by right @ 2 - 13:20"
+    },
+    {
+      "start": 3503.0,
+      "end": 3503.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3500000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_003450_003510.json",
+  "segment_meta": {
+    "start_seconds": 3450,
+    "end_seconds": 3510,
+    "length_seconds": 60,
+    "start_time_mmss": "57:30",
+    "end_time_mmss": "58:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

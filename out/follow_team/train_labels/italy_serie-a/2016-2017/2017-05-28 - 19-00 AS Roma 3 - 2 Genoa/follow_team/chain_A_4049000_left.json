@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16997,
+  "video_id": "3cc1e32e-28e9-5604-9553-3625b5385abf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 4049.0,
+      "end": 4049.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 22:29"
+    },
+    {
+      "start": 4067.0,
+      "end": 4067.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4049000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/segment_003950_004070.json",
+  "segment_meta": {
+    "start_seconds": 3950,
+    "end_seconds": 4070,
+    "length_seconds": 120,
+    "start_time_mmss": "65:50",
+    "end_time_mmss": "67:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

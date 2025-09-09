@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2467,
+  "video_id": "23cfe202-59ba-5646-b5c4-7aa206859bea",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 3305.0,
+      "end": 3305.0,
+      "text": "Trigger: Throw-in by left @ 2 - 10:05"
+    },
+    {
+      "start": 3326.0,
+      "end": 3326.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3305000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/segment_003290_003350.json",
+  "segment_meta": {
+    "start_seconds": 3290,
+    "end_seconds": 3350,
+    "length_seconds": 60,
+    "start_time_mmss": "54:50",
+    "end_time_mmss": "55:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

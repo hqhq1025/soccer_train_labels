@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1200,
+  "video_id": "2e6270d9-2ff1-56e7-9c8a-92c448f7657e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 3285.0,
+      "end": 3285.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 3286.0,
+      "end": 3286.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3285000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/segment_003210_003290.json",
+  "segment_meta": {
+    "start_seconds": 3210,
+    "end_seconds": 3290,
+    "length_seconds": 80,
+    "start_time_mmss": "53:30",
+    "end_time_mmss": "54:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

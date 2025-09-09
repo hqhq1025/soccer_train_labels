@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8170,
+  "video_id": "aec44449-4f9b-5fa3-9d4e-8f19ad87c36e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Goal}.",
+  "answer": [
+    {
+      "start": 3325.0,
+      "end": 3325.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3326.0,
+      "end": 3326.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3325000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/segment_003250_003330.json",
+  "segment_meta": {
+    "start_seconds": 3250,
+    "end_seconds": 3330,
+    "length_seconds": 80,
+    "start_time_mmss": "54:10",
+    "end_time_mmss": "55:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

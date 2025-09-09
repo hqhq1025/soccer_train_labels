@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 845,
+  "video_id": "ac45eb26-68d6-561c-a1cf-526227702ab8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 698.0,
+      "end": 698.0,
+      "text": "Trigger: Corner by left @ 1 - 11:38"
+    },
+    {
+      "start": 703.0,
+      "end": 703.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 716.0,
+      "end": 716.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 698000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/segment_000660_000720.json",
+  "segment_meta": {
+    "start_seconds": 660,
+    "end_seconds": 720,
+    "length_seconds": 60,
+    "start_time_mmss": "11:00",
+    "end_time_mmss": "12:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

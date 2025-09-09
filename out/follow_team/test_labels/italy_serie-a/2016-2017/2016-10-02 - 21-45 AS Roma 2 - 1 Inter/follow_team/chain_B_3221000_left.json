@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7166,
+  "video_id": "cd13def7-b82d-582f-a632-71a6941a9844",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 3221.0,
+      "end": 3221.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3255.0,
+      "end": 3255.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3221000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/segment_003180_003300.json",
+  "segment_meta": {
+    "start_seconds": 3180,
+    "end_seconds": 3300,
+    "length_seconds": 120,
+    "start_time_mmss": "53:00",
+    "end_time_mmss": "55:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

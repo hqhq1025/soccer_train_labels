@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7315,
+  "video_id": "b6ee07d7-4534-5a9b-93b0-aad3cc77622b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Goal}.",
+  "answer": [
+    {
+      "start": 1835.0,
+      "end": 1835.0,
+      "text": "Trigger: Shots on target by right @ 1 - 30:35"
+    },
+    {
+      "start": 1838.0,
+      "end": 1838.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1835000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/segment_001800_001840.json",
+  "segment_meta": {
+    "start_seconds": 1800,
+    "end_seconds": 1840,
+    "length_seconds": 40,
+    "start_time_mmss": "30:00",
+    "end_time_mmss": "30:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4463,
+  "video_id": "2613c3fb-f284-5eab-8366-401cb1d3f422",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 2661.0,
+      "end": 2661.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2675.0,
+      "end": 2675.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-09-21 - 21-00 Real Madrid 1 - 1 Villarreal/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2016-09-21 - 21-00 Real Madrid 1 - 1 Villarreal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2661000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2016-09-21 - 21-00 Real Madrid 1 - 1 Villarreal/segment_002600_002720.json",
+  "segment_meta": {
+    "start_seconds": 2600,
+    "end_seconds": 2720,
+    "length_seconds": 120,
+    "start_time_mmss": "43:20",
+    "end_time_mmss": "45:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

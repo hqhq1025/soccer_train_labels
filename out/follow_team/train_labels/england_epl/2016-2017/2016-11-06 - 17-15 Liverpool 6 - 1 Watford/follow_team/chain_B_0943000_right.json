@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24416,
+  "video_id": "0a6efb3e-d534-55d5-be81-f61f9274d2ce",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 943.0,
+      "end": 943.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 987.0,
+      "end": 987.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 943000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/segment_000890_000990.json",
+  "segment_meta": {
+    "start_seconds": 890,
+    "end_seconds": 990,
+    "length_seconds": 100,
+    "start_time_mmss": "14:50",
+    "end_time_mmss": "16:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19677,
+  "video_id": "e3cabbb6-8e37-5ae7-b628-18e30db9dd72",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 156.0,
+      "end": 156.0,
+      "text": "Trigger: Throw-in by left @ 1 - 02:36"
+    },
+    {
+      "start": 208.0,
+      "end": 208.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 156000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/segment_000110_000210.json",
+  "segment_meta": {
+    "start_seconds": 110,
+    "end_seconds": 210,
+    "length_seconds": 100,
+    "start_time_mmss": "01:50",
+    "end_time_mmss": "03:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

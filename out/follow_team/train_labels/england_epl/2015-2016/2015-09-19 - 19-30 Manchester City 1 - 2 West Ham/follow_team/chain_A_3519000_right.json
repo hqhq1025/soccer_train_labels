@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22859,
+  "video_id": "42f2c881-be07-5695-83de-39dcfbcc74a8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 3519.0,
+      "end": 3519.0,
+      "text": "Trigger: Shots off target by right @ 2 - 13:39"
+    },
+    {
+      "start": 3542.0,
+      "end": 3542.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3519000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/segment_003440_003560.json",
+  "segment_meta": {
+    "start_seconds": 3440,
+    "end_seconds": 3560,
+    "length_seconds": 120,
+    "start_time_mmss": "57:20",
+    "end_time_mmss": "59:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

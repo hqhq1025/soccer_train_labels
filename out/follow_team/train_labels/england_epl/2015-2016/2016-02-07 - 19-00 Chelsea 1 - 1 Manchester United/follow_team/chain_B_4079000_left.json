@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22460,
+  "video_id": "19e4c5f1-e9cc-56cf-a4d0-094d6ded7ab2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Shots on target}.",
+  "answer": [
+    {
+      "start": 4079.0,
+      "end": 4079.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4093.0,
+      "end": 4093.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4079000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/segment_004010_004130.json",
+  "segment_meta": {
+    "start_seconds": 4010,
+    "end_seconds": 4130,
+    "length_seconds": 120,
+    "start_time_mmss": "66:50",
+    "end_time_mmss": "68:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1868,
+  "video_id": "2a19f6b5-5af7-5197-ab9f-c47e01e3a7c8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 3345.0,
+      "end": 3345.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3366.0,
+      "end": 3366.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3345000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/segment_003310_003370.json",
+  "segment_meta": {
+    "start_seconds": 3310,
+    "end_seconds": 3370,
+    "length_seconds": 60,
+    "start_time_mmss": "55:10",
+    "end_time_mmss": "56:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

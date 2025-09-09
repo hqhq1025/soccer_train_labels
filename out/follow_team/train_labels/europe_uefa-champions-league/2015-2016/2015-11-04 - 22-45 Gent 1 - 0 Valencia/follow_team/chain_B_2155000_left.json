@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7372,
+  "video_id": "7da2098d-2c56-5c4b-a3f9-b46ce9e2052a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Clearance} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 2155.0,
+      "end": 2155.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2196.0,
+      "end": 2196.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2155000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/segment_002080_002200.json",
+  "segment_meta": {
+    "start_seconds": 2080,
+    "end_seconds": 2200,
+    "length_seconds": 120,
+    "start_time_mmss": "34:40",
+    "end_time_mmss": "36:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

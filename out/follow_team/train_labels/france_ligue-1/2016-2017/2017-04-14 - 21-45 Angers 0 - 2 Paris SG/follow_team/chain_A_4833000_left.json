@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 855,
+  "video_id": "e977d584-0dad-5746-b702-b48dd7330f71",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 4833.0,
+      "end": 4833.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 35:33"
+    },
+    {
+      "start": 4835.0,
+      "end": 4835.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4833000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/segment_004760_004880.json",
+  "segment_meta": {
+    "start_seconds": 4760,
+    "end_seconds": 4880,
+    "length_seconds": 120,
+    "start_time_mmss": "79:20",
+    "end_time_mmss": "81:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

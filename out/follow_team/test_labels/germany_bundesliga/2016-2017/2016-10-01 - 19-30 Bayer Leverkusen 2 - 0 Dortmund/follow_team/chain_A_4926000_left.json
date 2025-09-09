@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1033,
+  "video_id": "a55b4134-0692-5d4b-87fc-dd518191b748",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Corner and Throw-in}.",
+  "answer": [
+    {
+      "start": 4926.0,
+      "end": 4926.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4969.0,
+      "end": 4969.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 5005.0,
+      "end": 5005.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4926000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/segment_004890_005010.json",
+  "segment_meta": {
+    "start_seconds": 4890,
+    "end_seconds": 5010,
+    "length_seconds": 120,
+    "start_time_mmss": "81:30",
+    "end_time_mmss": "83:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

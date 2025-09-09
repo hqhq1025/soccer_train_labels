@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23728,
+  "video_id": "8f09e321-a2e1-5e33-9738-bd3f03f2a7e6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Corner}.",
+  "answer": [
+    {
+      "start": 4638.0,
+      "end": 4638.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4660.0,
+      "end": 4660.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4638000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/segment_004600_004700.json",
+  "segment_meta": {
+    "start_seconds": 4600,
+    "end_seconds": 4700,
+    "length_seconds": 100,
+    "start_time_mmss": "76:40",
+    "end_time_mmss": "78:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

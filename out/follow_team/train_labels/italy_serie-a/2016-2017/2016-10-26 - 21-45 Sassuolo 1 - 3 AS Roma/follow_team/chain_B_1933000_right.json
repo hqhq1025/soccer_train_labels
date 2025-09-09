@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17990,
+  "video_id": "da9e347d-53ea-55d7-b321-6b6f06cb7ce6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 1933.0,
+      "end": 1933.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 1962.0,
+      "end": 1962.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-26 - 21-45 Sassuolo 1 - 3 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-26 - 21-45 Sassuolo 1 - 3 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1933000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-26 - 21-45 Sassuolo 1 - 3 AS Roma/segment_001890_001970.json",
+  "segment_meta": {
+    "start_seconds": 1890,
+    "end_seconds": 1970,
+    "length_seconds": 80,
+    "start_time_mmss": "31:30",
+    "end_time_mmss": "32:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

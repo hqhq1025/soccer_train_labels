@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4018,
+  "video_id": "b881287e-1498-5178-8c47-f1062c553afd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 3215.0,
+      "end": 3215.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3236.0,
+      "end": 3236.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3215000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_003210_003250.json",
+  "segment_meta": {
+    "start_seconds": 3210,
+    "end_seconds": 3250,
+    "length_seconds": 40,
+    "start_time_mmss": "53:30",
+    "end_time_mmss": "54:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

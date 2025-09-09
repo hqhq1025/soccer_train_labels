@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9507,
+  "video_id": "c929f3ef-49a4-52e0-a950-b629ea8a2e61",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3737.0,
+      "end": 3737.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 17:17"
+    },
+    {
+      "start": 3766.0,
+      "end": 3766.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3737000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/segment_003690_003770.json",
+  "segment_meta": {
+    "start_seconds": 3690,
+    "end_seconds": 3770,
+    "length_seconds": 80,
+    "start_time_mmss": "61:30",
+    "end_time_mmss": "62:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

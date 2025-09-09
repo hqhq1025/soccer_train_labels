@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5873,
+  "video_id": "d4d2ac8f-dd1d-5ef1-baf1-016510f8c764",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 2500.0,
+      "end": 2500.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2515.0,
+      "end": 2515.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2500000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/segment_002400_002520.json",
+  "segment_meta": {
+    "start_seconds": 2400,
+    "end_seconds": 2520,
+    "length_seconds": 120,
+    "start_time_mmss": "40:00",
+    "end_time_mmss": "42:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

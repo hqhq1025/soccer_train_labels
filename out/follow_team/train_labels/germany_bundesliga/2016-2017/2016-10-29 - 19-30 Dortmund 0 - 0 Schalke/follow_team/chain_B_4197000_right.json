@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3262,
+  "video_id": "7d4a1679-887d-5dd5-b749-a7b1f8055975",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 4197.0,
+      "end": 4197.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 4231.0,
+      "end": 4231.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4197000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/segment_004170_004290.json",
+  "segment_meta": {
+    "start_seconds": 4170,
+    "end_seconds": 4290,
+    "length_seconds": 120,
+    "start_time_mmss": "69:30",
+    "end_time_mmss": "71:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

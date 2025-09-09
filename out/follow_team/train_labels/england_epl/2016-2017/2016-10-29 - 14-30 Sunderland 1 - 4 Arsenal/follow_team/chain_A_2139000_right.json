@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25541,
+  "video_id": "d0202356-b554-5850-81ba-c7917ad12581",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2139.0,
+      "end": 2139.0,
+      "text": "Trigger: Foul by right @ 1 - 35:39"
+    },
+    {
+      "start": 2185.0,
+      "end": 2185.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2139000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/segment_002110_002190.json",
+  "segment_meta": {
+    "start_seconds": 2110,
+    "end_seconds": 2190,
+    "length_seconds": 80,
+    "start_time_mmss": "35:10",
+    "end_time_mmss": "36:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

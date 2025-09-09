@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5854,
+  "video_id": "ff9a14b9-a66a-55ae-9bc5-5e1289a51d9d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 5209.0,
+      "end": 5209.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 5235.0,
+      "end": 5235.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5209000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/segment_005130_005250.json",
+  "segment_meta": {
+    "start_seconds": 5130,
+    "end_seconds": 5250,
+    "length_seconds": 120,
+    "start_time_mmss": "85:30",
+    "end_time_mmss": "87:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

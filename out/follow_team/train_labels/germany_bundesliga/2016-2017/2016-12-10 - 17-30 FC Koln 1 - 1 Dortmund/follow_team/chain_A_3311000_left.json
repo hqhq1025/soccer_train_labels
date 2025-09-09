@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4197,
+  "video_id": "0a196dd9-6b47-5db5-86b5-6b91afc0dd40",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Throw-in}; then follow that team and report its {Shots on target and Corner}.",
+  "answer": [
+    {
+      "start": 3311.0,
+      "end": 3311.0,
+      "text": "Trigger: Throw-in by left @ 2 - 10:11"
+    },
+    {
+      "start": 3316.0,
+      "end": 3316.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 3369.0,
+      "end": 3369.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3311000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/segment_003250_003370.json",
+  "segment_meta": {
+    "start_seconds": 3250,
+    "end_seconds": 3370,
+    "length_seconds": 120,
+    "start_time_mmss": "54:10",
+    "end_time_mmss": "56:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

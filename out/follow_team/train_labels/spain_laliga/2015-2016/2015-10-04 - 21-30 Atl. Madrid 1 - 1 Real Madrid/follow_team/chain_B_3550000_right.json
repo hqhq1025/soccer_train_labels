@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10784,
+  "video_id": "bba487fa-802b-5990-a761-71c1db59bcfd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 3550.0,
+      "end": 3550.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3569.0,
+      "end": 3569.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3550000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_003530_003570.json",
+  "segment_meta": {
+    "start_seconds": 3530,
+    "end_seconds": 3570,
+    "length_seconds": 40,
+    "start_time_mmss": "58:50",
+    "end_time_mmss": "59:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

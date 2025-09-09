@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 172,
+  "video_id": "6c089d58-10e1-5e42-aae9-bf2415d61f0e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 130.0,
+      "end": 130.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 196.0,
+      "end": 196.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 130000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/segment_000120_000240.json",
+  "segment_meta": {
+    "start_seconds": 120,
+    "end_seconds": 240,
+    "length_seconds": 120,
+    "start_time_mmss": "02:00",
+    "end_time_mmss": "04:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

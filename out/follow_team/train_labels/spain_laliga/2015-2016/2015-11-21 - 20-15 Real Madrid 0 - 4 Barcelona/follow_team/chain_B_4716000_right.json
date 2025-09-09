@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10536,
+  "video_id": "ee09d862-ea55-5682-a20f-c5040937cc4d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Offside}.",
+  "answer": [
+    {
+      "start": 4716.0,
+      "end": 4716.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 4730.0,
+      "end": 4730.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4716000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/segment_004680_004740.json",
+  "segment_meta": {
+    "start_seconds": 4680,
+    "end_seconds": 4740,
+    "length_seconds": 60,
+    "start_time_mmss": "78:00",
+    "end_time_mmss": "79:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

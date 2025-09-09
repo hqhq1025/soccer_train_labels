@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5693,
+  "video_id": "1301f2d3-426d-53df-8a9c-d9bd090eddb5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 443.0,
+      "end": 443.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 444.0,
+      "end": 444.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 445.0,
+      "end": 445.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 442000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/segment_000360_000460.json",
+  "segment_meta": {
+    "start_seconds": 360,
+    "end_seconds": 460,
+    "length_seconds": 100,
+    "start_time_mmss": "06:00",
+    "end_time_mmss": "07:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

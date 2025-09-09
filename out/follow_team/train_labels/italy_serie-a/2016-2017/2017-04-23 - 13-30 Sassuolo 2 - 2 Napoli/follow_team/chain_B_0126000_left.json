@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17348,
+  "video_id": "4ba85d53-07ea-5262-81d3-4177a4f43ead",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 126.0,
+      "end": 126.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 167.0,
+      "end": 167.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 126000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/segment_000090_000170.json",
+  "segment_meta": {
+    "start_seconds": 90,
+    "end_seconds": 170,
+    "length_seconds": 80,
+    "start_time_mmss": "01:30",
+    "end_time_mmss": "02:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

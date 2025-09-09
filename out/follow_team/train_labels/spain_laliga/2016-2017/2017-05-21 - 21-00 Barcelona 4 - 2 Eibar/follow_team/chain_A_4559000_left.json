@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12201,
+  "video_id": "ce96f6d4-fc6a-5c41-b181-18e21d3f9b31",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, follow that same team and alert me whenever it has {Offside}.",
+  "answer": [
+    {
+      "start": 4559.0,
+      "end": 4559.0,
+      "text": "Trigger: Substitution by left @ 2 - 30:59"
+    },
+    {
+      "start": 4574.0,
+      "end": 4574.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4559000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/segment_004540_004580.json",
+  "segment_meta": {
+    "start_seconds": 4540,
+    "end_seconds": 4580,
+    "length_seconds": 40,
+    "start_time_mmss": "75:40",
+    "end_time_mmss": "76:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

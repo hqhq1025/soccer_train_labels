@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7037,
+  "video_id": "8d32784f-fa39-535a-ae8b-c22e9ee6860b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Substitution}, follow the same team and list all subsequent {Substitution and Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4039.0,
+      "end": 4039.0,
+      "text": "Trigger: Substitution by right"
+    },
+    {
+      "start": 4064.0,
+      "end": 4064.0,
+      "text": "Then: Substitution by right"
+    },
+    {
+      "start": 4074.0,
+      "end": 4074.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4039000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/segment_004010_004090.json",
+  "segment_meta": {
+    "start_seconds": 4010,
+    "end_seconds": 4090,
+    "length_seconds": 80,
+    "start_time_mmss": "66:50",
+    "end_time_mmss": "68:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

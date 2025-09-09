@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19087,
+  "video_id": "ca924e09-d2af-5f13-9411-72a14e3256af",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 558.0,
+      "end": 558.0,
+      "text": "Trigger: Throw-in by left @ 1 - 09:18"
+    },
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 558000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/segment_000500_000600.json",
+  "segment_meta": {
+    "start_seconds": 500,
+    "end_seconds": 600,
+    "length_seconds": 100,
+    "start_time_mmss": "08:20",
+    "end_time_mmss": "10:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

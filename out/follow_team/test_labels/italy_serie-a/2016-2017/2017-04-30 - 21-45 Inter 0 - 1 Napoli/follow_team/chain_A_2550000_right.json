@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6705,
+  "video_id": "408394af-fcd9-57e4-903a-1180ad79e3a5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Goal}.",
+  "answer": [
+    {
+      "start": 2550.0,
+      "end": 2550.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2551.0,
+      "end": 2551.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2550000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/segment_002520_002560.json",
+  "segment_meta": {
+    "start_seconds": 2520,
+    "end_seconds": 2560,
+    "length_seconds": 40,
+    "start_time_mmss": "42:00",
+    "end_time_mmss": "42:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5782,
+  "video_id": "11f6bf1a-2b16-501d-97d5-8e50f3fddf51",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 4351.0,
+      "end": 4351.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4360.0,
+      "end": 4360.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4351000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/segment_004330_004370.json",
+  "segment_meta": {
+    "start_seconds": 4330,
+    "end_seconds": 4370,
+    "length_seconds": 40,
+    "start_time_mmss": "72:10",
+    "end_time_mmss": "72:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

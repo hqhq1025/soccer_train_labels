@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7579,
+  "video_id": "d8d61d9f-fa21-5713-b0b3-15bac45de501",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4002.0,
+      "end": 4002.0,
+      "text": "Trigger: Substitution by right @ 2 - 21:42"
+    },
+    {
+      "start": 4017.0,
+      "end": 4017.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4002000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/segment_003920_004020.json",
+  "segment_meta": {
+    "start_seconds": 3920,
+    "end_seconds": 4020,
+    "length_seconds": 100,
+    "start_time_mmss": "65:20",
+    "end_time_mmss": "67:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7819,
+  "video_id": "d8307565-2055-519f-979c-4df5e1162829",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal and Shots on target} happen.",
+  "answer": [
+    {
+      "start": 4583.0,
+      "end": 4583.0,
+      "text": "Trigger: Shots on target by right @ 2 - 31:23"
+    },
+    {
+      "start": 4584.0,
+      "end": 4584.0,
+      "text": "Then: Goal by right"
+    },
+    {
+      "start": 4584.0,
+      "end": 4584.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4583000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/segment_004530_004590.json",
+  "segment_meta": {
+    "start_seconds": 4530,
+    "end_seconds": 4590,
+    "length_seconds": 60,
+    "start_time_mmss": "75:30",
+    "end_time_mmss": "76:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5603,
+  "video_id": "c234ce3d-42ac-56f2-9538-7db4924d09b1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 4417.0,
+      "end": 4417.0,
+      "text": "Trigger: Throw-in by right @ 2 - 28:37"
+    },
+    {
+      "start": 4452.0,
+      "end": 4452.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4417000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/segment_004360_004460.json",
+  "segment_meta": {
+    "start_seconds": 4360,
+    "end_seconds": 4460,
+    "length_seconds": 100,
+    "start_time_mmss": "72:40",
+    "end_time_mmss": "74:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

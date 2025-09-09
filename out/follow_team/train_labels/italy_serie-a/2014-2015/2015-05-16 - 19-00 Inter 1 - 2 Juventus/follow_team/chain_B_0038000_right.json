@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16110,
+  "video_id": "80545488-5f21-5008-b6d7-e81dfe7afadc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Shots on target} happen.",
+  "answer": [
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 38000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/segment_000000_000120.json",
+  "segment_meta": {
+    "start_seconds": 0,
+    "end_seconds": 120,
+    "length_seconds": 120,
+    "start_time_mmss": "00:00",
+    "end_time_mmss": "02:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

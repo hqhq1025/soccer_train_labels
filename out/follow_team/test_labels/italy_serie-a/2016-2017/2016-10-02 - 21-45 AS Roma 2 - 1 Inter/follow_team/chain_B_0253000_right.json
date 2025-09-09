@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7226,
+  "video_id": "bf06e543-4be0-579b-9eea-56b25676c2d0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 253.0,
+      "end": 253.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 266.0,
+      "end": 266.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 253000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/segment_000170_000290.json",
+  "segment_meta": {
+    "start_seconds": 170,
+    "end_seconds": 290,
+    "length_seconds": 120,
+    "start_time_mmss": "02:50",
+    "end_time_mmss": "04:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

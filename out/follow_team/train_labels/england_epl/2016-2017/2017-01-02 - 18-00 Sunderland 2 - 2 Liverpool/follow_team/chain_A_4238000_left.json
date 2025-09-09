@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23653,
+  "video_id": "4f06afde-8c0c-5f3e-9271-712f5413782d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Corner, Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 4238.0,
+      "end": 4238.0,
+      "text": "Trigger: Shots off target by left @ 2 - 25:38"
+    },
+    {
+      "start": 4275.0,
+      "end": 4275.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 4277.0,
+      "end": 4277.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 4278.0,
+      "end": 4278.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4238000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/segment_004160_004280.json",
+  "segment_meta": {
+    "start_seconds": 4160,
+    "end_seconds": 4280,
+    "length_seconds": 120,
+    "start_time_mmss": "69:20",
+    "end_time_mmss": "71:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

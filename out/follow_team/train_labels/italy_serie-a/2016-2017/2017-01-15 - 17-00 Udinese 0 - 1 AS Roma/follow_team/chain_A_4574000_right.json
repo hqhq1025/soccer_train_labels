@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17537,
+  "video_id": "b1ed7135-5942-5f7f-909d-39ddf3b70d72",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Yellow card}, follow that same team and alert me whenever it has {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4574.0,
+      "end": 4574.0,
+      "text": "Trigger: Yellow card by right @ 2 - 31:14"
+    },
+    {
+      "start": 4627.0,
+      "end": 4627.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4574000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/segment_004530_004630.json",
+  "segment_meta": {
+    "start_seconds": 4530,
+    "end_seconds": 4630,
+    "length_seconds": 100,
+    "start_time_mmss": "75:30",
+    "end_time_mmss": "77:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

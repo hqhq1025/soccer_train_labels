@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20098,
+  "video_id": "5a895deb-74c3-5a8d-95a9-a34fbe775398",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 335.0,
+      "end": 335.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 336.0,
+      "end": 336.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 335000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/segment_000230_000350.json",
+  "segment_meta": {
+    "start_seconds": 230,
+    "end_seconds": 350,
+    "length_seconds": 120,
+    "start_time_mmss": "03:50",
+    "end_time_mmss": "05:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18582,
+  "video_id": "3944762a-9c39-546e-9591-7a2dc79cdd96",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 631.0,
+      "end": 631.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 606000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/segment_000560_000660.json",
+  "segment_meta": {
+    "start_seconds": 560,
+    "end_seconds": 660,
+    "length_seconds": 100,
+    "start_time_mmss": "09:20",
+    "end_time_mmss": "11:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

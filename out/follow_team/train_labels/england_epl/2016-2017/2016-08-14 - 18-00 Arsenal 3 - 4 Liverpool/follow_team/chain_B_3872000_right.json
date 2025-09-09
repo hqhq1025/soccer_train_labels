@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25384,
+  "video_id": "a8c20b89-36ab-5ee0-bd32-e3f5f4b0e3c7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 3872.0,
+      "end": 3872.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 3900.0,
+      "end": 3900.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3872000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_003850_003910.json",
+  "segment_meta": {
+    "start_seconds": 3850,
+    "end_seconds": 3910,
+    "length_seconds": 60,
+    "start_time_mmss": "64:10",
+    "end_time_mmss": "65:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

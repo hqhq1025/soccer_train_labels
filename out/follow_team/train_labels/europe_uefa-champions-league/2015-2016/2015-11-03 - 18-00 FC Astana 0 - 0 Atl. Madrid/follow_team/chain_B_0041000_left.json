@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5864,
+  "video_id": "de421af1-8279-52e1-994f-519757ee579a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 62.0,
+      "end": 62.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 41000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/segment_000010_000130.json",
+  "segment_meta": {
+    "start_seconds": 10,
+    "end_seconds": 130,
+    "length_seconds": 120,
+    "start_time_mmss": "00:10",
+    "end_time_mmss": "02:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

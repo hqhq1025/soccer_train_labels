@@ -1,0 +1,51 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22583,
+  "video_id": "a1c0cd36-6da5-5d09-aafb-f72e9b976d13",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots on target, Corner and Shots off target}.",
+  "answer": [
+    {
+      "start": 2420.0,
+      "end": 2420.0,
+      "text": "Trigger: Corner by left @ 1 - 40:20"
+    },
+    {
+      "start": 2477.0,
+      "end": 2477.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 2503.0,
+      "end": 2503.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 2523.0,
+      "end": 2523.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 2528.0,
+      "end": 2528.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2420000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_002410_002530.json",
+  "segment_meta": {
+    "start_seconds": 2410,
+    "end_seconds": 2530,
+    "length_seconds": 120,
+    "start_time_mmss": "40:10",
+    "end_time_mmss": "42:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

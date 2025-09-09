@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25660,
+  "video_id": "6e4d17fe-6bc7-54a4-82bb-6ead63914579",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Offside}.",
+  "answer": [
+    {
+      "start": 497.0,
+      "end": 497.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 500.0,
+      "end": 500.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 497000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/segment_000430_000510.json",
+  "segment_meta": {
+    "start_seconds": 430,
+    "end_seconds": 510,
+    "length_seconds": 80,
+    "start_time_mmss": "07:10",
+    "end_time_mmss": "08:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

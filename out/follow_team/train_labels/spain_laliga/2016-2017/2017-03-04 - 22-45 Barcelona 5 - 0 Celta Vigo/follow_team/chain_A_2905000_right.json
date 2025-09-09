@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11999,
+  "video_id": "e07604ea-5c9a-5597-9d42-927287de17dd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots on target and Corner} it makes.",
+  "answer": [
+    {
+      "start": 2905.0,
+      "end": 2905.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 03:25"
+    },
+    {
+      "start": 2921.0,
+      "end": 2921.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 2949.0,
+      "end": 2949.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2905000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/segment_002840_002960.json",
+  "segment_meta": {
+    "start_seconds": 2840,
+    "end_seconds": 2960,
+    "length_seconds": 120,
+    "start_time_mmss": "47:20",
+    "end_time_mmss": "49:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

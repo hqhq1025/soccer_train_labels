@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6847,
+  "video_id": "d3852774-24ef-58bd-96fe-445351e44859",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 2545.0,
+      "end": 2545.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2593.0,
+      "end": 2593.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 2601.0,
+      "end": 2601.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2545000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/segment_002540_002660.json",
+  "segment_meta": {
+    "start_seconds": 2540,
+    "end_seconds": 2660,
+    "length_seconds": 120,
+    "start_time_mmss": "42:20",
+    "end_time_mmss": "44:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

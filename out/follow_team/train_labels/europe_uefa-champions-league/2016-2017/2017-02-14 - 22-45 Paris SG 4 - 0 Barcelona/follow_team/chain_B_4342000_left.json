@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9658,
+  "video_id": "c12f5995-a923-5991-a322-dba4f7f78bf4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Clearance}.",
+  "answer": [
+    {
+      "start": 4342.0,
+      "end": 4342.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4404.0,
+      "end": 4404.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4342000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/segment_004310_004430.json",
+  "segment_meta": {
+    "start_seconds": 4310,
+    "end_seconds": 4430,
+    "length_seconds": 120,
+    "start_time_mmss": "71:50",
+    "end_time_mmss": "73:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

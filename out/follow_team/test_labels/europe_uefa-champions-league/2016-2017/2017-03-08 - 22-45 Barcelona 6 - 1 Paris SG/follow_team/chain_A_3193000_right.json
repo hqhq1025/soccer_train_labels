@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2701,
+  "video_id": "b2508b35-e678-57bf-915a-f17911b86607",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Shots on target}.",
+  "answer": [
+    {
+      "start": 3193.0,
+      "end": 3193.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 3203.0,
+      "end": 3203.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3193000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/segment_003170_003210.json",
+  "segment_meta": {
+    "start_seconds": 3170,
+    "end_seconds": 3210,
+    "length_seconds": 40,
+    "start_time_mmss": "52:50",
+    "end_time_mmss": "53:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

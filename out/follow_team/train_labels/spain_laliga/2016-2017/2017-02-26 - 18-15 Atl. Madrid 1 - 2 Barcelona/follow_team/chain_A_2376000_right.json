@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12975,
+  "video_id": "10d3ea35-a42f-5ab0-b3c3-9d8d694b8a0f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Offside}.",
+  "answer": [
+    {
+      "start": 2376.0,
+      "end": 2376.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 39:36"
+    },
+    {
+      "start": 2379.0,
+      "end": 2379.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2376000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/segment_002320_002400.json",
+  "segment_meta": {
+    "start_seconds": 2320,
+    "end_seconds": 2400,
+    "length_seconds": 80,
+    "start_time_mmss": "38:40",
+    "end_time_mmss": "40:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

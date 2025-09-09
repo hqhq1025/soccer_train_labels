@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11484,
+  "video_id": "a4ce7166-6a41-5afc-93ad-80938a44647e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 5165.0,
+      "end": 5165.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 5179.0,
+      "end": 5179.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5165000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/segment_005070_005190.json",
+  "segment_meta": {
+    "start_seconds": 5070,
+    "end_seconds": 5190,
+    "length_seconds": 120,
+    "start_time_mmss": "84:30",
+    "end_time_mmss": "86:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

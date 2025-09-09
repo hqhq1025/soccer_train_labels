@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16271,
+  "video_id": "10841ce6-934c-541c-af25-ab0eb8e82a66",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 3128.0,
+      "end": 3128.0,
+      "text": "Trigger: Throw-in by right @ 2 - 07:08"
+    },
+    {
+      "start": 3144.0,
+      "end": 3144.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3128000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/segment_003090_003150.json",
+  "segment_meta": {
+    "start_seconds": 3090,
+    "end_seconds": 3150,
+    "length_seconds": 60,
+    "start_time_mmss": "51:30",
+    "end_time_mmss": "52:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

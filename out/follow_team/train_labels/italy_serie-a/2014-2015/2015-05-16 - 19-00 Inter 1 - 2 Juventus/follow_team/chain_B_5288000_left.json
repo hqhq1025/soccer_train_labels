@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16122,
+  "video_id": "122fe005-906f-5cf4-b784-bcce38cf497f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Offside}; then follow that team and report its {Substitution}.",
+  "answer": [
+    {
+      "start": 5288.0,
+      "end": 5288.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 5318.0,
+      "end": 5318.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5288000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/segment_005270_005370.json",
+  "segment_meta": {
+    "start_seconds": 5270,
+    "end_seconds": 5370,
+    "length_seconds": 100,
+    "start_time_mmss": "87:50",
+    "end_time_mmss": "89:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

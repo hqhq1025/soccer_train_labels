@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9261,
+  "video_id": "71747718-4fb8-5b71-bb8f-0e50cb7385a7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 5158.0,
+      "end": 5158.0,
+      "text": "Trigger: Offside by right @ 2 - 40:58"
+    },
+    {
+      "start": 5208.0,
+      "end": 5208.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5158000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/segment_005090_005210.json",
+  "segment_meta": {
+    "start_seconds": 5090,
+    "end_seconds": 5210,
+    "length_seconds": 120,
+    "start_time_mmss": "84:50",
+    "end_time_mmss": "86:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

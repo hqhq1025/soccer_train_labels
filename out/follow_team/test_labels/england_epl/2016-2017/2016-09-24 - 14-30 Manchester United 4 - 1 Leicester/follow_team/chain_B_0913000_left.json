@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8636,
+  "video_id": "bb077458-db92-5ac8-8562-8fccdd98ccc4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 913.0,
+      "end": 913.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 931.0,
+      "end": 931.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 913000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/segment_000830_000950.json",
+  "segment_meta": {
+    "start_seconds": 830,
+    "end_seconds": 950,
+    "length_seconds": 120,
+    "start_time_mmss": "13:50",
+    "end_time_mmss": "15:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

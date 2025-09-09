@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3534,
+  "video_id": "808d10f1-3cc7-5020-b9d5-4e6ef7596d0e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 312.0,
+      "end": 312.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 334.0,
+      "end": 334.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 312000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_000230_000350.json",
+  "segment_meta": {
+    "start_seconds": 230,
+    "end_seconds": 350,
+    "length_seconds": 120,
+    "start_time_mmss": "03:50",
+    "end_time_mmss": "05:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

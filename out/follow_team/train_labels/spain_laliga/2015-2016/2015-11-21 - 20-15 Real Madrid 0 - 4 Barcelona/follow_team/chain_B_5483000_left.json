@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10556,
+  "video_id": "e39331b2-6942-5ef7-a938-58383da6560d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Yellow card}.",
+  "answer": [
+    {
+      "start": 5483.0,
+      "end": 5483.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5489.0,
+      "end": 5489.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5483000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/segment_005400_005490.json",
+  "segment_meta": {
+    "start_seconds": 5400,
+    "end_seconds": 5490,
+    "length_seconds": 90,
+    "start_time_mmss": "90:00",
+    "end_time_mmss": "91:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

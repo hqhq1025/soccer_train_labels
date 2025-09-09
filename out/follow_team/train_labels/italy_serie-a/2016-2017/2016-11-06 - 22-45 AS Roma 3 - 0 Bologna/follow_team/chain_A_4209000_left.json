@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19839,
+  "video_id": "195fde75-f037-587c-8138-a3274979fb88",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 4209.0,
+      "end": 4209.0,
+      "text": "Trigger: Shots on target by left @ 2 - 25:09"
+    },
+    {
+      "start": 4210.0,
+      "end": 4210.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 4211.0,
+      "end": 4211.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4209000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/segment_004160_004280.json",
+  "segment_meta": {
+    "start_seconds": 4160,
+    "end_seconds": 4280,
+    "length_seconds": 120,
+    "start_time_mmss": "69:20",
+    "end_time_mmss": "71:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

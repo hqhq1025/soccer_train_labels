@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1140,
+  "video_id": "788710a0-249f-5daa-82cf-30b4cf91aaaa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 2102.0,
+      "end": 2102.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2109.0,
+      "end": 2109.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2102000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/segment_002010_002130.json",
+  "segment_meta": {
+    "start_seconds": 2010,
+    "end_seconds": 2130,
+    "length_seconds": 120,
+    "start_time_mmss": "33:30",
+    "end_time_mmss": "35:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

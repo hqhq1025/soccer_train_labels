@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6124,
+  "video_id": "c4952b84-a57c-5978-a1c9-a421f975ee49",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Offside}.",
+  "answer": [
+    {
+      "start": 4300.0,
+      "end": 4300.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4310.0,
+      "end": 4310.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4300000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/segment_004260_004320.json",
+  "segment_meta": {
+    "start_seconds": 4260,
+    "end_seconds": 4320,
+    "length_seconds": 60,
+    "start_time_mmss": "71:00",
+    "end_time_mmss": "72:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

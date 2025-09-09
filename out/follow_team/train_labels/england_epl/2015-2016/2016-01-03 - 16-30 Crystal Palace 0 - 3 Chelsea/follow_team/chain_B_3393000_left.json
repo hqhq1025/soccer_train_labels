@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22088,
+  "video_id": "ea334c22-ebd4-5086-8ed6-9ca0a759048c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 3393.0,
+      "end": 3393.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3449.0,
+      "end": 3449.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3393000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/segment_003330_003450.json",
+  "segment_meta": {
+    "start_seconds": 3330,
+    "end_seconds": 3450,
+    "length_seconds": 120,
+    "start_time_mmss": "55:30",
+    "end_time_mmss": "57:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

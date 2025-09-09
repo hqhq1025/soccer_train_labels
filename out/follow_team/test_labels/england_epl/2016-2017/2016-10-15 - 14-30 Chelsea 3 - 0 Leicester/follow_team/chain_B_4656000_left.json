@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8702,
+  "video_id": "9f5d2f24-e9c9-5335-aace-4a7686bc472d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 4656.0,
+      "end": 4656.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4689.0,
+      "end": 4689.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4656000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/segment_004610_004730.json",
+  "segment_meta": {
+    "start_seconds": 4610,
+    "end_seconds": 4730,
+    "length_seconds": 120,
+    "start_time_mmss": "76:50",
+    "end_time_mmss": "78:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25367,
+  "video_id": "036f16cb-a653-572a-8bdc-d12d15953885",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 2656.0,
+      "end": 2656.0,
+      "text": "Trigger: Foul by left @ 1 - 44:16"
+    },
+    {
+      "start": 2715.0,
+      "end": 2715.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 2727.0,
+      "end": 2727.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2656000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_002640_002760.json",
+  "segment_meta": {
+    "start_seconds": 2640,
+    "end_seconds": 2760,
+    "length_seconds": 120,
+    "start_time_mmss": "44:00",
+    "end_time_mmss": "46:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

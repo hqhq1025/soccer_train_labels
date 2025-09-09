@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9081,
+  "video_id": "a0ad90ea-c4f0-5646-a23f-68078d1d7552",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Yellow card}, stick with that team and alert me for {Yellow->red card}.",
+  "answer": [
+    {
+      "start": 5004.0,
+      "end": 5004.0,
+      "text": "Trigger: Yellow card by left @ 2 - 38:24"
+    },
+    {
+      "start": 5006.0,
+      "end": 5006.0,
+      "text": "Then: Yellow->red card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5004000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/segment_004970_005030.json",
+  "segment_meta": {
+    "start_seconds": 4970,
+    "end_seconds": 5030,
+    "length_seconds": 60,
+    "start_time_mmss": "82:50",
+    "end_time_mmss": "83:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

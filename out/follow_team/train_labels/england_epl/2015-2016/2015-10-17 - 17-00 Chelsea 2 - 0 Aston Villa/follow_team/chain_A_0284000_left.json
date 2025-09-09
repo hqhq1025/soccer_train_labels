@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21779,
+  "video_id": "da20df83-69bc-5567-863d-25bd36e1a742",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 284.0,
+      "end": 284.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 04:44"
+    },
+    {
+      "start": 287.0,
+      "end": 287.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 284000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/segment_000190_000290.json",
+  "segment_meta": {
+    "start_seconds": 190,
+    "end_seconds": 290,
+    "length_seconds": 100,
+    "start_time_mmss": "03:10",
+    "end_time_mmss": "04:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

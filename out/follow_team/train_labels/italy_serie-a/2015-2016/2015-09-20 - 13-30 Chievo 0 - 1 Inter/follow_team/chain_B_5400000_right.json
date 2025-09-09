@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15742,
+  "video_id": "d2a9c5fb-6c72-5c07-82a5-63926fb490a1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 5400.0,
+      "end": 5400.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 5405.0,
+      "end": 5405.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5400000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_005360_005420.json",
+  "segment_meta": {
+    "start_seconds": 5360,
+    "end_seconds": 5420,
+    "length_seconds": 60,
+    "start_time_mmss": "89:20",
+    "end_time_mmss": "90:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

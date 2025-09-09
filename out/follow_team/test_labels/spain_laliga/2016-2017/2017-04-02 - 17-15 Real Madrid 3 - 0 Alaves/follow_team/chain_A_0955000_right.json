@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4697,
+  "video_id": "9bf622fa-358e-5095-bdf6-3bd799b409f7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 955.0,
+      "end": 955.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 963.0,
+      "end": 963.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 955000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/segment_000930_000970.json",
+  "segment_meta": {
+    "start_seconds": 930,
+    "end_seconds": 970,
+    "length_seconds": 40,
+    "start_time_mmss": "15:30",
+    "end_time_mmss": "16:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

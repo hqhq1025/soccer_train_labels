@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9231,
+  "video_id": "c67c3196-a203-52a9-bad7-9dfb674e74af",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Offside}.",
+  "answer": [
+    {
+      "start": 2965.0,
+      "end": 2965.0,
+      "text": "Trigger: Shots on target by right @ 2 - 04:25"
+    },
+    {
+      "start": 2968.0,
+      "end": 2968.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2965000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/segment_002930_002990.json",
+  "segment_meta": {
+    "start_seconds": 2930,
+    "end_seconds": 2990,
+    "length_seconds": 60,
+    "start_time_mmss": "48:50",
+    "end_time_mmss": "49:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

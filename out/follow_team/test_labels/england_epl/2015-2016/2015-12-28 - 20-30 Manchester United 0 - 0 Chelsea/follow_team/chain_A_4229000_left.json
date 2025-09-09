@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8317,
+  "video_id": "c36a7167-73a8-5cb5-98cc-afac4bae8ca9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Throw-in, Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 4229.0,
+      "end": 4229.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 4277.0,
+      "end": 4277.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 4288.0,
+      "end": 4288.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4301.0,
+      "end": 4301.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4229000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/segment_004190_004310.json",
+  "segment_meta": {
+    "start_seconds": 4190,
+    "end_seconds": 4310,
+    "length_seconds": 120,
+    "start_time_mmss": "69:50",
+    "end_time_mmss": "71:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6880,
+  "video_id": "25024f26-f927-5717-927c-f56f2af91400",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Shots off target}.",
+  "answer": [
+    {
+      "start": 1185.0,
+      "end": 1185.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 1190.0,
+      "end": 1190.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1185000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/segment_001080_001200.json",
+  "segment_meta": {
+    "start_seconds": 1080,
+    "end_seconds": 1200,
+    "length_seconds": 120,
+    "start_time_mmss": "18:00",
+    "end_time_mmss": "20:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 192,
+  "video_id": "f34adf4c-2d8a-5b9f-b228-028ed2288056",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 905.0,
+      "end": 905.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 963.0,
+      "end": 963.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 905000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/segment_000850_000970.json",
+  "segment_meta": {
+    "start_seconds": 850,
+    "end_seconds": 970,
+    "length_seconds": 120,
+    "start_time_mmss": "14:10",
+    "end_time_mmss": "16:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

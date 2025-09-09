@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8651,
+  "video_id": "3305c9c5-7afd-5113-a891-1a959169b356",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 4879.0,
+      "end": 4879.0,
+      "text": "Trigger: Foul by left @ 2 - 36:19"
+    },
+    {
+      "start": 4883.0,
+      "end": 4883.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4879000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/segment_004840_004960.json",
+  "segment_meta": {
+    "start_seconds": 4840,
+    "end_seconds": 4960,
+    "length_seconds": 120,
+    "start_time_mmss": "80:40",
+    "end_time_mmss": "82:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

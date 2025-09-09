@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3127,
+  "video_id": "258b6ac4-bd71-5699-b9ba-a0c935535f09",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Substitution}, follow the same team and list all subsequent {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 4812.0,
+      "end": 4812.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 4871.0,
+      "end": 4871.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 4872.0,
+      "end": 4872.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4812000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/segment_004760_004880.json",
+  "segment_meta": {
+    "start_seconds": 4760,
+    "end_seconds": 4880,
+    "length_seconds": 120,
+    "start_time_mmss": "79:20",
+    "end_time_mmss": "81:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

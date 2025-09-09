@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14892,
+  "video_id": "bfb513fc-53ce-5777-9da6-56c14809e574",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 2176.0,
+      "end": 2176.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 2215.0,
+      "end": 2215.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-05-17 - 22-00 Celta Vigo 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-17 - 22-00 Celta Vigo 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2176000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-17 - 22-00 Celta Vigo 1 - 4 Real Madrid/segment_002130_002250.json",
+  "segment_meta": {
+    "start_seconds": 2130,
+    "end_seconds": 2250,
+    "length_seconds": 120,
+    "start_time_mmss": "35:30",
+    "end_time_mmss": "37:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

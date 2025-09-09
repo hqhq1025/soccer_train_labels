@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15339,
+  "video_id": "3b543c34-3a60-5b8a-a71b-0a7863a9cede",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Throw-in, Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 3263.0,
+      "end": 3263.0,
+      "text": "Trigger: Shots off target by left @ 2 - 09:23"
+    },
+    {
+      "start": 3306.0,
+      "end": 3306.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 3330.0,
+      "end": 3330.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 3337.0,
+      "end": 3337.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3263000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/segment_003220_003340.json",
+  "segment_meta": {
+    "start_seconds": 3220,
+    "end_seconds": 3340,
+    "length_seconds": 120,
+    "start_time_mmss": "53:40",
+    "end_time_mmss": "55:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

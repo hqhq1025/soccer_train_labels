@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2596,
+  "video_id": "64cb888a-5602-5131-94ae-130feece11d0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 3502.0,
+      "end": 3502.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3517.0,
+      "end": 3517.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3502000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/segment_003440_003520.json",
+  "segment_meta": {
+    "start_seconds": 3440,
+    "end_seconds": 3520,
+    "length_seconds": 80,
+    "start_time_mmss": "57:20",
+    "end_time_mmss": "58:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

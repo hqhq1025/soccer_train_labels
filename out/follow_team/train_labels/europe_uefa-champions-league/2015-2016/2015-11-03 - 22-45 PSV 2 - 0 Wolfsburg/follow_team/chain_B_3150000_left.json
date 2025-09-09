@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6338,
+  "video_id": "0af07f4f-47c4-5320-9249-10203cba48de",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Clearance}.",
+  "answer": [
+    {
+      "start": 3150.0,
+      "end": 3150.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3184.0,
+      "end": 3184.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3150000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/segment_003140_003260.json",
+  "segment_meta": {
+    "start_seconds": 3140,
+    "end_seconds": 3260,
+    "length_seconds": 120,
+    "start_time_mmss": "52:20",
+    "end_time_mmss": "54:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

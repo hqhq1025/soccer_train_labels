@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8640,
+  "video_id": "6b81c300-9fba-5bc2-8f59-dfd49be53257",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Offside}.",
+  "answer": [
+    {
+      "start": 1864.0,
+      "end": 1864.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 1878.0,
+      "end": 1878.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1864000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/segment_001780_001880.json",
+  "segment_meta": {
+    "start_seconds": 1780,
+    "end_seconds": 1880,
+    "length_seconds": 100,
+    "start_time_mmss": "29:40",
+    "end_time_mmss": "31:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1841,
+  "video_id": "2a4d6150-5e62-558c-8804-3696390962c4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Offside and Throw-in}.",
+  "answer": [
+    {
+      "start": 12.0,
+      "end": 12.0,
+      "text": "Trigger: Foul by left @ 1 - 00:12"
+    },
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "text": "Then: Offside by left"
+    },
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 92.0,
+      "end": 92.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 12000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/segment_000000_000120.json",
+  "segment_meta": {
+    "start_seconds": 0,
+    "end_seconds": 120,
+    "length_seconds": 120,
+    "start_time_mmss": "00:00",
+    "end_time_mmss": "02:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

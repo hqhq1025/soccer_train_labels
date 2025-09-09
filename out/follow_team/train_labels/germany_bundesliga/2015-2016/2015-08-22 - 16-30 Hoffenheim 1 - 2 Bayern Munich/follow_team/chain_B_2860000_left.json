@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2112,
+  "video_id": "9fe86b7b-81c8-50ce-ac8f-4381861e180c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 2860.0,
+      "end": 2860.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2893.0,
+      "end": 2893.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2860000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/segment_002830_002910.json",
+  "segment_meta": {
+    "start_seconds": 2830,
+    "end_seconds": 2910,
+    "length_seconds": 80,
+    "start_time_mmss": "47:10",
+    "end_time_mmss": "48:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

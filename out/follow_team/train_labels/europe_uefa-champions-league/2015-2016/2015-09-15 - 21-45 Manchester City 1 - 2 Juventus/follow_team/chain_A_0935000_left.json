@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6497,
+  "video_id": "c948fcaa-2aca-5872-be46-136a67ba6aa2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner and Throw-in}.",
+  "answer": [
+    {
+      "start": 935.0,
+      "end": 935.0,
+      "text": "Trigger: Shots on target by left @ 1 - 15:35"
+    },
+    {
+      "start": 956.0,
+      "end": 956.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 976.0,
+      "end": 976.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 935000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/segment_000880_000980.json",
+  "segment_meta": {
+    "start_seconds": 880,
+    "end_seconds": 980,
+    "length_seconds": 100,
+    "start_time_mmss": "14:40",
+    "end_time_mmss": "16:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

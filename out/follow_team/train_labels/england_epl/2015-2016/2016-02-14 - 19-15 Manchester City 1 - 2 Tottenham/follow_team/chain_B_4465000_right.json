@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21926,
+  "video_id": "e232115d-a983-5463-a5af-b3139c5e4e8e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 4465.0,
+      "end": 4465.0,
+      "text": "Trigger: Substitution by right"
+    },
+    {
+      "start": 4544.0,
+      "end": 4544.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4465000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/segment_004450_004570.json",
+  "segment_meta": {
+    "start_seconds": 4450,
+    "end_seconds": 4570,
+    "length_seconds": 120,
+    "start_time_mmss": "74:10",
+    "end_time_mmss": "76:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10235,
+  "video_id": "34efbed4-6545-5357-a92c-851b5051282e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Corner and Shots off target} happen.",
+  "answer": [
+    {
+      "start": 391.0,
+      "end": 391.0,
+      "text": "Trigger: Shots on target by right @ 1 - 06:31"
+    },
+    {
+      "start": 417.0,
+      "end": 417.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 423.0,
+      "end": 423.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 391000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/segment_000340_000460.json",
+  "segment_meta": {
+    "start_seconds": 340,
+    "end_seconds": 460,
+    "length_seconds": 120,
+    "start_time_mmss": "05:40",
+    "end_time_mmss": "07:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

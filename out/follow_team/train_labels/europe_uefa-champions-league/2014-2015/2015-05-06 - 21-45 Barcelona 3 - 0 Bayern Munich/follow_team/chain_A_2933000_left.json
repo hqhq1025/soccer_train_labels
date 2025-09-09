@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7795,
+  "video_id": "78cd1ae3-0d4c-5ffb-af61-02d0812ec910",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2933.0,
+      "end": 2933.0,
+      "text": "Trigger: Throw-in by left @ 2 - 03:53"
+    },
+    {
+      "start": 2973.0,
+      "end": 2973.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2933000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/segment_002900_002980.json",
+  "segment_meta": {
+    "start_seconds": 2900,
+    "end_seconds": 2980,
+    "length_seconds": 80,
+    "start_time_mmss": "48:20",
+    "end_time_mmss": "49:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

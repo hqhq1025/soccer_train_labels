@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5687,
+  "video_id": "ca855a04-6a2e-5287-9796-6f9416fb66ae",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 3559.0,
+      "end": 3559.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3560.0,
+      "end": 3560.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3559000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/segment_003520_003600.json",
+  "segment_meta": {
+    "start_seconds": 3520,
+    "end_seconds": 3600,
+    "length_seconds": 80,
+    "start_time_mmss": "58:40",
+    "end_time_mmss": "60:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

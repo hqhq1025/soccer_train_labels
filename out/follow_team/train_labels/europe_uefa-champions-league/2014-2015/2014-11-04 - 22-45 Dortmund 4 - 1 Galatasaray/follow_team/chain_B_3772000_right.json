@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8574,
+  "video_id": "2a5dd450-eb41-5ae7-8e34-ae38aaa00a0b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 3772.0,
+      "end": 3772.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3787.0,
+      "end": 3787.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3772000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/segment_003700_003800.json",
+  "segment_meta": {
+    "start_seconds": 3700,
+    "end_seconds": 3800,
+    "length_seconds": 100,
+    "start_time_mmss": "61:40",
+    "end_time_mmss": "63:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

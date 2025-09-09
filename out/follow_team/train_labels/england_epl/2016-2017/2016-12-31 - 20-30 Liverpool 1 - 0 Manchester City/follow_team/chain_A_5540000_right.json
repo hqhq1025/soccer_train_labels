@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24485,
+  "video_id": "f30d9d01-7e32-5b6c-9556-cfcdae333052",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 5540.0,
+      "end": 5540.0,
+      "text": "Trigger: Foul by right @ 2 - 47:20"
+    },
+    {
+      "start": 5546.0,
+      "end": 5546.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5540000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/segment_005510_005590.json",
+  "segment_meta": {
+    "start_seconds": 5510,
+    "end_seconds": 5590,
+    "length_seconds": 80,
+    "start_time_mmss": "91:50",
+    "end_time_mmss": "93:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4010,
+  "video_id": "236f4a43-d03f-5365-a59e-8dfdc82dc1fa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 3774.0,
+      "end": 3774.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 3841.0,
+      "end": 3841.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3774000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_003740_003860.json",
+  "segment_meta": {
+    "start_seconds": 3740,
+    "end_seconds": 3860,
+    "length_seconds": 120,
+    "start_time_mmss": "62:20",
+    "end_time_mmss": "64:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

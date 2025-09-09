@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9707,
+  "video_id": "e1f538e0-69de-52c7-b6f9-3a5325843453",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 5279.0,
+      "end": 5279.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 42:59"
+    },
+    {
+      "start": 5335.0,
+      "end": 5335.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5279000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/segment_005220_005340.json",
+  "segment_meta": {
+    "start_seconds": 5220,
+    "end_seconds": 5340,
+    "length_seconds": 120,
+    "start_time_mmss": "87:00",
+    "end_time_mmss": "89:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

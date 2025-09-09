@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22498,
+  "video_id": "4b2e3120-cf62-5c32-bc8b-4721243b2226",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 1313.0,
+      "end": 1313.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 1344.0,
+      "end": 1344.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1313000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_001230_001350.json",
+  "segment_meta": {
+    "start_seconds": 1230,
+    "end_seconds": 1350,
+    "length_seconds": 120,
+    "start_time_mmss": "20:30",
+    "end_time_mmss": "22:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

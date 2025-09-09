@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15963,
+  "video_id": "a2aa8c10-ee1e-526c-9f8a-5d3fa06bb544",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 369.0,
+      "end": 369.0,
+      "text": "Trigger: Shots on target by left @ 1 - 06:09"
+    },
+    {
+      "start": 376.0,
+      "end": 376.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 369000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/segment_000320_000380.json",
+  "segment_meta": {
+    "start_seconds": 320,
+    "end_seconds": 380,
+    "length_seconds": 60,
+    "start_time_mmss": "05:20",
+    "end_time_mmss": "06:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

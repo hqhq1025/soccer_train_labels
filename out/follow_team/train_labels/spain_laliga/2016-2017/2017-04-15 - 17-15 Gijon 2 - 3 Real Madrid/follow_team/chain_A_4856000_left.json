@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13761,
+  "video_id": "40bb57bf-0583-5dfb-94e4-0d584d48795c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 4856.0,
+      "end": 4856.0,
+      "text": "Trigger: Corner by left @ 2 - 35:56"
+    },
+    {
+      "start": 4857.0,
+      "end": 4857.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4856000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/segment_004780_004860.json",
+  "segment_meta": {
+    "start_seconds": 4780,
+    "end_seconds": 4860,
+    "length_seconds": 80,
+    "start_time_mmss": "79:40",
+    "end_time_mmss": "81:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

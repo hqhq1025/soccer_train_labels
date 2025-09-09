@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4256,
+  "video_id": "9ac6fde6-1b95-52a9-a6e1-2f0d53ddd5aa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 3457.0,
+      "end": 3457.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 3489.0,
+      "end": 3489.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3457000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/segment_003380_003500.json",
+  "segment_meta": {
+    "start_seconds": 3380,
+    "end_seconds": 3500,
+    "length_seconds": 120,
+    "start_time_mmss": "56:20",
+    "end_time_mmss": "58:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

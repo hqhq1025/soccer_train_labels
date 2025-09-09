@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11293,
+  "video_id": "0d8c09a0-cbd3-55eb-9c46-4f8fe244e50e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 159.0,
+      "end": 159.0,
+      "text": "Trigger: Foul by right @ 1 - 02:39"
+    },
+    {
+      "start": 169.0,
+      "end": 169.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 159000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/segment_000130_000170.json",
+  "segment_meta": {
+    "start_seconds": 130,
+    "end_seconds": 170,
+    "length_seconds": 40,
+    "start_time_mmss": "02:10",
+    "end_time_mmss": "02:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15443,
+  "video_id": "f6447605-e52b-53d6-aec5-9516244f60d2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Substitution and Clearance}.",
+  "answer": [
+    {
+      "start": 4238.0,
+      "end": 4238.0,
+      "text": "Trigger: Foul by right @ 2 - 25:38"
+    },
+    {
+      "start": 4320.0,
+      "end": 4320.0,
+      "text": "Then: Substitution by right"
+    },
+    {
+      "start": 4331.0,
+      "end": 4331.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4238000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/segment_004220_004340.json",
+  "segment_meta": {
+    "start_seconds": 4220,
+    "end_seconds": 4340,
+    "length_seconds": 120,
+    "start_time_mmss": "70:20",
+    "end_time_mmss": "72:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5359,
+  "video_id": "6c4a3925-6f04-5305-8dc0-d4bd01f8065d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 3270.0,
+      "end": 3270.0,
+      "text": "Trigger: Shots off target by right @ 2 - 09:30"
+    },
+    {
+      "start": 3288.0,
+      "end": 3288.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3270000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/segment_003170_003290.json",
+  "segment_meta": {
+    "start_seconds": 3170,
+    "end_seconds": 3290,
+    "length_seconds": 120,
+    "start_time_mmss": "52:50",
+    "end_time_mmss": "54:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

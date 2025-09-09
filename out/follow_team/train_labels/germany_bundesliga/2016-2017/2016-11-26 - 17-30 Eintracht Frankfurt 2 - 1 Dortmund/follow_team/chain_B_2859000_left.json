@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3892,
+  "video_id": "9ea6949e-e138-50a6-8a7b-1f03cbd160d5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2859.0,
+      "end": 2859.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2841.0,
+      "end": 2841.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2859000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/segment_002750_002870.json",
+  "segment_meta": {
+    "start_seconds": 2750,
+    "end_seconds": 2870,
+    "length_seconds": 120,
+    "start_time_mmss": "45:50",
+    "end_time_mmss": "47:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

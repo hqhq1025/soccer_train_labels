@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13849,
+  "video_id": "74917806-7beb-5409-a2e7-a8957e289779",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 2940.0,
+      "end": 2940.0,
+      "text": "Trigger: Foul by left @ 2 - 04:00"
+    },
+    {
+      "start": 2970.0,
+      "end": 2970.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2940000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/segment_002900_002980.json",
+  "segment_meta": {
+    "start_seconds": 2900,
+    "end_seconds": 2980,
+    "length_seconds": 80,
+    "start_time_mmss": "48:20",
+    "end_time_mmss": "49:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

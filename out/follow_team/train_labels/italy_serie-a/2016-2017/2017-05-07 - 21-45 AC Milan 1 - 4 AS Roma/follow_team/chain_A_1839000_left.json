@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18099,
+  "video_id": "8f9e12bb-ee73-5d07-8fd6-7768c9d966eb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Offside}.",
+  "answer": [
+    {
+      "start": 1839.0,
+      "end": 1839.0,
+      "text": "Trigger: Corner by left @ 1 - 30:39"
+    },
+    {
+      "start": 1877.0,
+      "end": 1877.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1839000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/segment_001760_001880.json",
+  "segment_meta": {
+    "start_seconds": 1760,
+    "end_seconds": 1880,
+    "length_seconds": 120,
+    "start_time_mmss": "29:20",
+    "end_time_mmss": "31:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18677,
+  "video_id": "83eaabc6-eaa1-5398-b854-d050c3c3149d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 84.0,
+      "end": 84.0,
+      "text": "Trigger: Shots on target by right @ 1 - 01:24"
+    },
+    {
+      "start": 115.0,
+      "end": 115.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 84000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/segment_000000_000120.json",
+  "segment_meta": {
+    "start_seconds": 0,
+    "end_seconds": 120,
+    "length_seconds": 120,
+    "start_time_mmss": "00:00",
+    "end_time_mmss": "02:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 947,
+  "video_id": "d89fedce-1ec8-5d47-aedc-a069d4d442cc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 872.0,
+      "end": 872.0,
+      "text": "Trigger: Corner by right @ 1 - 14:32"
+    },
+    {
+      "start": 944.0,
+      "end": 944.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 872000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/segment_000840_000960.json",
+  "segment_meta": {
+    "start_seconds": 840,
+    "end_seconds": 960,
+    "length_seconds": 120,
+    "start_time_mmss": "14:00",
+    "end_time_mmss": "16:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

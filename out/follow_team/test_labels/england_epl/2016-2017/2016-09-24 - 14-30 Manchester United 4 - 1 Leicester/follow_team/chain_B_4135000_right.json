@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8660,
+  "video_id": "9ddc6421-1799-5599-bfb4-4aa1fc4cd187",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4135.0,
+      "end": 4135.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 4171.0,
+      "end": 4171.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4135000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/segment_004090_004210.json",
+  "segment_meta": {
+    "start_seconds": 4090,
+    "end_seconds": 4210,
+    "length_seconds": 120,
+    "start_time_mmss": "68:10",
+    "end_time_mmss": "70:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

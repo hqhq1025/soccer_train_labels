@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3381,
+  "video_id": "c089e0d1-2483-5e29-a5e5-71d961535f31",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots off target}, stick with that team and alert me for {Substitution and Clearance}.",
+  "answer": [
+    {
+      "start": 3440.0,
+      "end": 3440.0,
+      "text": "Trigger: Shots off target by right @ 2 - 12:20"
+    },
+    {
+      "start": 3470.0,
+      "end": 3470.0,
+      "text": "Then: Substitution by right"
+    },
+    {
+      "start": 3519.0,
+      "end": 3519.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3440000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/segment_003400_003520.json",
+  "segment_meta": {
+    "start_seconds": 3400,
+    "end_seconds": 3520,
+    "length_seconds": 120,
+    "start_time_mmss": "56:40",
+    "end_time_mmss": "58:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

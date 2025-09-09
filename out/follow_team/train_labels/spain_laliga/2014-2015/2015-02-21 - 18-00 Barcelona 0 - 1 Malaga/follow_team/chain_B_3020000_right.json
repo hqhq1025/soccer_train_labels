@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11798,
+  "video_id": "6990ab61-3e82-522b-a50a-bbef22ed1f9f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3020.0,
+      "end": 3020.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 3065.0,
+      "end": 3065.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3020000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/segment_002950_003070.json",
+  "segment_meta": {
+    "start_seconds": 2950,
+    "end_seconds": 3070,
+    "length_seconds": 120,
+    "start_time_mmss": "49:10",
+    "end_time_mmss": "51:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

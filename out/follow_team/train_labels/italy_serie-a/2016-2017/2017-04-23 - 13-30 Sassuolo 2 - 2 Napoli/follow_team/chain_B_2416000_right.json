@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17312,
+  "video_id": "e1d8d2a1-1315-57b3-a4c3-db9e65562f0e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots on target}.",
+  "answer": [
+    {
+      "start": 2416.0,
+      "end": 2416.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 2429.0,
+      "end": 2429.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2416000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/segment_002370_002430.json",
+  "segment_meta": {
+    "start_seconds": 2370,
+    "end_seconds": 2430,
+    "length_seconds": 60,
+    "start_time_mmss": "39:30",
+    "end_time_mmss": "40:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

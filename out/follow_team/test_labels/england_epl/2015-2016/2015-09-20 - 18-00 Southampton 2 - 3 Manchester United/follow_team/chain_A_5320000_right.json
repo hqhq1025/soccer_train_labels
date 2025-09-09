@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7481,
+  "video_id": "341721dd-11fe-5506-98e8-60d821b60300",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 5320.0,
+      "end": 5320.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 5328.0,
+      "end": 5328.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5320000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/segment_005250_005330.json",
+  "segment_meta": {
+    "start_seconds": 5250,
+    "end_seconds": 5330,
+    "length_seconds": 80,
+    "start_time_mmss": "87:30",
+    "end_time_mmss": "88:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

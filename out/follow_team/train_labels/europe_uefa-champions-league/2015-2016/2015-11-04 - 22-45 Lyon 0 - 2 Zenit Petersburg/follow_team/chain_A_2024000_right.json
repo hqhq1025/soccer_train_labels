@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5415,
+  "video_id": "cfe824d3-c0fc-5f55-92ef-0d85ce09e05e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 2024.0,
+      "end": 2024.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 33:44"
+    },
+    {
+      "start": 2044.0,
+      "end": 2044.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Lyon 0 - 2 Zenit Petersburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Lyon 0 - 2 Zenit Petersburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2024000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Lyon 0 - 2 Zenit Petersburg/segment_001990_002050.json",
+  "segment_meta": {
+    "start_seconds": 1990,
+    "end_seconds": 2050,
+    "length_seconds": 60,
+    "start_time_mmss": "33:10",
+    "end_time_mmss": "34:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

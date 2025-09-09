@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 212,
+  "video_id": "35e8d4ab-4432-5991-80cd-925399121d89",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 3830.0,
+      "end": 3830.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 3832.0,
+      "end": 3832.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3830000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/segment_003780_003840.json",
+  "segment_meta": {
+    "start_seconds": 3780,
+    "end_seconds": 3840,
+    "length_seconds": 60,
+    "start_time_mmss": "63:00",
+    "end_time_mmss": "64:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

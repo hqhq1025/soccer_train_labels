@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24440,
+  "video_id": "55bde114-36bb-5e2b-92e0-1a65df9bd644",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 405.0,
+      "end": 405.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 456.0,
+      "end": 456.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 405000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/segment_000340_000460.json",
+  "segment_meta": {
+    "start_seconds": 340,
+    "end_seconds": 460,
+    "length_seconds": 120,
+    "start_time_mmss": "05:40",
+    "end_time_mmss": "07:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

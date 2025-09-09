@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 620,
+  "video_id": "ecf0c41c-0ea2-5e86-bd0e-d2abdb60358d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 2146.0,
+      "end": 2146.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2147.0,
+      "end": 2147.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2146000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/segment_002110_002230.json",
+  "segment_meta": {
+    "start_seconds": 2110,
+    "end_seconds": 2230,
+    "length_seconds": 120,
+    "start_time_mmss": "35:10",
+    "end_time_mmss": "37:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

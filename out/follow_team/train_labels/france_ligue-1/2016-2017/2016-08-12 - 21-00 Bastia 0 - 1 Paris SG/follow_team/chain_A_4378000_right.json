@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 721,
+  "video_id": "215d767b-9d06-5e0b-be85-f46a73435c1d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 4378.0,
+      "end": 4378.0,
+      "text": "Trigger: Shots on target by right @ 2 - 27:58"
+    },
+    {
+      "start": 4379.0,
+      "end": 4379.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4378000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/segment_004340_004380.json",
+  "segment_meta": {
+    "start_seconds": 4340,
+    "end_seconds": 4380,
+    "length_seconds": 40,
+    "start_time_mmss": "72:20",
+    "end_time_mmss": "73:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

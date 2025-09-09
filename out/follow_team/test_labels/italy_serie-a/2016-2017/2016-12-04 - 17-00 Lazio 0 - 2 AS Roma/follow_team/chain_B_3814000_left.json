@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6500,
+  "video_id": "a9c2df42-d535-5c07-8288-554e7f060009",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 3814.0,
+      "end": 3814.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 3815.0,
+      "end": 3815.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3814000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/segment_003760_003820.json",
+  "segment_meta": {
+    "start_seconds": 3760,
+    "end_seconds": 3820,
+    "length_seconds": 60,
+    "start_time_mmss": "62:40",
+    "end_time_mmss": "63:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1607,
+  "video_id": "07784594-4789-52ce-ac20-1d836089e6ae",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots off target}, stick with that team and alert me for {Throw-in, Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 4451.0,
+      "end": 4451.0,
+      "text": "Trigger: Shots off target by left @ 2 - 29:11"
+    },
+    {
+      "start": 4487.0,
+      "end": 4487.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 4490.0,
+      "end": 4490.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4498.0,
+      "end": 4498.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4451000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/segment_004380_004500.json",
+  "segment_meta": {
+    "start_seconds": 4380,
+    "end_seconds": 4500,
+    "length_seconds": 120,
+    "start_time_mmss": "73:00",
+    "end_time_mmss": "75:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

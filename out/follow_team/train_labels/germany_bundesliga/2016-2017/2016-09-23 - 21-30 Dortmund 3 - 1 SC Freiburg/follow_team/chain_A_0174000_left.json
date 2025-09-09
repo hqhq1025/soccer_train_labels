@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4753,
+  "video_id": "3b654efe-6c84-5f40-ba7d-65d7a94eae7c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 174.0,
+      "end": 174.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 02:54"
+    },
+    {
+      "start": 199.0,
+      "end": 199.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 174000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/segment_000130_000250.json",
+  "segment_meta": {
+    "start_seconds": 130,
+    "end_seconds": 250,
+    "length_seconds": 120,
+    "start_time_mmss": "02:10",
+    "end_time_mmss": "04:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

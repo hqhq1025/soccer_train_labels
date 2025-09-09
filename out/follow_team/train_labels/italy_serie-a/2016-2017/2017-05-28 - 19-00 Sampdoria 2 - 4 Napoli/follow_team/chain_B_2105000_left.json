@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19532,
+  "video_id": "495fd2bc-5744-5be6-a907-263fc28b4b72",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 2105.0,
+      "end": 2105.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2106.0,
+      "end": 2106.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2105000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_002070_002110.json",
+  "segment_meta": {
+    "start_seconds": 2070,
+    "end_seconds": 2110,
+    "length_seconds": 40,
+    "start_time_mmss": "34:30",
+    "end_time_mmss": "35:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

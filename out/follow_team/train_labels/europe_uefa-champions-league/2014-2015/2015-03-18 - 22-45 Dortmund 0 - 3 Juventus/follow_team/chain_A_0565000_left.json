@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7463,
+  "video_id": "66b72851-03c9-5878-9f33-fada9da774ad",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "Trigger: Throw-in by left @ 1 - 09:25"
+    },
+    {
+      "start": 629.0,
+      "end": 629.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 565000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/segment_000560_000640.json",
+  "segment_meta": {
+    "start_seconds": 560,
+    "end_seconds": 640,
+    "length_seconds": 80,
+    "start_time_mmss": "09:20",
+    "end_time_mmss": "10:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

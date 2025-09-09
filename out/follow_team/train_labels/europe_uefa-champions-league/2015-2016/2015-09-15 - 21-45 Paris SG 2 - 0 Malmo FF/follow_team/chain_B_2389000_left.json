@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6816,
+  "video_id": "86ebd62d-767d-51cf-89b7-6ed3af50c221",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 2389.0,
+      "end": 2389.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2419.0,
+      "end": 2419.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2389000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/segment_002360_002420.json",
+  "segment_meta": {
+    "start_seconds": 2360,
+    "end_seconds": 2420,
+    "length_seconds": 60,
+    "start_time_mmss": "39:20",
+    "end_time_mmss": "40:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

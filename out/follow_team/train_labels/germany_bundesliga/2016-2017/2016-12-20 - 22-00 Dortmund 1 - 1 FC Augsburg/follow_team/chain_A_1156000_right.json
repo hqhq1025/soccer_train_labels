@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3575,
+  "video_id": "e4181c4f-a97b-5f6e-a3c3-2b923d0cd2a7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 1156.0,
+      "end": 1156.0,
+      "text": "Trigger: Throw-in by right @ 1 - 19:16"
+    },
+    {
+      "start": 1166.0,
+      "end": 1166.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 1245.0,
+      "end": 1245.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 1246.0,
+      "end": 1246.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1156000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_001140_001260.json",
+  "segment_meta": {
+    "start_seconds": 1140,
+    "end_seconds": 1260,
+    "length_seconds": 120,
+    "start_time_mmss": "19:00",
+    "end_time_mmss": "21:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

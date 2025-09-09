@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8093,
+  "video_id": "19cb4e51-c794-5295-8f56-90483c657e7b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 143.0,
+      "end": 143.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 144.0,
+      "end": 144.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Liverpool 0 - 3 West Ham/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-29 - 17-00 Liverpool 0 - 3 West Ham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 143000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Liverpool 0 - 3 West Ham/segment_000070_000150.json",
+  "segment_meta": {
+    "start_seconds": 70,
+    "end_seconds": 150,
+    "length_seconds": 80,
+    "start_time_mmss": "01:10",
+    "end_time_mmss": "02:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

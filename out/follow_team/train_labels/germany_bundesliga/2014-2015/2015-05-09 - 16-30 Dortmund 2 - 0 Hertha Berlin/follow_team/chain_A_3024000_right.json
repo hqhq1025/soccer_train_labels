@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3025,
+  "video_id": "d903000a-ba9e-57b1-8693-4d437f8371b6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 3024.0,
+      "end": 3024.0,
+      "text": "Trigger: Shots on target by right @ 2 - 05:24"
+    },
+    {
+      "start": 3053.0,
+      "end": 3053.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 3086.0,
+      "end": 3086.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3024000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/segment_002990_003110.json",
+  "segment_meta": {
+    "start_seconds": 2990,
+    "end_seconds": 3110,
+    "length_seconds": 120,
+    "start_time_mmss": "49:50",
+    "end_time_mmss": "51:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

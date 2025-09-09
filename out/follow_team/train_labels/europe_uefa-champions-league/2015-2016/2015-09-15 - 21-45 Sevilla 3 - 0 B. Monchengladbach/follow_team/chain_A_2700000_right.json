@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5767,
+  "video_id": "15b6d116-838a-52e2-89f2-f361f5aa71e4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Kick-off}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 2700.0,
+      "end": 2700.0,
+      "text": "Trigger: Kick-off by right @ 2 - 00:00"
+    },
+    {
+      "start": 2720.0,
+      "end": 2720.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2700000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/segment_002670_002730.json",
+  "segment_meta": {
+    "start_seconds": 2670,
+    "end_seconds": 2730,
+    "length_seconds": 60,
+    "start_time_mmss": "44:30",
+    "end_time_mmss": "45:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

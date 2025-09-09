@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11172,
+  "video_id": "52348341-d967-5bdc-872b-64b70abfa414",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Shots on target}.",
+  "answer": [
+    {
+      "start": 3079.0,
+      "end": 3079.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 3083.0,
+      "end": 3083.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3079000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/segment_003050_003090.json",
+  "segment_meta": {
+    "start_seconds": 3050,
+    "end_seconds": 3090,
+    "length_seconds": 40,
+    "start_time_mmss": "50:50",
+    "end_time_mmss": "51:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

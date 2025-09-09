@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3149,
+  "video_id": "45499a1e-6191-5832-926d-d590d9936ebf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, keep following that team and alert me whenever {Indirect free-kick, Corner and Foul} happen.",
+  "answer": [
+    {
+      "start": 237.0,
+      "end": 237.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 03:57"
+    },
+    {
+      "start": 304.0,
+      "end": 304.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 330.0,
+      "end": 330.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 332.0,
+      "end": 332.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 237000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/segment_000220_000340.json",
+  "segment_meta": {
+    "start_seconds": 220,
+    "end_seconds": 340,
+    "length_seconds": 120,
+    "start_time_mmss": "03:40",
+    "end_time_mmss": "05:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14192,
+  "video_id": "c7baf89f-6cb9-5a33-ac26-9a819b8f199c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 2401.0,
+      "end": 2401.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2443.0,
+      "end": 2443.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2401000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/segment_002380_002480.json",
+  "segment_meta": {
+    "start_seconds": 2380,
+    "end_seconds": 2480,
+    "length_seconds": 100,
+    "start_time_mmss": "39:40",
+    "end_time_mmss": "41:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19281,
+  "video_id": "b63aacc1-ae33-5679-aed7-2dfe8624eeb5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 3417.0,
+      "end": 3417.0,
+      "text": "Trigger: Direct free-kick by right @ 2 - 11:57"
+    },
+    {
+      "start": 3448.0,
+      "end": 3448.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3417000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/segment_003390_003490.json",
+  "segment_meta": {
+    "start_seconds": 3390,
+    "end_seconds": 3490,
+    "length_seconds": 100,
+    "start_time_mmss": "56:30",
+    "end_time_mmss": "58:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

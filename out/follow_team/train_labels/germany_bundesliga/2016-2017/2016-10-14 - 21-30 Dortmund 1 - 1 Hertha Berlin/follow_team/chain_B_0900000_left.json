@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5094,
+  "video_id": "83bf3c5c-530f-588a-8f82-af0f3c6c8d43",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Shots on target}.",
+  "answer": [
+    {
+      "start": 900.0,
+      "end": 900.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 971.0,
+      "end": 971.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 900000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/segment_000890_000990.json",
+  "segment_meta": {
+    "start_seconds": 890,
+    "end_seconds": 990,
+    "length_seconds": 100,
+    "start_time_mmss": "14:50",
+    "end_time_mmss": "16:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

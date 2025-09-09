@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8585,
+  "video_id": "753e2b09-da43-53ea-83b3-cecba5867113",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 3291.0,
+      "end": 3291.0,
+      "text": "Trigger: Corner by left @ 2 - 09:51"
+    },
+    {
+      "start": 3298.0,
+      "end": 3298.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 3299.0,
+      "end": 3299.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3291000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/segment_003200_003300.json",
+  "segment_meta": {
+    "start_seconds": 3200,
+    "end_seconds": 3300,
+    "length_seconds": 100,
+    "start_time_mmss": "53:20",
+    "end_time_mmss": "55:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

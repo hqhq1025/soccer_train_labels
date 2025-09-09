@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6391,
+  "video_id": "92188eff-82fc-550c-aea0-edfb613608cc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Shots off target}.",
+  "answer": [
+    {
+      "start": 2014.0,
+      "end": 2014.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2058.0,
+      "end": 2058.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2014000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/segment_001950_002070.json",
+  "segment_meta": {
+    "start_seconds": 1950,
+    "end_seconds": 2070,
+    "length_seconds": 120,
+    "start_time_mmss": "32:30",
+    "end_time_mmss": "34:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

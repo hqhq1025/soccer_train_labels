@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8795,
+  "video_id": "cd5eeda5-1311-5eb5-93a7-1227f5a6cb18",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Offside} happen.",
+  "answer": [
+    {
+      "start": 2583.0,
+      "end": 2583.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2591.0,
+      "end": 2591.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2583000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/segment_002530_002650.json",
+  "segment_meta": {
+    "start_seconds": 2530,
+    "end_seconds": 2650,
+    "length_seconds": 120,
+    "start_time_mmss": "42:10",
+    "end_time_mmss": "44:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

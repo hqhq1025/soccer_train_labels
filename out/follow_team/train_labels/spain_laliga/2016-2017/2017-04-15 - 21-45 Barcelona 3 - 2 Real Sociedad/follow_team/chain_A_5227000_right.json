@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13245,
+  "video_id": "428c55f4-852e-5016-b926-14fcb980539f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 5227.0,
+      "end": 5227.0,
+      "text": "Trigger: Foul by right @ 2 - 42:07"
+    },
+    {
+      "start": 5233.0,
+      "end": 5233.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5227000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad/segment_005200_005240.json",
+  "segment_meta": {
+    "start_seconds": 5200,
+    "end_seconds": 5240,
+    "length_seconds": 40,
+    "start_time_mmss": "86:40",
+    "end_time_mmss": "87:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2174,
+  "video_id": "613834ec-4da4-5ac0-b082-df8540619cc0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Clearance}; then follow that team and report its {Shots on target}.",
+  "answer": [
+    {
+      "start": 583.0,
+      "end": 583.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 594.0,
+      "end": 594.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 583000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/segment_000540_000600.json",
+  "segment_meta": {
+    "start_seconds": 540,
+    "end_seconds": 600,
+    "length_seconds": 60,
+    "start_time_mmss": "09:00",
+    "end_time_mmss": "10:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

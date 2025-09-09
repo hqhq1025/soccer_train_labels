@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20806,
+  "video_id": "db773b7d-03b7-5866-af66-cc1a7dbb7226",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 192.0,
+      "end": 192.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 235.0,
+      "end": 235.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 192000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/segment_000160_000260.json",
+  "segment_meta": {
+    "start_seconds": 160,
+    "end_seconds": 260,
+    "length_seconds": 100,
+    "start_time_mmss": "02:40",
+    "end_time_mmss": "04:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

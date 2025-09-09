@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13969,
+  "video_id": "b353cc8c-1be0-5f73-a792-bb3074304717",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}.",
+  "answer": [
+    {
+      "start": 5420.0,
+      "end": 5420.0,
+      "text": "Trigger: Shots on target by right @ 2 - 45:20"
+    },
+    {
+      "start": 5421.0,
+      "end": 5421.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5420000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/segment_005330_005450.json",
+  "segment_meta": {
+    "start_seconds": 5330,
+    "end_seconds": 5450,
+    "length_seconds": 120,
+    "start_time_mmss": "88:50",
+    "end_time_mmss": "90:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

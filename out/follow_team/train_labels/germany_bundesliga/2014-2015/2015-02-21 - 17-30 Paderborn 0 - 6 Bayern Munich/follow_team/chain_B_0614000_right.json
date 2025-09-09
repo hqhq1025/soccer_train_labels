@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3168,
+  "video_id": "e9d6dc02-dd6b-565c-b68a-5b2cc1b7eba5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 614.0,
+      "end": 614.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 675.0,
+      "end": 675.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 614000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/segment_000580_000680.json",
+  "segment_meta": {
+    "start_seconds": 580,
+    "end_seconds": 680,
+    "length_seconds": 100,
+    "start_time_mmss": "09:40",
+    "end_time_mmss": "11:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

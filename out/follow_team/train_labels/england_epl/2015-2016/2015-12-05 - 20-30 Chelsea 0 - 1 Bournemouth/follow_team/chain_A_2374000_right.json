@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22275,
+  "video_id": "760b334e-92af-5fa4-835a-2d887099b6c8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 2374.0,
+      "end": 2374.0,
+      "text": "Trigger: Clearance by right @ 1 - 39:34"
+    },
+    {
+      "start": 2386.0,
+      "end": 2386.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2374000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/segment_002270_002390.json",
+  "segment_meta": {
+    "start_seconds": 2270,
+    "end_seconds": 2390,
+    "length_seconds": 120,
+    "start_time_mmss": "37:50",
+    "end_time_mmss": "39:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

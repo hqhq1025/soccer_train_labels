@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7306,
+  "video_id": "779c8468-12ae-50c7-b631-ced6b10f681f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 2574.0,
+      "end": 2574.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2589.0,
+      "end": 2589.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2574000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/segment_002560_002600.json",
+  "segment_meta": {
+    "start_seconds": 2560,
+    "end_seconds": 2600,
+    "length_seconds": 40,
+    "start_time_mmss": "42:40",
+    "end_time_mmss": "43:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

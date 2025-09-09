@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3216,
+  "video_id": "9adaa17b-a7e4-532c-9401-0136c0711c4f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 281.0,
+      "end": 281.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 300.0,
+      "end": 300.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 281000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/segment_000230_000330.json",
+  "segment_meta": {
+    "start_seconds": 230,
+    "end_seconds": 330,
+    "length_seconds": 100,
+    "start_time_mmss": "03:50",
+    "end_time_mmss": "05:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

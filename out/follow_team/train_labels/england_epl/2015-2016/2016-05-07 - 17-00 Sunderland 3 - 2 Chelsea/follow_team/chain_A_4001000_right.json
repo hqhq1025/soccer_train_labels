@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21095,
+  "video_id": "f6c233e2-22f0-5090-8bcf-ec654aaacd1c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 4001.0,
+      "end": 4001.0,
+      "text": "Trigger: Shots on target by right @ 2 - 21:41"
+    },
+    {
+      "start": 4002.0,
+      "end": 4002.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4001000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/segment_003970_004010.json",
+  "segment_meta": {
+    "start_seconds": 3970,
+    "end_seconds": 4010,
+    "length_seconds": 40,
+    "start_time_mmss": "66:10",
+    "end_time_mmss": "66:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

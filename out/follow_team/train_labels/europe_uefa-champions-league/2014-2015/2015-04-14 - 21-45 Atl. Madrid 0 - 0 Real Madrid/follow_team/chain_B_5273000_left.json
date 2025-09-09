@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8074,
+  "video_id": "0d944c0e-d6a2-5721-b2a9-b1128b375fff",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Clearance} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 5273.0,
+      "end": 5273.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 5278.0,
+      "end": 5278.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Atl. Madrid 0 - 0 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Atl. Madrid 0 - 0 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5273000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Atl. Madrid 0 - 0 Real Madrid/segment_005160_005280.json",
+  "segment_meta": {
+    "start_seconds": 5160,
+    "end_seconds": 5280,
+    "length_seconds": 120,
+    "start_time_mmss": "86:00",
+    "end_time_mmss": "88:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23086,
+  "video_id": "165537e7-3149-5b8c-a668-e73b14672839",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 611.0,
+      "end": 611.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 613.0,
+      "end": 613.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 611000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/segment_000580_000620.json",
+  "segment_meta": {
+    "start_seconds": 580,
+    "end_seconds": 620,
+    "length_seconds": 40,
+    "start_time_mmss": "09:40",
+    "end_time_mmss": "10:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

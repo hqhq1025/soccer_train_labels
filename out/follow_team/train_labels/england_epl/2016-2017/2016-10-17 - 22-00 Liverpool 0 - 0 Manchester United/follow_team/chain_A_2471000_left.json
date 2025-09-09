@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23277,
+  "video_id": "8fa836a7-88cf-56eb-87b1-74e292e892b7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 2471.0,
+      "end": 2471.0,
+      "text": "Trigger: Throw-in by left @ 1 - 41:11"
+    },
+    {
+      "start": 2506.0,
+      "end": 2506.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2471000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_002460_002560.json",
+  "segment_meta": {
+    "start_seconds": 2460,
+    "end_seconds": 2560,
+    "length_seconds": 100,
+    "start_time_mmss": "41:00",
+    "end_time_mmss": "42:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

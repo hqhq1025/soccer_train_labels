@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17128,
+  "video_id": "815f8341-99dc-5768-9be8-7c8de7092571",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Substitution}.",
+  "answer": [
+    {
+      "start": 5142.0,
+      "end": 5142.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 5174.0,
+      "end": 5174.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5142000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_005120_005240.json",
+  "segment_meta": {
+    "start_seconds": 5120,
+    "end_seconds": 5240,
+    "length_seconds": 120,
+    "start_time_mmss": "85:20",
+    "end_time_mmss": "87:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

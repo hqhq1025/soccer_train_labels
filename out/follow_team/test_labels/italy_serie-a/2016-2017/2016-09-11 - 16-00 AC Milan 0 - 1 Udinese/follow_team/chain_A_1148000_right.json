@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6631,
+  "video_id": "91045420-eea1-57f3-8c1b-42adf2969658",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Clearance} it makes.",
+  "answer": [
+    {
+      "start": 1148.0,
+      "end": 1148.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 1204.0,
+      "end": 1204.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1148000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/segment_001110_001210.json",
+  "segment_meta": {
+    "start_seconds": 1110,
+    "end_seconds": 1210,
+    "length_seconds": 100,
+    "start_time_mmss": "18:30",
+    "end_time_mmss": "20:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

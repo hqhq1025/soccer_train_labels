@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9201,
+  "video_id": "51897fc9-4be6-57d4-a3ba-b845c389f348",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 5302.0,
+      "end": 5302.0,
+      "text": "Trigger: Throw-in by left @ 2 - 43:22"
+    },
+    {
+      "start": 5309.0,
+      "end": 5309.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5302000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/segment_005250_005310.json",
+  "segment_meta": {
+    "start_seconds": 5250,
+    "end_seconds": 5310,
+    "length_seconds": 60,
+    "start_time_mmss": "87:30",
+    "end_time_mmss": "88:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

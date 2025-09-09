@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2628,
+  "video_id": "de13489f-f096-5773-9944-255e063822ad",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 5332.0,
+      "end": 5332.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 5380.0,
+      "end": 5380.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5332000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/segment_005310_005390.json",
+  "segment_meta": {
+    "start_seconds": 5310,
+    "end_seconds": 5390,
+    "length_seconds": 80,
+    "start_time_mmss": "88:30",
+    "end_time_mmss": "89:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14603,
+  "video_id": "1e2f0455-7352-52a5-8e3f-251911cd961d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 1821.0,
+      "end": 1821.0,
+      "text": "Trigger: Corner by left @ 1 - 30:21"
+    },
+    {
+      "start": 1870.0,
+      "end": 1870.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1821000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/segment_001800_001920.json",
+  "segment_meta": {
+    "start_seconds": 1800,
+    "end_seconds": 1920,
+    "length_seconds": 120,
+    "start_time_mmss": "30:00",
+    "end_time_mmss": "32:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

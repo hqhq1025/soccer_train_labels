@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17738,
+  "video_id": "cbc24944-b2a6-5e50-b647-4b0bb35467f1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Offside}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 280.0,
+      "end": 280.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 375.0,
+      "end": 375.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 280000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/segment_000270_000390.json",
+  "segment_meta": {
+    "start_seconds": 270,
+    "end_seconds": 390,
+    "length_seconds": 120,
+    "start_time_mmss": "04:30",
+    "end_time_mmss": "06:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

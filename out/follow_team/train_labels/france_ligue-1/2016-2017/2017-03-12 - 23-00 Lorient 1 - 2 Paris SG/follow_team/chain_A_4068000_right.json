@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1637,
+  "video_id": "252dbb95-5f5d-5d2c-a06b-5a7fa839f0bd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 4068.0,
+      "end": 4068.0,
+      "text": "Trigger: Corner by right @ 2 - 22:48"
+    },
+    {
+      "start": 4070.0,
+      "end": 4070.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 4071.0,
+      "end": 4071.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4068000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/segment_004000_004080.json",
+  "segment_meta": {
+    "start_seconds": 4000,
+    "end_seconds": 4080,
+    "length_seconds": 80,
+    "start_time_mmss": "66:40",
+    "end_time_mmss": "68:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

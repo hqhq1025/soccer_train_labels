@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3352,
+  "video_id": "c1daae22-8e63-5aef-a259-9a297113f6fd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 4440.0,
+      "end": 4440.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4464.0,
+      "end": 4464.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4440000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/segment_004380_004500.json",
+  "segment_meta": {
+    "start_seconds": 4380,
+    "end_seconds": 4500,
+    "length_seconds": 120,
+    "start_time_mmss": "73:00",
+    "end_time_mmss": "75:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

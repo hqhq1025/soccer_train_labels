@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22060,
+  "video_id": "d9475759-68d8-5295-96fa-9608adb6ebc0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Offside}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 200.0,
+      "end": 200.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 236.0,
+      "end": 236.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 200000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/segment_000180_000240.json",
+  "segment_meta": {
+    "start_seconds": 180,
+    "end_seconds": 240,
+    "length_seconds": 60,
+    "start_time_mmss": "03:00",
+    "end_time_mmss": "04:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

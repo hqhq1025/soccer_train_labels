@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12604,
+  "video_id": "e4a9d462-eb62-5c52-b4dd-739f63927e6a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Offside}.",
+  "answer": [
+    {
+      "start": 2451.0,
+      "end": 2451.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2478.0,
+      "end": 2478.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-10-29 - 17-15 Alaves 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-29 - 17-15 Alaves 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2451000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-29 - 17-15 Alaves 1 - 4 Real Madrid/segment_002410_002510.json",
+  "segment_meta": {
+    "start_seconds": 2410,
+    "end_seconds": 2510,
+    "length_seconds": 100,
+    "start_time_mmss": "40:10",
+    "end_time_mmss": "41:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

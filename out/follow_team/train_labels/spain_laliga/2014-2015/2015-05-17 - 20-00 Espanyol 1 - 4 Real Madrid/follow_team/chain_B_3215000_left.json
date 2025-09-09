@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11672,
+  "video_id": "aeefe2c2-d7ec-503e-a408-d167c6bfd0b1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Shots on target}.",
+  "answer": [
+    {
+      "start": 3215.0,
+      "end": 3215.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 3217.0,
+      "end": 3217.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3215000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/segment_003160_003220.json",
+  "segment_meta": {
+    "start_seconds": 3160,
+    "end_seconds": 3220,
+    "length_seconds": 60,
+    "start_time_mmss": "52:40",
+    "end_time_mmss": "53:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

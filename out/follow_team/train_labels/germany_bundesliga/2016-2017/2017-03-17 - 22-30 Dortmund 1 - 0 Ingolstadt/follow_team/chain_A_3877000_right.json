@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3997,
+  "video_id": "d1d1578a-0c97-556b-9f2e-aeb2a14c1dc6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Indirect free-kick and Foul}.",
+  "answer": [
+    {
+      "start": 3877.0,
+      "end": 3877.0,
+      "text": "Trigger: Throw-in by right @ 2 - 19:37"
+    },
+    {
+      "start": 3919.0,
+      "end": 3919.0,
+      "text": "Then: Indirect free-kick by right"
+    },
+    {
+      "start": 3944.0,
+      "end": 3944.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3877000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_003860_003980.json",
+  "segment_meta": {
+    "start_seconds": 3860,
+    "end_seconds": 3980,
+    "length_seconds": 120,
+    "start_time_mmss": "64:20",
+    "end_time_mmss": "66:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

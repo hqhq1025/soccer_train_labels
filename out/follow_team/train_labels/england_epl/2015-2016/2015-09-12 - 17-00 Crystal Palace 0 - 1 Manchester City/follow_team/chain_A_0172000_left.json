@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22181,
+  "video_id": "7be32d5b-4494-51c5-9ade-cdfb8879c502",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 172.0,
+      "end": 172.0,
+      "text": "Trigger: Throw-in by left @ 1 - 02:52"
+    },
+    {
+      "start": 182.0,
+      "end": 182.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 185.0,
+      "end": 185.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 172000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_000090_000210.json",
+  "segment_meta": {
+    "start_seconds": 90,
+    "end_seconds": 210,
+    "length_seconds": 120,
+    "start_time_mmss": "01:30",
+    "end_time_mmss": "03:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

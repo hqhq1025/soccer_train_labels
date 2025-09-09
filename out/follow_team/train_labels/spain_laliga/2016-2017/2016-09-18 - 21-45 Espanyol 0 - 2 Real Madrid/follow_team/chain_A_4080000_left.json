@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12499,
+  "video_id": "eab001b4-7aa4-5185-a463-84e688bd131a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Corner and Foul}.",
+  "answer": [
+    {
+      "start": 4080.0,
+      "end": 4080.0,
+      "text": "Trigger: Shots off target by left @ 2 - 23:00"
+    },
+    {
+      "start": 4112.0,
+      "end": 4112.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 4137.0,
+      "end": 4137.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-09-18 - 21-45 Espanyol 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-09-18 - 21-45 Espanyol 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4080000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-09-18 - 21-45 Espanyol 0 - 2 Real Madrid/segment_004040_004160.json",
+  "segment_meta": {
+    "start_seconds": 4040,
+    "end_seconds": 4160,
+    "length_seconds": 120,
+    "start_time_mmss": "67:20",
+    "end_time_mmss": "69:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

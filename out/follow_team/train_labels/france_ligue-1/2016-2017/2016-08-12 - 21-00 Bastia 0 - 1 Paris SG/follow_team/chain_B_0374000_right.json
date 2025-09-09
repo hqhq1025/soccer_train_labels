@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 746,
+  "video_id": "6ac9874c-4f26-5af4-84e5-885880f3b657",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Shots on target}.",
+  "answer": [
+    {
+      "start": 374.0,
+      "end": 374.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 376.0,
+      "end": 376.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 374000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/segment_000300_000380.json",
+  "segment_meta": {
+    "start_seconds": 300,
+    "end_seconds": 380,
+    "length_seconds": 80,
+    "start_time_mmss": "05:00",
+    "end_time_mmss": "06:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

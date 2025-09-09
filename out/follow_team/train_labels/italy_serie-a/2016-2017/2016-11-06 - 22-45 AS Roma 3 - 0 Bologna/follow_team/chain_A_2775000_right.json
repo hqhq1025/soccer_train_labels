@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19893,
+  "video_id": "317ded56-c228-5a32-a00b-2d68a38f2f7e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 2775.0,
+      "end": 2775.0,
+      "text": "Trigger: Throw-in by right @ 2 - 01:15"
+    },
+    {
+      "start": 2790.0,
+      "end": 2790.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2775000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/segment_002690_002810.json",
+  "segment_meta": {
+    "start_seconds": 2690,
+    "end_seconds": 2810,
+    "length_seconds": 120,
+    "start_time_mmss": "44:50",
+    "end_time_mmss": "46:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

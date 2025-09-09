@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9726,
+  "video_id": "89d406e3-a838-52d8-b7a5-bc9e79b6e978",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 4219.0,
+      "end": 4219.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4223.0,
+      "end": 4223.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4219000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/segment_004190_004230.json",
+  "segment_meta": {
+    "start_seconds": 4190,
+    "end_seconds": 4230,
+    "length_seconds": 40,
+    "start_time_mmss": "69:50",
+    "end_time_mmss": "70:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

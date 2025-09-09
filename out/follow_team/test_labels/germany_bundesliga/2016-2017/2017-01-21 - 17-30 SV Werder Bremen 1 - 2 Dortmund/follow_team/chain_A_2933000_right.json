@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1101,
+  "video_id": "fc45b728-64c3-5ffc-a902-dca5d2fd5702",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Shots on target}.",
+  "answer": [
+    {
+      "start": 2933.0,
+      "end": 2933.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2935.0,
+      "end": 2935.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2933000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/segment_002840_002960.json",
+  "segment_meta": {
+    "start_seconds": 2840,
+    "end_seconds": 2960,
+    "length_seconds": 120,
+    "start_time_mmss": "47:20",
+    "end_time_mmss": "49:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

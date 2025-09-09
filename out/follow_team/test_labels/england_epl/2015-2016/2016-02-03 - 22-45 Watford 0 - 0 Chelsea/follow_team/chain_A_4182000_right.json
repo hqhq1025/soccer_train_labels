@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8247,
+  "video_id": "0b1965ea-cd9a-50ce-92a8-dc5006e0c208",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4182.0,
+      "end": 4182.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4226.0,
+      "end": 4226.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-03 - 22-45 Watford 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2016-02-03 - 22-45 Watford 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4182000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2016-02-03 - 22-45 Watford 0 - 0 Chelsea/segment_004170_004230.json",
+  "segment_meta": {
+    "start_seconds": 4170,
+    "end_seconds": 4230,
+    "length_seconds": 60,
+    "start_time_mmss": "69:30",
+    "end_time_mmss": "70:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

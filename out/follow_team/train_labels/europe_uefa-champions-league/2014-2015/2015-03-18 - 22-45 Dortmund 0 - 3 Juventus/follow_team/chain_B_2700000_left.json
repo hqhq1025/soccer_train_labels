@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7482,
+  "video_id": "54fdf492-775b-517a-998c-f966e1c99f73",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 2700.0,
+      "end": 2700.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 2718.0,
+      "end": 2718.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2700000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/segment_002620_002720.json",
+  "segment_meta": {
+    "start_seconds": 2620,
+    "end_seconds": 2720,
+    "length_seconds": 100,
+    "start_time_mmss": "43:40",
+    "end_time_mmss": "45:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

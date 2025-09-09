@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16509,
+  "video_id": "09afd0b9-1161-5fd0-903f-9c16223b1fd8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Offside}.",
+  "answer": [
+    {
+      "start": 1570.0,
+      "end": 1570.0,
+      "text": "Trigger: Throw-in by right @ 1 - 26:10"
+    },
+    {
+      "start": 1594.0,
+      "end": 1594.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1570000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_001500_001600.json",
+  "segment_meta": {
+    "start_seconds": 1500,
+    "end_seconds": 1600,
+    "length_seconds": 100,
+    "start_time_mmss": "25:00",
+    "end_time_mmss": "26:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

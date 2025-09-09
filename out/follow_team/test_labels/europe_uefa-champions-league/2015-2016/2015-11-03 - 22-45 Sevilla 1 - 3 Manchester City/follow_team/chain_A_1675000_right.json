@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1963,
+  "video_id": "402dfe54-6d4e-5f37-b783-3a42cb6ed982",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 1675.0,
+      "end": 1675.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 1677.0,
+      "end": 1677.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Sevilla 1 - 3 Manchester City/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Sevilla 1 - 3 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1675000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Sevilla 1 - 3 Manchester City/segment_001570_001690.json",
+  "segment_meta": {
+    "start_seconds": 1570,
+    "end_seconds": 1690,
+    "length_seconds": 120,
+    "start_time_mmss": "26:10",
+    "end_time_mmss": "28:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

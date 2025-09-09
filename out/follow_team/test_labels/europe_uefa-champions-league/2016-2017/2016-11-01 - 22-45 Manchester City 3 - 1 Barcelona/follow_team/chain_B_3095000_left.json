@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2678,
+  "video_id": "ac5a2360-3f31-5885-a1a0-90d9680331ab",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 3095.0,
+      "end": 3095.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3098.0,
+      "end": 3098.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3095000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/segment_003040_003160.json",
+  "segment_meta": {
+    "start_seconds": 3040,
+    "end_seconds": 3160,
+    "length_seconds": 120,
+    "start_time_mmss": "50:40",
+    "end_time_mmss": "52:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

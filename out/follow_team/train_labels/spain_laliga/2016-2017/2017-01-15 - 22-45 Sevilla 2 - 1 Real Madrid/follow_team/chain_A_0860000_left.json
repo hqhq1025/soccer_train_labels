@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12585,
+  "video_id": "d8c20a2d-034b-5915-8c28-858fba0d5355",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots off target and Foul}.",
+  "answer": [
+    {
+      "start": 860.0,
+      "end": 860.0,
+      "text": "Trigger: Corner by left @ 1 - 14:20"
+    },
+    {
+      "start": 862.0,
+      "end": 862.0,
+      "text": "Then: Shots off target by left"
+    },
+    {
+      "start": 901.0,
+      "end": 901.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-15 - 22-45 Sevilla 2 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-15 - 22-45 Sevilla 2 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 860000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-15 - 22-45 Sevilla 2 - 1 Real Madrid/segment_000810_000930.json",
+  "segment_meta": {
+    "start_seconds": 810,
+    "end_seconds": 930,
+    "length_seconds": 120,
+    "start_time_mmss": "13:30",
+    "end_time_mmss": "15:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

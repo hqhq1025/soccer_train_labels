@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6861,
+  "video_id": "e6259ef5-0fd8-52b3-8882-eb81e8d87fe0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Offside}.",
+  "answer": [
+    {
+      "start": 2913.0,
+      "end": 2913.0,
+      "text": "Trigger: Foul by right @ 2 - 03:33"
+    },
+    {
+      "start": 2930.0,
+      "end": 2930.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2913000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/segment_002890_003010.json",
+  "segment_meta": {
+    "start_seconds": 2890,
+    "end_seconds": 3010,
+    "length_seconds": 120,
+    "start_time_mmss": "48:10",
+    "end_time_mmss": "50:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

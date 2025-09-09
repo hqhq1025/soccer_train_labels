@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6257,
+  "video_id": "1e67c860-2e91-53bf-8cd9-ce75e89e7e91",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 1399.0,
+      "end": 1399.0,
+      "text": "Trigger: Foul by left @ 1 - 23:19"
+    },
+    {
+      "start": 1424.0,
+      "end": 1424.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 1432.0,
+      "end": 1432.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Bayern Munich 5 - 1 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Bayern Munich 5 - 1 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1399000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Bayern Munich 5 - 1 Arsenal/segment_001380_001440.json",
+  "segment_meta": {
+    "start_seconds": 1380,
+    "end_seconds": 1440,
+    "length_seconds": 60,
+    "start_time_mmss": "23:00",
+    "end_time_mmss": "24:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

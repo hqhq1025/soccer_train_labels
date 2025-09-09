@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13939,
+  "video_id": "79f01384-79f7-5a85-aba8-bfc9a7e88ffc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 4762.0,
+      "end": 4762.0,
+      "text": "Trigger: Corner by left @ 2 - 34:22"
+    },
+    {
+      "start": 4780.0,
+      "end": 4780.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4762000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/segment_004750_004790.json",
+  "segment_meta": {
+    "start_seconds": 4750,
+    "end_seconds": 4790,
+    "length_seconds": 40,
+    "start_time_mmss": "79:10",
+    "end_time_mmss": "79:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

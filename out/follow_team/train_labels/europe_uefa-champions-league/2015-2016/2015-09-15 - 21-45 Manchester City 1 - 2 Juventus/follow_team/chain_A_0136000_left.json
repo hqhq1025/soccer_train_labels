@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6469,
+  "video_id": "665fe05a-19d5-5371-b388-7332f2eeb44c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 136.0,
+      "end": 136.0,
+      "text": "Trigger: Corner by left @ 1 - 02:16"
+    },
+    {
+      "start": 137.0,
+      "end": 137.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 136000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/segment_000120_000160.json",
+  "segment_meta": {
+    "start_seconds": 120,
+    "end_seconds": 160,
+    "length_seconds": 40,
+    "start_time_mmss": "02:00",
+    "end_time_mmss": "02:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

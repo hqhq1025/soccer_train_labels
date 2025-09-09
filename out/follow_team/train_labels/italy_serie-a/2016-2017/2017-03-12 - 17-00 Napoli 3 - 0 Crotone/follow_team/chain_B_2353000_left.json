@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16750,
+  "video_id": "6efd0f87-afbf-5047-8702-bbc7631dcce2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Offside}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 2353.0,
+      "end": 2353.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 2386.0,
+      "end": 2386.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2353000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/segment_002320_002420.json",
+  "segment_meta": {
+    "start_seconds": 2320,
+    "end_seconds": 2420,
+    "length_seconds": 100,
+    "start_time_mmss": "38:40",
+    "end_time_mmss": "40:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

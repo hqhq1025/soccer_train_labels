@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22737,
+  "video_id": "1fbafd30-ab2b-5f3f-b67f-976d079f5480",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 4209.0,
+      "end": 4209.0,
+      "text": "Trigger: Foul by left @ 2 - 25:09"
+    },
+    {
+      "start": 4269.0,
+      "end": 4269.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4209000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/segment_004150_004270.json",
+  "segment_meta": {
+    "start_seconds": 4150,
+    "end_seconds": 4270,
+    "length_seconds": 120,
+    "start_time_mmss": "69:10",
+    "end_time_mmss": "71:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6099,
+  "video_id": "631a0799-8181-52b1-b281-0db93eff3521",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in and Shots off target}.",
+  "answer": [
+    {
+      "start": 1509.0,
+      "end": 1509.0,
+      "text": "Trigger: Throw-in by left @ 1 - 25:09"
+    },
+    {
+      "start": 1519.0,
+      "end": 1519.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 1529.0,
+      "end": 1529.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1509000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/segment_001410_001530.json",
+  "segment_meta": {
+    "start_seconds": 1410,
+    "end_seconds": 1530,
+    "length_seconds": 120,
+    "start_time_mmss": "23:30",
+    "end_time_mmss": "25:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

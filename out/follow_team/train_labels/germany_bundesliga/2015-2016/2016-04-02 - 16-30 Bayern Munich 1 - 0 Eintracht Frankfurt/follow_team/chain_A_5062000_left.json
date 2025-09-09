@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2361,
+  "video_id": "16b51d7f-eec8-5640-9a79-8277a06cf6bf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 5062.0,
+      "end": 5062.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 39:22"
+    },
+    {
+      "start": 5109.0,
+      "end": 5109.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5062000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/segment_005010_005110.json",
+  "segment_meta": {
+    "start_seconds": 5010,
+    "end_seconds": 5110,
+    "length_seconds": 100,
+    "start_time_mmss": "83:30",
+    "end_time_mmss": "85:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

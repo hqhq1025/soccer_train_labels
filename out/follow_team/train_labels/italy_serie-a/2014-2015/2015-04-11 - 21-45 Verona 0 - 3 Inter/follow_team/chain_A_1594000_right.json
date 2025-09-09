@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16101,
+  "video_id": "77b4bd20-b0f7-5ef0-8762-1a61a30d79bc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Indirect free-kick and Throw-in}.",
+  "answer": [
+    {
+      "start": 1594.0,
+      "end": 1594.0,
+      "text": "Trigger: Foul by right @ 1 - 26:34"
+    },
+    {
+      "start": 1636.0,
+      "end": 1636.0,
+      "text": "Then: Indirect free-kick by right"
+    },
+    {
+      "start": 1646.0,
+      "end": 1646.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 1657.0,
+      "end": 1657.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1594000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/segment_001540_001660.json",
+  "segment_meta": {
+    "start_seconds": 1540,
+    "end_seconds": 1660,
+    "length_seconds": 120,
+    "start_time_mmss": "25:40",
+    "end_time_mmss": "27:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

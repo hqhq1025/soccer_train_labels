@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6575,
+  "video_id": "9e9647bf-e863-5b82-be46-06e2fc2a9291",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 182.0,
+      "end": 182.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 258.0,
+      "end": 258.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 182000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/segment_000140_000260.json",
+  "segment_meta": {
+    "start_seconds": 140,
+    "end_seconds": 260,
+    "length_seconds": 120,
+    "start_time_mmss": "02:20",
+    "end_time_mmss": "04:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

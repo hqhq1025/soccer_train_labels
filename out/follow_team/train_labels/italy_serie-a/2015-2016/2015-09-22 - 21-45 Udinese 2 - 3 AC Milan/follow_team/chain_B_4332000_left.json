@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15670,
+  "video_id": "2b919d36-5d59-5ed6-b0f4-df65411231c9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Substitution}.",
+  "answer": [
+    {
+      "start": 4332.0,
+      "end": 4332.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4358.0,
+      "end": 4358.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4332000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/segment_004320_004420.json",
+  "segment_meta": {
+    "start_seconds": 4320,
+    "end_seconds": 4420,
+    "length_seconds": 100,
+    "start_time_mmss": "72:00",
+    "end_time_mmss": "73:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

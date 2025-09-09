@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21604,
+  "video_id": "4d5b5066-01dd-55cf-844e-18c726ddd74f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 4191.0,
+      "end": 4191.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4205.0,
+      "end": 4205.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4191000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/segment_004150_004210.json",
+  "segment_meta": {
+    "start_seconds": 4150,
+    "end_seconds": 4210,
+    "length_seconds": 60,
+    "start_time_mmss": "69:10",
+    "end_time_mmss": "70:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

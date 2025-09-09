@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15994,
+  "video_id": "29366188-617c-55cf-8922-01b5dfc5ffab",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 2500.0,
+      "end": 2500.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 2513.0,
+      "end": 2513.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2500000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/segment_002400_002520.json",
+  "segment_meta": {
+    "start_seconds": 2400,
+    "end_seconds": 2520,
+    "length_seconds": 120,
+    "start_time_mmss": "40:00",
+    "end_time_mmss": "42:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

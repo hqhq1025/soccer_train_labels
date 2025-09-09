@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6590,
+  "video_id": "501d9adc-6b36-5a32-85f4-0a82b9566e8f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}.",
+  "answer": [
+    {
+      "start": 4489.0,
+      "end": 4489.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4490.0,
+      "end": 4490.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4489000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/segment_004460_004500.json",
+  "segment_meta": {
+    "start_seconds": 4460,
+    "end_seconds": 4500,
+    "length_seconds": 40,
+    "start_time_mmss": "74:20",
+    "end_time_mmss": "75:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11720,
+  "video_id": "8abfb76d-12b5-57c3-93ee-efe9aa78e248",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 5569.0,
+      "end": 5569.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 5599.0,
+      "end": 5599.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5569000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/segment_005520_005640.json",
+  "segment_meta": {
+    "start_seconds": 5520,
+    "end_seconds": 5640,
+    "length_seconds": 120,
+    "start_time_mmss": "92:00",
+    "end_time_mmss": "94:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

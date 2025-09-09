@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11340,
+  "video_id": "fa127690-2303-54d2-b297-99a19c0ddfc4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Goal}.",
+  "answer": [
+    {
+      "start": 3309.0,
+      "end": 3309.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3340.0,
+      "end": 3340.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3309000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/segment_003230_003350.json",
+  "segment_meta": {
+    "start_seconds": 3230,
+    "end_seconds": 3350,
+    "length_seconds": 120,
+    "start_time_mmss": "53:50",
+    "end_time_mmss": "55:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

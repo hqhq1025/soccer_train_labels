@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6543,
+  "video_id": "4e059b7b-bdb9-5cb4-a0a3-c2618ccea2d9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3097.0,
+      "end": 3097.0,
+      "text": "Trigger: Foul by left @ 2 - 06:37"
+    },
+    {
+      "start": 3117.0,
+      "end": 3117.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Atl. Madrid 2 - 0 Galatasaray/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Atl. Madrid 2 - 0 Galatasaray/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3097000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Atl. Madrid 2 - 0 Galatasaray/segment_003090_003190.json",
+  "segment_meta": {
+    "start_seconds": 3090,
+    "end_seconds": 3190,
+    "length_seconds": 100,
+    "start_time_mmss": "51:30",
+    "end_time_mmss": "53:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

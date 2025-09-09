@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21542,
+  "video_id": "2229f4d1-8c18-5bad-bb93-3aead3717c0f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 4939.0,
+      "end": 4939.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4966.0,
+      "end": 4966.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-02 - 23-00 Liverpool 3 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-02 - 23-00 Liverpool 3 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4939000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-02 - 23-00 Liverpool 3 - 0 Manchester City/segment_004910_004970.json",
+  "segment_meta": {
+    "start_seconds": 4910,
+    "end_seconds": 4970,
+    "length_seconds": 60,
+    "start_time_mmss": "81:50",
+    "end_time_mmss": "82:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

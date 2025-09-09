@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14059,
+  "video_id": "264b1974-5d90-569e-8ec3-aa37f6a07c43",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 1254.0,
+      "end": 1254.0,
+      "text": "Trigger: Throw-in by left @ 1 - 20:54"
+    },
+    {
+      "start": 1322.0,
+      "end": 1322.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1254000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/segment_001230_001350.json",
+  "segment_meta": {
+    "start_seconds": 1230,
+    "end_seconds": 1350,
+    "length_seconds": 120,
+    "start_time_mmss": "20:30",
+    "end_time_mmss": "22:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

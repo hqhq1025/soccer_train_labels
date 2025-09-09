@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7589,
+  "video_id": "e2033831-25b8-53fe-9319-a22124b62500",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 4014.0,
+      "end": 4014.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4041.0,
+      "end": 4041.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4014000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/segment_003950_004050.json",
+  "segment_meta": {
+    "start_seconds": 3950,
+    "end_seconds": 4050,
+    "length_seconds": 100,
+    "start_time_mmss": "65:50",
+    "end_time_mmss": "67:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

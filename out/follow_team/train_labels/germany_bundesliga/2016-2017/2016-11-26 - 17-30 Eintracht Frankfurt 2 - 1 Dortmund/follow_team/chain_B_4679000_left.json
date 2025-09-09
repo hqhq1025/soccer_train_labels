@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3966,
+  "video_id": "312ac46e-7920-5084-9ee0-90a0c9812b0e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Goal}.",
+  "answer": [
+    {
+      "start": 4679.0,
+      "end": 4679.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4680.0,
+      "end": 4680.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4679000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/segment_004650_004690.json",
+  "segment_meta": {
+    "start_seconds": 4650,
+    "end_seconds": 4690,
+    "length_seconds": 40,
+    "start_time_mmss": "77:30",
+    "end_time_mmss": "78:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

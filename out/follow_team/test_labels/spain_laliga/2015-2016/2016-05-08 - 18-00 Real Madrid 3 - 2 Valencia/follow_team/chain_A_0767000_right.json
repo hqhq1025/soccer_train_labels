@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3213,
+  "video_id": "f36ab924-ce5c-5894-8ab2-03c3e399d38c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 767.0,
+      "end": 767.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 774.0,
+      "end": 774.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 767000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/segment_000740_000780.json",
+  "segment_meta": {
+    "start_seconds": 740,
+    "end_seconds": 780,
+    "length_seconds": 40,
+    "start_time_mmss": "12:20",
+    "end_time_mmss": "13:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

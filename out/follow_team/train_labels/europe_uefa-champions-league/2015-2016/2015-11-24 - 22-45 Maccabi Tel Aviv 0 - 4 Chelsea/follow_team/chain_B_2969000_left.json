@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6864,
+  "video_id": "e6259ef5-0fd8-52b3-8882-eb81e8d87fe0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner}.",
+  "answer": [
+    {
+      "start": 2969.0,
+      "end": 2969.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2998.0,
+      "end": 2998.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2969000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/segment_002890_003010.json",
+  "segment_meta": {
+    "start_seconds": 2890,
+    "end_seconds": 3010,
+    "length_seconds": 120,
+    "start_time_mmss": "48:10",
+    "end_time_mmss": "50:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

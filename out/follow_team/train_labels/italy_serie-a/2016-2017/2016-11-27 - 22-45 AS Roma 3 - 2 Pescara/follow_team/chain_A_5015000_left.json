@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18837,
+  "video_id": "efc650d7-2288-5f80-a030-12cf9c1bf16a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Clearance and Foul}.",
+  "answer": [
+    {
+      "start": 5015.0,
+      "end": 5015.0,
+      "text": "Trigger: Shots on target by left @ 2 - 38:35"
+    },
+    {
+      "start": 5084.0,
+      "end": 5084.0,
+      "text": "Then: Clearance by left"
+    },
+    {
+      "start": 5094.0,
+      "end": 5094.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5015000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/segment_005000_005120.json",
+  "segment_meta": {
+    "start_seconds": 5000,
+    "end_seconds": 5120,
+    "length_seconds": 120,
+    "start_time_mmss": "83:20",
+    "end_time_mmss": "85:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

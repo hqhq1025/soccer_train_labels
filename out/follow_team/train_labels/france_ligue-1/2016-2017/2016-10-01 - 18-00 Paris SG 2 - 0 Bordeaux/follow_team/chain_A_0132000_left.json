@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1831,
+  "video_id": "52c39c30-1388-53d4-af20-518d57667e82",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Goal}.",
+  "answer": [
+    {
+      "start": 132.0,
+      "end": 132.0,
+      "text": "Trigger: Shots on target by left @ 1 - 02:12"
+    },
+    {
+      "start": 133.0,
+      "end": 133.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 132000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/segment_000100_000140.json",
+  "segment_meta": {
+    "start_seconds": 100,
+    "end_seconds": 140,
+    "length_seconds": 40,
+    "start_time_mmss": "01:40",
+    "end_time_mmss": "02:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3044,
+  "video_id": "c433408b-f7fc-562e-92a9-ba6ac2b41e21",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Yellow card}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 3141.0,
+      "end": 3141.0,
+      "text": "Trigger: Yellow card by left"
+    },
+    {
+      "start": 3201.0,
+      "end": 3201.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3141000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/segment_003130_003250.json",
+  "segment_meta": {
+    "start_seconds": 3130,
+    "end_seconds": 3250,
+    "length_seconds": 120,
+    "start_time_mmss": "52:10",
+    "end_time_mmss": "54:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

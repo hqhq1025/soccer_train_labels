@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17880,
+  "video_id": "4154840f-f197-5fa9-8c50-5f83ab7f4147",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 1809.0,
+      "end": 1809.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 1837.0,
+      "end": 1837.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1809000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_001760_001840.json",
+  "segment_meta": {
+    "start_seconds": 1760,
+    "end_seconds": 1840,
+    "length_seconds": 80,
+    "start_time_mmss": "29:20",
+    "end_time_mmss": "30:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

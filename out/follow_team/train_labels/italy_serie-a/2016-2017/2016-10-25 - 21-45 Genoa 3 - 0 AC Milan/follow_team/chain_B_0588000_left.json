@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17376,
+  "video_id": "d495fd7d-4c1d-543c-a888-449b4353e21c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 588.0,
+      "end": 588.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 608.0,
+      "end": 608.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 588000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/segment_000510_000630.json",
+  "segment_meta": {
+    "start_seconds": 510,
+    "end_seconds": 630,
+    "length_seconds": 120,
+    "start_time_mmss": "08:30",
+    "end_time_mmss": "10:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

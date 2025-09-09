@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23033,
+  "video_id": "f9a056ee-ca56-5192-bb9f-374e0c18189e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Offside}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 167.0,
+      "end": 167.0,
+      "text": "Trigger: Offside by right @ 1 - 02:47"
+    },
+    {
+      "start": 224.0,
+      "end": 224.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 167000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/segment_000150_000230.json",
+  "segment_meta": {
+    "start_seconds": 150,
+    "end_seconds": 230,
+    "length_seconds": 80,
+    "start_time_mmss": "02:30",
+    "end_time_mmss": "03:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

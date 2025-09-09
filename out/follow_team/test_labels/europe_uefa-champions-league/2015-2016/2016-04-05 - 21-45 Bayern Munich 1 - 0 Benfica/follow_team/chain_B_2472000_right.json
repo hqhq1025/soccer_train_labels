@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1796,
+  "video_id": "05a5afa4-8fcd-5732-81b6-adaf3ecf7e06",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 2472.0,
+      "end": 2472.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 2476.0,
+      "end": 2476.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2472000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/segment_002360_002480.json",
+  "segment_meta": {
+    "start_seconds": 2360,
+    "end_seconds": 2480,
+    "length_seconds": 120,
+    "start_time_mmss": "39:20",
+    "end_time_mmss": "41:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

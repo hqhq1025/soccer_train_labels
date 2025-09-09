@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21945,
+  "video_id": "2bb567f8-406c-5c39-99c0-60a54dcd3900",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 2065.0,
+      "end": 2065.0,
+      "text": "Trigger: Clearance by left @ 1 - 34:25"
+    },
+    {
+      "start": 2076.0,
+      "end": 2076.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2065000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/segment_001980_002080.json",
+  "segment_meta": {
+    "start_seconds": 1980,
+    "end_seconds": 2080,
+    "length_seconds": 100,
+    "start_time_mmss": "33:00",
+    "end_time_mmss": "34:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

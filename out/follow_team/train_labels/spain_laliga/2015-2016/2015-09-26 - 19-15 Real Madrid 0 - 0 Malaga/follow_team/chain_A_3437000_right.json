@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10119,
+  "video_id": "2a500bdc-4b84-52ff-ab6f-ae353bf20c7c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Corner and Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 3437.0,
+      "end": 3437.0,
+      "text": "Trigger: Shots on target by right @ 2 - 12:17"
+    },
+    {
+      "start": 3460.0,
+      "end": 3460.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 3482.0,
+      "end": 3482.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3437000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/segment_003410_003510.json",
+  "segment_meta": {
+    "start_seconds": 3410,
+    "end_seconds": 3510,
+    "length_seconds": 100,
+    "start_time_mmss": "56:50",
+    "end_time_mmss": "58:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

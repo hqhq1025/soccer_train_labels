@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16651,
+  "video_id": "8ad0c075-8d36-5f59-93cb-ab5f9d46a358",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 3365.0,
+      "end": 3365.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 11:05"
+    },
+    {
+      "start": 3407.0,
+      "end": 3407.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3365000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/segment_003340_003440.json",
+  "segment_meta": {
+    "start_seconds": 3340,
+    "end_seconds": 3440,
+    "length_seconds": 100,
+    "start_time_mmss": "55:40",
+    "end_time_mmss": "57:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

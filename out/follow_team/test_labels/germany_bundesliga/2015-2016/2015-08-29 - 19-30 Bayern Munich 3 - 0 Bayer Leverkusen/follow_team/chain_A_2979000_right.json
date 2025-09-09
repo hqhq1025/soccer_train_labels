@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 343,
+  "video_id": "3ab783d0-669a-5c76-9605-8601aa31885c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 2979.0,
+      "end": 2979.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2984.0,
+      "end": 2984.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2979000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/segment_002900_003020.json",
+  "segment_meta": {
+    "start_seconds": 2900,
+    "end_seconds": 3020,
+    "length_seconds": 120,
+    "start_time_mmss": "48:20",
+    "end_time_mmss": "50:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

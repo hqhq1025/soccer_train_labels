@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12863,
+  "video_id": "7aa549d9-78fb-5d7c-9462-6483fff5f5b9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 4031.0,
+      "end": 4031.0,
+      "text": "Trigger: Shots off target by left @ 2 - 22:11"
+    },
+    {
+      "start": 4089.0,
+      "end": 4089.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-14 - 18-15 Barcelona 5 - 0 Las Palmas/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-14 - 18-15 Barcelona 5 - 0 Las Palmas/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4031000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-14 - 18-15 Barcelona 5 - 0 Las Palmas/segment_003990_004110.json",
+  "segment_meta": {
+    "start_seconds": 3990,
+    "end_seconds": 4110,
+    "length_seconds": 120,
+    "start_time_mmss": "66:30",
+    "end_time_mmss": "68:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

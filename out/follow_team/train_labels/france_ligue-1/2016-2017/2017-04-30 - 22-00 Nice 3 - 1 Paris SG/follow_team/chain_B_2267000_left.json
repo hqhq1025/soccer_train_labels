@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 982,
+  "video_id": "b97e2d07-792e-5861-b12a-a0c4b7319638",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 2267.0,
+      "end": 2267.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2284.0,
+      "end": 2284.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2267000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/segment_002240_002360.json",
+  "segment_meta": {
+    "start_seconds": 2240,
+    "end_seconds": 2360,
+    "length_seconds": 120,
+    "start_time_mmss": "37:20",
+    "end_time_mmss": "39:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

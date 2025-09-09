@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1578,
+  "video_id": "a026d94c-4d8c-5aa2-a1a2-7d8b8069049e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Direct free-kick}.",
+  "answer": [
+    {
+      "start": 467.0,
+      "end": 467.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 530.0,
+      "end": 530.0,
+      "text": "Then: Direct free-kick by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 467000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/segment_000450_000570.json",
+  "segment_meta": {
+    "start_seconds": 450,
+    "end_seconds": 570,
+    "length_seconds": 120,
+    "start_time_mmss": "07:30",
+    "end_time_mmss": "09:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

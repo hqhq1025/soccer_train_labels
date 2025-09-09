@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10202,
+  "video_id": "6387677a-720c-5e31-85e6-9f8779f6eff1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots on target}.",
+  "answer": [
+    {
+      "start": 5410.0,
+      "end": 5410.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 5425.0,
+      "end": 5425.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5410000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/segment_005350_005430.json",
+  "segment_meta": {
+    "start_seconds": 5350,
+    "end_seconds": 5430,
+    "length_seconds": 80,
+    "start_time_mmss": "89:10",
+    "end_time_mmss": "90:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

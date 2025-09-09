@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 787,
+  "video_id": "5777b69d-e645-59e0-acaa-8bb4de41bf0a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 5160.0,
+      "end": 5160.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5187.0,
+      "end": 5187.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5160000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/segment_005070_005190.json",
+  "segment_meta": {
+    "start_seconds": 5070,
+    "end_seconds": 5190,
+    "length_seconds": 120,
+    "start_time_mmss": "84:30",
+    "end_time_mmss": "86:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

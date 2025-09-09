@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19200,
+  "video_id": "02d0c17e-46c7-50d1-9ecb-0ab00b57a1a0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 3915.0,
+      "end": 3915.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 3974.0,
+      "end": 3974.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3915000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/segment_003900_004000.json",
+  "segment_meta": {
+    "start_seconds": 3900,
+    "end_seconds": 4000,
+    "length_seconds": 100,
+    "start_time_mmss": "65:00",
+    "end_time_mmss": "66:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

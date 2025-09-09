@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5005,
+  "video_id": "f2d98bf7-0d85-5236-b65c-8de125fe8c35",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Substitution and Foul}.",
+  "answer": [
+    {
+      "start": 4245.0,
+      "end": 4245.0,
+      "text": "Trigger: Foul by left @ 2 - 25:45"
+    },
+    {
+      "start": 4257.0,
+      "end": 4257.0,
+      "text": "Then: Substitution by left"
+    },
+    {
+      "start": 4299.0,
+      "end": 4299.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4245000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/segment_004230_004310.json",
+  "segment_meta": {
+    "start_seconds": 4230,
+    "end_seconds": 4310,
+    "length_seconds": 80,
+    "start_time_mmss": "70:30",
+    "end_time_mmss": "71:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

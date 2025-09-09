@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2648,
+  "video_id": "34481bda-2769-580b-9ac9-0bbc85aed5ac",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "answer": [
+    {
+      "start": 3818.0,
+      "end": 3818.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 3819.0,
+      "end": 3819.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3818000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/segment_003780_003820.json",
+  "segment_meta": {
+    "start_seconds": 3780,
+    "end_seconds": 3820,
+    "length_seconds": 40,
+    "start_time_mmss": "63:00",
+    "end_time_mmss": "63:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

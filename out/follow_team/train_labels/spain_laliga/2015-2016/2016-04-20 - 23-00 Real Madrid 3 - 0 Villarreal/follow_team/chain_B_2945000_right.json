@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10714,
+  "video_id": "2dcbb2ce-30ed-5e68-bc53-7aa2351b7919",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 2945.0,
+      "end": 2945.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2952.0,
+      "end": 2952.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2945000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/segment_002900_002960.json",
+  "segment_meta": {
+    "start_seconds": 2900,
+    "end_seconds": 2960,
+    "length_seconds": 60,
+    "start_time_mmss": "48:20",
+    "end_time_mmss": "49:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

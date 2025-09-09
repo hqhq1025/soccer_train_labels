@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7106,
+  "video_id": "36777296-7b5a-5a0b-8c0e-5284b0bd16b5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 36000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/segment_000010_000130.json",
+  "segment_meta": {
+    "start_seconds": 10,
+    "end_seconds": 130,
+    "length_seconds": 120,
+    "start_time_mmss": "00:10",
+    "end_time_mmss": "02:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

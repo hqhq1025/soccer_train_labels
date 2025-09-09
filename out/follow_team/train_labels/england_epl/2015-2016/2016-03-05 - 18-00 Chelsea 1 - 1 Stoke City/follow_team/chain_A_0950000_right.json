@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21335,
+  "video_id": "9b5be19c-5d32-556d-bc28-4acb0b263f68",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Clearance}, stick with that team and alert me for {Shots on target and Throw-in}.",
+  "answer": [
+    {
+      "start": 950.0,
+      "end": 950.0,
+      "text": "Trigger: Clearance by right @ 1 - 15:50"
+    },
+    {
+      "start": 981.0,
+      "end": 981.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 988.0,
+      "end": 988.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 950000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/segment_000870_000990.json",
+  "segment_meta": {
+    "start_seconds": 870,
+    "end_seconds": 990,
+    "length_seconds": 120,
+    "start_time_mmss": "14:30",
+    "end_time_mmss": "16:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

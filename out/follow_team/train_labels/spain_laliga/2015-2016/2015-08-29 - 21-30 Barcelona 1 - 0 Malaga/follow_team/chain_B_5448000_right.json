@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11254,
+  "video_id": "c4f96002-c228-5d3b-959c-d77004445b64",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Direct free-kick} it makes.",
+  "answer": [
+    {
+      "start": 5448.0,
+      "end": 5448.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 5499.0,
+      "end": 5499.0,
+      "text": "Then: Direct free-kick by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5448000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/segment_005410_005500.json",
+  "segment_meta": {
+    "start_seconds": 5410,
+    "end_seconds": 5500,
+    "length_seconds": 90,
+    "start_time_mmss": "90:10",
+    "end_time_mmss": "91:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

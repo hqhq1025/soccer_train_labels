@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23634,
+  "video_id": "35a3e710-9554-5570-845f-11fd075a76c7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 532.0,
+      "end": 532.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 537.0,
+      "end": 537.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 532000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/segment_000480_000540.json",
+  "segment_meta": {
+    "start_seconds": 480,
+    "end_seconds": 540,
+    "length_seconds": 60,
+    "start_time_mmss": "08:00",
+    "end_time_mmss": "09:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

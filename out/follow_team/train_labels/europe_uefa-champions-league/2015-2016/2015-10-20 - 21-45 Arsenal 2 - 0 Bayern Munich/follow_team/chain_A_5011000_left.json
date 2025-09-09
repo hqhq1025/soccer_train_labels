@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7009,
+  "video_id": "f1c2d378-2cbf-5f24-96fd-9d308ef076a3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 5011.0,
+      "end": 5011.0,
+      "text": "Trigger: Throw-in by left @ 2 - 38:31"
+    },
+    {
+      "start": 5040.0,
+      "end": 5040.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5011000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/segment_004980_005100.json",
+  "segment_meta": {
+    "start_seconds": 4980,
+    "end_seconds": 5100,
+    "length_seconds": 120,
+    "start_time_mmss": "83:00",
+    "end_time_mmss": "85:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

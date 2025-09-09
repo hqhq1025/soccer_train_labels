@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8316,
+  "video_id": "7a9862e1-0d32-5403-9fe3-d91150bbbb27",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 281.0,
+      "end": 281.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 303.0,
+      "end": 303.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 281000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/segment_000250_000350.json",
+  "segment_meta": {
+    "start_seconds": 250,
+    "end_seconds": 350,
+    "length_seconds": 100,
+    "start_time_mmss": "04:10",
+    "end_time_mmss": "05:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

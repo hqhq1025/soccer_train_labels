@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16835,
+  "video_id": "ec069177-68a4-5758-8063-52471543be80",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Clearance and Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2855.0,
+      "end": 2855.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 02:35"
+    },
+    {
+      "start": 2900.0,
+      "end": 2900.0,
+      "text": "Then: Clearance by right"
+    },
+    {
+      "start": 2933.0,
+      "end": 2933.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2855000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/segment_002840_002940.json",
+  "segment_meta": {
+    "start_seconds": 2840,
+    "end_seconds": 2940,
+    "length_seconds": 100,
+    "start_time_mmss": "47:20",
+    "end_time_mmss": "49:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

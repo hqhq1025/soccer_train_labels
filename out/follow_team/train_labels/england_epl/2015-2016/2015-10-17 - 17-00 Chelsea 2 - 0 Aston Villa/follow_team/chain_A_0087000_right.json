@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21799,
+  "video_id": "a45e2cf7-78f6-577b-a7e7-ccf18b43f0b3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 87.0,
+      "end": 87.0,
+      "text": "Trigger: Throw-in by right @ 1 - 01:27"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 87000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/segment_000030_000150.json",
+  "segment_meta": {
+    "start_seconds": 30,
+    "end_seconds": 150,
+    "length_seconds": 120,
+    "start_time_mmss": "00:30",
+    "end_time_mmss": "02:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

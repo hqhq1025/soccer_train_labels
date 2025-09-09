@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14556,
+  "video_id": "530bf05d-a63b-5694-884f-50681520fff7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 5434.0,
+      "end": 5434.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5440.0,
+      "end": 5440.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5434000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/segment_005370_005450.json",
+  "segment_meta": {
+    "start_seconds": 5370,
+    "end_seconds": 5450,
+    "length_seconds": 80,
+    "start_time_mmss": "89:30",
+    "end_time_mmss": "90:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

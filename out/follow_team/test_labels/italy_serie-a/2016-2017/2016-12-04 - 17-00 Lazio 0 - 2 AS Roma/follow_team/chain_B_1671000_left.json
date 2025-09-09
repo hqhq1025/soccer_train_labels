@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6430,
+  "video_id": "d6def6bc-e64e-529f-8e27-9369b44622fb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 1671.0,
+      "end": 1671.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 1687.0,
+      "end": 1687.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1671000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/segment_001650_001690.json",
+  "segment_meta": {
+    "start_seconds": 1650,
+    "end_seconds": 1690,
+    "length_seconds": 40,
+    "start_time_mmss": "27:30",
+    "end_time_mmss": "28:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

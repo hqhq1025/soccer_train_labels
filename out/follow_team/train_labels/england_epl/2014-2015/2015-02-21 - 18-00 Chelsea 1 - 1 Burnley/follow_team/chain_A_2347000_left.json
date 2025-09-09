@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22923,
+  "video_id": "439d009a-d6be-5991-96a8-5e9987a005ec",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 2347.0,
+      "end": 2347.0,
+      "text": "Trigger: Foul by left @ 1 - 39:07"
+    },
+    {
+      "start": 2361.0,
+      "end": 2361.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Chelsea 1 - 1 Burnley/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Chelsea 1 - 1 Burnley/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2347000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Chelsea 1 - 1 Burnley/segment_002270_002370.json",
+  "segment_meta": {
+    "start_seconds": 2270,
+    "end_seconds": 2370,
+    "length_seconds": 100,
+    "start_time_mmss": "37:50",
+    "end_time_mmss": "39:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

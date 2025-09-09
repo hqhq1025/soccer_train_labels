@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22409,
+  "video_id": "333c94e6-b5fc-50ab-ac70-cb0228a2fbb2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 550.0,
+      "end": 550.0,
+      "text": "Trigger: Corner by left @ 1 - 09:10"
+    },
+    {
+      "start": 578.0,
+      "end": 578.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 599.0,
+      "end": 599.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 550000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/segment_000480_000600.json",
+  "segment_meta": {
+    "start_seconds": 480,
+    "end_seconds": 600,
+    "length_seconds": 120,
+    "start_time_mmss": "08:00",
+    "end_time_mmss": "10:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

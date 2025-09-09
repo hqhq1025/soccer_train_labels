@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3654,
+  "video_id": "417b009e-48ba-5543-8d62-64a2b5e15280",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Yellow card}, start tracking that team; notify me on its {Offside}.",
+  "answer": [
+    {
+      "start": 5308.0,
+      "end": 5308.0,
+      "text": "Trigger: Yellow card by right"
+    },
+    {
+      "start": 5348.0,
+      "end": 5348.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5308000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_005240_005360.json",
+  "segment_meta": {
+    "start_seconds": 5240,
+    "end_seconds": 5360,
+    "length_seconds": 120,
+    "start_time_mmss": "87:20",
+    "end_time_mmss": "89:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

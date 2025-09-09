@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6709,
+  "video_id": "16d84a86-913e-566a-9615-f4abc0703ce9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 2960.0,
+      "end": 2960.0,
+      "text": "Trigger: Foul by right @ 2 - 04:20"
+    },
+    {
+      "start": 2988.0,
+      "end": 2988.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2960000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/segment_002930_002990.json",
+  "segment_meta": {
+    "start_seconds": 2930,
+    "end_seconds": 2990,
+    "length_seconds": 60,
+    "start_time_mmss": "48:50",
+    "end_time_mmss": "49:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11066,
+  "video_id": "f9e685e8-8c52-5be8-8d28-e546f00dcb4e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 2356.0,
+      "end": 2356.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2357.0,
+      "end": 2357.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2356000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/segment_002280_002360.json",
+  "segment_meta": {
+    "start_seconds": 2280,
+    "end_seconds": 2360,
+    "length_seconds": 80,
+    "start_time_mmss": "38:00",
+    "end_time_mmss": "39:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

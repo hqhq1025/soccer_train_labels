@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1631,
+  "video_id": "e970618f-6076-50d3-ae1d-0e980682c851",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in and Direct free-kick} happen.",
+  "answer": [
+    {
+      "start": 2810.0,
+      "end": 2810.0,
+      "text": "Trigger: Throw-in by left @ 2 - 01:50"
+    },
+    {
+      "start": 2831.0,
+      "end": 2831.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 2864.0,
+      "end": 2864.0,
+      "text": "Then: Direct free-kick by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2810000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/segment_002790_002910.json",
+  "segment_meta": {
+    "start_seconds": 2790,
+    "end_seconds": 2910,
+    "length_seconds": 120,
+    "start_time_mmss": "46:30",
+    "end_time_mmss": "48:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2967,
+  "video_id": "6cca5d75-5208-5d10-bbe2-d85d73c6a54e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 3451.0,
+      "end": 3451.0,
+      "text": "Trigger: Corner by right @ 2 - 12:31"
+    },
+    {
+      "start": 3461.0,
+      "end": 3461.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3451000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/segment_003390_003470.json",
+  "segment_meta": {
+    "start_seconds": 3390,
+    "end_seconds": 3470,
+    "length_seconds": 80,
+    "start_time_mmss": "56:30",
+    "end_time_mmss": "57:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

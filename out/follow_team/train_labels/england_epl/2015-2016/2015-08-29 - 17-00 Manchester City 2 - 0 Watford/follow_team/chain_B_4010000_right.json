@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21294,
+  "video_id": "e09e00f9-841d-5dfb-88e3-f0db15ccc75e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 4010.0,
+      "end": 4010.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4051.0,
+      "end": 4051.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Manchester City 2 - 0 Watford/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Manchester City 2 - 0 Watford/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4010000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Manchester City 2 - 0 Watford/segment_004000_004100.json",
+  "segment_meta": {
+    "start_seconds": 4000,
+    "end_seconds": 4100,
+    "length_seconds": 100,
+    "start_time_mmss": "66:40",
+    "end_time_mmss": "68:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8417,
+  "video_id": "af7954c4-bbc9-5190-95e1-77cb36062af5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 857.0,
+      "end": 857.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 933.0,
+      "end": 933.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-05-17 - 18-00 Manchester United 1 - 1 Arsenal/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2014-2015/2015-05-17 - 18-00 Manchester United 1 - 1 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 857000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2014-2015/2015-05-17 - 18-00 Manchester United 1 - 1 Arsenal/segment_000820_000940.json",
+  "segment_meta": {
+    "start_seconds": 820,
+    "end_seconds": 940,
+    "length_seconds": 120,
+    "start_time_mmss": "13:40",
+    "end_time_mmss": "15:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

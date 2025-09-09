@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1588,
+  "video_id": "7c3af629-a3ef-5da8-bfae-445ab11625d5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Shots off target}.",
+  "answer": [
+    {
+      "start": 4891.0,
+      "end": 4891.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4953.0,
+      "end": 4953.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4891000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/segment_004880_004960.json",
+  "segment_meta": {
+    "start_seconds": 4880,
+    "end_seconds": 4960,
+    "length_seconds": 80,
+    "start_time_mmss": "81:20",
+    "end_time_mmss": "82:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

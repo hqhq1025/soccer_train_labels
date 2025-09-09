@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20202,
+  "video_id": "b2448ccd-2d16-5a40-bb72-fcc8caed9bd7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 1998.0,
+      "end": 1998.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2014.0,
+      "end": 2014.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1998000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/segment_001900_002020.json",
+  "segment_meta": {
+    "start_seconds": 1900,
+    "end_seconds": 2020,
+    "length_seconds": 120,
+    "start_time_mmss": "31:40",
+    "end_time_mmss": "33:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

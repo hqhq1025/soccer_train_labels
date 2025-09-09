@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24319,
+  "video_id": "da136e46-8588-5e2c-9b63-d887e74ed817",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 2349.0,
+      "end": 2349.0,
+      "text": "Trigger: Throw-in by right @ 1 - 39:09"
+    },
+    {
+      "start": 2437.0,
+      "end": 2437.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2349000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/segment_002340_002460.json",
+  "segment_meta": {
+    "start_seconds": 2340,
+    "end_seconds": 2460,
+    "length_seconds": 120,
+    "start_time_mmss": "39:00",
+    "end_time_mmss": "41:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

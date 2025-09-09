@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5873,
+  "video_id": "dc066435-ed1f-5699-bfce-aaf30568e4b0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Shots on target and Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 624.0,
+      "end": 624.0,
+      "text": "Trigger: Corner by left @ 1 - 10:24"
+    },
+    {
+      "start": 628.0,
+      "end": 628.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 629.0,
+      "end": 629.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 624000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/segment_000550_000670.json",
+  "segment_meta": {
+    "start_seconds": 550,
+    "end_seconds": 670,
+    "length_seconds": 120,
+    "start_time_mmss": "09:10",
+    "end_time_mmss": "11:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

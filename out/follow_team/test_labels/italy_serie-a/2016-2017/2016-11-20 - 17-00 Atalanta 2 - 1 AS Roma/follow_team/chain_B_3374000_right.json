@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5764,
+  "video_id": "944f1082-7bfc-5bcc-ae7d-ab84a904b614",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 3374.0,
+      "end": 3374.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 3384.0,
+      "end": 3384.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3374000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/segment_003350_003430.json",
+  "segment_meta": {
+    "start_seconds": 3350,
+    "end_seconds": 3430,
+    "length_seconds": 80,
+    "start_time_mmss": "55:50",
+    "end_time_mmss": "57:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

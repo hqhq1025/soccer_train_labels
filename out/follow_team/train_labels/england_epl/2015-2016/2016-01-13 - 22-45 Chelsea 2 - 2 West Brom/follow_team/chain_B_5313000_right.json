@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21980,
+  "video_id": "680bd0d5-8db3-5675-9c2c-96bc2aa9431b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Direct free-kick} happen.",
+  "answer": [
+    {
+      "start": 5313.0,
+      "end": 5313.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 5341.0,
+      "end": 5341.0,
+      "text": "Then: Direct free-kick by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5313000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/segment_005300_005360.json",
+  "segment_meta": {
+    "start_seconds": 5300,
+    "end_seconds": 5360,
+    "length_seconds": 60,
+    "start_time_mmss": "88:20",
+    "end_time_mmss": "89:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

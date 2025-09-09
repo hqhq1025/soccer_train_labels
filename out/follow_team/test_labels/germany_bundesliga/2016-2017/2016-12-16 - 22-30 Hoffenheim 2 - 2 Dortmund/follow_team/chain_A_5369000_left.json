@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 549,
+  "video_id": "6f5c1d82-8212-5940-9971-0fb527893f1b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 5369.0,
+      "end": 5369.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 5377.0,
+      "end": 5377.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5369000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_005310_005430.json",
+  "segment_meta": {
+    "start_seconds": 5310,
+    "end_seconds": 5430,
+    "length_seconds": 120,
+    "start_time_mmss": "88:30",
+    "end_time_mmss": "90:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

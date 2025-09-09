@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2770,
+  "video_id": "39808363-3ae7-5b76-b198-204a15e4fa44",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 4228.0,
+      "end": 4228.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4236.0,
+      "end": 4236.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4228000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/segment_004140_004260.json",
+  "segment_meta": {
+    "start_seconds": 4140,
+    "end_seconds": 4260,
+    "length_seconds": 120,
+    "start_time_mmss": "69:00",
+    "end_time_mmss": "71:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

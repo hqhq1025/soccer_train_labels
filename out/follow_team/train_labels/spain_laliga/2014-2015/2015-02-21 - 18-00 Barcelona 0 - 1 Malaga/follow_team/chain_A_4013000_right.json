@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11829,
+  "video_id": "8818e6bc-7a7f-531f-81e3-6a4a65277b6f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Substitution}, stick with that team and alert me for {Corner and Offside}.",
+  "answer": [
+    {
+      "start": 4013.0,
+      "end": 4013.0,
+      "text": "Trigger: Substitution by right @ 2 - 21:53"
+    },
+    {
+      "start": 4035.0,
+      "end": 4035.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 4060.0,
+      "end": 4060.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 4088.0,
+      "end": 4088.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4013000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/segment_003970_004090.json",
+  "segment_meta": {
+    "start_seconds": 3970,
+    "end_seconds": 4090,
+    "length_seconds": 120,
+    "start_time_mmss": "66:10",
+    "end_time_mmss": "68:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2045,
+  "video_id": "6694ee54-17bd-5cf2-b5cf-21b7570200cb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 4656.0,
+      "end": 4656.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 4672.0,
+      "end": 4672.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4692.0,
+      "end": 4692.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4656000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/segment_004620_004700.json",
+  "segment_meta": {
+    "start_seconds": 4620,
+    "end_seconds": 4700,
+    "length_seconds": 80,
+    "start_time_mmss": "77:00",
+    "end_time_mmss": "78:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

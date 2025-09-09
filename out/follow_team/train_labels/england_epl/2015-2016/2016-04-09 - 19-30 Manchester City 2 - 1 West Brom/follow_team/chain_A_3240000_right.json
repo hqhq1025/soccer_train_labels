@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22329,
+  "video_id": "74b4c3e1-fd58-5da7-aefc-f73ae2f20882",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 3240.0,
+      "end": 3240.0,
+      "text": "Trigger: Shots on target by right @ 2 - 09:00"
+    },
+    {
+      "start": 3261.0,
+      "end": 3261.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3240000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/segment_003210_003270.json",
+  "segment_meta": {
+    "start_seconds": 3210,
+    "end_seconds": 3270,
+    "length_seconds": 60,
+    "start_time_mmss": "53:30",
+    "end_time_mmss": "54:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

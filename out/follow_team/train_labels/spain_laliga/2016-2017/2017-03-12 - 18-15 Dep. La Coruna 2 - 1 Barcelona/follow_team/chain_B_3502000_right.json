@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14762,
+  "video_id": "4b93755e-256b-5d51-b57a-0e268b4a02de",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 3502.0,
+      "end": 3502.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 3522.0,
+      "end": 3522.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3502000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/segment_003470_003550.json",
+  "segment_meta": {
+    "start_seconds": 3470,
+    "end_seconds": 3550,
+    "length_seconds": 80,
+    "start_time_mmss": "57:50",
+    "end_time_mmss": "59:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

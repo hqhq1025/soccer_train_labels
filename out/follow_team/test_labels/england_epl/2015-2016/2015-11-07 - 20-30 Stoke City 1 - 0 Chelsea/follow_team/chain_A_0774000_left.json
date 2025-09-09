@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7933,
+  "video_id": "a2421553-ba15-5f19-a156-aa66080d2506",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Corner}.",
+  "answer": [
+    {
+      "start": 774.0,
+      "end": 774.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 803.0,
+      "end": 803.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 774000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/segment_000700_000820.json",
+  "segment_meta": {
+    "start_seconds": 700,
+    "end_seconds": 820,
+    "length_seconds": 120,
+    "start_time_mmss": "11:40",
+    "end_time_mmss": "13:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

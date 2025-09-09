@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 796,
+  "video_id": "ae1b9f6a-dc24-57d4-bf91-3e8aee15fc59",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Offside}.",
+  "answer": [
+    {
+      "start": 827.0,
+      "end": 827.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 836.0,
+      "end": 836.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 827000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/segment_000740_000840.json",
+  "segment_meta": {
+    "start_seconds": 740,
+    "end_seconds": 840,
+    "length_seconds": 100,
+    "start_time_mmss": "12:20",
+    "end_time_mmss": "14:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

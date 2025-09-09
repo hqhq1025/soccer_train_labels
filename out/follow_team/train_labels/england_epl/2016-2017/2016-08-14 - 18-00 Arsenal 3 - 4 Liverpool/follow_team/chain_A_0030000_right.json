@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25317,
+  "video_id": "e85c1d14-857e-5da6-844a-36acbcaa82dd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in and Offside}.",
+  "answer": [
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "text": "Trigger: Throw-in by right @ 1 - 00:30"
+    },
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 30000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_000000_000120.json",
+  "segment_meta": {
+    "start_seconds": 0,
+    "end_seconds": 120,
+    "length_seconds": 120,
+    "start_time_mmss": "00:00",
+    "end_time_mmss": "02:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

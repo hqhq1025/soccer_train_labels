@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8111,
+  "video_id": "3a51c6f4-fa3c-5229-a2a4-c1811564d974",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 492.0,
+      "end": 492.0,
+      "text": "Trigger: Shots on target by right @ 1 - 08:12"
+    },
+    {
+      "start": 545.0,
+      "end": 545.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Atl. Madrid 0 - 0 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Atl. Madrid 0 - 0 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 492000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Atl. Madrid 0 - 0 Real Madrid/segment_000450_000550.json",
+  "segment_meta": {
+    "start_seconds": 450,
+    "end_seconds": 550,
+    "length_seconds": 100,
+    "start_time_mmss": "07:30",
+    "end_time_mmss": "09:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

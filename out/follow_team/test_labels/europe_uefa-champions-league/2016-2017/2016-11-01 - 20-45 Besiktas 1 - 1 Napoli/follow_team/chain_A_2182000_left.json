@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3131,
+  "video_id": "62d16b11-d476-52eb-861e-76d441dac19c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
+  "answer": [
+    {
+      "start": 2182.0,
+      "end": 2182.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2223.0,
+      "end": 2223.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2182000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/segment_002130_002230.json",
+  "segment_meta": {
+    "start_seconds": 2130,
+    "end_seconds": 2230,
+    "length_seconds": 100,
+    "start_time_mmss": "35:30",
+    "end_time_mmss": "37:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

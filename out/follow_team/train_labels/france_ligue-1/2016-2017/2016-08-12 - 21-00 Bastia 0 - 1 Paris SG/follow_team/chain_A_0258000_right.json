@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 739,
+  "video_id": "9f8f5af2-a85a-516e-9ae9-92b79090fd8c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 258.0,
+      "end": 258.0,
+      "text": "Trigger: Throw-in by right @ 1 - 04:18"
+    },
+    {
+      "start": 281.0,
+      "end": 281.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 258000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/segment_000170_000290.json",
+  "segment_meta": {
+    "start_seconds": 170,
+    "end_seconds": 290,
+    "length_seconds": 120,
+    "start_time_mmss": "02:50",
+    "end_time_mmss": "04:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

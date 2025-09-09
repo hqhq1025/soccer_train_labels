@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5012,
+  "video_id": "49aeed1e-68d1-53c8-bac0-1d97131bcfd9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 2490.0,
+      "end": 2490.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2508.0,
+      "end": 2508.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2490000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/segment_002410_002530.json",
+  "segment_meta": {
+    "start_seconds": 2410,
+    "end_seconds": 2530,
+    "length_seconds": 120,
+    "start_time_mmss": "40:10",
+    "end_time_mmss": "42:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

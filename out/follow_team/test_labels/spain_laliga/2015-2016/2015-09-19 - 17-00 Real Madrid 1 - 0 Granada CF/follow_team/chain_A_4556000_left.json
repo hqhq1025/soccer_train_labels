@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3721,
+  "video_id": "4d5f6052-a2cd-5f4e-81b4-213e8873d551",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Substitution} it makes.",
+  "answer": [
+    {
+      "start": 4556.0,
+      "end": 4556.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4582.0,
+      "end": 4582.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4556000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/segment_004540_004660.json",
+  "segment_meta": {
+    "start_seconds": 4540,
+    "end_seconds": 4660,
+    "length_seconds": 120,
+    "start_time_mmss": "75:40",
+    "end_time_mmss": "77:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7055,
+  "video_id": "b2343037-e700-53cb-beee-1234245201f6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 5146.0,
+      "end": 5146.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 5165.0,
+      "end": 5165.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5146000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/segment_005080_005180.json",
+  "segment_meta": {
+    "start_seconds": 5080,
+    "end_seconds": 5180,
+    "length_seconds": 100,
+    "start_time_mmss": "84:40",
+    "end_time_mmss": "86:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

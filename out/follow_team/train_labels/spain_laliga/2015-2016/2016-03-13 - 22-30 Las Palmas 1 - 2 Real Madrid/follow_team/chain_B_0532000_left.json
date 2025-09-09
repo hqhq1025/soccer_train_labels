@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10404,
+  "video_id": "ae9799e1-7c03-5466-97a2-e47be3e8ea0e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Offside}, stick with that team and alert me for {Shots on target}.",
+  "answer": [
+    {
+      "start": 532.0,
+      "end": 532.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 568.0,
+      "end": 568.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 532000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/segment_000510_000590.json",
+  "segment_meta": {
+    "start_seconds": 510,
+    "end_seconds": 590,
+    "length_seconds": 80,
+    "start_time_mmss": "08:30",
+    "end_time_mmss": "09:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

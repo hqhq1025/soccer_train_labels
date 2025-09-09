@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15411,
+  "video_id": "73cd9d02-f0b8-5863-bf3e-edd685d9b33f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Offside}, follow the same team and list all subsequent {Throw-in and Shots on target}.",
+  "answer": [
+    {
+      "start": 2943.0,
+      "end": 2943.0,
+      "text": "Trigger: Offside by right @ 2 - 04:03"
+    },
+    {
+      "start": 3009.0,
+      "end": 3009.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 3026.0,
+      "end": 3026.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2943000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/segment_002910_003030.json",
+  "segment_meta": {
+    "start_seconds": 2910,
+    "end_seconds": 3030,
+    "length_seconds": 120,
+    "start_time_mmss": "48:30",
+    "end_time_mmss": "50:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

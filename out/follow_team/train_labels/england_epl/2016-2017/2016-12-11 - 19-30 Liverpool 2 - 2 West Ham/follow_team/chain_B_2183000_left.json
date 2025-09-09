@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24586,
+  "video_id": "e14167cc-3b8b-5969-b0ab-b1f106402e1f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 2183.0,
+      "end": 2183.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2185.0,
+      "end": 2185.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2183000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/segment_002150_002270.json",
+  "segment_meta": {
+    "start_seconds": 2150,
+    "end_seconds": 2270,
+    "length_seconds": 120,
+    "start_time_mmss": "35:50",
+    "end_time_mmss": "37:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

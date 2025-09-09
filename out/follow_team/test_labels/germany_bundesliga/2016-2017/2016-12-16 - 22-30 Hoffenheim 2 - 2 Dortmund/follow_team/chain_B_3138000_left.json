@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 634,
+  "video_id": "078f1dd5-d28e-59ed-90c8-0adbfe565659",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 3138.0,
+      "end": 3138.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3145.0,
+      "end": 3145.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3138000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_003110_003150.json",
+  "segment_meta": {
+    "start_seconds": 3110,
+    "end_seconds": 3150,
+    "length_seconds": 40,
+    "start_time_mmss": "51:50",
+    "end_time_mmss": "52:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

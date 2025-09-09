@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16570,
+  "video_id": "9111f4d5-d6a7-58ea-bfc3-b73242cf6764",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Offside}.",
+  "answer": [
+    {
+      "start": 184.0,
+      "end": 184.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 215.0,
+      "end": 215.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 184000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_000120_000220.json",
+  "segment_meta": {
+    "start_seconds": 120,
+    "end_seconds": 220,
+    "length_seconds": 100,
+    "start_time_mmss": "02:00",
+    "end_time_mmss": "03:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

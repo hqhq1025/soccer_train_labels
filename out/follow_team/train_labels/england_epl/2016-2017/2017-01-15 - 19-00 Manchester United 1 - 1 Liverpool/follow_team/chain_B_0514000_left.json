@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23472,
+  "video_id": "d188f816-719d-5db1-9e28-920f3276a69d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 514.0,
+      "end": 514.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 544.0,
+      "end": 544.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 514000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/segment_000470_000590.json",
+  "segment_meta": {
+    "start_seconds": 470,
+    "end_seconds": 590,
+    "length_seconds": 120,
+    "start_time_mmss": "07:50",
+    "end_time_mmss": "09:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

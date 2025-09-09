@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14853,
+  "video_id": "380118b3-0f4b-507b-b447-710d2eaa7e24",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 1740.0,
+      "end": 1740.0,
+      "text": "Trigger: Foul by right @ 1 - 29:00"
+    },
+    {
+      "start": 1746.0,
+      "end": 1746.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-05-17 - 22-00 Celta Vigo 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-17 - 22-00 Celta Vigo 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1740000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-17 - 22-00 Celta Vigo 1 - 4 Real Madrid/segment_001710_001750.json",
+  "segment_meta": {
+    "start_seconds": 1710,
+    "end_seconds": 1750,
+    "length_seconds": 40,
+    "start_time_mmss": "28:30",
+    "end_time_mmss": "29:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

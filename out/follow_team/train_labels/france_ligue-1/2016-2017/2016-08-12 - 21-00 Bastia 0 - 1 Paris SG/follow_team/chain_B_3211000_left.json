@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 734,
+  "video_id": "e43b5392-e5c4-5a4d-8835-3e50a31312a0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 3211.0,
+      "end": 3211.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 3219.0,
+      "end": 3219.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3211000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/segment_003200_003280.json",
+  "segment_meta": {
+    "start_seconds": 3200,
+    "end_seconds": 3280,
+    "length_seconds": 80,
+    "start_time_mmss": "53:20",
+    "end_time_mmss": "54:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

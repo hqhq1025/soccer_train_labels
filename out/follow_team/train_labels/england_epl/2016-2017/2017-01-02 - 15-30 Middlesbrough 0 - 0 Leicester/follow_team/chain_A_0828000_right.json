@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25437,
+  "video_id": "bcf788c0-5e90-57a7-a502-a49053abce8b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 828.0,
+      "end": 828.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 13:48"
+    },
+    {
+      "start": 842.0,
+      "end": 842.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 856.0,
+      "end": 856.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 828000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/segment_000740_000860.json",
+  "segment_meta": {
+    "start_seconds": 740,
+    "end_seconds": 860,
+    "length_seconds": 120,
+    "start_time_mmss": "12:20",
+    "end_time_mmss": "14:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

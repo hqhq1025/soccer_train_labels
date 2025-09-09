@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19462,
+  "video_id": "2bf4f676-7eb7-5e48-978d-344575671712",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots on target}.",
+  "answer": [
+    {
+      "start": 574.0,
+      "end": 574.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 586.0,
+      "end": 586.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 574000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/segment_000490_000590.json",
+  "segment_meta": {
+    "start_seconds": 490,
+    "end_seconds": 590,
+    "length_seconds": 100,
+    "start_time_mmss": "08:10",
+    "end_time_mmss": "09:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

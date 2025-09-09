@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7652,
+  "video_id": "1cb4f913-9cbf-559a-83a9-b8361437b659",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 2391.0,
+      "end": 2391.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 2456.0,
+      "end": 2456.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2391000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/segment_002360_002460.json",
+  "segment_meta": {
+    "start_seconds": 2360,
+    "end_seconds": 2460,
+    "length_seconds": 100,
+    "start_time_mmss": "39:20",
+    "end_time_mmss": "41:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

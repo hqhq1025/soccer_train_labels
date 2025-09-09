@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 881,
+  "video_id": "190e1ca6-6475-50c4-879d-b753c16282cd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 2469.0,
+      "end": 2469.0,
+      "text": "Trigger: Throw-in by left @ 1 - 41:09"
+    },
+    {
+      "start": 2495.0,
+      "end": 2495.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2469000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/segment_002410_002530.json",
+  "segment_meta": {
+    "start_seconds": 2410,
+    "end_seconds": 2530,
+    "length_seconds": 120,
+    "start_time_mmss": "40:10",
+    "end_time_mmss": "42:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

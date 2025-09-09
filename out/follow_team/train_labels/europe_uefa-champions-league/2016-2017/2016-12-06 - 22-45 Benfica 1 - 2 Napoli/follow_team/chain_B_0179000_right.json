@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9398,
+  "video_id": "060cb1b8-84e7-54bb-9afa-84dd88c95f41",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 179.0,
+      "end": 179.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 187.0,
+      "end": 187.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 179000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/segment_000140_000260.json",
+  "segment_meta": {
+    "start_seconds": 140,
+    "end_seconds": 260,
+    "length_seconds": 120,
+    "start_time_mmss": "02:20",
+    "end_time_mmss": "04:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

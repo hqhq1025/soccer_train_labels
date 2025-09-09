@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12417,
+  "video_id": "afbcce6d-e140-5171-b4cd-8a7f9fbdc245",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 2178.0,
+      "end": 2178.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 36:18"
+    },
+    {
+      "start": 2197.0,
+      "end": 2197.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 2206.0,
+      "end": 2206.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-08-28 - 21-15 Ath Bilbao 0 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-08-28 - 21-15 Ath Bilbao 0 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2178000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-08-28 - 21-15 Ath Bilbao 0 - 1 Barcelona/segment_002140_002220.json",
+  "segment_meta": {
+    "start_seconds": 2140,
+    "end_seconds": 2220,
+    "length_seconds": 80,
+    "start_time_mmss": "35:40",
+    "end_time_mmss": "37:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

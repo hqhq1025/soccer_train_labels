@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21157,
+  "video_id": "589bbf98-8c5a-544b-815f-462b0e1eb538",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Offside}, keep following that team and alert me whenever {Shots on target} happen.",
+  "answer": [
+    {
+      "start": 2366.0,
+      "end": 2366.0,
+      "text": "Trigger: Offside by left @ 1 - 39:26"
+    },
+    {
+      "start": 2367.0,
+      "end": 2367.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2366000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/segment_002310_002370.json",
+  "segment_meta": {
+    "start_seconds": 2310,
+    "end_seconds": 2370,
+    "length_seconds": 60,
+    "start_time_mmss": "38:30",
+    "end_time_mmss": "39:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16849,
+  "video_id": "1f622a34-4062-5bb6-92ef-c0176da8b9f1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 4739.0,
+      "end": 4739.0,
+      "text": "Trigger: Shots off target by left @ 2 - 33:59"
+    },
+    {
+      "start": 4797.0,
+      "end": 4797.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4739000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/segment_004700_004820.json",
+  "segment_meta": {
+    "start_seconds": 4700,
+    "end_seconds": 4820,
+    "length_seconds": 120,
+    "start_time_mmss": "78:20",
+    "end_time_mmss": "80:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

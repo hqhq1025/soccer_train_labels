@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2223,
+  "video_id": "2bf00ca3-021b-522a-a7a8-e8445a1f343d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 802.0,
+      "end": 802.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 830.0,
+      "end": 830.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 802000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/segment_000730_000850.json",
+  "segment_meta": {
+    "start_seconds": 730,
+    "end_seconds": 850,
+    "length_seconds": 120,
+    "start_time_mmss": "12:10",
+    "end_time_mmss": "14:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

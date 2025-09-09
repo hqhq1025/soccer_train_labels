@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7169,
+  "video_id": "f8b9df6e-3981-5a1d-90d1-9e016d176565",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 148.0,
+      "end": 148.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 154.0,
+      "end": 154.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 148000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/segment_000130_000170.json",
+  "segment_meta": {
+    "start_seconds": 130,
+    "end_seconds": 170,
+    "length_seconds": 40,
+    "start_time_mmss": "02:10",
+    "end_time_mmss": "02:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

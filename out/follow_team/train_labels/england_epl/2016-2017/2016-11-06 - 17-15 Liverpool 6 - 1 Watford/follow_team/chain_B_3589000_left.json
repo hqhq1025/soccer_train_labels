@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24310,
+  "video_id": "1896edb6-b51a-551d-beeb-80a9cf0810e3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Goal}.",
+  "answer": [
+    {
+      "start": 3589.0,
+      "end": 3589.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 3590.0,
+      "end": 3590.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3589000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/segment_003560_003600.json",
+  "segment_meta": {
+    "start_seconds": 3560,
+    "end_seconds": 3600,
+    "length_seconds": 40,
+    "start_time_mmss": "59:20",
+    "end_time_mmss": "60:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

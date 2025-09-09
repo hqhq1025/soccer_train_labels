@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12010,
+  "video_id": "43964c3e-22bd-515f-bd8a-61546dfe9592",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 2569.0,
+      "end": 2569.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2618.0,
+      "end": 2618.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2569000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/segment_002500_002620.json",
+  "segment_meta": {
+    "start_seconds": 2500,
+    "end_seconds": 2620,
+    "length_seconds": 120,
+    "start_time_mmss": "41:40",
+    "end_time_mmss": "43:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

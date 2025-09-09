@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23562,
+  "video_id": "6d3d97d0-012d-5533-80d8-4d9697cdfa33",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Goal}.",
+  "answer": [
+    {
+      "start": 2839.0,
+      "end": 2839.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2840.0,
+      "end": 2840.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2839000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/segment_002790_002850.json",
+  "segment_meta": {
+    "start_seconds": 2790,
+    "end_seconds": 2850,
+    "length_seconds": 60,
+    "start_time_mmss": "46:30",
+    "end_time_mmss": "47:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

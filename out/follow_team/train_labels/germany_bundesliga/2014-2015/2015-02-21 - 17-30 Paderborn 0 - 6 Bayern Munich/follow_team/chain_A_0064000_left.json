@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3171,
+  "video_id": "fa0b0de0-4654-5e26-a69b-f95eb061a5be",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 64.0,
+      "end": 64.0,
+      "text": "Trigger: Throw-in by left @ 1 - 01:04"
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 64000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/segment_000010_000130.json",
+  "segment_meta": {
+    "start_seconds": 10,
+    "end_seconds": 130,
+    "length_seconds": 120,
+    "start_time_mmss": "00:10",
+    "end_time_mmss": "02:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

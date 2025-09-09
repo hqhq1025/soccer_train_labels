@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14503,
+  "video_id": "a496b3a1-a954-5645-81a7-9e69d499bc89",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 4235.0,
+      "end": 4235.0,
+      "text": "Trigger: Shots off target by left @ 2 - 25:35"
+    },
+    {
+      "start": 4317.0,
+      "end": 4317.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4235000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/segment_004200_004320.json",
+  "segment_meta": {
+    "start_seconds": 4200,
+    "end_seconds": 4320,
+    "length_seconds": 120,
+    "start_time_mmss": "70:00",
+    "end_time_mmss": "72:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

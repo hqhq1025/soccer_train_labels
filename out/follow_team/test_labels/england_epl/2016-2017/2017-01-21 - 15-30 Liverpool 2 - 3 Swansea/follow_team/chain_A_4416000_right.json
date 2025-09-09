@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8799,
+  "video_id": "424ef7d9-5ac3-5adc-b974-2db35e41aaa1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}.",
+  "answer": [
+    {
+      "start": 4416.0,
+      "end": 4416.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4417.0,
+      "end": 4417.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4416000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/segment_004340_004420.json",
+  "segment_meta": {
+    "start_seconds": 4340,
+    "end_seconds": 4420,
+    "length_seconds": 80,
+    "start_time_mmss": "72:20",
+    "end_time_mmss": "73:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

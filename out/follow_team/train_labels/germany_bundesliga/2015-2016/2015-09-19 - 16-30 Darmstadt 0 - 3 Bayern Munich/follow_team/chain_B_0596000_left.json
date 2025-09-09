@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2002,
+  "video_id": "55f19aef-399f-510f-82f8-10b19eca39da",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 596.0,
+      "end": 596.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 621.0,
+      "end": 621.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 596000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/segment_000510_000630.json",
+  "segment_meta": {
+    "start_seconds": 510,
+    "end_seconds": 630,
+    "length_seconds": 120,
+    "start_time_mmss": "08:30",
+    "end_time_mmss": "10:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

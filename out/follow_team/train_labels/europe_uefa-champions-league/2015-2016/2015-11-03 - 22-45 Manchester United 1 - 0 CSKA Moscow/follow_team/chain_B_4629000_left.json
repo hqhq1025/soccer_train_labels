@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5628,
+  "video_id": "dd64bc9b-5387-5c21-aa81-5ba32c642822",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots on target}.",
+  "answer": [
+    {
+      "start": 4629.0,
+      "end": 4629.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4631.0,
+      "end": 4631.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4629000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/segment_004540_004640.json",
+  "segment_meta": {
+    "start_seconds": 4540,
+    "end_seconds": 4640,
+    "length_seconds": 100,
+    "start_time_mmss": "75:40",
+    "end_time_mmss": "77:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7957,
+  "video_id": "60698865-6d6c-53aa-a46e-6dd83c296bfc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in and Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 1868.0,
+      "end": 1868.0,
+      "text": "Trigger: Throw-in by right @ 1 - 31:08"
+    },
+    {
+      "start": 1886.0,
+      "end": 1886.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 1924.0,
+      "end": 1924.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1868000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/segment_001830_001930.json",
+  "segment_meta": {
+    "start_seconds": 1830,
+    "end_seconds": 1930,
+    "length_seconds": 100,
+    "start_time_mmss": "30:30",
+    "end_time_mmss": "32:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

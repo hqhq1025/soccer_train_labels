@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3505,
+  "video_id": "a142533c-1f03-5773-b00e-757cb6fa0bac",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2810.0,
+      "end": 2810.0,
+      "text": "Trigger: Foul by left @ 2 - 01:50"
+    },
+    {
+      "start": 2853.0,
+      "end": 2853.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2810000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_002740_002860.json",
+  "segment_meta": {
+    "start_seconds": 2740,
+    "end_seconds": 2860,
+    "length_seconds": 120,
+    "start_time_mmss": "45:40",
+    "end_time_mmss": "47:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

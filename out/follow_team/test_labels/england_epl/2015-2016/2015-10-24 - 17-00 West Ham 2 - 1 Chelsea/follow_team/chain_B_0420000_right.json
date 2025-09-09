@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8204,
+  "video_id": "4aa7928a-24c2-55e4-9504-892d8417526d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 420.0,
+      "end": 420.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 430.0,
+      "end": 430.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 420000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/segment_000400_000440.json",
+  "segment_meta": {
+    "start_seconds": 400,
+    "end_seconds": 440,
+    "length_seconds": 40,
+    "start_time_mmss": "06:40",
+    "end_time_mmss": "07:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

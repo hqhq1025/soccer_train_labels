@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5407,
+  "video_id": "3b71bc6f-b971-5d7b-bb7f-fa0d948135b4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 2450.0,
+      "end": 2450.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2458.0,
+      "end": 2458.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2450000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/segment_002400_002460.json",
+  "segment_meta": {
+    "start_seconds": 2400,
+    "end_seconds": 2460,
+    "length_seconds": 60,
+    "start_time_mmss": "40:00",
+    "end_time_mmss": "41:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

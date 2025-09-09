@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4525,
+  "video_id": "d6d36046-f15f-52c4-9f1a-daff12387e8d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Throw-in and Foul} it makes.",
+  "answer": [
+    {
+      "start": 558.0,
+      "end": 558.0,
+      "text": "Trigger: Throw-in by left @ 1 - 09:18"
+    },
+    {
+      "start": 567.0,
+      "end": 567.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 576.0,
+      "end": 576.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 629.0,
+      "end": 629.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 558000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/segment_000510_000630.json",
+  "segment_meta": {
+    "start_seconds": 510,
+    "end_seconds": 630,
+    "length_seconds": 120,
+    "start_time_mmss": "08:30",
+    "end_time_mmss": "10:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

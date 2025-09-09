@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16087,
+  "video_id": "91eb29f2-eb6e-5e64-9cf4-f1daeb2903a8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 4990.0,
+      "end": 4990.0,
+      "text": "Trigger: Throw-in by left @ 2 - 38:10"
+    },
+    {
+      "start": 5010.0,
+      "end": 5010.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4990000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/segment_004940_005040.json",
+  "segment_meta": {
+    "start_seconds": 4940,
+    "end_seconds": 5040,
+    "length_seconds": 100,
+    "start_time_mmss": "82:20",
+    "end_time_mmss": "84:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

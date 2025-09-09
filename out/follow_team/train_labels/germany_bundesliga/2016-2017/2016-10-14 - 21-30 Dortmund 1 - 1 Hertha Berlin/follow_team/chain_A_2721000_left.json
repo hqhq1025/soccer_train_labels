@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5087,
+  "video_id": "c4d66d0e-5777-5102-99ec-de11c497c9c7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Clearance}.",
+  "answer": [
+    {
+      "start": 2721.0,
+      "end": 2721.0,
+      "text": "Trigger: Foul by left @ 2 - 00:21"
+    },
+    {
+      "start": 2816.0,
+      "end": 2816.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2721000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/segment_002700_002820.json",
+  "segment_meta": {
+    "start_seconds": 2700,
+    "end_seconds": 2820,
+    "length_seconds": 120,
+    "start_time_mmss": "45:00",
+    "end_time_mmss": "47:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

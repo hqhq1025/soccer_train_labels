@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24141,
+  "video_id": "9453ca73-e864-5f63-93da-87c0a20cc517",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 2532.0,
+      "end": 2532.0,
+      "text": "Trigger: Shots off target by left @ 1 - 42:12"
+    },
+    {
+      "start": 2539.0,
+      "end": 2539.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2532000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/segment_002420_002540.json",
+  "segment_meta": {
+    "start_seconds": 2420,
+    "end_seconds": 2540,
+    "length_seconds": 120,
+    "start_time_mmss": "40:20",
+    "end_time_mmss": "42:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

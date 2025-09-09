@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9299,
+  "video_id": "88c79a52-c85a-54d5-a547-609b6c512691",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "answer": [
+    {
+      "start": 3701.0,
+      "end": 3701.0,
+      "text": "Trigger: Throw-in by right @ 2 - 16:41"
+    },
+    {
+      "start": 3745.0,
+      "end": 3745.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-28 - 21-45 Ludogorets 1 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-28 - 21-45 Ludogorets 1 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3701000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-28 - 21-45 Ludogorets 1 - 3 Paris SG/segment_003630_003750.json",
+  "segment_meta": {
+    "start_seconds": 3630,
+    "end_seconds": 3750,
+    "length_seconds": 120,
+    "start_time_mmss": "60:30",
+    "end_time_mmss": "62:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

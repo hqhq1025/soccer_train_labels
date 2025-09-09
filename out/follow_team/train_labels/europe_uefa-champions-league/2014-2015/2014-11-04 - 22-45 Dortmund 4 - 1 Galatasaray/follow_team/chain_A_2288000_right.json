@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8523,
+  "video_id": "bbe485c2-d554-5c2d-bb04-814c1f781bdd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 2288.0,
+      "end": 2288.0,
+      "text": "Trigger: Shots on target by right @ 1 - 38:08"
+    },
+    {
+      "start": 2289.0,
+      "end": 2289.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2288000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/segment_002250_002290.json",
+  "segment_meta": {
+    "start_seconds": 2250,
+    "end_seconds": 2290,
+    "length_seconds": 40,
+    "start_time_mmss": "37:30",
+    "end_time_mmss": "38:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

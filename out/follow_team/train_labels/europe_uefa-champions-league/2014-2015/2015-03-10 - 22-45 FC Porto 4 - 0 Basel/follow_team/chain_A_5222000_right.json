@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8807,
+  "video_id": "039debbc-a1a5-5262-a6ef-6928953840da",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Shots on target}.",
+  "answer": [
+    {
+      "start": 5222.0,
+      "end": 5222.0,
+      "text": "Trigger: Foul by right @ 2 - 42:02"
+    },
+    {
+      "start": 5242.0,
+      "end": 5242.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5222000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/segment_005210_005270.json",
+  "segment_meta": {
+    "start_seconds": 5210,
+    "end_seconds": 5270,
+    "length_seconds": 60,
+    "start_time_mmss": "86:50",
+    "end_time_mmss": "87:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

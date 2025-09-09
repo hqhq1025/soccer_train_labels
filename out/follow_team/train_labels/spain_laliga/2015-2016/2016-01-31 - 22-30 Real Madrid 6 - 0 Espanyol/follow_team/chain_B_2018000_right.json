@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10574,
+  "video_id": "74e24614-1ced-55b1-b404-0808b6446f3f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 2018.0,
+      "end": 2018.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 2036.0,
+      "end": 2036.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2018000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/segment_002000_002080.json",
+  "segment_meta": {
+    "start_seconds": 2000,
+    "end_seconds": 2080,
+    "length_seconds": 80,
+    "start_time_mmss": "33:20",
+    "end_time_mmss": "34:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

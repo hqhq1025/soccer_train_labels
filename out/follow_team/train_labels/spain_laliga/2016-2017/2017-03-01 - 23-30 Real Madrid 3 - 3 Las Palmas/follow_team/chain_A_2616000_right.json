@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14959,
+  "video_id": "98bad246-c49a-5cef-8f44-f175cee85c09",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 2616.0,
+      "end": 2616.0,
+      "text": "Trigger: Foul by right @ 1 - 43:36"
+    },
+    {
+      "start": 2622.0,
+      "end": 2622.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2616000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/segment_002550_002630.json",
+  "segment_meta": {
+    "start_seconds": 2550,
+    "end_seconds": 2630,
+    "length_seconds": 80,
+    "start_time_mmss": "42:30",
+    "end_time_mmss": "43:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

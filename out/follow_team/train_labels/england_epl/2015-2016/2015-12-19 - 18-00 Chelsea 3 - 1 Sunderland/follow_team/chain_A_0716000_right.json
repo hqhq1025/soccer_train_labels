@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21865,
+  "video_id": "befd5378-15d4-5063-83b9-0d3a96bdfde9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 716.0,
+      "end": 716.0,
+      "text": "Trigger: Throw-in by right @ 1 - 11:56"
+    },
+    {
+      "start": 733.0,
+      "end": 733.0,
+      "text": "Then: Goal by right"
+    },
+    {
+      "start": 733.0,
+      "end": 733.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-19 - 18-00 Chelsea 3 - 1 Sunderland/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-19 - 18-00 Chelsea 3 - 1 Sunderland/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 716000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-19 - 18-00 Chelsea 3 - 1 Sunderland/segment_000660_000740.json",
+  "segment_meta": {
+    "start_seconds": 660,
+    "end_seconds": 740,
+    "length_seconds": 80,
+    "start_time_mmss": "11:00",
+    "end_time_mmss": "12:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

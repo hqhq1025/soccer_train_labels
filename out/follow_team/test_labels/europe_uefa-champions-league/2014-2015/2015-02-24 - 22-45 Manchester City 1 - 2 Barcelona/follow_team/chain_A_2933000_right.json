@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2017,
+  "video_id": "de0f7eb7-1f0e-5939-9b43-716a7803b2be",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots on target} happen.",
+  "answer": [
+    {
+      "start": 2933.0,
+      "end": 2933.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2935.0,
+      "end": 2935.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2933000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/segment_002880_002940.json",
+  "segment_meta": {
+    "start_seconds": 2880,
+    "end_seconds": 2940,
+    "length_seconds": 60,
+    "start_time_mmss": "48:00",
+    "end_time_mmss": "49:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

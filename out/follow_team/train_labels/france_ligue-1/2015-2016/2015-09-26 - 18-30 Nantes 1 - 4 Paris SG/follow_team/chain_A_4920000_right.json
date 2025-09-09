@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 105,
+  "video_id": "7e217fce-00a2-5ae1-84a0-fbbb135f8c27",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Substitution}, keep following that team and alert me whenever {Throw-in and Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 4920.0,
+      "end": 4920.0,
+      "text": "Trigger: Substitution by right @ 2 - 37:00"
+    },
+    {
+      "start": 4980.0,
+      "end": 4980.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 5014.0,
+      "end": 5014.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4920000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/segment_004900_005020.json",
+  "segment_meta": {
+    "start_seconds": 4900,
+    "end_seconds": 5020,
+    "length_seconds": 120,
+    "start_time_mmss": "81:40",
+    "end_time_mmss": "83:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

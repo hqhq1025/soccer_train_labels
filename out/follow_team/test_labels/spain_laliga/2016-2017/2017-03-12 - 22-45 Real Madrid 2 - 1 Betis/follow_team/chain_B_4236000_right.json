@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4962,
+  "video_id": "16a5dc8a-1397-5aaa-b560-20862d031338",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Substitution}.",
+  "answer": [
+    {
+      "start": 4236.0,
+      "end": 4236.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4251.0,
+      "end": 4251.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-12 - 22-45 Real Madrid 2 - 1 Betis/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-03-12 - 22-45 Real Madrid 2 - 1 Betis/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4236000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-03-12 - 22-45 Real Madrid 2 - 1 Betis/segment_004200_004320.json",
+  "segment_meta": {
+    "start_seconds": 4200,
+    "end_seconds": 4320,
+    "length_seconds": 120,
+    "start_time_mmss": "70:00",
+    "end_time_mmss": "72:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

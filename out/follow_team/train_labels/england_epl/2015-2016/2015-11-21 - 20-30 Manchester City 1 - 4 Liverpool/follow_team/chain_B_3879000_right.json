@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21698,
+  "video_id": "2fa8f753-0c5c-5b6a-899f-3f6c5d90488f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 3879.0,
+      "end": 3879.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 3881.0,
+      "end": 3881.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3879000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/segment_003790_003910.json",
+  "segment_meta": {
+    "start_seconds": 3790,
+    "end_seconds": 3910,
+    "length_seconds": 120,
+    "start_time_mmss": "63:10",
+    "end_time_mmss": "65:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

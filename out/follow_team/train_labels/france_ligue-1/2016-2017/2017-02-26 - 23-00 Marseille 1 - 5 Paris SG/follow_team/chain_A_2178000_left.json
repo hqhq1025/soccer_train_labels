@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 375,
+  "video_id": "b44b07dd-a806-5242-a2d7-5b3ef99670f3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 2178.0,
+      "end": 2178.0,
+      "text": "Trigger: Shots off target by left @ 1 - 36:18"
+    },
+    {
+      "start": 2230.0,
+      "end": 2230.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 2238.0,
+      "end": 2238.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2178000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/segment_002140_002240.json",
+  "segment_meta": {
+    "start_seconds": 2140,
+    "end_seconds": 2240,
+    "length_seconds": 100,
+    "start_time_mmss": "35:40",
+    "end_time_mmss": "37:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

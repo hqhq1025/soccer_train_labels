@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6948,
+  "video_id": "4035ac09-468d-5c45-83bd-1c9558fb3c3f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 2375.0,
+      "end": 2375.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 2377.0,
+      "end": 2377.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2375000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/segment_002320_002380.json",
+  "segment_meta": {
+    "start_seconds": 2320,
+    "end_seconds": 2380,
+    "length_seconds": 60,
+    "start_time_mmss": "38:40",
+    "end_time_mmss": "39:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

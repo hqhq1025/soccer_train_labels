@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5163,
+  "video_id": "dfe80231-ef41-5467-9e70-63c0f70fd9ad",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Offside}.",
+  "answer": [
+    {
+      "start": 2940.0,
+      "end": 2940.0,
+      "text": "Trigger: Shots on target by left @ 2 - 04:00"
+    },
+    {
+      "start": 2942.0,
+      "end": 2942.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2940000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/segment_002910_002950.json",
+  "segment_meta": {
+    "start_seconds": 2910,
+    "end_seconds": 2950,
+    "length_seconds": 40,
+    "start_time_mmss": "48:30",
+    "end_time_mmss": "49:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15004,
+  "video_id": "f5e69508-7c79-5d58-9025-0eae3e02f962",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Corner}.",
+  "answer": [
+    {
+      "start": 860.0,
+      "end": 860.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 879.0,
+      "end": 879.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 860000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/segment_000780_000900.json",
+  "segment_meta": {
+    "start_seconds": 780,
+    "end_seconds": 900,
+    "length_seconds": 120,
+    "start_time_mmss": "13:00",
+    "end_time_mmss": "15:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

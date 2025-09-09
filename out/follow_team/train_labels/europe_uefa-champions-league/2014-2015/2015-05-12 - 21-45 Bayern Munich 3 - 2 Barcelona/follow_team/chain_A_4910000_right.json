@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8919,
+  "video_id": "baf3d29f-c591-5016-8674-df4530fd6f87",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 4910.0,
+      "end": 4910.0,
+      "text": "Trigger: Clearance by right @ 2 - 36:50"
+    },
+    {
+      "start": 4960.0,
+      "end": 4960.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4910000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/segment_004860_004980.json",
+  "segment_meta": {
+    "start_seconds": 4860,
+    "end_seconds": 4980,
+    "length_seconds": 120,
+    "start_time_mmss": "81:00",
+    "end_time_mmss": "83:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

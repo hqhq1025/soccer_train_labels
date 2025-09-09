@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22987,
+  "video_id": "9e06ef6e-0138-53e1-877e-bb24222fc7be",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots off target, Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 266.0,
+      "end": 266.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 04:26"
+    },
+    {
+      "start": 273.0,
+      "end": 273.0,
+      "text": "Then: Shots off target by left"
+    },
+    {
+      "start": 312.0,
+      "end": 312.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 321.0,
+      "end": 321.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 266000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/segment_000230_000330.json",
+  "segment_meta": {
+    "start_seconds": 230,
+    "end_seconds": 330,
+    "length_seconds": 100,
+    "start_time_mmss": "03:50",
+    "end_time_mmss": "05:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

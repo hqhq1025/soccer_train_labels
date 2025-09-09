@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8610,
+  "video_id": "73f3373b-828e-561b-8ed5-d721c11c0d68",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 2160.0,
+      "end": 2160.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2161.0,
+      "end": 2161.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2160000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/segment_002130_002170.json",
+  "segment_meta": {
+    "start_seconds": 2130,
+    "end_seconds": 2170,
+    "length_seconds": 40,
+    "start_time_mmss": "35:30",
+    "end_time_mmss": "36:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13708,
+  "video_id": "4171df92-0698-5a9d-ad7a-a2fab548181b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots on target}.",
+  "answer": [
+    {
+      "start": 2938.0,
+      "end": 2938.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 2941.0,
+      "end": 2941.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2938000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/segment_002870_002950.json",
+  "segment_meta": {
+    "start_seconds": 2870,
+    "end_seconds": 2950,
+    "length_seconds": 80,
+    "start_time_mmss": "47:50",
+    "end_time_mmss": "49:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18524,
+  "video_id": "da0ea2ab-70ce-5608-8c2f-9b776c9c9567",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 5241.0,
+      "end": 5241.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5303.0,
+      "end": 5303.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5241000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/segment_005210_005330.json",
+  "segment_meta": {
+    "start_seconds": 5210,
+    "end_seconds": 5330,
+    "length_seconds": 120,
+    "start_time_mmss": "86:50",
+    "end_time_mmss": "88:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7275,
+  "video_id": "cb305c23-a43c-5bd7-a81b-db9b6f60c59a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Offside}.",
+  "answer": [
+    {
+      "start": 4974.0,
+      "end": 4974.0,
+      "text": "Trigger: Corner by right @ 2 - 37:54"
+    },
+    {
+      "start": 4985.0,
+      "end": 4985.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4974000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/segment_004870_004990.json",
+  "segment_meta": {
+    "start_seconds": 4870,
+    "end_seconds": 4990,
+    "length_seconds": 120,
+    "start_time_mmss": "81:10",
+    "end_time_mmss": "83:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

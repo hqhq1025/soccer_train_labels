@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18976,
+  "video_id": "2b006662-9448-52b4-a5f9-4cf528a5a46b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 3830.0,
+      "end": 3830.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3833.0,
+      "end": 3833.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3830000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_003780_003840.json",
+  "segment_meta": {
+    "start_seconds": 3780,
+    "end_seconds": 3840,
+    "length_seconds": 60,
+    "start_time_mmss": "63:00",
+    "end_time_mmss": "64:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

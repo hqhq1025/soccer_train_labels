@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4124,
+  "video_id": "cc75ec27-79e6-5c56-96a7-5afd415ad483",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2032.0,
+      "end": 2032.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 2131.0,
+      "end": 2131.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2032000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/segment_002020_002140.json",
+  "segment_meta": {
+    "start_seconds": 2020,
+    "end_seconds": 2140,
+    "length_seconds": 120,
+    "start_time_mmss": "33:40",
+    "end_time_mmss": "35:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

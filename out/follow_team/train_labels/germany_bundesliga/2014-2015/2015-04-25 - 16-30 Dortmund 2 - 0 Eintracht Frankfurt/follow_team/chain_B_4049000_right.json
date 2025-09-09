@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2786,
+  "video_id": "aa328672-aeca-50f0-8696-dd996e887569",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 4049.0,
+      "end": 4049.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4077.0,
+      "end": 4077.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4049000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/segment_004020_004140.json",
+  "segment_meta": {
+    "start_seconds": 4020,
+    "end_seconds": 4140,
+    "length_seconds": 120,
+    "start_time_mmss": "67:00",
+    "end_time_mmss": "69:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

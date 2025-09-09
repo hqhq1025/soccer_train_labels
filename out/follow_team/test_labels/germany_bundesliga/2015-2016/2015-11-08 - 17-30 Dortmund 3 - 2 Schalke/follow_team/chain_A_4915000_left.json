@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 393,
+  "video_id": "4bb8c633-95e3-53a5-b0d7-83331ee0b981",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots off target and Corner} it makes.",
+  "answer": [
+    {
+      "start": 4915.0,
+      "end": 4915.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4920.0,
+      "end": 4920.0,
+      "text": "Then: Shots off target by left"
+    },
+    {
+      "start": 4939.0,
+      "end": 4939.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4915000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/segment_004840_004960.json",
+  "segment_meta": {
+    "start_seconds": 4840,
+    "end_seconds": 4960,
+    "length_seconds": 120,
+    "start_time_mmss": "80:40",
+    "end_time_mmss": "82:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

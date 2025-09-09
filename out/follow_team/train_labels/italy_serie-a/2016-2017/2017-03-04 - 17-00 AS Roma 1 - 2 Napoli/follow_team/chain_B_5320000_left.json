@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20880,
+  "video_id": "462fc037-ac08-5f56-bc08-3ccca3274375",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 5320.0,
+      "end": 5320.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 5321.0,
+      "end": 5321.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5320000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/segment_005310_005430.json",
+  "segment_meta": {
+    "start_seconds": 5310,
+    "end_seconds": 5430,
+    "length_seconds": 120,
+    "start_time_mmss": "88:30",
+    "end_time_mmss": "90:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 233,
+  "video_id": "b57075ff-ee7d-5580-9355-ef71d6224f3d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 1302.0,
+      "end": 1302.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 1304.0,
+      "end": 1304.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1302000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/segment_001230_001310.json",
+  "segment_meta": {
+    "start_seconds": 1230,
+    "end_seconds": 1310,
+    "length_seconds": 80,
+    "start_time_mmss": "20:30",
+    "end_time_mmss": "21:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

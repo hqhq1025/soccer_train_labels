@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8561,
+  "video_id": "6fac1c25-ad65-5a2d-b36e-4a0480a20112",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 10:06"
+    },
+    {
+      "start": 621.0,
+      "end": 621.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 606000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/segment_000530_000650.json",
+  "segment_meta": {
+    "start_seconds": 530,
+    "end_seconds": 650,
+    "length_seconds": 120,
+    "start_time_mmss": "08:50",
+    "end_time_mmss": "10:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

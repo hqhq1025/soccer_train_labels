@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5152,
+  "video_id": "a1ee46a2-9e8a-5895-bf0b-45e0eb8af62b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Substitution}.",
+  "answer": [
+    {
+      "start": 5057.0,
+      "end": 5057.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 5104.0,
+      "end": 5104.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5057000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/segment_005020_005140.json",
+  "segment_meta": {
+    "start_seconds": 5020,
+    "end_seconds": 5140,
+    "length_seconds": 120,
+    "start_time_mmss": "83:40",
+    "end_time_mmss": "85:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

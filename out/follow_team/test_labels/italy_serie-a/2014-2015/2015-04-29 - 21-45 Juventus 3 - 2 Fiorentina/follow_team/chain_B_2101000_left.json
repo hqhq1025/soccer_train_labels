@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5482,
+  "video_id": "44cfea37-7af5-5909-9feb-82e99fec1b8f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Goal}.",
+  "answer": [
+    {
+      "start": 2101.0,
+      "end": 2101.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2102.0,
+      "end": 2102.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2101000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/segment_002050_002110.json",
+  "segment_meta": {
+    "start_seconds": 2050,
+    "end_seconds": 2110,
+    "length_seconds": 60,
+    "start_time_mmss": "34:10",
+    "end_time_mmss": "35:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

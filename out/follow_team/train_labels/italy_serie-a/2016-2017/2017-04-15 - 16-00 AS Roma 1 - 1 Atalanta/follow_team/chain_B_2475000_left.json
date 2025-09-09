@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17064,
+  "video_id": "377df544-77ee-5445-8d35-b5927ab7834d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
+  "answer": [
+    {
+      "start": 2475.0,
+      "end": 2475.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2481.0,
+      "end": 2481.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2475000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/segment_002440_002540.json",
+  "segment_meta": {
+    "start_seconds": 2440,
+    "end_seconds": 2540,
+    "length_seconds": 100,
+    "start_time_mmss": "40:40",
+    "end_time_mmss": "42:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

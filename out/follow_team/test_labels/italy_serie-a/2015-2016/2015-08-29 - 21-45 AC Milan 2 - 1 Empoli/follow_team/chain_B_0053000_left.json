@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5400,
+  "video_id": "9f8e1165-3109-5e06-b71d-26c2ab969336",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 53000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/segment_000020_000140.json",
+  "segment_meta": {
+    "start_seconds": 20,
+    "end_seconds": 140,
+    "length_seconds": 120,
+    "start_time_mmss": "00:20",
+    "end_time_mmss": "02:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

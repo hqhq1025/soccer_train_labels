@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6297,
+  "video_id": "d4c20c26-88b1-530c-9041-e3f2821bcc66",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Kick-off}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 3365.0,
+      "end": 3365.0,
+      "text": "Trigger: Kick-off by right @ 2 - 11:05"
+    },
+    {
+      "start": 3397.0,
+      "end": 3397.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3365000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/segment_003340_003460.json",
+  "segment_meta": {
+    "start_seconds": 3340,
+    "end_seconds": 3460,
+    "length_seconds": 120,
+    "start_time_mmss": "55:40",
+    "end_time_mmss": "57:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

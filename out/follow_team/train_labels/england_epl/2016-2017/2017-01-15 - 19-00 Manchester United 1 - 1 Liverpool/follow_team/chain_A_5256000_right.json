@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23435,
+  "video_id": "352108a0-6266-512e-8a18-511b8bb4f932",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Offside}.",
+  "answer": [
+    {
+      "start": 5256.0,
+      "end": 5256.0,
+      "text": "Trigger: Foul by right @ 2 - 42:36"
+    },
+    {
+      "start": 5299.0,
+      "end": 5299.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5256000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/segment_005240_005300.json",
+  "segment_meta": {
+    "start_seconds": 5240,
+    "end_seconds": 5300,
+    "length_seconds": 60,
+    "start_time_mmss": "87:20",
+    "end_time_mmss": "88:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

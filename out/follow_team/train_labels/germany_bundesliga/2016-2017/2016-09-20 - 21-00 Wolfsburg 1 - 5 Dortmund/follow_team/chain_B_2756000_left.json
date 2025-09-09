@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4296,
+  "video_id": "35531e8a-b451-5373-b030-d42c4a9c5eeb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2756.0,
+      "end": 2756.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 2784.0,
+      "end": 2784.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2756000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/segment_002730_002790.json",
+  "segment_meta": {
+    "start_seconds": 2730,
+    "end_seconds": 2790,
+    "length_seconds": 60,
+    "start_time_mmss": "45:30",
+    "end_time_mmss": "46:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

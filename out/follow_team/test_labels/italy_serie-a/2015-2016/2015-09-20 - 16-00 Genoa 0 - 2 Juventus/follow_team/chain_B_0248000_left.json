@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5290,
+  "video_id": "c3b6f214-bbab-5e27-97da-ed13e65e695f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 248.0,
+      "end": 248.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 271.0,
+      "end": 271.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 248000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/segment_000160_000280.json",
+  "segment_meta": {
+    "start_seconds": 160,
+    "end_seconds": 280,
+    "length_seconds": 120,
+    "start_time_mmss": "02:40",
+    "end_time_mmss": "04:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

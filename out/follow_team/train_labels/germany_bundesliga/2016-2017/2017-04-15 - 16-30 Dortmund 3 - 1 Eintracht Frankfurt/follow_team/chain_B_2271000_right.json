@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4908,
+  "video_id": "737d942a-fc85-5081-ac1b-e32148d33ebc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 2271.0,
+      "end": 2271.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2280.0,
+      "end": 2280.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2271000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/segment_002230_002290.json",
+  "segment_meta": {
+    "start_seconds": 2230,
+    "end_seconds": 2290,
+    "length_seconds": 60,
+    "start_time_mmss": "37:10",
+    "end_time_mmss": "38:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

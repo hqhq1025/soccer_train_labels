@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22135,
+  "video_id": "6291c74f-7442-53eb-b779-13287afab2dc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 5064.0,
+      "end": 5064.0,
+      "text": "Trigger: Throw-in by left @ 2 - 39:24"
+    },
+    {
+      "start": 5082.0,
+      "end": 5082.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5064000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_004990_005110.json",
+  "segment_meta": {
+    "start_seconds": 4990,
+    "end_seconds": 5110,
+    "length_seconds": 120,
+    "start_time_mmss": "83:10",
+    "end_time_mmss": "85:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17664,
+  "video_id": "60960e4c-d9d1-5539-8bf7-979383733b39",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Substitution} occurs, follow the initiating team and report all {Penalty}.",
+  "answer": [
+    {
+      "start": 3563.0,
+      "end": 3563.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 3570.0,
+      "end": 3570.0,
+      "text": "Then: Penalty by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3563000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/segment_003460_003580.json",
+  "segment_meta": {
+    "start_seconds": 3460,
+    "end_seconds": 3580,
+    "length_seconds": 120,
+    "start_time_mmss": "57:40",
+    "end_time_mmss": "59:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

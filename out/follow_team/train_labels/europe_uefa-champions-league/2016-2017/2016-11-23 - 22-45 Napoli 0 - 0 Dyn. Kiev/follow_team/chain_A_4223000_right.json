@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9571,
+  "video_id": "05c1c25a-eba0-5d64-b019-cb0cf75e6c0b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Corner} happen.",
+  "answer": [
+    {
+      "start": 4223.0,
+      "end": 4223.0,
+      "text": "Trigger: Shots on target by right @ 2 - 25:23"
+    },
+    {
+      "start": 4255.0,
+      "end": 4255.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 4275.0,
+      "end": 4275.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4223000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/segment_004160_004280.json",
+  "segment_meta": {
+    "start_seconds": 4160,
+    "end_seconds": 4280,
+    "length_seconds": 120,
+    "start_time_mmss": "69:20",
+    "end_time_mmss": "71:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

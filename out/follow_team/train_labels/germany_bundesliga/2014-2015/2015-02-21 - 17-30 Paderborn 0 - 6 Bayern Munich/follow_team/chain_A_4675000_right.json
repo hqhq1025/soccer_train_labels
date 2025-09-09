@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3181,
+  "video_id": "352a81f8-bef3-5025-a0a6-69f562e88fa0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Substitution}, start tracking that team; notify me on its {Shots off target and Throw-in}.",
+  "answer": [
+    {
+      "start": 4675.0,
+      "end": 4675.0,
+      "text": "Trigger: Substitution by right @ 2 - 32:55"
+    },
+    {
+      "start": 4710.0,
+      "end": 4710.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 4746.0,
+      "end": 4746.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4675000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/segment_004630_004750.json",
+  "segment_meta": {
+    "start_seconds": 4630,
+    "end_seconds": 4750,
+    "length_seconds": 120,
+    "start_time_mmss": "77:10",
+    "end_time_mmss": "79:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

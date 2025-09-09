@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8758,
+  "video_id": "54756e35-f39b-57fa-b19f-fcdcc2a052cc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 2959.0,
+      "end": 2959.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2991.0,
+      "end": 2991.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2959000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/segment_002900_003000.json",
+  "segment_meta": {
+    "start_seconds": 2900,
+    "end_seconds": 3000,
+    "length_seconds": 100,
+    "start_time_mmss": "48:20",
+    "end_time_mmss": "50:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

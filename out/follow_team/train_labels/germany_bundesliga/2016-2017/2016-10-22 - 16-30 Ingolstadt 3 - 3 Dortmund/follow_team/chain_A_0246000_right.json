@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4891,
+  "video_id": "de43fb32-f75b-5048-8f42-ffc1ea24bbe3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Indirect free-kick, Throw-in and Shots on target}.",
+  "answer": [
+    {
+      "start": 246.0,
+      "end": 246.0,
+      "text": "Trigger: Foul by right @ 1 - 04:06"
+    },
+    {
+      "start": 270.0,
+      "end": 270.0,
+      "text": "Then: Indirect free-kick by right"
+    },
+    {
+      "start": 284.0,
+      "end": 284.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 291.0,
+      "end": 291.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 246000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/segment_000200_000300.json",
+  "segment_meta": {
+    "start_seconds": 200,
+    "end_seconds": 300,
+    "length_seconds": 100,
+    "start_time_mmss": "03:20",
+    "end_time_mmss": "05:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

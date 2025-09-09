@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8017,
+  "video_id": "c2845f54-088c-5a62-804e-1cf3f222bc9c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
+  "answer": [
+    {
+      "start": 5792.0,
+      "end": 5792.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 5801.0,
+      "end": 5801.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5792000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/segment_005740_005810.json",
+  "segment_meta": {
+    "start_seconds": 5740,
+    "end_seconds": 5810,
+    "length_seconds": 70,
+    "start_time_mmss": "95:40",
+    "end_time_mmss": "96:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

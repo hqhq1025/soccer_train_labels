@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3319,
+  "video_id": "3191259f-fad3-579d-b214-c8c35ee22710",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Indirect free-kick} it makes.",
+  "answer": [
+    {
+      "start": 366.0,
+      "end": 366.0,
+      "text": "Trigger: Foul by right @ 1 - 06:06"
+    },
+    {
+      "start": 373.0,
+      "end": 373.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 366000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/segment_000260_000380.json",
+  "segment_meta": {
+    "start_seconds": 260,
+    "end_seconds": 380,
+    "length_seconds": 120,
+    "start_time_mmss": "04:20",
+    "end_time_mmss": "06:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

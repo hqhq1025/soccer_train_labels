@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 641,
+  "video_id": "ec8e3314-fd58-510e-ad71-31689443715a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 4865.0,
+      "end": 4865.0,
+      "text": "Trigger: Corner by left @ 2 - 36:05"
+    },
+    {
+      "start": 4871.0,
+      "end": 4871.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4865000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/segment_004800_004920.json",
+  "segment_meta": {
+    "start_seconds": 4800,
+    "end_seconds": 4920,
+    "length_seconds": 120,
+    "start_time_mmss": "80:00",
+    "end_time_mmss": "82:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

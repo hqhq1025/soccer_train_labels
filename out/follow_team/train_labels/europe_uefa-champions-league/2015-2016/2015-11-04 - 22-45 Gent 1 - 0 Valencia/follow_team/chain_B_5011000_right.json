@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7364,
+  "video_id": "0fa53e95-d485-5a5d-b0f4-37a261a7c891",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 5011.0,
+      "end": 5011.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 5068.0,
+      "end": 5068.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5011000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/segment_004980_005080.json",
+  "segment_meta": {
+    "start_seconds": 4980,
+    "end_seconds": 5080,
+    "length_seconds": 100,
+    "start_time_mmss": "83:00",
+    "end_time_mmss": "84:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

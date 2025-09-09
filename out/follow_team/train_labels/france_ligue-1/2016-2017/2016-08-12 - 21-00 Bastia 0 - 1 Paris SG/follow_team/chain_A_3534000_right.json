@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 705,
+  "video_id": "65c74dbd-9361-57af-b8a5-50ecadcba3f5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 3534.0,
+      "end": 3534.0,
+      "text": "Trigger: Throw-in by right @ 2 - 13:54"
+    },
+    {
+      "start": 3569.0,
+      "end": 3569.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3534000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/segment_003500_003580.json",
+  "segment_meta": {
+    "start_seconds": 3500,
+    "end_seconds": 3580,
+    "length_seconds": 80,
+    "start_time_mmss": "58:20",
+    "end_time_mmss": "59:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

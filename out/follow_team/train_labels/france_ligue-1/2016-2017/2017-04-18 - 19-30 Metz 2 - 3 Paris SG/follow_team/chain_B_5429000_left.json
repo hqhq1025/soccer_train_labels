@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 682,
+  "video_id": "ef6b526f-c933-5c10-9e2f-fd0e0718a2fb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots off target}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 5429.0,
+      "end": 5429.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 5434.0,
+      "end": 5434.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5429000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/segment_005370_005490.json",
+  "segment_meta": {
+    "start_seconds": 5370,
+    "end_seconds": 5490,
+    "length_seconds": 120,
+    "start_time_mmss": "89:30",
+    "end_time_mmss": "91:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

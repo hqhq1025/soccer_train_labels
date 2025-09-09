@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18834,
+  "video_id": "cf39464b-ee39-51e8-a7b9-abccd92fb9da",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
+  "answer": [
+    {
+      "start": 3689.0,
+      "end": 3689.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3694.0,
+      "end": 3694.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3689000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/segment_003600_003700.json",
+  "segment_meta": {
+    "start_seconds": 3600,
+    "end_seconds": 3700,
+    "length_seconds": 100,
+    "start_time_mmss": "60:00",
+    "end_time_mmss": "61:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

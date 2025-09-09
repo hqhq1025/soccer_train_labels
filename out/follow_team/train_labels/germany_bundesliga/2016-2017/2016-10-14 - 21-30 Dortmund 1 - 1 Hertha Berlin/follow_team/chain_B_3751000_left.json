@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5078,
+  "video_id": "1d03d01a-7416-5568-8c44-b03500969113",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "answer": [
+    {
+      "start": 3751.0,
+      "end": 3751.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3761.0,
+      "end": 3761.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3751000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/segment_003710_003830.json",
+  "segment_meta": {
+    "start_seconds": 3710,
+    "end_seconds": 3830,
+    "length_seconds": 120,
+    "start_time_mmss": "61:50",
+    "end_time_mmss": "63:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

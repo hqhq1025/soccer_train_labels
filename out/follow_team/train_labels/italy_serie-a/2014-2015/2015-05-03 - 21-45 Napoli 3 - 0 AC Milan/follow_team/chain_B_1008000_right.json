@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16336,
+  "video_id": "8a2a8fe6-32f6-5105-b9c0-3337daac81be",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 1008.0,
+      "end": 1008.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 1074.0,
+      "end": 1074.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1008000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/segment_000970_001090.json",
+  "segment_meta": {
+    "start_seconds": 970,
+    "end_seconds": 1090,
+    "length_seconds": 120,
+    "start_time_mmss": "16:10",
+    "end_time_mmss": "18:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

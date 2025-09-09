@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13715,
+  "video_id": "969f74d7-e6c6-52bd-a95e-a13df1f3fd3a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Shots on target}.",
+  "answer": [
+    {
+      "start": 3855.0,
+      "end": 3855.0,
+      "text": "Trigger: Foul by left @ 2 - 19:15"
+    },
+    {
+      "start": 3882.0,
+      "end": 3882.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3855000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/segment_003810_003910.json",
+  "segment_meta": {
+    "start_seconds": 3810,
+    "end_seconds": 3910,
+    "length_seconds": 100,
+    "start_time_mmss": "63:30",
+    "end_time_mmss": "65:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

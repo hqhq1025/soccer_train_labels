@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5610,
+  "video_id": "a5445c80-f95a-507f-a341-0c5c41b1d666",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Yellow card}.",
+  "answer": [
+    {
+      "start": 3545.0,
+      "end": 3545.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3550.0,
+      "end": 3550.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3545000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/segment_003520_003560.json",
+  "segment_meta": {
+    "start_seconds": 3520,
+    "end_seconds": 3560,
+    "length_seconds": 40,
+    "start_time_mmss": "58:40",
+    "end_time_mmss": "59:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

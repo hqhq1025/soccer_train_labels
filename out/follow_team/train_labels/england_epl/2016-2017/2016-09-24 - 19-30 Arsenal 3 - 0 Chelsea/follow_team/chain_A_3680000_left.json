@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25079,
+  "video_id": "cb52d622-d4dd-57e4-b80c-00aa814d0d27",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Direct free-kick} happen.",
+  "answer": [
+    {
+      "start": 3680.0,
+      "end": 3680.0,
+      "text": "Trigger: Throw-in by left @ 2 - 16:20"
+    },
+    {
+      "start": 3717.0,
+      "end": 3717.0,
+      "text": "Then: Direct free-kick by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3680000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/segment_003630_003730.json",
+  "segment_meta": {
+    "start_seconds": 3630,
+    "end_seconds": 3730,
+    "length_seconds": 100,
+    "start_time_mmss": "60:30",
+    "end_time_mmss": "62:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

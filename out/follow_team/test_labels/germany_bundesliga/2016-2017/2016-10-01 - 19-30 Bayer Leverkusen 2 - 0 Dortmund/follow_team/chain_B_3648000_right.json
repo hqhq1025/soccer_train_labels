@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1012,
+  "video_id": "169ed789-635e-5a42-9772-8b56b2621db5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 3648.0,
+      "end": 3648.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 3659.0,
+      "end": 3659.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3648000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/segment_003580_003700.json",
+  "segment_meta": {
+    "start_seconds": 3580,
+    "end_seconds": 3700,
+    "length_seconds": 120,
+    "start_time_mmss": "59:40",
+    "end_time_mmss": "61:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

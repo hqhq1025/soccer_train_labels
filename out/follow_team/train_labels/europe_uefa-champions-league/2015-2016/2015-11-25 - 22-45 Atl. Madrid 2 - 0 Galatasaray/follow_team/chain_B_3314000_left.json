@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6572,
+  "video_id": "d4c9b983-11f2-5ace-82c6-763f55ea1c94",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}.",
+  "answer": [
+    {
+      "start": 3314.0,
+      "end": 3314.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3318.0,
+      "end": 3318.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Atl. Madrid 2 - 0 Galatasaray/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Atl. Madrid 2 - 0 Galatasaray/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3314000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Atl. Madrid 2 - 0 Galatasaray/segment_003280_003400.json",
+  "segment_meta": {
+    "start_seconds": 3280,
+    "end_seconds": 3400,
+    "length_seconds": 120,
+    "start_time_mmss": "54:40",
+    "end_time_mmss": "56:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

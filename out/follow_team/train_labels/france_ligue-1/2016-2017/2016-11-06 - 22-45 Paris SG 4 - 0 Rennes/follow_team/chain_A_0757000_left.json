@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1459,
+  "video_id": "7c705a8c-5943-59be-a422-c95e57df30a5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 757.0,
+      "end": 757.0,
+      "text": "Trigger: Clearance by left @ 1 - 12:37"
+    },
+    {
+      "start": 769.0,
+      "end": 769.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 757000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/segment_000650_000770.json",
+  "segment_meta": {
+    "start_seconds": 650,
+    "end_seconds": 770,
+    "length_seconds": 120,
+    "start_time_mmss": "10:50",
+    "end_time_mmss": "12:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

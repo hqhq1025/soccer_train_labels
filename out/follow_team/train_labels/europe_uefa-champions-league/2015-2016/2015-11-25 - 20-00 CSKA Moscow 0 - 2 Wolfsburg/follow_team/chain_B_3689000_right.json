@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6140,
+  "video_id": "f7ef20bb-1524-5e7d-8665-13c27975ec57",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 3689.0,
+      "end": 3689.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 3705.0,
+      "end": 3705.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3689000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/segment_003670_003730.json",
+  "segment_meta": {
+    "start_seconds": 3670,
+    "end_seconds": 3730,
+    "length_seconds": 60,
+    "start_time_mmss": "61:10",
+    "end_time_mmss": "62:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

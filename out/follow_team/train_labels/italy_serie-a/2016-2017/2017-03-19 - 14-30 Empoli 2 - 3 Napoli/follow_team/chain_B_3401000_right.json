@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18438,
+  "video_id": "d42a1972-ca77-5823-b3fa-fb4e797c0095",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Direct free-kick} happen.",
+  "answer": [
+    {
+      "start": 3401.0,
+      "end": 3401.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3453.0,
+      "end": 3453.0,
+      "text": "Then: Direct free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3401000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/segment_003340_003460.json",
+  "segment_meta": {
+    "start_seconds": 3340,
+    "end_seconds": 3460,
+    "length_seconds": 120,
+    "start_time_mmss": "55:40",
+    "end_time_mmss": "57:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

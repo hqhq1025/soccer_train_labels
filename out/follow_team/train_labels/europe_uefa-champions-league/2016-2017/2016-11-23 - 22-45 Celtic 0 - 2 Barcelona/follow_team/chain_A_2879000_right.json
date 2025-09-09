@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9243,
+  "video_id": "b4e5e513-46c9-59a0-b7b9-e5dfe2be4eab",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 2879.0,
+      "end": 2879.0,
+      "text": "Trigger: Shots on target by right @ 2 - 02:59"
+    },
+    {
+      "start": 2917.0,
+      "end": 2917.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2879000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/segment_002810_002930.json",
+  "segment_meta": {
+    "start_seconds": 2810,
+    "end_seconds": 2930,
+    "length_seconds": 120,
+    "start_time_mmss": "46:50",
+    "end_time_mmss": "48:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22624,
+  "video_id": "af961b9b-1b09-5326-8ecd-63f05efc54bd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 262.0,
+      "end": 262.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 272.0,
+      "end": 272.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 262000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_000240_000280.json",
+  "segment_meta": {
+    "start_seconds": 240,
+    "end_seconds": 280,
+    "length_seconds": 40,
+    "start_time_mmss": "04:00",
+    "end_time_mmss": "04:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3287,
+  "video_id": "d438c5ea-ddf2-5c51-8755-835c5e1132b6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 5179.0,
+      "end": 5179.0,
+      "text": "Trigger: Direct free-kick by right @ 2 - 41:19"
+    },
+    {
+      "start": 5225.0,
+      "end": 5225.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5179000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/segment_005110_005230.json",
+  "segment_meta": {
+    "start_seconds": 5110,
+    "end_seconds": 5230,
+    "length_seconds": 120,
+    "start_time_mmss": "85:10",
+    "end_time_mmss": "87:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

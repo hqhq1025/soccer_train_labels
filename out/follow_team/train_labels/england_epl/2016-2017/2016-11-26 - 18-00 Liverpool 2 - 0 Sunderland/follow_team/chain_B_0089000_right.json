@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25186,
+  "video_id": "f7db5abf-1b83-5a5f-8813-823df6d3e333",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 89000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/segment_000050_000150.json",
+  "segment_meta": {
+    "start_seconds": 50,
+    "end_seconds": 150,
+    "length_seconds": 100,
+    "start_time_mmss": "00:50",
+    "end_time_mmss": "02:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

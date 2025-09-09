@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14103,
+  "video_id": "9956b3a2-eaf1-55f8-ab8f-272c126619b2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 2029.0,
+      "end": 2029.0,
+      "text": "Trigger: Foul by right @ 1 - 33:49"
+    },
+    {
+      "start": 2065.0,
+      "end": 2065.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2029000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/segment_002020_002140.json",
+  "segment_meta": {
+    "start_seconds": 2020,
+    "end_seconds": 2140,
+    "length_seconds": 120,
+    "start_time_mmss": "33:40",
+    "end_time_mmss": "35:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

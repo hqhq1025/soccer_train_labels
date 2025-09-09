@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9663,
+  "video_id": "74434b96-b74d-5519-a130-3c5b293b8edc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 3000.0,
+      "end": 3000.0,
+      "text": "Trigger: Foul by left @ 2 - 05:00"
+    },
+    {
+      "start": 3045.0,
+      "end": 3045.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3000000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/segment_002990_003070.json",
+  "segment_meta": {
+    "start_seconds": 2990,
+    "end_seconds": 3070,
+    "length_seconds": 80,
+    "start_time_mmss": "49:50",
+    "end_time_mmss": "51:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

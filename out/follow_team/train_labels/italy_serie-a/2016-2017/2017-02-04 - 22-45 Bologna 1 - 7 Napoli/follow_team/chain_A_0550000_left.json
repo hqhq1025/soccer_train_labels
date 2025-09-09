@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20111,
+  "video_id": "5daddc8d-9ab4-5cf2-b124-1aa0d384f3a2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 550.0,
+      "end": 550.0,
+      "text": "Trigger: Shots on target by left @ 1 - 09:10"
+    },
+    {
+      "start": 582.0,
+      "end": 582.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 601.0,
+      "end": 601.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 604.0,
+      "end": 604.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 550000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/segment_000530_000610.json",
+  "segment_meta": {
+    "start_seconds": 530,
+    "end_seconds": 610,
+    "length_seconds": 80,
+    "start_time_mmss": "08:50",
+    "end_time_mmss": "10:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

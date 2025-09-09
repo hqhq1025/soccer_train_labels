@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 592,
+  "video_id": "1e96e1a6-5675-5552-b398-fc12e04300ae",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2238.0,
+      "end": 2238.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2255.0,
+      "end": 2255.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2238000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_002160_002260.json",
+  "segment_meta": {
+    "start_seconds": 2160,
+    "end_seconds": 2260,
+    "length_seconds": 100,
+    "start_time_mmss": "36:00",
+    "end_time_mmss": "37:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

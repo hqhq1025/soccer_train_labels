@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8100,
+  "video_id": "0ece8682-4c83-5424-95de-44a672f114d4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Corner}.",
+  "answer": [
+    {
+      "start": 2119.0,
+      "end": 2119.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 2151.0,
+      "end": 2151.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Atl. Madrid 0 - 0 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Atl. Madrid 0 - 0 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2119000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Atl. Madrid 0 - 0 Real Madrid/segment_002080_002160.json",
+  "segment_meta": {
+    "start_seconds": 2080,
+    "end_seconds": 2160,
+    "length_seconds": 80,
+    "start_time_mmss": "34:40",
+    "end_time_mmss": "36:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

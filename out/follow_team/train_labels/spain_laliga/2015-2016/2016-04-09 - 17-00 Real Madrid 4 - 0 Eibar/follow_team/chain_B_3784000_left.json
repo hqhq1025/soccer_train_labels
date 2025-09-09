@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11322,
+  "video_id": "328e9ed5-9fcc-5961-8904-fe2be5128931",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 3784.0,
+      "end": 3784.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 3812.0,
+      "end": 3812.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3784000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/segment_003760_003820.json",
+  "segment_meta": {
+    "start_seconds": 3760,
+    "end_seconds": 3820,
+    "length_seconds": 60,
+    "start_time_mmss": "62:40",
+    "end_time_mmss": "63:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

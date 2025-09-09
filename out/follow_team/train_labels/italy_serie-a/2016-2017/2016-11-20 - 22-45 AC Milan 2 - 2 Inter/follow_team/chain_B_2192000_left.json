@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19014,
+  "video_id": "a7737938-32e3-5b01-96cf-d4df0d46e1cf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Substitution} occurs, follow the initiating team and report all {Offside}.",
+  "answer": [
+    {
+      "start": 2192.0,
+      "end": 2192.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 2245.0,
+      "end": 2245.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2192000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_002130_002250.json",
+  "segment_meta": {
+    "start_seconds": 2130,
+    "end_seconds": 2250,
+    "length_seconds": 120,
+    "start_time_mmss": "35:30",
+    "end_time_mmss": "37:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

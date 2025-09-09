@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21438,
+  "video_id": "747436fa-0c03-58ef-88fb-911c08dafba7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Offside}.",
+  "answer": [
+    {
+      "start": 408.0,
+      "end": 408.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 409.0,
+      "end": 409.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 408000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/segment_000350_000410.json",
+  "segment_meta": {
+    "start_seconds": 350,
+    "end_seconds": 410,
+    "length_seconds": 60,
+    "start_time_mmss": "05:50",
+    "end_time_mmss": "06:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

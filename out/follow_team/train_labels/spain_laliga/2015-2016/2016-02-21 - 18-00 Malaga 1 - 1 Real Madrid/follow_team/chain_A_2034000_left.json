@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10375,
+  "video_id": "a76a1b00-d553-5580-b2ca-dc788532f16e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 2034.0,
+      "end": 2034.0,
+      "text": "Trigger: Foul by left @ 1 - 33:54"
+    },
+    {
+      "start": 2041.0,
+      "end": 2041.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2034000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/segment_002010_002050.json",
+  "segment_meta": {
+    "start_seconds": 2010,
+    "end_seconds": 2050,
+    "length_seconds": 40,
+    "start_time_mmss": "33:30",
+    "end_time_mmss": "34:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

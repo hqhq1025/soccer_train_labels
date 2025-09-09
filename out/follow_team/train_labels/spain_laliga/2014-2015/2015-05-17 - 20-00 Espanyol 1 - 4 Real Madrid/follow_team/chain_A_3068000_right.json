@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11695,
+  "video_id": "82c1f7a3-c6b2-581c-80a7-6b95999f6223",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3068.0,
+      "end": 3068.0,
+      "text": "Trigger: Foul by right @ 2 - 06:08"
+    },
+    {
+      "start": 3089.0,
+      "end": 3089.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3068000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/segment_002990_003090.json",
+  "segment_meta": {
+    "start_seconds": 2990,
+    "end_seconds": 3090,
+    "length_seconds": 100,
+    "start_time_mmss": "49:50",
+    "end_time_mmss": "51:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

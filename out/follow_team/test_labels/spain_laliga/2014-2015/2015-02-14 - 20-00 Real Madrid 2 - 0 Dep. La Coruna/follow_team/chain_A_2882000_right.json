@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4011,
+  "video_id": "cbf7bd3a-da5d-5f0a-ae2b-3eeed16ee1cc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 2882.0,
+      "end": 2882.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 2901.0,
+      "end": 2901.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2882000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/segment_002790_002910.json",
+  "segment_meta": {
+    "start_seconds": 2790,
+    "end_seconds": 2910,
+    "length_seconds": 120,
+    "start_time_mmss": "46:30",
+    "end_time_mmss": "48:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

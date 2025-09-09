@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16533,
+  "video_id": "bf6a39af-9b93-5b69-9f44-11194be38840",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Shots off target}.",
+  "answer": [
+    {
+      "start": 5013.0,
+      "end": 5013.0,
+      "text": "Trigger: Foul by right @ 2 - 38:33"
+    },
+    {
+      "start": 5031.0,
+      "end": 5031.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5013000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_004990_005090.json",
+  "segment_meta": {
+    "start_seconds": 4990,
+    "end_seconds": 5090,
+    "length_seconds": 100,
+    "start_time_mmss": "83:10",
+    "end_time_mmss": "84:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

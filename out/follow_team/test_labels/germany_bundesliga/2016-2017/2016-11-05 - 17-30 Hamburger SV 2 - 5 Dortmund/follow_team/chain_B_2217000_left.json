@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1342,
+  "video_id": "d4978125-f52a-5e21-abba-11f427c4ff25",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 2217.0,
+      "end": 2217.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2271.0,
+      "end": 2271.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2217000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/segment_002200_002300.json",
+  "segment_meta": {
+    "start_seconds": 2200,
+    "end_seconds": 2300,
+    "length_seconds": 100,
+    "start_time_mmss": "36:40",
+    "end_time_mmss": "38:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

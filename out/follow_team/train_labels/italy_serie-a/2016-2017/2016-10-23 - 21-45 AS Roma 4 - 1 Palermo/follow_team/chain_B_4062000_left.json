@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17866,
+  "video_id": "fc87314e-c478-5e0e-bb03-4cc472223931",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Goal}.",
+  "answer": [
+    {
+      "start": 4062.0,
+      "end": 4062.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4063.0,
+      "end": 4063.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4062000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_004030_004070.json",
+  "segment_meta": {
+    "start_seconds": 4030,
+    "end_seconds": 4070,
+    "length_seconds": 40,
+    "start_time_mmss": "67:10",
+    "end_time_mmss": "67:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

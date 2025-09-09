@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9759,
+  "video_id": "b6a057a6-0e36-5862-b5aa-24fbafebd14a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Corner}.",
+  "answer": [
+    {
+      "start": 2543.0,
+      "end": 2543.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 42:23"
+    },
+    {
+      "start": 2578.0,
+      "end": 2578.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2543000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/segment_002460_002580.json",
+  "segment_meta": {
+    "start_seconds": 2460,
+    "end_seconds": 2580,
+    "length_seconds": 120,
+    "start_time_mmss": "41:00",
+    "end_time_mmss": "43:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

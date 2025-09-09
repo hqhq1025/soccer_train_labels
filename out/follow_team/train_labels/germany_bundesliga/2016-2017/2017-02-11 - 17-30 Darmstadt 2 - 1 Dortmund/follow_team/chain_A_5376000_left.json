@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3321,
+  "video_id": "eaea87ae-8f52-59b3-ae52-dd39853db648",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "answer": [
+    {
+      "start": 5376.0,
+      "end": 5376.0,
+      "text": "Trigger: Corner by left @ 2 - 44:36"
+    },
+    {
+      "start": 5377.0,
+      "end": 5377.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5376000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/segment_005290_005380.json",
+  "segment_meta": {
+    "start_seconds": 5290,
+    "end_seconds": 5380,
+    "length_seconds": 90,
+    "start_time_mmss": "88:10",
+    "end_time_mmss": "89:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15137,
+  "video_id": "79084cc8-24cd-5389-982f-b7c737740bd3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 4976.0,
+      "end": 4976.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 37:56"
+    },
+    {
+      "start": 4995.0,
+      "end": 4995.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 5000.0,
+      "end": 5000.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4976000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/segment_004930_005050.json",
+  "segment_meta": {
+    "start_seconds": 4930,
+    "end_seconds": 5050,
+    "length_seconds": 120,
+    "start_time_mmss": "82:10",
+    "end_time_mmss": "84:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3836,
+  "video_id": "241b5720-1e9c-57ba-9f35-871673d401a1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 3192.0,
+      "end": 3192.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 3198.0,
+      "end": 3198.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3192000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/segment_003120_003200.json",
+  "segment_meta": {
+    "start_seconds": 3120,
+    "end_seconds": 3200,
+    "length_seconds": 80,
+    "start_time_mmss": "52:00",
+    "end_time_mmss": "53:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

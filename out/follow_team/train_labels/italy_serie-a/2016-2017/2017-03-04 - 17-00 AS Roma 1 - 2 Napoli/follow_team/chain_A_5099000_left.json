@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20921,
+  "video_id": "b779a758-0830-544e-b2c4-69f50fa3a8e1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Indirect free-kick and Foul}.",
+  "answer": [
+    {
+      "start": 5099.0,
+      "end": 5099.0,
+      "text": "Trigger: Shots on target by left @ 2 - 39:59"
+    },
+    {
+      "start": 5130.0,
+      "end": 5130.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 5160.0,
+      "end": 5160.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 5175.0,
+      "end": 5175.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5099000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/segment_005060_005180.json",
+  "segment_meta": {
+    "start_seconds": 5060,
+    "end_seconds": 5180,
+    "length_seconds": 120,
+    "start_time_mmss": "84:20",
+    "end_time_mmss": "86:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

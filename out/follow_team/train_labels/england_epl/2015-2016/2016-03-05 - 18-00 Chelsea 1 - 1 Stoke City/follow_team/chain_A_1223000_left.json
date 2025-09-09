@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21385,
+  "video_id": "cf7f1add-7c95-513c-a32f-eebe70ee2ff2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 1223.0,
+      "end": 1223.0,
+      "text": "Trigger: Throw-in by left @ 1 - 20:23"
+    },
+    {
+      "start": 1258.0,
+      "end": 1258.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1223000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/segment_001180_001260.json",
+  "segment_meta": {
+    "start_seconds": 1180,
+    "end_seconds": 1260,
+    "length_seconds": 80,
+    "start_time_mmss": "19:40",
+    "end_time_mmss": "21:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

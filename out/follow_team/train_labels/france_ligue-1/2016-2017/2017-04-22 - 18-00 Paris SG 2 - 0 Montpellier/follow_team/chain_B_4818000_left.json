@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 792,
+  "video_id": "a39d812c-7ed9-541d-9950-9e95ab6dd50c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Substitution}.",
+  "answer": [
+    {
+      "start": 4818.0,
+      "end": 4818.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4847.0,
+      "end": 4847.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4818000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/segment_004790_004850.json",
+  "segment_meta": {
+    "start_seconds": 4790,
+    "end_seconds": 4850,
+    "length_seconds": 60,
+    "start_time_mmss": "79:50",
+    "end_time_mmss": "80:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

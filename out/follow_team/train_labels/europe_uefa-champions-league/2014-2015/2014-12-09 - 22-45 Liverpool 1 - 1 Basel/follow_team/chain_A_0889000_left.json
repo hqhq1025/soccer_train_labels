@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8213,
+  "video_id": "1673f782-28a7-58be-8d90-0266b0a158fc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 889.0,
+      "end": 889.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 14:49"
+    },
+    {
+      "start": 900.0,
+      "end": 900.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 889000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/segment_000860_000920.json",
+  "segment_meta": {
+    "start_seconds": 860,
+    "end_seconds": 920,
+    "length_seconds": 60,
+    "start_time_mmss": "14:20",
+    "end_time_mmss": "15:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

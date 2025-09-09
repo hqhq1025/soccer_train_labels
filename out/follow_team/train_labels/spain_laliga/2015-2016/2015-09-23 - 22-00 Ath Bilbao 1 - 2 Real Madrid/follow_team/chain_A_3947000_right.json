@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10275,
+  "video_id": "32f7d6dc-c1af-53f5-8601-de0d47a38f22",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card, Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 3947.0,
+      "end": 3947.0,
+      "text": "Trigger: Foul by right @ 2 - 20:47"
+    },
+    {
+      "start": 3960.0,
+      "end": 3960.0,
+      "text": "Then: Yellow card by right"
+    },
+    {
+      "start": 4015.0,
+      "end": 4015.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 4016.0,
+      "end": 4016.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3947000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/segment_003940_004040.json",
+  "segment_meta": {
+    "start_seconds": 3940,
+    "end_seconds": 4040,
+    "length_seconds": 100,
+    "start_time_mmss": "65:40",
+    "end_time_mmss": "67:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

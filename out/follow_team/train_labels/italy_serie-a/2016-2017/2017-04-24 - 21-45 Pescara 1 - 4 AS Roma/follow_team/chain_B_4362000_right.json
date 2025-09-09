@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17496,
+  "video_id": "41c5bf54-6f7e-5c56-ad98-4cec1f4d4688",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Offside}.",
+  "answer": [
+    {
+      "start": 4362.0,
+      "end": 4362.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4364.0,
+      "end": 4364.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4362000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/segment_004310_004370.json",
+  "segment_meta": {
+    "start_seconds": 4310,
+    "end_seconds": 4370,
+    "length_seconds": 60,
+    "start_time_mmss": "71:50",
+    "end_time_mmss": "72:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

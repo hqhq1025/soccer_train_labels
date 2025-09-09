@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8349,
+  "video_id": "ecaa3d13-4ce5-5e84-8089-dce04b6fd8ef",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Foul and Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 2941.0,
+      "end": 2941.0,
+      "text": "Trigger: Direct free-kick by right @ 2 - 04:01"
+    },
+    {
+      "start": 2957.0,
+      "end": 2957.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 2965.0,
+      "end": 2965.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2941000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/segment_002900_003020.json",
+  "segment_meta": {
+    "start_seconds": 2900,
+    "end_seconds": 3020,
+    "length_seconds": 120,
+    "start_time_mmss": "48:20",
+    "end_time_mmss": "50:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

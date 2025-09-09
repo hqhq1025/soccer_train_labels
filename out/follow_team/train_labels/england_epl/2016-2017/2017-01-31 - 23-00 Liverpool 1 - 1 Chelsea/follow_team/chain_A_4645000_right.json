@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23195,
+  "video_id": "e7355fca-baea-5ccb-b924-f33f2252560b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 4645.0,
+      "end": 4645.0,
+      "text": "Trigger: Foul by right @ 2 - 32:25"
+    },
+    {
+      "start": 4669.0,
+      "end": 4669.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4645000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_004560_004680.json",
+  "segment_meta": {
+    "start_seconds": 4560,
+    "end_seconds": 4680,
+    "length_seconds": 120,
+    "start_time_mmss": "76:00",
+    "end_time_mmss": "78:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

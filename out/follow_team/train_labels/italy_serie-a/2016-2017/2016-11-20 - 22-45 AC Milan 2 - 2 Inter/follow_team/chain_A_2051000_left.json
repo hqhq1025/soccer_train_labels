@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18901,
+  "video_id": "7e076644-c3a5-56e7-a5b8-9c396a2364cd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 2051.0,
+      "end": 2051.0,
+      "text": "Trigger: Shots off target by left @ 1 - 34:11"
+    },
+    {
+      "start": 2068.0,
+      "end": 2068.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2051000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_001950_002070.json",
+  "segment_meta": {
+    "start_seconds": 1950,
+    "end_seconds": 2070,
+    "length_seconds": 120,
+    "start_time_mmss": "32:30",
+    "end_time_mmss": "34:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

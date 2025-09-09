@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22825,
+  "video_id": "ab4411be-2777-5abf-86c2-45a6fec9c96a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Corner}.",
+  "answer": [
+    {
+      "start": 2864.0,
+      "end": 2864.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 02:44"
+    },
+    {
+      "start": 2914.0,
+      "end": 2914.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2864000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/segment_002840_002960.json",
+  "segment_meta": {
+    "start_seconds": 2840,
+    "end_seconds": 2960,
+    "length_seconds": 120,
+    "start_time_mmss": "47:20",
+    "end_time_mmss": "49:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

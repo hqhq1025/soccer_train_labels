@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13865,
+  "video_id": "c792c520-996a-518a-817d-615a606c7a65",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 1664.0,
+      "end": 1664.0,
+      "text": "Trigger: Foul by left @ 1 - 27:44"
+    },
+    {
+      "start": 1671.0,
+      "end": 1671.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1664000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/segment_001640_001680.json",
+  "segment_meta": {
+    "start_seconds": 1640,
+    "end_seconds": 1680,
+    "length_seconds": 40,
+    "start_time_mmss": "27:20",
+    "end_time_mmss": "28:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

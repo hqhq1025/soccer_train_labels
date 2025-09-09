@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6065,
+  "video_id": "ca119aac-54ef-523b-8c09-fcf81428c87b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Indirect free-kick and Shots off target}.",
+  "answer": [
+    {
+      "start": 2752.0,
+      "end": 2752.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2748.0,
+      "end": 2748.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 2766.0,
+      "end": 2766.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2752000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/segment_002740_002860.json",
+  "segment_meta": {
+    "start_seconds": 2740,
+    "end_seconds": 2860,
+    "length_seconds": 120,
+    "start_time_mmss": "45:40",
+    "end_time_mmss": "47:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

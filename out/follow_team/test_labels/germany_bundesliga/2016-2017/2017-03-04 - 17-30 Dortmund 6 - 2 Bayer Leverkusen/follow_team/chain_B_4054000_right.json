@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1426,
+  "video_id": "56ae1282-15ee-5d6d-a662-698779164f3d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4054.0,
+      "end": 4054.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 4130.0,
+      "end": 4130.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4054000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/segment_004040_004140.json",
+  "segment_meta": {
+    "start_seconds": 4040,
+    "end_seconds": 4140,
+    "length_seconds": 100,
+    "start_time_mmss": "67:20",
+    "end_time_mmss": "69:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

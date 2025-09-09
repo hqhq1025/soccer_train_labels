@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14365,
+  "video_id": "e343c5b5-2d17-52d5-a864-bd643b3fb7ed",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Goal}.",
+  "answer": [
+    {
+      "start": 3004.0,
+      "end": 3004.0,
+      "text": "Trigger: Shots on target by right @ 2 - 05:04"
+    },
+    {
+      "start": 3005.0,
+      "end": 3005.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3004000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/segment_002910_003010.json",
+  "segment_meta": {
+    "start_seconds": 2910,
+    "end_seconds": 3010,
+    "length_seconds": 100,
+    "start_time_mmss": "48:30",
+    "end_time_mmss": "50:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

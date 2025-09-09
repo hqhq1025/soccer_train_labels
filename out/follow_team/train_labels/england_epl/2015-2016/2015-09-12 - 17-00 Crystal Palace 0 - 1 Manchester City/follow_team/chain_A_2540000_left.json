@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22161,
+  "video_id": "06c69a3d-2de0-53ad-9e06-a0f3cc058909",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Clearance} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 2540.0,
+      "end": 2540.0,
+      "text": "Trigger: Clearance by left @ 1 - 42:20"
+    },
+    {
+      "start": 2565.0,
+      "end": 2565.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2540000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_002530_002570.json",
+  "segment_meta": {
+    "start_seconds": 2530,
+    "end_seconds": 2570,
+    "length_seconds": 40,
+    "start_time_mmss": "42:10",
+    "end_time_mmss": "42:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10244,
+  "video_id": "454d61db-73d0-5b47-ae8e-3d2ffffa425a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Substitution}.",
+  "answer": [
+    {
+      "start": 4238.0,
+      "end": 4238.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 4291.0,
+      "end": 4291.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4238000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/segment_004200_004320.json",
+  "segment_meta": {
+    "start_seconds": 4200,
+    "end_seconds": 4320,
+    "length_seconds": 120,
+    "start_time_mmss": "70:00",
+    "end_time_mmss": "72:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

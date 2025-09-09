@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2803,
+  "video_id": "8e3fada9-8d84-55b2-a52a-b1eeaac42b54",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in and Corner} happen.",
+  "answer": [
+    {
+      "start": 3054.0,
+      "end": 3054.0,
+      "text": "Trigger: Throw-in by left @ 2 - 05:54"
+    },
+    {
+      "start": 3101.0,
+      "end": 3101.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 3126.0,
+      "end": 3126.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3054000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/segment_003010_003130.json",
+  "segment_meta": {
+    "start_seconds": 3010,
+    "end_seconds": 3130,
+    "length_seconds": 120,
+    "start_time_mmss": "50:10",
+    "end_time_mmss": "52:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

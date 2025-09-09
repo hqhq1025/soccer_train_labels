@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13116,
+  "video_id": "8f141864-ecef-5b28-bf28-c5a462ce9a3f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 627.0,
+      "end": 627.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 673.0,
+      "end": 673.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 627000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/segment_000590_000690.json",
+  "segment_meta": {
+    "start_seconds": 590,
+    "end_seconds": 690,
+    "length_seconds": 100,
+    "start_time_mmss": "09:50",
+    "end_time_mmss": "11:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

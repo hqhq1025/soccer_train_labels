@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 326,
+  "video_id": "3cd03a49-69fc-53e3-848a-b7bc808a4693",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 330.0,
+      "end": 330.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 334.0,
+      "end": 334.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 330000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/segment_000240_000340.json",
+  "segment_meta": {
+    "start_seconds": 240,
+    "end_seconds": 340,
+    "length_seconds": 100,
+    "start_time_mmss": "04:00",
+    "end_time_mmss": "05:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

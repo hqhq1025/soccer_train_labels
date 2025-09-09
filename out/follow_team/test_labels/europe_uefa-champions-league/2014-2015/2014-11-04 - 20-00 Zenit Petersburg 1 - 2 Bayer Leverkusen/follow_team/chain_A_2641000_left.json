@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2141,
+  "video_id": "35de2598-120f-512e-a50f-aaea4e3dfc1c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 2641.0,
+      "end": 2641.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2648.0,
+      "end": 2648.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2641000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/segment_002570_002690.json",
+  "segment_meta": {
+    "start_seconds": 2570,
+    "end_seconds": 2690,
+    "length_seconds": 120,
+    "start_time_mmss": "42:50",
+    "end_time_mmss": "44:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

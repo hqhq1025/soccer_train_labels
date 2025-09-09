@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7163,
+  "video_id": "ccccc49f-57fd-5673-88f3-f1480e3f8644",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 4733.0,
+      "end": 4733.0,
+      "text": "Trigger: Foul by left @ 2 - 33:53"
+    },
+    {
+      "start": 4744.0,
+      "end": 4744.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4733000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/segment_004700_004820.json",
+  "segment_meta": {
+    "start_seconds": 4700,
+    "end_seconds": 4820,
+    "length_seconds": 120,
+    "start_time_mmss": "78:20",
+    "end_time_mmss": "80:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

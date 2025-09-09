@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16688,
+  "video_id": "e9773601-31aa-50be-bfe2-f3c0ccf30880",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Corner}.",
+  "answer": [
+    {
+      "start": 5285.0,
+      "end": 5285.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 5306.0,
+      "end": 5306.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5285000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/segment_005200_005320.json",
+  "segment_meta": {
+    "start_seconds": 5200,
+    "end_seconds": 5320,
+    "length_seconds": 120,
+    "start_time_mmss": "86:40",
+    "end_time_mmss": "88:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

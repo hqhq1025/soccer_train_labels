@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3153,
+  "video_id": "889f183d-a36e-533e-a707-667919f559b8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots on target and Corner} it makes.",
+  "answer": [
+    {
+      "start": 3852.0,
+      "end": 3852.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3869.0,
+      "end": 3869.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 3894.0,
+      "end": 3894.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-05-14 - 18-00 Dep. La Coruna 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-05-14 - 18-00 Dep. La Coruna 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3852000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-05-14 - 18-00 Dep. La Coruna 0 - 2 Real Madrid/segment_003820_003920.json",
+  "segment_meta": {
+    "start_seconds": 3820,
+    "end_seconds": 3920,
+    "length_seconds": 100,
+    "start_time_mmss": "63:40",
+    "end_time_mmss": "65:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

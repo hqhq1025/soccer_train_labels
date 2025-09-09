@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19092,
+  "video_id": "f2899de8-7da2-50dc-8461-2ceb8f6b0934",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots on target}.",
+  "answer": [
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 94000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/segment_000010_000110.json",
+  "segment_meta": {
+    "start_seconds": 10,
+    "end_seconds": 110,
+    "length_seconds": 100,
+    "start_time_mmss": "00:10",
+    "end_time_mmss": "01:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

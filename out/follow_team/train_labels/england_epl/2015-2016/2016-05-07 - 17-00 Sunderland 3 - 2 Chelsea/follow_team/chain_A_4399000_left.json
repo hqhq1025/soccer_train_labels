@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21131,
+  "video_id": "5dcdf18c-871a-5f8f-8c66-534e8ab47419",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Corner}.",
+  "answer": [
+    {
+      "start": 4399.0,
+      "end": 4399.0,
+      "text": "Trigger: Shots off target by left @ 2 - 28:19"
+    },
+    {
+      "start": 4419.0,
+      "end": 4419.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4399000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/segment_004340_004440.json",
+  "segment_meta": {
+    "start_seconds": 4340,
+    "end_seconds": 4440,
+    "length_seconds": 100,
+    "start_time_mmss": "72:20",
+    "end_time_mmss": "74:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

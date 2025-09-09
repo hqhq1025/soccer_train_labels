@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15423,
+  "video_id": "faffe929-66ca-5172-9376-594b1a5640d2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Offside and Shots off target}.",
+  "answer": [
+    {
+      "start": 3171.0,
+      "end": 3171.0,
+      "text": "Trigger: Direct free-kick by left @ 2 - 07:51"
+    },
+    {
+      "start": 3173.0,
+      "end": 3173.0,
+      "text": "Then: Offside by left"
+    },
+    {
+      "start": 3216.0,
+      "end": 3216.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3171000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/segment_003140_003220.json",
+  "segment_meta": {
+    "start_seconds": 3140,
+    "end_seconds": 3220,
+    "length_seconds": 80,
+    "start_time_mmss": "52:20",
+    "end_time_mmss": "53:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

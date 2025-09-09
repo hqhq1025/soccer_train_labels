@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5283,
+  "video_id": "43410aed-28e3-56da-8a04-90e5c2fc42dc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Shots off target and Indirect free-kick} it makes.",
+  "answer": [
+    {
+      "start": 2461.0,
+      "end": 2461.0,
+      "text": "Trigger: Corner by right @ 1 - 41:01"
+    },
+    {
+      "start": 2465.0,
+      "end": 2465.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 2492.0,
+      "end": 2492.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2461000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/segment_002410_002530.json",
+  "segment_meta": {
+    "start_seconds": 2410,
+    "end_seconds": 2530,
+    "length_seconds": 120,
+    "start_time_mmss": "40:10",
+    "end_time_mmss": "42:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

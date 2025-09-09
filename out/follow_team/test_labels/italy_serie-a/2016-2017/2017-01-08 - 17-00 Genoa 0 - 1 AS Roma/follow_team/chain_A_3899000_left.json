@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7099,
+  "video_id": "74e0778b-fa6c-5b00-823c-cb605d0b52fa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 3899.0,
+      "end": 3899.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3903.0,
+      "end": 3903.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3899000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/segment_003870_003930.json",
+  "segment_meta": {
+    "start_seconds": 3870,
+    "end_seconds": 3930,
+    "length_seconds": 60,
+    "start_time_mmss": "64:30",
+    "end_time_mmss": "65:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

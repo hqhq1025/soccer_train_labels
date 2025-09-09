@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2071,
+  "video_id": "ea57b586-30da-51f0-ad67-8a21db162edf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 5308.0,
+      "end": 5308.0,
+      "text": "Trigger: Foul by left @ 2 - 43:28"
+    },
+    {
+      "start": 5317.0,
+      "end": 5317.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5308000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/segment_005280_005380.json",
+  "segment_meta": {
+    "start_seconds": 5280,
+    "end_seconds": 5380,
+    "length_seconds": 100,
+    "start_time_mmss": "88:00",
+    "end_time_mmss": "89:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

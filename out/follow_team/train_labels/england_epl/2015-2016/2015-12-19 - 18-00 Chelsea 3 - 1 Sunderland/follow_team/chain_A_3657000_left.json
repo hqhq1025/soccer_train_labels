@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21847,
+  "video_id": "eed936d6-f830-5e34-887d-4c390553fe22",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Direct free-kick}.",
+  "answer": [
+    {
+      "start": 3657.0,
+      "end": 3657.0,
+      "text": "Trigger: Clearance by left @ 2 - 15:57"
+    },
+    {
+      "start": 3717.0,
+      "end": 3717.0,
+      "text": "Then: Direct free-kick by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-19 - 18-00 Chelsea 3 - 1 Sunderland/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-19 - 18-00 Chelsea 3 - 1 Sunderland/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3657000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-19 - 18-00 Chelsea 3 - 1 Sunderland/segment_003640_003720.json",
+  "segment_meta": {
+    "start_seconds": 3640,
+    "end_seconds": 3720,
+    "length_seconds": 80,
+    "start_time_mmss": "60:40",
+    "end_time_mmss": "62:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

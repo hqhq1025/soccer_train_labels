@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7203,
+  "video_id": "fa91a1a4-ad24-529b-a818-4d6ca064a8c6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 129.0,
+      "end": 129.0,
+      "text": "Trigger: Throw-in by left @ 1 - 02:09"
+    },
+    {
+      "start": 154.0,
+      "end": 154.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 129000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/segment_000040_000160.json",
+  "segment_meta": {
+    "start_seconds": 40,
+    "end_seconds": 160,
+    "length_seconds": 120,
+    "start_time_mmss": "00:40",
+    "end_time_mmss": "02:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

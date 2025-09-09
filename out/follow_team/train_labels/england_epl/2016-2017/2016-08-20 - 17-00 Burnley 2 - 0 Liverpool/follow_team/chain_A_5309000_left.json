@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24933,
+  "video_id": "bad442ba-4442-5a2a-a0ed-04331d47cef2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Corner and Shots off target}.",
+  "answer": [
+    {
+      "start": 5309.0,
+      "end": 5309.0,
+      "text": "Trigger: Corner by left @ 2 - 43:29"
+    },
+    {
+      "start": 5362.0,
+      "end": 5362.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 5381.0,
+      "end": 5381.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5309000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/segment_005270_005390.json",
+  "segment_meta": {
+    "start_seconds": 5270,
+    "end_seconds": 5390,
+    "length_seconds": 120,
+    "start_time_mmss": "87:50",
+    "end_time_mmss": "89:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

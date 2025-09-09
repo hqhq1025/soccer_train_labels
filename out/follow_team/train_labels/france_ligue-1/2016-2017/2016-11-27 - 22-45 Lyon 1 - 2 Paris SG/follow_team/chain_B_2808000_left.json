@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 444,
+  "video_id": "3d877fcb-91a4-5591-97a9-d9925ea62f51",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, start tracking that team; notify me on its {Shots off target}.",
+  "answer": [
+    {
+      "start": 2808.0,
+      "end": 2808.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 2859.0,
+      "end": 2859.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2808000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/segment_002780_002880.json",
+  "segment_meta": {
+    "start_seconds": 2780,
+    "end_seconds": 2880,
+    "length_seconds": 100,
+    "start_time_mmss": "46:20",
+    "end_time_mmss": "48:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

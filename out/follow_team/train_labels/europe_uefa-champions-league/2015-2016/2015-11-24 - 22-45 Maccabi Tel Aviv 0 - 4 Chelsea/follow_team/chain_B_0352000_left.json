@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6860,
+  "video_id": "8fab990f-c67d-50eb-b24f-8e48ea6383f4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 352.0,
+      "end": 352.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 398.0,
+      "end": 398.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 352000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/segment_000300_000400.json",
+  "segment_meta": {
+    "start_seconds": 300,
+    "end_seconds": 400,
+    "length_seconds": 100,
+    "start_time_mmss": "05:00",
+    "end_time_mmss": "06:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

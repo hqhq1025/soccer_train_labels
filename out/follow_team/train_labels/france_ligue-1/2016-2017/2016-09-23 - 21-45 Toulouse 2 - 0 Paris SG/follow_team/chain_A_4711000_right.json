@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1685,
+  "video_id": "a8460216-364c-571c-a1bc-29466bc1b468",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Goal}.",
+  "answer": [
+    {
+      "start": 4711.0,
+      "end": 4711.0,
+      "text": "Trigger: Shots on target by right @ 2 - 33:31"
+    },
+    {
+      "start": 4712.0,
+      "end": 4712.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4711000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/segment_004630_004730.json",
+  "segment_meta": {
+    "start_seconds": 4630,
+    "end_seconds": 4730,
+    "length_seconds": 100,
+    "start_time_mmss": "77:10",
+    "end_time_mmss": "78:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

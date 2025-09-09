@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4351,
+  "video_id": "1c7da63d-58ba-5a1c-8bfe-970ba46872dc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots on target}.",
+  "answer": [
+    {
+      "start": 1718.0,
+      "end": 1718.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 1729.0,
+      "end": 1729.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-26 - 18-15 Real Madrid 2 - 1 Gijon/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2016-11-26 - 18-15 Real Madrid 2 - 1 Gijon/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1718000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2016-11-26 - 18-15 Real Madrid 2 - 1 Gijon/segment_001620_001740.json",
+  "segment_meta": {
+    "start_seconds": 1620,
+    "end_seconds": 1740,
+    "length_seconds": 120,
+    "start_time_mmss": "27:00",
+    "end_time_mmss": "29:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

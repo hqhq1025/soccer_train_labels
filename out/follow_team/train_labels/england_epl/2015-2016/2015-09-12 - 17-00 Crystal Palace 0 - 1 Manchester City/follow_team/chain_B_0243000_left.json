@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22206,
+  "video_id": "c37a885f-3be7-5041-8bf6-fc965af113d8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 243.0,
+      "end": 243.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 305.0,
+      "end": 305.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 243000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_000210_000330.json",
+  "segment_meta": {
+    "start_seconds": 210,
+    "end_seconds": 330,
+    "length_seconds": 120,
+    "start_time_mmss": "03:30",
+    "end_time_mmss": "05:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

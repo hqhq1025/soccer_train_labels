@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3846,
+  "video_id": "3795fdc2-6394-599b-8395-733cf4f77ab0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 5278.0,
+      "end": 5278.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 5291.0,
+      "end": 5291.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5278000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/segment_005230_005350.json",
+  "segment_meta": {
+    "start_seconds": 5230,
+    "end_seconds": 5350,
+    "length_seconds": 120,
+    "start_time_mmss": "87:10",
+    "end_time_mmss": "89:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3275,
+  "video_id": "90121711-daeb-56c8-a40b-db95390bf699",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 2496.0,
+      "end": 2496.0,
+      "text": "Trigger: Foul by left @ 1 - 41:36"
+    },
+    {
+      "start": 2538.0,
+      "end": 2538.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2496000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/segment_002440_002540.json",
+  "segment_meta": {
+    "start_seconds": 2440,
+    "end_seconds": 2540,
+    "length_seconds": 100,
+    "start_time_mmss": "40:40",
+    "end_time_mmss": "42:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

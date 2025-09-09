@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6225,
+  "video_id": "ec5c0ccd-f9a5-5f5d-aa25-f8cabb45c3e2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Kick-off}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 3184.0,
+      "end": 3184.0,
+      "text": "Trigger: Kick-off by left"
+    },
+    {
+      "start": 3196.0,
+      "end": 3196.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3184000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/segment_003140_003200.json",
+  "segment_meta": {
+    "start_seconds": 3140,
+    "end_seconds": 3200,
+    "length_seconds": 60,
+    "start_time_mmss": "52:20",
+    "end_time_mmss": "53:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

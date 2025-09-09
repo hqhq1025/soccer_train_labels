@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17219,
+  "video_id": "b6f2898d-f710-50b1-bd08-028dfcd178ea",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 2153.0,
+      "end": 2153.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 35:53"
+    },
+    {
+      "start": 2199.0,
+      "end": 2199.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2153000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_002120_002200.json",
+  "segment_meta": {
+    "start_seconds": 2120,
+    "end_seconds": 2200,
+    "length_seconds": 80,
+    "start_time_mmss": "35:20",
+    "end_time_mmss": "36:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

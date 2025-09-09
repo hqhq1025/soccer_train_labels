@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21612,
+  "video_id": "d95c5bbd-2d11-51b0-b4cc-c47d3d1ae479",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 2233.0,
+      "end": 2233.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 2266.0,
+      "end": 2266.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2233000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/segment_002160_002280.json",
+  "segment_meta": {
+    "start_seconds": 2160,
+    "end_seconds": 2280,
+    "length_seconds": 120,
+    "start_time_mmss": "36:00",
+    "end_time_mmss": "38:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

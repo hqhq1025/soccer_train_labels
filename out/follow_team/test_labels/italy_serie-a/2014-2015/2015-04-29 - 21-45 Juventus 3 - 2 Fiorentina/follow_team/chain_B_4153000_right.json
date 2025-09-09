@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5466,
+  "video_id": "f4b2dd89-a550-5d4f-95e7-6f5459838a19",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 4153.0,
+      "end": 4153.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4154.0,
+      "end": 4154.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4153000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/segment_004060_004160.json",
+  "segment_meta": {
+    "start_seconds": 4060,
+    "end_seconds": 4160,
+    "length_seconds": 100,
+    "start_time_mmss": "67:40",
+    "end_time_mmss": "69:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

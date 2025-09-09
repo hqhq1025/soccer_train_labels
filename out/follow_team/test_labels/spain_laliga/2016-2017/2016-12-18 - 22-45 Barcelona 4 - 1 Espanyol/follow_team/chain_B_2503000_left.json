@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4512,
+  "video_id": "6b81cbae-b9bf-56dd-a2e6-8b8a30c5ab61",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 2503.0,
+      "end": 2503.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2517.0,
+      "end": 2517.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-12-18 - 22-45 Barcelona 4 - 1 Espanyol/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2016-12-18 - 22-45 Barcelona 4 - 1 Espanyol/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2503000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2016-12-18 - 22-45 Barcelona 4 - 1 Espanyol/segment_002460_002520.json",
+  "segment_meta": {
+    "start_seconds": 2460,
+    "end_seconds": 2520,
+    "length_seconds": 60,
+    "start_time_mmss": "41:00",
+    "end_time_mmss": "42:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

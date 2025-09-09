@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16985,
+  "video_id": "c5b130a8-5b10-5e30-bcdd-c67515c015a5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, follow that same team and alert me whenever it has {Shots on target, Corner and Shots off target}.",
+  "answer": [
+    {
+      "start": 3214.0,
+      "end": 3214.0,
+      "text": "Trigger: Substitution by left @ 2 - 08:34"
+    },
+    {
+      "start": 3245.0,
+      "end": 3245.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 3265.0,
+      "end": 3265.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 3267.0,
+      "end": 3267.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3214000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/segment_003150_003270.json",
+  "segment_meta": {
+    "start_seconds": 3150,
+    "end_seconds": 3270,
+    "length_seconds": 120,
+    "start_time_mmss": "52:30",
+    "end_time_mmss": "54:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24169,
+  "video_id": "543041c9-b1d8-5b70-9cda-ac04acb0c88c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 2236.0,
+      "end": 2236.0,
+      "text": "Trigger: Foul by right @ 1 - 37:16"
+    },
+    {
+      "start": 2290.0,
+      "end": 2290.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2236000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/segment_002220_002300.json",
+  "segment_meta": {
+    "start_seconds": 2220,
+    "end_seconds": 2300,
+    "length_seconds": 80,
+    "start_time_mmss": "37:00",
+    "end_time_mmss": "38:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

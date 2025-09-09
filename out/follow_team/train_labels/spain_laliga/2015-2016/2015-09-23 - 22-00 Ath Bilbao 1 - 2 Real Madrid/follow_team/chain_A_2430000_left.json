@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10227,
+  "video_id": "b4da055c-b5d0-5f7e-b8cb-e31fad1ddf08",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 2430.0,
+      "end": 2430.0,
+      "text": "Trigger: Shots on target by left @ 1 - 40:30"
+    },
+    {
+      "start": 2450.0,
+      "end": 2450.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2430000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/segment_002340_002460.json",
+  "segment_meta": {
+    "start_seconds": 2340,
+    "end_seconds": 2460,
+    "length_seconds": 120,
+    "start_time_mmss": "39:00",
+    "end_time_mmss": "41:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

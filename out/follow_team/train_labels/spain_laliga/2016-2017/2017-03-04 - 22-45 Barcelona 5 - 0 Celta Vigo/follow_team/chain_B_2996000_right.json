@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11992,
+  "video_id": "82cc17ca-a3c0-5693-9370-78e1e56bf758",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 2996.0,
+      "end": 2996.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 3008.0,
+      "end": 3008.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2996000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/segment_002960_003080.json",
+  "segment_meta": {
+    "start_seconds": 2960,
+    "end_seconds": 3080,
+    "length_seconds": 120,
+    "start_time_mmss": "49:20",
+    "end_time_mmss": "51:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

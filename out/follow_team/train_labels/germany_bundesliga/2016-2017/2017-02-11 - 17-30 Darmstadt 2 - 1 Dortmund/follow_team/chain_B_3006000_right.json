@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3392,
+  "video_id": "485c0672-998f-5bc5-838e-2d2aa28f55a6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 3006.0,
+      "end": 3006.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 3020.0,
+      "end": 3020.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3006000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/segment_002970_003030.json",
+  "segment_meta": {
+    "start_seconds": 2970,
+    "end_seconds": 3030,
+    "length_seconds": 60,
+    "start_time_mmss": "49:30",
+    "end_time_mmss": "50:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

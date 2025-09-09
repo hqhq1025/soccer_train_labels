@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4670,
+  "video_id": "d0d61505-7a1e-5a26-bd27-6b0b0bf37f4b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 32000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/segment_000010_000130.json",
+  "segment_meta": {
+    "start_seconds": 10,
+    "end_seconds": 130,
+    "length_seconds": 120,
+    "start_time_mmss": "00:10",
+    "end_time_mmss": "02:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

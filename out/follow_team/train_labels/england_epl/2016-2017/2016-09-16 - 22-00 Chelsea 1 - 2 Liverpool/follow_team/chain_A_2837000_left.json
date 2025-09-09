@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23985,
+  "video_id": "d09c1dd5-6d0b-596b-9edc-356b5d4c495f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2837.0,
+      "end": 2837.0,
+      "text": "Trigger: Foul by left @ 2 - 02:17"
+    },
+    {
+      "start": 2888.0,
+      "end": 2888.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2837000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/segment_002790_002890.json",
+  "segment_meta": {
+    "start_seconds": 2790,
+    "end_seconds": 2890,
+    "length_seconds": 100,
+    "start_time_mmss": "46:30",
+    "end_time_mmss": "48:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

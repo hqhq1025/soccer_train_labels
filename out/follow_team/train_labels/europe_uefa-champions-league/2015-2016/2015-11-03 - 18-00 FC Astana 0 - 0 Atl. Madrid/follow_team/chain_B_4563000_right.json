@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5844,
+  "video_id": "06aa353a-3572-560a-808f-689ed5d4c242",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 4563.0,
+      "end": 4563.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4567.0,
+      "end": 4567.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4563000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/segment_004490_004570.json",
+  "segment_meta": {
+    "start_seconds": 4490,
+    "end_seconds": 4570,
+    "length_seconds": 80,
+    "start_time_mmss": "74:50",
+    "end_time_mmss": "76:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

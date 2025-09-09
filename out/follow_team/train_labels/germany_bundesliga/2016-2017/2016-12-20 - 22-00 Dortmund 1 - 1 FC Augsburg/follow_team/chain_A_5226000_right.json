@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3527,
+  "video_id": "7add9ab4-4b82-5291-9938-a27617451c65",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 5226.0,
+      "end": 5226.0,
+      "text": "Trigger: Shots on target by right @ 2 - 42:06"
+    },
+    {
+      "start": 5228.0,
+      "end": 5228.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5226000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_005130_005230.json",
+  "segment_meta": {
+    "start_seconds": 5130,
+    "end_seconds": 5230,
+    "length_seconds": 100,
+    "start_time_mmss": "85:30",
+    "end_time_mmss": "87:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

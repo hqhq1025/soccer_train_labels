@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15179,
+  "video_id": "7bcf5ae2-7076-5c9e-9eb6-e3504bc91ab6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Offside}; then follow that team and report its {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 567.0,
+      "end": 567.0,
+      "text": "Trigger: Offside by right @ 1 - 09:27"
+    },
+    {
+      "start": 595.0,
+      "end": 595.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-10-29 - 21-45 Barcelona 1 - 0 Granada CF/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-29 - 21-45 Barcelona 1 - 0 Granada CF/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 567000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-29 - 21-45 Barcelona 1 - 0 Granada CF/segment_000550_000610.json",
+  "segment_meta": {
+    "start_seconds": 550,
+    "end_seconds": 610,
+    "length_seconds": 60,
+    "start_time_mmss": "09:10",
+    "end_time_mmss": "10:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

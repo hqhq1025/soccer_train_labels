@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11365,
+  "video_id": "0cc8168e-3e79-5b33-9a6b-e3917768572a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "text": "Trigger: Throw-in by right @ 1 - 00:52"
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 52000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/segment_000010_000070.json",
+  "segment_meta": {
+    "start_seconds": 10,
+    "end_seconds": 70,
+    "length_seconds": 60,
+    "start_time_mmss": "00:10",
+    "end_time_mmss": "01:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

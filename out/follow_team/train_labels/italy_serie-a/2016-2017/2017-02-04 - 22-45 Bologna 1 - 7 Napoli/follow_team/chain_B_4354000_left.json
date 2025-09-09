@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20120,
+  "video_id": "c6c4e063-ec7b-561b-8b1f-e5c1674250ba",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 4354.0,
+      "end": 4354.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 4395.0,
+      "end": 4395.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4354000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/segment_004320_004400.json",
+  "segment_meta": {
+    "start_seconds": 4320,
+    "end_seconds": 4400,
+    "length_seconds": 80,
+    "start_time_mmss": "72:00",
+    "end_time_mmss": "73:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

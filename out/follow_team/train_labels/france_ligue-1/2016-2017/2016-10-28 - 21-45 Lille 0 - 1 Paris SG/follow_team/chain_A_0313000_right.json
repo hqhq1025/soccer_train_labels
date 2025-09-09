@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1397,
+  "video_id": "2d73d6d1-9204-5776-85ef-08c409ef0004",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 313.0,
+      "end": 313.0,
+      "text": "Trigger: Throw-in by right @ 1 - 05:13"
+    },
+    {
+      "start": 383.0,
+      "end": 383.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 313000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/segment_000280_000400.json",
+  "segment_meta": {
+    "start_seconds": 280,
+    "end_seconds": 400,
+    "length_seconds": 120,
+    "start_time_mmss": "04:40",
+    "end_time_mmss": "06:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

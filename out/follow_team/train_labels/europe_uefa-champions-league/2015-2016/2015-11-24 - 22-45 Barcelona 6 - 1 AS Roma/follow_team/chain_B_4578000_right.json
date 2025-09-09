@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5334,
+  "video_id": "1e6d6ee8-7341-5f59-981a-4d762b55bca5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 4578.0,
+      "end": 4578.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4580.0,
+      "end": 4580.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4578000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/segment_004500_004600.json",
+  "segment_meta": {
+    "start_seconds": 4500,
+    "end_seconds": 4600,
+    "length_seconds": 100,
+    "start_time_mmss": "75:00",
+    "end_time_mmss": "76:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

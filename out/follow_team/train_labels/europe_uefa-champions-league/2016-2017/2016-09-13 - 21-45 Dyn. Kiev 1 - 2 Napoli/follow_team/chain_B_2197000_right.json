@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9426,
+  "video_id": "1eb97958-1195-580f-ab95-4bc6409b8fa2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 2197.0,
+      "end": 2197.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2204.0,
+      "end": 2204.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2197000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/segment_002170_002210.json",
+  "segment_meta": {
+    "start_seconds": 2170,
+    "end_seconds": 2210,
+    "length_seconds": 40,
+    "start_time_mmss": "36:10",
+    "end_time_mmss": "36:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

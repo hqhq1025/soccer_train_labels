@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 752,
+  "video_id": "d4f0dbbf-12d6-5b71-bad1-ee95e3b7c112",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 3846.0,
+      "end": 3846.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 3860.0,
+      "end": 3860.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3846000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/segment_003810_003870.json",
+  "segment_meta": {
+    "start_seconds": 3810,
+    "end_seconds": 3870,
+    "length_seconds": 60,
+    "start_time_mmss": "63:30",
+    "end_time_mmss": "64:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

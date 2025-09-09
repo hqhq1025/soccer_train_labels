@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20902,
+  "video_id": "6fb23303-6de9-56b1-9cd8-ddc21a92a7f0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Offside}.",
+  "answer": [
+    {
+      "start": 1689.0,
+      "end": 1689.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 1696.0,
+      "end": 1696.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1689000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/segment_001640_001700.json",
+  "segment_meta": {
+    "start_seconds": 1640,
+    "end_seconds": 1700,
+    "length_seconds": 60,
+    "start_time_mmss": "27:20",
+    "end_time_mmss": "28:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

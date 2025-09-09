@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5664,
+  "video_id": "3e9cf758-aad0-5c73-89cb-431cde17d284",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Substitution}.",
+  "answer": [
+    {
+      "start": 3882.0,
+      "end": 3882.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 3926.0,
+      "end": 3926.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3882000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/segment_003810_003930.json",
+  "segment_meta": {
+    "start_seconds": 3810,
+    "end_seconds": 3930,
+    "length_seconds": 120,
+    "start_time_mmss": "63:30",
+    "end_time_mmss": "65:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

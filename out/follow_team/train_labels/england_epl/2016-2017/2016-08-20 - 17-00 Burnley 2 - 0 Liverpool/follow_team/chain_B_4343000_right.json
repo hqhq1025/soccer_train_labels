@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24926,
+  "video_id": "d7fe1cca-7940-5708-9c9e-f3ef146c8164",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 4343.0,
+      "end": 4343.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 4369.0,
+      "end": 4369.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4343000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/segment_004330_004390.json",
+  "segment_meta": {
+    "start_seconds": 4330,
+    "end_seconds": 4390,
+    "length_seconds": 60,
+    "start_time_mmss": "72:10",
+    "end_time_mmss": "73:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2745,
+  "video_id": "3b1ca6a9-3aed-5ab4-9499-231f0b271f04",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Substitution}.",
+  "answer": [
+    {
+      "start": 4052.0,
+      "end": 4052.0,
+      "text": "Trigger: Foul by right @ 2 - 22:32"
+    },
+    {
+      "start": 4105.0,
+      "end": 4105.0,
+      "text": "Then: Substitution by right"
+    },
+    {
+      "start": 4106.0,
+      "end": 4106.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4052000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/segment_004010_004110.json",
+  "segment_meta": {
+    "start_seconds": 4010,
+    "end_seconds": 4110,
+    "length_seconds": 100,
+    "start_time_mmss": "66:50",
+    "end_time_mmss": "68:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

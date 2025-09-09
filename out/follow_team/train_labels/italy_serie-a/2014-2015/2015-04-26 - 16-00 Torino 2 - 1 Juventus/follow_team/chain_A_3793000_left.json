@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15985,
+  "video_id": "e8cf5173-d426-552e-8960-f76dec34941b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Substitution} happen.",
+  "answer": [
+    {
+      "start": 3793.0,
+      "end": 3793.0,
+      "text": "Trigger: Throw-in by left @ 2 - 18:13"
+    },
+    {
+      "start": 3866.0,
+      "end": 3866.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3793000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/segment_003750_003870.json",
+  "segment_meta": {
+    "start_seconds": 3750,
+    "end_seconds": 3870,
+    "length_seconds": 120,
+    "start_time_mmss": "62:30",
+    "end_time_mmss": "64:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

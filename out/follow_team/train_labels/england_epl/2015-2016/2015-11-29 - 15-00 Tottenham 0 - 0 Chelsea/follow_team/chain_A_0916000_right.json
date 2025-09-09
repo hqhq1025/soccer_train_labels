@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21561,
+  "video_id": "61790ff6-b8a6-5727-a538-7974a5904016",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Offside}.",
+  "answer": [
+    {
+      "start": 916.0,
+      "end": 916.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 15:16"
+    },
+    {
+      "start": 969.0,
+      "end": 969.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 916000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/segment_000870_000990.json",
+  "segment_meta": {
+    "start_seconds": 870,
+    "end_seconds": 990,
+    "length_seconds": 120,
+    "start_time_mmss": "14:30",
+    "end_time_mmss": "16:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

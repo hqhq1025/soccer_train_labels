@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22377,
+  "video_id": "1a104d5d-4f4b-5088-b6cc-5ab0f6d3c997",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Offside}, stick with that team and alert me for {Direct free-kick and Shots off target}.",
+  "answer": [
+    {
+      "start": 522.0,
+      "end": 522.0,
+      "text": "Trigger: Offside by right @ 1 - 08:42"
+    },
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "Then: Direct free-kick by right"
+    },
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 522000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/segment_000450_000570.json",
+  "segment_meta": {
+    "start_seconds": 450,
+    "end_seconds": 570,
+    "length_seconds": 120,
+    "start_time_mmss": "07:30",
+    "end_time_mmss": "09:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

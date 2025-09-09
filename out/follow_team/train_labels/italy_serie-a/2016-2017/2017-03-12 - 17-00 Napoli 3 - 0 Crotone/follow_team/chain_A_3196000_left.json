@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16787,
+  "video_id": "a253095d-5dba-52ca-be07-1153c2452b04",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 3196.0,
+      "end": 3196.0,
+      "text": "Trigger: Direct free-kick by left @ 2 - 08:16"
+    },
+    {
+      "start": 3210.0,
+      "end": 3210.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 3215.0,
+      "end": 3215.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3196000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/segment_003160_003220.json",
+  "segment_meta": {
+    "start_seconds": 3160,
+    "end_seconds": 3220,
+    "length_seconds": 60,
+    "start_time_mmss": "52:40",
+    "end_time_mmss": "53:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

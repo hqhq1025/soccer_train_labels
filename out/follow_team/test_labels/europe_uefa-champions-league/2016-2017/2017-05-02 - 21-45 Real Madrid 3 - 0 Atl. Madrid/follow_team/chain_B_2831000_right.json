@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2954,
+  "video_id": "155cbac1-ce40-5679-a5c6-d76e75065f55",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 2831.0,
+      "end": 2831.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2866.0,
+      "end": 2866.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2831000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/segment_002800_002880.json",
+  "segment_meta": {
+    "start_seconds": 2800,
+    "end_seconds": 2880,
+    "length_seconds": 80,
+    "start_time_mmss": "46:40",
+    "end_time_mmss": "48:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

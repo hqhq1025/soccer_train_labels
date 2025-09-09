@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 115,
+  "video_id": "c8f748e1-98ef-5f47-aee4-8f194965f5fa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Indirect free-kick} it makes.",
+  "answer": [
+    {
+      "start": 2230.0,
+      "end": 2230.0,
+      "text": "Trigger: Throw-in by left @ 1 - 37:10"
+    },
+    {
+      "start": 2260.0,
+      "end": 2260.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2230000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/segment_002190_002270.json",
+  "segment_meta": {
+    "start_seconds": 2190,
+    "end_seconds": 2270,
+    "length_seconds": 80,
+    "start_time_mmss": "36:30",
+    "end_time_mmss": "37:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

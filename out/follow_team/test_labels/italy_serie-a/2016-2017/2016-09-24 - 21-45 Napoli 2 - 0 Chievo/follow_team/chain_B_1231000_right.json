@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6790,
+  "video_id": "ea25fa35-f7cf-50ef-8c03-63bac3cc2636",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 1231.0,
+      "end": 1231.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 1240.0,
+      "end": 1240.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1231000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/segment_001160_001260.json",
+  "segment_meta": {
+    "start_seconds": 1160,
+    "end_seconds": 1260,
+    "length_seconds": 100,
+    "start_time_mmss": "19:20",
+    "end_time_mmss": "21:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

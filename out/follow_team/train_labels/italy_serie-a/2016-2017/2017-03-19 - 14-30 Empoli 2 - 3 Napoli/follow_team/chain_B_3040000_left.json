@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18426,
+  "video_id": "4c6e1c27-754f-5e88-a819-a40a87c77771",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 3040.0,
+      "end": 3040.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3073.0,
+      "end": 3073.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3040000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/segment_003000_003100.json",
+  "segment_meta": {
+    "start_seconds": 3000,
+    "end_seconds": 3100,
+    "length_seconds": 100,
+    "start_time_mmss": "50:00",
+    "end_time_mmss": "51:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

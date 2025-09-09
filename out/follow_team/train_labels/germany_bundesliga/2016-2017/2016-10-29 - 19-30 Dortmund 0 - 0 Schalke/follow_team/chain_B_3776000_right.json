@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3224,
+  "video_id": "f095bc92-598f-5d01-945f-fa1a93f62aff",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 3776.0,
+      "end": 3776.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 3780.0,
+      "end": 3780.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3776000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/segment_003750_003790.json",
+  "segment_meta": {
+    "start_seconds": 3750,
+    "end_seconds": 3790,
+    "length_seconds": 40,
+    "start_time_mmss": "62:30",
+    "end_time_mmss": "63:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

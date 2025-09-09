@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10047,
+  "video_id": "3ac6eb23-a75b-5182-93b7-3a5670a1005b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Corner} happen.",
+  "answer": [
+    {
+      "start": 2590.0,
+      "end": 2590.0,
+      "text": "Trigger: Shots off target by right @ 1 - 43:10"
+    },
+    {
+      "start": 2608.0,
+      "end": 2608.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2590000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/segment_002500_002620.json",
+  "segment_meta": {
+    "start_seconds": 2500,
+    "end_seconds": 2620,
+    "length_seconds": 120,
+    "start_time_mmss": "41:40",
+    "end_time_mmss": "43:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

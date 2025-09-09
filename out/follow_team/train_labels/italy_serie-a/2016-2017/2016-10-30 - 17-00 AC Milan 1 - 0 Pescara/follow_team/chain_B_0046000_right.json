@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20196,
+  "video_id": "77f26245-8ae0-588c-ac42-e041712c0021",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 46000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/segment_000030_000110.json",
+  "segment_meta": {
+    "start_seconds": 30,
+    "end_seconds": 110,
+    "length_seconds": 80,
+    "start_time_mmss": "00:30",
+    "end_time_mmss": "01:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

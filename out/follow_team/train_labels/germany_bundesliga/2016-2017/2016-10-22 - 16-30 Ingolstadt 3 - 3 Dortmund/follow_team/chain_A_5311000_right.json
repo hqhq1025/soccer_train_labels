@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4769,
+  "video_id": "33379985-c6b2-5e35-98ce-4b36245ea187",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Shots off target and Throw-in}.",
+  "answer": [
+    {
+      "start": 5311.0,
+      "end": 5311.0,
+      "text": "Trigger: Throw-in by right @ 2 - 43:31"
+    },
+    {
+      "start": 5384.0,
+      "end": 5384.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 5392.0,
+      "end": 5392.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5311000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/segment_005280_005400.json",
+  "segment_meta": {
+    "start_seconds": 5280,
+    "end_seconds": 5400,
+    "length_seconds": 120,
+    "start_time_mmss": "88:00",
+    "end_time_mmss": "90:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

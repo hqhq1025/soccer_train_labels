@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23777,
+  "video_id": "1476d52f-8b98-5075-9eb3-8dd8603580ec",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 927.0,
+      "end": 927.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 15:27"
+    },
+    {
+      "start": 991.0,
+      "end": 991.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 927000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/segment_000880_001000.json",
+  "segment_meta": {
+    "start_seconds": 880,
+    "end_seconds": 1000,
+    "length_seconds": 120,
+    "start_time_mmss": "14:40",
+    "end_time_mmss": "16:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16419,
+  "video_id": "d89ea9f4-c997-5b20-bb12-873ae70c64e6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Corner and Foul}.",
+  "answer": [
+    {
+      "start": 2192.0,
+      "end": 2192.0,
+      "text": "Trigger: Shots on target by left @ 1 - 36:32"
+    },
+    {
+      "start": 2212.0,
+      "end": 2212.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 2276.0,
+      "end": 2276.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2192000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/segment_002180_002300.json",
+  "segment_meta": {
+    "start_seconds": 2180,
+    "end_seconds": 2300,
+    "length_seconds": 120,
+    "start_time_mmss": "36:20",
+    "end_time_mmss": "38:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

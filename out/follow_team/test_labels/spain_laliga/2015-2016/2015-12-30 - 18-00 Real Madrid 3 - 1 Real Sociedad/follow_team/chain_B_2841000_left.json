@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3280,
+  "video_id": "76e1739e-6791-5525-8a86-88a8e24607e0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Shots on target}.",
+  "answer": [
+    {
+      "start": 2841.0,
+      "end": 2841.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 2889.0,
+      "end": 2889.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2841000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/segment_002770_002890.json",
+  "segment_meta": {
+    "start_seconds": 2770,
+    "end_seconds": 2890,
+    "length_seconds": 120,
+    "start_time_mmss": "46:10",
+    "end_time_mmss": "48:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24175,
+  "video_id": "4af0e41a-a9da-5bd6-9415-d597d21de3fe",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots on target and Corner}.",
+  "answer": [
+    {
+      "start": 3699.0,
+      "end": 3699.0,
+      "text": "Trigger: Corner by left @ 2 - 16:39"
+    },
+    {
+      "start": 3703.0,
+      "end": 3703.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 3732.0,
+      "end": 3732.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3699000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/segment_003630_003750.json",
+  "segment_meta": {
+    "start_seconds": 3630,
+    "end_seconds": 3750,
+    "length_seconds": 120,
+    "start_time_mmss": "60:30",
+    "end_time_mmss": "62:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

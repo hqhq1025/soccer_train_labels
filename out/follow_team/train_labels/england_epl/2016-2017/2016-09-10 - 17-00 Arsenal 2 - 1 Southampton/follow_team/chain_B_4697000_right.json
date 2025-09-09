@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23518,
+  "video_id": "da9109c4-8c26-5845-8fef-ecddb2b685f7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Corner}.",
+  "answer": [
+    {
+      "start": 4697.0,
+      "end": 4697.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 4720.0,
+      "end": 4720.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4697000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/segment_004610_004730.json",
+  "segment_meta": {
+    "start_seconds": 4610,
+    "end_seconds": 4730,
+    "length_seconds": 120,
+    "start_time_mmss": "76:50",
+    "end_time_mmss": "78:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

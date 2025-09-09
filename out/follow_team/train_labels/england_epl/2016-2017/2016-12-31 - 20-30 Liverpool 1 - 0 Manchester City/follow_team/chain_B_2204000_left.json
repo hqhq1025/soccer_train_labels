@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24462,
+  "video_id": "89508391-ec6a-5c90-a36d-b8d118ee0b34",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 2204.0,
+      "end": 2204.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2259.0,
+      "end": 2259.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2204000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/segment_002190_002290.json",
+  "segment_meta": {
+    "start_seconds": 2190,
+    "end_seconds": 2290,
+    "length_seconds": 100,
+    "start_time_mmss": "36:30",
+    "end_time_mmss": "38:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

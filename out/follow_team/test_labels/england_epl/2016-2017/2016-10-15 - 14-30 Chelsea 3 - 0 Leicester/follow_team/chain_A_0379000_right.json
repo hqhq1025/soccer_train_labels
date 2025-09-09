@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8731,
+  "video_id": "cc083e45-e703-5af6-b245-afc86319a4c8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Goal and Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 379.0,
+      "end": 379.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 382.0,
+      "end": 382.0,
+      "text": "Then: Goal by right"
+    },
+    {
+      "start": 382.0,
+      "end": 382.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 379000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/segment_000310_000390.json",
+  "segment_meta": {
+    "start_seconds": 310,
+    "end_seconds": 390,
+    "length_seconds": 80,
+    "start_time_mmss": "05:10",
+    "end_time_mmss": "06:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

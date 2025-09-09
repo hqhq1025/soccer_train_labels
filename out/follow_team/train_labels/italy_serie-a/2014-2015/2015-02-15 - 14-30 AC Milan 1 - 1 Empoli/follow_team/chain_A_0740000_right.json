@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16451,
+  "video_id": "58e9a927-3b95-5c1d-959e-6b12b10a2fe3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 740.0,
+      "end": 740.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 12:20"
+    },
+    {
+      "start": 761.0,
+      "end": 761.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 809.0,
+      "end": 809.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 740000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/segment_000710_000810.json",
+  "segment_meta": {
+    "start_seconds": 710,
+    "end_seconds": 810,
+    "length_seconds": 100,
+    "start_time_mmss": "11:50",
+    "end_time_mmss": "13:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

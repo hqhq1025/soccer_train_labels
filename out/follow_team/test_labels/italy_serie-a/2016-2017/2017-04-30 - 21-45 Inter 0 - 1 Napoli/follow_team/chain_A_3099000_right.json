@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6741,
+  "video_id": "a1c75790-bb9d-54ba-a100-42361e8b3d5b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
+  "answer": [
+    {
+      "start": 3099.0,
+      "end": 3099.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 3104.0,
+      "end": 3104.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3099000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/segment_002990_003110.json",
+  "segment_meta": {
+    "start_seconds": 2990,
+    "end_seconds": 3110,
+    "length_seconds": 120,
+    "start_time_mmss": "49:50",
+    "end_time_mmss": "51:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

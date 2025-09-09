@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25635,
+  "video_id": "20a942ec-3cf7-5df0-9ff2-c891164752fa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots on target and Offside}.",
+  "answer": [
+    {
+      "start": 3916.0,
+      "end": 3916.0,
+      "text": "Trigger: Corner by right @ 2 - 20:16"
+    },
+    {
+      "start": 3926.0,
+      "end": 3926.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 3965.0,
+      "end": 3965.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3916000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/segment_003870_003970.json",
+  "segment_meta": {
+    "start_seconds": 3870,
+    "end_seconds": 3970,
+    "length_seconds": 100,
+    "start_time_mmss": "64:30",
+    "end_time_mmss": "66:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

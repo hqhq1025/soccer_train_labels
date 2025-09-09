@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11421,
+  "video_id": "26aab5eb-89c1-59c8-b308-04de438c35f2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 440.0,
+      "end": 440.0,
+      "text": "Trigger: Corner by left @ 1 - 07:20"
+    },
+    {
+      "start": 442.0,
+      "end": 442.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 440000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/segment_000400_000520.json",
+  "segment_meta": {
+    "start_seconds": 400,
+    "end_seconds": 520,
+    "length_seconds": 120,
+    "start_time_mmss": "06:40",
+    "end_time_mmss": "08:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

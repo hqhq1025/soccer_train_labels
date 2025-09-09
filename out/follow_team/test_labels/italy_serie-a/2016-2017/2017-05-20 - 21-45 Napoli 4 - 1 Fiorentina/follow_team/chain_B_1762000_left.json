@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5636,
+  "video_id": "26ff5a3c-4d13-519c-9a92-eaf76e087332",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 1762.0,
+      "end": 1762.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 1790.0,
+      "end": 1790.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1762000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/segment_001720_001840.json",
+  "segment_meta": {
+    "start_seconds": 1720,
+    "end_seconds": 1840,
+    "length_seconds": 120,
+    "start_time_mmss": "28:40",
+    "end_time_mmss": "30:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

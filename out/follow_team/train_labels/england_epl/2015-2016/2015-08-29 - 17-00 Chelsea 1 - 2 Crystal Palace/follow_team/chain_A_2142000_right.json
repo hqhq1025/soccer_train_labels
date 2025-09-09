@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22563,
+  "video_id": "76109eb0-047f-5db2-a407-3e8381efbc1b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots on target} happen.",
+  "answer": [
+    {
+      "start": 2142.0,
+      "end": 2142.0,
+      "text": "Trigger: Corner by right @ 1 - 35:42"
+    },
+    {
+      "start": 2146.0,
+      "end": 2146.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2142000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_002090_002150.json",
+  "segment_meta": {
+    "start_seconds": 2090,
+    "end_seconds": 2150,
+    "length_seconds": 60,
+    "start_time_mmss": "34:50",
+    "end_time_mmss": "35:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

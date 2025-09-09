@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9248,
+  "video_id": "f7fdaca9-fa84-5069-895f-5bb4d8e4587c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 2543.0,
+      "end": 2543.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2567.0,
+      "end": 2567.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2543000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/segment_002490_002570.json",
+  "segment_meta": {
+    "start_seconds": 2490,
+    "end_seconds": 2570,
+    "length_seconds": 80,
+    "start_time_mmss": "41:30",
+    "end_time_mmss": "42:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

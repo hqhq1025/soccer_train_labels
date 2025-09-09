@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15253,
+  "video_id": "e1ccdc8e-130b-50ba-a53f-bd532f0ba58e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Throw-in and Offside}.",
+  "answer": [
+    {
+      "start": 5493.0,
+      "end": 5493.0,
+      "text": "Trigger: Direct free-kick by right @ 2 - 46:33"
+    },
+    {
+      "start": 5514.0,
+      "end": 5514.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 5524.0,
+      "end": 5524.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-18 - 18-15 Ath Bilbao 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-18 - 18-15 Ath Bilbao 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5493000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-18 - 18-15 Ath Bilbao 1 - 2 Real Madrid/segment_005430_005530.json",
+  "segment_meta": {
+    "start_seconds": 5430,
+    "end_seconds": 5530,
+    "length_seconds": 100,
+    "start_time_mmss": "90:30",
+    "end_time_mmss": "92:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

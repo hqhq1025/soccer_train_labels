@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15793,
+  "video_id": "77984e18-b822-528d-a2b6-bdc2c136343d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 2533.0,
+      "end": 2533.0,
+      "text": "Trigger: Shots on target by left @ 1 - 42:13"
+    },
+    {
+      "start": 2540.0,
+      "end": 2540.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2533000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_002490_002550.json",
+  "segment_meta": {
+    "start_seconds": 2490,
+    "end_seconds": 2550,
+    "length_seconds": 60,
+    "start_time_mmss": "41:30",
+    "end_time_mmss": "42:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22756,
+  "video_id": "8a630e35-4bde-590d-a7a4-773f3d7bdd2b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Corner}.",
+  "answer": [
+    {
+      "start": 2040.0,
+      "end": 2040.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2085.0,
+      "end": 2085.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2040000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/segment_002030_002150.json",
+  "segment_meta": {
+    "start_seconds": 2030,
+    "end_seconds": 2150,
+    "length_seconds": 120,
+    "start_time_mmss": "33:50",
+    "end_time_mmss": "35:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

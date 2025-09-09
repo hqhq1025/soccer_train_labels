@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25515,
+  "video_id": "fcbcfa82-aba6-51db-94d1-f9e4a12c4828",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Goal}.",
+  "answer": [
+    {
+      "start": 4242.0,
+      "end": 4242.0,
+      "text": "Trigger: Shots on target by left @ 2 - 25:42"
+    },
+    {
+      "start": 4243.0,
+      "end": 4243.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4242000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/segment_004140_004260.json",
+  "segment_meta": {
+    "start_seconds": 4140,
+    "end_seconds": 4260,
+    "length_seconds": 120,
+    "start_time_mmss": "69:00",
+    "end_time_mmss": "71:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

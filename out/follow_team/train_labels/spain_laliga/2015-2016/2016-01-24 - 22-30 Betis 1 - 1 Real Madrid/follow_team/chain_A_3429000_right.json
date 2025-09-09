@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10689,
+  "video_id": "fad64478-897b-5151-a19b-dd0efe3d267e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Substitution}, start tracking that team; notify me on its {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 3429.0,
+      "end": 3429.0,
+      "text": "Trigger: Substitution by right @ 2 - 12:09"
+    },
+    {
+      "start": 3457.0,
+      "end": 3457.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 3465.0,
+      "end": 3465.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3429000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/segment_003410_003470.json",
+  "segment_meta": {
+    "start_seconds": 3410,
+    "end_seconds": 3470,
+    "length_seconds": 60,
+    "start_time_mmss": "56:50",
+    "end_time_mmss": "57:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

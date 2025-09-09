@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22786,
+  "video_id": "89dd1dbf-a96c-5dec-867e-77aa159033d1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 1069.0,
+      "end": 1069.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 1080.0,
+      "end": 1080.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1069000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/segment_001050_001090.json",
+  "segment_meta": {
+    "start_seconds": 1050,
+    "end_seconds": 1090,
+    "length_seconds": 40,
+    "start_time_mmss": "17:30",
+    "end_time_mmss": "18:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

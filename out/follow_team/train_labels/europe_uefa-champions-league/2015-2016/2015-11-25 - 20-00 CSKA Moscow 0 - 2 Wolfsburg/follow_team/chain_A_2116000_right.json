@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6135,
+  "video_id": "a890f3fe-2b2e-59d0-a9db-5231a513da97",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Corner and Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 2116.0,
+      "end": 2116.0,
+      "text": "Trigger: Shots on target by right @ 1 - 35:16"
+    },
+    {
+      "start": 2145.0,
+      "end": 2145.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 2189.0,
+      "end": 2189.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2116000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/segment_002070_002190.json",
+  "segment_meta": {
+    "start_seconds": 2070,
+    "end_seconds": 2190,
+    "length_seconds": 120,
+    "start_time_mmss": "34:30",
+    "end_time_mmss": "36:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

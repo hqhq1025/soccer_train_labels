@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15849,
+  "video_id": "3364fc23-5d82-5f5a-8b28-52415b260def",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 5340.0,
+      "end": 5340.0,
+      "text": "Trigger: Foul by left @ 2 - 44:00"
+    },
+    {
+      "start": 5386.0,
+      "end": 5386.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5340000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/segment_005310_005390.json",
+  "segment_meta": {
+    "start_seconds": 5310,
+    "end_seconds": 5390,
+    "length_seconds": 80,
+    "start_time_mmss": "88:30",
+    "end_time_mmss": "89:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

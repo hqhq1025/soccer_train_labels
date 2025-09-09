@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 789,
+  "video_id": "be1a0a87-8253-53ca-8a77-e9fafd142c0a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 5242.0,
+      "end": 5242.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 5244.0,
+      "end": 5244.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5242000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/segment_005190_005250.json",
+  "segment_meta": {
+    "start_seconds": 5190,
+    "end_seconds": 5250,
+    "length_seconds": 60,
+    "start_time_mmss": "86:30",
+    "end_time_mmss": "87:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

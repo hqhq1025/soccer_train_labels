@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16711,
+  "video_id": "a49415f6-0b77-59ab-869c-36bff5d45968",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 767.0,
+      "end": 767.0,
+      "text": "Trigger: Throw-in by right @ 1 - 12:47"
+    },
+    {
+      "start": 819.0,
+      "end": 819.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 767000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/segment_000710_000830.json",
+  "segment_meta": {
+    "start_seconds": 710,
+    "end_seconds": 830,
+    "length_seconds": 120,
+    "start_time_mmss": "11:50",
+    "end_time_mmss": "13:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

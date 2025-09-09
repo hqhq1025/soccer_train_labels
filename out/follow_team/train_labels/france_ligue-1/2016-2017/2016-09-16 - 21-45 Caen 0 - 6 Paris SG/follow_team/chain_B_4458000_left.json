@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 530,
+  "video_id": "094446c8-0c40-5aa5-bc7b-c78c67316186",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 4458.0,
+      "end": 4458.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4460.0,
+      "end": 4460.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4458000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/segment_004370_004490.json",
+  "segment_meta": {
+    "start_seconds": 4370,
+    "end_seconds": 4490,
+    "length_seconds": 120,
+    "start_time_mmss": "72:50",
+    "end_time_mmss": "74:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

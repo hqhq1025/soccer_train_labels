@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21049,
+  "video_id": "86875916-c4ab-5d7e-85fd-aed82f759a83",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Shots on target and Corner}.",
+  "answer": [
+    {
+      "start": 2873.0,
+      "end": 2873.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 02:53"
+    },
+    {
+      "start": 2925.0,
+      "end": 2925.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 2946.0,
+      "end": 2946.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2873000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/segment_002830_002950.json",
+  "segment_meta": {
+    "start_seconds": 2830,
+    "end_seconds": 2950,
+    "length_seconds": 120,
+    "start_time_mmss": "47:10",
+    "end_time_mmss": "49:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

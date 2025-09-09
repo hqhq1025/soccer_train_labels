@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11166,
+  "video_id": "3bf797f0-8b02-5264-8e74-b1f6fe50a84a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 3464.0,
+      "end": 3464.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 3471.0,
+      "end": 3471.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3464000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/segment_003420_003480.json",
+  "segment_meta": {
+    "start_seconds": 3420,
+    "end_seconds": 3480,
+    "length_seconds": 60,
+    "start_time_mmss": "57:00",
+    "end_time_mmss": "58:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

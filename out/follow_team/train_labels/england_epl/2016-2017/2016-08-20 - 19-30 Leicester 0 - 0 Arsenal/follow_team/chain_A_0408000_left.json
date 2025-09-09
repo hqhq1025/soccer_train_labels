@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24731,
+  "video_id": "5d979177-0271-513f-aaba-5930820a17c4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Throw-in and Shots off target}.",
+  "answer": [
+    {
+      "start": 408.0,
+      "end": 408.0,
+      "text": "Trigger: Clearance by left @ 1 - 06:48"
+    },
+    {
+      "start": 445.0,
+      "end": 445.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 452.0,
+      "end": 452.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 408000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/segment_000350_000470.json",
+  "segment_meta": {
+    "start_seconds": 350,
+    "end_seconds": 470,
+    "length_seconds": 120,
+    "start_time_mmss": "05:50",
+    "end_time_mmss": "07:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

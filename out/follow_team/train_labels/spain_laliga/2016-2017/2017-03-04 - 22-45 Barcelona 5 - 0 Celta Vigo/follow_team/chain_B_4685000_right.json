@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12090,
+  "video_id": "8cf071ff-37fc-5151-967f-1d782c33a938",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Clearance}.",
+  "answer": [
+    {
+      "start": 4685.0,
+      "end": 4685.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4755.0,
+      "end": 4755.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4685000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/segment_004640_004760.json",
+  "segment_meta": {
+    "start_seconds": 4640,
+    "end_seconds": 4760,
+    "length_seconds": 120,
+    "start_time_mmss": "77:20",
+    "end_time_mmss": "79:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

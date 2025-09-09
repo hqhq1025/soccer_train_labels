@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5430,
+  "video_id": "8562a7c5-6cb8-5469-bde1-6812758761f1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}.",
+  "answer": [
+    {
+      "start": 954.0,
+      "end": 954.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 955.0,
+      "end": 955.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 954000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/segment_000920_000960.json",
+  "segment_meta": {
+    "start_seconds": 920,
+    "end_seconds": 960,
+    "length_seconds": 40,
+    "start_time_mmss": "15:20",
+    "end_time_mmss": "16:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

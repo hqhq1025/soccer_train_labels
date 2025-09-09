@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23608,
+  "video_id": "0df63a02-0adc-5a95-9c4d-0098452d036f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Corner}.",
+  "answer": [
+    {
+      "start": 2259.0,
+      "end": 2259.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2314.0,
+      "end": 2314.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2259000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/segment_002210_002330.json",
+  "segment_meta": {
+    "start_seconds": 2210,
+    "end_seconds": 2330,
+    "length_seconds": 120,
+    "start_time_mmss": "36:50",
+    "end_time_mmss": "38:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

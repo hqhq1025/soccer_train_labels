@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2736,
+  "video_id": "409a92ca-966d-5b84-bfe0-a29eaf9be1dd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 1612.0,
+      "end": 1612.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 1625.0,
+      "end": 1625.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1612000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/segment_001510_001630.json",
+  "segment_meta": {
+    "start_seconds": 1510,
+    "end_seconds": 1630,
+    "length_seconds": 120,
+    "start_time_mmss": "25:10",
+    "end_time_mmss": "27:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

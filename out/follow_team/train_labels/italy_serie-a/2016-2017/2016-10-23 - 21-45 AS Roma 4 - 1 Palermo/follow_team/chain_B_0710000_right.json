@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17842,
+  "video_id": "8a40f99c-3720-5566-9f24-cf216d9eba34",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 710.0,
+      "end": 710.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 743.0,
+      "end": 743.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 710000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_000700_000760.json",
+  "segment_meta": {
+    "start_seconds": 700,
+    "end_seconds": 760,
+    "length_seconds": 60,
+    "start_time_mmss": "11:40",
+    "end_time_mmss": "12:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

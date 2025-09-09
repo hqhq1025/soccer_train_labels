@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11388,
+  "video_id": "53bfe0cd-cbbc-5e6f-9a70-777761b992eb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 3043.0,
+      "end": 3043.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3071.0,
+      "end": 3071.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3043000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/segment_002960_003080.json",
+  "segment_meta": {
+    "start_seconds": 2960,
+    "end_seconds": 3080,
+    "length_seconds": 120,
+    "start_time_mmss": "49:20",
+    "end_time_mmss": "51:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

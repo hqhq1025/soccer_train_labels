@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3478,
+  "video_id": "788b57cd-29e9-518c-bc63-7681fc8f9d80",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 2068.0,
+      "end": 2068.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2076.0,
+      "end": 2076.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-05-13 - 16-30 FC Augsburg 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-05-13 - 16-30 FC Augsburg 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2068000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-05-13 - 16-30 FC Augsburg 1 - 1 Dortmund/segment_001980_002080.json",
+  "segment_meta": {
+    "start_seconds": 1980,
+    "end_seconds": 2080,
+    "length_seconds": 100,
+    "start_time_mmss": "33:00",
+    "end_time_mmss": "34:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

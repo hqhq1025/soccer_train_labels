@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23053,
+  "video_id": "4f7f761b-3e59-54df-8bdf-8b4c7e380a29",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Offside}.",
+  "answer": [
+    {
+      "start": 3773.0,
+      "end": 3773.0,
+      "text": "Trigger: Corner by right @ 2 - 17:53"
+    },
+    {
+      "start": 3779.0,
+      "end": 3779.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3773000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/segment_003720_003780.json",
+  "segment_meta": {
+    "start_seconds": 3720,
+    "end_seconds": 3780,
+    "length_seconds": 60,
+    "start_time_mmss": "62:00",
+    "end_time_mmss": "63:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

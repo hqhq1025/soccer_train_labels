@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25212,
+  "video_id": "0e06219f-536c-5bf5-9e44-7961eba5d8d5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 4182.0,
+      "end": 4182.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4192.0,
+      "end": 4192.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4182000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/segment_004160_004200.json",
+  "segment_meta": {
+    "start_seconds": 4160,
+    "end_seconds": 4200,
+    "length_seconds": 40,
+    "start_time_mmss": "69:20",
+    "end_time_mmss": "70:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

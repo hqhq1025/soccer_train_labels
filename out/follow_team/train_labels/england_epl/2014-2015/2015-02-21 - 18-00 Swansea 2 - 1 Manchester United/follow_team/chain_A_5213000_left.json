@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23045,
+  "video_id": "f432f5bc-35c0-5030-a90c-d20a82d46742",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 5213.0,
+      "end": 5213.0,
+      "text": "Trigger: Foul by left @ 2 - 41:53"
+    },
+    {
+      "start": 5221.0,
+      "end": 5221.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5213000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/segment_005140_005260.json",
+  "segment_meta": {
+    "start_seconds": 5140,
+    "end_seconds": 5260,
+    "length_seconds": 120,
+    "start_time_mmss": "85:40",
+    "end_time_mmss": "87:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

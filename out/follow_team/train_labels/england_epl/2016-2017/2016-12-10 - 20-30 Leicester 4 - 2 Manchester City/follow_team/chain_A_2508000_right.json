@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24039,
+  "video_id": "18390b77-9be2-5a3c-87d9-cd65ddb36557",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Throw-in and Corner}.",
+  "answer": [
+    {
+      "start": 2508.0,
+      "end": 2508.0,
+      "text": "Trigger: Shots on target by right @ 1 - 41:48"
+    },
+    {
+      "start": 2515.0,
+      "end": 2515.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 2555.0,
+      "end": 2555.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2508000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/segment_002460_002580.json",
+  "segment_meta": {
+    "start_seconds": 2460,
+    "end_seconds": 2580,
+    "length_seconds": 120,
+    "start_time_mmss": "41:00",
+    "end_time_mmss": "43:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

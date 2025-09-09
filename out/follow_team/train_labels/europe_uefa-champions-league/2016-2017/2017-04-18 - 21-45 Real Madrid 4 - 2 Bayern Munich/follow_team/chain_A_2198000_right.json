@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9083,
+  "video_id": "e3c0807d-81be-5895-89a7-cdc66786e763",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "answer": [
+    {
+      "start": 2198.0,
+      "end": 2198.0,
+      "text": "Trigger: Corner by right @ 1 - 36:38"
+    },
+    {
+      "start": 2200.0,
+      "end": 2200.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2198000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/segment_002110_002210.json",
+  "segment_meta": {
+    "start_seconds": 2110,
+    "end_seconds": 2210,
+    "length_seconds": 100,
+    "start_time_mmss": "35:10",
+    "end_time_mmss": "36:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21033,
+  "video_id": "2b4ca02f-cdc4-54c2-bc8a-a9001f5d7e70",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Goal}.",
+  "answer": [
+    {
+      "start": 62.0,
+      "end": 62.0,
+      "text": "Trigger: Shots on target by right @ 1 - 01:02"
+    },
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 62000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/segment_000030_000070.json",
+  "segment_meta": {
+    "start_seconds": 30,
+    "end_seconds": 70,
+    "length_seconds": 40,
+    "start_time_mmss": "00:30",
+    "end_time_mmss": "01:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

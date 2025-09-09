@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 120,
+  "video_id": "f25f9b3b-8371-51de-907a-c885514d1088",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 2712.0,
+      "end": 2712.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2721.0,
+      "end": 2721.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2712000,
+  "team": "left",
+  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/segment_002610_002730.json",
+  "segment_meta": {
+    "start_seconds": 2610,
+    "end_seconds": 2730,
+    "length_seconds": 120,
+    "start_time_mmss": "43:30",
+    "end_time_mmss": "45:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

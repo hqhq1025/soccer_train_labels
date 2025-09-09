@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 626,
+  "video_id": "18e2a594-c42d-51d3-9137-cccb2d52a18a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 522.0,
+      "end": 522.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 528.0,
+      "end": 528.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 522000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_000490_000530.json",
+  "segment_meta": {
+    "start_seconds": 490,
+    "end_seconds": 530,
+    "length_seconds": 40,
+    "start_time_mmss": "08:10",
+    "end_time_mmss": "08:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

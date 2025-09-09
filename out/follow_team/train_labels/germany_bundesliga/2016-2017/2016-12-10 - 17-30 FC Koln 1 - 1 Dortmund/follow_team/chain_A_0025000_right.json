@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4133,
+  "video_id": "548ee27c-7566-571a-a3af-56c0dfdce8db",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Throw-in}; then follow that team and report its {Clearance}.",
+  "answer": [
+    {
+      "start": 25.0,
+      "end": 25.0,
+      "text": "Trigger: Throw-in by right @ 1 - 00:25"
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 25000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/segment_000000_000120.json",
+  "segment_meta": {
+    "start_seconds": 0,
+    "end_seconds": 120,
+    "length_seconds": 120,
+    "start_time_mmss": "00:00",
+    "end_time_mmss": "02:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

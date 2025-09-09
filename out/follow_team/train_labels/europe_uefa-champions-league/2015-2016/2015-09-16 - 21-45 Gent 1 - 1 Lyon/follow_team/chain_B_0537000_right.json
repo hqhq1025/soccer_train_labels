@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6056,
+  "video_id": "07d5fde4-0a7c-5d63-83ee-55fb8c6c4946",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 537.0,
+      "end": 537.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 545.0,
+      "end": 545.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 537000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_000490_000550.json",
+  "segment_meta": {
+    "start_seconds": 490,
+    "end_seconds": 550,
+    "length_seconds": 60,
+    "start_time_mmss": "08:10",
+    "end_time_mmss": "09:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

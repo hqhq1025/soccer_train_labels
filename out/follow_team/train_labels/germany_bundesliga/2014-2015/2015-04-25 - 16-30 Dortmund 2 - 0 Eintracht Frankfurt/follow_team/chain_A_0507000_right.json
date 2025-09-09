@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2791,
+  "video_id": "a02494db-a43e-58f1-867e-6ed0368153b4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 507.0,
+      "end": 507.0,
+      "text": "Trigger: Throw-in by right @ 1 - 08:27"
+    },
+    {
+      "start": 511.0,
+      "end": 511.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 507000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/segment_000490_000590.json",
+  "segment_meta": {
+    "start_seconds": 490,
+    "end_seconds": 590,
+    "length_seconds": 100,
+    "start_time_mmss": "08:10",
+    "end_time_mmss": "09:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

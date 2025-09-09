@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4975,
+  "video_id": "3e16eea0-63d5-52fc-a108-ae95a9460d4a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Substitution}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 3326.0,
+      "end": 3326.0,
+      "text": "Trigger: Substitution by left @ 2 - 10:26"
+    },
+    {
+      "start": 3351.0,
+      "end": 3351.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3326000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/segment_003280_003400.json",
+  "segment_meta": {
+    "start_seconds": 3280,
+    "end_seconds": 3400,
+    "length_seconds": 120,
+    "start_time_mmss": "54:40",
+    "end_time_mmss": "56:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

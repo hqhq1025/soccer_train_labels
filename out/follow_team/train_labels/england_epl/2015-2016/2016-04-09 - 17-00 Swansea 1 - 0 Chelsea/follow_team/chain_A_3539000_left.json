@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22007,
+  "video_id": "5ec87aa8-c228-56ec-ae50-89f4d4968c8f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 3539.0,
+      "end": 3539.0,
+      "text": "Trigger: Throw-in by left @ 2 - 13:59"
+    },
+    {
+      "start": 3549.0,
+      "end": 3549.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3539000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/segment_003480_003580.json",
+  "segment_meta": {
+    "start_seconds": 3480,
+    "end_seconds": 3580,
+    "length_seconds": 100,
+    "start_time_mmss": "58:00",
+    "end_time_mmss": "59:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

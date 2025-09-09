@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19844,
+  "video_id": "8e759a37-df85-58c0-a46c-7977f875b251",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Corner} happen.",
+  "answer": [
+    {
+      "start": 3633.0,
+      "end": 3633.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 3668.0,
+      "end": 3668.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3633000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/segment_003580_003700.json",
+  "segment_meta": {
+    "start_seconds": 3580,
+    "end_seconds": 3700,
+    "length_seconds": 120,
+    "start_time_mmss": "59:40",
+    "end_time_mmss": "61:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

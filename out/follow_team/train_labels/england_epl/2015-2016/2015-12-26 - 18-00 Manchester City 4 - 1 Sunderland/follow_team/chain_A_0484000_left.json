@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21191,
+  "video_id": "4e24fa24-247c-5d13-ae55-58265e742691",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 484.0,
+      "end": 484.0,
+      "text": "Trigger: Throw-in by left @ 1 - 08:04"
+    },
+    {
+      "start": 531.0,
+      "end": 531.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 484000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/segment_000450_000550.json",
+  "segment_meta": {
+    "start_seconds": 450,
+    "end_seconds": 550,
+    "length_seconds": 100,
+    "start_time_mmss": "07:30",
+    "end_time_mmss": "09:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

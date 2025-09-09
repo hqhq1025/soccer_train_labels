@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3990,
+  "video_id": "6fb27295-ccb9-5901-a79c-e3250de8dfbc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 379.0,
+      "end": 379.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 383.0,
+      "end": 383.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 379000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_000340_000400.json",
+  "segment_meta": {
+    "start_seconds": 340,
+    "end_seconds": 400,
+    "length_seconds": 60,
+    "start_time_mmss": "05:40",
+    "end_time_mmss": "06:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

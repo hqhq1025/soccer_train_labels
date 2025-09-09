@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7003,
+  "video_id": "0c5747dd-ad12-5c12-81f8-99aad014e5a7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots on target and Offside}.",
+  "answer": [
+    {
+      "start": 1963.0,
+      "end": 1963.0,
+      "text": "Trigger: Shots on target by left @ 1 - 32:43"
+    },
+    {
+      "start": 1965.0,
+      "end": 1965.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 1970.0,
+      "end": 1970.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1963000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/segment_001870_001990.json",
+  "segment_meta": {
+    "start_seconds": 1870,
+    "end_seconds": 1990,
+    "length_seconds": 120,
+    "start_time_mmss": "31:10",
+    "end_time_mmss": "33:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

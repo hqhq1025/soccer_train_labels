@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1379,
+  "video_id": "70bffae0-be7f-54fd-b20a-25ac70a9f019",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 622.0,
+      "end": 622.0,
+      "text": "Trigger: Corner by right @ 1 - 10:22"
+    },
+    {
+      "start": 678.0,
+      "end": 678.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 622000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/segment_000580_000680.json",
+  "segment_meta": {
+    "start_seconds": 580,
+    "end_seconds": 680,
+    "length_seconds": 100,
+    "start_time_mmss": "09:40",
+    "end_time_mmss": "11:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3512,
+  "video_id": "9ef0e3ee-ad3f-5d2a-9c61-3c8b30163c2b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 3193.0,
+      "end": 3193.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 3195.0,
+      "end": 3195.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3193000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/segment_003120_003200.json",
+  "segment_meta": {
+    "start_seconds": 3120,
+    "end_seconds": 3200,
+    "length_seconds": 80,
+    "start_time_mmss": "52:00",
+    "end_time_mmss": "53:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2200,
+  "video_id": "8ac6d5ad-189a-5757-9165-293b4baf89eb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 3281.0,
+      "end": 3281.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 3337.0,
+      "end": 3337.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3281000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_003230_003350.json",
+  "segment_meta": {
+    "start_seconds": 3230,
+    "end_seconds": 3350,
+    "length_seconds": 120,
+    "start_time_mmss": "53:50",
+    "end_time_mmss": "55:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

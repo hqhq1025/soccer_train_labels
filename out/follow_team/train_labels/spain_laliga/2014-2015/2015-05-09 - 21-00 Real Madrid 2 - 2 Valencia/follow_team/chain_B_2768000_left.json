@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11534,
+  "video_id": "787a9f87-d95b-5c10-af45-f28d084b1c48",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2768.0,
+      "end": 2768.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2771.0,
+      "end": 2771.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2768000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/segment_002660_002780.json",
+  "segment_meta": {
+    "start_seconds": 2660,
+    "end_seconds": 2780,
+    "length_seconds": 120,
+    "start_time_mmss": "44:20",
+    "end_time_mmss": "46:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

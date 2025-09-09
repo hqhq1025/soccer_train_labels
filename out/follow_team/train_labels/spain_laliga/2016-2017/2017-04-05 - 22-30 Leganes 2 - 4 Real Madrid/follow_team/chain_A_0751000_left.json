@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14491,
+  "video_id": "6407393a-93b6-5416-bd3e-97da53128144",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 751.0,
+      "end": 751.0,
+      "text": "Trigger: Throw-in by left @ 1 - 12:31"
+    },
+    {
+      "start": 800.0,
+      "end": 800.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 751000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/segment_000720_000820.json",
+  "segment_meta": {
+    "start_seconds": 720,
+    "end_seconds": 820,
+    "length_seconds": 100,
+    "start_time_mmss": "12:00",
+    "end_time_mmss": "13:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

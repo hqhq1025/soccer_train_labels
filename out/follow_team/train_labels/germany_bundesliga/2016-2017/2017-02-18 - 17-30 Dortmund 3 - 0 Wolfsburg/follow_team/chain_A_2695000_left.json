@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3615,
+  "video_id": "d1b28b9a-3e29-55a1-80f7-764a7cc0ef03",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Kick-off} it makes.",
+  "answer": [
+    {
+      "start": 2695.0,
+      "end": 2695.0,
+      "text": "Trigger: Throw-in by left @ 1 - 44:55"
+    },
+    {
+      "start": 2700.0,
+      "end": 2700.0,
+      "text": "Then: Kick-off by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2695000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_002630_002710.json",
+  "segment_meta": {
+    "start_seconds": 2630,
+    "end_seconds": 2710,
+    "length_seconds": 80,
+    "start_time_mmss": "43:50",
+    "end_time_mmss": "45:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

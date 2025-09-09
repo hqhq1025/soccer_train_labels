@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4292,
+  "video_id": "e36e9cfa-25d7-5b02-923f-f5a91bb5a29e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 4797.0,
+      "end": 4797.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4811.0,
+      "end": 4811.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4797000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/segment_004720_004840.json",
+  "segment_meta": {
+    "start_seconds": 4720,
+    "end_seconds": 4840,
+    "length_seconds": 120,
+    "start_time_mmss": "78:40",
+    "end_time_mmss": "80:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

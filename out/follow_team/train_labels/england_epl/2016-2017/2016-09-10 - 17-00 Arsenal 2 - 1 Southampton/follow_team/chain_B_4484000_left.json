@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23506,
+  "video_id": "c163dfe1-5e40-5b4a-ac14-dea089ac039f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 4484.0,
+      "end": 4484.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4510.0,
+      "end": 4510.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4484000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/segment_004430_004550.json",
+  "segment_meta": {
+    "start_seconds": 4430,
+    "end_seconds": 4550,
+    "length_seconds": 120,
+    "start_time_mmss": "73:50",
+    "end_time_mmss": "75:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

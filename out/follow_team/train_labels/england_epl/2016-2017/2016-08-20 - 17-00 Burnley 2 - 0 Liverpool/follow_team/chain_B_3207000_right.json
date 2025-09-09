@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24914,
+  "video_id": "eb87e6ef-7461-5065-aba0-35d98833881a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Offside} happen.",
+  "answer": [
+    {
+      "start": 3207.0,
+      "end": 3207.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 3213.0,
+      "end": 3213.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3207000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/segment_003130_003230.json",
+  "segment_meta": {
+    "start_seconds": 3130,
+    "end_seconds": 3230,
+    "length_seconds": 100,
+    "start_time_mmss": "52:10",
+    "end_time_mmss": "53:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

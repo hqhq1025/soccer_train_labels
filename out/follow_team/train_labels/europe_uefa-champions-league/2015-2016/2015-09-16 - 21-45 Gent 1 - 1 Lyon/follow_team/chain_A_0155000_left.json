@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6085,
+  "video_id": "7223c85b-bd7c-54cb-b4e6-5e990ad35901",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 155.0,
+      "end": 155.0,
+      "text": "Trigger: Throw-in by left @ 1 - 02:35"
+    },
+    {
+      "start": 182.0,
+      "end": 182.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 155000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_000130_000250.json",
+  "segment_meta": {
+    "start_seconds": 130,
+    "end_seconds": 250,
+    "length_seconds": 120,
+    "start_time_mmss": "02:10",
+    "end_time_mmss": "04:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

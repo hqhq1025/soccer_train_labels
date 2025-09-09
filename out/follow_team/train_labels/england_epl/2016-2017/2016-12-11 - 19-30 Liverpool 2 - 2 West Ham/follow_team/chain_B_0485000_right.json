@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24546,
+  "video_id": "b65db78b-6b52-512c-8689-2f8cab16558c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 485.0,
+      "end": 485.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 509.0,
+      "end": 509.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 485000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/segment_000400_000520.json",
+  "segment_meta": {
+    "start_seconds": 400,
+    "end_seconds": 520,
+    "length_seconds": 120,
+    "start_time_mmss": "06:40",
+    "end_time_mmss": "08:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

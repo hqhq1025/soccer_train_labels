@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 542,
+  "video_id": "c729ee34-47ca-521f-a446-2b2ac0e36383",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 337.0,
+      "end": 337.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 377.0,
+      "end": 377.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 337000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_000260_000380.json",
+  "segment_meta": {
+    "start_seconds": 260,
+    "end_seconds": 380,
+    "length_seconds": 120,
+    "start_time_mmss": "04:20",
+    "end_time_mmss": "06:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9622,
+  "video_id": "e92627c0-4eb2-52ee-8dba-f6b1ff767e42",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 5250.0,
+      "end": 5250.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 5274.0,
+      "end": 5274.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5250000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/segment_005240_005360.json",
+  "segment_meta": {
+    "start_seconds": 5240,
+    "end_seconds": 5360,
+    "length_seconds": 120,
+    "start_time_mmss": "87:20",
+    "end_time_mmss": "89:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

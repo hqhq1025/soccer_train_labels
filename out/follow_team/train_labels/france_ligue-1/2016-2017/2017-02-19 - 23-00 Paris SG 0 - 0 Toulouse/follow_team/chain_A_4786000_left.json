@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1291,
+  "video_id": "2cf1bdb0-0972-5863-bfda-afcfc361b8c7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 4786.0,
+      "end": 4786.0,
+      "text": "Trigger: Corner by left @ 2 - 34:46"
+    },
+    {
+      "start": 4789.0,
+      "end": 4789.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4786000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/segment_004770_004810.json",
+  "segment_meta": {
+    "start_seconds": 4770,
+    "end_seconds": 4810,
+    "length_seconds": 40,
+    "start_time_mmss": "79:30",
+    "end_time_mmss": "80:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

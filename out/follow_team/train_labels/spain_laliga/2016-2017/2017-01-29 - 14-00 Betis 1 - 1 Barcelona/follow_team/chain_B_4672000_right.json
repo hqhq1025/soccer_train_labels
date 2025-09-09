@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13776,
+  "video_id": "44ee7883-870e-5ca9-b049-285d3d9b5eae",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Yellow card}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 4672.0,
+      "end": 4672.0,
+      "text": "Trigger: Yellow card by right"
+    },
+    {
+      "start": 4711.0,
+      "end": 4711.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4672000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/segment_004600_004720.json",
+  "segment_meta": {
+    "start_seconds": 4600,
+    "end_seconds": 4720,
+    "length_seconds": 120,
+    "start_time_mmss": "76:40",
+    "end_time_mmss": "78:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

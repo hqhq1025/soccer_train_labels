@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25016,
+  "video_id": "0a78e889-1fc7-5436-b642-825e92b6e547",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Shots on target}.",
+  "answer": [
+    {
+      "start": 2028.0,
+      "end": 2028.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 2032.0,
+      "end": 2032.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2028000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/segment_001950_002070.json",
+  "segment_meta": {
+    "start_seconds": 1950,
+    "end_seconds": 2070,
+    "length_seconds": 120,
+    "start_time_mmss": "32:30",
+    "end_time_mmss": "34:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

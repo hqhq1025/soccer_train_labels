@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4727,
+  "video_id": "ef896161-440e-5ab5-a11b-192eef9bd8ee",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Offside}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 4770.0,
+      "end": 4770.0,
+      "text": "Trigger: Offside by left @ 2 - 34:30"
+    },
+    {
+      "start": 4815.0,
+      "end": 4815.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4770000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/segment_004750_004870.json",
+  "segment_meta": {
+    "start_seconds": 4750,
+    "end_seconds": 4870,
+    "length_seconds": 120,
+    "start_time_mmss": "79:10",
+    "end_time_mmss": "81:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

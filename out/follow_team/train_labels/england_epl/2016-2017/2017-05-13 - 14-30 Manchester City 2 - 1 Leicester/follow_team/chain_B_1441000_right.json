@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25298,
+  "video_id": "924ab9ac-e3b8-54ec-a773-c42c6b856a03",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Corner} happen.",
+  "answer": [
+    {
+      "start": 1441.0,
+      "end": 1441.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 1464.0,
+      "end": 1464.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1441000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/segment_001410_001470.json",
+  "segment_meta": {
+    "start_seconds": 1410,
+    "end_seconds": 1470,
+    "length_seconds": 60,
+    "start_time_mmss": "23:30",
+    "end_time_mmss": "24:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

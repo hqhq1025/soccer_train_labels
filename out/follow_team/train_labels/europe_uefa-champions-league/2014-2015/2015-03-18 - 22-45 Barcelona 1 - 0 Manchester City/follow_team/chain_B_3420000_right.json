@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8628,
+  "video_id": "dfc0605e-d79d-572f-b8c9-a351c744e82a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 3420.0,
+      "end": 3420.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 3440.0,
+      "end": 3440.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3420000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/segment_003350_003450.json",
+  "segment_meta": {
+    "start_seconds": 3350,
+    "end_seconds": 3450,
+    "length_seconds": 100,
+    "start_time_mmss": "55:50",
+    "end_time_mmss": "57:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

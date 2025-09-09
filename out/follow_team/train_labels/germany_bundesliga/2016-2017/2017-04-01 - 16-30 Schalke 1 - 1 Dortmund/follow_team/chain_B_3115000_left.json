@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3778,
+  "video_id": "dacc80c9-7d3e-5e97-a7d5-90bb51edd971",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Goal}.",
+  "answer": [
+    {
+      "start": 3115.0,
+      "end": 3115.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3167.0,
+      "end": 3167.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3115000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/segment_003050_003170.json",
+  "segment_meta": {
+    "start_seconds": 3050,
+    "end_seconds": 3170,
+    "length_seconds": 120,
+    "start_time_mmss": "50:50",
+    "end_time_mmss": "52:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

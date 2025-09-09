@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3419,
+  "video_id": "0c4c55e5-1b01-5ec0-a748-cad38b097a15",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul and Throw-in}.",
+  "answer": [
+    {
+      "start": 153.0,
+      "end": 153.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 159.0,
+      "end": 159.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 204.0,
+      "end": 204.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 153000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/segment_000120_000240.json",
+  "segment_meta": {
+    "start_seconds": 120,
+    "end_seconds": 240,
+    "length_seconds": 120,
+    "start_time_mmss": "02:00",
+    "end_time_mmss": "04:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

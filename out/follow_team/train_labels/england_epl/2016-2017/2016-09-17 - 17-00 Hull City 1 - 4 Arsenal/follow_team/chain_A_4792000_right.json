@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24297,
+  "video_id": "2ad5ee4c-e828-5871-b663-418c08be7209",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots off target and Foul}.",
+  "answer": [
+    {
+      "start": 4792.0,
+      "end": 4792.0,
+      "text": "Trigger: Throw-in by right @ 2 - 34:52"
+    },
+    {
+      "start": 4828.0,
+      "end": 4828.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 4866.0,
+      "end": 4866.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4792000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/segment_004750_004870.json",
+  "segment_meta": {
+    "start_seconds": 4750,
+    "end_seconds": 4870,
+    "length_seconds": 120,
+    "start_time_mmss": "79:10",
+    "end_time_mmss": "81:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

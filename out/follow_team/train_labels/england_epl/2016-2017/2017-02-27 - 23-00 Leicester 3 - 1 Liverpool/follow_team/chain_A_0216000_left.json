@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23797,
+  "video_id": "a01d1f24-ee00-5936-a292-ebc35c07e97f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Offside} occurs, keep following the same team and tell me whenever they perform {Throw-in and Shots on target}.",
+  "answer": [
+    {
+      "start": 216.0,
+      "end": 216.0,
+      "text": "Trigger: Offside by left @ 1 - 03:36"
+    },
+    {
+      "start": 278.0,
+      "end": 278.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 280.0,
+      "end": 280.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 216000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/segment_000170_000290.json",
+  "segment_meta": {
+    "start_seconds": 170,
+    "end_seconds": 290,
+    "length_seconds": 120,
+    "start_time_mmss": "02:50",
+    "end_time_mmss": "04:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

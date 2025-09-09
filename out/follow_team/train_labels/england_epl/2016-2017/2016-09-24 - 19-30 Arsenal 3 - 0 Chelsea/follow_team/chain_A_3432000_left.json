@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25089,
+  "video_id": "02374bd5-03eb-5623-b612-c0329abafbb4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Indirect free-kick and Throw-in}.",
+  "answer": [
+    {
+      "start": 3432.0,
+      "end": 3432.0,
+      "text": "Trigger: Foul by left @ 2 - 12:12"
+    },
+    {
+      "start": 3435.0,
+      "end": 3435.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 3475.0,
+      "end": 3475.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3432000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/segment_003360_003480.json",
+  "segment_meta": {
+    "start_seconds": 3360,
+    "end_seconds": 3480,
+    "length_seconds": 120,
+    "start_time_mmss": "56:00",
+    "end_time_mmss": "58:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

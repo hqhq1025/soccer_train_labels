@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1498,
+  "video_id": "bc1877bd-27f1-5697-b59c-dcd93c616e2e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Corner}.",
+  "answer": [
+    {
+      "start": 3934.0,
+      "end": 3934.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3970.0,
+      "end": 3970.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3934000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/segment_003900_003980.json",
+  "segment_meta": {
+    "start_seconds": 3900,
+    "end_seconds": 3980,
+    "length_seconds": 80,
+    "start_time_mmss": "65:00",
+    "end_time_mmss": "66:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

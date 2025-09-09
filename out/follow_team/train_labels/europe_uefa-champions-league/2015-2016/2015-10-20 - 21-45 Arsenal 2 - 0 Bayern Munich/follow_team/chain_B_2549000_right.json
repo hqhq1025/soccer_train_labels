@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6996,
+  "video_id": "a379f79a-75de-5570-9fb3-ca39441d4dbf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Corner} happen.",
+  "answer": [
+    {
+      "start": 2549.0,
+      "end": 2549.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2580.0,
+      "end": 2580.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2549000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/segment_002510_002630.json",
+  "segment_meta": {
+    "start_seconds": 2510,
+    "end_seconds": 2630,
+    "length_seconds": 120,
+    "start_time_mmss": "41:50",
+    "end_time_mmss": "43:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

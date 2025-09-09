@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13925,
+  "video_id": "e2c5cceb-7993-576e-a2ee-e9051c1d3979",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Offside}.",
+  "answer": [
+    {
+      "start": 1421.0,
+      "end": 1421.0,
+      "text": "Trigger: Shots off target by left @ 1 - 23:41"
+    },
+    {
+      "start": 1424.0,
+      "end": 1424.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1421000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/segment_001330_001430.json",
+  "segment_meta": {
+    "start_seconds": 1330,
+    "end_seconds": 1430,
+    "length_seconds": 100,
+    "start_time_mmss": "22:10",
+    "end_time_mmss": "23:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

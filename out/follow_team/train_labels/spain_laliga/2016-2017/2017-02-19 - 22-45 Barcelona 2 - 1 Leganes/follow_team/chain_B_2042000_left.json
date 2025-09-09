@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14634,
+  "video_id": "5a576384-1ae4-5cc4-97cc-202ea0df54ee",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 2042.0,
+      "end": 2042.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 2044.0,
+      "end": 2044.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2042000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/segment_001930_002050.json",
+  "segment_meta": {
+    "start_seconds": 1930,
+    "end_seconds": 2050,
+    "length_seconds": 120,
+    "start_time_mmss": "32:10",
+    "end_time_mmss": "34:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

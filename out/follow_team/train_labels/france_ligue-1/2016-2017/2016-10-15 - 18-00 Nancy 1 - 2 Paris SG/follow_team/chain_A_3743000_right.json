@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1203,
+  "video_id": "dc56bc34-5980-5ea7-a981-ce7c73f6ccf0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 3743.0,
+      "end": 3743.0,
+      "text": "Trigger: Throw-in by right @ 2 - 17:23"
+    },
+    {
+      "start": 3782.0,
+      "end": 3782.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3743000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/segment_003700_003800.json",
+  "segment_meta": {
+    "start_seconds": 3700,
+    "end_seconds": 3800,
+    "length_seconds": 100,
+    "start_time_mmss": "61:40",
+    "end_time_mmss": "63:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

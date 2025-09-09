@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11566,
+  "video_id": "58ec15e4-f2c1-5787-a2b0-be5910c7d5e3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Substitution}, stick with that team and alert me for {Clearance}.",
+  "answer": [
+    {
+      "start": 5344.0,
+      "end": 5344.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 5408.0,
+      "end": 5408.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5344000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/segment_005320_005440.json",
+  "segment_meta": {
+    "start_seconds": 5320,
+    "end_seconds": 5440,
+    "length_seconds": 120,
+    "start_time_mmss": "88:40",
+    "end_time_mmss": "90:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

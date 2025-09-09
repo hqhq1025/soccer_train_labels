@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8607,
+  "video_id": "2d410bd4-67d1-57ee-9433-2a26b1543d05",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card and Throw-in}.",
+  "answer": [
+    {
+      "start": 4727.0,
+      "end": 4727.0,
+      "text": "Trigger: Foul by right @ 2 - 33:47"
+    },
+    {
+      "start": 4731.0,
+      "end": 4731.0,
+      "text": "Then: Yellow card by right"
+    },
+    {
+      "start": 4813.0,
+      "end": 4813.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4727000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/segment_004710_004830.json",
+  "segment_meta": {
+    "start_seconds": 4710,
+    "end_seconds": 4830,
+    "length_seconds": 120,
+    "start_time_mmss": "78:30",
+    "end_time_mmss": "80:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

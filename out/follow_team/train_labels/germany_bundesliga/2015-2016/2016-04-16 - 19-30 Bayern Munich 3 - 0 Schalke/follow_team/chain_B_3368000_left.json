@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2710,
+  "video_id": "85b560a2-b066-5daf-a283-814127ebd5d0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 3368.0,
+      "end": 3368.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3371.0,
+      "end": 3371.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3368000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/segment_003320_003380.json",
+  "segment_meta": {
+    "start_seconds": 3320,
+    "end_seconds": 3380,
+    "length_seconds": 60,
+    "start_time_mmss": "55:20",
+    "end_time_mmss": "56:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

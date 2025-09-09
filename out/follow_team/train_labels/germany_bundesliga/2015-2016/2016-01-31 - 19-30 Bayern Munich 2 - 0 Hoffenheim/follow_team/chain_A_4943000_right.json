@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2677,
+  "video_id": "f412ab01-1a44-5d38-bfec-334b21af63cf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 4943.0,
+      "end": 4943.0,
+      "text": "Trigger: Clearance by right @ 2 - 37:23"
+    },
+    {
+      "start": 4961.0,
+      "end": 4961.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4943000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/segment_004890_004970.json",
+  "segment_meta": {
+    "start_seconds": 4890,
+    "end_seconds": 4970,
+    "length_seconds": 80,
+    "start_time_mmss": "81:30",
+    "end_time_mmss": "82:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

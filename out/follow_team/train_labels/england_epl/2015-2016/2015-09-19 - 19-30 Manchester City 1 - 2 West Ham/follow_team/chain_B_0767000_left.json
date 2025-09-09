@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22810,
+  "video_id": "dedae9f3-b93e-533c-a908-9792a6362058",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 767.0,
+      "end": 767.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 769.0,
+      "end": 769.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 767000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/segment_000710_000770.json",
+  "segment_meta": {
+    "start_seconds": 710,
+    "end_seconds": 770,
+    "length_seconds": 60,
+    "start_time_mmss": "11:50",
+    "end_time_mmss": "12:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

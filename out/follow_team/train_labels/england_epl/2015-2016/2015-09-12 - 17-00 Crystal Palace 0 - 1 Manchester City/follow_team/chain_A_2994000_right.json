@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22199,
+  "video_id": "2d72e55d-ad18-50df-b2fc-b9a7b71053f6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
+  "answer": [
+    {
+      "start": 2994.0,
+      "end": 2994.0,
+      "text": "Trigger: Corner by right @ 2 - 04:54"
+    },
+    {
+      "start": 3049.0,
+      "end": 3049.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2994000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_002970_003050.json",
+  "segment_meta": {
+    "start_seconds": 2970,
+    "end_seconds": 3050,
+    "length_seconds": 80,
+    "start_time_mmss": "49:30",
+    "end_time_mmss": "50:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

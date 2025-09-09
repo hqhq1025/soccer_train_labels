@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2735,
+  "video_id": "19f8e772-18db-50f1-96aa-9a53a7c67dc3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 5005.0,
+      "end": 5005.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 38:25"
+    },
+    {
+      "start": 5033.0,
+      "end": 5033.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5005000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/segment_004960_005040.json",
+  "segment_meta": {
+    "start_seconds": 4960,
+    "end_seconds": 5040,
+    "length_seconds": 80,
+    "start_time_mmss": "82:40",
+    "end_time_mmss": "84:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

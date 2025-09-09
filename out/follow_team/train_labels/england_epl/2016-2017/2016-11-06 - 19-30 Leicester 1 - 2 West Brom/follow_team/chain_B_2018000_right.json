@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23914,
+  "video_id": "c36e2049-5a57-52d8-b7bb-1157ea3dc8bf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 2018.0,
+      "end": 2018.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 2067.0,
+      "end": 2067.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2018000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/segment_001970_002070.json",
+  "segment_meta": {
+    "start_seconds": 1970,
+    "end_seconds": 2070,
+    "length_seconds": 100,
+    "start_time_mmss": "32:50",
+    "end_time_mmss": "34:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

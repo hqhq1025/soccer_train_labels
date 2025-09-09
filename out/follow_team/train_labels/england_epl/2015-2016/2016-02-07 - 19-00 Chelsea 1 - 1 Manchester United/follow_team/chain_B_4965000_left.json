@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22438,
+  "video_id": "7360cb11-6b41-51bf-9839-d73b81417afd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 4965.0,
+      "end": 4965.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 4972.0,
+      "end": 4972.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4965000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/segment_004860_004980.json",
+  "segment_meta": {
+    "start_seconds": 4860,
+    "end_seconds": 4980,
+    "length_seconds": 120,
+    "start_time_mmss": "81:00",
+    "end_time_mmss": "83:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

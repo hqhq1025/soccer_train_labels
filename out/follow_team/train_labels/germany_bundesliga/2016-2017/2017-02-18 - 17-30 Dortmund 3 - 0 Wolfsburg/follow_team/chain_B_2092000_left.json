@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3686,
+  "video_id": "4689b8ff-caac-5f46-8140-795d9d65076a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2092.0,
+      "end": 2092.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2154.0,
+      "end": 2154.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2092000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_002080_002160.json",
+  "segment_meta": {
+    "start_seconds": 2080,
+    "end_seconds": 2160,
+    "length_seconds": 80,
+    "start_time_mmss": "34:40",
+    "end_time_mmss": "36:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

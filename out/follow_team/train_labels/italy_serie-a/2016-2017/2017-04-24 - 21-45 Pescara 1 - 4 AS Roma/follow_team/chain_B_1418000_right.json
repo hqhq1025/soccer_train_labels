@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17438,
+  "video_id": "85c5c257-b383-5648-8c37-d043b89e1509",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 1418.0,
+      "end": 1418.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 1420.0,
+      "end": 1420.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1418000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/segment_001340_001460.json",
+  "segment_meta": {
+    "start_seconds": 1340,
+    "end_seconds": 1460,
+    "length_seconds": 120,
+    "start_time_mmss": "22:20",
+    "end_time_mmss": "24:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

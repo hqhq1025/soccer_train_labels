@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8732,
+  "video_id": "3390ea67-fb5c-5a38-9dc0-ac7af4e5ef9d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 2669.0,
+      "end": 2669.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2685.0,
+      "end": 2685.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2669000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/segment_002610_002690.json",
+  "segment_meta": {
+    "start_seconds": 2610,
+    "end_seconds": 2690,
+    "length_seconds": 80,
+    "start_time_mmss": "43:30",
+    "end_time_mmss": "44:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

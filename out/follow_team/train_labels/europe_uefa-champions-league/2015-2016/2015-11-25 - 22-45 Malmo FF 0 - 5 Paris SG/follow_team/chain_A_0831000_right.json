@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5203,
+  "video_id": "41560c3b-aa01-56b2-b68a-e1b23803a43a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "answer": [
+    {
+      "start": 831.0,
+      "end": 831.0,
+      "text": "Trigger: Shots on target by right @ 1 - 13:51"
+    },
+    {
+      "start": 832.0,
+      "end": 832.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 831000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/segment_000720_000840.json",
+  "segment_meta": {
+    "start_seconds": 720,
+    "end_seconds": 840,
+    "length_seconds": 120,
+    "start_time_mmss": "12:00",
+    "end_time_mmss": "14:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

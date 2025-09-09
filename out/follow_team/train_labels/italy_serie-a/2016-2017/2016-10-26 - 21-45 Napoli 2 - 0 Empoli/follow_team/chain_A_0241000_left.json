@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20441,
+  "video_id": "6715d212-4007-5fcd-a08e-ae3f0e8efda3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Clearance} it makes.",
+  "answer": [
+    {
+      "start": 241.0,
+      "end": 241.0,
+      "text": "Trigger: Foul by left @ 1 - 04:01"
+    },
+    {
+      "start": 306.0,
+      "end": 306.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 241000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/segment_000230_000310.json",
+  "segment_meta": {
+    "start_seconds": 230,
+    "end_seconds": 310,
+    "length_seconds": 80,
+    "start_time_mmss": "03:50",
+    "end_time_mmss": "05:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

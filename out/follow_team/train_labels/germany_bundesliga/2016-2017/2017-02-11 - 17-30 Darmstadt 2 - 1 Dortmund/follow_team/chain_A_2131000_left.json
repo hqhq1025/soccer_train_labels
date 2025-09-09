@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3393,
+  "video_id": "22986cf4-e5c3-5b11-9017-56406969acd8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 2131.0,
+      "end": 2131.0,
+      "text": "Trigger: Throw-in by left @ 1 - 35:31"
+    },
+    {
+      "start": 2147.0,
+      "end": 2147.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2131000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/segment_002080_002160.json",
+  "segment_meta": {
+    "start_seconds": 2080,
+    "end_seconds": 2160,
+    "length_seconds": 80,
+    "start_time_mmss": "34:40",
+    "end_time_mmss": "36:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

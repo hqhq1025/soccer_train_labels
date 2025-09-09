@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9711,
+  "video_id": "b1cd7bc4-0249-5c67-a2c2-a2084a4a1b84",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 618.0,
+      "end": 618.0,
+      "text": "Trigger: Shots on target by right @ 1 - 10:18"
+    },
+    {
+      "start": 621.0,
+      "end": 621.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 618000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/segment_000590_000630.json",
+  "segment_meta": {
+    "start_seconds": 590,
+    "end_seconds": 630,
+    "length_seconds": 40,
+    "start_time_mmss": "09:50",
+    "end_time_mmss": "10:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

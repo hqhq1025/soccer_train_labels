@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5715,
+  "video_id": "2e9aef09-6ba8-5994-9715-8d8c4ee5e614",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 1764.0,
+      "end": 1764.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 1787.0,
+      "end": 1787.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1764000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/segment_001670_001790.json",
+  "segment_meta": {
+    "start_seconds": 1670,
+    "end_seconds": 1790,
+    "length_seconds": 120,
+    "start_time_mmss": "27:50",
+    "end_time_mmss": "29:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

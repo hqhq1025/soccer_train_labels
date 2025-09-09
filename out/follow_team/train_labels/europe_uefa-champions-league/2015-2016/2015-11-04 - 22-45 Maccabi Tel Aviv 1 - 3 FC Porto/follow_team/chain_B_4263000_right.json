@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6630,
+  "video_id": "72853f20-a64b-5b33-982a-f49963daa752",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Shots on target} happen.",
+  "answer": [
+    {
+      "start": 4263.0,
+      "end": 4263.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 4271.0,
+      "end": 4271.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Maccabi Tel Aviv 1 - 3 FC Porto/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Maccabi Tel Aviv 1 - 3 FC Porto/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4263000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Maccabi Tel Aviv 1 - 3 FC Porto/segment_004170_004290.json",
+  "segment_meta": {
+    "start_seconds": 4170,
+    "end_seconds": 4290,
+    "length_seconds": 120,
+    "start_time_mmss": "69:30",
+    "end_time_mmss": "71:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

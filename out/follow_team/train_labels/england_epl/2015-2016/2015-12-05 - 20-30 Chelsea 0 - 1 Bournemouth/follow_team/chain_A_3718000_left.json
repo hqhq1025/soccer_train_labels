@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22279,
+  "video_id": "b2866452-50f8-53b2-9cc1-5b9245c553ff",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 3718.0,
+      "end": 3718.0,
+      "text": "Trigger: Throw-in by left @ 2 - 16:58"
+    },
+    {
+      "start": 3723.0,
+      "end": 3723.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 3731.0,
+      "end": 3731.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3718000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/segment_003640_003740.json",
+  "segment_meta": {
+    "start_seconds": 3640,
+    "end_seconds": 3740,
+    "length_seconds": 100,
+    "start_time_mmss": "60:40",
+    "end_time_mmss": "62:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

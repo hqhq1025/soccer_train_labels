@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6707,
+  "video_id": "f80e9172-6c20-5bcd-9f8f-098945c92cdc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots off target and Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 761.0,
+      "end": 761.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 813.0,
+      "end": 813.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 851.0,
+      "end": 851.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 761000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/segment_000750_000870.json",
+  "segment_meta": {
+    "start_seconds": 750,
+    "end_seconds": 870,
+    "length_seconds": 120,
+    "start_time_mmss": "12:30",
+    "end_time_mmss": "14:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

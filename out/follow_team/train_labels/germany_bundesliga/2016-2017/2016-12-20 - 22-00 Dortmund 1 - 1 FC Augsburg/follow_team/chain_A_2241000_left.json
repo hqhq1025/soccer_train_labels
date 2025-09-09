@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3515,
+  "video_id": "e6db5377-296b-5603-ad31-0bec42f022b7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Shots on target and Foul}.",
+  "answer": [
+    {
+      "start": 2241.0,
+      "end": 2241.0,
+      "text": "Trigger: Corner by left @ 1 - 37:21"
+    },
+    {
+      "start": 2245.0,
+      "end": 2245.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 2269.0,
+      "end": 2269.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2241000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_002170_002270.json",
+  "segment_meta": {
+    "start_seconds": 2170,
+    "end_seconds": 2270,
+    "length_seconds": 100,
+    "start_time_mmss": "36:10",
+    "end_time_mmss": "37:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

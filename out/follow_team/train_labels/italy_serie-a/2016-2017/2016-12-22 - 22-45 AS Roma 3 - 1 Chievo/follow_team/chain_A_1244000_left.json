@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19491,
+  "video_id": "685cccbf-f42e-558c-9356-57e41fa70af3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Shots off target}.",
+  "answer": [
+    {
+      "start": 1244.0,
+      "end": 1244.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 20:44"
+    },
+    {
+      "start": 1260.0,
+      "end": 1260.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1244000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/segment_001150_001270.json",
+  "segment_meta": {
+    "start_seconds": 1150,
+    "end_seconds": 1270,
+    "length_seconds": 120,
+    "start_time_mmss": "19:10",
+    "end_time_mmss": "21:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

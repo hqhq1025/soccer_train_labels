@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17344,
+  "video_id": "9865f7d4-8249-53d4-8869-a3a03c9a1c95",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 5226.0,
+      "end": 5226.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5238.0,
+      "end": 5238.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5226000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/segment_005200_005240.json",
+  "segment_meta": {
+    "start_seconds": 5200,
+    "end_seconds": 5240,
+    "length_seconds": 40,
+    "start_time_mmss": "86:40",
+    "end_time_mmss": "87:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

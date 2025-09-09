@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7341,
+  "video_id": "5f858e4b-bba7-5b74-8f7e-ce94fd26e4c0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Clearance} happen.",
+  "answer": [
+    {
+      "start": 813.0,
+      "end": 813.0,
+      "text": "Trigger: Clearance by right @ 1 - 13:33"
+    },
+    {
+      "start": 869.0,
+      "end": 869.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 813000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/segment_000800_000900.json",
+  "segment_meta": {
+    "start_seconds": 800,
+    "end_seconds": 900,
+    "length_seconds": 100,
+    "start_time_mmss": "13:20",
+    "end_time_mmss": "15:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

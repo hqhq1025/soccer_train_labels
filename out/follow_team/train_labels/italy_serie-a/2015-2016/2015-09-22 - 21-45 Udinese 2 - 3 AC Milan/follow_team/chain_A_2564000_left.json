@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15667,
+  "video_id": "a755b8e4-1fd1-5855-abd6-79988fc15c99",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2564.0,
+      "end": 2564.0,
+      "text": "Trigger: Throw-in by left @ 1 - 42:44"
+    },
+    {
+      "start": 2641.0,
+      "end": 2641.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2564000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/segment_002550_002650.json",
+  "segment_meta": {
+    "start_seconds": 2550,
+    "end_seconds": 2650,
+    "length_seconds": 100,
+    "start_time_mmss": "42:30",
+    "end_time_mmss": "44:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

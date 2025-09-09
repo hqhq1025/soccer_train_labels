@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5782,
+  "video_id": "8adef055-0dd0-5a9b-a0f2-89f2c389a801",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Substitution}.",
+  "answer": [
+    {
+      "start": 2930.0,
+      "end": 2930.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 2954.0,
+      "end": 2954.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2930000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/segment_002880_003000.json",
+  "segment_meta": {
+    "start_seconds": 2880,
+    "end_seconds": 3000,
+    "length_seconds": 120,
+    "start_time_mmss": "48:00",
+    "end_time_mmss": "50:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6173,
+  "video_id": "1073ca73-b7bb-5b7e-9c38-18bf5bd02708",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Corner and Foul}.",
+  "answer": [
+    {
+      "start": 2863.0,
+      "end": 2863.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2933.0,
+      "end": 2933.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 2936.0,
+      "end": 2936.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2863000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/segment_002840_002960.json",
+  "segment_meta": {
+    "start_seconds": 2840,
+    "end_seconds": 2960,
+    "length_seconds": 120,
+    "start_time_mmss": "47:20",
+    "end_time_mmss": "49:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

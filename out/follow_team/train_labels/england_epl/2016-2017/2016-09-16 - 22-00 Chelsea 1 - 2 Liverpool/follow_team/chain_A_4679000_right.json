@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23959,
+  "video_id": "d95db01b-c6cc-53e2-a220-efcfed8df004",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 4679.0,
+      "end": 4679.0,
+      "text": "Trigger: Shots off target by right @ 2 - 32:59"
+    },
+    {
+      "start": 4703.0,
+      "end": 4703.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4679000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/segment_004650_004710.json",
+  "segment_meta": {
+    "start_seconds": 4650,
+    "end_seconds": 4710,
+    "length_seconds": 60,
+    "start_time_mmss": "77:30",
+    "end_time_mmss": "78:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

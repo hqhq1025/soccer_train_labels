@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1330,
+  "video_id": "f86746b6-c6cc-53ce-9ac9-b891795c6cac",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 484.0,
+      "end": 484.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 523.0,
+      "end": 523.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 484000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/segment_000450_000530.json",
+  "segment_meta": {
+    "start_seconds": 450,
+    "end_seconds": 530,
+    "length_seconds": 80,
+    "start_time_mmss": "07:30",
+    "end_time_mmss": "08:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

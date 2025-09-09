@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23473,
+  "video_id": "d188f816-719d-5db1-9e28-920f3276a69d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Indirect free-kick and Offside}.",
+  "answer": [
+    {
+      "start": 533.0,
+      "end": 533.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 08:53"
+    },
+    {
+      "start": 565.0,
+      "end": 565.0,
+      "text": "Then: Indirect free-kick by right"
+    },
+    {
+      "start": 567.0,
+      "end": 567.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 533000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/segment_000470_000590.json",
+  "segment_meta": {
+    "start_seconds": 470,
+    "end_seconds": 590,
+    "length_seconds": 120,
+    "start_time_mmss": "07:50",
+    "end_time_mmss": "09:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

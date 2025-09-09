@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5599,
+  "video_id": "5e883196-9617-51b0-ad35-1e9e351a8630",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 4748.0,
+      "end": 4748.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 4749.0,
+      "end": 4749.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-26 - 22-45 Inter 1 - 3 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-26 - 22-45 Inter 1 - 3 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4748000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-26 - 22-45 Inter 1 - 3 AS Roma/segment_004690_004750.json",
+  "segment_meta": {
+    "start_seconds": 4690,
+    "end_seconds": 4750,
+    "length_seconds": 60,
+    "start_time_mmss": "78:10",
+    "end_time_mmss": "79:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

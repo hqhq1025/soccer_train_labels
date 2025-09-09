@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7511,
+  "video_id": "ab02a434-57c0-5cad-b201-32363ba3109b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Yellow card}.",
+  "answer": [
+    {
+      "start": 2827.0,
+      "end": 2827.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2831.0,
+      "end": 2831.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2827000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/segment_002760_002880.json",
+  "segment_meta": {
+    "start_seconds": 2760,
+    "end_seconds": 2880,
+    "length_seconds": 120,
+    "start_time_mmss": "46:00",
+    "end_time_mmss": "48:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

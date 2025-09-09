@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3061,
+  "video_id": "f02afeb3-e13b-5140-8e2c-fdbd794cbec9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Corner and Shots off target}.",
+  "answer": [
+    {
+      "start": 3267.0,
+      "end": 3267.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3341.0,
+      "end": 3341.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 3348.0,
+      "end": 3348.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3267000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/segment_003240_003360.json",
+  "segment_meta": {
+    "start_seconds": 3240,
+    "end_seconds": 3360,
+    "length_seconds": 120,
+    "start_time_mmss": "54:00",
+    "end_time_mmss": "56:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

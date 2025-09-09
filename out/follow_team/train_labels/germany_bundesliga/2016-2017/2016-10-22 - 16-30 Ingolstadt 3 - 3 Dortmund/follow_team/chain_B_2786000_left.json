@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4810,
+  "video_id": "3b9bcd0e-e316-54a3-8f66-45a398449706",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
+  "answer": [
+    {
+      "start": 2786.0,
+      "end": 2786.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2848.0,
+      "end": 2848.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2786000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/segment_002750_002870.json",
+  "segment_meta": {
+    "start_seconds": 2750,
+    "end_seconds": 2870,
+    "length_seconds": 120,
+    "start_time_mmss": "45:50",
+    "end_time_mmss": "47:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4603,
+  "video_id": "66287f2d-d1d2-5e97-bf48-d5008ee0f013",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots off target, Corner and Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 5242.0,
+      "end": 5242.0,
+      "text": "Trigger: Corner by right @ 2 - 42:22"
+    },
+    {
+      "start": 5245.0,
+      "end": 5245.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 5271.0,
+      "end": 5271.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 5313.0,
+      "end": 5313.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5242000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/segment_005210_005330.json",
+  "segment_meta": {
+    "start_seconds": 5210,
+    "end_seconds": 5330,
+    "length_seconds": 120,
+    "start_time_mmss": "86:50",
+    "end_time_mmss": "88:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

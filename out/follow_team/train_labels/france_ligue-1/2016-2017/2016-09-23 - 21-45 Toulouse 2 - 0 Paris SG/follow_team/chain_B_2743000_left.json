@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1696,
+  "video_id": "d8ca27a5-8b33-514d-9817-abef453b0be3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow->red card}.",
+  "answer": [
+    {
+      "start": 2743.0,
+      "end": 2743.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2756.0,
+      "end": 2756.0,
+      "text": "Then: Yellow->red card by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2743000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/segment_002720_002760.json",
+  "segment_meta": {
+    "start_seconds": 2720,
+    "end_seconds": 2760,
+    "length_seconds": 40,
+    "start_time_mmss": "45:20",
+    "end_time_mmss": "46:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

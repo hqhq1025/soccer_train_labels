@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3796,
+  "video_id": "f46a611d-259b-51ef-a78f-998db0e2aca4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4801.0,
+      "end": 4801.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4858.0,
+      "end": 4858.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4801000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/segment_004740_004860.json",
+  "segment_meta": {
+    "start_seconds": 4740,
+    "end_seconds": 4860,
+    "length_seconds": 120,
+    "start_time_mmss": "79:00",
+    "end_time_mmss": "81:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

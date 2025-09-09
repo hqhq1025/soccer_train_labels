@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1556,
+  "video_id": "342b50f3-8f8a-57b3-a02e-b05515e04705",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 1218.0,
+      "end": 1218.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 1231.0,
+      "end": 1231.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1218000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/segment_001200_001280.json",
+  "segment_meta": {
+    "start_seconds": 1200,
+    "end_seconds": 1280,
+    "length_seconds": 80,
+    "start_time_mmss": "20:00",
+    "end_time_mmss": "21:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

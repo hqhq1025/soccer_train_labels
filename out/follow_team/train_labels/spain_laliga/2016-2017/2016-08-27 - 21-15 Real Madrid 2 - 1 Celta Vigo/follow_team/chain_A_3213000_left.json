@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13591,
+  "video_id": "c9ed98ef-7204-5b16-8f30-498087068492",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Offside} occurs, keep following the same team and tell me whenever they perform {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 3213.0,
+      "end": 3213.0,
+      "text": "Trigger: Offside by left @ 2 - 08:33"
+    },
+    {
+      "start": 3246.0,
+      "end": 3246.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 3254.0,
+      "end": 3254.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 3261.0,
+      "end": 3261.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-08-27 - 21-15 Real Madrid 2 - 1 Celta Vigo/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-08-27 - 21-15 Real Madrid 2 - 1 Celta Vigo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3213000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-08-27 - 21-15 Real Madrid 2 - 1 Celta Vigo/segment_003170_003270.json",
+  "segment_meta": {
+    "start_seconds": 3170,
+    "end_seconds": 3270,
+    "length_seconds": 100,
+    "start_time_mmss": "52:50",
+    "end_time_mmss": "54:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

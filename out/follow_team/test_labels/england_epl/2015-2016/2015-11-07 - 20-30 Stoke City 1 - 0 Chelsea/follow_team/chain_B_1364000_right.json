@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7912,
+  "video_id": "80dbd223-3a55-5042-a269-942580ec4cd5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 1364.0,
+      "end": 1364.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 1366.0,
+      "end": 1366.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1364000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/segment_001270_001370.json",
+  "segment_meta": {
+    "start_seconds": 1270,
+    "end_seconds": 1370,
+    "length_seconds": 100,
+    "start_time_mmss": "21:10",
+    "end_time_mmss": "22:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

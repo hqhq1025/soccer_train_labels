@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1535,
+  "video_id": "c9e99a12-60c8-5828-bf2d-9fd802860c01",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 3664.0,
+      "end": 3664.0,
+      "text": "Trigger: Foul by right @ 2 - 16:04"
+    },
+    {
+      "start": 3680.0,
+      "end": 3680.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3664000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/segment_003620_003740.json",
+  "segment_meta": {
+    "start_seconds": 3620,
+    "end_seconds": 3740,
+    "length_seconds": 120,
+    "start_time_mmss": "60:20",
+    "end_time_mmss": "62:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

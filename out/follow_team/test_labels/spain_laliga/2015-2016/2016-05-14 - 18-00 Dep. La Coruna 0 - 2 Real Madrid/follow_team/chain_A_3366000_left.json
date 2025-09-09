@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3137,
+  "video_id": "6dec2eac-6d1b-5d95-a000-b5bdbeb4c24b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 3366.0,
+      "end": 3366.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3373.0,
+      "end": 3373.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 3379.0,
+      "end": 3379.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-05-14 - 18-00 Dep. La Coruna 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-05-14 - 18-00 Dep. La Coruna 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3366000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-05-14 - 18-00 Dep. La Coruna 0 - 2 Real Madrid/segment_003260_003380.json",
+  "segment_meta": {
+    "start_seconds": 3260,
+    "end_seconds": 3380,
+    "length_seconds": 120,
+    "start_time_mmss": "54:20",
+    "end_time_mmss": "56:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

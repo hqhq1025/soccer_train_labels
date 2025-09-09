@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9786,
+  "video_id": "1d6ed64a-8b5d-561e-b0eb-e718cebf15c1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 4867.0,
+      "end": 4867.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4870.0,
+      "end": 4870.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4867000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/segment_004840_004880.json",
+  "segment_meta": {
+    "start_seconds": 4840,
+    "end_seconds": 4880,
+    "length_seconds": 40,
+    "start_time_mmss": "80:40",
+    "end_time_mmss": "81:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

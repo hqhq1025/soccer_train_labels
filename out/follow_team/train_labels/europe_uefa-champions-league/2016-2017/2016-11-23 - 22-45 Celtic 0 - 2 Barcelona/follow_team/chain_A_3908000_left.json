@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9237,
+  "video_id": "e0294ef8-0090-5afb-a2f4-ee5885aa06b5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, continue tracking that team and notify me about any {Clearance and Throw-in}.",
+  "answer": [
+    {
+      "start": 3908.0,
+      "end": 3908.0,
+      "text": "Trigger: Substitution by left @ 2 - 20:08"
+    },
+    {
+      "start": 3923.0,
+      "end": 3923.0,
+      "text": "Then: Clearance by left"
+    },
+    {
+      "start": 3944.0,
+      "end": 3944.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3908000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/segment_003870_003950.json",
+  "segment_meta": {
+    "start_seconds": 3870,
+    "end_seconds": 3950,
+    "length_seconds": 80,
+    "start_time_mmss": "64:30",
+    "end_time_mmss": "65:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

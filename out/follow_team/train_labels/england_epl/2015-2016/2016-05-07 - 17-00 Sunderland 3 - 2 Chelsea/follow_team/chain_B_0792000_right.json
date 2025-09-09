@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21118,
+  "video_id": "295d83bf-3be8-5863-8d81-a3fa5a79d045",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 792.0,
+      "end": 792.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 831.0,
+      "end": 831.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 792000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/segment_000780_000840.json",
+  "segment_meta": {
+    "start_seconds": 780,
+    "end_seconds": 840,
+    "length_seconds": 60,
+    "start_time_mmss": "13:00",
+    "end_time_mmss": "14:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

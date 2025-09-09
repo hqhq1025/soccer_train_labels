@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9925,
+  "video_id": "98c0b2b2-bb3f-5d01-ade0-d27b37e388f6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 1661.0,
+      "end": 1661.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 27:41"
+    },
+    {
+      "start": 1698.0,
+      "end": 1698.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1661000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/segment_001620_001700.json",
+  "segment_meta": {
+    "start_seconds": 1620,
+    "end_seconds": 1700,
+    "length_seconds": 80,
+    "start_time_mmss": "27:00",
+    "end_time_mmss": "28:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

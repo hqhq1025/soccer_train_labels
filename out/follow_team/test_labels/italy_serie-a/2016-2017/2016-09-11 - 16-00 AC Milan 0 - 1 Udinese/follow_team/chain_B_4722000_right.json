@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6678,
+  "video_id": "e3307710-598f-575c-a213-a0a18fa34b17",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Substitution}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 4722.0,
+      "end": 4722.0,
+      "text": "Trigger: Substitution by right"
+    },
+    {
+      "start": 4734.0,
+      "end": 4734.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4722000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/segment_004680_004740.json",
+  "segment_meta": {
+    "start_seconds": 4680,
+    "end_seconds": 4740,
+    "length_seconds": 60,
+    "start_time_mmss": "78:00",
+    "end_time_mmss": "79:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

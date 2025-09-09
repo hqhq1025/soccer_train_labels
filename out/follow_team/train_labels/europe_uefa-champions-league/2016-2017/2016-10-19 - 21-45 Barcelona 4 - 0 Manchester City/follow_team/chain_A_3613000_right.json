@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9775,
+  "video_id": "4d012380-448f-5312-91a3-56f2d0336a8d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Goal}.",
+  "answer": [
+    {
+      "start": 3613.0,
+      "end": 3613.0,
+      "text": "Trigger: Shots on target by right @ 2 - 15:13"
+    },
+    {
+      "start": 3614.0,
+      "end": 3614.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3613000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/segment_003580_003620.json",
+  "segment_meta": {
+    "start_seconds": 3580,
+    "end_seconds": 3620,
+    "length_seconds": 40,
+    "start_time_mmss": "59:40",
+    "end_time_mmss": "60:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

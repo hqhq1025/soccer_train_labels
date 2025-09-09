@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3780,
+  "video_id": "1a492ad0-af6a-55a9-a460-5c1bc7121ec5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots on target}.",
+  "answer": [
+    {
+      "start": 4008.0,
+      "end": 4008.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 4025.0,
+      "end": 4025.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4008000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/segment_003940_004060.json",
+  "segment_meta": {
+    "start_seconds": 3940,
+    "end_seconds": 4060,
+    "length_seconds": 120,
+    "start_time_mmss": "65:40",
+    "end_time_mmss": "67:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2056,
+  "video_id": "1b223f7d-d172-538a-8baf-f60452a714d4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 718.0,
+      "end": 718.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 727.0,
+      "end": 727.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 718000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/segment_000630_000730.json",
+  "segment_meta": {
+    "start_seconds": 630,
+    "end_seconds": 730,
+    "length_seconds": 100,
+    "start_time_mmss": "10:30",
+    "end_time_mmss": "12:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

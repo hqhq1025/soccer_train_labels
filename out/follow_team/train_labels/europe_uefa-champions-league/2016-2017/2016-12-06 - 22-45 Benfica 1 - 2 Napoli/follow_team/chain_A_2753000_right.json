@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9345,
+  "video_id": "7d6bc14f-cb2b-52b7-8b82-36eed82c44c1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 2753.0,
+      "end": 2753.0,
+      "text": "Trigger: Shots on target by right @ 2 - 00:53"
+    },
+    {
+      "start": 2789.0,
+      "end": 2789.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2753000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/segment_002720_002800.json",
+  "segment_meta": {
+    "start_seconds": 2720,
+    "end_seconds": 2800,
+    "length_seconds": 80,
+    "start_time_mmss": "45:20",
+    "end_time_mmss": "46:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

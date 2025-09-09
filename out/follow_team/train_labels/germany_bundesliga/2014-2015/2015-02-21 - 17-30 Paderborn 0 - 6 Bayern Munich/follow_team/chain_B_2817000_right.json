@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3202,
+  "video_id": "7d16e2e4-a460-5d39-9741-78127aa0b536",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Indirect free-kick} it makes.",
+  "answer": [
+    {
+      "start": 2817.0,
+      "end": 2817.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2865.0,
+      "end": 2865.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2817000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/segment_002790_002910.json",
+  "segment_meta": {
+    "start_seconds": 2790,
+    "end_seconds": 2910,
+    "length_seconds": 120,
+    "start_time_mmss": "46:30",
+    "end_time_mmss": "48:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

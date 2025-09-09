@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22659,
+  "video_id": "be546220-a6da-5843-8d68-709d51130ebf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 4889.0,
+      "end": 4889.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 36:29"
+    },
+    {
+      "start": 4915.0,
+      "end": 4915.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 4915.0,
+      "end": 4915.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4889000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_004860_004980.json",
+  "segment_meta": {
+    "start_seconds": 4860,
+    "end_seconds": 4980,
+    "length_seconds": 120,
+    "start_time_mmss": "81:00",
+    "end_time_mmss": "83:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

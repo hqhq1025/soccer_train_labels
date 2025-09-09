@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22013,
+  "video_id": "d6c8df55-88dc-53b5-9ff5-00ced6a7e9f4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Throw-in, Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 1721.0,
+      "end": 1721.0,
+      "text": "Trigger: Throw-in by right @ 1 - 28:41"
+    },
+    {
+      "start": 1751.0,
+      "end": 1751.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 1770.0,
+      "end": 1770.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 1779.0,
+      "end": 1779.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1721000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/segment_001660_001780.json",
+  "segment_meta": {
+    "start_seconds": 1660,
+    "end_seconds": 1780,
+    "length_seconds": 120,
+    "start_time_mmss": "27:40",
+    "end_time_mmss": "29:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

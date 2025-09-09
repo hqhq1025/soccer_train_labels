@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3179,
+  "video_id": "57de2626-e919-58b5-8ef4-10c9ba243ab4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 2962.0,
+      "end": 2962.0,
+      "text": "Trigger: Corner by left @ 2 - 04:22"
+    },
+    {
+      "start": 2966.0,
+      "end": 2966.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2962000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/segment_002910_003010.json",
+  "segment_meta": {
+    "start_seconds": 2910,
+    "end_seconds": 3010,
+    "length_seconds": 100,
+    "start_time_mmss": "48:30",
+    "end_time_mmss": "50:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

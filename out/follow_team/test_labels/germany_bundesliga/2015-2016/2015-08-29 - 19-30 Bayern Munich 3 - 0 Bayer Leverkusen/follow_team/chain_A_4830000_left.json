@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 309,
+  "video_id": "8eb26dab-f090-5690-be72-ae6e4c75666e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 4830.0,
+      "end": 4830.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 4851.0,
+      "end": 4851.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4830000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/segment_004740_004860.json",
+  "segment_meta": {
+    "start_seconds": 4740,
+    "end_seconds": 4860,
+    "length_seconds": 120,
+    "start_time_mmss": "79:00",
+    "end_time_mmss": "81:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

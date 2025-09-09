@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12859,
+  "video_id": "a6db3c5e-f41d-5865-92b7-cb7b400ce38e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 1513.0,
+      "end": 1513.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 25:13"
+    },
+    {
+      "start": 1528.0,
+      "end": 1528.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-14 - 18-15 Barcelona 5 - 0 Las Palmas/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-14 - 18-15 Barcelona 5 - 0 Las Palmas/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1513000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-14 - 18-15 Barcelona 5 - 0 Las Palmas/segment_001500_001600.json",
+  "segment_meta": {
+    "start_seconds": 1500,
+    "end_seconds": 1600,
+    "length_seconds": 100,
+    "start_time_mmss": "25:00",
+    "end_time_mmss": "26:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8362,
+  "video_id": "ff09e7bf-5d0c-58a0-ad2d-a88d23314a42",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Throw-in}; then follow that team and report its {Offside}.",
+  "answer": [
+    {
+      "start": 5069.0,
+      "end": 5069.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 5076.0,
+      "end": 5076.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5069000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/segment_004990_005110.json",
+  "segment_meta": {
+    "start_seconds": 4990,
+    "end_seconds": 5110,
+    "length_seconds": 120,
+    "start_time_mmss": "83:10",
+    "end_time_mmss": "85:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

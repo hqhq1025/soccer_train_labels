@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23407,
+  "video_id": "b2cd8898-6d24-554a-a1c0-dcf5e6446b6c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 5397.0,
+      "end": 5397.0,
+      "text": "Trigger: Foul by right @ 2 - 44:57"
+    },
+    {
+      "start": 5413.0,
+      "end": 5413.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5397000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/segment_005360_005420.json",
+  "segment_meta": {
+    "start_seconds": 5360,
+    "end_seconds": 5420,
+    "length_seconds": 60,
+    "start_time_mmss": "89:20",
+    "end_time_mmss": "90:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

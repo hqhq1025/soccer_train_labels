@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14591,
+  "video_id": "4831f6cf-57ae-5579-8db4-f4e29b9b10c0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 1971.0,
+      "end": 1971.0,
+      "text": "Trigger: Foul by right @ 1 - 32:51"
+    },
+    {
+      "start": 2010.0,
+      "end": 2010.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1971000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/segment_001960_002020.json",
+  "segment_meta": {
+    "start_seconds": 1960,
+    "end_seconds": 2020,
+    "length_seconds": 60,
+    "start_time_mmss": "32:40",
+    "end_time_mmss": "33:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

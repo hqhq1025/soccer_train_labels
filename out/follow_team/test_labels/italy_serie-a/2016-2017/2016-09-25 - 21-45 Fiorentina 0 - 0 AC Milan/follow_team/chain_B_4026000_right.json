@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6904,
+  "video_id": "85249717-4c57-5232-aaf8-57467ec03c8a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots on target}.",
+  "answer": [
+    {
+      "start": 4026.0,
+      "end": 4026.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4049.0,
+      "end": 4049.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4026000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/segment_003990_004050.json",
+  "segment_meta": {
+    "start_seconds": 3990,
+    "end_seconds": 4050,
+    "length_seconds": 60,
+    "start_time_mmss": "66:30",
+    "end_time_mmss": "67:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

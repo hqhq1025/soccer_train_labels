@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16017,
+  "video_id": "2fa564b0-8326-557c-9299-0ef9470ea3ab",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Throw-in and Shots off target}.",
+  "answer": [
+    {
+      "start": 4101.0,
+      "end": 4101.0,
+      "text": "Trigger: Throw-in by left @ 2 - 23:21"
+    },
+    {
+      "start": 4126.0,
+      "end": 4126.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 4175.0,
+      "end": 4175.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4101000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/segment_004090_004210.json",
+  "segment_meta": {
+    "start_seconds": 4090,
+    "end_seconds": 4210,
+    "length_seconds": 120,
+    "start_time_mmss": "68:10",
+    "end_time_mmss": "70:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

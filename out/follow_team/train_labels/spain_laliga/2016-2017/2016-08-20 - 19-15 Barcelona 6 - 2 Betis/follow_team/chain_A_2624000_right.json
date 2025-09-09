@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14151,
+  "video_id": "3cff39c1-fcbc-5f4a-98c7-dc0a471830f5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 2624.0,
+      "end": 2624.0,
+      "text": "Trigger: Throw-in by right @ 1 - 43:44"
+    },
+    {
+      "start": 2648.0,
+      "end": 2648.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2624000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/segment_002570_002650.json",
+  "segment_meta": {
+    "start_seconds": 2570,
+    "end_seconds": 2650,
+    "length_seconds": 80,
+    "start_time_mmss": "42:50",
+    "end_time_mmss": "44:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

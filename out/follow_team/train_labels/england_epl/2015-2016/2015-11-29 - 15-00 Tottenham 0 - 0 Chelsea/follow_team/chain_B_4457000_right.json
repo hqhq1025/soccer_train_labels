@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21628,
+  "video_id": "95b230fa-fc6f-5c06-b09f-2598e8e03fa9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Substitution}; then follow that team and report its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4457.0,
+      "end": 4457.0,
+      "text": "Trigger: Substitution by right"
+    },
+    {
+      "start": 4463.0,
+      "end": 4463.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4457000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/segment_004430_004470.json",
+  "segment_meta": {
+    "start_seconds": 4430,
+    "end_seconds": 4470,
+    "length_seconds": 40,
+    "start_time_mmss": "73:50",
+    "end_time_mmss": "74:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

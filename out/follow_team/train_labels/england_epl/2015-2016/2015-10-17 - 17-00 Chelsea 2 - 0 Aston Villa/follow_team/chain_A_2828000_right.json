@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21753,
+  "video_id": "f042f24a-1bb7-50b6-95a5-5f7420f36df6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 2828.0,
+      "end": 2828.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 02:08"
+    },
+    {
+      "start": 2879.0,
+      "end": 2879.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2828000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/segment_002760_002880.json",
+  "segment_meta": {
+    "start_seconds": 2760,
+    "end_seconds": 2880,
+    "length_seconds": 120,
+    "start_time_mmss": "46:00",
+    "end_time_mmss": "48:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

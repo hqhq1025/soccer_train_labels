@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10050,
+  "video_id": "8c10ab90-f34b-54ad-90b9-41a22bb2eeea",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Shots on target}.",
+  "answer": [
+    {
+      "start": 3314.0,
+      "end": 3314.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3332.0,
+      "end": 3332.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3314000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/segment_003300_003340.json",
+  "segment_meta": {
+    "start_seconds": 3300,
+    "end_seconds": 3340,
+    "length_seconds": 40,
+    "start_time_mmss": "55:00",
+    "end_time_mmss": "55:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17563,
+  "video_id": "8c960a8d-07f2-5077-92ca-b648a4503d24",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 2194.0,
+      "end": 2194.0,
+      "text": "Trigger: Throw-in by left @ 1 - 36:34"
+    },
+    {
+      "start": 2203.0,
+      "end": 2203.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2194000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/segment_002100_002220.json",
+  "segment_meta": {
+    "start_seconds": 2100,
+    "end_seconds": 2220,
+    "length_seconds": 120,
+    "start_time_mmss": "35:00",
+    "end_time_mmss": "37:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

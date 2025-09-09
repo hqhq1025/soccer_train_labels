@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6585,
+  "video_id": "b21d1b94-2616-58f5-9f75-ee2ea60d882e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 1432.0,
+      "end": 1432.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 1441.0,
+      "end": 1441.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1432000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/segment_001370_001450.json",
+  "segment_meta": {
+    "start_seconds": 1370,
+    "end_seconds": 1450,
+    "length_seconds": 80,
+    "start_time_mmss": "22:50",
+    "end_time_mmss": "24:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

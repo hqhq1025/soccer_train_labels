@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7169,
+  "video_id": "4367389e-7312-5478-858c-1a9b33cd8db0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Goal, Penalty and Shots on target}.",
+  "answer": [
+    {
+      "start": 3715.0,
+      "end": 3715.0,
+      "text": "Trigger: Throw-in by right @ 2 - 16:55"
+    },
+    {
+      "start": 3774.0,
+      "end": 3774.0,
+      "text": "Then: Goal by right"
+    },
+    {
+      "start": 3774.0,
+      "end": 3774.0,
+      "text": "Then: Penalty by right"
+    },
+    {
+      "start": 3774.0,
+      "end": 3774.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3715000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/segment_003660_003780.json",
+  "segment_meta": {
+    "start_seconds": 3660,
+    "end_seconds": 3780,
+    "length_seconds": 120,
+    "start_time_mmss": "61:00",
+    "end_time_mmss": "63:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

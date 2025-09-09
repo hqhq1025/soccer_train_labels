@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11791,
+  "video_id": "1bffe343-2e6c-547f-bc6c-5d49e804c9e3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Shots off target}.",
+  "answer": [
+    {
+      "start": 325.0,
+      "end": 325.0,
+      "text": "Trigger: Throw-in by left @ 1 - 05:25"
+    },
+    {
+      "start": 334.0,
+      "end": 334.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 325000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/segment_000220_000340.json",
+  "segment_meta": {
+    "start_seconds": 220,
+    "end_seconds": 340,
+    "length_seconds": 120,
+    "start_time_mmss": "03:40",
+    "end_time_mmss": "05:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

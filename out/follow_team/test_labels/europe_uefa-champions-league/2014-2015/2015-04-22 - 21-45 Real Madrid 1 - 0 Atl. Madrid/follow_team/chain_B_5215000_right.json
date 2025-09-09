@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2378,
+  "video_id": "82e245c3-fe34-52b9-945b-00297021221e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 5215.0,
+      "end": 5215.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 5231.0,
+      "end": 5231.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5215000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/segment_005150_005250.json",
+  "segment_meta": {
+    "start_seconds": 5150,
+    "end_seconds": 5250,
+    "length_seconds": 100,
+    "start_time_mmss": "85:50",
+    "end_time_mmss": "87:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

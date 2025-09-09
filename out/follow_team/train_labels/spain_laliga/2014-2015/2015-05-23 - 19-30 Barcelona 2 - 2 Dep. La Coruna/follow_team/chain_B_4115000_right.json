@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11736,
+  "video_id": "df5d6ab6-fc0e-513a-9448-9d2f3157ec37",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Offside}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 4115.0,
+      "end": 4115.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 4150.0,
+      "end": 4150.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4115000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/segment_004080_004200.json",
+  "segment_meta": {
+    "start_seconds": 4080,
+    "end_seconds": 4200,
+    "length_seconds": 120,
+    "start_time_mmss": "68:00",
+    "end_time_mmss": "70:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

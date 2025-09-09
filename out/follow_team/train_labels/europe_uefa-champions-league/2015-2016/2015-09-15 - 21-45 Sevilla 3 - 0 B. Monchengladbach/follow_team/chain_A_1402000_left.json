@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5733,
+  "video_id": "2c69de3c-6da0-5d21-8357-c5a9a03d0e64",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 1402.0,
+      "end": 1402.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 23:22"
+    },
+    {
+      "start": 1406.0,
+      "end": 1406.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1402000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/segment_001350_001410.json",
+  "segment_meta": {
+    "start_seconds": 1350,
+    "end_seconds": 1410,
+    "length_seconds": 60,
+    "start_time_mmss": "22:30",
+    "end_time_mmss": "23:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

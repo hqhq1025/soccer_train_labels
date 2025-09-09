@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10509,
+  "video_id": "039fba53-1902-52ba-bcfa-940672c0cbc1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Throw-in}; then follow that team and report its {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 4904.0,
+      "end": 4904.0,
+      "text": "Trigger: Throw-in by right @ 2 - 36:44"
+    },
+    {
+      "start": 4940.0,
+      "end": 4940.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 4946.0,
+      "end": 4946.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4904000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/segment_004870_004970.json",
+  "segment_meta": {
+    "start_seconds": 4870,
+    "end_seconds": 4970,
+    "length_seconds": 100,
+    "start_time_mmss": "81:10",
+    "end_time_mmss": "82:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

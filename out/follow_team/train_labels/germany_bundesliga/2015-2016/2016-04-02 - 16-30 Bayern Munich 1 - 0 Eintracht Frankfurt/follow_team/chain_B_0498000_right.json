@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2358,
+  "video_id": "fb89cac8-d959-5ab3-aa61-d8a710060de0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 498.0,
+      "end": 498.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 530.0,
+      "end": 530.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 498000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/segment_000450_000570.json",
+  "segment_meta": {
+    "start_seconds": 450,
+    "end_seconds": 570,
+    "length_seconds": 120,
+    "start_time_mmss": "07:30",
+    "end_time_mmss": "09:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

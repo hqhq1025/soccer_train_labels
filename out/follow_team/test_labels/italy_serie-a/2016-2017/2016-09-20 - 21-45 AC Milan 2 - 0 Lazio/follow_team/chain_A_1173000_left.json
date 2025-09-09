@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6117,
+  "video_id": "fce66616-425f-5809-9357-c825f4b51c91",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 1173.0,
+      "end": 1173.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 1186.0,
+      "end": 1186.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1173000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/segment_001150_001190.json",
+  "segment_meta": {
+    "start_seconds": 1150,
+    "end_seconds": 1190,
+    "length_seconds": 40,
+    "start_time_mmss": "19:10",
+    "end_time_mmss": "19:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

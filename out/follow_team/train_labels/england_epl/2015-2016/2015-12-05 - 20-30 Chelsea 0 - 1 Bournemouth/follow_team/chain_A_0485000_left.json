@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22297,
+  "video_id": "b1faf64e-0503-58d1-b9ea-47ebd6f49824",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 485.0,
+      "end": 485.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 08:05"
+    },
+    {
+      "start": 519.0,
+      "end": 519.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 485000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/segment_000440_000520.json",
+  "segment_meta": {
+    "start_seconds": 440,
+    "end_seconds": 520,
+    "length_seconds": 80,
+    "start_time_mmss": "07:20",
+    "end_time_mmss": "08:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

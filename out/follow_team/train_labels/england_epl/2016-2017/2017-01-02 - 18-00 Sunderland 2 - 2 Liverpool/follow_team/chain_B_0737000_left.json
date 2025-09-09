@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23722,
+  "video_id": "5c902ead-e3a0-58ea-9756-2fe5860e3a81",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 737.0,
+      "end": 737.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 751.0,
+      "end": 751.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 737000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/segment_000670_000770.json",
+  "segment_meta": {
+    "start_seconds": 670,
+    "end_seconds": 770,
+    "length_seconds": 100,
+    "start_time_mmss": "11:10",
+    "end_time_mmss": "12:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

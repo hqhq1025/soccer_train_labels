@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24523,
+  "video_id": "4f81fbcf-ba03-55ab-b03e-84bd821aa7a0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Shots off target}.",
+  "answer": [
+    {
+      "start": 3201.0,
+      "end": 3201.0,
+      "text": "Trigger: Direct free-kick by left @ 2 - 08:21"
+    },
+    {
+      "start": 3202.0,
+      "end": 3202.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3201000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/segment_003110_003210.json",
+  "segment_meta": {
+    "start_seconds": 3110,
+    "end_seconds": 3210,
+    "length_seconds": 100,
+    "start_time_mmss": "51:50",
+    "end_time_mmss": "53:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 157,
+  "video_id": "659d637d-607d-5b27-ae61-efdcba83f504",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 3850.0,
+      "end": 3850.0,
+      "text": "Trigger: Clearance by left @ 2 - 19:10"
+    },
+    {
+      "start": 3865.0,
+      "end": 3865.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3850000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/segment_003790_003890.json",
+  "segment_meta": {
+    "start_seconds": 3790,
+    "end_seconds": 3890,
+    "length_seconds": 100,
+    "start_time_mmss": "63:10",
+    "end_time_mmss": "64:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

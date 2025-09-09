@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7505,
+  "video_id": "9852f9da-147f-5a5d-a4c2-6674bce97b2e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Substitution} occurs, follow the initiating team and report all {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 4651.0,
+      "end": 4651.0,
+      "text": "Trigger: Substitution by right @ 2 - 32:31"
+    },
+    {
+      "start": 4705.0,
+      "end": 4705.0,
+      "text": "Then: Goal by right"
+    },
+    {
+      "start": 4705.0,
+      "end": 4705.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 4706.0,
+      "end": 4706.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4651000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/segment_004590_004710.json",
+  "segment_meta": {
+    "start_seconds": 4590,
+    "end_seconds": 4710,
+    "length_seconds": 120,
+    "start_time_mmss": "76:30",
+    "end_time_mmss": "78:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

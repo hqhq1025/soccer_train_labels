@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3472,
+  "video_id": "f579d138-2406-5aa0-9fc3-4b2a06499710",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 3666.0,
+      "end": 3666.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 3667.0,
+      "end": 3667.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-05-13 - 16-30 FC Augsburg 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-05-13 - 16-30 FC Augsburg 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3666000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-05-13 - 16-30 FC Augsburg 1 - 1 Dortmund/segment_003560_003680.json",
+  "segment_meta": {
+    "start_seconds": 3560,
+    "end_seconds": 3680,
+    "length_seconds": 120,
+    "start_time_mmss": "59:20",
+    "end_time_mmss": "61:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16879,
+  "video_id": "a0298b92-172b-5418-bc1f-336a6fd6c1ef",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 1645.0,
+      "end": 1645.0,
+      "text": "Trigger: Shots on target by right @ 1 - 27:25"
+    },
+    {
+      "start": 1647.0,
+      "end": 1647.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1645000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/segment_001600_001700.json",
+  "segment_meta": {
+    "start_seconds": 1600,
+    "end_seconds": 1700,
+    "length_seconds": 100,
+    "start_time_mmss": "26:40",
+    "end_time_mmss": "28:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

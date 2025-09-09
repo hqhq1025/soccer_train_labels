@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14403,
+  "video_id": "6124ee5b-fd3c-5a12-9785-9972b7f7e058",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 3333.0,
+      "end": 3333.0,
+      "text": "Trigger: Corner by right @ 2 - 10:33"
+    },
+    {
+      "start": 3347.0,
+      "end": 3347.0,
+      "text": "Then: Goal by right"
+    },
+    {
+      "start": 3347.0,
+      "end": 3347.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-10-22 - 17-15 Valencia 2 - 3 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-22 - 17-15 Valencia 2 - 3 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3333000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-22 - 17-15 Valencia 2 - 3 Barcelona/segment_003250_003350.json",
+  "segment_meta": {
+    "start_seconds": 3250,
+    "end_seconds": 3350,
+    "length_seconds": 100,
+    "start_time_mmss": "54:10",
+    "end_time_mmss": "55:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

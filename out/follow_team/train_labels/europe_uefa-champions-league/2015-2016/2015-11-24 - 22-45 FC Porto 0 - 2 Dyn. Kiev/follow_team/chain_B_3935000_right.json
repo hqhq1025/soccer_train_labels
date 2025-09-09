@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6922,
+  "video_id": "bcb7f792-d97f-51ce-8e83-11d3b079645b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 3935.0,
+      "end": 3935.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 3966.0,
+      "end": 3966.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3935000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/segment_003870_003970.json",
+  "segment_meta": {
+    "start_seconds": 3870,
+    "end_seconds": 3970,
+    "length_seconds": 100,
+    "start_time_mmss": "64:30",
+    "end_time_mmss": "66:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

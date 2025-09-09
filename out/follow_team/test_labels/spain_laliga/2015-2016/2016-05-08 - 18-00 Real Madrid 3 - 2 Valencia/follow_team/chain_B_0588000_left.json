@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3226,
+  "video_id": "c198bfcc-64d6-5242-89a9-a45b441f4d28",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 588.0,
+      "end": 588.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 608.0,
+      "end": 608.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 588000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/segment_000530_000610.json",
+  "segment_meta": {
+    "start_seconds": 530,
+    "end_seconds": 610,
+    "length_seconds": 80,
+    "start_time_mmss": "08:50",
+    "end_time_mmss": "10:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

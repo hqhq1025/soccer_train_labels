@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5230,
+  "video_id": "1bb81490-59e9-5ccb-8043-e2c6d07b4b01",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 4176.0,
+      "end": 4176.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4178.0,
+      "end": 4178.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4176000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/segment_004150_004190.json",
+  "segment_meta": {
+    "start_seconds": 4150,
+    "end_seconds": 4190,
+    "length_seconds": 40,
+    "start_time_mmss": "69:10",
+    "end_time_mmss": "69:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

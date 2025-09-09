@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5881,
+  "video_id": "5a4ea47a-b028-5f05-8a51-d2045639f841",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 2596.0,
+      "end": 2596.0,
+      "text": "Trigger: Foul by right @ 1 - 43:16"
+    },
+    {
+      "start": 2601.0,
+      "end": 2601.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2596000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/segment_002540_002660.json",
+  "segment_meta": {
+    "start_seconds": 2540,
+    "end_seconds": 2660,
+    "length_seconds": 120,
+    "start_time_mmss": "42:20",
+    "end_time_mmss": "44:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

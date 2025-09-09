@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24394,
+  "video_id": "a18b2134-14f6-5937-b47b-94f33f458e2c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Corner}.",
+  "answer": [
+    {
+      "start": 5388.0,
+      "end": 5388.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 5395.0,
+      "end": 5395.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5388000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/segment_005380_005470.json",
+  "segment_meta": {
+    "start_seconds": 5380,
+    "end_seconds": 5470,
+    "length_seconds": 90,
+    "start_time_mmss": "89:40",
+    "end_time_mmss": "91:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

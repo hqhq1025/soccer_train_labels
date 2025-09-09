@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7581,
+  "video_id": "7de24e62-51ce-50f5-9578-acd5e9745e1a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3508.0,
+      "end": 3508.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3539.0,
+      "end": 3539.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3508000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/segment_003420_003540.json",
+  "segment_meta": {
+    "start_seconds": 3420,
+    "end_seconds": 3540,
+    "length_seconds": 120,
+    "start_time_mmss": "57:00",
+    "end_time_mmss": "59:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

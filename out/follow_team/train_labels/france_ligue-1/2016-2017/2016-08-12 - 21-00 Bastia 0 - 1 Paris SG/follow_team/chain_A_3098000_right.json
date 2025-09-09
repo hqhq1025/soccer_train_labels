@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 691,
+  "video_id": "6e330ecb-3834-5974-8ec0-df05693bbfd1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 3098.0,
+      "end": 3098.0,
+      "text": "Trigger: Foul by right @ 2 - 06:38"
+    },
+    {
+      "start": 3166.0,
+      "end": 3166.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 3184.0,
+      "end": 3184.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3098000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/segment_003080_003200.json",
+  "segment_meta": {
+    "start_seconds": 3080,
+    "end_seconds": 3200,
+    "length_seconds": 120,
+    "start_time_mmss": "51:20",
+    "end_time_mmss": "53:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7604,
+  "video_id": "72959ffd-4c42-5fb4-a0e6-ad64f6495781",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 2102.0,
+      "end": 2102.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2103.0,
+      "end": 2103.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2102000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/segment_002020_002120.json",
+  "segment_meta": {
+    "start_seconds": 2020,
+    "end_seconds": 2120,
+    "length_seconds": 100,
+    "start_time_mmss": "33:40",
+    "end_time_mmss": "35:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22744,
+  "video_id": "e2162a35-9061-50e8-83e7-a77354234fb3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Offside}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 2999.0,
+      "end": 2999.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 3024.0,
+      "end": 3024.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2999000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/segment_002930_003030.json",
+  "segment_meta": {
+    "start_seconds": 2930,
+    "end_seconds": 3030,
+    "length_seconds": 100,
+    "start_time_mmss": "48:50",
+    "end_time_mmss": "50:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

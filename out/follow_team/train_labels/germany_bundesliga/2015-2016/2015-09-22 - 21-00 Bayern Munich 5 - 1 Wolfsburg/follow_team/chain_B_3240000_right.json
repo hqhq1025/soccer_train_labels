@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2600,
+  "video_id": "ef4df310-dbf6-5541-851a-d284ac24df5d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 3240.0,
+      "end": 3240.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 3243.0,
+      "end": 3243.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3240000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/segment_003150_003250.json",
+  "segment_meta": {
+    "start_seconds": 3150,
+    "end_seconds": 3250,
+    "length_seconds": 100,
+    "start_time_mmss": "52:30",
+    "end_time_mmss": "54:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9563,
+  "video_id": "94bf12ae-5219-5050-b795-a8c6acf18bba",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Throw-in and Shots off target}.",
+  "answer": [
+    {
+      "start": 4839.0,
+      "end": 4839.0,
+      "text": "Trigger: Substitution by left @ 2 - 35:39"
+    },
+    {
+      "start": 4877.0,
+      "end": 4877.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 4929.0,
+      "end": 4929.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4839000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/segment_004810_004930.json",
+  "segment_meta": {
+    "start_seconds": 4810,
+    "end_seconds": 4930,
+    "length_seconds": 120,
+    "start_time_mmss": "80:10",
+    "end_time_mmss": "82:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

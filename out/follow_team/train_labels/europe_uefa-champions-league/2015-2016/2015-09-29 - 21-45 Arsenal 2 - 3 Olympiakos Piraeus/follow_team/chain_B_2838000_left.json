@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7220,
+  "video_id": "acce4556-a741-5ed6-94a7-8da258e9de58",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Clearance} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 2838.0,
+      "end": 2838.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2841.0,
+      "end": 2841.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2838000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/segment_002790_002850.json",
+  "segment_meta": {
+    "start_seconds": 2790,
+    "end_seconds": 2850,
+    "length_seconds": 60,
+    "start_time_mmss": "46:30",
+    "end_time_mmss": "47:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

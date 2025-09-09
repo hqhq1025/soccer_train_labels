@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4685,
+  "video_id": "98164d88-ff95-56ce-86c4-34b23909b364",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 2307.0,
+      "end": 2307.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 38:27"
+    },
+    {
+      "start": 2320.0,
+      "end": 2320.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2307000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/segment_002270_002370.json",
+  "segment_meta": {
+    "start_seconds": 2270,
+    "end_seconds": 2370,
+    "length_seconds": 100,
+    "start_time_mmss": "37:50",
+    "end_time_mmss": "39:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3341,
+  "video_id": "b3a40453-be76-5526-970c-7dee906eabce",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 4167.0,
+      "end": 4167.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 4169.0,
+      "end": 4169.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 4169.0,
+      "end": 4169.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-12-05 - 18-00 Real Madrid 4 - 1 Getafe/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-12-05 - 18-00 Real Madrid 4 - 1 Getafe/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4167000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-12-05 - 18-00 Real Madrid 4 - 1 Getafe/segment_004060_004180.json",
+  "segment_meta": {
+    "start_seconds": 4060,
+    "end_seconds": 4180,
+    "length_seconds": 120,
+    "start_time_mmss": "67:40",
+    "end_time_mmss": "69:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

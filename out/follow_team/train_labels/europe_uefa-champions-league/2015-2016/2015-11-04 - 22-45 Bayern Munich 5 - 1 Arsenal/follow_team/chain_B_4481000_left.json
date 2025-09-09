@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6242,
+  "video_id": "647b8b72-78ae-52bf-b670-02929e0ce0d8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 4481.0,
+      "end": 4481.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4496.0,
+      "end": 4496.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Bayern Munich 5 - 1 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Bayern Munich 5 - 1 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4481000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Bayern Munich 5 - 1 Arsenal/segment_004420_004500.json",
+  "segment_meta": {
+    "start_seconds": 4420,
+    "end_seconds": 4500,
+    "length_seconds": 80,
+    "start_time_mmss": "73:40",
+    "end_time_mmss": "75:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

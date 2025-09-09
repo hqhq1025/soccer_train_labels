@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 564,
+  "video_id": "ebe94418-91cb-5e60-bf84-b83fd62e4133",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 1747.0,
+      "end": 1747.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 1748.0,
+      "end": 1748.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1747000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/segment_001630_001750.json",
+  "segment_meta": {
+    "start_seconds": 1630,
+    "end_seconds": 1750,
+    "length_seconds": 120,
+    "start_time_mmss": "27:10",
+    "end_time_mmss": "29:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8328,
+  "video_id": "3370dfd0-4f14-5d13-acef-21dce65e8481",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Clearance}.",
+  "answer": [
+    {
+      "start": 505.0,
+      "end": 505.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 573.0,
+      "end": 573.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 505000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/segment_000470_000590.json",
+  "segment_meta": {
+    "start_seconds": 470,
+    "end_seconds": 590,
+    "length_seconds": 120,
+    "start_time_mmss": "07:50",
+    "end_time_mmss": "09:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

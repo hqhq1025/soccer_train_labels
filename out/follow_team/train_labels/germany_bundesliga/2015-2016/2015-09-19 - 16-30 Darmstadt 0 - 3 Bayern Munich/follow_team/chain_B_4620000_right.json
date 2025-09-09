@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1972,
+  "video_id": "154802c3-9cf1-5833-b96f-cb3e2bd2b940",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 4620.0,
+      "end": 4620.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4627.0,
+      "end": 4627.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4620000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/segment_004530_004630.json",
+  "segment_meta": {
+    "start_seconds": 4530,
+    "end_seconds": 4630,
+    "length_seconds": 100,
+    "start_time_mmss": "75:30",
+    "end_time_mmss": "77:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

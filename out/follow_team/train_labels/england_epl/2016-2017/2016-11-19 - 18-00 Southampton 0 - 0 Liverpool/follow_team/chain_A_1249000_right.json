@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24631,
+  "video_id": "61b5207e-4ad0-5e7c-ad82-fa706d9d0577",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Offside} happen.",
+  "answer": [
+    {
+      "start": 1249.0,
+      "end": 1249.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 20:49"
+    },
+    {
+      "start": 1257.0,
+      "end": 1257.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1249000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/segment_001160_001260.json",
+  "segment_meta": {
+    "start_seconds": 1160,
+    "end_seconds": 1260,
+    "length_seconds": 100,
+    "start_time_mmss": "19:20",
+    "end_time_mmss": "21:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

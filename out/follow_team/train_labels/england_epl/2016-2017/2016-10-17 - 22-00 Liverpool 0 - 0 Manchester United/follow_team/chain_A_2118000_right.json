@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23323,
+  "video_id": "4cc83a04-5920-5c8e-908e-d411efe74ea4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 2118.0,
+      "end": 2118.0,
+      "text": "Trigger: Shots off target by right @ 1 - 35:18"
+    },
+    {
+      "start": 2128.0,
+      "end": 2128.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2118000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_002080_002160.json",
+  "segment_meta": {
+    "start_seconds": 2080,
+    "end_seconds": 2160,
+    "length_seconds": 80,
+    "start_time_mmss": "34:40",
+    "end_time_mmss": "36:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

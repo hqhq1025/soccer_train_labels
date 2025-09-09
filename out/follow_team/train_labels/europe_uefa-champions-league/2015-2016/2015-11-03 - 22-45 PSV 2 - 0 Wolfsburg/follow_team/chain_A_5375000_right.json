@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6305,
+  "video_id": "77c5407e-5104-5943-a785-63d2e9cfb50b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 5375.0,
+      "end": 5375.0,
+      "text": "Trigger: Foul by right @ 2 - 44:35"
+    },
+    {
+      "start": 5380.0,
+      "end": 5380.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5375000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/segment_005290_005410.json",
+  "segment_meta": {
+    "start_seconds": 5290,
+    "end_seconds": 5410,
+    "length_seconds": 120,
+    "start_time_mmss": "88:10",
+    "end_time_mmss": "90:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

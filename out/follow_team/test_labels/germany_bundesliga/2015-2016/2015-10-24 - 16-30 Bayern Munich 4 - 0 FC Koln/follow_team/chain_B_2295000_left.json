@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 252,
+  "video_id": "4878ca22-87d2-5284-86f1-e94a83762cfe",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 2295.0,
+      "end": 2295.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2327.0,
+      "end": 2327.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2295000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/segment_002270_002330.json",
+  "segment_meta": {
+    "start_seconds": 2270,
+    "end_seconds": 2330,
+    "length_seconds": 60,
+    "start_time_mmss": "37:50",
+    "end_time_mmss": "38:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20637,
+  "video_id": "a6dd2b16-3e4d-585a-84fa-7a9214bd4ee6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, continue tracking that team and notify me about any {Offside}.",
+  "answer": [
+    {
+      "start": 4138.0,
+      "end": 4138.0,
+      "text": "Trigger: Corner by left @ 2 - 23:58"
+    },
+    {
+      "start": 4142.0,
+      "end": 4142.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4138000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/segment_004030_004150.json",
+  "segment_meta": {
+    "start_seconds": 4030,
+    "end_seconds": 4150,
+    "length_seconds": 120,
+    "start_time_mmss": "67:10",
+    "end_time_mmss": "69:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

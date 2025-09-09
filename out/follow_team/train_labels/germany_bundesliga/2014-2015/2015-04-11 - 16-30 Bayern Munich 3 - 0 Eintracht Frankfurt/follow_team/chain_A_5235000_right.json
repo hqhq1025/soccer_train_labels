@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3119,
+  "video_id": "215a2eef-8cde-5bbd-9680-192b98e3ae18",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}.",
+  "answer": [
+    {
+      "start": 5235.0,
+      "end": 5235.0,
+      "text": "Trigger: Foul by right @ 2 - 42:15"
+    },
+    {
+      "start": 5243.0,
+      "end": 5243.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-04-11 - 16-30 Bayern Munich 3 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-11 - 16-30 Bayern Munich 3 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5235000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-11 - 16-30 Bayern Munich 3 - 0 Eintracht Frankfurt/segment_005210_005250.json",
+  "segment_meta": {
+    "start_seconds": 5210,
+    "end_seconds": 5250,
+    "length_seconds": 40,
+    "start_time_mmss": "86:50",
+    "end_time_mmss": "87:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

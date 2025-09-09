@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5803,
+  "video_id": "5e18bddf-b1ce-5be6-9dd3-d80edf24ad00",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Shots off target}.",
+  "answer": [
+    {
+      "start": 278.0,
+      "end": 278.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 04:38"
+    },
+    {
+      "start": 365.0,
+      "end": 365.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 278000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/segment_000250_000370.json",
+  "segment_meta": {
+    "start_seconds": 250,
+    "end_seconds": 370,
+    "length_seconds": 120,
+    "start_time_mmss": "04:10",
+    "end_time_mmss": "06:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

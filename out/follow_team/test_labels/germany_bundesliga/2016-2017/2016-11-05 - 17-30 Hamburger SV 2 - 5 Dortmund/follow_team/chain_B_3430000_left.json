@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1316,
+  "video_id": "1aa41a03-2ea7-5c2f-9958-77a1c308e70e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 3430.0,
+      "end": 3430.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 3434.0,
+      "end": 3434.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3430000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/segment_003420_003540.json",
+  "segment_meta": {
+    "start_seconds": 3420,
+    "end_seconds": 3540,
+    "length_seconds": 120,
+    "start_time_mmss": "57:00",
+    "end_time_mmss": "59:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

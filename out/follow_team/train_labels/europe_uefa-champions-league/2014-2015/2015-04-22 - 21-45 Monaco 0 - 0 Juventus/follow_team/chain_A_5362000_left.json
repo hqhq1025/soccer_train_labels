@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8291,
+  "video_id": "3b952047-f260-5c8d-a9e5-8a80520ebbec",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Substitution and Foul}.",
+  "answer": [
+    {
+      "start": 5362.0,
+      "end": 5362.0,
+      "text": "Trigger: Shots off target by left @ 2 - 44:22"
+    },
+    {
+      "start": 5398.0,
+      "end": 5398.0,
+      "text": "Then: Substitution by left"
+    },
+    {
+      "start": 5410.0,
+      "end": 5410.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5362000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/segment_005320_005440.json",
+  "segment_meta": {
+    "start_seconds": 5320,
+    "end_seconds": 5440,
+    "length_seconds": 120,
+    "start_time_mmss": "88:40",
+    "end_time_mmss": "90:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

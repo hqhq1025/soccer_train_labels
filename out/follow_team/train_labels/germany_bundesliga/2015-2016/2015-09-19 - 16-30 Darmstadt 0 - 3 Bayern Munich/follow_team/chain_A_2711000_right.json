@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1995,
+  "video_id": "50784227-7f3e-5d56-a5e6-45b13a84f4b2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Offside}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 2711.0,
+      "end": 2711.0,
+      "text": "Trigger: Offside by right @ 2 - 00:11"
+    },
+    {
+      "start": 2738.0,
+      "end": 2738.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2711000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/segment_002700_002740.json",
+  "segment_meta": {
+    "start_seconds": 2700,
+    "end_seconds": 2740,
+    "length_seconds": 40,
+    "start_time_mmss": "45:00",
+    "end_time_mmss": "45:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

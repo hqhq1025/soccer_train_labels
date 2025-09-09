@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8942,
+  "video_id": "f0525704-3d9a-5457-a560-6344c26281a8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2047.0,
+      "end": 2047.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2107.0,
+      "end": 2107.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2047000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/segment_002000_002120.json",
+  "segment_meta": {
+    "start_seconds": 2000,
+    "end_seconds": 2120,
+    "length_seconds": 120,
+    "start_time_mmss": "33:20",
+    "end_time_mmss": "35:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

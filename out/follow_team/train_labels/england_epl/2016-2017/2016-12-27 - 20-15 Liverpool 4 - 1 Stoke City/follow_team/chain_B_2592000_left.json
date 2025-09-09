@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24168,
+  "video_id": "80271f5d-c412-5ccb-a268-f7c8cdc99571",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Goal}.",
+  "answer": [
+    {
+      "start": 2592.0,
+      "end": 2592.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2594.0,
+      "end": 2594.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2592000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/segment_002540_002620.json",
+  "segment_meta": {
+    "start_seconds": 2540,
+    "end_seconds": 2620,
+    "length_seconds": 80,
+    "start_time_mmss": "42:20",
+    "end_time_mmss": "43:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

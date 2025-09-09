@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11281,
+  "video_id": "8dabcace-087f-5a06-aeba-79d0528b3048",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 327.0,
+      "end": 327.0,
+      "text": "Trigger: Throw-in by left @ 1 - 05:27"
+    },
+    {
+      "start": 367.0,
+      "end": 367.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 327000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/segment_000290_000370.json",
+  "segment_meta": {
+    "start_seconds": 290,
+    "end_seconds": 370,
+    "length_seconds": 80,
+    "start_time_mmss": "04:50",
+    "end_time_mmss": "06:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

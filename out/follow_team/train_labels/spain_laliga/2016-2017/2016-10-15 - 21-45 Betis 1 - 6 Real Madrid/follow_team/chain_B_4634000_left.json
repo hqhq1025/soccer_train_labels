@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12828,
+  "video_id": "86f06d22-eefd-5241-a2f7-c455e4db9396",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 4634.0,
+      "end": 4634.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4668.0,
+      "end": 4668.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4634000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/segment_004610_004670.json",
+  "segment_meta": {
+    "start_seconds": 4610,
+    "end_seconds": 4670,
+    "length_seconds": 60,
+    "start_time_mmss": "76:50",
+    "end_time_mmss": "77:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

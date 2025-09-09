@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21205,
+  "video_id": "c3c1a9a8-6c11-5bde-93df-5f2f93c48f8d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 939.0,
+      "end": 939.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 15:39"
+    },
+    {
+      "start": 972.0,
+      "end": 972.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 973.0,
+      "end": 973.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 939000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/segment_000920_000980.json",
+  "segment_meta": {
+    "start_seconds": 920,
+    "end_seconds": 980,
+    "length_seconds": 60,
+    "start_time_mmss": "15:20",
+    "end_time_mmss": "16:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

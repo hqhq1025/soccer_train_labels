@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 583,
+  "video_id": "266e4946-8638-5028-9bbe-b92694334691",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Substitution}, stick with that team and alert me for {Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 5501.0,
+      "end": 5501.0,
+      "text": "Trigger: Substitution by right"
+    },
+    {
+      "start": 5513.0,
+      "end": 5513.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 5529.0,
+      "end": 5529.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5501000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_005430_005550.json",
+  "segment_meta": {
+    "start_seconds": 5430,
+    "end_seconds": 5550,
+    "length_seconds": 120,
+    "start_time_mmss": "90:30",
+    "end_time_mmss": "92:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

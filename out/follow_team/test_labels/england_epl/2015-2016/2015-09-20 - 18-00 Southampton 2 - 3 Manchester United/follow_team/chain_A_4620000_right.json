@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7459,
+  "video_id": "4de760c1-aa16-586a-a1c4-2eb2228809ff",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 4620.0,
+      "end": 4620.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 4629.0,
+      "end": 4629.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 4635.0,
+      "end": 4635.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4620000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/segment_004540_004640.json",
+  "segment_meta": {
+    "start_seconds": 4540,
+    "end_seconds": 4640,
+    "length_seconds": 100,
+    "start_time_mmss": "75:40",
+    "end_time_mmss": "77:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

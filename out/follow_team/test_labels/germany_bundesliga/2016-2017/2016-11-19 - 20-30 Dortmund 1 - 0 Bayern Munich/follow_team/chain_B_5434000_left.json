@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 932,
+  "video_id": "1f6b6c5f-2e09-5043-abdf-1a8441ab07aa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 5434.0,
+      "end": 5434.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5437.0,
+      "end": 5437.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5434000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/segment_005400_005440.json",
+  "segment_meta": {
+    "start_seconds": 5400,
+    "end_seconds": 5440,
+    "length_seconds": 40,
+    "start_time_mmss": "90:00",
+    "end_time_mmss": "90:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

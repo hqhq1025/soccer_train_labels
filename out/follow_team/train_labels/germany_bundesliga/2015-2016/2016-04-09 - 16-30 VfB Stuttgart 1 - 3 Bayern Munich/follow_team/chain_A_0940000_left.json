@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2509,
+  "video_id": "ad705141-52d1-544c-8de1-ddc60faec951",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 940.0,
+      "end": 940.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 15:40"
+    },
+    {
+      "start": 967.0,
+      "end": 967.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 940000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/segment_000910_001030.json",
+  "segment_meta": {
+    "start_seconds": 910,
+    "end_seconds": 1030,
+    "length_seconds": 120,
+    "start_time_mmss": "15:10",
+    "end_time_mmss": "17:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

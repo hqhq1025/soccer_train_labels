@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1708,
+  "video_id": "6abc99a2-0e5e-596b-8d35-eb877b319db1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Direct free-kick}.",
+  "answer": [
+    {
+      "start": 4791.0,
+      "end": 4791.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4824.0,
+      "end": 4824.0,
+      "text": "Then: Direct free-kick by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4791000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/segment_004730_004830.json",
+  "segment_meta": {
+    "start_seconds": 4730,
+    "end_seconds": 4830,
+    "length_seconds": 100,
+    "start_time_mmss": "78:50",
+    "end_time_mmss": "80:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13161,
+  "video_id": "e7789830-ba1c-55d2-9194-107e151d13be",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Red card}.",
+  "answer": [
+    {
+      "start": 2596.0,
+      "end": 2596.0,
+      "text": "Trigger: Foul by right @ 1 - 43:16"
+    },
+    {
+      "start": 2601.0,
+      "end": 2601.0,
+      "text": "Then: Red card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2596000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/segment_002570_002670.json",
+  "segment_meta": {
+    "start_seconds": 2570,
+    "end_seconds": 2670,
+    "length_seconds": 100,
+    "start_time_mmss": "42:50",
+    "end_time_mmss": "44:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7011,
+  "video_id": "f1c2d378-2cbf-5f24-96fd-9d308ef076a3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 5030.0,
+      "end": 5030.0,
+      "text": "Trigger: Shots on target by right @ 2 - 38:50"
+    },
+    {
+      "start": 5061.0,
+      "end": 5061.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5030000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/segment_004980_005100.json",
+  "segment_meta": {
+    "start_seconds": 4980,
+    "end_seconds": 5100,
+    "length_seconds": 120,
+    "start_time_mmss": "83:00",
+    "end_time_mmss": "85:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

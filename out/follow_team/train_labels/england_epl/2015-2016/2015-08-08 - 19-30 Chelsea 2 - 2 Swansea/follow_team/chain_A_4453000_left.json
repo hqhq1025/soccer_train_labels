@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22745,
+  "video_id": "47db78f2-7139-5f7c-b774-1a2f637bf742",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Shots on target and Substitution}.",
+  "answer": [
+    {
+      "start": 4453.0,
+      "end": 4453.0,
+      "text": "Trigger: Shots on target by left @ 2 - 29:13"
+    },
+    {
+      "start": 4504.0,
+      "end": 4504.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 4526.0,
+      "end": 4526.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4453000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/segment_004430_004530.json",
+  "segment_meta": {
+    "start_seconds": 4430,
+    "end_seconds": 4530,
+    "length_seconds": 100,
+    "start_time_mmss": "73:50",
+    "end_time_mmss": "75:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

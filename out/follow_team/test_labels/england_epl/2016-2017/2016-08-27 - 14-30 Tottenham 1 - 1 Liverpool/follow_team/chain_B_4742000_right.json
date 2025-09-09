@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8464,
+  "video_id": "1e7b0b1c-bc7c-5843-8e7c-e0146bac80b9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 4742.0,
+      "end": 4742.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4770.0,
+      "end": 4770.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4742000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/segment_004710_004830.json",
+  "segment_meta": {
+    "start_seconds": 4710,
+    "end_seconds": 4830,
+    "length_seconds": 120,
+    "start_time_mmss": "78:30",
+    "end_time_mmss": "80:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

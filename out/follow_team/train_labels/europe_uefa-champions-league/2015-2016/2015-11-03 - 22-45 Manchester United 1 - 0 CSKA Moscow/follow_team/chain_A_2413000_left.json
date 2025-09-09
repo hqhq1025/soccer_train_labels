@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5649,
+  "video_id": "3c338af7-c35f-56dc-81e8-c5c089670587",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2413.0,
+      "end": 2413.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 40:13"
+    },
+    {
+      "start": 2446.0,
+      "end": 2446.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2413000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/segment_002370_002450.json",
+  "segment_meta": {
+    "start_seconds": 2370,
+    "end_seconds": 2450,
+    "length_seconds": 80,
+    "start_time_mmss": "39:30",
+    "end_time_mmss": "40:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

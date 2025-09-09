@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10563,
+  "video_id": "fbfb5594-aa75-5216-bc99-f84cc28857d6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Goal} occurs, keep following the same team and tell me whenever they perform {Direct free-kick and Shots off target}.",
+  "answer": [
+    {
+      "start": 2684.0,
+      "end": 2684.0,
+      "text": "Trigger: Goal by left @ 1 - 44:44"
+    },
+    {
+      "start": 2743.0,
+      "end": 2743.0,
+      "text": "Then: Direct free-kick by left"
+    },
+    {
+      "start": 2744.0,
+      "end": 2744.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2684000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/segment_002670_002790.json",
+  "segment_meta": {
+    "start_seconds": 2670,
+    "end_seconds": 2790,
+    "length_seconds": 120,
+    "start_time_mmss": "44:30",
+    "end_time_mmss": "46:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

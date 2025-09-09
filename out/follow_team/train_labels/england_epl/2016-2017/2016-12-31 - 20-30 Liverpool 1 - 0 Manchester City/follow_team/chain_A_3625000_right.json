@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24433,
+  "video_id": "1e9868ad-b707-53ce-895e-1c4360f6ea7f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 3625.0,
+      "end": 3625.0,
+      "text": "Trigger: Shots on target by right @ 2 - 15:25"
+    },
+    {
+      "start": 3658.0,
+      "end": 3658.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3625000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/segment_003600_003660.json",
+  "segment_meta": {
+    "start_seconds": 3600,
+    "end_seconds": 3660,
+    "length_seconds": 60,
+    "start_time_mmss": "60:00",
+    "end_time_mmss": "61:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

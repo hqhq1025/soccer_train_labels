@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21937,
+  "video_id": "926ef605-3509-5d08-8bfb-d4742634adf6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Offside and Shots on target}.",
+  "answer": [
+    {
+      "start": 808.0,
+      "end": 808.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 13:28"
+    },
+    {
+      "start": 820.0,
+      "end": 820.0,
+      "text": "Then: Offside by right"
+    },
+    {
+      "start": 849.0,
+      "end": 849.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 808000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/segment_000770_000850.json",
+  "segment_meta": {
+    "start_seconds": 770,
+    "end_seconds": 850,
+    "length_seconds": 80,
+    "start_time_mmss": "12:50",
+    "end_time_mmss": "14:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

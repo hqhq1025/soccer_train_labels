@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15897,
+  "video_id": "1b0b6f7f-5ea5-536a-84eb-906f04dc3c43",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots off target}.",
+  "answer": [
+    {
+      "start": 2181.0,
+      "end": 2181.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 36:21"
+    },
+    {
+      "start": 2242.0,
+      "end": 2242.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2181000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/segment_002160_002280.json",
+  "segment_meta": {
+    "start_seconds": 2160,
+    "end_seconds": 2280,
+    "length_seconds": 120,
+    "start_time_mmss": "36:00",
+    "end_time_mmss": "38:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

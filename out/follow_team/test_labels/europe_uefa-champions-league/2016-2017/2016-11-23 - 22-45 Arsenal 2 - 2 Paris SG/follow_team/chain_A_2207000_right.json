@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2897,
+  "video_id": "ec30a7ef-bc22-5b5b-999d-62246a9537eb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 2207.0,
+      "end": 2207.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2255.0,
+      "end": 2255.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2207000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/segment_002200_002300.json",
+  "segment_meta": {
+    "start_seconds": 2200,
+    "end_seconds": 2300,
+    "length_seconds": 100,
+    "start_time_mmss": "36:40",
+    "end_time_mmss": "38:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

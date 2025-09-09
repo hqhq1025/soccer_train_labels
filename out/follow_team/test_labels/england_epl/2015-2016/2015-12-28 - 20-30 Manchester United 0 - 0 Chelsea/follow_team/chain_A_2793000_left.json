@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8303,
+  "video_id": "e5fd71b5-9afb-52f2-b6ad-71ef9055a209",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 2793.0,
+      "end": 2793.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 2834.0,
+      "end": 2834.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2793000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/segment_002780_002840.json",
+  "segment_meta": {
+    "start_seconds": 2780,
+    "end_seconds": 2840,
+    "length_seconds": 60,
+    "start_time_mmss": "46:20",
+    "end_time_mmss": "47:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

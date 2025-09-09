@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23138,
+  "video_id": "809c1490-55b9-5148-be07-5def39bc076b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Yellow card}.",
+  "answer": [
+    {
+      "start": 2555.0,
+      "end": 2555.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2561.0,
+      "end": 2561.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2555000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/segment_002490_002570.json",
+  "segment_meta": {
+    "start_seconds": 2490,
+    "end_seconds": 2570,
+    "length_seconds": 80,
+    "start_time_mmss": "41:30",
+    "end_time_mmss": "42:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

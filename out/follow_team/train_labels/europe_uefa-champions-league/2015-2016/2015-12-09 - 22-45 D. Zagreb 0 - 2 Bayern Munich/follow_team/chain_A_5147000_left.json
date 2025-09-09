@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5775,
+  "video_id": "1754cb66-40e5-58ff-81f6-61d1d6be5c60",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Yellow card}, start tracking that team; notify me on its {Corner and Shots off target}.",
+  "answer": [
+    {
+      "start": 5147.0,
+      "end": 5147.0,
+      "text": "Trigger: Yellow card by left @ 2 - 40:47"
+    },
+    {
+      "start": 5252.0,
+      "end": 5252.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 5256.0,
+      "end": 5256.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5147000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/segment_005140_005260.json",
+  "segment_meta": {
+    "start_seconds": 5140,
+    "end_seconds": 5260,
+    "length_seconds": 120,
+    "start_time_mmss": "85:40",
+    "end_time_mmss": "87:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

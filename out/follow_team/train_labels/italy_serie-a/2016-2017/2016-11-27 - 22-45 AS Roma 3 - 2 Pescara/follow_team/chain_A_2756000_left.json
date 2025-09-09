@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18881,
+  "video_id": "5cd3cc68-1783-5779-9f37-deea9321bc21",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 2756.0,
+      "end": 2756.0,
+      "text": "Trigger: Foul by left @ 2 - 00:56"
+    },
+    {
+      "start": 2809.0,
+      "end": 2809.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2756000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/segment_002700_002820.json",
+  "segment_meta": {
+    "start_seconds": 2700,
+    "end_seconds": 2820,
+    "length_seconds": 120,
+    "start_time_mmss": "45:00",
+    "end_time_mmss": "47:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

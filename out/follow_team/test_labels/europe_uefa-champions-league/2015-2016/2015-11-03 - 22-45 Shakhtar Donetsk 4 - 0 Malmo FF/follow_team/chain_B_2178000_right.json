@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1610,
+  "video_id": "627aaa58-bf24-5f03-8e7f-eee012630180",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 2178.0,
+      "end": 2178.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2185.0,
+      "end": 2185.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2178000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF/segment_002090_002190.json",
+  "segment_meta": {
+    "start_seconds": 2090,
+    "end_seconds": 2190,
+    "length_seconds": 100,
+    "start_time_mmss": "34:50",
+    "end_time_mmss": "36:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

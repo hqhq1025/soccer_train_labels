@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10411,
+  "video_id": "182a7cd2-3941-573f-97bd-cdb995a174e1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Goal}.",
+  "answer": [
+    {
+      "start": 1417.0,
+      "end": 1417.0,
+      "text": "Trigger: Shots on target by right @ 1 - 23:37"
+    },
+    {
+      "start": 1418.0,
+      "end": 1418.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1417000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/segment_001320_001420.json",
+  "segment_meta": {
+    "start_seconds": 1320,
+    "end_seconds": 1420,
+    "length_seconds": 100,
+    "start_time_mmss": "22:00",
+    "end_time_mmss": "23:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

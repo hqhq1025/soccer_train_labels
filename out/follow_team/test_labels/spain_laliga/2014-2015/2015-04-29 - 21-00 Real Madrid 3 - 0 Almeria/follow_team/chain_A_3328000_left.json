@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3837,
+  "video_id": "252f4589-f069-571b-ae89-d22af9e8a880",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, keep following that team and alert me whenever {Corner and Shots off target} happen.",
+  "answer": [
+    {
+      "start": 3328.0,
+      "end": 3328.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 3353.0,
+      "end": 3353.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 3357.0,
+      "end": 3357.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3328000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/segment_003280_003380.json",
+  "segment_meta": {
+    "start_seconds": 3280,
+    "end_seconds": 3380,
+    "length_seconds": 100,
+    "start_time_mmss": "54:40",
+    "end_time_mmss": "56:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

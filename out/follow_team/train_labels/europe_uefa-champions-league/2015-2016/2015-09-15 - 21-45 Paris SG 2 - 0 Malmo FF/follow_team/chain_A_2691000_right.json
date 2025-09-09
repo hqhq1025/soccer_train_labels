@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6771,
+  "video_id": "a1bd049f-5fbe-5ca3-8d5f-50ce1cc24676",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Kick-off and Throw-in}.",
+  "answer": [
+    {
+      "start": 2691.0,
+      "end": 2691.0,
+      "text": "Trigger: Corner by right @ 1 - 44:51"
+    },
+    {
+      "start": 2721.0,
+      "end": 2721.0,
+      "text": "Then: Kick-off by right"
+    },
+    {
+      "start": 2761.0,
+      "end": 2761.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2691000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/segment_002660_002780.json",
+  "segment_meta": {
+    "start_seconds": 2660,
+    "end_seconds": 2780,
+    "length_seconds": 120,
+    "start_time_mmss": "44:20",
+    "end_time_mmss": "46:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

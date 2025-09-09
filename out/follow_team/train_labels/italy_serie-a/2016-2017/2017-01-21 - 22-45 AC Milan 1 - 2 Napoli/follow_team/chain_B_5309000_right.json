@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19938,
+  "video_id": "df059f32-7311-50f6-9fd6-088fd6eb8f05",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 5309.0,
+      "end": 5309.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 5357.0,
+      "end": 5357.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5309000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/segment_005290_005400.json",
+  "segment_meta": {
+    "start_seconds": 5290,
+    "end_seconds": 5400,
+    "length_seconds": 110,
+    "start_time_mmss": "88:10",
+    "end_time_mmss": "90:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

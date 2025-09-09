@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12298,
+  "video_id": "5f85cf6d-f08c-58e8-a8ed-6b66758d6bee",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 557.0,
+      "end": 557.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 557000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/segment_000500_000620.json",
+  "segment_meta": {
+    "start_seconds": 500,
+    "end_seconds": 620,
+    "length_seconds": 120,
+    "start_time_mmss": "08:20",
+    "end_time_mmss": "10:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

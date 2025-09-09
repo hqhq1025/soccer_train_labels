@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18940,
+  "video_id": "65540df7-cd42-567a-a0a0-4d5192cbd41c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 705.0,
+      "end": 705.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 736.0,
+      "end": 736.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 705000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_000700_000740.json",
+  "segment_meta": {
+    "start_seconds": 700,
+    "end_seconds": 740,
+    "length_seconds": 40,
+    "start_time_mmss": "11:40",
+    "end_time_mmss": "12:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

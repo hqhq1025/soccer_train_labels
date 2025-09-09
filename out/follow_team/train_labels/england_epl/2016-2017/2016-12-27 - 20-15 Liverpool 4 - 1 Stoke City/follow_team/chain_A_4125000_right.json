@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24093,
+  "video_id": "e76f42b4-43a2-5283-80a9-4bafe36b3122",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, follow that same team and alert me whenever it has {Substitution}.",
+  "answer": [
+    {
+      "start": 4125.0,
+      "end": 4125.0,
+      "text": "Trigger: Substitution by right @ 2 - 23:45"
+    },
+    {
+      "start": 4142.0,
+      "end": 4142.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4125000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/segment_004110_004150.json",
+  "segment_meta": {
+    "start_seconds": 4110,
+    "end_seconds": 4150,
+    "length_seconds": 40,
+    "start_time_mmss": "68:30",
+    "end_time_mmss": "69:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

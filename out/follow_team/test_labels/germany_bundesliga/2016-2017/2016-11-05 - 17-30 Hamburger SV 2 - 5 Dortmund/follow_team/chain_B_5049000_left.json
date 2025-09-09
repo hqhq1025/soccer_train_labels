@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1350,
+  "video_id": "0e9c1e3e-6c11-55c9-8074-089541d66c3b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 5049.0,
+      "end": 5049.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 5068.0,
+      "end": 5068.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5049000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/segment_005010_005130.json",
+  "segment_meta": {
+    "start_seconds": 5010,
+    "end_seconds": 5130,
+    "length_seconds": 120,
+    "start_time_mmss": "83:30",
+    "end_time_mmss": "85:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 947,
+  "video_id": "1d8ed308-287c-5952-87c2-823b693dcd7a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 4464.0,
+      "end": 4464.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 4468.0,
+      "end": 4468.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4464000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/segment_004390_004470.json",
+  "segment_meta": {
+    "start_seconds": 4390,
+    "end_seconds": 4470,
+    "length_seconds": 80,
+    "start_time_mmss": "73:10",
+    "end_time_mmss": "74:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1101,
+  "video_id": "1a2823d2-b5c1-502b-a934-a11d7c485174",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 3010.0,
+      "end": 3010.0,
+      "text": "Trigger: Offside by left @ 2 - 05:10"
+    },
+    {
+      "start": 3072.0,
+      "end": 3072.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3010000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/segment_002970_003090.json",
+  "segment_meta": {
+    "start_seconds": 2970,
+    "end_seconds": 3090,
+    "length_seconds": 120,
+    "start_time_mmss": "49:30",
+    "end_time_mmss": "51:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

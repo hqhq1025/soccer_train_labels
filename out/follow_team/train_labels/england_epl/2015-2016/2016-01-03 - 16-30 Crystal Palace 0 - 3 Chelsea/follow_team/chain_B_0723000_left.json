@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22078,
+  "video_id": "583692ba-be90-530a-93e3-e53984f0045b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 723.0,
+      "end": 723.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 730.0,
+      "end": 730.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 723000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/segment_000700_000760.json",
+  "segment_meta": {
+    "start_seconds": 700,
+    "end_seconds": 760,
+    "length_seconds": 60,
+    "start_time_mmss": "11:40",
+    "end_time_mmss": "12:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

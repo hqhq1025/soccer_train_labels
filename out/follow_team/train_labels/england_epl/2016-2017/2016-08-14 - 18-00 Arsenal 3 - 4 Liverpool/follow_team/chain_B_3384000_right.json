@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25358,
+  "video_id": "d5014bb8-c164-5024-af7a-78503f08d85e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 3384.0,
+      "end": 3384.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 3389.0,
+      "end": 3389.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3384000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_003330_003390.json",
+  "segment_meta": {
+    "start_seconds": 3330,
+    "end_seconds": 3390,
+    "length_seconds": 60,
+    "start_time_mmss": "55:30",
+    "end_time_mmss": "56:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

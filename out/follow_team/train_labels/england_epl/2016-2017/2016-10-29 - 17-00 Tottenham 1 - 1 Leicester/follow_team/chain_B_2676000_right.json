@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23614,
+  "video_id": "b756bf74-28a1-595e-a0cf-171700ee23b2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 2676.0,
+      "end": 2676.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2678.0,
+      "end": 2678.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2676000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/segment_002600_002700.json",
+  "segment_meta": {
+    "start_seconds": 2600,
+    "end_seconds": 2700,
+    "length_seconds": 100,
+    "start_time_mmss": "43:20",
+    "end_time_mmss": "45:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

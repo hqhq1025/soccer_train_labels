@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5986,
+  "video_id": "2e369c1c-82e1-563b-bc38-8ac3235fb3fa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 1302.0,
+      "end": 1302.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 1306.0,
+      "end": 1306.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1302000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/segment_001230_001350.json",
+  "segment_meta": {
+    "start_seconds": 1230,
+    "end_seconds": 1350,
+    "length_seconds": 120,
+    "start_time_mmss": "20:30",
+    "end_time_mmss": "22:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

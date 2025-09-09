@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2247,
+  "video_id": "6f9b2952-aeb5-586c-856c-c92771e0e72b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "answer": [
+    {
+      "start": 4655.0,
+      "end": 4655.0,
+      "text": "Trigger: Shots on target by left @ 2 - 32:35"
+    },
+    {
+      "start": 4656.0,
+      "end": 4656.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4655000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_004560_004660.json",
+  "segment_meta": {
+    "start_seconds": 4560,
+    "end_seconds": 4660,
+    "length_seconds": 100,
+    "start_time_mmss": "76:00",
+    "end_time_mmss": "77:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

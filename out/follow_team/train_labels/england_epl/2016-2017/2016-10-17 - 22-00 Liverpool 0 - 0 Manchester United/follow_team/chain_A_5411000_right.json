@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23347,
+  "video_id": "afa0a50e-e9a0-5c2c-9ec5-04d28fca0771",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Throw-in, Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 5411.0,
+      "end": 5411.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 45:11"
+    },
+    {
+      "start": 5439.0,
+      "end": 5439.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 5448.0,
+      "end": 5448.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 5456.0,
+      "end": 5456.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5411000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_005400_005500.json",
+  "segment_meta": {
+    "start_seconds": 5400,
+    "end_seconds": 5500,
+    "length_seconds": 100,
+    "start_time_mmss": "90:00",
+    "end_time_mmss": "91:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

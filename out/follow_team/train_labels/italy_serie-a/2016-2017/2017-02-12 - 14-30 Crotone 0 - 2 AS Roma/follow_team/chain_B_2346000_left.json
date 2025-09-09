@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18218,
+  "video_id": "1fc679dd-3de6-5aa9-8182-3df5fda0d8f7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 2346.0,
+      "end": 2346.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2347.0,
+      "end": 2347.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2346000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/segment_002310_002350.json",
+  "segment_meta": {
+    "start_seconds": 2310,
+    "end_seconds": 2350,
+    "length_seconds": 40,
+    "start_time_mmss": "38:30",
+    "end_time_mmss": "39:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

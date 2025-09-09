@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 319,
+  "video_id": "61755e4c-9e94-5550-9581-a838e1ef0be2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Corner and Offside}.",
+  "answer": [
+    {
+      "start": 2734.0,
+      "end": 2734.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2780.0,
+      "end": 2780.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 2792.0,
+      "end": 2792.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2734000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/segment_002700_002800.json",
+  "segment_meta": {
+    "start_seconds": 2700,
+    "end_seconds": 2800,
+    "length_seconds": 100,
+    "start_time_mmss": "45:00",
+    "end_time_mmss": "46:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

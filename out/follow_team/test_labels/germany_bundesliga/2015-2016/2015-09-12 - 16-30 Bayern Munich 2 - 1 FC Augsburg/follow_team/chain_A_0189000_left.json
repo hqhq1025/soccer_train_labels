@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 175,
+  "video_id": "6c089d58-10e1-5e42-aae9-bf2415d61f0e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 189.0,
+      "end": 189.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 209.0,
+      "end": 209.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 189000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/segment_000120_000240.json",
+  "segment_meta": {
+    "start_seconds": 120,
+    "end_seconds": 240,
+    "length_seconds": 120,
+    "start_time_mmss": "02:00",
+    "end_time_mmss": "04:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

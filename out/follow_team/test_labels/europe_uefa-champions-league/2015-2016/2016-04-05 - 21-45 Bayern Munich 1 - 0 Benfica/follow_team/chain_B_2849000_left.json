@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1828,
+  "video_id": "5cb8d2f9-db47-507e-84ca-d9c875dba551",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Offside}.",
+  "answer": [
+    {
+      "start": 2849.0,
+      "end": 2849.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 2858.0,
+      "end": 2858.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2849000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/segment_002780_002860.json",
+  "segment_meta": {
+    "start_seconds": 2780,
+    "end_seconds": 2860,
+    "length_seconds": 80,
+    "start_time_mmss": "46:20",
+    "end_time_mmss": "47:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

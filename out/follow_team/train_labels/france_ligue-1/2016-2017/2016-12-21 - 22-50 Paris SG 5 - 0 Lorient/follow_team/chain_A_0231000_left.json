@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1557,
+  "video_id": "a9716928-d4cf-57c9-bb74-71290f1be268",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 231.0,
+      "end": 231.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 03:51"
+    },
+    {
+      "start": 271.0,
+      "end": 271.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 231000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/segment_000200_000280.json",
+  "segment_meta": {
+    "start_seconds": 200,
+    "end_seconds": 280,
+    "length_seconds": 80,
+    "start_time_mmss": "03:20",
+    "end_time_mmss": "04:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14464,
+  "video_id": "32cd0886-ce3c-5225-a555-5732f88fe6be",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Substitution}.",
+  "answer": [
+    {
+      "start": 4795.0,
+      "end": 4795.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4815.0,
+      "end": 4815.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4795000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/segment_004770_004830.json",
+  "segment_meta": {
+    "start_seconds": 4770,
+    "end_seconds": 4830,
+    "length_seconds": 60,
+    "start_time_mmss": "79:30",
+    "end_time_mmss": "80:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

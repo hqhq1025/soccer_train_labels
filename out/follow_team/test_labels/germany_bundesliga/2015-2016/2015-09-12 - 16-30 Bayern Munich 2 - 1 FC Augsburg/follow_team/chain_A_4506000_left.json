@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 193,
+  "video_id": "d28f488a-622c-59dd-a363-73b8a503f40b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 4506.0,
+      "end": 4506.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4519.0,
+      "end": 4519.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4506000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/segment_004460_004520.json",
+  "segment_meta": {
+    "start_seconds": 4460,
+    "end_seconds": 4520,
+    "length_seconds": 60,
+    "start_time_mmss": "74:20",
+    "end_time_mmss": "75:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2385,
+  "video_id": "f3474090-c5a6-54a4-86b5-809027244a24",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 3335.0,
+      "end": 3335.0,
+      "text": "Trigger: Foul by left @ 2 - 10:35"
+    },
+    {
+      "start": 3345.0,
+      "end": 3345.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3335000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/segment_003310_003350.json",
+  "segment_meta": {
+    "start_seconds": 3310,
+    "end_seconds": 3350,
+    "length_seconds": 40,
+    "start_time_mmss": "55:10",
+    "end_time_mmss": "55:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8326,
+  "video_id": "1e65c164-0641-5f2f-a3fa-8ea7b56ddd8a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 5282.0,
+      "end": 5282.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 5312.0,
+      "end": 5312.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5282000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/segment_005240_005320.json",
+  "segment_meta": {
+    "start_seconds": 5240,
+    "end_seconds": 5320,
+    "length_seconds": 80,
+    "start_time_mmss": "87:20",
+    "end_time_mmss": "88:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

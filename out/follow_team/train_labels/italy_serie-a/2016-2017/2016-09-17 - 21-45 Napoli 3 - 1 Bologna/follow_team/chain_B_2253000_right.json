@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19610,
+  "video_id": "c441c3a8-0076-5440-87c6-f598aab9d70b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Offside}.",
+  "answer": [
+    {
+      "start": 2253.0,
+      "end": 2253.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2261.0,
+      "end": 2261.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2253000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/segment_002210_002270.json",
+  "segment_meta": {
+    "start_seconds": 2210,
+    "end_seconds": 2270,
+    "length_seconds": 60,
+    "start_time_mmss": "36:50",
+    "end_time_mmss": "37:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

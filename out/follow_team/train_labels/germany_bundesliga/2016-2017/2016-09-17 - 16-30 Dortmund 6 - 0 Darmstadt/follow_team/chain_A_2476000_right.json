@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4449,
+  "video_id": "fcf03f19-6725-5f0c-bc1c-98c643754656",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2476.0,
+      "end": 2476.0,
+      "text": "Trigger: Shots on target by right @ 1 - 41:16"
+    },
+    {
+      "start": 2527.0,
+      "end": 2527.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2476000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/segment_002450_002570.json",
+  "segment_meta": {
+    "start_seconds": 2450,
+    "end_seconds": 2570,
+    "length_seconds": 120,
+    "start_time_mmss": "40:50",
+    "end_time_mmss": "42:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15637,
+  "video_id": "e4da4195-e3c3-59e5-8173-32681e7cdc5a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Goal and Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 3024.0,
+      "end": 3024.0,
+      "text": "Trigger: Throw-in by left @ 2 - 05:24"
+    },
+    {
+      "start": 3041.0,
+      "end": 3041.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 3041.0,
+      "end": 3041.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3024000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/segment_002930_003050.json",
+  "segment_meta": {
+    "start_seconds": 2930,
+    "end_seconds": 3050,
+    "length_seconds": 120,
+    "start_time_mmss": "48:50",
+    "end_time_mmss": "50:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

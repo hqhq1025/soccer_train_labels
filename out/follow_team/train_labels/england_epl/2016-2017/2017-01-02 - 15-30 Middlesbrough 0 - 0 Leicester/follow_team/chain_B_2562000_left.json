@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25472,
+  "video_id": "939fb69f-276e-590d-93fd-7ffe40a4ef80",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 2562.0,
+      "end": 2562.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2569.0,
+      "end": 2569.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2562000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/segment_002490_002570.json",
+  "segment_meta": {
+    "start_seconds": 2490,
+    "end_seconds": 2570,
+    "length_seconds": 80,
+    "start_time_mmss": "41:30",
+    "end_time_mmss": "42:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

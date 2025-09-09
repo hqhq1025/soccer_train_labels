@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17851,
+  "video_id": "a94284f0-a8e1-54f5-9e01-c474eb0bfaf1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 2149.0,
+      "end": 2149.0,
+      "text": "Trigger: Foul by right @ 1 - 35:49"
+    },
+    {
+      "start": 2160.0,
+      "end": 2160.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2149000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_002070_002170.json",
+  "segment_meta": {
+    "start_seconds": 2070,
+    "end_seconds": 2170,
+    "length_seconds": 100,
+    "start_time_mmss": "34:30",
+    "end_time_mmss": "36:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

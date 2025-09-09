@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5992,
+  "video_id": "1ad19d3a-8e70-506e-9647-e1618e92d810",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 1724.0,
+      "end": 1724.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 1729.0,
+      "end": 1729.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1724000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/segment_001690_001730.json",
+  "segment_meta": {
+    "start_seconds": 1690,
+    "end_seconds": 1730,
+    "length_seconds": 40,
+    "start_time_mmss": "28:10",
+    "end_time_mmss": "28:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

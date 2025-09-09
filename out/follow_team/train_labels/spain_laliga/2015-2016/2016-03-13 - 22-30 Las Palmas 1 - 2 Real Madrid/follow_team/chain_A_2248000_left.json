@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10399,
+  "video_id": "1ce57ad4-ebb2-5b8a-85d7-ffdc85649dbc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 2248.0,
+      "end": 2248.0,
+      "text": "Trigger: Foul by left @ 1 - 37:28"
+    },
+    {
+      "start": 2253.0,
+      "end": 2253.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2248000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/segment_002240_002340.json",
+  "segment_meta": {
+    "start_seconds": 2240,
+    "end_seconds": 2340,
+    "length_seconds": 100,
+    "start_time_mmss": "37:20",
+    "end_time_mmss": "39:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

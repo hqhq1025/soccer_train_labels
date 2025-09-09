@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 434,
+  "video_id": "a4ff98f3-f550-5037-9a62-ca2b995d3dc2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 2041.0,
+      "end": 2041.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2086.0,
+      "end": 2086.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2041000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_002000_002120.json",
+  "segment_meta": {
+    "start_seconds": 2000,
+    "end_seconds": 2120,
+    "length_seconds": 120,
+    "start_time_mmss": "33:20",
+    "end_time_mmss": "35:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3621,
+  "video_id": "5494d827-248f-5d19-8f00-4c8105fddf8a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 3028.0,
+      "end": 3028.0,
+      "text": "Trigger: Foul by left @ 2 - 05:28"
+    },
+    {
+      "start": 3068.0,
+      "end": 3068.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3028000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_002990_003070.json",
+  "segment_meta": {
+    "start_seconds": 2990,
+    "end_seconds": 3070,
+    "length_seconds": 80,
+    "start_time_mmss": "49:50",
+    "end_time_mmss": "51:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

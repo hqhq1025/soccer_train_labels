@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5585,
+  "video_id": "a7aa97c8-7537-5012-8e4b-2d3edb5e31d7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Corner and Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 488.0,
+      "end": 488.0,
+      "text": "Trigger: Direct free-kick by right @ 1 - 08:08"
+    },
+    {
+      "start": 511.0,
+      "end": 511.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 513.0,
+      "end": 513.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 488000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/segment_000430_000530.json",
+  "segment_meta": {
+    "start_seconds": 430,
+    "end_seconds": 530,
+    "length_seconds": 100,
+    "start_time_mmss": "07:10",
+    "end_time_mmss": "08:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

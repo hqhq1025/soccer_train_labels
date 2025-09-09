@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15276,
+  "video_id": "ff2abd98-b588-5b78-851b-17fa75a70ed1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 1366.0,
+      "end": 1366.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 1388.0,
+      "end": 1388.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-18 - 18-15 Ath Bilbao 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-18 - 18-15 Ath Bilbao 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1366000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-18 - 18-15 Ath Bilbao 1 - 2 Real Madrid/segment_001310_001390.json",
+  "segment_meta": {
+    "start_seconds": 1310,
+    "end_seconds": 1390,
+    "length_seconds": 80,
+    "start_time_mmss": "21:50",
+    "end_time_mmss": "23:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

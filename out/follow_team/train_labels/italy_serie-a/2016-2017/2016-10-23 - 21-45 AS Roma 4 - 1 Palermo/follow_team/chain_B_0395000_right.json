@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17890,
+  "video_id": "241d1516-26ef-5a7c-b818-27e0e57bc77d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
+  "answer": [
+    {
+      "start": 395.0,
+      "end": 395.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 476.0,
+      "end": 476.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 395000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_000380_000500.json",
+  "segment_meta": {
+    "start_seconds": 380,
+    "end_seconds": 500,
+    "length_seconds": 120,
+    "start_time_mmss": "06:20",
+    "end_time_mmss": "08:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

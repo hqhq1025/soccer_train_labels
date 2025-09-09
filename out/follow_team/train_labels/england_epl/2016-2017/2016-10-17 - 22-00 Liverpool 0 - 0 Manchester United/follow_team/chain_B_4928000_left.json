@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23342,
+  "video_id": "cd406c10-143b-54c4-b0b6-4ccb2b50ac49",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 4928.0,
+      "end": 4928.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4948.0,
+      "end": 4948.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4928000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_004850_004970.json",
+  "segment_meta": {
+    "start_seconds": 4850,
+    "end_seconds": 4970,
+    "length_seconds": 120,
+    "start_time_mmss": "80:50",
+    "end_time_mmss": "82:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6522,
+  "video_id": "c316b874-9c99-5801-b92b-a30744cac630",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 3392.0,
+      "end": 3392.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3393.0,
+      "end": 3393.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3392000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/segment_003290_003410.json",
+  "segment_meta": {
+    "start_seconds": 3290,
+    "end_seconds": 3410,
+    "length_seconds": 120,
+    "start_time_mmss": "54:50",
+    "end_time_mmss": "56:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

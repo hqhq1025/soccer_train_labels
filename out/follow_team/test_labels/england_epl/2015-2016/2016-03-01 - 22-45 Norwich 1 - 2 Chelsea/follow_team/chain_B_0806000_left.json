@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7392,
+  "video_id": "8d3d7e66-7d83-5222-8e85-365836b65035",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 806.0,
+      "end": 806.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 832.0,
+      "end": 832.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 806000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/segment_000750_000870.json",
+  "segment_meta": {
+    "start_seconds": 750,
+    "end_seconds": 870,
+    "length_seconds": 120,
+    "start_time_mmss": "12:30",
+    "end_time_mmss": "14:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9223,
+  "video_id": "48593857-fba0-5c97-b284-247c540928b2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 3660.0,
+      "end": 3660.0,
+      "text": "Trigger: Foul by right @ 2 - 16:00"
+    },
+    {
+      "start": 3730.0,
+      "end": 3730.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3660000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/segment_003640_003760.json",
+  "segment_meta": {
+    "start_seconds": 3640,
+    "end_seconds": 3760,
+    "length_seconds": 120,
+    "start_time_mmss": "60:40",
+    "end_time_mmss": "62:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

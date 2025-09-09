@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7273,
+  "video_id": "3cf5536c-ee28-5855-9c1a-743838991a2f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 1906.0,
+      "end": 1906.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 1909.0,
+      "end": 1909.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1906000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/segment_001820_001920.json",
+  "segment_meta": {
+    "start_seconds": 1820,
+    "end_seconds": 1920,
+    "length_seconds": 100,
+    "start_time_mmss": "30:20",
+    "end_time_mmss": "32:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

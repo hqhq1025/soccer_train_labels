@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12833,
+  "video_id": "87e518fb-2761-5510-910d-b04b953d8fdb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Goal}.",
+  "answer": [
+    {
+      "start": 3702.0,
+      "end": 3702.0,
+      "text": "Trigger: Shots on target by left @ 2 - 16:42"
+    },
+    {
+      "start": 3703.0,
+      "end": 3703.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3702000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/segment_003670_003710.json",
+  "segment_meta": {
+    "start_seconds": 3670,
+    "end_seconds": 3710,
+    "length_seconds": 40,
+    "start_time_mmss": "61:10",
+    "end_time_mmss": "61:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

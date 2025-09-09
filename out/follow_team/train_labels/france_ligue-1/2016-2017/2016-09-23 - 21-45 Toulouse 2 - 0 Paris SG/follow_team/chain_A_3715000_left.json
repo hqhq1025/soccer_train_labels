@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1657,
+  "video_id": "d04b6683-1d5f-59c0-995a-46595e5b5285",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Corner} happen.",
+  "answer": [
+    {
+      "start": 3715.0,
+      "end": 3715.0,
+      "text": "Trigger: Shots off target by left @ 2 - 16:55"
+    },
+    {
+      "start": 3728.0,
+      "end": 3728.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3715000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/segment_003630_003730.json",
+  "segment_meta": {
+    "start_seconds": 3630,
+    "end_seconds": 3730,
+    "length_seconds": 100,
+    "start_time_mmss": "60:30",
+    "end_time_mmss": "62:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11024,
+  "video_id": "2fbf40e9-f3eb-5f49-b19b-5604c5bab15a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 4892.0,
+      "end": 4892.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4893.0,
+      "end": 4893.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-29 - 18-00 Eibar 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-29 - 18-00 Eibar 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4892000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-29 - 18-00 Eibar 0 - 2 Real Madrid/segment_004850_004910.json",
+  "segment_meta": {
+    "start_seconds": 4850,
+    "end_seconds": 4910,
+    "length_seconds": 60,
+    "start_time_mmss": "80:50",
+    "end_time_mmss": "81:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

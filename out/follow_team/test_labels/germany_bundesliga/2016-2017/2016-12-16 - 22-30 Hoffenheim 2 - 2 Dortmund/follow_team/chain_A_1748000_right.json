@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 561,
+  "video_id": "93a07e8c-831b-5f35-91c7-e00343b386e3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card and Foul} happen.",
+  "answer": [
+    {
+      "start": 1748.0,
+      "end": 1748.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 1755.0,
+      "end": 1755.0,
+      "text": "Then: Yellow card by right"
+    },
+    {
+      "start": 1829.0,
+      "end": 1829.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1748000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_001740_001860.json",
+  "segment_meta": {
+    "start_seconds": 1740,
+    "end_seconds": 1860,
+    "length_seconds": 120,
+    "start_time_mmss": "29:00",
+    "end_time_mmss": "31:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

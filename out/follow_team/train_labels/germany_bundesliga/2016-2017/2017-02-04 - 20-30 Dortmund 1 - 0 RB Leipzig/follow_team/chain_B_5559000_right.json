@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4576,
+  "video_id": "15db5063-0eb4-51c1-864b-d92072755345",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 5559.0,
+      "end": 5559.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 5570.0,
+      "end": 5570.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5559000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/segment_005500_005580.json",
+  "segment_meta": {
+    "start_seconds": 5500,
+    "end_seconds": 5580,
+    "length_seconds": 80,
+    "start_time_mmss": "91:40",
+    "end_time_mmss": "93:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

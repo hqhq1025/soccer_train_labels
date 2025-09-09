@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21177,
+  "video_id": "ae035c49-9e17-5e39-b773-95109911a23e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Direct free-kick, Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 2051.0,
+      "end": 2051.0,
+      "text": "Trigger: Shots on target by right @ 1 - 34:11"
+    },
+    {
+      "start": 2096.0,
+      "end": 2096.0,
+      "text": "Then: Direct free-kick by right"
+    },
+    {
+      "start": 2100.0,
+      "end": 2100.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 2109.0,
+      "end": 2109.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2051000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/segment_001990_002110.json",
+  "segment_meta": {
+    "start_seconds": 1990,
+    "end_seconds": 2110,
+    "length_seconds": 120,
+    "start_time_mmss": "33:10",
+    "end_time_mmss": "35:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8224,
+  "video_id": "35cf3ef6-71b7-5ad1-b622-a6c59abceb3a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 3858.0,
+      "end": 3858.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3877.0,
+      "end": 3877.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3858000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/segment_003760_003880.json",
+  "segment_meta": {
+    "start_seconds": 3760,
+    "end_seconds": 3880,
+    "length_seconds": 120,
+    "start_time_mmss": "62:40",
+    "end_time_mmss": "64:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

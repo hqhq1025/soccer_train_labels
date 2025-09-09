@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6347,
+  "video_id": "bded880a-6314-5ecf-a8cb-22fcce820100",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 200.0,
+      "end": 200.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 03:20"
+    },
+    {
+      "start": 201.0,
+      "end": 201.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 200000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/segment_000130_000210.json",
+  "segment_meta": {
+    "start_seconds": 130,
+    "end_seconds": 210,
+    "length_seconds": 80,
+    "start_time_mmss": "02:10",
+    "end_time_mmss": "03:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

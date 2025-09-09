@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17016,
+  "video_id": "d69025c5-bbaa-5304-9cfa-d313dc84b759",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}.",
+  "answer": [
+    {
+      "start": 2940.0,
+      "end": 2940.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2949.0,
+      "end": 2949.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2940000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/segment_002890_002950.json",
+  "segment_meta": {
+    "start_seconds": 2890,
+    "end_seconds": 2950,
+    "length_seconds": 60,
+    "start_time_mmss": "48:10",
+    "end_time_mmss": "49:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

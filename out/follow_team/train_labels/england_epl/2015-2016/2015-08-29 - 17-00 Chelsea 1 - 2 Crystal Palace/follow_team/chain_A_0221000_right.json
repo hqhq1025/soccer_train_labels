@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22559,
+  "video_id": "1d80fc31-161c-5659-8183-1006df87b0ff",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 221.0,
+      "end": 221.0,
+      "text": "Trigger: Shots on target by right @ 1 - 03:41"
+    },
+    {
+      "start": 225.0,
+      "end": 225.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 221000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_000170_000290.json",
+  "segment_meta": {
+    "start_seconds": 170,
+    "end_seconds": 290,
+    "length_seconds": 120,
+    "start_time_mmss": "02:50",
+    "end_time_mmss": "04:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

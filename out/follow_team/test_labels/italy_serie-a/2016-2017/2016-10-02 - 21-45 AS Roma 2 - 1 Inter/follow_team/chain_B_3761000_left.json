@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7230,
+  "video_id": "41763099-38cb-52fd-9b9b-0b16107a6893",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3761.0,
+      "end": 3761.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 3786.0,
+      "end": 3786.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3761000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/segment_003700_003820.json",
+  "segment_meta": {
+    "start_seconds": 3700,
+    "end_seconds": 3820,
+    "length_seconds": 120,
+    "start_time_mmss": "61:40",
+    "end_time_mmss": "63:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6566,
+  "video_id": "aaae1bfc-fa0a-5ead-8090-fed7be598acc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 123.0,
+      "end": 123.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 149.0,
+      "end": 149.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Atl. Madrid 2 - 0 Galatasaray/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Atl. Madrid 2 - 0 Galatasaray/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 123000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Atl. Madrid 2 - 0 Galatasaray/segment_000070_000150.json",
+  "segment_meta": {
+    "start_seconds": 70,
+    "end_seconds": 150,
+    "length_seconds": 80,
+    "start_time_mmss": "01:10",
+    "end_time_mmss": "02:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

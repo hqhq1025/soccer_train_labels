@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6120,
+  "video_id": "2e140a2f-98fc-5a94-a488-2aaf4ce6aeda",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2831.0,
+      "end": 2831.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2874.0,
+      "end": 2874.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2831000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 20-00 CSKA Moscow 0 - 2 Wolfsburg/segment_002770_002890.json",
+  "segment_meta": {
+    "start_seconds": 2770,
+    "end_seconds": 2890,
+    "length_seconds": 120,
+    "start_time_mmss": "46:10",
+    "end_time_mmss": "48:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

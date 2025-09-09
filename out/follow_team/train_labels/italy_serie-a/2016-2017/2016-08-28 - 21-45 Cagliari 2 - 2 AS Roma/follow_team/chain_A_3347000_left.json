@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20557,
+  "video_id": "4c65e959-fe0b-5193-bc94-c9ce64e47da4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 3347.0,
+      "end": 3347.0,
+      "text": "Trigger: Shots on target by left @ 2 - 10:47"
+    },
+    {
+      "start": 3349.0,
+      "end": 3349.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 3349.0,
+      "end": 3349.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3347000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/segment_003270_003350.json",
+  "segment_meta": {
+    "start_seconds": 3270,
+    "end_seconds": 3350,
+    "length_seconds": 80,
+    "start_time_mmss": "54:30",
+    "end_time_mmss": "55:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

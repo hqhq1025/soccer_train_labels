@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16551,
+  "video_id": "17d5feaa-5a27-510e-b7fa-afd668605d65",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Substitution} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 5151.0,
+      "end": 5151.0,
+      "text": "Trigger: Substitution by right @ 2 - 40:51"
+    },
+    {
+      "start": 5179.0,
+      "end": 5179.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5151000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_005140_005180.json",
+  "segment_meta": {
+    "start_seconds": 5140,
+    "end_seconds": 5180,
+    "length_seconds": 40,
+    "start_time_mmss": "85:40",
+    "end_time_mmss": "86:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

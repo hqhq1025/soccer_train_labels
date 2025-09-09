@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8956,
+  "video_id": "9e03f5b5-595b-5859-81d4-4c11bd4815ef",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 2193.0,
+      "end": 2193.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2216.0,
+      "end": 2216.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2193000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/segment_002160_002260.json",
+  "segment_meta": {
+    "start_seconds": 2160,
+    "end_seconds": 2260,
+    "length_seconds": 100,
+    "start_time_mmss": "36:00",
+    "end_time_mmss": "37:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

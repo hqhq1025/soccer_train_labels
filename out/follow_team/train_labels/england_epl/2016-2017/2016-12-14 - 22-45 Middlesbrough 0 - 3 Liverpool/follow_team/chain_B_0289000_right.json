@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25042,
+  "video_id": "bbab8538-67c8-529a-925d-727fa3030782",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Clearance}.",
+  "answer": [
+    {
+      "start": 289.0,
+      "end": 289.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 340.0,
+      "end": 340.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 289000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/segment_000270_000390.json",
+  "segment_meta": {
+    "start_seconds": 270,
+    "end_seconds": 390,
+    "length_seconds": 120,
+    "start_time_mmss": "04:30",
+    "end_time_mmss": "06:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

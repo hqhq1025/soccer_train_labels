@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4363,
+  "video_id": "eb9824c9-a597-5e1e-bff7-da9511f5ec19",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Offside}.",
+  "answer": [
+    {
+      "start": 2488.0,
+      "end": 2488.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2499.0,
+      "end": 2499.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-26 - 18-15 Real Madrid 2 - 1 Gijon/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2016-11-26 - 18-15 Real Madrid 2 - 1 Gijon/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2488000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2016-11-26 - 18-15 Real Madrid 2 - 1 Gijon/segment_002400_002500.json",
+  "segment_meta": {
+    "start_seconds": 2400,
+    "end_seconds": 2500,
+    "length_seconds": 100,
+    "start_time_mmss": "40:00",
+    "end_time_mmss": "41:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

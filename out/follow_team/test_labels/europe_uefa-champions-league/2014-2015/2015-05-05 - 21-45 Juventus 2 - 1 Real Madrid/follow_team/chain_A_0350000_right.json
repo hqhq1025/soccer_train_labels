@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2455,
+  "video_id": "8ad1d040-ea16-5538-b716-fb8e651f045b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 350.0,
+      "end": 350.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 357.0,
+      "end": 357.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 350000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/segment_000240_000360.json",
+  "segment_meta": {
+    "start_seconds": 240,
+    "end_seconds": 360,
+    "length_seconds": 120,
+    "start_time_mmss": "04:00",
+    "end_time_mmss": "06:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

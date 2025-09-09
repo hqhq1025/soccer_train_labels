@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3331,
+  "video_id": "e7b208ae-282f-5a8d-aff6-3e833d78c3d9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 333.0,
+      "end": 333.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 359.0,
+      "end": 359.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 415.0,
+      "end": 415.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-12-05 - 18-00 Real Madrid 4 - 1 Getafe/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-12-05 - 18-00 Real Madrid 4 - 1 Getafe/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 333000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-12-05 - 18-00 Real Madrid 4 - 1 Getafe/segment_000320_000420.json",
+  "segment_meta": {
+    "start_seconds": 320,
+    "end_seconds": 420,
+    "length_seconds": 100,
+    "start_time_mmss": "05:20",
+    "end_time_mmss": "07:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18644,
+  "video_id": "0b4a4168-1f8f-52f3-a672-fc3dcc65262b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 374.0,
+      "end": 374.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 388.0,
+      "end": 388.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 374000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/segment_000310_000430.json",
+  "segment_meta": {
+    "start_seconds": 310,
+    "end_seconds": 430,
+    "length_seconds": 120,
+    "start_time_mmss": "05:10",
+    "end_time_mmss": "07:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

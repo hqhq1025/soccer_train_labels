@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18235,
+  "video_id": "99289122-59d6-5979-b043-58f8113b4479",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Indirect free-kick and Foul}.",
+  "answer": [
+    {
+      "start": 2594.0,
+      "end": 2594.0,
+      "text": "Trigger: Corner by right @ 1 - 43:14"
+    },
+    {
+      "start": 2616.0,
+      "end": 2616.0,
+      "text": "Then: Indirect free-kick by right"
+    },
+    {
+      "start": 2626.0,
+      "end": 2626.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2594000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/segment_002570_002670.json",
+  "segment_meta": {
+    "start_seconds": 2570,
+    "end_seconds": 2670,
+    "length_seconds": 100,
+    "start_time_mmss": "42:50",
+    "end_time_mmss": "44:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4740,
+  "video_id": "6fc6a408-35ce-591a-9b2f-7df38956103b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Clearance}.",
+  "answer": [
+    {
+      "start": 1436.0,
+      "end": 1436.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 1496.0,
+      "end": 1496.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-08 - 21-45 Malaga 2 - 0 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-04-08 - 21-45 Malaga 2 - 0 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1436000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-04-08 - 21-45 Malaga 2 - 0 Barcelona/segment_001410_001530.json",
+  "segment_meta": {
+    "start_seconds": 1410,
+    "end_seconds": 1530,
+    "length_seconds": 120,
+    "start_time_mmss": "23:30",
+    "end_time_mmss": "25:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

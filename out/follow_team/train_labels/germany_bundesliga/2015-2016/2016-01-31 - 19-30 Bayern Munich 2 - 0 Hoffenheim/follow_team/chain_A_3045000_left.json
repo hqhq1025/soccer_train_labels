@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2667,
+  "video_id": "176c21b0-9be3-5314-b4dc-401622b16102",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Indirect free-kick and Shots on target}.",
+  "answer": [
+    {
+      "start": 3045.0,
+      "end": 3045.0,
+      "text": "Trigger: Throw-in by left @ 2 - 05:45"
+    },
+    {
+      "start": 3068.0,
+      "end": 3068.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 3081.0,
+      "end": 3081.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3045000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/segment_002970_003090.json",
+  "segment_meta": {
+    "start_seconds": 2970,
+    "end_seconds": 3090,
+    "length_seconds": 120,
+    "start_time_mmss": "49:30",
+    "end_time_mmss": "51:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

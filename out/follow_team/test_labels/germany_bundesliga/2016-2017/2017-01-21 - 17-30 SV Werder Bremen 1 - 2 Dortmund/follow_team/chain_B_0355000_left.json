@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1104,
+  "video_id": "2c8d9a16-d17f-50e4-80a0-8c3c7eb9a9ac",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 355.0,
+      "end": 355.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 368.0,
+      "end": 368.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 355000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/segment_000310_000370.json",
+  "segment_meta": {
+    "start_seconds": 310,
+    "end_seconds": 370,
+    "length_seconds": 60,
+    "start_time_mmss": "05:10",
+    "end_time_mmss": "06:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

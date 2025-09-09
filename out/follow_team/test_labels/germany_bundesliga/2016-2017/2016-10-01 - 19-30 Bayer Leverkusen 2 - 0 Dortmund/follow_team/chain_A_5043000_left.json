@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1073,
+  "video_id": "209b39ac-e967-5461-bbff-be7698429f78",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 5043.0,
+      "end": 5043.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 5077.0,
+      "end": 5077.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5043000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/segment_005010_005110.json",
+  "segment_meta": {
+    "start_seconds": 5010,
+    "end_seconds": 5110,
+    "length_seconds": 100,
+    "start_time_mmss": "83:30",
+    "end_time_mmss": "85:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

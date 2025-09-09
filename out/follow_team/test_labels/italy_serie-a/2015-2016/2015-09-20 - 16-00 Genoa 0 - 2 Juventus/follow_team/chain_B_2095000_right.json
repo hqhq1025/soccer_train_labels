@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5320,
+  "video_id": "c7cd1fab-1a09-59f2-8600-30fede25a25c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots off target}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 2095.0,
+      "end": 2095.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 2124.0,
+      "end": 2124.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2095000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/segment_002040_002140.json",
+  "segment_meta": {
+    "start_seconds": 2040,
+    "end_seconds": 2140,
+    "length_seconds": 100,
+    "start_time_mmss": "34:00",
+    "end_time_mmss": "35:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

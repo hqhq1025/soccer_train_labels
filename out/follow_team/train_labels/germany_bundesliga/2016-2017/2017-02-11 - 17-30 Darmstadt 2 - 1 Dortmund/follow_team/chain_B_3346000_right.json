@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3408,
+  "video_id": "115f07f0-24e9-505b-972b-5ab713b4b196",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Direct free-kick} happen.",
+  "answer": [
+    {
+      "start": 3346.0,
+      "end": 3346.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3385.0,
+      "end": 3385.0,
+      "text": "Then: Direct free-kick by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3346000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/segment_003300_003400.json",
+  "segment_meta": {
+    "start_seconds": 3300,
+    "end_seconds": 3400,
+    "length_seconds": 100,
+    "start_time_mmss": "55:00",
+    "end_time_mmss": "56:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

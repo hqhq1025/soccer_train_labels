@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24336,
+  "video_id": "ac2b3c94-3491-5742-9292-7c5a2c7aec71",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 3311.0,
+      "end": 3311.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 3322.0,
+      "end": 3322.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3311000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/segment_003230_003350.json",
+  "segment_meta": {
+    "start_seconds": 3230,
+    "end_seconds": 3350,
+    "length_seconds": 120,
+    "start_time_mmss": "53:50",
+    "end_time_mmss": "55:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

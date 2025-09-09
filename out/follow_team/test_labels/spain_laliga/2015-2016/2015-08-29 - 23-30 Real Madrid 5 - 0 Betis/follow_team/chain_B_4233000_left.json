@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3578,
+  "video_id": "d73c8574-1a06-5450-8316-05620624525c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 4233.0,
+      "end": 4233.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 4235.0,
+      "end": 4235.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4233000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/segment_004140_004240.json",
+  "segment_meta": {
+    "start_seconds": 4140,
+    "end_seconds": 4240,
+    "length_seconds": 100,
+    "start_time_mmss": "69:00",
+    "end_time_mmss": "70:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

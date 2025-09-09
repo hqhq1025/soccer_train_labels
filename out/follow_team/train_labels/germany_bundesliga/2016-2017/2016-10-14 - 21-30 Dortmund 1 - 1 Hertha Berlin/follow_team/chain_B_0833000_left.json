@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5056,
+  "video_id": "8de4f488-124d-5ced-bb41-99a1efde4306",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Offside}.",
+  "answer": [
+    {
+      "start": 833.0,
+      "end": 833.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 839.0,
+      "end": 839.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 833000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/segment_000780_000840.json",
+  "segment_meta": {
+    "start_seconds": 780,
+    "end_seconds": 840,
+    "length_seconds": 60,
+    "start_time_mmss": "13:00",
+    "end_time_mmss": "14:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

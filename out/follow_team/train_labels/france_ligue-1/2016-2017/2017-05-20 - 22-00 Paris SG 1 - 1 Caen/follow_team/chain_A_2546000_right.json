@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1763,
+  "video_id": "2cccd12c-09cf-59c2-8e55-b15897cfd51e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Clearance and Throw-in}.",
+  "answer": [
+    {
+      "start": 2546.0,
+      "end": 2546.0,
+      "text": "Trigger: Foul by right @ 1 - 42:26"
+    },
+    {
+      "start": 2627.0,
+      "end": 2627.0,
+      "text": "Then: Clearance by right"
+    },
+    {
+      "start": 2647.0,
+      "end": 2647.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2546000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/segment_002530_002650.json",
+  "segment_meta": {
+    "start_seconds": 2530,
+    "end_seconds": 2650,
+    "length_seconds": 120,
+    "start_time_mmss": "42:10",
+    "end_time_mmss": "44:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

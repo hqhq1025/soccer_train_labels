@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7753,
+  "video_id": "aa1971bb-fad6-55c8-9a90-e4fea2f8538f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots off target and Throw-in}.",
+  "answer": [
+    {
+      "start": 893.0,
+      "end": 893.0,
+      "text": "Trigger: Corner by left @ 1 - 14:53"
+    },
+    {
+      "start": 895.0,
+      "end": 895.0,
+      "text": "Then: Shots off target by left"
+    },
+    {
+      "start": 935.0,
+      "end": 935.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 893000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/segment_000870_000970.json",
+  "segment_meta": {
+    "start_seconds": 870,
+    "end_seconds": 970,
+    "length_seconds": 100,
+    "start_time_mmss": "14:30",
+    "end_time_mmss": "16:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

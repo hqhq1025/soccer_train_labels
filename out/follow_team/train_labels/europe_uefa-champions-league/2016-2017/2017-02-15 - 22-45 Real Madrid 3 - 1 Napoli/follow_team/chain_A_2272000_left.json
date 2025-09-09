@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9175,
+  "video_id": "ff077a00-47ae-5b75-bd44-0733b35ec0f6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Shots on target}.",
+  "answer": [
+    {
+      "start": 2272.0,
+      "end": 2272.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 37:52"
+    },
+    {
+      "start": 2300.0,
+      "end": 2300.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2272000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/segment_002210_002310.json",
+  "segment_meta": {
+    "start_seconds": 2210,
+    "end_seconds": 2310,
+    "length_seconds": 100,
+    "start_time_mmss": "36:50",
+    "end_time_mmss": "38:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14139,
+  "video_id": "9de374ef-a867-59a8-bf7f-3ef26924cf71",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 1219.0,
+      "end": 1219.0,
+      "text": "Trigger: Shots on target by right @ 1 - 20:19"
+    },
+    {
+      "start": 1220.0,
+      "end": 1220.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1219000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/segment_001170_001230.json",
+  "segment_meta": {
+    "start_seconds": 1170,
+    "end_seconds": 1230,
+    "length_seconds": 60,
+    "start_time_mmss": "19:30",
+    "end_time_mmss": "20:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17069,
+  "video_id": "81104b25-7339-5525-b834-4593578e2080",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Throw-in and Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 739.0,
+      "end": 739.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 12:19"
+    },
+    {
+      "start": 772.0,
+      "end": 772.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 791.0,
+      "end": 791.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 739000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/segment_000680_000800.json",
+  "segment_meta": {
+    "start_seconds": 680,
+    "end_seconds": 800,
+    "length_seconds": 120,
+    "start_time_mmss": "11:20",
+    "end_time_mmss": "13:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

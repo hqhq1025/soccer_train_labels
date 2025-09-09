@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9150,
+  "video_id": "c9777cda-ea90-53d3-93bb-c70334421240",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
+  "answer": [
+    {
+      "start": 4978.0,
+      "end": 4978.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 4991.0,
+      "end": 4991.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4978000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/segment_004880_005000.json",
+  "segment_meta": {
+    "start_seconds": 4880,
+    "end_seconds": 5000,
+    "length_seconds": 120,
+    "start_time_mmss": "81:20",
+    "end_time_mmss": "83:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

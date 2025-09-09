@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17139,
+  "video_id": "8ad7d67f-60bd-53c1-928e-d15d02ada9fe",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 3292.0,
+      "end": 3292.0,
+      "text": "Trigger: Corner by right @ 2 - 09:52"
+    },
+    {
+      "start": 3309.0,
+      "end": 3309.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3292000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_003190_003310.json",
+  "segment_meta": {
+    "start_seconds": 3190,
+    "end_seconds": 3310,
+    "length_seconds": 120,
+    "start_time_mmss": "53:10",
+    "end_time_mmss": "55:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

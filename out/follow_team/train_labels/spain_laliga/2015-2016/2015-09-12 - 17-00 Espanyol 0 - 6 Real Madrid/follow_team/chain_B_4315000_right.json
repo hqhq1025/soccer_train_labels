@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10904,
+  "video_id": "2a015dfa-7c5f-5825-8a39-e66eba850d86",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 4315.0,
+      "end": 4315.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4317.0,
+      "end": 4317.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4315000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/segment_004220_004320.json",
+  "segment_meta": {
+    "start_seconds": 4220,
+    "end_seconds": 4320,
+    "length_seconds": 100,
+    "start_time_mmss": "70:20",
+    "end_time_mmss": "72:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

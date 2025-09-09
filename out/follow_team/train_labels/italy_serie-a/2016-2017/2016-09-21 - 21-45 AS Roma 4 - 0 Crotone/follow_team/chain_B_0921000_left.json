@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17712,
+  "video_id": "57f131ee-841f-5c4f-8cb4-c6394e30c27d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Corner}.",
+  "answer": [
+    {
+      "start": 921.0,
+      "end": 921.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 969.0,
+      "end": 969.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 921000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/segment_000900_000980.json",
+  "segment_meta": {
+    "start_seconds": 900,
+    "end_seconds": 980,
+    "length_seconds": 80,
+    "start_time_mmss": "15:00",
+    "end_time_mmss": "16:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

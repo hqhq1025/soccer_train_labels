@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4114,
+  "video_id": "6bd7f23a-e93d-5cf1-85b3-f6506edfccc6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots on target}.",
+  "answer": [
+    {
+      "start": 1802.0,
+      "end": 1802.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 1810.0,
+      "end": 1810.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1802000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_001780_001900.json",
+  "segment_meta": {
+    "start_seconds": 1780,
+    "end_seconds": 1900,
+    "length_seconds": 120,
+    "start_time_mmss": "29:40",
+    "end_time_mmss": "31:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

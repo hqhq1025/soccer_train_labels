@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9581,
+  "video_id": "f82321a1-a392-5da4-89ed-a17548fce31d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Substitution}, keep following that team and alert me whenever {Corner, Shots off target and Foul} happen.",
+  "answer": [
+    {
+      "start": 3931.0,
+      "end": 3931.0,
+      "text": "Trigger: Substitution by right @ 2 - 20:31"
+    },
+    {
+      "start": 3948.0,
+      "end": 3948.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 3949.0,
+      "end": 3949.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 4017.0,
+      "end": 4017.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3931000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/segment_003910_004030.json",
+  "segment_meta": {
+    "start_seconds": 3910,
+    "end_seconds": 4030,
+    "length_seconds": 120,
+    "start_time_mmss": "65:10",
+    "end_time_mmss": "67:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

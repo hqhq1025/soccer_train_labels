@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2443,
+  "video_id": "f032cbf7-4ca0-51eb-9f2d-aa0bb1f7cfd8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Corner}.",
+  "answer": [
+    {
+      "start": 4931.0,
+      "end": 4931.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 37:11"
+    },
+    {
+      "start": 4959.0,
+      "end": 4959.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4931000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/segment_004840_004960.json",
+  "segment_meta": {
+    "start_seconds": 4840,
+    "end_seconds": 4960,
+    "length_seconds": 120,
+    "start_time_mmss": "80:40",
+    "end_time_mmss": "82:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

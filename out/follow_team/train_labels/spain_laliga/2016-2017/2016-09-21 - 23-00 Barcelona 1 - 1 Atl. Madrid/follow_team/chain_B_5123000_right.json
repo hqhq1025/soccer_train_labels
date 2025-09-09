@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12742,
+  "video_id": "b268f52b-0273-56e9-a7b0-1d12e1a2a880",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Corner}.",
+  "answer": [
+    {
+      "start": 5123.0,
+      "end": 5123.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 5167.0,
+      "end": 5167.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5123000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/segment_005100_005180.json",
+  "segment_meta": {
+    "start_seconds": 5100,
+    "end_seconds": 5180,
+    "length_seconds": 80,
+    "start_time_mmss": "85:00",
+    "end_time_mmss": "86:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

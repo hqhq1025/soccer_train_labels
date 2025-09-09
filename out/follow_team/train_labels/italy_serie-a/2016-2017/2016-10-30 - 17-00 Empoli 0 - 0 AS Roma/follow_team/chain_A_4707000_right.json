@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19733,
+  "video_id": "6c05967d-9e2d-5dd8-9fa8-cb3db878d2c0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Clearance and Throw-in}.",
+  "answer": [
+    {
+      "start": 4707.0,
+      "end": 4707.0,
+      "text": "Trigger: Shots on target by right @ 2 - 33:27"
+    },
+    {
+      "start": 4765.0,
+      "end": 4765.0,
+      "text": "Then: Clearance by right"
+    },
+    {
+      "start": 4789.0,
+      "end": 4789.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4707000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/segment_004670_004790.json",
+  "segment_meta": {
+    "start_seconds": 4670,
+    "end_seconds": 4790,
+    "length_seconds": 120,
+    "start_time_mmss": "77:50",
+    "end_time_mmss": "79:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

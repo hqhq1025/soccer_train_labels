@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20010,
+  "video_id": "25aced61-d78f-5b78-8615-8663a6d2ce7d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
+  "answer": [
+    {
+      "start": 5463.0,
+      "end": 5463.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 5466.0,
+      "end": 5466.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5463000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/segment_005420_005500.json",
+  "segment_meta": {
+    "start_seconds": 5420,
+    "end_seconds": 5500,
+    "length_seconds": 80,
+    "start_time_mmss": "90:20",
+    "end_time_mmss": "91:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

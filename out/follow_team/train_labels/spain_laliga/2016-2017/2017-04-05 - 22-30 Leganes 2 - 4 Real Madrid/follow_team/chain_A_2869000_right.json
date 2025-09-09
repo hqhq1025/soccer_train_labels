@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14515,
+  "video_id": "970c7e10-c91a-55df-9cfb-68a00bc90f1e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 2869.0,
+      "end": 2869.0,
+      "text": "Trigger: Direct free-kick by right @ 2 - 02:49"
+    },
+    {
+      "start": 2870.0,
+      "end": 2870.0,
+      "text": "Then: Goal by right"
+    },
+    {
+      "start": 2870.0,
+      "end": 2870.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2869000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/segment_002800_002880.json",
+  "segment_meta": {
+    "start_seconds": 2800,
+    "end_seconds": 2880,
+    "length_seconds": 80,
+    "start_time_mmss": "46:40",
+    "end_time_mmss": "48:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13071,
+  "video_id": "699a35ea-7cfc-57e0-bf7c-e6821f6d3f51",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 2537.0,
+      "end": 2537.0,
+      "text": "Trigger: Corner by left @ 1 - 42:17"
+    },
+    {
+      "start": 2539.0,
+      "end": 2539.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2537000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/segment_002480_002540.json",
+  "segment_meta": {
+    "start_seconds": 2480,
+    "end_seconds": 2540,
+    "length_seconds": 60,
+    "start_time_mmss": "41:20",
+    "end_time_mmss": "42:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1174,
+  "video_id": "da93ee6d-6deb-5188-b4de-bca99aea1193",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 3916.0,
+      "end": 3916.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 3962.0,
+      "end": 3962.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3916000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/segment_003850_003970.json",
+  "segment_meta": {
+    "start_seconds": 3850,
+    "end_seconds": 3970,
+    "length_seconds": 120,
+    "start_time_mmss": "64:10",
+    "end_time_mmss": "66:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

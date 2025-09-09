@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23249,
+  "video_id": "258c4478-ce23-5fac-8bcd-1ec2ca2f4d48",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 2359.0,
+      "end": 2359.0,
+      "text": "Trigger: Clearance by left @ 1 - 39:19"
+    },
+    {
+      "start": 2418.0,
+      "end": 2418.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2359000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_002340_002460.json",
+  "segment_meta": {
+    "start_seconds": 2340,
+    "end_seconds": 2460,
+    "length_seconds": 120,
+    "start_time_mmss": "39:00",
+    "end_time_mmss": "41:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

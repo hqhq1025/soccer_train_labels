@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9348,
+  "video_id": "1c9f35f2-939f-54f5-a09c-9f0c483149da",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Yellow card}, continue tracking that team and notify me about any {Offside}.",
+  "answer": [
+    {
+      "start": 858.0,
+      "end": 858.0,
+      "text": "Trigger: Yellow card by left"
+    },
+    {
+      "start": 882.0,
+      "end": 882.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 858000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/segment_000850_000890.json",
+  "segment_meta": {
+    "start_seconds": 850,
+    "end_seconds": 890,
+    "length_seconds": 40,
+    "start_time_mmss": "14:10",
+    "end_time_mmss": "14:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

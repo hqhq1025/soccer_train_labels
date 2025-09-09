@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6074,
+  "video_id": "89a84519-5106-5ccc-82f9-84d1fffa7182",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}.",
+  "answer": [
+    {
+      "start": 609.0,
+      "end": 609.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 615.0,
+      "end": 615.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 609000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_000580_000620.json",
+  "segment_meta": {
+    "start_seconds": 580,
+    "end_seconds": 620,
+    "length_seconds": 40,
+    "start_time_mmss": "09:40",
+    "end_time_mmss": "10:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

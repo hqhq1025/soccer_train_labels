@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13,
+  "video_id": "c0987a2f-05e6-57db-96f1-a63b17768dfa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Yellow card}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 5226.0,
+      "end": 5226.0,
+      "text": "Trigger: Yellow card by left @ 2 - 42:06"
+    },
+    {
+      "start": 5255.0,
+      "end": 5255.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5226000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/segment_005160_005280.json",
+  "segment_meta": {
+    "start_seconds": 5160,
+    "end_seconds": 5280,
+    "length_seconds": 120,
+    "start_time_mmss": "86:00",
+    "end_time_mmss": "88:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

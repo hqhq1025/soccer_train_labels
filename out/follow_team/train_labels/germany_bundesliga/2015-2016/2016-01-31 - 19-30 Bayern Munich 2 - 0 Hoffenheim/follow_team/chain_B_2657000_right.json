@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2686,
+  "video_id": "492eedbf-3a69-5289-abf9-8fca1b95cb7c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 2657.0,
+      "end": 2657.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2664.0,
+      "end": 2664.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2657000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/segment_002600_002720.json",
+  "segment_meta": {
+    "start_seconds": 2600,
+    "end_seconds": 2720,
+    "length_seconds": 120,
+    "start_time_mmss": "43:20",
+    "end_time_mmss": "45:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

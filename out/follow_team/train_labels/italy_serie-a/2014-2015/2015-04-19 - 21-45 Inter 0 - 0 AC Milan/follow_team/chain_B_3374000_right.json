@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16250,
+  "video_id": "8bf747b9-c1df-5eca-88ad-c9b8a758ef8c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 3374.0,
+      "end": 3374.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 3387.0,
+      "end": 3387.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3374000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/segment_003310_003390.json",
+  "segment_meta": {
+    "start_seconds": 3310,
+    "end_seconds": 3390,
+    "length_seconds": 80,
+    "start_time_mmss": "55:10",
+    "end_time_mmss": "56:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

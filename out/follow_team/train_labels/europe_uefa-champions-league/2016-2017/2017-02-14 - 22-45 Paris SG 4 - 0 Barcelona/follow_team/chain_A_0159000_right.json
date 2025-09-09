@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9667,
+  "video_id": "11e7b76a-b54e-5a63-a524-a5c12335fc3e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 159.0,
+      "end": 159.0,
+      "text": "Trigger: Foul by right @ 1 - 02:39"
+    },
+    {
+      "start": 163.0,
+      "end": 163.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 159000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/segment_000130_000170.json",
+  "segment_meta": {
+    "start_seconds": 130,
+    "end_seconds": 170,
+    "length_seconds": 40,
+    "start_time_mmss": "02:10",
+    "end_time_mmss": "02:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

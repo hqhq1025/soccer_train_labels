@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20585,
+  "video_id": "bfa5b051-69be-5c88-87b0-ec6e32cc247e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Offside}.",
+  "answer": [
+    {
+      "start": 3566.0,
+      "end": 3566.0,
+      "text": "Trigger: Throw-in by right @ 2 - 14:26"
+    },
+    {
+      "start": 3583.0,
+      "end": 3583.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3566000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/segment_003530_003590.json",
+  "segment_meta": {
+    "start_seconds": 3530,
+    "end_seconds": 3590,
+    "length_seconds": 60,
+    "start_time_mmss": "58:50",
+    "end_time_mmss": "59:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5157,
+  "video_id": "2fb4b3ef-6a58-5021-a390-9cb88d174104",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 2462.0,
+      "end": 2462.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 2464.0,
+      "end": 2464.0,
+      "text": "Then: Shots off target by left"
+    },
+    {
+      "start": 2476.0,
+      "end": 2476.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2462000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/segment_002400_002500.json",
+  "segment_meta": {
+    "start_seconds": 2400,
+    "end_seconds": 2500,
+    "length_seconds": 100,
+    "start_time_mmss": "40:00",
+    "end_time_mmss": "41:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

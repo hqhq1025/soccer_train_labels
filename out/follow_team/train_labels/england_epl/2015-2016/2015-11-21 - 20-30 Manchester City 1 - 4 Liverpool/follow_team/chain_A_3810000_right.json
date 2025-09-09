@@ -1,0 +1,51 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21693,
+  "video_id": "2fa8f753-0c5c-5b6a-899f-3f6c5d90488f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Throw-in, Direct free-kick, Shots off target and Substitution}.",
+  "answer": [
+    {
+      "start": 3810.0,
+      "end": 3810.0,
+      "text": "Trigger: Shots on target by right @ 2 - 18:30"
+    },
+    {
+      "start": 3837.0,
+      "end": 3837.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 3879.0,
+      "end": 3879.0,
+      "text": "Then: Direct free-kick by right"
+    },
+    {
+      "start": 3881.0,
+      "end": 3881.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 3906.0,
+      "end": 3906.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3810000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/segment_003790_003910.json",
+  "segment_meta": {
+    "start_seconds": 3790,
+    "end_seconds": 3910,
+    "length_seconds": 120,
+    "start_time_mmss": "63:10",
+    "end_time_mmss": "65:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

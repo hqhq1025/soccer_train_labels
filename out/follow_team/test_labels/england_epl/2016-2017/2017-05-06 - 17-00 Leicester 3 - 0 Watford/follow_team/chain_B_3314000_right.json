@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8936,
+  "video_id": "e4ae8f70-41a2-599b-a576-c156cf460b15",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Offside}.",
+  "answer": [
+    {
+      "start": 3314.0,
+      "end": 3314.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3317.0,
+      "end": 3317.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3314000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/segment_003200_003320.json",
+  "segment_meta": {
+    "start_seconds": 3200,
+    "end_seconds": 3320,
+    "length_seconds": 120,
+    "start_time_mmss": "53:20",
+    "end_time_mmss": "55:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

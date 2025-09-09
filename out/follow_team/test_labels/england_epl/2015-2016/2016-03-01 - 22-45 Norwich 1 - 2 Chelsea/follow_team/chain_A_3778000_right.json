@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7399,
+  "video_id": "afbfeb9a-49ec-569f-9e91-3ddfab0d9b0a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 3778.0,
+      "end": 3778.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 3820.0,
+      "end": 3820.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3778000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/segment_003730_003850.json",
+  "segment_meta": {
+    "start_seconds": 3730,
+    "end_seconds": 3850,
+    "length_seconds": 120,
+    "start_time_mmss": "62:10",
+    "end_time_mmss": "64:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

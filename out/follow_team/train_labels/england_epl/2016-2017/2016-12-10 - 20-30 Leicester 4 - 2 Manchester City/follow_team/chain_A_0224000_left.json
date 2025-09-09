@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24055,
+  "video_id": "5076eb0d-7b74-59af-b7a1-ad6449d85ba0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Throw-in, Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 224.0,
+      "end": 224.0,
+      "text": "Trigger: Clearance by left @ 1 - 03:44"
+    },
+    {
+      "start": 252.0,
+      "end": 252.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 256.0,
+      "end": 256.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 257.0,
+      "end": 257.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 224000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/segment_000140_000260.json",
+  "segment_meta": {
+    "start_seconds": 140,
+    "end_seconds": 260,
+    "length_seconds": 120,
+    "start_time_mmss": "02:20",
+    "end_time_mmss": "04:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

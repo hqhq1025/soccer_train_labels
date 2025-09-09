@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3726,
+  "video_id": "d620f9ae-abd0-5a66-89af-bdbae3db5385",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 2550.0,
+      "end": 2550.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2557.0,
+      "end": 2557.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2550000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/segment_002520_002560.json",
+  "segment_meta": {
+    "start_seconds": 2520,
+    "end_seconds": 2560,
+    "length_seconds": 40,
+    "start_time_mmss": "42:00",
+    "end_time_mmss": "42:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2645,
+  "video_id": "6a3b7b45-9693-581c-b983-f3334c61effa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 4328.0,
+      "end": 4328.0,
+      "text": "Trigger: Throw-in by left @ 2 - 27:08"
+    },
+    {
+      "start": 4357.0,
+      "end": 4357.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4328000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/segment_004280_004380.json",
+  "segment_meta": {
+    "start_seconds": 4280,
+    "end_seconds": 4380,
+    "length_seconds": 100,
+    "start_time_mmss": "71:20",
+    "end_time_mmss": "73:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

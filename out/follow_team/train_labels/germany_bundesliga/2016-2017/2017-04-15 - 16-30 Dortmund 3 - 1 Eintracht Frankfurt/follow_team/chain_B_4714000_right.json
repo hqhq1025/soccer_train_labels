@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4914,
+  "video_id": "519eee30-9913-5315-9b44-ef45bda5fc67",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 4714.0,
+      "end": 4714.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 4775.0,
+      "end": 4775.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4714000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/segment_004680_004800.json",
+  "segment_meta": {
+    "start_seconds": 4680,
+    "end_seconds": 4800,
+    "length_seconds": 120,
+    "start_time_mmss": "78:00",
+    "end_time_mmss": "80:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10223,
+  "video_id": "5ffe9336-e1f7-518a-8acc-bd175f1d854f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 4694.0,
+      "end": 4694.0,
+      "text": "Trigger: Direct free-kick by right @ 2 - 33:14"
+    },
+    {
+      "start": 4697.0,
+      "end": 4697.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4694000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/segment_004600_004720.json",
+  "segment_meta": {
+    "start_seconds": 4600,
+    "end_seconds": 4720,
+    "length_seconds": 120,
+    "start_time_mmss": "76:40",
+    "end_time_mmss": "78:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 602,
+  "video_id": "6e7e22b9-2b8a-5ee3-8253-92960419aa2b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 2213.0,
+      "end": 2213.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 2258.0,
+      "end": 2258.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2213000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/segment_002200_002320.json",
+  "segment_meta": {
+    "start_seconds": 2200,
+    "end_seconds": 2320,
+    "length_seconds": 120,
+    "start_time_mmss": "36:40",
+    "end_time_mmss": "38:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

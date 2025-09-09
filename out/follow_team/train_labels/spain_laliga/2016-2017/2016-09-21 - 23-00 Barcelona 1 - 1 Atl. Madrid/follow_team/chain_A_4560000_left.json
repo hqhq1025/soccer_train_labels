@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12723,
+  "video_id": "d7b4c33d-db22-50be-bc22-d2aa94f19a9d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4560.0,
+      "end": 4560.0,
+      "text": "Trigger: Throw-in by left @ 2 - 31:00"
+    },
+    {
+      "start": 4586.0,
+      "end": 4586.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4560000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/segment_004550_004590.json",
+  "segment_meta": {
+    "start_seconds": 4550,
+    "end_seconds": 4590,
+    "length_seconds": 40,
+    "start_time_mmss": "75:50",
+    "end_time_mmss": "76:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

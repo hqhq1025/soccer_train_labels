@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2923,
+  "video_id": "4b170bd3-da9c-5bce-8296-a2d09aded16d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 4356.0,
+      "end": 4356.0,
+      "text": "Trigger: Throw-in by left @ 2 - 27:36"
+    },
+    {
+      "start": 4363.0,
+      "end": 4363.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4356000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/segment_004340_004460.json",
+  "segment_meta": {
+    "start_seconds": 4340,
+    "end_seconds": 4460,
+    "length_seconds": 120,
+    "start_time_mmss": "72:20",
+    "end_time_mmss": "74:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

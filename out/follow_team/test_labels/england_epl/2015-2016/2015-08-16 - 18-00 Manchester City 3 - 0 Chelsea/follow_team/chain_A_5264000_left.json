@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7525,
+  "video_id": "d5e2dbd7-600f-5af2-a5ec-b866e2abb862",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 5264.0,
+      "end": 5264.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 5270.0,
+      "end": 5270.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5264000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/segment_005210_005290.json",
+  "segment_meta": {
+    "start_seconds": 5210,
+    "end_seconds": 5290,
+    "length_seconds": 80,
+    "start_time_mmss": "86:50",
+    "end_time_mmss": "88:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

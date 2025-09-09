@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4700,
+  "video_id": "84fbb953-3894-5d97-b3f8-98dae7383c01",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 4373.0,
+      "end": 4373.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 4396.0,
+      "end": 4396.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4373000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/segment_004360_004480.json",
+  "segment_meta": {
+    "start_seconds": 4360,
+    "end_seconds": 4480,
+    "length_seconds": 120,
+    "start_time_mmss": "72:40",
+    "end_time_mmss": "74:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

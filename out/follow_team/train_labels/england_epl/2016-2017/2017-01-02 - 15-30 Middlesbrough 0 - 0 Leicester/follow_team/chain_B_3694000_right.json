@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25430,
+  "video_id": "e09738d7-8e28-5906-a65c-1310b49a8141",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 3694.0,
+      "end": 3694.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 3728.0,
+      "end": 3728.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3694000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/segment_003630_003750.json",
+  "segment_meta": {
+    "start_seconds": 3630,
+    "end_seconds": 3750,
+    "length_seconds": 120,
+    "start_time_mmss": "60:30",
+    "end_time_mmss": "62:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

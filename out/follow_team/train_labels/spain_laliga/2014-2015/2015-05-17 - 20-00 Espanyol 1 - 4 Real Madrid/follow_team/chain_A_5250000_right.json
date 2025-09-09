@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11689,
+  "video_id": "59eb01e5-779a-5293-b4f2-13b487442839",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 5250.0,
+      "end": 5250.0,
+      "text": "Trigger: Shots on target by right @ 2 - 42:30"
+    },
+    {
+      "start": 5258.0,
+      "end": 5258.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5250000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/segment_005180_005300.json",
+  "segment_meta": {
+    "start_seconds": 5180,
+    "end_seconds": 5300,
+    "length_seconds": 120,
+    "start_time_mmss": "86:20",
+    "end_time_mmss": "88:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

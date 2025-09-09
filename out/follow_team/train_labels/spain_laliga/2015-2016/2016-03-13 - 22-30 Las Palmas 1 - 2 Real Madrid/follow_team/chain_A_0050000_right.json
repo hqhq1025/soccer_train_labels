@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10433,
+  "video_id": "037f06b1-79d7-5635-82e8-5962cf4c4ade",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Clearance}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "text": "Trigger: Clearance by right @ 1 - 00:50"
+    },
+    {
+      "start": 82.0,
+      "end": 82.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 118.0,
+      "end": 118.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 50000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/segment_000010_000130.json",
+  "segment_meta": {
+    "start_seconds": 10,
+    "end_seconds": 130,
+    "length_seconds": 120,
+    "start_time_mmss": "00:10",
+    "end_time_mmss": "02:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

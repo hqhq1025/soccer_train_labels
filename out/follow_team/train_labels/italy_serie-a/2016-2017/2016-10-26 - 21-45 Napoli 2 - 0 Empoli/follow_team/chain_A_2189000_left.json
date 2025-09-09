@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20495,
+  "video_id": "5362a388-387e-5f1d-b720-b586b58b14e6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Shots on target} happen.",
+  "answer": [
+    {
+      "start": 2189.0,
+      "end": 2189.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 36:29"
+    },
+    {
+      "start": 2194.0,
+      "end": 2194.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2189000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/segment_002150_002230.json",
+  "segment_meta": {
+    "start_seconds": 2150,
+    "end_seconds": 2230,
+    "length_seconds": 80,
+    "start_time_mmss": "35:50",
+    "end_time_mmss": "37:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

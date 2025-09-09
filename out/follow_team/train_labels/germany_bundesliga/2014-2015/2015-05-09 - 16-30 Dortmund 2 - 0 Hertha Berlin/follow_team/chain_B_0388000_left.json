@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3020,
+  "video_id": "02ff9260-3742-5524-acb9-03f5261c96c2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 388.0,
+      "end": 388.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 411.0,
+      "end": 411.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 388000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/segment_000330_000450.json",
+  "segment_meta": {
+    "start_seconds": 330,
+    "end_seconds": 450,
+    "length_seconds": 120,
+    "start_time_mmss": "05:30",
+    "end_time_mmss": "07:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

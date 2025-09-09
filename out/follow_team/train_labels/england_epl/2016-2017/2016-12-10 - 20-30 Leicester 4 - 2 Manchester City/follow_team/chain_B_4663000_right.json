@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24080,
+  "video_id": "f46ec319-6a27-5813-b66b-b609dccdf334",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 4663.0,
+      "end": 4663.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4665.0,
+      "end": 4665.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4663000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/segment_004570_004670.json",
+  "segment_meta": {
+    "start_seconds": 4570,
+    "end_seconds": 4670,
+    "length_seconds": 100,
+    "start_time_mmss": "76:10",
+    "end_time_mmss": "77:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

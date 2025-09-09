@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6163,
+  "video_id": "66f7fdf4-0d59-511d-8022-582aed303a4d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 736.0,
+      "end": 736.0,
+      "text": "Trigger: Shots on target by right @ 1 - 12:16"
+    },
+    {
+      "start": 737.0,
+      "end": 737.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 736000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/segment_000620_000740.json",
+  "segment_meta": {
+    "start_seconds": 620,
+    "end_seconds": 740,
+    "length_seconds": 120,
+    "start_time_mmss": "10:20",
+    "end_time_mmss": "12:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

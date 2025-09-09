@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7301,
+  "video_id": "490465dd-3b7e-5a9b-9554-2e4eb27b6522",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Offside} happen.",
+  "answer": [
+    {
+      "start": 4274.0,
+      "end": 4274.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 4295.0,
+      "end": 4295.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4274000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/segment_004260_004300.json",
+  "segment_meta": {
+    "start_seconds": 4260,
+    "end_seconds": 4300,
+    "length_seconds": 40,
+    "start_time_mmss": "71:00",
+    "end_time_mmss": "71:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

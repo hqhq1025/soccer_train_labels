@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2254,
+  "video_id": "65fdada7-ce68-5abe-b019-e2b5c27f6213",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 4014.0,
+      "end": 4014.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4034.0,
+      "end": 4034.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4014000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/segment_003980_004040.json",
+  "segment_meta": {
+    "start_seconds": 3980,
+    "end_seconds": 4040,
+    "length_seconds": 60,
+    "start_time_mmss": "66:20",
+    "end_time_mmss": "67:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

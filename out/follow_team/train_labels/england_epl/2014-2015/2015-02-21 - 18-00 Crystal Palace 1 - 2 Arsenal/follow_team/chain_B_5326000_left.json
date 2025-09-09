@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23016,
+  "video_id": "373c3647-6b84-5ba7-a883-6d1b526bbafa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 5326.0,
+      "end": 5326.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 5338.0,
+      "end": 5338.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5326000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/segment_005290_005350.json",
+  "segment_meta": {
+    "start_seconds": 5290,
+    "end_seconds": 5350,
+    "length_seconds": 60,
+    "start_time_mmss": "88:10",
+    "end_time_mmss": "89:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

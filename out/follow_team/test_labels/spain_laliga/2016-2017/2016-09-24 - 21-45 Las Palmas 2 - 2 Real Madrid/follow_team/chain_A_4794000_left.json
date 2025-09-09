@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4917,
+  "video_id": "e465ddbb-2c3d-57b1-8d04-17a33b431fb5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 4794.0,
+      "end": 4794.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 4847.0,
+      "end": 4847.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-09-24 - 21-45 Las Palmas 2 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2016-09-24 - 21-45 Las Palmas 2 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4794000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2016-09-24 - 21-45 Las Palmas 2 - 2 Real Madrid/segment_004750_004850.json",
+  "segment_meta": {
+    "start_seconds": 4750,
+    "end_seconds": 4850,
+    "length_seconds": 100,
+    "start_time_mmss": "79:10",
+    "end_time_mmss": "80:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8409,
+  "video_id": "62ed1b24-e0cb-59f0-9ef1-aa04ceed67e6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 815.0,
+      "end": 815.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 817.0,
+      "end": 817.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 815000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/segment_000700_000820.json",
+  "segment_meta": {
+    "start_seconds": 700,
+    "end_seconds": 820,
+    "length_seconds": 120,
+    "start_time_mmss": "11:40",
+    "end_time_mmss": "13:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

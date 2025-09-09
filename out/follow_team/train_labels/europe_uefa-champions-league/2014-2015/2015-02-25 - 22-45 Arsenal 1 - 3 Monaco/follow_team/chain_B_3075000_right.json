@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7916,
+  "video_id": "df88c8c2-7647-5b66-972e-f79a36bfeb55",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3075.0,
+      "end": 3075.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 3114.0,
+      "end": 3114.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3075000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/segment_003020_003120.json",
+  "segment_meta": {
+    "start_seconds": 3020,
+    "end_seconds": 3120,
+    "length_seconds": 100,
+    "start_time_mmss": "50:20",
+    "end_time_mmss": "52:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 576,
+  "video_id": "77a0e029-e8ce-5fda-9e18-80f5ca1ef8c0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 1054.0,
+      "end": 1054.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 1061.0,
+      "end": 1061.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1054000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_001030_001070.json",
+  "segment_meta": {
+    "start_seconds": 1030,
+    "end_seconds": 1070,
+    "length_seconds": 40,
+    "start_time_mmss": "17:10",
+    "end_time_mmss": "17:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

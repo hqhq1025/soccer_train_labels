@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24070,
+  "video_id": "edab9dc7-2289-5fcb-aee1-281cab61e772",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Corner}.",
+  "answer": [
+    {
+      "start": 1293.0,
+      "end": 1293.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 1314.0,
+      "end": 1314.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1293000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/segment_001260_001320.json",
+  "segment_meta": {
+    "start_seconds": 1260,
+    "end_seconds": 1320,
+    "length_seconds": 60,
+    "start_time_mmss": "21:00",
+    "end_time_mmss": "22:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

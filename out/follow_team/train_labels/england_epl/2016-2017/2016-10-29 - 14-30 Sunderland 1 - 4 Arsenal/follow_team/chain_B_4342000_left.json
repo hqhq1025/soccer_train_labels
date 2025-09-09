@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25570,
+  "video_id": "98ccbe2e-bc76-524a-bf8f-1b5359ee35ab",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 4342.0,
+      "end": 4342.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4403.0,
+      "end": 4403.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4342000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/segment_004330_004410.json",
+  "segment_meta": {
+    "start_seconds": 4330,
+    "end_seconds": 4410,
+    "length_seconds": 80,
+    "start_time_mmss": "72:10",
+    "end_time_mmss": "73:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

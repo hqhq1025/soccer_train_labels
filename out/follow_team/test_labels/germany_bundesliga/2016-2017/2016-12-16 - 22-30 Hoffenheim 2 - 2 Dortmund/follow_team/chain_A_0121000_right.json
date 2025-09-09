@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 597,
+  "video_id": "b9a9a1a8-4789-558a-a623-cf8c79886d0b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Goal} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 121.0,
+      "end": 121.0,
+      "text": "Trigger: Goal by right"
+    },
+    {
+      "start": 200.0,
+      "end": 200.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 206.0,
+      "end": 206.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 121000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_000090_000210.json",
+  "segment_meta": {
+    "start_seconds": 90,
+    "end_seconds": 210,
+    "length_seconds": 120,
+    "start_time_mmss": "01:30",
+    "end_time_mmss": "03:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

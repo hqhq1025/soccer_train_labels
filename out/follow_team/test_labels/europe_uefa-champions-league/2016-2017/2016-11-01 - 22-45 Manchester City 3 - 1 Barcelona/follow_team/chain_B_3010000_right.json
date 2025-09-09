@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2676,
+  "video_id": "4d85a4ed-644a-53e4-9a32-8d45c33eef18",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Goal}.",
+  "answer": [
+    {
+      "start": 3010.0,
+      "end": 3010.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3011.0,
+      "end": 3011.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3010000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/segment_002960_003020.json",
+  "segment_meta": {
+    "start_seconds": 2960,
+    "end_seconds": 3020,
+    "length_seconds": 60,
+    "start_time_mmss": "49:20",
+    "end_time_mmss": "50:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

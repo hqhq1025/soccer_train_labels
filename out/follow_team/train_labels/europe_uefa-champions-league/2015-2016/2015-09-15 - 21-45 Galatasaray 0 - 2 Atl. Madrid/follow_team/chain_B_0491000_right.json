@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5918,
+  "video_id": "5ec16577-e6e8-52bc-8e9e-d66e73498cea",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots off target}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 491.0,
+      "end": 491.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 506.0,
+      "end": 506.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 491000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/segment_000410_000510.json",
+  "segment_meta": {
+    "start_seconds": 410,
+    "end_seconds": 510,
+    "length_seconds": 100,
+    "start_time_mmss": "06:50",
+    "end_time_mmss": "08:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

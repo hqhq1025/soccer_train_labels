@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15921,
+  "video_id": "9073d272-eb27-5baf-a223-142339ae766d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 2311.0,
+      "end": 2311.0,
+      "text": "Trigger: Throw-in by left @ 1 - 38:31"
+    },
+    {
+      "start": 2347.0,
+      "end": 2347.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2311000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/segment_002280_002400.json",
+  "segment_meta": {
+    "start_seconds": 2280,
+    "end_seconds": 2400,
+    "length_seconds": 120,
+    "start_time_mmss": "38:00",
+    "end_time_mmss": "40:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

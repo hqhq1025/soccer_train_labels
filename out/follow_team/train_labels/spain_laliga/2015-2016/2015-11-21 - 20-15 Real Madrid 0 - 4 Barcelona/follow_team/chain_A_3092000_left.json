@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10549,
+  "video_id": "5c1c4a55-6179-5c27-b747-ea32914fc02e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 3092.0,
+      "end": 3092.0,
+      "text": "Trigger: Corner by left @ 2 - 06:32"
+    },
+    {
+      "start": 3137.0,
+      "end": 3137.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 3137.0,
+      "end": 3137.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3092000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/segment_003020_003140.json",
+  "segment_meta": {
+    "start_seconds": 3020,
+    "end_seconds": 3140,
+    "length_seconds": 120,
+    "start_time_mmss": "50:20",
+    "end_time_mmss": "52:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

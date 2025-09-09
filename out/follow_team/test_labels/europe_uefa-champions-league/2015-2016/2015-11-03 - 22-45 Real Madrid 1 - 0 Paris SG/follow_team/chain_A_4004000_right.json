@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1839,
+  "video_id": "00202084-b6e9-56c4-a3a1-ebd35c7b1668",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4004.0,
+      "end": 4004.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4020.0,
+      "end": 4020.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4004000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/segment_003970_004030.json",
+  "segment_meta": {
+    "start_seconds": 3970,
+    "end_seconds": 4030,
+    "length_seconds": 60,
+    "start_time_mmss": "66:10",
+    "end_time_mmss": "67:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

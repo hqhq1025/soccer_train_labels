@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23263,
+  "video_id": "0770183c-5a74-521d-b888-c5f55c4bdb84",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Offside}, start tracking that team; notify me on its {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 5328.0,
+      "end": 5328.0,
+      "text": "Trigger: Offside by right @ 2 - 43:48"
+    },
+    {
+      "start": 5337.0,
+      "end": 5337.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 5351.0,
+      "end": 5351.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5328000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_005280_005400.json",
+  "segment_meta": {
+    "start_seconds": 5280,
+    "end_seconds": 5400,
+    "length_seconds": 120,
+    "start_time_mmss": "88:00",
+    "end_time_mmss": "90:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17240,
+  "video_id": "ba35aa5e-5763-5cae-939d-3177a277a258",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Kick-off}, follow the same team and list all subsequent {Shots on target}.",
+  "answer": [
+    {
+      "start": 2700.0,
+      "end": 2700.0,
+      "text": "Trigger: Kick-off by left"
+    },
+    {
+      "start": 2720.0,
+      "end": 2720.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2700000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_002690_002810.json",
+  "segment_meta": {
+    "start_seconds": 2690,
+    "end_seconds": 2810,
+    "length_seconds": 120,
+    "start_time_mmss": "44:50",
+    "end_time_mmss": "46:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

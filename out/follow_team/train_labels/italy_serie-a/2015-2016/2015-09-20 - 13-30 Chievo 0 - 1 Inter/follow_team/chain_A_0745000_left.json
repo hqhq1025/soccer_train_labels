@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15743,
+  "video_id": "1c08458f-02fb-5f21-936a-c55d9b4b2d05",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 745.0,
+      "end": 745.0,
+      "text": "Trigger: Clearance by left @ 1 - 12:25"
+    },
+    {
+      "start": 774.0,
+      "end": 774.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 745000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_000660_000780.json",
+  "segment_meta": {
+    "start_seconds": 660,
+    "end_seconds": 780,
+    "length_seconds": 120,
+    "start_time_mmss": "11:00",
+    "end_time_mmss": "13:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

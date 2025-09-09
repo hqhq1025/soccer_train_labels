@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1885,
+  "video_id": "4fa01c0a-ca12-5c1f-9def-5dadc9756221",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
+  "answer": [
+    {
+      "start": 5321.0,
+      "end": 5321.0,
+      "text": "Trigger: Foul by left @ 2 - 43:41"
+    },
+    {
+      "start": 5326.0,
+      "end": 5326.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5321000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/segment_005290_005330.json",
+  "segment_meta": {
+    "start_seconds": 5290,
+    "end_seconds": 5330,
+    "length_seconds": 40,
+    "start_time_mmss": "88:10",
+    "end_time_mmss": "88:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

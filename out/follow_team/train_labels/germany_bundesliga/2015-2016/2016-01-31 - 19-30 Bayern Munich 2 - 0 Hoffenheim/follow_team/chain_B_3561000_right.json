@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2696,
+  "video_id": "b85d9c44-292a-506c-8988-e8136a28823b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 3561.0,
+      "end": 3561.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 3563.0,
+      "end": 3563.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3561000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/segment_003520_003600.json",
+  "segment_meta": {
+    "start_seconds": 3520,
+    "end_seconds": 3600,
+    "length_seconds": 80,
+    "start_time_mmss": "58:40",
+    "end_time_mmss": "60:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

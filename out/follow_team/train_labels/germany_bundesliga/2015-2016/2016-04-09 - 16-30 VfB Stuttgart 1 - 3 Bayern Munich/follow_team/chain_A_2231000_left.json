@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2547,
+  "video_id": "5ef1e6b5-d76f-55b6-9929-801d91a313da",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 2231.0,
+      "end": 2231.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 37:11"
+    },
+    {
+      "start": 2241.0,
+      "end": 2241.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2231000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/segment_002130_002250.json",
+  "segment_meta": {
+    "start_seconds": 2130,
+    "end_seconds": 2250,
+    "length_seconds": 120,
+    "start_time_mmss": "35:30",
+    "end_time_mmss": "37:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

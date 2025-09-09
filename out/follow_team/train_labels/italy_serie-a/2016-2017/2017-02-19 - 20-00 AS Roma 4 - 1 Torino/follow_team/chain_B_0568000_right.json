@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19408,
+  "video_id": "e882317b-d588-5cf0-af2d-08af7b509ffb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "answer": [
+    {
+      "start": 568.0,
+      "end": 568.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 569.0,
+      "end": 569.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 568000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/segment_000550_000590.json",
+  "segment_meta": {
+    "start_seconds": 550,
+    "end_seconds": 590,
+    "length_seconds": 40,
+    "start_time_mmss": "09:10",
+    "end_time_mmss": "09:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

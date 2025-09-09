@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7670,
+  "video_id": "b5dde2bc-bcb2-5a9e-a568-8009e9e94f7d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Indirect free-kick} it makes.",
+  "answer": [
+    {
+      "start": 4253.0,
+      "end": 4253.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 4310.0,
+      "end": 4310.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Shakhtar Donetsk 0 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Shakhtar Donetsk 0 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4253000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Shakhtar Donetsk 0 - 0 Bayern Munich/segment_004210_004330.json",
+  "segment_meta": {
+    "start_seconds": 4210,
+    "end_seconds": 4330,
+    "length_seconds": 120,
+    "start_time_mmss": "70:10",
+    "end_time_mmss": "72:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

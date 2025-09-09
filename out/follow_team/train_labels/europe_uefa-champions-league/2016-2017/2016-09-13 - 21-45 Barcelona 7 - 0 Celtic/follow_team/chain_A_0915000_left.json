@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9513,
+  "video_id": "4456d63d-8273-5513-8e4d-f05a9c6ca95d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots off target}; then follow that team and report its {Shots off target}.",
+  "answer": [
+    {
+      "start": 915.0,
+      "end": 915.0,
+      "text": "Trigger: Shots off target by left @ 1 - 15:15"
+    },
+    {
+      "start": 954.0,
+      "end": 954.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 915000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/segment_000880_000960.json",
+  "segment_meta": {
+    "start_seconds": 880,
+    "end_seconds": 960,
+    "length_seconds": 80,
+    "start_time_mmss": "14:40",
+    "end_time_mmss": "16:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

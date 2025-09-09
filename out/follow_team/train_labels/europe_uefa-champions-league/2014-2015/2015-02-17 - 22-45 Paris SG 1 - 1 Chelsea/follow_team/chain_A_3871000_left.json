@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7983,
+  "video_id": "a64beab8-81a3-5391-a122-fc845e8848ee",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 3871.0,
+      "end": 3871.0,
+      "text": "Trigger: Foul by left @ 2 - 19:31"
+    },
+    {
+      "start": 3890.0,
+      "end": 3890.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3871000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/segment_003780_003900.json",
+  "segment_meta": {
+    "start_seconds": 3780,
+    "end_seconds": 3900,
+    "length_seconds": 120,
+    "start_time_mmss": "63:00",
+    "end_time_mmss": "65:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

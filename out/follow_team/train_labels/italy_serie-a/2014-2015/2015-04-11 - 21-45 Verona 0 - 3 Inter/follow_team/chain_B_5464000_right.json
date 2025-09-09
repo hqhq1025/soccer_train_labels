@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16048,
+  "video_id": "fbbe270f-2c97-5ad0-bd84-fab696089639",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 5464.0,
+      "end": 5464.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 5484.0,
+      "end": 5484.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5464000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/segment_005430_005490.json",
+  "segment_meta": {
+    "start_seconds": 5430,
+    "end_seconds": 5490,
+    "length_seconds": 60,
+    "start_time_mmss": "90:30",
+    "end_time_mmss": "91:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21316,
+  "video_id": "e15c3cf6-3d87-58b8-a263-6cf49213e024",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Clearance}, stick with that team and alert me for {Shots on target}.",
+  "answer": [
+    {
+      "start": 3949.0,
+      "end": 3949.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 3960.0,
+      "end": 3960.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Manchester City 2 - 0 Watford/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Manchester City 2 - 0 Watford/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3949000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Manchester City 2 - 0 Watford/segment_003890_003990.json",
+  "segment_meta": {
+    "start_seconds": 3890,
+    "end_seconds": 3990,
+    "length_seconds": 100,
+    "start_time_mmss": "64:50",
+    "end_time_mmss": "66:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22296,
+  "video_id": "0d470237-84ee-5461-ab0e-4265d5a30c29",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 3175.0,
+      "end": 3175.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 3189.0,
+      "end": 3189.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3175000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/segment_003120_003240.json",
+  "segment_meta": {
+    "start_seconds": 3120,
+    "end_seconds": 3240,
+    "length_seconds": 120,
+    "start_time_mmss": "52:00",
+    "end_time_mmss": "54:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

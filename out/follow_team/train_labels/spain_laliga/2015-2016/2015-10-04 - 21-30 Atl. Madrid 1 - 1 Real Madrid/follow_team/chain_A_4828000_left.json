@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10771,
+  "video_id": "91833a1b-f2a0-56c7-ae68-6b58c97ce78e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Clearance}, stick with that team and alert me for {Foul and Throw-in}.",
+  "answer": [
+    {
+      "start": 4828.0,
+      "end": 4828.0,
+      "text": "Trigger: Clearance by left @ 2 - 35:28"
+    },
+    {
+      "start": 4831.0,
+      "end": 4831.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4870.0,
+      "end": 4870.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4828000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_004810_004930.json",
+  "segment_meta": {
+    "start_seconds": 4810,
+    "end_seconds": 4930,
+    "length_seconds": 120,
+    "start_time_mmss": "80:10",
+    "end_time_mmss": "82:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

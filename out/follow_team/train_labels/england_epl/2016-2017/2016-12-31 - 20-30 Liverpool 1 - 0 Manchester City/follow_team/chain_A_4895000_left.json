@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24479,
+  "video_id": "a521ef06-0205-5a8b-b847-0ac0c36b9a52",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Corner and Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 4895.0,
+      "end": 4895.0,
+      "text": "Trigger: Shots on target by left @ 2 - 36:35"
+    },
+    {
+      "start": 4945.0,
+      "end": 4945.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 4976.0,
+      "end": 4976.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4895000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/segment_004860_004980.json",
+  "segment_meta": {
+    "start_seconds": 4860,
+    "end_seconds": 4980,
+    "length_seconds": 120,
+    "start_time_mmss": "81:00",
+    "end_time_mmss": "83:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

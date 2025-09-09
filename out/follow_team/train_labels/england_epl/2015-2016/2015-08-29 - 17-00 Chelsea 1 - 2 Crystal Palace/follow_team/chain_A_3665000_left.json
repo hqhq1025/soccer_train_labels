@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22557,
+  "video_id": "79b18969-95b0-5fba-8dc2-7863e6aaa9aa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 3665.0,
+      "end": 3665.0,
+      "text": "Trigger: Direct free-kick by left @ 2 - 16:05"
+    },
+    {
+      "start": 3679.0,
+      "end": 3679.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3665000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_003560_003680.json",
+  "segment_meta": {
+    "start_seconds": 3560,
+    "end_seconds": 3680,
+    "length_seconds": 120,
+    "start_time_mmss": "59:20",
+    "end_time_mmss": "61:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

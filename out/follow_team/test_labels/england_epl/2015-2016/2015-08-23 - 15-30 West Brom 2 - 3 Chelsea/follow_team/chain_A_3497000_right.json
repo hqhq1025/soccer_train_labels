@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8401,
+  "video_id": "db69e364-f8c3-524e-954f-3cea850e168c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Shots on target and Goal} happen.",
+  "answer": [
+    {
+      "start": 3497.0,
+      "end": 3497.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 3512.0,
+      "end": 3512.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 3513.0,
+      "end": 3513.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3497000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/segment_003450_003530.json",
+  "segment_meta": {
+    "start_seconds": 3450,
+    "end_seconds": 3530,
+    "length_seconds": 80,
+    "start_time_mmss": "57:30",
+    "end_time_mmss": "58:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

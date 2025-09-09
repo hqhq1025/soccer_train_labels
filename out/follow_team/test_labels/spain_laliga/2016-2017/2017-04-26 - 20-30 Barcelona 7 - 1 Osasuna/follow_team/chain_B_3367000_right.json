@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5128,
+  "video_id": "291e8b47-5561-558d-82f0-87a32788f0b5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 3367.0,
+      "end": 3367.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 3379.0,
+      "end": 3379.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-26 - 20-30 Barcelona 7 - 1 Osasuna/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-04-26 - 20-30 Barcelona 7 - 1 Osasuna/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3367000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-04-26 - 20-30 Barcelona 7 - 1 Osasuna/segment_003290_003390.json",
+  "segment_meta": {
+    "start_seconds": 3290,
+    "end_seconds": 3390,
+    "length_seconds": 100,
+    "start_time_mmss": "54:50",
+    "end_time_mmss": "56:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10604,
+  "video_id": "30b75b88-22d3-5866-96d5-a517bc4c8f13",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 4529.0,
+      "end": 4529.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 4569.0,
+      "end": 4569.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4529000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/segment_004480_004580.json",
+  "segment_meta": {
+    "start_seconds": 4480,
+    "end_seconds": 4580,
+    "length_seconds": 100,
+    "start_time_mmss": "74:40",
+    "end_time_mmss": "76:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

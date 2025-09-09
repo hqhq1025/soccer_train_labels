@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 725,
+  "video_id": "df682064-e680-5a2b-b395-9cf725fbb6b7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Yellow card}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 2066.0,
+      "end": 2066.0,
+      "text": "Trigger: Yellow card by left @ 1 - 34:26"
+    },
+    {
+      "start": 2129.0,
+      "end": 2129.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2066000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/segment_002030_002130.json",
+  "segment_meta": {
+    "start_seconds": 2030,
+    "end_seconds": 2130,
+    "length_seconds": 100,
+    "start_time_mmss": "33:50",
+    "end_time_mmss": "35:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

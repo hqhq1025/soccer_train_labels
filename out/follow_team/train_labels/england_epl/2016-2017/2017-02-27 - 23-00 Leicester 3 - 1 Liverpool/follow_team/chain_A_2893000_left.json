@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23745,
+  "video_id": "f94d8f50-7de8-5d0b-82ed-fc8d0a27f905",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 2893.0,
+      "end": 2893.0,
+      "text": "Trigger: Throw-in by left @ 2 - 03:13"
+    },
+    {
+      "start": 2919.0,
+      "end": 2919.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2893000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/segment_002840_002960.json",
+  "segment_meta": {
+    "start_seconds": 2840,
+    "end_seconds": 2960,
+    "length_seconds": 120,
+    "start_time_mmss": "47:20",
+    "end_time_mmss": "49:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

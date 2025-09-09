@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6231,
+  "video_id": "98465700-9bf6-5dc6-88f3-dc8709fddf90",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 3120.0,
+      "end": 3120.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3121.0,
+      "end": 3121.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3120000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/segment_003050_003130.json",
+  "segment_meta": {
+    "start_seconds": 3050,
+    "end_seconds": 3130,
+    "length_seconds": 80,
+    "start_time_mmss": "50:50",
+    "end_time_mmss": "52:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

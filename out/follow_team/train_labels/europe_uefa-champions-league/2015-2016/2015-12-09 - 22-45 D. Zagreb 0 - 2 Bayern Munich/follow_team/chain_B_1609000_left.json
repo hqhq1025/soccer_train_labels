@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5796,
+  "video_id": "c6af4dd1-0411-57f6-8608-22e84b6c7280",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 1609.0,
+      "end": 1609.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 1646.0,
+      "end": 1646.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1609000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/segment_001570_001650.json",
+  "segment_meta": {
+    "start_seconds": 1570,
+    "end_seconds": 1650,
+    "length_seconds": 80,
+    "start_time_mmss": "26:10",
+    "end_time_mmss": "27:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

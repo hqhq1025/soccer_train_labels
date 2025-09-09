@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20392,
+  "video_id": "3080104c-4156-5082-801c-70b0dc07c8b3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots off target}.",
+  "answer": [
+    {
+      "start": 2512.0,
+      "end": 2512.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2535.0,
+      "end": 2535.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2512000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/segment_002420_002540.json",
+  "segment_meta": {
+    "start_seconds": 2420,
+    "end_seconds": 2540,
+    "length_seconds": 120,
+    "start_time_mmss": "40:20",
+    "end_time_mmss": "42:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

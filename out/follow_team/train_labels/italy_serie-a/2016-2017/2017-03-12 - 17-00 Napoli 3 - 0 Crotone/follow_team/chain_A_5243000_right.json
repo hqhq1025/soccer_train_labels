@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16797,
+  "video_id": "421c3229-800b-549e-af3a-001ed16497c7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Corner}.",
+  "answer": [
+    {
+      "start": 5243.0,
+      "end": 5243.0,
+      "text": "Trigger: Shots on target by right @ 2 - 42:23"
+    },
+    {
+      "start": 5267.0,
+      "end": 5267.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5243000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/segment_005190_005310.json",
+  "segment_meta": {
+    "start_seconds": 5190,
+    "end_seconds": 5310,
+    "length_seconds": 120,
+    "start_time_mmss": "86:30",
+    "end_time_mmss": "88:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

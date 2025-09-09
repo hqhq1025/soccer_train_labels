@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2205,
+  "video_id": "103fceb4-d8d9-52a3-8478-7889781a5912",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Offside}.",
+  "answer": [
+    {
+      "start": 2761.0,
+      "end": 2761.0,
+      "text": "Trigger: Throw-in by right @ 2 - 01:01"
+    },
+    {
+      "start": 2789.0,
+      "end": 2789.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2761000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_002730_002850.json",
+  "segment_meta": {
+    "start_seconds": 2730,
+    "end_seconds": 2850,
+    "length_seconds": 120,
+    "start_time_mmss": "45:30",
+    "end_time_mmss": "47:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

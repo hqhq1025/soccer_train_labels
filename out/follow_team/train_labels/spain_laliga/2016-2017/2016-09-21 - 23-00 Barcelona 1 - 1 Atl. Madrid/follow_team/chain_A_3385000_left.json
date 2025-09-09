@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12745,
+  "video_id": "15db28d1-4eab-5de3-a993-b5422acc985d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 3385.0,
+      "end": 3385.0,
+      "text": "Trigger: Corner by left @ 2 - 11:25"
+    },
+    {
+      "start": 3389.0,
+      "end": 3389.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3385000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/segment_003300_003400.json",
+  "segment_meta": {
+    "start_seconds": 3300,
+    "end_seconds": 3400,
+    "length_seconds": 100,
+    "start_time_mmss": "55:00",
+    "end_time_mmss": "56:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

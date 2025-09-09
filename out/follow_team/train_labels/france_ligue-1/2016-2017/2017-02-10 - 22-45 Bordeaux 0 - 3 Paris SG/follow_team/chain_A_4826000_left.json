@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1425,
+  "video_id": "d67483f6-2a70-557d-b2ec-91982169a42e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Offside}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 4826.0,
+      "end": 4826.0,
+      "text": "Trigger: Offside by left @ 2 - 35:26"
+    },
+    {
+      "start": 4879.0,
+      "end": 4879.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 4896.0,
+      "end": 4896.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-02-10 - 22-45 Bordeaux 0 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-10 - 22-45 Bordeaux 0 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4826000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-10 - 22-45 Bordeaux 0 - 3 Paris SG/segment_004790_004910.json",
+  "segment_meta": {
+    "start_seconds": 4790,
+    "end_seconds": 4910,
+    "length_seconds": 120,
+    "start_time_mmss": "79:50",
+    "end_time_mmss": "81:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8880,
+  "video_id": "1a931a4c-9528-5716-a30f-54138624c6dc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 403.0,
+      "end": 403.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 405.0,
+      "end": 405.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 403000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/segment_000330_000410.json",
+  "segment_meta": {
+    "start_seconds": 330,
+    "end_seconds": 410,
+    "length_seconds": 80,
+    "start_time_mmss": "05:30",
+    "end_time_mmss": "06:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22884,
+  "video_id": "d76b5d7a-f69c-5432-b1d6-3a6102425145",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 413.0,
+      "end": 413.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 470.0,
+      "end": 470.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 413000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/segment_000380_000500.json",
+  "segment_meta": {
+    "start_seconds": 380,
+    "end_seconds": 500,
+    "length_seconds": 120,
+    "start_time_mmss": "06:20",
+    "end_time_mmss": "08:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

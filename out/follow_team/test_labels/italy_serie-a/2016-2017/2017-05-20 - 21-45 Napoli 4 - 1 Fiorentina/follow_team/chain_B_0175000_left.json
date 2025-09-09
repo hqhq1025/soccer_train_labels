@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5706,
+  "video_id": "7422f730-1ee5-57eb-8d52-f3b71b4dcbb9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 175.0,
+      "end": 175.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 224.0,
+      "end": 224.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 175000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/segment_000150_000230.json",
+  "segment_meta": {
+    "start_seconds": 150,
+    "end_seconds": 230,
+    "length_seconds": 80,
+    "start_time_mmss": "02:30",
+    "end_time_mmss": "03:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

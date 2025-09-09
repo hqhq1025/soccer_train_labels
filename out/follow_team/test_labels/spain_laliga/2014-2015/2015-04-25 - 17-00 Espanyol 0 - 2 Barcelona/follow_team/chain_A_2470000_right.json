@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4283,
+  "video_id": "cfa0a6d0-71d1-5166-a914-aaa9ccf1c7e4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 2470.0,
+      "end": 2470.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2496.0,
+      "end": 2496.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2470000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/segment_002420_002520.json",
+  "segment_meta": {
+    "start_seconds": 2420,
+    "end_seconds": 2520,
+    "length_seconds": 100,
+    "start_time_mmss": "40:20",
+    "end_time_mmss": "42:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

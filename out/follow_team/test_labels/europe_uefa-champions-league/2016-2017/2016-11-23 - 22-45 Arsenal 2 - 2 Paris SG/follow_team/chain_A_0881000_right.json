@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2829,
+  "video_id": "99f7a8b1-175d-51bc-8cca-a90d5b8e6fef",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 881.0,
+      "end": 881.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 883.0,
+      "end": 883.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 881000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/segment_000830_000890.json",
+  "segment_meta": {
+    "start_seconds": 830,
+    "end_seconds": 890,
+    "length_seconds": 60,
+    "start_time_mmss": "13:50",
+    "end_time_mmss": "14:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

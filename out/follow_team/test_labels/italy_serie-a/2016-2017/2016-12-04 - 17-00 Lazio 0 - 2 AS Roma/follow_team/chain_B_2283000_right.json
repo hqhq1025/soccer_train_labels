@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6410,
+  "video_id": "18cba4c6-da97-589b-a2a8-9d025205b9cf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 2283.0,
+      "end": 2283.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2306.0,
+      "end": 2306.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2283000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/segment_002250_002310.json",
+  "segment_meta": {
+    "start_seconds": 2250,
+    "end_seconds": 2310,
+    "length_seconds": 60,
+    "start_time_mmss": "37:30",
+    "end_time_mmss": "38:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22073,
+  "video_id": "baf82672-77c0-5a74-ab6b-50db4b8d8f0d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Offside}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 2205.0,
+      "end": 2205.0,
+      "text": "Trigger: Offside by left @ 1 - 36:45"
+    },
+    {
+      "start": 2219.0,
+      "end": 2219.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 2232.0,
+      "end": 2232.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2205000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/segment_002160_002240.json",
+  "segment_meta": {
+    "start_seconds": 2160,
+    "end_seconds": 2240,
+    "length_seconds": 80,
+    "start_time_mmss": "36:00",
+    "end_time_mmss": "37:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

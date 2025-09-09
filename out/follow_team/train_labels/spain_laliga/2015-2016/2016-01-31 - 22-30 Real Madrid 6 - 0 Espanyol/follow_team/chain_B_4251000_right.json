@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10586,
+  "video_id": "d0dac9d5-6e72-5407-9f9e-416e53104021",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Indirect free-kick} it makes.",
+  "answer": [
+    {
+      "start": 4251.0,
+      "end": 4251.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 4276.0,
+      "end": 4276.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4251000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/segment_004200_004320.json",
+  "segment_meta": {
+    "start_seconds": 4200,
+    "end_seconds": 4320,
+    "length_seconds": 120,
+    "start_time_mmss": "70:00",
+    "end_time_mmss": "72:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

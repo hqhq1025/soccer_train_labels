@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8949,
+  "video_id": "7985f015-d09f-5f6a-8fca-7833c4092ee5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Substitution}, follow the same team and list all subsequent {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 4677.0,
+      "end": 4677.0,
+      "text": "Trigger: Substitution by right @ 2 - 32:57"
+    },
+    {
+      "start": 4713.0,
+      "end": 4713.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 4714.0,
+      "end": 4714.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4677000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/segment_004660_004720.json",
+  "segment_meta": {
+    "start_seconds": 4660,
+    "end_seconds": 4720,
+    "length_seconds": 60,
+    "start_time_mmss": "77:40",
+    "end_time_mmss": "78:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

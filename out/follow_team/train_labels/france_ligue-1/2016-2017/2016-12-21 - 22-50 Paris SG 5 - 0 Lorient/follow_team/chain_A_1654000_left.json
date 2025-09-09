@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1529,
+  "video_id": "081e5e5a-0957-54d3-9bf0-b86d66f2f5ae",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Direct free-kick}.",
+  "answer": [
+    {
+      "start": 1654.0,
+      "end": 1654.0,
+      "text": "Trigger: Foul by left @ 1 - 27:34"
+    },
+    {
+      "start": 1706.0,
+      "end": 1706.0,
+      "text": "Then: Direct free-kick by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1654000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/segment_001590_001710.json",
+  "segment_meta": {
+    "start_seconds": 1590,
+    "end_seconds": 1710,
+    "length_seconds": 120,
+    "start_time_mmss": "26:30",
+    "end_time_mmss": "28:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

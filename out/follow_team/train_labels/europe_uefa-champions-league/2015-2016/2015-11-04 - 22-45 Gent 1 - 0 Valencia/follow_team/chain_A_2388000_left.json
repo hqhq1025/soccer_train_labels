@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7351,
+  "video_id": "fc06ee50-5a79-5a71-9284-79f2c28f702c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 2388.0,
+      "end": 2388.0,
+      "text": "Trigger: Throw-in by left @ 1 - 39:48"
+    },
+    {
+      "start": 2394.0,
+      "end": 2394.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2388000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/segment_002360_002480.json",
+  "segment_meta": {
+    "start_seconds": 2360,
+    "end_seconds": 2480,
+    "length_seconds": 120,
+    "start_time_mmss": "39:20",
+    "end_time_mmss": "41:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2606,
+  "video_id": "973b3848-3c9e-525b-91a5-f589311f0731",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 432.0,
+      "end": 432.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 465.0,
+      "end": 465.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 432000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/segment_000410_000510.json",
+  "segment_meta": {
+    "start_seconds": 410,
+    "end_seconds": 510,
+    "length_seconds": 100,
+    "start_time_mmss": "06:50",
+    "end_time_mmss": "08:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

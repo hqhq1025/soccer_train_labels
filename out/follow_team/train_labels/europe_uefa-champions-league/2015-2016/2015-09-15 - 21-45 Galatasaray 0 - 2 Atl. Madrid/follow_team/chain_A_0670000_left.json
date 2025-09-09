@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5987,
+  "video_id": "bd79c338-9d3a-555a-8630-b8e702801003",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 670.0,
+      "end": 670.0,
+      "text": "Trigger: Corner by left @ 1 - 11:10"
+    },
+    {
+      "start": 693.0,
+      "end": 693.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 670000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/segment_000660_000700.json",
+  "segment_meta": {
+    "start_seconds": 660,
+    "end_seconds": 700,
+    "length_seconds": 40,
+    "start_time_mmss": "11:00",
+    "end_time_mmss": "11:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

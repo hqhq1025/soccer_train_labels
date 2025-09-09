@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14989,
+  "video_id": "572796ff-ff94-5453-ae11-c233ba4d2c62",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Offside}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 2017.0,
+      "end": 2017.0,
+      "text": "Trigger: Offside by left @ 1 - 33:37"
+    },
+    {
+      "start": 2058.0,
+      "end": 2058.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2017000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/segment_002000_002060.json",
+  "segment_meta": {
+    "start_seconds": 2000,
+    "end_seconds": 2060,
+    "length_seconds": 60,
+    "start_time_mmss": "33:20",
+    "end_time_mmss": "34:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

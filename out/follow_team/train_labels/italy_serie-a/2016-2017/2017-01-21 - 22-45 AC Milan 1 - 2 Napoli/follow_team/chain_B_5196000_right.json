@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19956,
+  "video_id": "4c8e88c9-d30f-5b5d-9420-a209f6170acf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 5196.0,
+      "end": 5196.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 5258.0,
+      "end": 5258.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5196000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/segment_005170_005290.json",
+  "segment_meta": {
+    "start_seconds": 5170,
+    "end_seconds": 5290,
+    "length_seconds": 120,
+    "start_time_mmss": "86:10",
+    "end_time_mmss": "88:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

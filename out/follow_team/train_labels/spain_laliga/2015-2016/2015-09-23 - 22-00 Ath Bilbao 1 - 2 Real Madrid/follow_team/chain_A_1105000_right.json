@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10303,
+  "video_id": "bad8640f-a67c-580f-b82f-790a77fb1f7d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 1105.0,
+      "end": 1105.0,
+      "text": "Trigger: Shots off target by right @ 1 - 18:25"
+    },
+    {
+      "start": 1119.0,
+      "end": 1119.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1105000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/segment_001020_001120.json",
+  "segment_meta": {
+    "start_seconds": 1020,
+    "end_seconds": 1120,
+    "length_seconds": 100,
+    "start_time_mmss": "17:00",
+    "end_time_mmss": "18:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

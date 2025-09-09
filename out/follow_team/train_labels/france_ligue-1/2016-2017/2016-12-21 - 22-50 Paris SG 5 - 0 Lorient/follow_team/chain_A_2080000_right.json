@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1545,
+  "video_id": "de140f3d-9712-523d-87e1-3ced30f079a6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 2080.0,
+      "end": 2080.0,
+      "text": "Trigger: Throw-in by right @ 1 - 34:40"
+    },
+    {
+      "start": 2102.0,
+      "end": 2102.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2080000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/segment_002010_002110.json",
+  "segment_meta": {
+    "start_seconds": 2010,
+    "end_seconds": 2110,
+    "length_seconds": 100,
+    "start_time_mmss": "33:30",
+    "end_time_mmss": "35:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

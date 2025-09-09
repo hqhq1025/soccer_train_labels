@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8268,
+  "video_id": "1abd83a0-f77c-59ef-bd2b-9ae3c9b6641f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 236.0,
+      "end": 236.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 255.0,
+      "end": 255.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-03 - 22-45 Watford 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2016-02-03 - 22-45 Watford 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 236000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2016-02-03 - 22-45 Watford 0 - 0 Chelsea/segment_000180_000260.json",
+  "segment_meta": {
+    "start_seconds": 180,
+    "end_seconds": 260,
+    "length_seconds": 80,
+    "start_time_mmss": "03:00",
+    "end_time_mmss": "04:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

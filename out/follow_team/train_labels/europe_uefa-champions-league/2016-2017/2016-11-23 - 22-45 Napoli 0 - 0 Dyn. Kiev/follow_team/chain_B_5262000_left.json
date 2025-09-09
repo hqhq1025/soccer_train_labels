@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9624,
+  "video_id": "e92627c0-4eb2-52ee-8dba-f6b1ff767e42",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 5262.0,
+      "end": 5262.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5338.0,
+      "end": 5338.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5262000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/segment_005240_005360.json",
+  "segment_meta": {
+    "start_seconds": 5240,
+    "end_seconds": 5360,
+    "length_seconds": 120,
+    "start_time_mmss": "87:20",
+    "end_time_mmss": "89:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

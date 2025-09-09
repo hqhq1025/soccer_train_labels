@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22543,
+  "video_id": "c761d35e-0c5d-5eb3-8803-4ae0e7d9e704",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Shots off target and Corner}.",
+  "answer": [
+    {
+      "start": 3387.0,
+      "end": 3387.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 11:27"
+    },
+    {
+      "start": 3400.0,
+      "end": 3400.0,
+      "text": "Then: Shots off target by left"
+    },
+    {
+      "start": 3409.0,
+      "end": 3409.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3387000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_003310_003430.json",
+  "segment_meta": {
+    "start_seconds": 3310,
+    "end_seconds": 3430,
+    "length_seconds": 120,
+    "start_time_mmss": "55:10",
+    "end_time_mmss": "57:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

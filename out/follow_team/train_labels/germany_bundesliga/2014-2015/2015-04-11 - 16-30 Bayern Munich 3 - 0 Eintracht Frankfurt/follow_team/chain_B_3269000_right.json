@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3124,
+  "video_id": "f91829c2-b8e1-5762-bb40-a7640c87c918",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 3269.0,
+      "end": 3269.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3283.0,
+      "end": 3283.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-04-11 - 16-30 Bayern Munich 3 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-11 - 16-30 Bayern Munich 3 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3269000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-11 - 16-30 Bayern Munich 3 - 0 Eintracht Frankfurt/segment_003210_003290.json",
+  "segment_meta": {
+    "start_seconds": 3210,
+    "end_seconds": 3290,
+    "length_seconds": 80,
+    "start_time_mmss": "53:30",
+    "end_time_mmss": "54:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7440,
+  "video_id": "c6c74456-e5a1-587a-990f-c7dbaaf322ee",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Clearance}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 2891.0,
+      "end": 2891.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2920.0,
+      "end": 2920.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2891000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/segment_002820_002940.json",
+  "segment_meta": {
+    "start_seconds": 2820,
+    "end_seconds": 2940,
+    "length_seconds": 120,
+    "start_time_mmss": "47:00",
+    "end_time_mmss": "49:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

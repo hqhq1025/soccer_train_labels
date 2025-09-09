@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 253,
+  "video_id": "8572144f-069e-5bc6-899a-ebe46e42c456",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Offside} happen.",
+  "answer": [
+    {
+      "start": 2530.0,
+      "end": 2530.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2549.0,
+      "end": 2549.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2530000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/segment_002490_002550.json",
+  "segment_meta": {
+    "start_seconds": 2490,
+    "end_seconds": 2550,
+    "length_seconds": 60,
+    "start_time_mmss": "41:30",
+    "end_time_mmss": "42:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

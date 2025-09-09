@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23153,
+  "video_id": "26353b09-2b45-53da-8f8f-7a74a0ca0083",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 5327.0,
+      "end": 5327.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 43:47"
+    },
+    {
+      "start": 5342.0,
+      "end": 5342.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5327000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_005270_005350.json",
+  "segment_meta": {
+    "start_seconds": 5270,
+    "end_seconds": 5350,
+    "length_seconds": 80,
+    "start_time_mmss": "87:50",
+    "end_time_mmss": "89:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

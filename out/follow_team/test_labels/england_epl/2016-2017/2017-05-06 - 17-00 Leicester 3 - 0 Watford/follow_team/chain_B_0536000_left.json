@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8914,
+  "video_id": "76019da4-70b0-57c1-af2e-a934685f41f4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Corner}.",
+  "answer": [
+    {
+      "start": 536.0,
+      "end": 536.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 578.0,
+      "end": 578.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 536000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/segment_000520_000580.json",
+  "segment_meta": {
+    "start_seconds": 520,
+    "end_seconds": 580,
+    "length_seconds": 60,
+    "start_time_mmss": "08:40",
+    "end_time_mmss": "09:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

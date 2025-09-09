@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23872,
+  "video_id": "ff9a22d7-2431-5ed8-b5b6-ca575cc09ba6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 380.0,
+      "end": 380.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 407.0,
+      "end": 407.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 380000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/segment_000330_000450.json",
+  "segment_meta": {
+    "start_seconds": 330,
+    "end_seconds": 450,
+    "length_seconds": 120,
+    "start_time_mmss": "05:30",
+    "end_time_mmss": "07:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

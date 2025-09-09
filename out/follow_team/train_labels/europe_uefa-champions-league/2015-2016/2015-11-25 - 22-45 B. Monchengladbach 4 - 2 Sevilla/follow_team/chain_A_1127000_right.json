@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6719,
+  "video_id": "6e973e23-d70e-5526-a5d3-db82eb4fcd95",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 1127.0,
+      "end": 1127.0,
+      "text": "Trigger: Shots on target by right @ 1 - 18:47"
+    },
+    {
+      "start": 1136.0,
+      "end": 1136.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1127000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/segment_001100_001140.json",
+  "segment_meta": {
+    "start_seconds": 1100,
+    "end_seconds": 1140,
+    "length_seconds": 40,
+    "start_time_mmss": "18:20",
+    "end_time_mmss": "19:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

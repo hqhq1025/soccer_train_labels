@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18985,
+  "video_id": "c8c75439-e2b9-5b5a-baba-6d387758625c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 4382.0,
+      "end": 4382.0,
+      "text": "Trigger: Direct free-kick by left @ 2 - 28:02"
+    },
+    {
+      "start": 4383.0,
+      "end": 4383.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4382000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_004320_004400.json",
+  "segment_meta": {
+    "start_seconds": 4320,
+    "end_seconds": 4400,
+    "length_seconds": 80,
+    "start_time_mmss": "72:00",
+    "end_time_mmss": "73:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

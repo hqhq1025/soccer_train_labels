@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4349,
+  "video_id": "c977a46a-5a83-594b-828d-5d8a594959cf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Goal and Shots on target} happen.",
+  "answer": [
+    {
+      "start": 951.0,
+      "end": 951.0,
+      "text": "Trigger: Throw-in by left @ 1 - 15:51"
+    },
+    {
+      "start": 957.0,
+      "end": 957.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 957.0,
+      "end": 957.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 951000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/segment_000900_001000.json",
+  "segment_meta": {
+    "start_seconds": 900,
+    "end_seconds": 1000,
+    "length_seconds": 100,
+    "start_time_mmss": "15:00",
+    "end_time_mmss": "16:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

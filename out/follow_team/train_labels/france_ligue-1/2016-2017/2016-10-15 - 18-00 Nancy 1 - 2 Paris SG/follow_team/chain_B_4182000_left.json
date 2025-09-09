@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1150,
+  "video_id": "7c73e5b8-aaf7-56ca-b991-082a449c669e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 4182.0,
+      "end": 4182.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4189.0,
+      "end": 4189.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4182000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/segment_004150_004190.json",
+  "segment_meta": {
+    "start_seconds": 4150,
+    "end_seconds": 4190,
+    "length_seconds": 40,
+    "start_time_mmss": "69:10",
+    "end_time_mmss": "69:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

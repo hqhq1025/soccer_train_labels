@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7430,
+  "video_id": "bb50d6e0-a302-54d7-943b-ef12f6d5a212",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 3643.0,
+      "end": 3643.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 3695.0,
+      "end": 3695.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3643000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/segment_003610_003710.json",
+  "segment_meta": {
+    "start_seconds": 3610,
+    "end_seconds": 3710,
+    "length_seconds": 100,
+    "start_time_mmss": "60:10",
+    "end_time_mmss": "61:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

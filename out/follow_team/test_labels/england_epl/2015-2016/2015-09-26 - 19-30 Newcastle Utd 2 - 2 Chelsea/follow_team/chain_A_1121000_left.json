@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7959,
+  "video_id": "3788a643-01eb-5099-bb1f-783c5ab5d81b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul and Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 1121.0,
+      "end": 1121.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 1153.0,
+      "end": 1153.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 1199.0,
+      "end": 1199.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1121000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/segment_001090_001210.json",
+  "segment_meta": {
+    "start_seconds": 1090,
+    "end_seconds": 1210,
+    "length_seconds": 120,
+    "start_time_mmss": "18:10",
+    "end_time_mmss": "20:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

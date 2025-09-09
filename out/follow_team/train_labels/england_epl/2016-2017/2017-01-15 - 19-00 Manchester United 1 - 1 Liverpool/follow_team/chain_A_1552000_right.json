@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23405,
+  "video_id": "a2abe5b0-8300-5ab6-b273-42c18184bd7a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, continue tracking that team and notify me about any {Goal, Penalty and Shots on target}.",
+  "answer": [
+    {
+      "start": 1552.0,
+      "end": 1552.0,
+      "text": "Trigger: Corner by right @ 1 - 25:52"
+    },
+    {
+      "start": 1596.0,
+      "end": 1596.0,
+      "text": "Then: Goal by right"
+    },
+    {
+      "start": 1596.0,
+      "end": 1596.0,
+      "text": "Then: Penalty by right"
+    },
+    {
+      "start": 1596.0,
+      "end": 1596.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1552000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/segment_001480_001600.json",
+  "segment_meta": {
+    "start_seconds": 1480,
+    "end_seconds": 1600,
+    "length_seconds": 120,
+    "start_time_mmss": "24:40",
+    "end_time_mmss": "26:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

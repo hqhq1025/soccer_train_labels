@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17256,
+  "video_id": "ec8132ef-2508-5baf-855e-9fc1be16ef08",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
+  "answer": [
+    {
+      "start": 4731.0,
+      "end": 4731.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4735.0,
+      "end": 4735.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4731000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_004700_004740.json",
+  "segment_meta": {
+    "start_seconds": 4700,
+    "end_seconds": 4740,
+    "length_seconds": 40,
+    "start_time_mmss": "78:20",
+    "end_time_mmss": "79:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

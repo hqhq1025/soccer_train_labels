@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20740,
+  "video_id": "e5b12ce2-c133-5202-95fe-77556e35527a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Shots on target}.",
+  "answer": [
+    {
+      "start": 4020.0,
+      "end": 4020.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4034.0,
+      "end": 4034.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4020000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/segment_003960_004040.json",
+  "segment_meta": {
+    "start_seconds": 3960,
+    "end_seconds": 4040,
+    "length_seconds": 80,
+    "start_time_mmss": "66:00",
+    "end_time_mmss": "67:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

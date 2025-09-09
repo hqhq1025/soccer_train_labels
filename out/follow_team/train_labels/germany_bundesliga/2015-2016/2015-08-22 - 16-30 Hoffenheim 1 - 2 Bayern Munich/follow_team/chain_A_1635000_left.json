@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2123,
+  "video_id": "605cf0d8-7152-5764-874e-751d54d3db0f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Offside}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 1635.0,
+      "end": 1635.0,
+      "text": "Trigger: Offside by left @ 1 - 27:15"
+    },
+    {
+      "start": 1697.0,
+      "end": 1697.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1635000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/segment_001620_001700.json",
+  "segment_meta": {
+    "start_seconds": 1620,
+    "end_seconds": 1700,
+    "length_seconds": 80,
+    "start_time_mmss": "27:00",
+    "end_time_mmss": "28:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

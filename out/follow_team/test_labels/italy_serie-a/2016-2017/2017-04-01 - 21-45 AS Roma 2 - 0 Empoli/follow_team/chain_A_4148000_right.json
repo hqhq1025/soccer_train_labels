@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6273,
+  "video_id": "0283fea1-7e30-57a7-bd28-83f425bef4c7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 4148.0,
+      "end": 4148.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4150.0,
+      "end": 4150.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4148000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/segment_004050_004170.json",
+  "segment_meta": {
+    "start_seconds": 4050,
+    "end_seconds": 4170,
+    "length_seconds": 120,
+    "start_time_mmss": "67:30",
+    "end_time_mmss": "69:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

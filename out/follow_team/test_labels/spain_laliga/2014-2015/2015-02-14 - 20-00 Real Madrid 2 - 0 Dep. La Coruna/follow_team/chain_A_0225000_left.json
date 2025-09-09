@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4005,
+  "video_id": "3b293fe2-0a53-53c9-82b3-42350c590380",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 225.0,
+      "end": 225.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 248.0,
+      "end": 248.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 225000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/segment_000160_000280.json",
+  "segment_meta": {
+    "start_seconds": 160,
+    "end_seconds": 280,
+    "length_seconds": 120,
+    "start_time_mmss": "02:40",
+    "end_time_mmss": "04:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

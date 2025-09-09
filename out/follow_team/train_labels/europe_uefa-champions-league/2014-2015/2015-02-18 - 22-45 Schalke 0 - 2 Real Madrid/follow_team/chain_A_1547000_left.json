@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9001,
+  "video_id": "30f38a81-deae-509a-b9a4-a6b03dca2b37",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Goal}, follow the same team and list all subsequent {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 1547.0,
+      "end": 1547.0,
+      "text": "Trigger: Goal by left @ 1 - 25:47"
+    },
+    {
+      "start": 1553.0,
+      "end": 1553.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 1554.0,
+      "end": 1554.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1547000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/segment_001480_001560.json",
+  "segment_meta": {
+    "start_seconds": 1480,
+    "end_seconds": 1560,
+    "length_seconds": 80,
+    "start_time_mmss": "24:40",
+    "end_time_mmss": "26:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

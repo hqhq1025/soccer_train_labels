@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19,
+  "video_id": "b6a872c0-89bb-57ff-bd4a-ed27641d11a3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 3758.0,
+      "end": 3758.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 3791.0,
+      "end": 3791.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/",
+  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3758000,
+  "team": "right",
+  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/segment_003730_003810.json",
+  "segment_meta": {
+    "start_seconds": 3730,
+    "end_seconds": 3810,
+    "length_seconds": 80,
+    "start_time_mmss": "62:10",
+    "end_time_mmss": "63:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

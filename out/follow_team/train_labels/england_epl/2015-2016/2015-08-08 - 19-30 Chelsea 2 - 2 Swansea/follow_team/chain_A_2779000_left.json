@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22713,
+  "video_id": "9627cff1-2535-5a77-80a9-aca1c1a9ac38",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card, Indirect free-kick and Offside} it makes.",
+  "answer": [
+    {
+      "start": 2779.0,
+      "end": 2779.0,
+      "text": "Trigger: Foul by left @ 1 - 46:19"
+    },
+    {
+      "start": 2785.0,
+      "end": 2785.0,
+      "text": "Then: Yellow card by left"
+    },
+    {
+      "start": 2829.0,
+      "end": 2829.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 2838.0,
+      "end": 2838.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2779000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/segment_002750_002870.json",
+  "segment_meta": {
+    "start_seconds": 2750,
+    "end_seconds": 2870,
+    "length_seconds": 120,
+    "start_time_mmss": "45:50",
+    "end_time_mmss": "47:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

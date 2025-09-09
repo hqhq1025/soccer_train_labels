@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23194,
+  "video_id": "e7355fca-baea-5ccb-b924-f33f2252560b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 4586.0,
+      "end": 4586.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 4657.0,
+      "end": 4657.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4586000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_004560_004680.json",
+  "segment_meta": {
+    "start_seconds": 4560,
+    "end_seconds": 4680,
+    "length_seconds": 120,
+    "start_time_mmss": "76:00",
+    "end_time_mmss": "78:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

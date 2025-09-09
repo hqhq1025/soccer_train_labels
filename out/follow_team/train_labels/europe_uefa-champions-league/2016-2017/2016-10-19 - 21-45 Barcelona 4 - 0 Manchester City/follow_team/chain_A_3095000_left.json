@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9801,
+  "video_id": "89710361-8b8b-5ce9-b634-6f80f72c9380",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul and Red card}.",
+  "answer": [
+    {
+      "start": 3095.0,
+      "end": 3095.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 06:35"
+    },
+    {
+      "start": 3117.0,
+      "end": 3117.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 3123.0,
+      "end": 3123.0,
+      "text": "Then: Red card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3095000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/segment_003040_003140.json",
+  "segment_meta": {
+    "start_seconds": 3040,
+    "end_seconds": 3140,
+    "length_seconds": 100,
+    "start_time_mmss": "50:40",
+    "end_time_mmss": "52:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

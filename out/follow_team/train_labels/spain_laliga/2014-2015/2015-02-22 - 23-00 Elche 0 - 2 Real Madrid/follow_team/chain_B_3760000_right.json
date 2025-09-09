@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11328,
+  "video_id": "2c446f38-d4bc-56d5-8d4a-7cb303f8d942",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} happens, lock onto that team and report every {Substitution} it makes.",
+  "answer": [
+    {
+      "start": 3760.0,
+      "end": 3760.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 3785.0,
+      "end": 3785.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3760000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/segment_003750_003790.json",
+  "segment_meta": {
+    "start_seconds": 3750,
+    "end_seconds": 3790,
+    "length_seconds": 40,
+    "start_time_mmss": "62:30",
+    "end_time_mmss": "63:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

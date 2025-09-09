@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7134,
+  "video_id": "d8b6b34c-88d0-5d12-9856-267813120dbb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Goal}.",
+  "answer": [
+    {
+      "start": 2609.0,
+      "end": 2609.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2610.0,
+      "end": 2610.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2609000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/segment_002540_002620.json",
+  "segment_meta": {
+    "start_seconds": 2540,
+    "end_seconds": 2620,
+    "length_seconds": 80,
+    "start_time_mmss": "42:20",
+    "end_time_mmss": "43:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

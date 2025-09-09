@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 419,
+  "video_id": "a55c331f-0e4a-56d1-8f1e-be3c4a784045",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 3979.0,
+      "end": 3979.0,
+      "text": "Trigger: Foul by left @ 2 - 21:19"
+    },
+    {
+      "start": 4055.0,
+      "end": 4055.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3979000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/segment_003960_004060.json",
+  "segment_meta": {
+    "start_seconds": 3960,
+    "end_seconds": 4060,
+    "length_seconds": 100,
+    "start_time_mmss": "66:00",
+    "end_time_mmss": "67:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19457,
+  "video_id": "96c72cfc-571e-5794-9dc5-8560eb8fc353",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Offside} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2474.0,
+      "end": 2474.0,
+      "text": "Trigger: Offside by right @ 1 - 41:14"
+    },
+    {
+      "start": 2515.0,
+      "end": 2515.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2474000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/segment_002460_002520.json",
+  "segment_meta": {
+    "start_seconds": 2460,
+    "end_seconds": 2520,
+    "length_seconds": 60,
+    "start_time_mmss": "41:00",
+    "end_time_mmss": "42:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

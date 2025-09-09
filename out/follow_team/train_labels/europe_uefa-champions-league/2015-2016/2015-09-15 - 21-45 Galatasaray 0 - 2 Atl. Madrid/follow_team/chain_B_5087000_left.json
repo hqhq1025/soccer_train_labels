@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5954,
+  "video_id": "26e1080d-8559-5cb6-99bc-54eb68ccb554",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Shots on target}.",
+  "answer": [
+    {
+      "start": 5087.0,
+      "end": 5087.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 5152.0,
+      "end": 5152.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5087000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/segment_005060_005180.json",
+  "segment_meta": {
+    "start_seconds": 5060,
+    "end_seconds": 5180,
+    "length_seconds": 120,
+    "start_time_mmss": "84:20",
+    "end_time_mmss": "86:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

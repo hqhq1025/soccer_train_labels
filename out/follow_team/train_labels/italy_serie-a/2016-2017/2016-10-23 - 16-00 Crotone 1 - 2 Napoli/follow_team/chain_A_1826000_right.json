@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16623,
+  "video_id": "bf89e7f6-06d4-5be1-be0d-d533fd9cd7b6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Red card}.",
+  "answer": [
+    {
+      "start": 1826.0,
+      "end": 1826.0,
+      "text": "Trigger: Foul by right @ 1 - 30:26"
+    },
+    {
+      "start": 1841.0,
+      "end": 1841.0,
+      "text": "Then: Red card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1826000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/segment_001790_001850.json",
+  "segment_meta": {
+    "start_seconds": 1790,
+    "end_seconds": 1850,
+    "length_seconds": 60,
+    "start_time_mmss": "29:50",
+    "end_time_mmss": "30:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

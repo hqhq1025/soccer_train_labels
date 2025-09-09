@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13151,
+  "video_id": "b5d2bce2-09f3-526a-b6bd-bdb828289e66",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Shots on target, Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 3905.0,
+      "end": 3905.0,
+      "text": "Trigger: Throw-in by right @ 2 - 20:05"
+    },
+    {
+      "start": 3921.0,
+      "end": 3921.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 3991.0,
+      "end": 3991.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 3997.0,
+      "end": 3997.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3905000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/segment_003900_004000.json",
+  "segment_meta": {
+    "start_seconds": 3900,
+    "end_seconds": 4000,
+    "length_seconds": 100,
+    "start_time_mmss": "65:00",
+    "end_time_mmss": "66:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 825,
+  "video_id": "b778273c-6935-57c1-ad90-0f406d027f4e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 4927.0,
+      "end": 4927.0,
+      "text": "Trigger: Shots off target by left @ 2 - 37:07"
+    },
+    {
+      "start": 4998.0,
+      "end": 4998.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 4998.0,
+      "end": 4998.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4927000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/segment_004900_005000.json",
+  "segment_meta": {
+    "start_seconds": 4900,
+    "end_seconds": 5000,
+    "length_seconds": 100,
+    "start_time_mmss": "81:40",
+    "end_time_mmss": "83:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13193,
+  "video_id": "b2c14d13-7c7c-5cd8-836b-8ed36996553e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 5270.0,
+      "end": 5270.0,
+      "text": "Trigger: Shots on target by right @ 2 - 42:50"
+    },
+    {
+      "start": 5271.0,
+      "end": 5271.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5270000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/segment_005240_005280.json",
+  "segment_meta": {
+    "start_seconds": 5240,
+    "end_seconds": 5280,
+    "length_seconds": 40,
+    "start_time_mmss": "87:20",
+    "end_time_mmss": "88:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

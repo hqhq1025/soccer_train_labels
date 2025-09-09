@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18390,
+  "video_id": "c7357e3f-ef9a-564e-9077-b432aa72f213",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Clearance}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 564.0,
+      "end": 564.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 596.0,
+      "end": 596.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 564000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/segment_000520_000620.json",
+  "segment_meta": {
+    "start_seconds": 520,
+    "end_seconds": 620,
+    "length_seconds": 100,
+    "start_time_mmss": "08:40",
+    "end_time_mmss": "10:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

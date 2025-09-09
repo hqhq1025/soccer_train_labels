@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17412,
+  "video_id": "f4a38238-d5e9-5758-9ce1-b8e3d39efcc0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 4748.0,
+      "end": 4748.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 4749.0,
+      "end": 4749.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4748000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/segment_004690_004770.json",
+  "segment_meta": {
+    "start_seconds": 4690,
+    "end_seconds": 4770,
+    "length_seconds": 80,
+    "start_time_mmss": "78:10",
+    "end_time_mmss": "79:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

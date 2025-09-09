@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 355,
+  "video_id": "06898145-b444-5a04-b26a-b447e9f0a4d6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Corner, Offside and Shots on target}.",
+  "answer": [
+    {
+      "start": 2090.0,
+      "end": 2090.0,
+      "text": "Trigger: Shots off target by right @ 1 - 34:50"
+    },
+    {
+      "start": 2122.0,
+      "end": 2122.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 2124.0,
+      "end": 2124.0,
+      "text": "Then: Offside by right"
+    },
+    {
+      "start": 2124.0,
+      "end": 2124.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2090000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/segment_002010_002130.json",
+  "segment_meta": {
+    "start_seconds": 2010,
+    "end_seconds": 2130,
+    "length_seconds": 120,
+    "start_time_mmss": "33:30",
+    "end_time_mmss": "35:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2866,
+  "video_id": "243abbbc-92fa-5586-bb9a-337da7a5969b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Offside}, stick with that team and alert me for {Substitution}.",
+  "answer": [
+    {
+      "start": 3939.0,
+      "end": 3939.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 3962.0,
+      "end": 3962.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3939000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/segment_003880_003980.json",
+  "segment_meta": {
+    "start_seconds": 3880,
+    "end_seconds": 3980,
+    "length_seconds": 100,
+    "start_time_mmss": "64:40",
+    "end_time_mmss": "66:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

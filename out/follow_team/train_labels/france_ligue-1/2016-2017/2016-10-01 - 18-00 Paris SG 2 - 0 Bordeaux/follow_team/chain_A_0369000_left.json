@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1807,
+  "video_id": "31493557-28c3-5074-869e-4d868479336b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 369.0,
+      "end": 369.0,
+      "text": "Trigger: Foul by left @ 1 - 06:09"
+    },
+    {
+      "start": 397.0,
+      "end": 397.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 369000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/segment_000320_000400.json",
+  "segment_meta": {
+    "start_seconds": 320,
+    "end_seconds": 400,
+    "length_seconds": 80,
+    "start_time_mmss": "05:20",
+    "end_time_mmss": "06:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

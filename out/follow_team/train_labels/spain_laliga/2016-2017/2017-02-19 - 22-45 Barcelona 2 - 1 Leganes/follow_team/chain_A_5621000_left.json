@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14667,
+  "video_id": "16939bc6-a95a-513e-8be7-e0aedda493ca",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Direct free-kick}.",
+  "answer": [
+    {
+      "start": 5621.0,
+      "end": 5621.0,
+      "text": "Trigger: Throw-in by left @ 2 - 48:41"
+    },
+    {
+      "start": 5650.0,
+      "end": 5650.0,
+      "text": "Then: Direct free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5621000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/segment_005560_005660.json",
+  "segment_meta": {
+    "start_seconds": 5560,
+    "end_seconds": 5660,
+    "length_seconds": 100,
+    "start_time_mmss": "92:40",
+    "end_time_mmss": "94:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

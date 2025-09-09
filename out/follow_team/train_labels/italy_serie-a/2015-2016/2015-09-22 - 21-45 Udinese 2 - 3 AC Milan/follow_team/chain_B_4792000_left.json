@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15620,
+  "video_id": "382e6d26-fc57-52b3-991b-1e6b52815bbd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 4792.0,
+      "end": 4792.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4794.0,
+      "end": 4794.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4792000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/segment_004680_004800.json",
+  "segment_meta": {
+    "start_seconds": 4680,
+    "end_seconds": 4800,
+    "length_seconds": 120,
+    "start_time_mmss": "78:00",
+    "end_time_mmss": "80:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

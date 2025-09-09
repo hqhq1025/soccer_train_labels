@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7186,
+  "video_id": "5d123e94-c1e9-563e-804e-a882f27160e5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 677.0,
+      "end": 677.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 693.0,
+      "end": 693.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 677000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/segment_000640_000700.json",
+  "segment_meta": {
+    "start_seconds": 640,
+    "end_seconds": 700,
+    "length_seconds": 60,
+    "start_time_mmss": "10:40",
+    "end_time_mmss": "11:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

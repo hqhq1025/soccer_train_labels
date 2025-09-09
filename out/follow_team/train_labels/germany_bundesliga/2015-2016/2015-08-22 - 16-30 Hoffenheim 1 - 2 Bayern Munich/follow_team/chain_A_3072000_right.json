@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2171,
+  "video_id": "0594f4e5-accf-524e-b5c3-7925d0a5d435",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 3072.0,
+      "end": 3072.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 06:12"
+    },
+    {
+      "start": 3107.0,
+      "end": 3107.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3072000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/segment_003040_003160.json",
+  "segment_meta": {
+    "start_seconds": 3040,
+    "end_seconds": 3160,
+    "length_seconds": 120,
+    "start_time_mmss": "50:40",
+    "end_time_mmss": "52:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

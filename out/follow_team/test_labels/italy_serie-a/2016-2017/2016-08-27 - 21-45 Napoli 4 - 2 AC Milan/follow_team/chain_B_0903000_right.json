@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7280,
+  "video_id": "d212787c-07f2-5825-8a48-6fcc82494fb2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Offside}.",
+  "answer": [
+    {
+      "start": 903.0,
+      "end": 903.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 923.0,
+      "end": 923.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 903000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/segment_000890_000930.json",
+  "segment_meta": {
+    "start_seconds": 890,
+    "end_seconds": 930,
+    "length_seconds": 40,
+    "start_time_mmss": "14:50",
+    "end_time_mmss": "15:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

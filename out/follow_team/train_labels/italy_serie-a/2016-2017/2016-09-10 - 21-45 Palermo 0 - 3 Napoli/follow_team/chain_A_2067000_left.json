@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20411,
+  "video_id": "eb9968ff-dfde-56cb-8590-4c22843e1a48",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 2067.0,
+      "end": 2067.0,
+      "text": "Trigger: Foul by left @ 1 - 34:27"
+    },
+    {
+      "start": 2100.0,
+      "end": 2100.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2067000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/segment_001990_002110.json",
+  "segment_meta": {
+    "start_seconds": 1990,
+    "end_seconds": 2110,
+    "length_seconds": 120,
+    "start_time_mmss": "33:10",
+    "end_time_mmss": "35:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

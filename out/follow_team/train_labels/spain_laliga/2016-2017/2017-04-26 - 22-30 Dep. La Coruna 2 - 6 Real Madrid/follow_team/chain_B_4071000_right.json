@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13980,
+  "video_id": "e57ffb68-d604-556d-9c3e-2af6d8c9ed17",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 4071.0,
+      "end": 4071.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4076.0,
+      "end": 4076.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4071000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/segment_004020_004080.json",
+  "segment_meta": {
+    "start_seconds": 4020,
+    "end_seconds": 4080,
+    "length_seconds": 60,
+    "start_time_mmss": "67:00",
+    "end_time_mmss": "68:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

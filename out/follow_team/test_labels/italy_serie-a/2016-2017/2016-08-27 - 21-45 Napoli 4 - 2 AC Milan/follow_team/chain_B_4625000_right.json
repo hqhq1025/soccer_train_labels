@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7352,
+  "video_id": "c884a056-eaf9-576a-aeab-4b141f109ad7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4625.0,
+      "end": 4625.0,
+      "text": "Trigger: Substitution by right"
+    },
+    {
+      "start": 4643.0,
+      "end": 4643.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4625000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/segment_004610_004650.json",
+  "segment_meta": {
+    "start_seconds": 4610,
+    "end_seconds": 4650,
+    "length_seconds": 40,
+    "start_time_mmss": "76:50",
+    "end_time_mmss": "77:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

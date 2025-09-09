@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8778,
+  "video_id": "6e473f5e-13ec-58e1-a717-d8e6e6492c52",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Yellow card} happens, lock onto that team and report every {Direct free-kick} it makes.",
+  "answer": [
+    {
+      "start": 3274.0,
+      "end": 3274.0,
+      "text": "Trigger: Yellow card by left"
+    },
+    {
+      "start": 3334.0,
+      "end": 3334.0,
+      "text": "Then: Direct free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3274000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/segment_003220_003340.json",
+  "segment_meta": {
+    "start_seconds": 3220,
+    "end_seconds": 3340,
+    "length_seconds": 120,
+    "start_time_mmss": "53:40",
+    "end_time_mmss": "55:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

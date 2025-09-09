@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8371,
+  "video_id": "f724b01f-6db6-59f0-be3b-f26d18851c58",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 4011.0,
+      "end": 4011.0,
+      "text": "Trigger: Throw-in by left @ 2 - 21:51"
+    },
+    {
+      "start": 4021.0,
+      "end": 4021.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4027.0,
+      "end": 4027.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4011000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/segment_003970_004050.json",
+  "segment_meta": {
+    "start_seconds": 3970,
+    "end_seconds": 4050,
+    "length_seconds": 80,
+    "start_time_mmss": "66:10",
+    "end_time_mmss": "67:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

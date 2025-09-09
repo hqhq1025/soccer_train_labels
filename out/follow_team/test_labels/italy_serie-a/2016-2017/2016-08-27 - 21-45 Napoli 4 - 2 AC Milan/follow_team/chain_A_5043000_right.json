@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7311,
+  "video_id": "cebc4ce4-9766-54fc-8c9d-e6a3e108405b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 5043.0,
+      "end": 5043.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 5083.0,
+      "end": 5083.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 5092.0,
+      "end": 5092.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5043000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/segment_005020_005140.json",
+  "segment_meta": {
+    "start_seconds": 5020,
+    "end_seconds": 5140,
+    "length_seconds": 120,
+    "start_time_mmss": "83:40",
+    "end_time_mmss": "85:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

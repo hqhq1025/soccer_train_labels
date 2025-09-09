@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16784,
+  "video_id": "6d71d193-6a96-58cc-b7ab-ecbcb3a90e6a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 5135.0,
+      "end": 5135.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 5143.0,
+      "end": 5143.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5135000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/segment_005060_005180.json",
+  "segment_meta": {
+    "start_seconds": 5060,
+    "end_seconds": 5180,
+    "length_seconds": 120,
+    "start_time_mmss": "84:20",
+    "end_time_mmss": "86:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2249,
+  "video_id": "110210c0-7ce3-524d-accb-edea2b6e89f8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 1182.0,
+      "end": 1182.0,
+      "text": "Trigger: Shots on target by right @ 1 - 19:42"
+    },
+    {
+      "start": 1189.0,
+      "end": 1189.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 1231.0,
+      "end": 1231.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1182000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_001160_001280.json",
+  "segment_meta": {
+    "start_seconds": 1160,
+    "end_seconds": 1280,
+    "length_seconds": 120,
+    "start_time_mmss": "19:20",
+    "end_time_mmss": "21:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

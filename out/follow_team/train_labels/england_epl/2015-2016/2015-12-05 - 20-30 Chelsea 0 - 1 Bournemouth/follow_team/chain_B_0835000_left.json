@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22304,
+  "video_id": "bc4acf91-1b9e-583b-9588-298f081ac811",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 835.0,
+      "end": 835.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 841.0,
+      "end": 841.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 835000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/segment_000770_000850.json",
+  "segment_meta": {
+    "start_seconds": 770,
+    "end_seconds": 850,
+    "length_seconds": 80,
+    "start_time_mmss": "12:50",
+    "end_time_mmss": "14:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

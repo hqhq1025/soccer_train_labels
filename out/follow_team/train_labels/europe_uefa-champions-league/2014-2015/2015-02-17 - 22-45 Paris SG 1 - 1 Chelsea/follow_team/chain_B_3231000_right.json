@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7956,
+  "video_id": "877514c8-4960-5e4a-85d6-2a07fd9b7c47",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "answer": [
+    {
+      "start": 3231.0,
+      "end": 3231.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3232.0,
+      "end": 3232.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3231000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/segment_003160_003240.json",
+  "segment_meta": {
+    "start_seconds": 3160,
+    "end_seconds": 3240,
+    "length_seconds": 80,
+    "start_time_mmss": "52:40",
+    "end_time_mmss": "54:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

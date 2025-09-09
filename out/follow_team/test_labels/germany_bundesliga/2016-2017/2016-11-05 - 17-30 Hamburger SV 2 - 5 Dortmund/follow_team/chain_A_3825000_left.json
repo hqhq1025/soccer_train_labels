@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1305,
+  "video_id": "a80599e2-c4a6-5960-af94-74b03fd010e8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Clearance} it makes.",
+  "answer": [
+    {
+      "start": 3825.0,
+      "end": 3825.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 3911.0,
+      "end": 3911.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3825000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/segment_003810_003930.json",
+  "segment_meta": {
+    "start_seconds": 3810,
+    "end_seconds": 3930,
+    "length_seconds": 120,
+    "start_time_mmss": "63:30",
+    "end_time_mmss": "65:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19020,
+  "video_id": "4e444e79-9d76-58b5-a4f3-489af24aa255",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 3133.0,
+      "end": 3133.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3134.0,
+      "end": 3134.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3133000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_003040_003160.json",
+  "segment_meta": {
+    "start_seconds": 3040,
+    "end_seconds": 3160,
+    "length_seconds": 120,
+    "start_time_mmss": "50:40",
+    "end_time_mmss": "52:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19945,
+  "video_id": "1e02503a-9dab-5a0e-86cf-e0f16e2a0a17",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 1291.0,
+      "end": 1291.0,
+      "text": "Trigger: Foul by left @ 1 - 21:31"
+    },
+    {
+      "start": 1295.0,
+      "end": 1295.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1291000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/segment_001220_001300.json",
+  "segment_meta": {
+    "start_seconds": 1220,
+    "end_seconds": 1300,
+    "length_seconds": 80,
+    "start_time_mmss": "20:20",
+    "end_time_mmss": "21:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

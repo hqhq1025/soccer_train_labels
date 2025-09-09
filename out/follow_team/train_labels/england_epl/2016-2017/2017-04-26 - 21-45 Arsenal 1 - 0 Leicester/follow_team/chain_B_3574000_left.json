@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25648,
+  "video_id": "35a13b8e-ba61-568b-8076-b1b43b1eb0a4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 3574.0,
+      "end": 3574.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3578.0,
+      "end": 3578.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3574000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/segment_003520_003620.json",
+  "segment_meta": {
+    "start_seconds": 3520,
+    "end_seconds": 3620,
+    "length_seconds": 100,
+    "start_time_mmss": "58:40",
+    "end_time_mmss": "60:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

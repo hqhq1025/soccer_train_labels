@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14791,
+  "video_id": "a4d036e0-4e91-55a6-9d8f-14380204dc00",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 780.0,
+      "end": 780.0,
+      "text": "Trigger: Throw-in by right @ 1 - 13:00"
+    },
+    {
+      "start": 803.0,
+      "end": 803.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 807.0,
+      "end": 807.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 780000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/segment_000760_000880.json",
+  "segment_meta": {
+    "start_seconds": 760,
+    "end_seconds": 880,
+    "length_seconds": 120,
+    "start_time_mmss": "12:40",
+    "end_time_mmss": "14:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

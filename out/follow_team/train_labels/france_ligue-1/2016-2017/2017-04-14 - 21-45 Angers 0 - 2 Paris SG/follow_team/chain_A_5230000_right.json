@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 865,
+  "video_id": "032cb36f-75c4-51b7-aaa6-e77874d3c125",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 5230.0,
+      "end": 5230.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 42:10"
+    },
+    {
+      "start": 5272.0,
+      "end": 5272.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5230000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/segment_005220_005280.json",
+  "segment_meta": {
+    "start_seconds": 5220,
+    "end_seconds": 5280,
+    "length_seconds": 60,
+    "start_time_mmss": "87:00",
+    "end_time_mmss": "88:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

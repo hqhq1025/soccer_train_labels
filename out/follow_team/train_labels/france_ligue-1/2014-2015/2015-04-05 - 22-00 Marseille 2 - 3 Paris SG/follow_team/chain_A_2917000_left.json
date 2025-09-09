@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 189,
+  "video_id": "ed576302-7987-5f59-9a3b-5141c37de6fb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 2917.0,
+      "end": 2917.0,
+      "text": "Trigger: Shots on target by left @ 2 - 03:37"
+    },
+    {
+      "start": 2918.0,
+      "end": 2918.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2917000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/segment_002820_002920.json",
+  "segment_meta": {
+    "start_seconds": 2820,
+    "end_seconds": 2920,
+    "length_seconds": 100,
+    "start_time_mmss": "47:00",
+    "end_time_mmss": "48:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

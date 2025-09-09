@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3865,
+  "video_id": "b663aabf-9a72-5238-8229-67ad330def8a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 2739.0,
+      "end": 2739.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2759.0,
+      "end": 2759.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 2760.0,
+      "end": 2760.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2739000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/segment_002720_002840.json",
+  "segment_meta": {
+    "start_seconds": 2720,
+    "end_seconds": 2840,
+    "length_seconds": 120,
+    "start_time_mmss": "45:20",
+    "end_time_mmss": "47:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

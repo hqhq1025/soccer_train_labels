@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24534,
+  "video_id": "a6af9e55-b545-53bb-b671-e4c01d87907f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 5189.0,
+      "end": 5189.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5211.0,
+      "end": 5211.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5189000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/segment_005130_005230.json",
+  "segment_meta": {
+    "start_seconds": 5130,
+    "end_seconds": 5230,
+    "length_seconds": 100,
+    "start_time_mmss": "85:30",
+    "end_time_mmss": "87:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

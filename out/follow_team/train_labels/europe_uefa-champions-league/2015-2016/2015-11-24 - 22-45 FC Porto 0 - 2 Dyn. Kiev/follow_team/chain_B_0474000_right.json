@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6904,
+  "video_id": "a22fd6a2-5124-5651-9d34-2d1cbf9de7b2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 474.0,
+      "end": 474.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 555.0,
+      "end": 555.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 474000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/segment_000460_000560.json",
+  "segment_meta": {
+    "start_seconds": 460,
+    "end_seconds": 560,
+    "length_seconds": 100,
+    "start_time_mmss": "07:40",
+    "end_time_mmss": "09:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

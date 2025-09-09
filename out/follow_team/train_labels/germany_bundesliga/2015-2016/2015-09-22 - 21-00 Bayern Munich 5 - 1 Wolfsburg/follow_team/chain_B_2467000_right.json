@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2620,
+  "video_id": "2ec6ba84-7fca-500f-82d0-34831849082b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 2467.0,
+      "end": 2467.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 2475.0,
+      "end": 2475.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2467000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/segment_002440_002480.json",
+  "segment_meta": {
+    "start_seconds": 2440,
+    "end_seconds": 2480,
+    "length_seconds": 40,
+    "start_time_mmss": "40:40",
+    "end_time_mmss": "41:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

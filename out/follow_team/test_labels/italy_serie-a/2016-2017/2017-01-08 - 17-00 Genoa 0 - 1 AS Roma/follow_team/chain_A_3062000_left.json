@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7139,
+  "video_id": "29cb4635-7888-54f7-80ad-a4ca0206e1d0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 3062.0,
+      "end": 3062.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 3103.0,
+      "end": 3103.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3062000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/segment_003020_003140.json",
+  "segment_meta": {
+    "start_seconds": 3020,
+    "end_seconds": 3140,
+    "length_seconds": 120,
+    "start_time_mmss": "50:20",
+    "end_time_mmss": "52:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

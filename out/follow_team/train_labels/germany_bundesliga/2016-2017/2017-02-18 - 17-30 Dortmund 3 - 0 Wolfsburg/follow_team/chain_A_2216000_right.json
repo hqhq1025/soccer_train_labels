@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3623,
+  "video_id": "85d0b512-9eca-545b-9a15-7817c442a8de",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Offside}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 2216.0,
+      "end": 2216.0,
+      "text": "Trigger: Offside by right @ 1 - 36:56"
+    },
+    {
+      "start": 2238.0,
+      "end": 2238.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2216000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_002170_002270.json",
+  "segment_meta": {
+    "start_seconds": 2170,
+    "end_seconds": 2270,
+    "length_seconds": 100,
+    "start_time_mmss": "36:10",
+    "end_time_mmss": "37:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3852,
+  "video_id": "82e4e860-b11b-5976-8c26-c68da2895d2d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Offside}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 5119.0,
+      "end": 5119.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 5162.0,
+      "end": 5162.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5119000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/segment_005050_005170.json",
+  "segment_meta": {
+    "start_seconds": 5050,
+    "end_seconds": 5170,
+    "length_seconds": 120,
+    "start_time_mmss": "84:10",
+    "end_time_mmss": "86:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

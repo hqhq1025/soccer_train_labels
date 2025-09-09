@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11120,
+  "video_id": "fe811468-e4ed-5aac-8528-a83a486f58a8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 646.0,
+      "end": 646.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 700.0,
+      "end": 700.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 646000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/segment_000630_000730.json",
+  "segment_meta": {
+    "start_seconds": 630,
+    "end_seconds": 730,
+    "length_seconds": 100,
+    "start_time_mmss": "10:30",
+    "end_time_mmss": "12:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

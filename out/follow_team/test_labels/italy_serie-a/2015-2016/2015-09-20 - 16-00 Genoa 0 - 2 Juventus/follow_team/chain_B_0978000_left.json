@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5240,
+  "video_id": "d2592acd-e322-5d5e-9d4d-d396323619ba",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
+  "answer": [
+    {
+      "start": 978.0,
+      "end": 978.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 983.0,
+      "end": 983.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 978000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/segment_000950_000990.json",
+  "segment_meta": {
+    "start_seconds": 950,
+    "end_seconds": 990,
+    "length_seconds": 40,
+    "start_time_mmss": "15:50",
+    "end_time_mmss": "16:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

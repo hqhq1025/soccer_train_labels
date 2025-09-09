@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8305,
+  "video_id": "89cc9f9f-12eb-5f27-8482-8f1935242b61",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 5500.0,
+      "end": 5500.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 5582.0,
+      "end": 5582.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5500000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/segment_005470_005590.json",
+  "segment_meta": {
+    "start_seconds": 5470,
+    "end_seconds": 5590,
+    "length_seconds": 120,
+    "start_time_mmss": "91:10",
+    "end_time_mmss": "93:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

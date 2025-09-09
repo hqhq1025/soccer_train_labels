@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7249,
+  "video_id": "5fff576b-e26f-537a-a056-956b38f4f317",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 2928.0,
+      "end": 2928.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 03:48"
+    },
+    {
+      "start": 2941.0,
+      "end": 2941.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2928000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/segment_002850_002950.json",
+  "segment_meta": {
+    "start_seconds": 2850,
+    "end_seconds": 2950,
+    "length_seconds": 100,
+    "start_time_mmss": "47:30",
+    "end_time_mmss": "49:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

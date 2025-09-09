@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 349,
+  "video_id": "41efc7c1-c23b-5240-8656-dc66cb8ce031",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 4287.0,
+      "end": 4287.0,
+      "text": "Trigger: Shots on target by left @ 2 - 26:27"
+    },
+    {
+      "start": 4312.0,
+      "end": 4312.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 4313.0,
+      "end": 4313.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4287000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/segment_004260_004320.json",
+  "segment_meta": {
+    "start_seconds": 4260,
+    "end_seconds": 4320,
+    "length_seconds": 60,
+    "start_time_mmss": "71:00",
+    "end_time_mmss": "72:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

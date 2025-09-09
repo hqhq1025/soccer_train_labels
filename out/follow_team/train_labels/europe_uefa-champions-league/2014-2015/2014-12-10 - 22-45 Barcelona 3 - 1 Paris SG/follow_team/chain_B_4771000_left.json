@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7834,
+  "video_id": "49a1943e-7fbe-5ea0-843c-81c4d121b27d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 4771.0,
+      "end": 4771.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4816.0,
+      "end": 4816.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4771000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/segment_004730_004850.json",
+  "segment_meta": {
+    "start_seconds": 4730,
+    "end_seconds": 4850,
+    "length_seconds": 120,
+    "start_time_mmss": "78:50",
+    "end_time_mmss": "80:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11765,
+  "video_id": "c52fe10f-510c-5198-8a05-b13ec57a1860",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Throw-in and Corner}.",
+  "answer": [
+    {
+      "start": 178.0,
+      "end": 178.0,
+      "text": "Trigger: Clearance by right @ 1 - 02:58"
+    },
+    {
+      "start": 218.0,
+      "end": 218.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 247.0,
+      "end": 247.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 178000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/segment_000130_000250.json",
+  "segment_meta": {
+    "start_seconds": 130,
+    "end_seconds": 250,
+    "length_seconds": 120,
+    "start_time_mmss": "02:10",
+    "end_time_mmss": "04:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

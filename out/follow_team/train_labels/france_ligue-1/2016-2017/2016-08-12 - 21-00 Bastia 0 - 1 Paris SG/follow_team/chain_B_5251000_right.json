@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 742,
+  "video_id": "f5752267-30f5-58eb-b1fd-0cf6c61a6141",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 5251.0,
+      "end": 5251.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 5253.0,
+      "end": 5253.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5251000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/segment_005200_005260.json",
+  "segment_meta": {
+    "start_seconds": 5200,
+    "end_seconds": 5260,
+    "length_seconds": 60,
+    "start_time_mmss": "86:40",
+    "end_time_mmss": "87:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

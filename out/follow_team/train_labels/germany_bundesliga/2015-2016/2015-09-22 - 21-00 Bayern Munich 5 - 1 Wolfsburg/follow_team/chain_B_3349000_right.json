@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2582,
+  "video_id": "f0c3a471-63c9-5176-be6c-5fd6158aa948",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Clearance} occurs, follow the initiating team and report all {Shots on target}.",
+  "answer": [
+    {
+      "start": 3349.0,
+      "end": 3349.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 3383.0,
+      "end": 3383.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3349000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/segment_003270_003390.json",
+  "segment_meta": {
+    "start_seconds": 3270,
+    "end_seconds": 3390,
+    "length_seconds": 120,
+    "start_time_mmss": "54:30",
+    "end_time_mmss": "56:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

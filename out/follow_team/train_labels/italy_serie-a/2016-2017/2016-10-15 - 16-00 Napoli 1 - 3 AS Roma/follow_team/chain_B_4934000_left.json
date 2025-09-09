@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20270,
+  "video_id": "ea4c9d60-e2e2-51d8-a1f1-eaa551caa3d3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 4934.0,
+      "end": 4934.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4949.0,
+      "end": 4949.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-15 - 16-00 Napoli 1 - 3 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-15 - 16-00 Napoli 1 - 3 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4934000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-15 - 16-00 Napoli 1 - 3 AS Roma/segment_004870_004970.json",
+  "segment_meta": {
+    "start_seconds": 4870,
+    "end_seconds": 4970,
+    "length_seconds": 100,
+    "start_time_mmss": "81:10",
+    "end_time_mmss": "82:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

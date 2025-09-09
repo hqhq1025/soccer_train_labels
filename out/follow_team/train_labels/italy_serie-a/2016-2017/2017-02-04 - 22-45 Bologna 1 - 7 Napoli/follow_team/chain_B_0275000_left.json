@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20094,
+  "video_id": "5a895deb-74c3-5a8d-95a9-a34fbe775398",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Kick-off} occurs, follow the initiating team and report all {Corner}.",
+  "answer": [
+    {
+      "start": 275.0,
+      "end": 275.0,
+      "text": "Trigger: Kick-off by left"
+    },
+    {
+      "start": 320.0,
+      "end": 320.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 275000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/segment_000230_000350.json",
+  "segment_meta": {
+    "start_seconds": 230,
+    "end_seconds": 350,
+    "length_seconds": 120,
+    "start_time_mmss": "03:50",
+    "end_time_mmss": "05:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

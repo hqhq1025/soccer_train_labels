@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11250,
+  "video_id": "43d93a96-b69e-5a46-bf65-0de8c5ef9c76",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Goal}.",
+  "answer": [
+    {
+      "start": 4314.0,
+      "end": 4314.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4326.0,
+      "end": 4326.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4314000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/segment_004290_004350.json",
+  "segment_meta": {
+    "start_seconds": 4290,
+    "end_seconds": 4350,
+    "length_seconds": 60,
+    "start_time_mmss": "71:30",
+    "end_time_mmss": "72:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

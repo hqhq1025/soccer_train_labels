@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7846,
+  "video_id": "ef8fea01-bda2-59a8-b4f0-bfa584a9052b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 1971.0,
+      "end": 1971.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2012.0,
+      "end": 2012.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1971000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/segment_001950_002070.json",
+  "segment_meta": {
+    "start_seconds": 1950,
+    "end_seconds": 2070,
+    "length_seconds": 120,
+    "start_time_mmss": "32:30",
+    "end_time_mmss": "34:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

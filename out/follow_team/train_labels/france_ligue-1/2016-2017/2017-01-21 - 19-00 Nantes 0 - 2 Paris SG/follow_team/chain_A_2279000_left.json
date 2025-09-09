@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 231,
+  "video_id": "957c699d-a929-5724-9480-f90c20a408ad",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 2279.0,
+      "end": 2279.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 37:59"
+    },
+    {
+      "start": 2296.0,
+      "end": 2296.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2279000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/segment_002240_002300.json",
+  "segment_meta": {
+    "start_seconds": 2240,
+    "end_seconds": 2300,
+    "length_seconds": 60,
+    "start_time_mmss": "37:20",
+    "end_time_mmss": "38:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

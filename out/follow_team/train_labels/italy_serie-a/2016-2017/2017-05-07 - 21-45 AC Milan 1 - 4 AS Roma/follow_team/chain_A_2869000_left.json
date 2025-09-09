@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18123,
+  "video_id": "d7aefa72-f327-5b8d-a5ff-48976af5b4e9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 2869.0,
+      "end": 2869.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 02:49"
+    },
+    {
+      "start": 2905.0,
+      "end": 2905.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2869000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/segment_002830_002910.json",
+  "segment_meta": {
+    "start_seconds": 2830,
+    "end_seconds": 2910,
+    "length_seconds": 80,
+    "start_time_mmss": "47:10",
+    "end_time_mmss": "48:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23848,
+  "video_id": "24c8925d-e3bd-5f30-b0d9-c4c7bb9a5ef2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 5329.0,
+      "end": 5329.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 5360.0,
+      "end": 5360.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5329000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/segment_005300_005420.json",
+  "segment_meta": {
+    "start_seconds": 5300,
+    "end_seconds": 5420,
+    "length_seconds": 120,
+    "start_time_mmss": "88:20",
+    "end_time_mmss": "90:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

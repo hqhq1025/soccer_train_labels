@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23241,
+  "video_id": "0409cf06-52bd-5125-87ff-01fda5190563",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 2847.0,
+      "end": 2847.0,
+      "text": "Trigger: Foul by right @ 2 - 02:27"
+    },
+    {
+      "start": 2888.0,
+      "end": 2888.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2847000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_002810_002890.json",
+  "segment_meta": {
+    "start_seconds": 2810,
+    "end_seconds": 2890,
+    "length_seconds": 80,
+    "start_time_mmss": "46:50",
+    "end_time_mmss": "48:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 429,
+  "video_id": "ba2bdbf9-13d1-5f2c-9a00-816fd0b782b8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Substitution} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 1883.0,
+      "end": 1883.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 1911.0,
+      "end": 1911.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1883000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_001840_001920.json",
+  "segment_meta": {
+    "start_seconds": 1840,
+    "end_seconds": 1920,
+    "length_seconds": 80,
+    "start_time_mmss": "30:40",
+    "end_time_mmss": "32:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

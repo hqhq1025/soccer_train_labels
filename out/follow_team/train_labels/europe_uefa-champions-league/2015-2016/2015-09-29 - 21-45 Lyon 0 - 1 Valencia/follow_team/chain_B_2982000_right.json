@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5484,
+  "video_id": "5a5b807f-29b8-501d-af19-beec5d34b141",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 2982.0,
+      "end": 2982.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 2988.0,
+      "end": 2988.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2982000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/segment_002960_003080.json",
+  "segment_meta": {
+    "start_seconds": 2960,
+    "end_seconds": 3080,
+    "length_seconds": 120,
+    "start_time_mmss": "49:20",
+    "end_time_mmss": "51:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

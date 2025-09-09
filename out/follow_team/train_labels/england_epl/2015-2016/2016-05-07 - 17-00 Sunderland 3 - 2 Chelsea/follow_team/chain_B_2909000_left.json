@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21126,
+  "video_id": "b9d22445-0d40-5ed4-8e30-764d34a44d72",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 2909.0,
+      "end": 2909.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2957.0,
+      "end": 2957.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2909000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/segment_002880_002980.json",
+  "segment_meta": {
+    "start_seconds": 2880,
+    "end_seconds": 2980,
+    "length_seconds": 100,
+    "start_time_mmss": "48:00",
+    "end_time_mmss": "49:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7544,
+  "video_id": "8246744f-516f-593c-a1a2-741e7f60d4f9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Offside}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 4838.0,
+      "end": 4838.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 4868.0,
+      "end": 4868.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4838000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/segment_004770_004870.json",
+  "segment_meta": {
+    "start_seconds": 4770,
+    "end_seconds": 4870,
+    "length_seconds": 100,
+    "start_time_mmss": "79:30",
+    "end_time_mmss": "81:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

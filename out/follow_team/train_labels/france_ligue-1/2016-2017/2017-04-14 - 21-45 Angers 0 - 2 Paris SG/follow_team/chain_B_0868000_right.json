@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 868,
+  "video_id": "afcbdcbf-8148-5011-b7e8-486cb249f368",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 868.0,
+      "end": 868.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 895.0,
+      "end": 895.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 868000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/segment_000780_000900.json",
+  "segment_meta": {
+    "start_seconds": 780,
+    "end_seconds": 900,
+    "length_seconds": 120,
+    "start_time_mmss": "13:00",
+    "end_time_mmss": "15:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

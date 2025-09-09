@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8431,
+  "video_id": "639a4218-09e1-5635-b24b-7d214d369604",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in and Corner}.",
+  "answer": [
+    {
+      "start": 2999.0,
+      "end": 2999.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3013.0,
+      "end": 3013.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 3037.0,
+      "end": 3037.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-05-17 - 18-00 Manchester United 1 - 1 Arsenal/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2014-2015/2015-05-17 - 18-00 Manchester United 1 - 1 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2999000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2014-2015/2015-05-17 - 18-00 Manchester United 1 - 1 Arsenal/segment_002920_003040.json",
+  "segment_meta": {
+    "start_seconds": 2920,
+    "end_seconds": 3040,
+    "length_seconds": 120,
+    "start_time_mmss": "48:40",
+    "end_time_mmss": "50:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

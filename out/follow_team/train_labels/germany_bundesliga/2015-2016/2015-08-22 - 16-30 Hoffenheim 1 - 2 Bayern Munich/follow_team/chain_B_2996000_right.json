@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2082,
+  "video_id": "43e45c27-a1ae-5e51-b40f-951dbe29eb4b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 2996.0,
+      "end": 2996.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3025.0,
+      "end": 3025.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2996000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/segment_002920_003040.json",
+  "segment_meta": {
+    "start_seconds": 2920,
+    "end_seconds": 3040,
+    "length_seconds": 120,
+    "start_time_mmss": "48:40",
+    "end_time_mmss": "50:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

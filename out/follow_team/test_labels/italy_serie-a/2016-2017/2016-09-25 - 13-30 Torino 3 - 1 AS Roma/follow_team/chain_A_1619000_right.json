@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6257,
+  "video_id": "b569ce85-5bdd-579c-aead-03bf9d157d8c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick and Shots on target}.",
+  "answer": [
+    {
+      "start": 1619.0,
+      "end": 1619.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 1649.0,
+      "end": 1649.0,
+      "text": "Then: Indirect free-kick by right"
+    },
+    {
+      "start": 1664.0,
+      "end": 1664.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1619000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/segment_001560_001680.json",
+  "segment_meta": {
+    "start_seconds": 1560,
+    "end_seconds": 1680,
+    "length_seconds": 120,
+    "start_time_mmss": "26:00",
+    "end_time_mmss": "28:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

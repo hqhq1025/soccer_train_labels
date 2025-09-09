@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1622,
+  "video_id": "8ab70714-ae36-59c7-9b67-659d7bb8f2eb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 5235.0,
+      "end": 5235.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5244.0,
+      "end": 5244.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5235000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF/segment_005150_005250.json",
+  "segment_meta": {
+    "start_seconds": 5150,
+    "end_seconds": 5250,
+    "length_seconds": 100,
+    "start_time_mmss": "85:50",
+    "end_time_mmss": "87:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

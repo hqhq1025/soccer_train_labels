@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7623,
+  "video_id": "8cf52b32-5e10-5b5f-baa6-900c6efc961b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Yellow card}, keep following that team and alert me whenever {Clearance} happen.",
+  "answer": [
+    {
+      "start": 4770.0,
+      "end": 4770.0,
+      "text": "Trigger: Yellow card by right"
+    },
+    {
+      "start": 4792.0,
+      "end": 4792.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4770000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/segment_004680_004800.json",
+  "segment_meta": {
+    "start_seconds": 4680,
+    "end_seconds": 4800,
+    "length_seconds": 120,
+    "start_time_mmss": "78:00",
+    "end_time_mmss": "80:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

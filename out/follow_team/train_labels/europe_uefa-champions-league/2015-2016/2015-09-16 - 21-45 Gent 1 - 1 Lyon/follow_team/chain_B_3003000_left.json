@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6034,
+  "video_id": "4f0b5463-d116-5ee6-8aee-cf0451e6fc00",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Offside}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 3003.0,
+      "end": 3003.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 3062.0,
+      "end": 3062.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3003000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_002990_003070.json",
+  "segment_meta": {
+    "start_seconds": 2990,
+    "end_seconds": 3070,
+    "length_seconds": 80,
+    "start_time_mmss": "49:50",
+    "end_time_mmss": "51:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

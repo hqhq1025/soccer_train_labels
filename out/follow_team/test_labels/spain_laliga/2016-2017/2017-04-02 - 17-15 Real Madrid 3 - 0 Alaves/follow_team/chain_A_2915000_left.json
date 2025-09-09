@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4683,
+  "video_id": "508da41d-936d-5d6d-9bff-ef8ed3ca5424",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 2915.0,
+      "end": 2915.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 2928.0,
+      "end": 2928.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2915000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/segment_002850_002930.json",
+  "segment_meta": {
+    "start_seconds": 2850,
+    "end_seconds": 2930,
+    "length_seconds": 80,
+    "start_time_mmss": "47:30",
+    "end_time_mmss": "48:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

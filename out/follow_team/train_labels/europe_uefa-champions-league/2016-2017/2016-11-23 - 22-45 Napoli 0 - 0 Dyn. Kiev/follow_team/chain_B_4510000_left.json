@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9612,
+  "video_id": "b0158f4b-da4c-5605-97c6-a9a0954d99a9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Corner}.",
+  "answer": [
+    {
+      "start": 4510.0,
+      "end": 4510.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 4556.0,
+      "end": 4556.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4510000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/segment_004470_004590.json",
+  "segment_meta": {
+    "start_seconds": 4470,
+    "end_seconds": 4590,
+    "length_seconds": 120,
+    "start_time_mmss": "74:30",
+    "end_time_mmss": "76:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

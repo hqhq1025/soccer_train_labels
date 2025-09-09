@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8570,
+  "video_id": "e10a9ae4-bbb6-5d7e-b267-ac5d6e019ca8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 363.0,
+      "end": 363.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 373.0,
+      "end": 373.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 363000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/segment_000280_000380.json",
+  "segment_meta": {
+    "start_seconds": 280,
+    "end_seconds": 380,
+    "length_seconds": 100,
+    "start_time_mmss": "04:40",
+    "end_time_mmss": "06:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

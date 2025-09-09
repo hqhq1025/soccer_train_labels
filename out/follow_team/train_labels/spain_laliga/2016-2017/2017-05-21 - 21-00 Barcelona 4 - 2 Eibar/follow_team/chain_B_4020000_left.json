@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12214,
+  "video_id": "6f528f16-47ec-5985-8f7a-98808257a9fd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 4020.0,
+      "end": 4020.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 4052.0,
+      "end": 4052.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4020000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/segment_004000_004060.json",
+  "segment_meta": {
+    "start_seconds": 4000,
+    "end_seconds": 4060,
+    "length_seconds": 60,
+    "start_time_mmss": "66:40",
+    "end_time_mmss": "67:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

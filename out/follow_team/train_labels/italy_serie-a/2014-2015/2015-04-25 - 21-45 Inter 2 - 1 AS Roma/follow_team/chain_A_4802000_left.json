@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16589,
+  "video_id": "cedbba65-e943-597c-8069-c0e90a91edc6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 4802.0,
+      "end": 4802.0,
+      "text": "Trigger: Foul by left @ 2 - 35:02"
+    },
+    {
+      "start": 4854.0,
+      "end": 4854.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 4861.0,
+      "end": 4861.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4802000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_004750_004870.json",
+  "segment_meta": {
+    "start_seconds": 4750,
+    "end_seconds": 4870,
+    "length_seconds": 120,
+    "start_time_mmss": "79:10",
+    "end_time_mmss": "81:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8623,
+  "video_id": "e485c103-f758-56b9-80e7-00fa79662d33",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "text": "Trigger: Throw-in by left @ 1 - 00:27"
+    },
+    {
+      "start": 42.0,
+      "end": 42.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 27000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/segment_000000_000080.json",
+  "segment_meta": {
+    "start_seconds": 0,
+    "end_seconds": 80,
+    "length_seconds": 80,
+    "start_time_mmss": "00:00",
+    "end_time_mmss": "01:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

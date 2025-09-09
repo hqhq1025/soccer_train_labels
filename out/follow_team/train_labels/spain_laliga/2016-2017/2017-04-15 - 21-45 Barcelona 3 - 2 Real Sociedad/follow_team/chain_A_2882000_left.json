@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13197,
+  "video_id": "7d3bc038-efc1-5d3a-ba55-4db4e36399dc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Foul and Yellow card} happen.",
+  "answer": [
+    {
+      "start": 2882.0,
+      "end": 2882.0,
+      "text": "Trigger: Throw-in by left @ 2 - 03:02"
+    },
+    {
+      "start": 2901.0,
+      "end": 2901.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 2908.0,
+      "end": 2908.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2882000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad/segment_002820_002940.json",
+  "segment_meta": {
+    "start_seconds": 2820,
+    "end_seconds": 2940,
+    "length_seconds": 120,
+    "start_time_mmss": "47:00",
+    "end_time_mmss": "49:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

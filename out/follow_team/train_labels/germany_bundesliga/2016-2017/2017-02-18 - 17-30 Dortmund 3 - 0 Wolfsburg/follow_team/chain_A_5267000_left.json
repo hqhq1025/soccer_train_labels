@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3649,
+  "video_id": "417b009e-48ba-5543-8d62-64a2b5e15280",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Foul, Yellow card and Indirect free-kick} it makes.",
+  "answer": [
+    {
+      "start": 5267.0,
+      "end": 5267.0,
+      "text": "Trigger: Shots on target by left @ 2 - 42:47"
+    },
+    {
+      "start": 5290.0,
+      "end": 5290.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 5310.0,
+      "end": 5310.0,
+      "text": "Then: Yellow card by left"
+    },
+    {
+      "start": 5357.0,
+      "end": 5357.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5267000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_005240_005360.json",
+  "segment_meta": {
+    "start_seconds": 5240,
+    "end_seconds": 5360,
+    "length_seconds": 120,
+    "start_time_mmss": "87:20",
+    "end_time_mmss": "89:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

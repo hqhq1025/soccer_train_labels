@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6060,
+  "video_id": "7b1a444a-dae2-5b1a-9a37-7cb6b41cefa9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Substitution}, stick with that team and alert me for {Direct free-kick}.",
+  "answer": [
+    {
+      "start": 4882.0,
+      "end": 4882.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 4887.0,
+      "end": 4887.0,
+      "text": "Then: Direct free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4882000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_004820_004900.json",
+  "segment_meta": {
+    "start_seconds": 4820,
+    "end_seconds": 4900,
+    "length_seconds": 80,
+    "start_time_mmss": "80:20",
+    "end_time_mmss": "81:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

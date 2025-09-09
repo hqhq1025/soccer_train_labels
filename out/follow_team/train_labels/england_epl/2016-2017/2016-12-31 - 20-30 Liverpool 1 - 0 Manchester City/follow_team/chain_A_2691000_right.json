@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24425,
+  "video_id": "331073bc-f0a1-5459-ba54-3340a5ff3115",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Shots off target and Clearance}.",
+  "answer": [
+    {
+      "start": 2691.0,
+      "end": 2691.0,
+      "text": "Trigger: Clearance by right @ 1 - 44:51"
+    },
+    {
+      "start": 2730.0,
+      "end": 2730.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 2785.0,
+      "end": 2785.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2691000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/segment_002670_002790.json",
+  "segment_meta": {
+    "start_seconds": 2670,
+    "end_seconds": 2790,
+    "length_seconds": 120,
+    "start_time_mmss": "44:30",
+    "end_time_mmss": "46:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1201,
+  "video_id": "c020f60c-8036-50d9-992d-d24a1b0ff14e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in, Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 181.0,
+      "end": 181.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 236.0,
+      "end": 236.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 243.0,
+      "end": 243.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 244.0,
+      "end": 244.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 181000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/segment_000130_000250.json",
+  "segment_meta": {
+    "start_seconds": 130,
+    "end_seconds": 250,
+    "length_seconds": 120,
+    "start_time_mmss": "02:10",
+    "end_time_mmss": "04:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

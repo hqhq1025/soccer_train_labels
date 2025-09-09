@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1030,
+  "video_id": "c087dccb-ca69-53e1-a864-0ecf528dca33",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 4383.0,
+      "end": 4383.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4392.0,
+      "end": 4392.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4383000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/segment_004300_004400.json",
+  "segment_meta": {
+    "start_seconds": 4300,
+    "end_seconds": 4400,
+    "length_seconds": 100,
+    "start_time_mmss": "71:40",
+    "end_time_mmss": "73:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

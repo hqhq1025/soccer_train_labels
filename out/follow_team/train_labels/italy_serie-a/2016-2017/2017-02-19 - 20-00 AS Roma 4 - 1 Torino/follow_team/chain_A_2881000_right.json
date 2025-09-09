@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19363,
+  "video_id": "8342e724-6907-5203-a4ef-553ddb2c2222",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2881.0,
+      "end": 2881.0,
+      "text": "Trigger: Foul by right @ 2 - 03:01"
+    },
+    {
+      "start": 2947.0,
+      "end": 2947.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2881000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/segment_002870_002950.json",
+  "segment_meta": {
+    "start_seconds": 2870,
+    "end_seconds": 2950,
+    "length_seconds": 80,
+    "start_time_mmss": "47:50",
+    "end_time_mmss": "49:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

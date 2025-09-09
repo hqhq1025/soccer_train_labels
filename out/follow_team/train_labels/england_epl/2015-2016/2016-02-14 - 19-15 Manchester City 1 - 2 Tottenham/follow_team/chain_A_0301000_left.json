@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21941,
+  "video_id": "00f1b7f8-f383-581f-8244-3c0fe43252d6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 301.0,
+      "end": 301.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 05:01"
+    },
+    {
+      "start": 317.0,
+      "end": 317.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 301000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/segment_000260_000320.json",
+  "segment_meta": {
+    "start_seconds": 260,
+    "end_seconds": 320,
+    "length_seconds": 60,
+    "start_time_mmss": "04:20",
+    "end_time_mmss": "05:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

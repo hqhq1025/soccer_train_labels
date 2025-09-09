@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2257,
+  "video_id": "d96821be-aa47-5511-9001-3c7f669ff097",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 3795.0,
+      "end": 3795.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 18:15"
+    },
+    {
+      "start": 3815.0,
+      "end": 3815.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3795000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_003760_003840.json",
+  "segment_meta": {
+    "start_seconds": 3760,
+    "end_seconds": 3840,
+    "length_seconds": 80,
+    "start_time_mmss": "62:40",
+    "end_time_mmss": "64:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

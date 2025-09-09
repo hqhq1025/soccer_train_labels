@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2896,
+  "video_id": "5fce836b-b3e8-584d-8c67-0e4276361980",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 4213.0,
+      "end": 4213.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4218.0,
+      "end": 4218.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4213000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/segment_004120_004220.json",
+  "segment_meta": {
+    "start_seconds": 4120,
+    "end_seconds": 4220,
+    "length_seconds": 100,
+    "start_time_mmss": "68:40",
+    "end_time_mmss": "70:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

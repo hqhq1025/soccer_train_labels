@@ -60,6 +60,7 @@ from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
 @dataclass
 class Event:
+    # Global position in milliseconds (half-aware)
     position_ms: int
     label: str
     visibility: str
@@ -91,6 +92,9 @@ class Segment:
 # ---------------------------- Helpers ----------------------------
 
 
+HALF_OFFSET_SECONDS = 45 * 60  # Offset second-half by 45 minutes
+
+
 def seconds_to_mmss(x: float) -> str:
     x = max(0.0, x)
     m = int(x // 60)
@@ -98,24 +102,50 @@ def seconds_to_mmss(x: float) -> str:
     return f"{m:02d}:{s:02d}"
 
 
+def parse_game_time_seconds(game_time: str, fallback_ms: Optional[int] = None) -> Optional[float]:
+    """Parse "H - mm:ss" into global seconds using a fixed 45:00 offset for half 2.
+
+    If parsing fails, optionally fall back to provided milliseconds (assumed already global) -> seconds.
+    """
+    try:
+        part = [p.strip() for p in str(game_time).split("-")]
+        if len(part) != 2:
+            raise ValueError("bad gameTime")
+        half = int(part[0])
+        mm, ss = [int(x) for x in part[1].split(":")]
+        sec = mm * 60 + ss
+        if half >= 2:
+            sec = (half - 1) * HALF_OFFSET_SECONDS + sec
+        return float(sec)
+    except Exception:
+        if fallback_ms is not None:
+            return float(fallback_ms) / 1000.0
+        return None
+
+
 def load_events(path: Path) -> List[Event]:
     with path.open("r", encoding="utf-8") as f:
         data = json.load(f)
     events = []
     for ann in data.get("annotations", []):
-        pos_str = ann.get("position")
+        # Prefer half-aware global time derived from gameTime; fall back to raw position
+        fallback_ms = None
         try:
-            pos_ms = int(pos_str)
+            fallback_ms = int(ann.get("position"))
         except Exception:
-            # If position is missing or malformed, skip.
+            pass
+        gt = str(ann.get("gameTime", ""))
+        sec = parse_game_time_seconds(gt, fallback_ms=fallback_ms)
+        if sec is None:
             continue
+        pos_ms = int(round(sec * 1000.0))
         events.append(
             Event(
                 position_ms=pos_ms,
                 label=str(ann.get("label", "")),
                 visibility=str(ann.get("visibility", "")),
                 team=str(ann.get("team", "")),
-                game_time=str(ann.get("gameTime", "")),
+                game_time=gt,
             )
         )
     # Sort by time for deterministic behavior
@@ -625,7 +655,12 @@ def export_segments_for_file(
                 pos_ms = int(a.get("position"))
             except Exception:
                 continue
-            pos_s = pos_ms / 1000.0
+            # Use half-aware global seconds for consistent selection
+            gt = str(a.get("gameTime", ""))
+            sec = parse_game_time_seconds(gt, fallback_ms=pos_ms)
+            if sec is None:
+                continue
+            pos_s = sec
             if not (start_s <= pos_s < end_s):
                 continue
             # Apply same filters used for density

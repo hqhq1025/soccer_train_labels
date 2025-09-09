@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3312,
+  "video_id": "68f0bffb-e1a9-5d6c-972b-1ab029a1e05f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Substitution} happen.",
+  "answer": [
+    {
+      "start": 3662.0,
+      "end": 3662.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3713.0,
+      "end": 3713.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3662000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/segment_003650_003770.json",
+  "segment_meta": {
+    "start_seconds": 3650,
+    "end_seconds": 3770,
+    "length_seconds": 120,
+    "start_time_mmss": "60:50",
+    "end_time_mmss": "62:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

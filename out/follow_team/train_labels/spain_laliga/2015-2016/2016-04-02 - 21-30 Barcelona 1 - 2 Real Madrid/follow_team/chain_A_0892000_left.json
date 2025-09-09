@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11161,
+  "video_id": "d3d0313a-48dc-548c-aa25-8373618aacaa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 892.0,
+      "end": 892.0,
+      "text": "Trigger: Foul by left @ 1 - 14:52"
+    },
+    {
+      "start": 948.0,
+      "end": 948.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 892000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/segment_000870_000950.json",
+  "segment_meta": {
+    "start_seconds": 870,
+    "end_seconds": 950,
+    "length_seconds": 80,
+    "start_time_mmss": "14:30",
+    "end_time_mmss": "15:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

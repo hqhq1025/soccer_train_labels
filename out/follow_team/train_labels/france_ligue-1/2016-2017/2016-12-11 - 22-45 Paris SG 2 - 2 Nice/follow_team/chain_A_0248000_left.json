@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 587,
+  "video_id": "d76fff2c-1c9b-51be-8507-00bce26c9c8b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 248.0,
+      "end": 248.0,
+      "text": "Trigger: Throw-in by left @ 1 - 04:08"
+    },
+    {
+      "start": 256.0,
+      "end": 256.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 248000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/segment_000140_000260.json",
+  "segment_meta": {
+    "start_seconds": 140,
+    "end_seconds": 260,
+    "length_seconds": 120,
+    "start_time_mmss": "02:20",
+    "end_time_mmss": "04:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13232,
+  "video_id": "9814e83e-86a0-5634-8a51-78ccc32ddef8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 3113.0,
+      "end": 3113.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3167.0,
+      "end": 3167.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3113000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-15 - 21-45 Barcelona 3 - 2 Real Sociedad/segment_003070_003170.json",
+  "segment_meta": {
+    "start_seconds": 3070,
+    "end_seconds": 3170,
+    "length_seconds": 100,
+    "start_time_mmss": "51:10",
+    "end_time_mmss": "52:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

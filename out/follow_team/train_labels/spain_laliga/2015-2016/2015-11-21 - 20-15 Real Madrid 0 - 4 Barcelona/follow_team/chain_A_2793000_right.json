@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10499,
+  "video_id": "8b76e604-5b8d-5f7e-a7c5-2f04b80bfbd5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Throw-in and Shots on target}.",
+  "answer": [
+    {
+      "start": 2793.0,
+      "end": 2793.0,
+      "text": "Trigger: Shots off target by right @ 2 - 01:33"
+    },
+    {
+      "start": 2864.0,
+      "end": 2864.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 2875.0,
+      "end": 2875.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2793000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/segment_002760_002880.json",
+  "segment_meta": {
+    "start_seconds": 2760,
+    "end_seconds": 2880,
+    "length_seconds": 120,
+    "start_time_mmss": "46:00",
+    "end_time_mmss": "48:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

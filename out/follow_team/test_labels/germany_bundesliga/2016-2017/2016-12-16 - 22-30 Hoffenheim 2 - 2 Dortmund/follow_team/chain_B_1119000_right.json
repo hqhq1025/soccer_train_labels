@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 628,
+  "video_id": "2d51db1e-eedd-50ec-8130-29c40c934a3a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Corner}.",
+  "answer": [
+    {
+      "start": 1119.0,
+      "end": 1119.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 1153.0,
+      "end": 1153.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1119000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_001070_001190.json",
+  "segment_meta": {
+    "start_seconds": 1070,
+    "end_seconds": 1190,
+    "length_seconds": 120,
+    "start_time_mmss": "17:50",
+    "end_time_mmss": "19:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

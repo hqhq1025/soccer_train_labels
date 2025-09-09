@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20755,
+  "video_id": "b976c4c5-9754-5368-9cc6-e76f28ade4d5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 2841.0,
+      "end": 2841.0,
+      "text": "Trigger: Shots on target by left @ 2 - 02:21"
+    },
+    {
+      "start": 2847.0,
+      "end": 2847.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2841000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/segment_002800_002860.json",
+  "segment_meta": {
+    "start_seconds": 2800,
+    "end_seconds": 2860,
+    "length_seconds": 60,
+    "start_time_mmss": "46:40",
+    "end_time_mmss": "47:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

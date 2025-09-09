@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7406,
+  "video_id": "ed089573-52f7-5178-bb9e-217dd8d09026",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Goal}.",
+  "answer": [
+    {
+      "start": 4003.0,
+      "end": 4003.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4042.0,
+      "end": 4042.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4003000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/segment_003990_004050.json",
+  "segment_meta": {
+    "start_seconds": 3990,
+    "end_seconds": 4050,
+    "length_seconds": 60,
+    "start_time_mmss": "66:30",
+    "end_time_mmss": "67:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

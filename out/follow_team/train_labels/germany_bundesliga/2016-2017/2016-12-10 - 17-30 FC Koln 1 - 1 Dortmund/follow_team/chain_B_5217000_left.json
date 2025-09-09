@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4262,
+  "video_id": "0d84a716-c529-5178-831b-1b894fbc7a08",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Substitution} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 5217.0,
+      "end": 5217.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 5239.0,
+      "end": 5239.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5217000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/segment_005200_005240.json",
+  "segment_meta": {
+    "start_seconds": 5200,
+    "end_seconds": 5240,
+    "length_seconds": 40,
+    "start_time_mmss": "86:40",
+    "end_time_mmss": "87:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

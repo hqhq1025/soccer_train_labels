@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17702,
+  "video_id": "c1effa1c-33cb-55f1-aa72-8903211023e8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 2646.0,
+      "end": 2646.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 2661.0,
+      "end": 2661.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2646000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/segment_002600_002680.json",
+  "segment_meta": {
+    "start_seconds": 2600,
+    "end_seconds": 2680,
+    "length_seconds": 80,
+    "start_time_mmss": "43:20",
+    "end_time_mmss": "44:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

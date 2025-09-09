@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8019,
+  "video_id": "e9562506-7ee0-5e1f-8dc0-0168900271b6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Substitution}, stick with that team and alert me for {Clearance}.",
+  "answer": [
+    {
+      "start": 5044.0,
+      "end": 5044.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 5065.0,
+      "end": 5065.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5044000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/segment_005000_005080.json",
+  "segment_meta": {
+    "start_seconds": 5000,
+    "end_seconds": 5080,
+    "length_seconds": 80,
+    "start_time_mmss": "83:20",
+    "end_time_mmss": "84:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

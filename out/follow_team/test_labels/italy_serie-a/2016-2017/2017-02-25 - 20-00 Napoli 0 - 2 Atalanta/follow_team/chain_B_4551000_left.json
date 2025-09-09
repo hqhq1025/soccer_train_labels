@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5878,
+  "video_id": "9d6faa6d-2dff-5bc8-9c34-c4e5543abc7c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 4551.0,
+      "end": 4551.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 4599.0,
+      "end": 4599.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4551000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/segment_004540_004620.json",
+  "segment_meta": {
+    "start_seconds": 4540,
+    "end_seconds": 4620,
+    "length_seconds": 80,
+    "start_time_mmss": "75:40",
+    "end_time_mmss": "77:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

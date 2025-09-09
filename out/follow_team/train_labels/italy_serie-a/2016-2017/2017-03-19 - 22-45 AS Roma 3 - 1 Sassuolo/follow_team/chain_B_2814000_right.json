@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18568,
+  "video_id": "2c4421b0-5c90-5892-a152-5ecd8883e30d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Goal}.",
+  "answer": [
+    {
+      "start": 2814.0,
+      "end": 2814.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2815.0,
+      "end": 2815.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2814000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/segment_002740_002860.json",
+  "segment_meta": {
+    "start_seconds": 2740,
+    "end_seconds": 2860,
+    "length_seconds": 120,
+    "start_time_mmss": "45:40",
+    "end_time_mmss": "47:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

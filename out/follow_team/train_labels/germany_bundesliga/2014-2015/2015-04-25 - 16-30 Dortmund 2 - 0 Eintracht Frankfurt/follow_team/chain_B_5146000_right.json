@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2774,
+  "video_id": "dc952a15-dbc1-56c9-ac6c-7fd879ad77c7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 5146.0,
+      "end": 5146.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 5149.0,
+      "end": 5149.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5146000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/segment_005110_005150.json",
+  "segment_meta": {
+    "start_seconds": 5110,
+    "end_seconds": 5150,
+    "length_seconds": 40,
+    "start_time_mmss": "85:10",
+    "end_time_mmss": "85:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

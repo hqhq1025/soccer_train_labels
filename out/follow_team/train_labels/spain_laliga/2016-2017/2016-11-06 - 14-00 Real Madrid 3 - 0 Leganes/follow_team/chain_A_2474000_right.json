@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14593,
+  "video_id": "128d4c3e-d1c3-5364-a3ca-d4dbc52daba2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Foul and Yellow card} happen.",
+  "answer": [
+    {
+      "start": 2474.0,
+      "end": 2474.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 41:14"
+    },
+    {
+      "start": 2485.0,
+      "end": 2485.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 2491.0,
+      "end": 2491.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2474000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-06 - 14-00 Real Madrid 3 - 0 Leganes/segment_002440_002500.json",
+  "segment_meta": {
+    "start_seconds": 2440,
+    "end_seconds": 2500,
+    "length_seconds": 60,
+    "start_time_mmss": "40:40",
+    "end_time_mmss": "41:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

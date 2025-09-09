@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8495,
+  "video_id": "de5291d2-e64c-5c7a-97aa-5851003ce867",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} occurs, follow the initiating team and report all {Throw-in and Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2397.0,
+      "end": 2397.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 2457.0,
+      "end": 2457.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 2475.0,
+      "end": 2475.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2397000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/segment_002370_002490.json",
+  "segment_meta": {
+    "start_seconds": 2370,
+    "end_seconds": 2490,
+    "length_seconds": 120,
+    "start_time_mmss": "39:30",
+    "end_time_mmss": "41:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

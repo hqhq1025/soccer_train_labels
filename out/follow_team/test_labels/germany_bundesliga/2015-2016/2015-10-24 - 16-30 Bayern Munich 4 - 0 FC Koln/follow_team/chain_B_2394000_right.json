@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 260,
+  "video_id": "442604de-84e9-5523-9690-5a994213e35b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 2394.0,
+      "end": 2394.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2395.0,
+      "end": 2395.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2394000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/segment_002360_002400.json",
+  "segment_meta": {
+    "start_seconds": 2360,
+    "end_seconds": 2400,
+    "length_seconds": 40,
+    "start_time_mmss": "39:20",
+    "end_time_mmss": "40:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

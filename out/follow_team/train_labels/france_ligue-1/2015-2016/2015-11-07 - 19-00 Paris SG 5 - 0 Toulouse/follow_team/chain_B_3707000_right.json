@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 58,
+  "video_id": "9449b73b-dab1-5899-9a61-9043cb73e372",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 3707.0,
+      "end": 3707.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3718.0,
+      "end": 3718.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3707000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/segment_003600_003720.json",
+  "segment_meta": {
+    "start_seconds": 3600,
+    "end_seconds": 3720,
+    "length_seconds": 120,
+    "start_time_mmss": "60:00",
+    "end_time_mmss": "62:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

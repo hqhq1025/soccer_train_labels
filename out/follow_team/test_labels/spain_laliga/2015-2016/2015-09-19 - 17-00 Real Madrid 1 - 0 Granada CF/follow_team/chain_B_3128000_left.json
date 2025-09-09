@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3720,
+  "video_id": "e4b38d66-a787-597b-ac00-4c8406064e40",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 3128.0,
+      "end": 3128.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3203.0,
+      "end": 3203.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3128000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/segment_003110_003210.json",
+  "segment_meta": {
+    "start_seconds": 3110,
+    "end_seconds": 3210,
+    "length_seconds": 100,
+    "start_time_mmss": "51:50",
+    "end_time_mmss": "53:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

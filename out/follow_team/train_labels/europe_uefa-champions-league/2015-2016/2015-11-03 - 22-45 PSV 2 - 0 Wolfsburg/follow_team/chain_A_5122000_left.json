@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6321,
+  "video_id": "8937ffaa-26b2-5c22-8d4d-b9384dee6a2e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 5122.0,
+      "end": 5122.0,
+      "text": "Trigger: Shots on target by left @ 2 - 40:22"
+    },
+    {
+      "start": 5123.0,
+      "end": 5123.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5122000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/segment_005090_005130.json",
+  "segment_meta": {
+    "start_seconds": 5090,
+    "end_seconds": 5130,
+    "length_seconds": 40,
+    "start_time_mmss": "84:50",
+    "end_time_mmss": "85:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

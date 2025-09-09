@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3999,
+  "video_id": "d1d1578a-0c97-556b-9f2e-aeb2a14c1dc6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Shots on target and Foul}.",
+  "answer": [
+    {
+      "start": 3887.0,
+      "end": 3887.0,
+      "text": "Trigger: Throw-in by left @ 2 - 19:47"
+    },
+    {
+      "start": 3892.0,
+      "end": 3892.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 3916.0,
+      "end": 3916.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3887000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_003860_003980.json",
+  "segment_meta": {
+    "start_seconds": 3860,
+    "end_seconds": 3980,
+    "length_seconds": 120,
+    "start_time_mmss": "64:20",
+    "end_time_mmss": "66:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22983,
+  "video_id": "abd95d9e-abe5-51fd-a1f7-5a3bd5bd48d9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Goal} happens, lock onto that team and report every {Kick-off and Offside} it makes.",
+  "answer": [
+    {
+      "start": 2708.0,
+      "end": 2708.0,
+      "text": "Trigger: Goal by right @ 1 - 45:08"
+    },
+    {
+      "start": 2700.0,
+      "end": 2700.0,
+      "text": "Then: Kick-off by right"
+    },
+    {
+      "start": 2754.0,
+      "end": 2754.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2708000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/segment_002640_002760.json",
+  "segment_meta": {
+    "start_seconds": 2640,
+    "end_seconds": 2760,
+    "length_seconds": 120,
+    "start_time_mmss": "44:00",
+    "end_time_mmss": "46:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

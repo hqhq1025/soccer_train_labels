@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25218,
+  "video_id": "c5e6a285-cfec-5f9f-b834-9a408e281033",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner}.",
+  "answer": [
+    {
+      "start": 914.0,
+      "end": 914.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 982.0,
+      "end": 982.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 914000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/segment_000900_001000.json",
+  "segment_meta": {
+    "start_seconds": 900,
+    "end_seconds": 1000,
+    "length_seconds": 100,
+    "start_time_mmss": "15:00",
+    "end_time_mmss": "16:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

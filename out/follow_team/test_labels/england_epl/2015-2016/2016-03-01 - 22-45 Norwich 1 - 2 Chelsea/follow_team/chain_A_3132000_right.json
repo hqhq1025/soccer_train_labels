@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7361,
+  "video_id": "aa66359a-da3b-596a-a11c-c4cdaebcb129",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 3132.0,
+      "end": 3132.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 3153.0,
+      "end": 3153.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3132000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/segment_003060_003160.json",
+  "segment_meta": {
+    "start_seconds": 3060,
+    "end_seconds": 3160,
+    "length_seconds": 100,
+    "start_time_mmss": "51:00",
+    "end_time_mmss": "52:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

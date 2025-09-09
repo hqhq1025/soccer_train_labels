@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12886,
+  "video_id": "3e2b179d-a027-5d56-bd18-69ab00bdaf29",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Substitution}.",
+  "answer": [
+    {
+      "start": 1940.0,
+      "end": 1940.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 1988.0,
+      "end": 1988.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-14 - 18-15 Barcelona 5 - 0 Las Palmas/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-14 - 18-15 Barcelona 5 - 0 Las Palmas/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1940000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-14 - 18-15 Barcelona 5 - 0 Las Palmas/segment_001930_001990.json",
+  "segment_meta": {
+    "start_seconds": 1930,
+    "end_seconds": 1990,
+    "length_seconds": 60,
+    "start_time_mmss": "32:10",
+    "end_time_mmss": "33:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

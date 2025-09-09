@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15812,
+  "video_id": "5b3560ec-ea1f-5ce7-ad5e-4849dfdedfe3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 4147.0,
+      "end": 4147.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 4160.0,
+      "end": 4160.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4147000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_004080_004180.json",
+  "segment_meta": {
+    "start_seconds": 4080,
+    "end_seconds": 4180,
+    "length_seconds": 100,
+    "start_time_mmss": "68:00",
+    "end_time_mmss": "69:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

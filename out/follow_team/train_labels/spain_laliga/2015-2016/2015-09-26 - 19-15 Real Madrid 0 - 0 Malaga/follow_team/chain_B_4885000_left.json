@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10144,
+  "video_id": "af82ee71-a792-57b1-a9ee-650b9469d137",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Shots on target}.",
+  "answer": [
+    {
+      "start": 4885.0,
+      "end": 4885.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 4895.0,
+      "end": 4895.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4885000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/segment_004800_004900.json",
+  "segment_meta": {
+    "start_seconds": 4800,
+    "end_seconds": 4900,
+    "length_seconds": 100,
+    "start_time_mmss": "80:00",
+    "end_time_mmss": "81:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

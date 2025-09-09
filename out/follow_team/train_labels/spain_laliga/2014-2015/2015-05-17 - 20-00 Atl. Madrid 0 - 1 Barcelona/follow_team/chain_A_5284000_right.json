@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11431,
+  "video_id": "5cb35130-a371-5bf0-9ce4-e2d7904d3576",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 5284.0,
+      "end": 5284.0,
+      "text": "Trigger: Throw-in by right @ 2 - 43:04"
+    },
+    {
+      "start": 5308.0,
+      "end": 5308.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 5316.0,
+      "end": 5316.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5284000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/segment_005240_005340.json",
+  "segment_meta": {
+    "start_seconds": 5240,
+    "end_seconds": 5340,
+    "length_seconds": 100,
+    "start_time_mmss": "87:20",
+    "end_time_mmss": "89:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

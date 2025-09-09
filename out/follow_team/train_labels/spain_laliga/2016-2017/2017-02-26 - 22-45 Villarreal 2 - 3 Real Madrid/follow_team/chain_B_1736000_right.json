@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12310,
+  "video_id": "d73c17de-2970-555d-837a-493159be3734",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 1736.0,
+      "end": 1736.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 1738.0,
+      "end": 1738.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1736000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/segment_001620_001740.json",
+  "segment_meta": {
+    "start_seconds": 1620,
+    "end_seconds": 1740,
+    "length_seconds": 120,
+    "start_time_mmss": "27:00",
+    "end_time_mmss": "29:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

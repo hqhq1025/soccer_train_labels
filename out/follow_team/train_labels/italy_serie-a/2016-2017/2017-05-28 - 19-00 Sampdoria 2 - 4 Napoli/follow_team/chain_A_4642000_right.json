@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19519,
+  "video_id": "0a36b06d-ff52-5f54-9239-ce7ade9ba98e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Offside}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 4642.0,
+      "end": 4642.0,
+      "text": "Trigger: Offside by right @ 2 - 32:22"
+    },
+    {
+      "start": 4686.0,
+      "end": 4686.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4642000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_004610_004690.json",
+  "segment_meta": {
+    "start_seconds": 4610,
+    "end_seconds": 4690,
+    "length_seconds": 80,
+    "start_time_mmss": "76:50",
+    "end_time_mmss": "78:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

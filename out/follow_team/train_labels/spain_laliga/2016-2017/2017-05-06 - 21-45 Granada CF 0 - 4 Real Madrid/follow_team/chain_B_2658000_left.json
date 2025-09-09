@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11980,
+  "video_id": "7da10fe9-964c-5856-acb1-351ae695f4bc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 2658.0,
+      "end": 2658.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2660.0,
+      "end": 2660.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-05-06 - 21-45 Granada CF 0 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-06 - 21-45 Granada CF 0 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2658000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-06 - 21-45 Granada CF 0 - 4 Real Madrid/segment_002600_002720.json",
+  "segment_meta": {
+    "start_seconds": 2600,
+    "end_seconds": 2720,
+    "length_seconds": 120,
+    "start_time_mmss": "43:20",
+    "end_time_mmss": "45:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

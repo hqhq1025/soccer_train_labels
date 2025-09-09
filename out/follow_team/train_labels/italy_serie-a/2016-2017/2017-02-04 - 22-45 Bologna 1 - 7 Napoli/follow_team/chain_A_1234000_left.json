@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20099,
+  "video_id": "db8c363b-8660-5814-a961-60815fa3d2e5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 1234.0,
+      "end": 1234.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 20:34"
+    },
+    {
+      "start": 1236.0,
+      "end": 1236.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1234000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/segment_001200_001240.json",
+  "segment_meta": {
+    "start_seconds": 1200,
+    "end_seconds": 1240,
+    "length_seconds": 40,
+    "start_time_mmss": "20:00",
+    "end_time_mmss": "20:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

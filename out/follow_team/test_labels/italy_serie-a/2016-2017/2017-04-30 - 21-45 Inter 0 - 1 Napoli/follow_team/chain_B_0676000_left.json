@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6694,
+  "video_id": "a5acb54b-a2db-5998-a28d-1343ab3c7a15",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 676.0,
+      "end": 676.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 680.0,
+      "end": 680.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 676000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/segment_000630_000750.json",
+  "segment_meta": {
+    "start_seconds": 630,
+    "end_seconds": 750,
+    "length_seconds": 120,
+    "start_time_mmss": "10:30",
+    "end_time_mmss": "12:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

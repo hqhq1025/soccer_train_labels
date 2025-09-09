@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19456,
+  "video_id": "6a449560-cd27-579e-8c16-ae10612da731",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 3532.0,
+      "end": 3532.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3567.0,
+      "end": 3567.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3532000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/segment_003480_003600.json",
+  "segment_meta": {
+    "start_seconds": 3480,
+    "end_seconds": 3600,
+    "length_seconds": 120,
+    "start_time_mmss": "58:00",
+    "end_time_mmss": "60:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

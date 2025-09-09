@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7013,
+  "video_id": "f274bea2-5dcc-5505-a1f1-21e6735c9dd3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 2615.0,
+      "end": 2615.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2660.0,
+      "end": 2660.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2615000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/segment_002600_002720.json",
+  "segment_meta": {
+    "start_seconds": 2600,
+    "end_seconds": 2720,
+    "length_seconds": 120,
+    "start_time_mmss": "43:20",
+    "end_time_mmss": "45:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

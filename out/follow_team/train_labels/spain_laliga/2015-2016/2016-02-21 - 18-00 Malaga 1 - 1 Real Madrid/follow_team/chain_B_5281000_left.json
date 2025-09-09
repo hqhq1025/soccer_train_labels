@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10352,
+  "video_id": "37df63ee-8390-51dc-a9cf-97cba1c6a174",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Offside}, follow the same team and list all subsequent {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 5281.0,
+      "end": 5281.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 5374.0,
+      "end": 5374.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5281000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/segment_005260_005380.json",
+  "segment_meta": {
+    "start_seconds": 5260,
+    "end_seconds": 5380,
+    "length_seconds": 120,
+    "start_time_mmss": "87:40",
+    "end_time_mmss": "89:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

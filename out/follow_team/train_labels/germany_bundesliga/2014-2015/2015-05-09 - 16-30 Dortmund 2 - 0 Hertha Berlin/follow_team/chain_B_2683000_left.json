@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3000,
+  "video_id": "3135b7c1-3685-5f9c-b090-bd75fb3d023f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Substitution} happen.",
+  "answer": [
+    {
+      "start": 2683.0,
+      "end": 2683.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2700.0,
+      "end": 2700.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2683000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/segment_002660_002780.json",
+  "segment_meta": {
+    "start_seconds": 2660,
+    "end_seconds": 2780,
+    "length_seconds": 120,
+    "start_time_mmss": "44:20",
+    "end_time_mmss": "46:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

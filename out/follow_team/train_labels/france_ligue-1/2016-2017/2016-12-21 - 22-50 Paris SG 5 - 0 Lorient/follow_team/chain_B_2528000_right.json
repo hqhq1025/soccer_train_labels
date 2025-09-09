@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1566,
+  "video_id": "0de724ea-b700-5f13-822a-e2cf3177640c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Direct free-kick} it makes.",
+  "answer": [
+    {
+      "start": 2528.0,
+      "end": 2528.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2550.0,
+      "end": 2550.0,
+      "text": "Then: Direct free-kick by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2528000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/segment_002480_002560.json",
+  "segment_meta": {
+    "start_seconds": 2480,
+    "end_seconds": 2560,
+    "length_seconds": 80,
+    "start_time_mmss": "41:20",
+    "end_time_mmss": "42:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

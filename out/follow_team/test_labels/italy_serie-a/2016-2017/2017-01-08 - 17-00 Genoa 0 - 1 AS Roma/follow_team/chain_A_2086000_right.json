@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7121,
+  "video_id": "390829a9-37e5-539c-adbd-9010254076db",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 2086.0,
+      "end": 2086.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2103.0,
+      "end": 2103.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2086000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/segment_002050_002110.json",
+  "segment_meta": {
+    "start_seconds": 2050,
+    "end_seconds": 2110,
+    "length_seconds": 60,
+    "start_time_mmss": "34:10",
+    "end_time_mmss": "35:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

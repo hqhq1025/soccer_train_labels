@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 472,
+  "video_id": "f8621261-ae3b-5089-a769-c1a7e50c7946",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 1619.0,
+      "end": 1619.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 1620.0,
+      "end": 1620.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1619000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_001570_001630.json",
+  "segment_meta": {
+    "start_seconds": 1570,
+    "end_seconds": 1630,
+    "length_seconds": 60,
+    "start_time_mmss": "26:10",
+    "end_time_mmss": "27:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

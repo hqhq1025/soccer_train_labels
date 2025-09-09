@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8485,
+  "video_id": "3437235c-293e-51a4-a227-bf40a7c79fce",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 3190.0,
+      "end": 3190.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 3218.0,
+      "end": 3218.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3190000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/segment_003160_003240.json",
+  "segment_meta": {
+    "start_seconds": 3160,
+    "end_seconds": 3240,
+    "length_seconds": 80,
+    "start_time_mmss": "52:40",
+    "end_time_mmss": "54:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

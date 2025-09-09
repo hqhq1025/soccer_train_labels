@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12235,
+  "video_id": "9f4d14fe-b351-59b9-8e0c-43b76c940c2d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
+  "answer": [
+    {
+      "start": 2360.0,
+      "end": 2360.0,
+      "text": "Trigger: Foul by left @ 1 - 39:20"
+    },
+    {
+      "start": 2460.0,
+      "end": 2460.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2360000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/segment_002350_002470.json",
+  "segment_meta": {
+    "start_seconds": 2350,
+    "end_seconds": 2470,
+    "length_seconds": 120,
+    "start_time_mmss": "39:10",
+    "end_time_mmss": "41:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

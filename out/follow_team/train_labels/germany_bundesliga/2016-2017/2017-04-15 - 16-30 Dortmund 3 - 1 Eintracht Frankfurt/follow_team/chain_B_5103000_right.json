@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4922,
+  "video_id": "47f4a8cc-b52e-5294-8d2f-ab39d9459ec5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Goal}.",
+  "answer": [
+    {
+      "start": 5103.0,
+      "end": 5103.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 5104.0,
+      "end": 5104.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5103000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/segment_005050_005110.json",
+  "segment_meta": {
+    "start_seconds": 5050,
+    "end_seconds": 5110,
+    "length_seconds": 60,
+    "start_time_mmss": "84:10",
+    "end_time_mmss": "85:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

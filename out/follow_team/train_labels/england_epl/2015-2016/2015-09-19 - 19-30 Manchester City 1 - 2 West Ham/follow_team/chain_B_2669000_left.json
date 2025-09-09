@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22872,
+  "video_id": "14a53e6e-69a7-5b1d-ad27-00fe3374d4b2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 2669.0,
+      "end": 2669.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 2714.0,
+      "end": 2714.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2669000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/segment_002600_002720.json",
+  "segment_meta": {
+    "start_seconds": 2600,
+    "end_seconds": 2720,
+    "length_seconds": 120,
+    "start_time_mmss": "43:20",
+    "end_time_mmss": "45:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

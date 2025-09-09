@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25595,
+  "video_id": "f4cdb721-4309-5044-97c4-828267c858fc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in and Shots on target} happen.",
+  "answer": [
+    {
+      "start": 898.0,
+      "end": 898.0,
+      "text": "Trigger: Throw-in by left @ 1 - 14:58"
+    },
+    {
+      "start": 930.0,
+      "end": 930.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 939.0,
+      "end": 939.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 898000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/segment_000850_000970.json",
+  "segment_meta": {
+    "start_seconds": 850,
+    "end_seconds": 970,
+    "length_seconds": 120,
+    "start_time_mmss": "14:10",
+    "end_time_mmss": "16:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

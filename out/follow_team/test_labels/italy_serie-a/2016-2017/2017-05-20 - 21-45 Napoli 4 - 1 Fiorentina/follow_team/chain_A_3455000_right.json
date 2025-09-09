@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5675,
+  "video_id": "22205e50-b194-5de3-9c67-2bae3bcba6bf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card and Clearance} happen.",
+  "answer": [
+    {
+      "start": 3455.0,
+      "end": 3455.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 3458.0,
+      "end": 3458.0,
+      "text": "Then: Yellow card by right"
+    },
+    {
+      "start": 3516.0,
+      "end": 3516.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3455000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/segment_003400_003520.json",
+  "segment_meta": {
+    "start_seconds": 3400,
+    "end_seconds": 3520,
+    "length_seconds": 120,
+    "start_time_mmss": "56:40",
+    "end_time_mmss": "58:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

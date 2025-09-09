@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23281,
+  "video_id": "0925446d-c220-5ef1-a760-298d0d7d0a38",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Shots on target}.",
+  "answer": [
+    {
+      "start": 891.0,
+      "end": 891.0,
+      "text": "Trigger: Throw-in by left @ 1 - 14:51"
+    },
+    {
+      "start": 901.0,
+      "end": 901.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 891000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_000850_000910.json",
+  "segment_meta": {
+    "start_seconds": 850,
+    "end_seconds": 910,
+    "length_seconds": 60,
+    "start_time_mmss": "14:10",
+    "end_time_mmss": "15:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

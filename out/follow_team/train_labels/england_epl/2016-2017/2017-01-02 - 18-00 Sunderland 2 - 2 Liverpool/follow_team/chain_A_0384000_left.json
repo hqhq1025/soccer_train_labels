@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23665,
+  "video_id": "eba670b8-ae81-58ba-86dc-c3da6a8aa322",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Offside}.",
+  "answer": [
+    {
+      "start": 384.0,
+      "end": 384.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 06:24"
+    },
+    {
+      "start": 386.0,
+      "end": 386.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 384000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/segment_000340_000460.json",
+  "segment_meta": {
+    "start_seconds": 340,
+    "end_seconds": 460,
+    "length_seconds": 120,
+    "start_time_mmss": "05:40",
+    "end_time_mmss": "07:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

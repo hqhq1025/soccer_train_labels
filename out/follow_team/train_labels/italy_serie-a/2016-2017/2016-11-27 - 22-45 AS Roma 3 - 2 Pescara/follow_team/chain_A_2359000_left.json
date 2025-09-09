@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18779,
+  "video_id": "88be67a2-dc94-5202-bc99-dd63bd5aa44e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 2359.0,
+      "end": 2359.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 39:19"
+    },
+    {
+      "start": 2402.0,
+      "end": 2402.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 2420.0,
+      "end": 2420.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2359000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/segment_002330_002430.json",
+  "segment_meta": {
+    "start_seconds": 2330,
+    "end_seconds": 2430,
+    "length_seconds": 100,
+    "start_time_mmss": "38:50",
+    "end_time_mmss": "40:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

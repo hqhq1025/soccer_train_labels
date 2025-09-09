@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1433,
+  "video_id": "4a206356-8d31-58d8-af42-dce86882c892",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 3001.0,
+      "end": 3001.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3015.0,
+      "end": 3015.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 3058.0,
+      "end": 3058.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3001000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/segment_002950_003070.json",
+  "segment_meta": {
+    "start_seconds": 2950,
+    "end_seconds": 3070,
+    "length_seconds": 120,
+    "start_time_mmss": "49:10",
+    "end_time_mmss": "51:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

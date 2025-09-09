@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4418,
+  "video_id": "9b482d25-9af5-585d-acb7-f176d50dc811",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 1017.0,
+      "end": 1017.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 1020.0,
+      "end": 1020.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-09-21 - 21-00 Real Madrid 1 - 1 Villarreal/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2016-09-21 - 21-00 Real Madrid 1 - 1 Villarreal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1017000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2016-09-21 - 21-00 Real Madrid 1 - 1 Villarreal/segment_000920_001040.json",
+  "segment_meta": {
+    "start_seconds": 920,
+    "end_seconds": 1040,
+    "length_seconds": 120,
+    "start_time_mmss": "15:20",
+    "end_time_mmss": "17:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

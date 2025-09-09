@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5361,
+  "video_id": "ddcb3b5e-1d85-5d35-8f6d-713b51c65286",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 4439.0,
+      "end": 4439.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4487.0,
+      "end": 4487.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4439000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/segment_004380_004500.json",
+  "segment_meta": {
+    "start_seconds": 4380,
+    "end_seconds": 4500,
+    "length_seconds": 120,
+    "start_time_mmss": "73:00",
+    "end_time_mmss": "75:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

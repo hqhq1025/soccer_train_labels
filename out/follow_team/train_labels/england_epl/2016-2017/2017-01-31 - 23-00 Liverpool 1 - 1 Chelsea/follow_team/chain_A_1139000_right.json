@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23169,
+  "video_id": "44f29d29-132c-52b4-915f-b40c2d9ce8b1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Shots off target, Corner and Offside}.",
+  "answer": [
+    {
+      "start": 1139.0,
+      "end": 1139.0,
+      "text": "Trigger: Throw-in by right @ 1 - 18:59"
+    },
+    {
+      "start": 1151.0,
+      "end": 1151.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 1182.0,
+      "end": 1182.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 1191.0,
+      "end": 1191.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1139000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_001080_001200.json",
+  "segment_meta": {
+    "start_seconds": 1080,
+    "end_seconds": 1200,
+    "length_seconds": 120,
+    "start_time_mmss": "18:00",
+    "end_time_mmss": "20:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

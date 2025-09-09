@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15565,
+  "video_id": "c5b548b5-e7ac-5ddc-9f38-2ed3887a13bf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 619.0,
+      "end": 619.0,
+      "text": "Trigger: Corner by right @ 1 - 10:19"
+    },
+    {
+      "start": 627.0,
+      "end": 627.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 619000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/segment_000530_000630.json",
+  "segment_meta": {
+    "start_seconds": 530,
+    "end_seconds": 630,
+    "length_seconds": 100,
+    "start_time_mmss": "08:50",
+    "end_time_mmss": "10:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

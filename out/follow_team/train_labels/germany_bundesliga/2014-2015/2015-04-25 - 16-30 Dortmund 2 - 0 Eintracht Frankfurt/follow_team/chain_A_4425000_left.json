@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2789,
+  "video_id": "d3e4631b-a9a4-5fc1-9400-257d46ec94b3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Corner}.",
+  "answer": [
+    {
+      "start": 4425.0,
+      "end": 4425.0,
+      "text": "Trigger: Shots on target by left @ 2 - 28:45"
+    },
+    {
+      "start": 4456.0,
+      "end": 4456.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4425000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/segment_004400_004460.json",
+  "segment_meta": {
+    "start_seconds": 4400,
+    "end_seconds": 4460,
+    "length_seconds": 60,
+    "start_time_mmss": "73:20",
+    "end_time_mmss": "74:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

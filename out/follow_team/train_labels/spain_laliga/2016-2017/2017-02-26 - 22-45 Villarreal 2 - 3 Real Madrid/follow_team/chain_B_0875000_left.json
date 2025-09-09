@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12336,
+  "video_id": "a1594f8e-779b-5f45-9f8d-b520d5d7cbc6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 875.0,
+      "end": 875.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 904.0,
+      "end": 904.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 875000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/segment_000790_000910.json",
+  "segment_meta": {
+    "start_seconds": 790,
+    "end_seconds": 910,
+    "length_seconds": 120,
+    "start_time_mmss": "13:10",
+    "end_time_mmss": "15:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

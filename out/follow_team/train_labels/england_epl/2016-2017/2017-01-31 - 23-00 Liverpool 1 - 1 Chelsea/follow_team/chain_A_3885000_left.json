@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23207,
+  "video_id": "d3035f1c-4580-5f49-a2db-3bd8f7eb0171",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Throw-in and Foul} it makes.",
+  "answer": [
+    {
+      "start": 3885.0,
+      "end": 3885.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 19:45"
+    },
+    {
+      "start": 3904.0,
+      "end": 3904.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 3942.0,
+      "end": 3942.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3885000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_003830_003950.json",
+  "segment_meta": {
+    "start_seconds": 3830,
+    "end_seconds": 3950,
+    "length_seconds": 120,
+    "start_time_mmss": "63:50",
+    "end_time_mmss": "65:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

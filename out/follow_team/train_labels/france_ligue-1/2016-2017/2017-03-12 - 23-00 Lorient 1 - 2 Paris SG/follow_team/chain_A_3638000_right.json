@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1623,
+  "video_id": "7728e838-91db-57c4-a76f-7c20133e9e63",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Direct free-kick}.",
+  "answer": [
+    {
+      "start": 3638.0,
+      "end": 3638.0,
+      "text": "Trigger: Direct free-kick by right @ 2 - 15:38"
+    },
+    {
+      "start": 3689.0,
+      "end": 3689.0,
+      "text": "Then: Direct free-kick by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3638000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/segment_003600_003720.json",
+  "segment_meta": {
+    "start_seconds": 3600,
+    "end_seconds": 3720,
+    "length_seconds": 120,
+    "start_time_mmss": "60:00",
+    "end_time_mmss": "62:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

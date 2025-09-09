@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1974,
+  "video_id": "7fb8360e-8974-5bf5-ad95-5a2ca9ef5a6b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4167.0,
+      "end": 4167.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 4228.0,
+      "end": 4228.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4167000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/segment_004140_004240.json",
+  "segment_meta": {
+    "start_seconds": 4140,
+    "end_seconds": 4240,
+    "length_seconds": 100,
+    "start_time_mmss": "69:00",
+    "end_time_mmss": "70:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

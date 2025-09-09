@@ -1,0 +1,51 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1245,
+  "video_id": "f1699349-ea83-51cc-8cd2-42a00598bc63",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Throw-in, Offside, Indirect free-kick and Foul}.",
+  "answer": [
+    {
+      "start": 1937.0,
+      "end": 1937.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 1975.0,
+      "end": 1975.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 1981.0,
+      "end": 1981.0,
+      "text": "Then: Offside by right"
+    },
+    {
+      "start": 1985.0,
+      "end": 1985.0,
+      "text": "Then: Indirect free-kick by right"
+    },
+    {
+      "start": 1993.0,
+      "end": 1993.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1937000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/segment_001920_002040.json",
+  "segment_meta": {
+    "start_seconds": 1920,
+    "end_seconds": 2040,
+    "length_seconds": 120,
+    "start_time_mmss": "32:00",
+    "end_time_mmss": "34:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

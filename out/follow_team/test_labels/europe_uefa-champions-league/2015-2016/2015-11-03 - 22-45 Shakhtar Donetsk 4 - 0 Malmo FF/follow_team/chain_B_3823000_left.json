@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1634,
+  "video_id": "9c3beb08-6832-583e-9ab0-0c997b334959",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 3823.0,
+      "end": 3823.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 3825.0,
+      "end": 3825.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3823000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Shakhtar Donetsk 4 - 0 Malmo FF/segment_003770_003830.json",
+  "segment_meta": {
+    "start_seconds": 3770,
+    "end_seconds": 3830,
+    "length_seconds": 60,
+    "start_time_mmss": "62:50",
+    "end_time_mmss": "63:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

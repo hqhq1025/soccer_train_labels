@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10539,
+  "video_id": "9ac74798-125b-5a31-904c-3c01c84eccf4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 3514.0,
+      "end": 3514.0,
+      "text": "Trigger: Corner by right @ 2 - 13:34"
+    },
+    {
+      "start": 3517.0,
+      "end": 3517.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3514000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/segment_003440_003520.json",
+  "segment_meta": {
+    "start_seconds": 3440,
+    "end_seconds": 3520,
+    "length_seconds": 80,
+    "start_time_mmss": "57:20",
+    "end_time_mmss": "58:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

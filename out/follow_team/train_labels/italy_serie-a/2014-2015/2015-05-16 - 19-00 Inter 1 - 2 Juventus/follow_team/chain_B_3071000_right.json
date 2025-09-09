@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16206,
+  "video_id": "d873e909-838b-59da-ad82-46cce17bcfd2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 3071.0,
+      "end": 3071.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3082.0,
+      "end": 3082.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3071000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/segment_002980_003100.json",
+  "segment_meta": {
+    "start_seconds": 2980,
+    "end_seconds": 3100,
+    "length_seconds": 120,
+    "start_time_mmss": "49:40",
+    "end_time_mmss": "51:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

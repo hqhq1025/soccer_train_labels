@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8878,
+  "video_id": "ed3b882e-3836-5bdd-93b4-36bd53b7a453",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 1461.0,
+      "end": 1461.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 1466.0,
+      "end": 1466.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1461000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/segment_001360_001480.json",
+  "segment_meta": {
+    "start_seconds": 1360,
+    "end_seconds": 1480,
+    "length_seconds": 120,
+    "start_time_mmss": "22:40",
+    "end_time_mmss": "24:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

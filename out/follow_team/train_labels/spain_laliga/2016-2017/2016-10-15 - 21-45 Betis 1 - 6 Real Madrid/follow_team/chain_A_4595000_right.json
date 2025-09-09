@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12791,
+  "video_id": "cd1c21f2-81d8-59a5-80dc-03e2fa9df2cc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 4595.0,
+      "end": 4595.0,
+      "text": "Trigger: Foul by right @ 2 - 31:35"
+    },
+    {
+      "start": 4602.0,
+      "end": 4602.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4595000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/segment_004530_004610.json",
+  "segment_meta": {
+    "start_seconds": 4530,
+    "end_seconds": 4610,
+    "length_seconds": 80,
+    "start_time_mmss": "75:30",
+    "end_time_mmss": "76:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

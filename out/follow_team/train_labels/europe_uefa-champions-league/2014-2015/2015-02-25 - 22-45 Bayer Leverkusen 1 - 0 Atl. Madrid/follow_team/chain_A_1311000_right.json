@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8683,
+  "video_id": "615bc368-7340-50c1-99ff-e634fe5a4f2d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Yellow card}, follow the same team and list all subsequent {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 1311.0,
+      "end": 1311.0,
+      "text": "Trigger: Yellow card by right @ 1 - 21:51"
+    },
+    {
+      "start": 1345.0,
+      "end": 1345.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1311000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/segment_001300_001360.json",
+  "segment_meta": {
+    "start_seconds": 1300,
+    "end_seconds": 1360,
+    "length_seconds": 60,
+    "start_time_mmss": "21:40",
+    "end_time_mmss": "22:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

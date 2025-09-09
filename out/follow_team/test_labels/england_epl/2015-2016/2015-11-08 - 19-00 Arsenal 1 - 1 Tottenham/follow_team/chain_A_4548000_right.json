@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7781,
+  "video_id": "4259282f-4b4d-5ad1-94d0-41072355fa41",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 4548.0,
+      "end": 4548.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4561.0,
+      "end": 4561.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 4562.0,
+      "end": 4562.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4548000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/segment_004510_004570.json",
+  "segment_meta": {
+    "start_seconds": 4510,
+    "end_seconds": 4570,
+    "length_seconds": 60,
+    "start_time_mmss": "75:10",
+    "end_time_mmss": "76:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

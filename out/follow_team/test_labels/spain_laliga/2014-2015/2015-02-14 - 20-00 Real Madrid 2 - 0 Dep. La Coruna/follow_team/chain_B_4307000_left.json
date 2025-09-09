@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4034,
+  "video_id": "f1cd8270-7236-504b-b99d-72b068c26e1e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Shots on target}.",
+  "answer": [
+    {
+      "start": 4307.0,
+      "end": 4307.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4335.0,
+      "end": 4335.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4307000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/segment_004270_004390.json",
+  "segment_meta": {
+    "start_seconds": 4270,
+    "end_seconds": 4390,
+    "length_seconds": 120,
+    "start_time_mmss": "71:10",
+    "end_time_mmss": "73:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

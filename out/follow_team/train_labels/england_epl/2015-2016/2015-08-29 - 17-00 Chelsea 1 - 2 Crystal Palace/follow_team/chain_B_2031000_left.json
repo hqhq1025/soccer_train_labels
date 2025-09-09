@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22538,
+  "video_id": "c7731e9e-351b-5d4c-abbf-be40cde3e4e3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 2031.0,
+      "end": 2031.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2044.0,
+      "end": 2044.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2031000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_001960_002060.json",
+  "segment_meta": {
+    "start_seconds": 1960,
+    "end_seconds": 2060,
+    "length_seconds": 100,
+    "start_time_mmss": "32:40",
+    "end_time_mmss": "34:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

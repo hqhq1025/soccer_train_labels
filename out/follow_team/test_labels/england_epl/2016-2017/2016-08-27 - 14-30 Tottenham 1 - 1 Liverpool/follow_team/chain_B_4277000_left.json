@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8578,
+  "video_id": "00c707b5-07d3-52c9-9ffe-40d9b81f085b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 4277.0,
+      "end": 4277.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4278.0,
+      "end": 4278.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4277000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/segment_004240_004280.json",
+  "segment_meta": {
+    "start_seconds": 4240,
+    "end_seconds": 4280,
+    "length_seconds": 40,
+    "start_time_mmss": "70:40",
+    "end_time_mmss": "71:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

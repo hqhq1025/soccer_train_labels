@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9855,
+  "video_id": "bdb41fef-0b45-53dd-9168-61f3105f341e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 5427.0,
+      "end": 5427.0,
+      "text": "Trigger: Shots on target by left @ 2 - 45:27"
+    },
+    {
+      "start": 5429.0,
+      "end": 5429.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 5430.0,
+      "end": 5430.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-07 - 22-45 Napoli 1 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-03-07 - 22-45 Napoli 1 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5427000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-07 - 22-45 Napoli 1 - 3 Real Madrid/segment_005360_005440.json",
+  "segment_meta": {
+    "start_seconds": 5360,
+    "end_seconds": 5440,
+    "length_seconds": 80,
+    "start_time_mmss": "89:20",
+    "end_time_mmss": "90:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

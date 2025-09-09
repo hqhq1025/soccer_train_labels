@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11044,
+  "video_id": "1546525d-8286-5288-b788-83fc6f540f57",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 420.0,
+      "end": 420.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 441.0,
+      "end": 441.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 420000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/segment_000390_000450.json",
+  "segment_meta": {
+    "start_seconds": 390,
+    "end_seconds": 450,
+    "length_seconds": 60,
+    "start_time_mmss": "06:30",
+    "end_time_mmss": "07:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

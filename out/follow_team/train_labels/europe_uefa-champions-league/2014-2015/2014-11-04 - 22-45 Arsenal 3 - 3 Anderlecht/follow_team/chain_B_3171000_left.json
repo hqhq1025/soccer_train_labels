@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9052,
+  "video_id": "1c2b7000-5b24-503d-95a3-7445aee631ec",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Throw-in}; then follow that team and report its {Substitution}.",
+  "answer": [
+    {
+      "start": 3171.0,
+      "end": 3171.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3218.0,
+      "end": 3218.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3171000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/segment_003140_003220.json",
+  "segment_meta": {
+    "start_seconds": 3140,
+    "end_seconds": 3220,
+    "length_seconds": 80,
+    "start_time_mmss": "52:20",
+    "end_time_mmss": "53:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

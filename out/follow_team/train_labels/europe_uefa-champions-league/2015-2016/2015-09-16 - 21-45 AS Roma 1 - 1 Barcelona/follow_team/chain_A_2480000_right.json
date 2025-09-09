@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7317,
+  "video_id": "1e5fae3e-32fb-5a5b-92d2-0fae00c41ba9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 2480.0,
+      "end": 2480.0,
+      "text": "Trigger: Throw-in by right @ 1 - 41:20"
+    },
+    {
+      "start": 2529.0,
+      "end": 2529.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 2558.0,
+      "end": 2558.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2480000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/segment_002440_002560.json",
+  "segment_meta": {
+    "start_seconds": 2440,
+    "end_seconds": 2560,
+    "length_seconds": 120,
+    "start_time_mmss": "40:40",
+    "end_time_mmss": "42:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

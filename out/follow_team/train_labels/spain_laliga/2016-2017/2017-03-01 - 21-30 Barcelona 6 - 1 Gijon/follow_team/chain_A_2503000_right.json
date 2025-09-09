@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13319,
+  "video_id": "efb25924-3097-5dd1-81f8-cb73b151a0fc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Corner} happen.",
+  "answer": [
+    {
+      "start": 2503.0,
+      "end": 2503.0,
+      "text": "Trigger: Shots off target by right @ 1 - 41:43"
+    },
+    {
+      "start": 2530.0,
+      "end": 2530.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2503000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/segment_002450_002550.json",
+  "segment_meta": {
+    "start_seconds": 2450,
+    "end_seconds": 2550,
+    "length_seconds": 100,
+    "start_time_mmss": "40:50",
+    "end_time_mmss": "42:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

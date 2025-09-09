@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10930,
+  "video_id": "a5627038-8655-5724-b2e7-9fb20b2ca327",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 72000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/segment_000040_000140.json",
+  "segment_meta": {
+    "start_seconds": 40,
+    "end_seconds": 140,
+    "length_seconds": 100,
+    "start_time_mmss": "00:40",
+    "end_time_mmss": "02:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

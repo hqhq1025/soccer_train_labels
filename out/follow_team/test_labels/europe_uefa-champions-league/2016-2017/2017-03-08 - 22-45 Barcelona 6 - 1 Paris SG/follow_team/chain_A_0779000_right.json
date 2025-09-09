@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2695,
+  "video_id": "1ba7f3b5-370e-5db1-a55c-ba9e141ab56a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 779.0,
+      "end": 779.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 786.0,
+      "end": 786.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 779000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/segment_000750_000790.json",
+  "segment_meta": {
+    "start_seconds": 750,
+    "end_seconds": 790,
+    "length_seconds": 40,
+    "start_time_mmss": "12:30",
+    "end_time_mmss": "13:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14168,
+  "video_id": "38973ea1-44a1-598a-af97-558f84d44c38",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 4789.0,
+      "end": 4789.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4817.0,
+      "end": 4817.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4789000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/segment_004700_004820.json",
+  "segment_meta": {
+    "start_seconds": 4700,
+    "end_seconds": 4820,
+    "length_seconds": 120,
+    "start_time_mmss": "78:20",
+    "end_time_mmss": "80:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

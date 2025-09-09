@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24669,
+  "video_id": "22bd69c1-cd91-5a5f-a923-50da938a763c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 3630.0,
+      "end": 3630.0,
+      "text": "Trigger: Direct free-kick by right @ 2 - 15:30"
+    },
+    {
+      "start": 3677.0,
+      "end": 3677.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3630000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/segment_003560_003680.json",
+  "segment_meta": {
+    "start_seconds": 3560,
+    "end_seconds": 3680,
+    "length_seconds": 120,
+    "start_time_mmss": "59:20",
+    "end_time_mmss": "61:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

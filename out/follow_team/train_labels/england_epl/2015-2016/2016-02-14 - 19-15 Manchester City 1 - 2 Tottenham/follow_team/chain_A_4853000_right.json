@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21909,
+  "video_id": "e3381fb7-c159-5dd5-b571-5799cf925cfb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Corner and Offside}.",
+  "answer": [
+    {
+      "start": 4853.0,
+      "end": 4853.0,
+      "text": "Trigger: Throw-in by right @ 2 - 35:53"
+    },
+    {
+      "start": 4884.0,
+      "end": 4884.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 4908.0,
+      "end": 4908.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4853000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/segment_004790_004910.json",
+  "segment_meta": {
+    "start_seconds": 4790,
+    "end_seconds": 4910,
+    "length_seconds": 120,
+    "start_time_mmss": "79:50",
+    "end_time_mmss": "81:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

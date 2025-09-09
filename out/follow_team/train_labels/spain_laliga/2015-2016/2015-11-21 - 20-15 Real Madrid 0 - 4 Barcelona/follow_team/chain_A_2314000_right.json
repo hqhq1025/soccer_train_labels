@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10523,
+  "video_id": "dde247e6-cc8a-54e4-b9e1-37cc6b5e1bb4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Goal}.",
+  "answer": [
+    {
+      "start": 2314.0,
+      "end": 2314.0,
+      "text": "Trigger: Shots on target by right @ 1 - 38:34"
+    },
+    {
+      "start": 2315.0,
+      "end": 2315.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2314000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/segment_002280_002320.json",
+  "segment_meta": {
+    "start_seconds": 2280,
+    "end_seconds": 2320,
+    "length_seconds": 40,
+    "start_time_mmss": "38:00",
+    "end_time_mmss": "38:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

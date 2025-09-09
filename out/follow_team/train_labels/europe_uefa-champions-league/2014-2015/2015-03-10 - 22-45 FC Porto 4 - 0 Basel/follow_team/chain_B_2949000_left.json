@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8764,
+  "video_id": "5f8f1dc0-1f93-5da1-a2e4-1f1e79bb738b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 2949.0,
+      "end": 2949.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 2990.0,
+      "end": 2990.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2949000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/segment_002920_003000.json",
+  "segment_meta": {
+    "start_seconds": 2920,
+    "end_seconds": 3000,
+    "length_seconds": 80,
+    "start_time_mmss": "48:40",
+    "end_time_mmss": "50:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

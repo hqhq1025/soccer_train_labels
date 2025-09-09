@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16578,
+  "video_id": "85503704-726d-51b5-a7af-fe8a7b22df0a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Yellow card}.",
+  "answer": [
+    {
+      "start": 3214.0,
+      "end": 3214.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 3221.0,
+      "end": 3221.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3214000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_003130_003230.json",
+  "segment_meta": {
+    "start_seconds": 3130,
+    "end_seconds": 3230,
+    "length_seconds": 100,
+    "start_time_mmss": "52:10",
+    "end_time_mmss": "53:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

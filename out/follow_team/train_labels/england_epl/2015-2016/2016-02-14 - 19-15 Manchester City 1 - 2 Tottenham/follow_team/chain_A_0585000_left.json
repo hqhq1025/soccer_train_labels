@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21949,
+  "video_id": "95347f0e-7a91-50ca-8b89-7dddd0ba5ef9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 585.0,
+      "end": 585.0,
+      "text": "Trigger: Corner by left @ 1 - 09:45"
+    },
+    {
+      "start": 588.0,
+      "end": 588.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 585000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/segment_000520_000600.json",
+  "segment_meta": {
+    "start_seconds": 520,
+    "end_seconds": 600,
+    "length_seconds": 80,
+    "start_time_mmss": "08:40",
+    "end_time_mmss": "10:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

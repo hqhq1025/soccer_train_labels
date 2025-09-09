@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12354,
+  "video_id": "cc8de38b-a2a6-5fd5-b9ba-23078d59ed2b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 5280.0,
+      "end": 5280.0,
+      "text": "Trigger: Substitution by right"
+    },
+    {
+      "start": 5299.0,
+      "end": 5299.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5280000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/segment_005230_005350.json",
+  "segment_meta": {
+    "start_seconds": 5230,
+    "end_seconds": 5350,
+    "length_seconds": 120,
+    "start_time_mmss": "87:10",
+    "end_time_mmss": "89:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

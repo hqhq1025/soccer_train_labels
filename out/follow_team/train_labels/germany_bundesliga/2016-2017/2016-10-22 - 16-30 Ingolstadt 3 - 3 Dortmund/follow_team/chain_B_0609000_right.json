@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4844,
+  "video_id": "d86a6ddb-9303-55a1-af44-82ced59d5778",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 609.0,
+      "end": 609.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 618.0,
+      "end": 618.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 609000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/segment_000550_000630.json",
+  "segment_meta": {
+    "start_seconds": 550,
+    "end_seconds": 630,
+    "length_seconds": 80,
+    "start_time_mmss": "09:10",
+    "end_time_mmss": "10:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

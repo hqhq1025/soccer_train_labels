@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9204,
+  "video_id": "3619fbf1-3ff3-59fb-9c4d-45dc32cfd327",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 4175.0,
+      "end": 4175.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 4188.0,
+      "end": 4188.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4175000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/segment_004070_004190.json",
+  "segment_meta": {
+    "start_seconds": 4070,
+    "end_seconds": 4190,
+    "length_seconds": 120,
+    "start_time_mmss": "67:50",
+    "end_time_mmss": "69:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

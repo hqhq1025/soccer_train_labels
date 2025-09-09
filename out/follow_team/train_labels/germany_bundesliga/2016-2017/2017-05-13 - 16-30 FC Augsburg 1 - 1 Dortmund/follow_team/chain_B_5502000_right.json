@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3432,
+  "video_id": "faa66b8d-f8e7-5bbd-be72-c8a4ae9a75a9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Clearance}, stick with that team and alert me for {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 5502.0,
+      "end": 5502.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 5538.0,
+      "end": 5538.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-05-13 - 16-30 FC Augsburg 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-05-13 - 16-30 FC Augsburg 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5502000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-05-13 - 16-30 FC Augsburg 1 - 1 Dortmund/segment_005440_005540.json",
+  "segment_meta": {
+    "start_seconds": 5440,
+    "end_seconds": 5540,
+    "length_seconds": 100,
+    "start_time_mmss": "90:40",
+    "end_time_mmss": "92:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

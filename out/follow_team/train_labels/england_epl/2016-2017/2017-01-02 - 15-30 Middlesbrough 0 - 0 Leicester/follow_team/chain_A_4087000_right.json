@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25461,
+  "video_id": "6503665c-4605-5be4-86b5-933fe0899dca",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Corner and Shots on target} happen.",
+  "answer": [
+    {
+      "start": 4087.0,
+      "end": 4087.0,
+      "text": "Trigger: Clearance by right @ 2 - 23:07"
+    },
+    {
+      "start": 4129.0,
+      "end": 4129.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 4131.0,
+      "end": 4131.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4087000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/segment_004060_004140.json",
+  "segment_meta": {
+    "start_seconds": 4060,
+    "end_seconds": 4140,
+    "length_seconds": 80,
+    "start_time_mmss": "67:40",
+    "end_time_mmss": "69:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

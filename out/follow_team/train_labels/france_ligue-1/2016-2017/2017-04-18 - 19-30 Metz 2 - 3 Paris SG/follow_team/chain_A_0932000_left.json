@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 629,
+  "video_id": "53c84983-8fdc-5844-957c-c6d9e3f73652",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Throw-in and Shots on target}.",
+  "answer": [
+    {
+      "start": 932.0,
+      "end": 932.0,
+      "text": "Trigger: Corner by left @ 1 - 15:32"
+    },
+    {
+      "start": 945.0,
+      "end": 945.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 950.0,
+      "end": 950.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 932000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/segment_000840_000960.json",
+  "segment_meta": {
+    "start_seconds": 840,
+    "end_seconds": 960,
+    "length_seconds": 120,
+    "start_time_mmss": "14:00",
+    "end_time_mmss": "16:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

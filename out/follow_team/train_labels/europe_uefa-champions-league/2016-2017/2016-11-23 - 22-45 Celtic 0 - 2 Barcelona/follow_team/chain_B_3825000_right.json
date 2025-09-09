@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9272,
+  "video_id": "77fb7aff-8dfb-5ad3-900b-55dd2fb16a2e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Shots off target}.",
+  "answer": [
+    {
+      "start": 3825.0,
+      "end": 3825.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 3826.0,
+      "end": 3826.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3825000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/segment_003760_003840.json",
+  "segment_meta": {
+    "start_seconds": 3760,
+    "end_seconds": 3840,
+    "length_seconds": 80,
+    "start_time_mmss": "62:40",
+    "end_time_mmss": "64:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

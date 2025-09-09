@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23522,
+  "video_id": "066c9081-2206-5422-a2c4-d4c847a0bdcd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 2534.0,
+      "end": 2534.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 2557.0,
+      "end": 2557.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2534000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/segment_002460_002560.json",
+  "segment_meta": {
+    "start_seconds": 2460,
+    "end_seconds": 2560,
+    "length_seconds": 100,
+    "start_time_mmss": "41:00",
+    "end_time_mmss": "42:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

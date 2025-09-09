@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16082,
+  "video_id": "3e1cd4da-ac21-568c-885e-444b20d44a3d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 4538.0,
+      "end": 4538.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4543.0,
+      "end": 4543.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4538000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/segment_004470_004550.json",
+  "segment_meta": {
+    "start_seconds": 4470,
+    "end_seconds": 4550,
+    "length_seconds": 80,
+    "start_time_mmss": "74:30",
+    "end_time_mmss": "75:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

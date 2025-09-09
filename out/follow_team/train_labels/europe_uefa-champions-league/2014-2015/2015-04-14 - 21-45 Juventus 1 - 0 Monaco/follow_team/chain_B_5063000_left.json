@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8054,
+  "video_id": "a697df8a-bc74-5696-b7ab-d528cc8c74ad",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 5063.0,
+      "end": 5063.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 5112.0,
+      "end": 5112.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Juventus 1 - 0 Monaco/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Juventus 1 - 0 Monaco/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5063000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Juventus 1 - 0 Monaco/segment_005010_005130.json",
+  "segment_meta": {
+    "start_seconds": 5010,
+    "end_seconds": 5130,
+    "length_seconds": 120,
+    "start_time_mmss": "83:30",
+    "end_time_mmss": "85:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

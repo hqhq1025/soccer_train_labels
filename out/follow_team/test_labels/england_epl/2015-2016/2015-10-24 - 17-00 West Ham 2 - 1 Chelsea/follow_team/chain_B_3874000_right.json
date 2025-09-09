@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8156,
+  "video_id": "708a2d43-bf57-57d3-9fa2-cfd047e06308",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, start tracking that team; notify me on its {Shots off target}.",
+  "answer": [
+    {
+      "start": 3874.0,
+      "end": 3874.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 3875.0,
+      "end": 3875.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3874000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/segment_003760_003880.json",
+  "segment_meta": {
+    "start_seconds": 3760,
+    "end_seconds": 3880,
+    "length_seconds": 120,
+    "start_time_mmss": "62:40",
+    "end_time_mmss": "64:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

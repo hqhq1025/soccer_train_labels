@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6465,
+  "video_id": "375423ed-d2fd-5df5-abc2-1a1626b7acbe",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Clearance} happen.",
+  "answer": [
+    {
+      "start": 2350.0,
+      "end": 2350.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2409.0,
+      "end": 2409.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2350000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/segment_002310_002430.json",
+  "segment_meta": {
+    "start_seconds": 2310,
+    "end_seconds": 2430,
+    "length_seconds": 120,
+    "start_time_mmss": "38:30",
+    "end_time_mmss": "40:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

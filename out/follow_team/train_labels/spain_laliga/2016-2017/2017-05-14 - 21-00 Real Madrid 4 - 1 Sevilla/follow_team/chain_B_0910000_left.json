@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13440,
+  "video_id": "9ea6d979-5000-567f-b42f-4237daf5a674",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Goal}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 910.0,
+      "end": 910.0,
+      "text": "Trigger: Goal by left"
+    },
+    {
+      "start": 915.0,
+      "end": 915.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-05-14 - 21-00 Real Madrid 4 - 1 Sevilla/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-14 - 21-00 Real Madrid 4 - 1 Sevilla/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 910000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-14 - 21-00 Real Madrid 4 - 1 Sevilla/segment_000860_000940.json",
+  "segment_meta": {
+    "start_seconds": 860,
+    "end_seconds": 940,
+    "length_seconds": 80,
+    "start_time_mmss": "14:20",
+    "end_time_mmss": "15:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

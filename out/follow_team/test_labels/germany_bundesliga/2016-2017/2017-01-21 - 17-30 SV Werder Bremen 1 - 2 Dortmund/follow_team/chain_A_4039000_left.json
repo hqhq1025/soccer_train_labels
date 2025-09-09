@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1143,
+  "video_id": "d9f2c590-5c08-5db7-adc8-d3cb81ae75d0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 4039.0,
+      "end": 4039.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4057.0,
+      "end": 4057.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4039000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/segment_004020_004120.json",
+  "segment_meta": {
+    "start_seconds": 4020,
+    "end_seconds": 4120,
+    "length_seconds": 100,
+    "start_time_mmss": "67:00",
+    "end_time_mmss": "68:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

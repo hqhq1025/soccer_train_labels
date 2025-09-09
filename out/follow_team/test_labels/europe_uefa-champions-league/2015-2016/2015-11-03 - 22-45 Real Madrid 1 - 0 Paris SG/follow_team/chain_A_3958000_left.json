@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1869,
+  "video_id": "04282dae-5782-583c-b383-68d6bb8f5dd9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}.",
+  "answer": [
+    {
+      "start": 3958.0,
+      "end": 3958.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3964.0,
+      "end": 3964.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3958000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/segment_003850_003970.json",
+  "segment_meta": {
+    "start_seconds": 3850,
+    "end_seconds": 3970,
+    "length_seconds": 120,
+    "start_time_mmss": "64:10",
+    "end_time_mmss": "66:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

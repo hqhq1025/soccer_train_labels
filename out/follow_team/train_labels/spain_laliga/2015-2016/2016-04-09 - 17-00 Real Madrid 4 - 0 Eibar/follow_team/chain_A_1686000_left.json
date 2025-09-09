@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11317,
+  "video_id": "ee271a41-d851-5870-8271-653d484798ac",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Corner}.",
+  "answer": [
+    {
+      "start": 1686.0,
+      "end": 1686.0,
+      "text": "Trigger: Throw-in by left @ 1 - 28:06"
+    },
+    {
+      "start": 1714.0,
+      "end": 1714.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1686000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/segment_001610_001730.json",
+  "segment_meta": {
+    "start_seconds": 1610,
+    "end_seconds": 1730,
+    "length_seconds": 120,
+    "start_time_mmss": "26:50",
+    "end_time_mmss": "28:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

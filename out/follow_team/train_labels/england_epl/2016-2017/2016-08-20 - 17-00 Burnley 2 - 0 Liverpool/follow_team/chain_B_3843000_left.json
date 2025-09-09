@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24916,
+  "video_id": "ab4a7182-cd81-578d-80f9-9f140149c29f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Substitution}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 3843.0,
+      "end": 3843.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 3851.0,
+      "end": 3851.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3843000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/segment_003800_003900.json",
+  "segment_meta": {
+    "start_seconds": 3800,
+    "end_seconds": 3900,
+    "length_seconds": 100,
+    "start_time_mmss": "63:20",
+    "end_time_mmss": "65:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

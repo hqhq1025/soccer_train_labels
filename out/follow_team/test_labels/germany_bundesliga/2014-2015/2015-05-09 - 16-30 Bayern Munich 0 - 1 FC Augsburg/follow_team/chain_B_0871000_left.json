@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 530,
+  "video_id": "271200af-7ef4-54f7-aeed-ca853ade2a69",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 871.0,
+      "end": 871.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 889.0,
+      "end": 889.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 871000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_000790_000890.json",
+  "segment_meta": {
+    "start_seconds": 790,
+    "end_seconds": 890,
+    "length_seconds": 100,
+    "start_time_mmss": "13:10",
+    "end_time_mmss": "14:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

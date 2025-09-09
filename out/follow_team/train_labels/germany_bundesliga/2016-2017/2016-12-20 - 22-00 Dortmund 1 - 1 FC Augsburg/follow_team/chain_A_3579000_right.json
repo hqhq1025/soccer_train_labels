@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3569,
+  "video_id": "dfd82521-30ad-5af0-8748-cacfa39c68ab",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Clearance}.",
+  "answer": [
+    {
+      "start": 3579.0,
+      "end": 3579.0,
+      "text": "Trigger: Foul by right @ 2 - 14:39"
+    },
+    {
+      "start": 3628.0,
+      "end": 3628.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3579000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_003570_003690.json",
+  "segment_meta": {
+    "start_seconds": 3570,
+    "end_seconds": 3690,
+    "length_seconds": 120,
+    "start_time_mmss": "59:30",
+    "end_time_mmss": "61:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

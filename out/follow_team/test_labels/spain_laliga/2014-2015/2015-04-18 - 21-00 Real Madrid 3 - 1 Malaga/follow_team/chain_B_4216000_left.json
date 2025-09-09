@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4060,
+  "video_id": "13898a6c-7e09-5584-bf29-783cff3c4281",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 4216.0,
+      "end": 4216.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4217.0,
+      "end": 4217.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4216000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/segment_004140_004220.json",
+  "segment_meta": {
+    "start_seconds": 4140,
+    "end_seconds": 4220,
+    "length_seconds": 80,
+    "start_time_mmss": "69:00",
+    "end_time_mmss": "70:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

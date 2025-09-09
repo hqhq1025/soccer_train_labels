@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21090,
+  "video_id": "310befcb-1116-5661-97ed-b9b6abb05ae8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2378.0,
+      "end": 2378.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2422.0,
+      "end": 2422.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2378000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/segment_002320_002440.json",
+  "segment_meta": {
+    "start_seconds": 2320,
+    "end_seconds": 2440,
+    "length_seconds": 120,
+    "start_time_mmss": "38:40",
+    "end_time_mmss": "40:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

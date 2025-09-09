@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6292,
+  "video_id": "bfbe3f13-7ffb-5187-b549-123143fa69b2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Offside}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 4764.0,
+      "end": 4764.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 4791.0,
+      "end": 4791.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4764000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/segment_004700_004800.json",
+  "segment_meta": {
+    "start_seconds": 4700,
+    "end_seconds": 4800,
+    "length_seconds": 100,
+    "start_time_mmss": "78:20",
+    "end_time_mmss": "80:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

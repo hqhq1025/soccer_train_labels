@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8413,
+  "video_id": "e94584b1-254e-5053-9eba-d293bb1b8f50",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 3123.0,
+      "end": 3123.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 3148.0,
+      "end": 3148.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3123000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/segment_003090_003150.json",
+  "segment_meta": {
+    "start_seconds": 3090,
+    "end_seconds": 3150,
+    "length_seconds": 60,
+    "start_time_mmss": "51:30",
+    "end_time_mmss": "52:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

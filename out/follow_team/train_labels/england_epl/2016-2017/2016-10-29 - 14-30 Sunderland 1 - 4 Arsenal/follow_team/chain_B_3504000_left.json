@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25504,
+  "video_id": "d344f317-c5dc-5017-85ae-48c929120410",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Clearance}.",
+  "answer": [
+    {
+      "start": 3504.0,
+      "end": 3504.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 3544.0,
+      "end": 3544.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3504000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/segment_003470_003570.json",
+  "segment_meta": {
+    "start_seconds": 3470,
+    "end_seconds": 3570,
+    "length_seconds": 100,
+    "start_time_mmss": "57:50",
+    "end_time_mmss": "59:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

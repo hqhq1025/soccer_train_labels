@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1498,
+  "video_id": "a5994b72-166b-5390-bab5-0299c0c12926",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 2773.0,
+      "end": 2773.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2780.0,
+      "end": 2780.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2773000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/segment_002690_002790.json",
+  "segment_meta": {
+    "start_seconds": 2690,
+    "end_seconds": 2790,
+    "length_seconds": 100,
+    "start_time_mmss": "44:50",
+    "end_time_mmss": "46:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

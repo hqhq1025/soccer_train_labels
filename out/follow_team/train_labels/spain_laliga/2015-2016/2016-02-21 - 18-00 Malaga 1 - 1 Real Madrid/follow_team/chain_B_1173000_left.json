@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10324,
+  "video_id": "7438ec12-3d47-506b-b1a0-2afa87a22c9a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 1173.0,
+      "end": 1173.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 1229.0,
+      "end": 1229.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1173000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/segment_001110_001230.json",
+  "segment_meta": {
+    "start_seconds": 1110,
+    "end_seconds": 1230,
+    "length_seconds": 120,
+    "start_time_mmss": "18:30",
+    "end_time_mmss": "20:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

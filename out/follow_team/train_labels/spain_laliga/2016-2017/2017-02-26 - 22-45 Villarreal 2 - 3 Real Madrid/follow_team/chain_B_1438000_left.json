@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12302,
+  "video_id": "996c4cdb-b59f-54f7-bc76-5034b05cb0e5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 1438.0,
+      "end": 1438.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 1451.0,
+      "end": 1451.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1438000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/segment_001420_001460.json",
+  "segment_meta": {
+    "start_seconds": 1420,
+    "end_seconds": 1460,
+    "length_seconds": 40,
+    "start_time_mmss": "23:40",
+    "end_time_mmss": "24:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

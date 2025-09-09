@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 933,
+  "video_id": "702a98e9-fe26-58fd-bd1e-1d8d68808d26",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, continue tracking that team and notify me about any {Direct free-kick}.",
+  "answer": [
+    {
+      "start": 1944.0,
+      "end": 1944.0,
+      "text": "Trigger: Corner by left @ 1 - 32:24"
+    },
+    {
+      "start": 1979.0,
+      "end": 1979.0,
+      "text": "Then: Direct free-kick by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1944000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/segment_001900_001980.json",
+  "segment_meta": {
+    "start_seconds": 1900,
+    "end_seconds": 1980,
+    "length_seconds": 80,
+    "start_time_mmss": "31:40",
+    "end_time_mmss": "33:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

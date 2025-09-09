@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7951,
+  "video_id": "6a62cd07-9ddf-53b1-bf89-38a4f28f20e7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Clearance}.",
+  "answer": [
+    {
+      "start": 144.0,
+      "end": 144.0,
+      "text": "Trigger: Foul by right @ 1 - 02:24"
+    },
+    {
+      "start": 197.0,
+      "end": 197.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 144000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/segment_000100_000220.json",
+  "segment_meta": {
+    "start_seconds": 100,
+    "end_seconds": 220,
+    "length_seconds": 120,
+    "start_time_mmss": "01:40",
+    "end_time_mmss": "03:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

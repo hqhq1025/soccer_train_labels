@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6697,
+  "video_id": "a5acb54b-a2db-5998-a28d-1343ab3c7a15",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 697.0,
+      "end": 697.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 703.0,
+      "end": 703.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 697000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/segment_000630_000750.json",
+  "segment_meta": {
+    "start_seconds": 630,
+    "end_seconds": 750,
+    "length_seconds": 120,
+    "start_time_mmss": "10:30",
+    "end_time_mmss": "12:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

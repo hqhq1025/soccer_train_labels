@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3768,
+  "video_id": "0a57279f-5a65-586f-b359-1e216708bdba",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Offside}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 3003.0,
+      "end": 3003.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 3045.0,
+      "end": 3045.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3003000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/segment_002970_003050.json",
+  "segment_meta": {
+    "start_seconds": 2970,
+    "end_seconds": 3050,
+    "length_seconds": 80,
+    "start_time_mmss": "49:30",
+    "end_time_mmss": "50:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

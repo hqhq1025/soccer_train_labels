@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14068,
+  "video_id": "31705758-b9ba-5bf9-9c46-3fafd754093f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Clearance}.",
+  "answer": [
+    {
+      "start": 3369.0,
+      "end": 3369.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3446.0,
+      "end": 3446.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3369000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/segment_003330_003450.json",
+  "segment_meta": {
+    "start_seconds": 3330,
+    "end_seconds": 3450,
+    "length_seconds": 120,
+    "start_time_mmss": "55:30",
+    "end_time_mmss": "57:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

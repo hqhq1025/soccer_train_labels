@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5260,
+  "video_id": "5ba0359f-c724-5360-a945-e49d7c696c7b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Clearance}.",
+  "answer": [
+    {
+      "start": 2080.0,
+      "end": 2080.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 2168.0,
+      "end": 2168.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2080000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/segment_002060_002180.json",
+  "segment_meta": {
+    "start_seconds": 2060,
+    "end_seconds": 2180,
+    "length_seconds": 120,
+    "start_time_mmss": "34:20",
+    "end_time_mmss": "36:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

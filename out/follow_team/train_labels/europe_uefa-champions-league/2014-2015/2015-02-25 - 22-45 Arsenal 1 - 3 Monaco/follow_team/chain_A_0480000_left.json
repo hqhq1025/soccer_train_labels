@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7889,
+  "video_id": "bbdcedd8-73b2-5b19-9a02-d799e77b89ac",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 480.0,
+      "end": 480.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 08:00"
+    },
+    {
+      "start": 507.0,
+      "end": 507.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 480000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/segment_000390_000510.json",
+  "segment_meta": {
+    "start_seconds": 390,
+    "end_seconds": 510,
+    "length_seconds": 120,
+    "start_time_mmss": "06:30",
+    "end_time_mmss": "08:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

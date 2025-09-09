@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1009,
+  "video_id": "169ed789-635e-5a42-9772-8b56b2621db5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Foul and Shots on target}.",
+  "answer": [
+    {
+      "start": 3621.0,
+      "end": 3621.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3697.0,
+      "end": 3697.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 3699.0,
+      "end": 3699.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3621000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/segment_003580_003700.json",
+  "segment_meta": {
+    "start_seconds": 3580,
+    "end_seconds": 3700,
+    "length_seconds": 120,
+    "start_time_mmss": "59:40",
+    "end_time_mmss": "61:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

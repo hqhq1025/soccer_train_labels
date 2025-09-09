@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6635,
+  "video_id": "c92751fe-5498-57af-9712-428b9c5107d3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Shots on target and Corner}.",
+  "answer": [
+    {
+      "start": 2561.0,
+      "end": 2561.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 42:41"
+    },
+    {
+      "start": 2566.0,
+      "end": 2566.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 2592.0,
+      "end": 2592.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 2593.0,
+      "end": 2593.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Maccabi Tel Aviv 1 - 3 FC Porto/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Maccabi Tel Aviv 1 - 3 FC Porto/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2561000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Maccabi Tel Aviv 1 - 3 FC Porto/segment_002480_002600.json",
+  "segment_meta": {
+    "start_seconds": 2480,
+    "end_seconds": 2600,
+    "length_seconds": 120,
+    "start_time_mmss": "41:20",
+    "end_time_mmss": "43:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

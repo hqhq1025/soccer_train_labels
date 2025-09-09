@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2430,
+  "video_id": "8026af2f-8094-54a2-b56b-50d5e042db77",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Clearance} happen.",
+  "answer": [
+    {
+      "start": 4999.0,
+      "end": 4999.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 5024.0,
+      "end": 5024.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4999000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/segment_004960_005080.json",
+  "segment_meta": {
+    "start_seconds": 4960,
+    "end_seconds": 5080,
+    "length_seconds": 120,
+    "start_time_mmss": "82:40",
+    "end_time_mmss": "84:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

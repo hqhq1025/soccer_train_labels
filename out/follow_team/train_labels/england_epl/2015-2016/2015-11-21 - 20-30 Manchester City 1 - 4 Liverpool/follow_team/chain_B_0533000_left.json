@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21684,
+  "video_id": "b5a4c0c6-49e5-5084-b576-8be889aafc04",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Corner} happen.",
+  "answer": [
+    {
+      "start": 533.0,
+      "end": 533.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 567.0,
+      "end": 567.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 533000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/segment_000460_000580.json",
+  "segment_meta": {
+    "start_seconds": 460,
+    "end_seconds": 580,
+    "length_seconds": 120,
+    "start_time_mmss": "07:40",
+    "end_time_mmss": "09:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

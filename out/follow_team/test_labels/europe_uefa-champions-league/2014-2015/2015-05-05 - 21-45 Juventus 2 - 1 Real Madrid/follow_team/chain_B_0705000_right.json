@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2432,
+  "video_id": "e9e6b962-eb38-5bc9-8f95-cd1d93d6d0bb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 705.0,
+      "end": 705.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 732.0,
+      "end": 732.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 705000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/segment_000650_000770.json",
+  "segment_meta": {
+    "start_seconds": 650,
+    "end_seconds": 770,
+    "length_seconds": 120,
+    "start_time_mmss": "10:50",
+    "end_time_mmss": "12:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

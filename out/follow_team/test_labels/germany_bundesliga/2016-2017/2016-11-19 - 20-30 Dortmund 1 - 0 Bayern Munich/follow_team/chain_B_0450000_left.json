@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 916,
+  "video_id": "33059130-6db7-59fe-bf63-a24022e3c656",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 450.0,
+      "end": 450.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 488.0,
+      "end": 488.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 450000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/segment_000410_000530.json",
+  "segment_meta": {
+    "start_seconds": 410,
+    "end_seconds": 530,
+    "length_seconds": 120,
+    "start_time_mmss": "06:50",
+    "end_time_mmss": "08:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

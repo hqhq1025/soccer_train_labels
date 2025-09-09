@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7158,
+  "video_id": "1178f421-995f-5917-9893-d0c1f3a71b55",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 5075.0,
+      "end": 5075.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 5079.0,
+      "end": 5079.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5075000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/segment_004980_005080.json",
+  "segment_meta": {
+    "start_seconds": 4980,
+    "end_seconds": 5080,
+    "length_seconds": 100,
+    "start_time_mmss": "83:00",
+    "end_time_mmss": "84:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9463,
+  "video_id": "a84ab4a8-130d-5876-874f-5098b680e348",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Offside}, follow the same team and list all subsequent {Throw-in and Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3121.0,
+      "end": 3121.0,
+      "text": "Trigger: Offside by right @ 2 - 07:01"
+    },
+    {
+      "start": 3160.0,
+      "end": 3160.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 3181.0,
+      "end": 3181.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3121000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/segment_003070_003190.json",
+  "segment_meta": {
+    "start_seconds": 3070,
+    "end_seconds": 3190,
+    "length_seconds": 120,
+    "start_time_mmss": "51:10",
+    "end_time_mmss": "53:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25484,
+  "video_id": "d11d9c50-f610-5dec-af60-a381d1de8d5b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 929.0,
+      "end": 929.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 948.0,
+      "end": 948.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 929000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/segment_000860_000960.json",
+  "segment_meta": {
+    "start_seconds": 860,
+    "end_seconds": 960,
+    "length_seconds": 100,
+    "start_time_mmss": "14:20",
+    "end_time_mmss": "16:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

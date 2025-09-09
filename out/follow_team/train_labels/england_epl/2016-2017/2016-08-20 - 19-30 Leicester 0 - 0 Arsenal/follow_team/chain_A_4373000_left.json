@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24767,
+  "video_id": "f9d6fcf0-1e73-5e9f-92d5-3ce2af45201e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
+  "answer": [
+    {
+      "start": 4373.0,
+      "end": 4373.0,
+      "text": "Trigger: Substitution by left @ 2 - 27:53"
+    },
+    {
+      "start": 4384.0,
+      "end": 4384.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4373000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/segment_004330_004390.json",
+  "segment_meta": {
+    "start_seconds": 4330,
+    "end_seconds": 4390,
+    "length_seconds": 60,
+    "start_time_mmss": "72:10",
+    "end_time_mmss": "73:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

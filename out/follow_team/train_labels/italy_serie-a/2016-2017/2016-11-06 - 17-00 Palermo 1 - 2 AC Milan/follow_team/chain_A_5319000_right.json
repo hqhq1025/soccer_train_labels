@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18337,
+  "video_id": "8b554793-8620-5376-be3d-e01f0d4488c1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card and Throw-in}.",
+  "answer": [
+    {
+      "start": 5319.0,
+      "end": 5319.0,
+      "text": "Trigger: Foul by right @ 2 - 43:39"
+    },
+    {
+      "start": 5322.0,
+      "end": 5322.0,
+      "text": "Then: Yellow card by right"
+    },
+    {
+      "start": 5370.0,
+      "end": 5370.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5319000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/segment_005260_005380.json",
+  "segment_meta": {
+    "start_seconds": 5260,
+    "end_seconds": 5380,
+    "length_seconds": 120,
+    "start_time_mmss": "87:40",
+    "end_time_mmss": "89:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

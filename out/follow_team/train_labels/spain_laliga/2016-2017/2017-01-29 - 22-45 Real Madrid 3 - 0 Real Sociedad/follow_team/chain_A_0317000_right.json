@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14321,
+  "video_id": "b7d39487-dba3-5d0f-b3dc-84c3e0b0a76c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}.",
+  "answer": [
+    {
+      "start": 317.0,
+      "end": 317.0,
+      "text": "Trigger: Foul by right @ 1 - 05:17"
+    },
+    {
+      "start": 326.0,
+      "end": 326.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 317000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/segment_000290_000330.json",
+  "segment_meta": {
+    "start_seconds": 290,
+    "end_seconds": 330,
+    "length_seconds": 40,
+    "start_time_mmss": "04:50",
+    "end_time_mmss": "05:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

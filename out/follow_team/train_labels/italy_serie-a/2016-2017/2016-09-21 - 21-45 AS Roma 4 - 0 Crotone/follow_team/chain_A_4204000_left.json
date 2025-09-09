@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17643,
+  "video_id": "422cb021-72c1-5ba3-b565-4221359e9613",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Offside} occurs, keep following the same team and tell me whenever they perform {Offside}.",
+  "answer": [
+    {
+      "start": 4204.0,
+      "end": 4204.0,
+      "text": "Trigger: Offside by left @ 2 - 25:04"
+    },
+    {
+      "start": 4229.0,
+      "end": 4229.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4204000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/segment_004150_004230.json",
+  "segment_meta": {
+    "start_seconds": 4150,
+    "end_seconds": 4230,
+    "length_seconds": 80,
+    "start_time_mmss": "69:10",
+    "end_time_mmss": "70:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

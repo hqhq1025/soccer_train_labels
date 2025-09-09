@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6837,
+  "video_id": "3f4aef92-1759-5dac-957b-a3cf05b0cb90",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Indirect free-kick and Foul} it makes.",
+  "answer": [
+    {
+      "start": 221.0,
+      "end": 221.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 251.0,
+      "end": 251.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 263.0,
+      "end": 263.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 221000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/segment_000160_000280.json",
+  "segment_meta": {
+    "start_seconds": 160,
+    "end_seconds": 280,
+    "length_seconds": 120,
+    "start_time_mmss": "02:40",
+    "end_time_mmss": "04:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

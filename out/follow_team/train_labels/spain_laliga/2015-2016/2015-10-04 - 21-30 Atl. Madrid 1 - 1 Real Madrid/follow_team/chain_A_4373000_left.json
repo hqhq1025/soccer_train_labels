@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10791,
+  "video_id": "c5004bb1-6115-5be4-8e74-bb3c1d0f96d8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 4373.0,
+      "end": 4373.0,
+      "text": "Trigger: Throw-in by left @ 2 - 27:53"
+    },
+    {
+      "start": 4401.0,
+      "end": 4401.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4373000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_004290_004410.json",
+  "segment_meta": {
+    "start_seconds": 4290,
+    "end_seconds": 4410,
+    "length_seconds": 120,
+    "start_time_mmss": "71:30",
+    "end_time_mmss": "73:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

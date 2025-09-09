@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4212,
+  "video_id": "1bc9021d-fa5a-576b-8441-492c9d4cb7d0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Offside}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 4334.0,
+      "end": 4334.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 4377.0,
+      "end": 4377.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4334000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/segment_004320_004380.json",
+  "segment_meta": {
+    "start_seconds": 4320,
+    "end_seconds": 4380,
+    "length_seconds": 60,
+    "start_time_mmss": "72:00",
+    "end_time_mmss": "73:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

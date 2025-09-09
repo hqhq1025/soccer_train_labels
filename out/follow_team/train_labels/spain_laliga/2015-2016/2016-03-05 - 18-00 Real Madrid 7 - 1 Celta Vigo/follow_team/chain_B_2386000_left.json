@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10092,
+  "video_id": "8bc91506-1622-5276-b1f8-be80caa77d6d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 2386.0,
+      "end": 2386.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 2387.0,
+      "end": 2387.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2386000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/segment_002290_002410.json",
+  "segment_meta": {
+    "start_seconds": 2290,
+    "end_seconds": 2410,
+    "length_seconds": 120,
+    "start_time_mmss": "38:10",
+    "end_time_mmss": "40:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

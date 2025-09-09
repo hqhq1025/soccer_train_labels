@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13779,
+  "video_id": "26a0c8c5-c0de-5524-889b-4881a1636a00",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Substitution and Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4087.0,
+      "end": 4087.0,
+      "text": "Trigger: Foul by right @ 2 - 23:07"
+    },
+    {
+      "start": 4132.0,
+      "end": 4132.0,
+      "text": "Then: Substitution by right"
+    },
+    {
+      "start": 4182.0,
+      "end": 4182.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4087000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/segment_004070_004190.json",
+  "segment_meta": {
+    "start_seconds": 4070,
+    "end_seconds": 4190,
+    "length_seconds": 120,
+    "start_time_mmss": "67:50",
+    "end_time_mmss": "69:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5552,
+  "video_id": "adfd6538-1bf4-5605-a908-9a8bf222ed2e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 4362.0,
+      "end": 4362.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4364.0,
+      "end": 4364.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4362000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/segment_004290_004370.json",
+  "segment_meta": {
+    "start_seconds": 4290,
+    "end_seconds": 4370,
+    "length_seconds": 80,
+    "start_time_mmss": "71:30",
+    "end_time_mmss": "72:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

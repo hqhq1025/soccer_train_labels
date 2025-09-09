@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8328,
+  "video_id": "a1acc564-4e24-5e04-8446-91c9278dd948",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 41000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/segment_000010_000050.json",
+  "segment_meta": {
+    "start_seconds": 10,
+    "end_seconds": 50,
+    "length_seconds": 40,
+    "start_time_mmss": "00:10",
+    "end_time_mmss": "00:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

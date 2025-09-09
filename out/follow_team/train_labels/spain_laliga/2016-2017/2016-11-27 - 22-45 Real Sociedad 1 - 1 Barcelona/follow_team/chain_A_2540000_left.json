@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11895,
+  "video_id": "e1e6448c-9b15-5d9a-9765-354167ce53b3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Clearance and Foul}.",
+  "answer": [
+    {
+      "start": 2540.0,
+      "end": 2540.0,
+      "text": "Trigger: Throw-in by left @ 1 - 42:20"
+    },
+    {
+      "start": 2574.0,
+      "end": 2574.0,
+      "text": "Then: Clearance by left"
+    },
+    {
+      "start": 2581.0,
+      "end": 2581.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-27 - 22-45 Real Sociedad 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-27 - 22-45 Real Sociedad 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2540000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-27 - 22-45 Real Sociedad 1 - 1 Barcelona/segment_002480_002600.json",
+  "segment_meta": {
+    "start_seconds": 2480,
+    "end_seconds": 2600,
+    "length_seconds": 120,
+    "start_time_mmss": "41:20",
+    "end_time_mmss": "43:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

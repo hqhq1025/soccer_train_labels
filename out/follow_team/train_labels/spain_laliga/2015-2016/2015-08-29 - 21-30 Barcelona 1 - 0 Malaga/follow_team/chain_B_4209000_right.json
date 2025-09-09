@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11218,
+  "video_id": "834b6ff8-7cea-596e-9098-3d639c8361c4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Shots on target}.",
+  "answer": [
+    {
+      "start": 4209.0,
+      "end": 4209.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 4235.0,
+      "end": 4235.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4209000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/segment_004170_004290.json",
+  "segment_meta": {
+    "start_seconds": 4170,
+    "end_seconds": 4290,
+    "length_seconds": 120,
+    "start_time_mmss": "69:30",
+    "end_time_mmss": "71:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

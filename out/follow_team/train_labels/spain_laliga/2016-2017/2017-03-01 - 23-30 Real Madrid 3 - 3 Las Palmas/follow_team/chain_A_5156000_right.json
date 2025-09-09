@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14949,
+  "video_id": "8cae7baf-89a6-528f-96fd-be5d50ade49b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 5156.0,
+      "end": 5156.0,
+      "text": "Trigger: Shots on target by right @ 2 - 40:56"
+    },
+    {
+      "start": 5157.0,
+      "end": 5157.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5156000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/segment_005040_005160.json",
+  "segment_meta": {
+    "start_seconds": 5040,
+    "end_seconds": 5160,
+    "length_seconds": 120,
+    "start_time_mmss": "84:00",
+    "end_time_mmss": "86:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

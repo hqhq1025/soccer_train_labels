@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1567,
+  "video_id": "9564e1a8-44a0-5831-8d2a-0f8cef21b6b9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Goal}.",
+  "answer": [
+    {
+      "start": 4159.0,
+      "end": 4159.0,
+      "text": "Trigger: Shots on target by left @ 2 - 24:19"
+    },
+    {
+      "start": 4161.0,
+      "end": 4161.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4159000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/segment_004130_004170.json",
+  "segment_meta": {
+    "start_seconds": 4130,
+    "end_seconds": 4170,
+    "length_seconds": 40,
+    "start_time_mmss": "68:50",
+    "end_time_mmss": "69:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

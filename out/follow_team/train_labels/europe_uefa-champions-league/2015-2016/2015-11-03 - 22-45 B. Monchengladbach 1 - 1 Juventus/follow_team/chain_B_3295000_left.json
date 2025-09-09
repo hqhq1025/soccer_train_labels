@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7076,
+  "video_id": "974ee9f0-a4f2-5d44-b5da-84f922a83094",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 3295.0,
+      "end": 3295.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3302.0,
+      "end": 3302.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3295000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/segment_003190_003310.json",
+  "segment_meta": {
+    "start_seconds": 3190,
+    "end_seconds": 3310,
+    "length_seconds": 120,
+    "start_time_mmss": "53:10",
+    "end_time_mmss": "55:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

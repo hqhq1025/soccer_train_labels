@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23456,
+  "video_id": "04288f8a-05fc-5a72-b0d6-b128212c7f80",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 1349.0,
+      "end": 1349.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 1352.0,
+      "end": 1352.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1349000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/segment_001320_001360.json",
+  "segment_meta": {
+    "start_seconds": 1320,
+    "end_seconds": 1360,
+    "length_seconds": 40,
+    "start_time_mmss": "22:00",
+    "end_time_mmss": "22:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

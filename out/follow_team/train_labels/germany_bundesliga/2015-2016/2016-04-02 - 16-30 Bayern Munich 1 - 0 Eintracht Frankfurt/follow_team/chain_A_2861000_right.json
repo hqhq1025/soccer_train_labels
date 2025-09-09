@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2287,
+  "video_id": "dce4b24a-34af-5eec-9a50-ea76788a1c78",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, continue tracking that team and notify me about any {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 2861.0,
+      "end": 2861.0,
+      "text": "Trigger: Substitution by right @ 2 - 02:41"
+    },
+    {
+      "start": 2887.0,
+      "end": 2887.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 2893.0,
+      "end": 2893.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2861000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/segment_002840_002960.json",
+  "segment_meta": {
+    "start_seconds": 2840,
+    "end_seconds": 2960,
+    "length_seconds": 120,
+    "start_time_mmss": "47:20",
+    "end_time_mmss": "49:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

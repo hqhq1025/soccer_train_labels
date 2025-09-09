@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21962,
+  "video_id": "e0acd4ca-9518-5695-a387-1cd3a666e55f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 440.0,
+      "end": 440.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 475.0,
+      "end": 475.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 440000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/segment_000400_000480.json",
+  "segment_meta": {
+    "start_seconds": 400,
+    "end_seconds": 480,
+    "length_seconds": 80,
+    "start_time_mmss": "06:40",
+    "end_time_mmss": "08:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

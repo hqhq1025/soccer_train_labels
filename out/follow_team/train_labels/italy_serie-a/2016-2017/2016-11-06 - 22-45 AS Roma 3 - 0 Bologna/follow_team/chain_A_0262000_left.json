@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19895,
+  "video_id": "7231ed73-62a2-5739-86ee-c28b183c772b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Corner}.",
+  "answer": [
+    {
+      "start": 262.0,
+      "end": 262.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 04:22"
+    },
+    {
+      "start": 285.0,
+      "end": 285.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 262000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/segment_000210_000290.json",
+  "segment_meta": {
+    "start_seconds": 210,
+    "end_seconds": 290,
+    "length_seconds": 80,
+    "start_time_mmss": "03:30",
+    "end_time_mmss": "04:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

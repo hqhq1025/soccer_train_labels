@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20576,
+  "video_id": "bf5dfeab-e94e-5aa1-9c8b-48c60a60a1ba",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 2313.0,
+      "end": 2313.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 2320.0,
+      "end": 2320.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2313000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/segment_002290_002410.json",
+  "segment_meta": {
+    "start_seconds": 2290,
+    "end_seconds": 2410,
+    "length_seconds": 120,
+    "start_time_mmss": "38:10",
+    "end_time_mmss": "40:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1047,
+  "video_id": "d878f935-09b4-5244-a679-2b7de018f4b3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots on target and Throw-in} happen.",
+  "answer": [
+    {
+      "start": 4214.0,
+      "end": 4214.0,
+      "text": "Trigger: Corner by left @ 2 - 25:14"
+    },
+    {
+      "start": 4218.0,
+      "end": 4218.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 4253.0,
+      "end": 4253.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4214000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/segment_004160_004260.json",
+  "segment_meta": {
+    "start_seconds": 4160,
+    "end_seconds": 4260,
+    "length_seconds": 100,
+    "start_time_mmss": "69:20",
+    "end_time_mmss": "71:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

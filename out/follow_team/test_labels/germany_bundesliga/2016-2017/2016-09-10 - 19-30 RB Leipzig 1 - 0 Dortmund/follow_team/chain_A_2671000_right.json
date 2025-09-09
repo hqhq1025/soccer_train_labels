@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1527,
+  "video_id": "fdf9752f-0746-5a0c-8f26-52619cab1064",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 2671.0,
+      "end": 2671.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 2739.0,
+      "end": 2739.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2671000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/segment_002640_002740.json",
+  "segment_meta": {
+    "start_seconds": 2640,
+    "end_seconds": 2740,
+    "length_seconds": 100,
+    "start_time_mmss": "44:00",
+    "end_time_mmss": "45:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

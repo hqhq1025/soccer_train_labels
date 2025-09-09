@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17730,
+  "video_id": "8774a0d5-9df7-5338-ac3b-5d037d5dd266",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 2420.0,
+      "end": 2420.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2421.0,
+      "end": 2421.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2420000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/segment_002390_002430.json",
+  "segment_meta": {
+    "start_seconds": 2390,
+    "end_seconds": 2430,
+    "length_seconds": 40,
+    "start_time_mmss": "39:50",
+    "end_time_mmss": "40:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

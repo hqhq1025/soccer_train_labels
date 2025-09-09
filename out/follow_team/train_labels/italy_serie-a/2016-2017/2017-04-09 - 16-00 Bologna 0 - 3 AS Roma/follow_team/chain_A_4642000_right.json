@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17719,
+  "video_id": "9752f5a9-ee18-5443-853c-a15dda758036",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4642.0,
+      "end": 4642.0,
+      "text": "Trigger: Throw-in by right @ 2 - 32:22"
+    },
+    {
+      "start": 4656.0,
+      "end": 4656.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4642000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/segment_004580_004660.json",
+  "segment_meta": {
+    "start_seconds": 4580,
+    "end_seconds": 4660,
+    "length_seconds": 80,
+    "start_time_mmss": "76:20",
+    "end_time_mmss": "77:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8597,
+  "video_id": "3e40a3be-820c-5d43-81b6-cfbc9f2f3580",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 2338.0,
+      "end": 2338.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 2340.0,
+      "end": 2340.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 2340.0,
+      "end": 2340.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2338000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/segment_002290_002370.json",
+  "segment_meta": {
+    "start_seconds": 2290,
+    "end_seconds": 2370,
+    "length_seconds": 80,
+    "start_time_mmss": "38:10",
+    "end_time_mmss": "39:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

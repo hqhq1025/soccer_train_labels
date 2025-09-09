@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12095,
+  "video_id": "7937f0eb-6666-54a0-9ac4-e05948031ee3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 1336.0,
+      "end": 1336.0,
+      "text": "Trigger: Shots on target by right @ 1 - 22:16"
+    },
+    {
+      "start": 1337.0,
+      "end": 1337.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1336000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/segment_001240_001340.json",
+  "segment_meta": {
+    "start_seconds": 1240,
+    "end_seconds": 1340,
+    "length_seconds": 100,
+    "start_time_mmss": "20:40",
+    "end_time_mmss": "22:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

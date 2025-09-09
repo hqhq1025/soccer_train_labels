@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3714,
+  "video_id": "e01e3c24-dcfe-54a0-9731-9945455cb8f3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Shots on target}.",
+  "answer": [
+    {
+      "start": 2251.0,
+      "end": 2251.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2303.0,
+      "end": 2303.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2251000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/segment_002190_002310.json",
+  "segment_meta": {
+    "start_seconds": 2190,
+    "end_seconds": 2310,
+    "length_seconds": 120,
+    "start_time_mmss": "36:30",
+    "end_time_mmss": "38:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

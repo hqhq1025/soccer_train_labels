@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19746,
+  "video_id": "ad1648e8-8546-52bb-bfdf-e6bd79480ec3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Yellow card}, keep following that team and alert me whenever {Clearance} happen.",
+  "answer": [
+    {
+      "start": 2083.0,
+      "end": 2083.0,
+      "text": "Trigger: Yellow card by left"
+    },
+    {
+      "start": 2169.0,
+      "end": 2169.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2083000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/segment_002050_002170.json",
+  "segment_meta": {
+    "start_seconds": 2050,
+    "end_seconds": 2170,
+    "length_seconds": 120,
+    "start_time_mmss": "34:10",
+    "end_time_mmss": "36:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

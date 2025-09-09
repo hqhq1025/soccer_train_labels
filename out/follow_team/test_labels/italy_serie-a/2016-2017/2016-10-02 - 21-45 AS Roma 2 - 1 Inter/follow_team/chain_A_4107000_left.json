@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7223,
+  "video_id": "864fb24c-8194-5fd6-b9f4-8c6d9b2e6d27",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Offside}.",
+  "answer": [
+    {
+      "start": 4107.0,
+      "end": 4107.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 4116.0,
+      "end": 4116.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4107000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/segment_004060_004120.json",
+  "segment_meta": {
+    "start_seconds": 4060,
+    "end_seconds": 4120,
+    "length_seconds": 60,
+    "start_time_mmss": "67:40",
+    "end_time_mmss": "68:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

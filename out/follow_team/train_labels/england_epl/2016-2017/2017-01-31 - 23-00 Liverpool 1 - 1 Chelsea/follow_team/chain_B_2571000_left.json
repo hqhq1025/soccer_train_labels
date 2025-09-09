@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23198,
+  "video_id": "a9f0ded3-dfd7-56a3-b07c-bae1551c0ce2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 2571.0,
+      "end": 2571.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2617.0,
+      "end": 2617.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2571000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_002510_002630.json",
+  "segment_meta": {
+    "start_seconds": 2510,
+    "end_seconds": 2630,
+    "length_seconds": 120,
+    "start_time_mmss": "41:50",
+    "end_time_mmss": "43:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

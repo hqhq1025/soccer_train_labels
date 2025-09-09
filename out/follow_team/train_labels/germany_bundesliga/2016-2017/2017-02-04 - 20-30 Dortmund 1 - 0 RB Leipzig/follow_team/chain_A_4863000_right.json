@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4591,
+  "video_id": "039d3954-3e16-5ba2-9540-3173af5ce122",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Foul and Shots off target}.",
+  "answer": [
+    {
+      "start": 4863.0,
+      "end": 4863.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 36:03"
+    },
+    {
+      "start": 4873.0,
+      "end": 4873.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 4941.0,
+      "end": 4941.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4863000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/segment_004830_004950.json",
+  "segment_meta": {
+    "start_seconds": 4830,
+    "end_seconds": 4950,
+    "length_seconds": 120,
+    "start_time_mmss": "80:30",
+    "end_time_mmss": "82:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

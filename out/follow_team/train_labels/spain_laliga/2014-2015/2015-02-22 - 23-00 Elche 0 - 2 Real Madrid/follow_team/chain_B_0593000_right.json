@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11354,
+  "video_id": "70e12acf-a4d9-59dc-b691-8403e6209b82",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Offside}.",
+  "answer": [
+    {
+      "start": 593.0,
+      "end": 593.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 610.0,
+      "end": 610.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 593000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/segment_000530_000630.json",
+  "segment_meta": {
+    "start_seconds": 530,
+    "end_seconds": 630,
+    "length_seconds": 100,
+    "start_time_mmss": "08:50",
+    "end_time_mmss": "10:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

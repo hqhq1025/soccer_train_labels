@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5697,
+  "video_id": "4197eb09-ad00-58f3-abf7-8401f27b13c7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 4613.0,
+      "end": 4613.0,
+      "text": "Trigger: Shots on target by left @ 2 - 31:53"
+    },
+    {
+      "start": 4618.0,
+      "end": 4618.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4630.0,
+      "end": 4630.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4613000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/segment_004580_004640.json",
+  "segment_meta": {
+    "start_seconds": 4580,
+    "end_seconds": 4640,
+    "length_seconds": 60,
+    "start_time_mmss": "76:20",
+    "end_time_mmss": "77:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7568,
+  "video_id": "2e2b1c28-10f5-5366-8638-ed4115a9ff6c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2576.0,
+      "end": 2576.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2602.0,
+      "end": 2602.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2576000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/segment_002570_002630.json",
+  "segment_meta": {
+    "start_seconds": 2570,
+    "end_seconds": 2630,
+    "length_seconds": 60,
+    "start_time_mmss": "42:50",
+    "end_time_mmss": "43:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

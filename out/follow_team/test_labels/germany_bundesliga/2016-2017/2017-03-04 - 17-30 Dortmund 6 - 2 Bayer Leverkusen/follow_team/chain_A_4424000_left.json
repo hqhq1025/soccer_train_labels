@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1489,
+  "video_id": "e2e48b67-f267-53a3-8ae9-1ec80220de30",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal and Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 4424.0,
+      "end": 4424.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4425.0,
+      "end": 4425.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 4464.0,
+      "end": 4464.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4424000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/segment_004370_004490.json",
+  "segment_meta": {
+    "start_seconds": 4370,
+    "end_seconds": 4490,
+    "length_seconds": 120,
+    "start_time_mmss": "72:50",
+    "end_time_mmss": "74:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -41,12 +41,33 @@ from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
 
 
+HALF_OFFSET_SECONDS = 45 * 60
+
+
 def seconds_to_mmss(x: float) -> str:
     if x < 0:
         x = 0.0
     m = int(x // 60)
     s = int(round(x - 60 * m))
     return f"{m:02d}:{s:02d}"
+
+
+def parse_game_time_seconds(game_time: str, fallback_ms: Optional[int] = None) -> Optional[float]:
+    """Parse "H - mm:ss" into global seconds with half offsets. If parsing fails
+    and fallback_ms is provided, return fallback_ms/1000.
+    """
+    try:
+        half_str, mmss = [t.strip() for t in str(game_time).split("-")]
+        half = int(half_str)
+        mm, ss = [int(x) for x in mmss.split(":")]
+        sec = mm * 60 + ss
+        if half >= 2:
+            sec = (half - 1) * HALF_OFFSET_SECONDS + sec
+        return float(sec)
+    except Exception:
+        if fallback_ms is not None:
+            return float(fallback_ms) / 1000.0
+        return None
 
 
 def slug_to_uuid(s: str) -> str:
@@ -162,14 +183,20 @@ def build_item_from_segment(cfg: BuildConfig, seg_path: Path) -> Optional[Dict[s
             continue
         if not event_passes_filters(a, allow):
             continue
+        # Derive global seconds from gameTime (half-aware). Fallback to position.
+        fallback_ms = None
         try:
-            pos_s = int(a.get("position")) / 1000.0
+            fallback_ms = int(a.get("position"))
         except Exception:
+            pass
+        gt = str(a.get("gameTime", ""))
+        pos_s_val = parse_game_time_seconds(gt, fallback_ms=fallback_ms)
+        if pos_s_val is None:
             continue
         if cfg.time_mode == "segment":
-            t = max(0.0, pos_s - seg_start)
+            t = max(0.0, pos_s_val - seg_start)
         else:
-            t = pos_s
+            t = pos_s_val
         team = str(a.get("team", "not applicable")) or "not applicable"
         label = normalize_label(str(a.get("label", "")))
         text = make_answer_text(label if not single else cfg.label or label, team, single)

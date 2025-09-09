@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4248,
+  "video_id": "9fb637eb-0269-58c3-9560-99ab3aa4e700",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 3007.0,
+      "end": 3007.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 3027.0,
+      "end": 3027.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3007000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/segment_002990_003030.json",
+  "segment_meta": {
+    "start_seconds": 2990,
+    "end_seconds": 3030,
+    "length_seconds": 40,
+    "start_time_mmss": "49:50",
+    "end_time_mmss": "50:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

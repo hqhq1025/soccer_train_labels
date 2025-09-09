@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9537,
+  "video_id": "687e35eb-a880-550e-be2c-0d1be0a62676",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Offside}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 1064.0,
+      "end": 1064.0,
+      "text": "Trigger: Offside by right @ 1 - 17:44"
+    },
+    {
+      "start": 1109.0,
+      "end": 1109.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 1135.0,
+      "end": 1135.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1064000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/segment_001020_001140.json",
+  "segment_meta": {
+    "start_seconds": 1020,
+    "end_seconds": 1140,
+    "length_seconds": 120,
+    "start_time_mmss": "17:00",
+    "end_time_mmss": "19:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

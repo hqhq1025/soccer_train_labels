@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 497,
+  "video_id": "997b3bdb-5ea9-51ec-a882-f269c002c45a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Clearance}.",
+  "answer": [
+    {
+      "start": 3925.0,
+      "end": 3925.0,
+      "text": "Trigger: Shots off target by left @ 2 - 20:25"
+    },
+    {
+      "start": 3959.0,
+      "end": 3959.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3925000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/segment_003880_003980.json",
+  "segment_meta": {
+    "start_seconds": 3880,
+    "end_seconds": 3980,
+    "length_seconds": 100,
+    "start_time_mmss": "64:40",
+    "end_time_mmss": "66:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

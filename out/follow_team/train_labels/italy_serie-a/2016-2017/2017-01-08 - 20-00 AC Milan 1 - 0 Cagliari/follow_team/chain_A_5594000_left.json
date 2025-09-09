@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17951,
+  "video_id": "f28b05b6-ad5b-5c91-87ea-aeabe49b4b4f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Red card}.",
+  "answer": [
+    {
+      "start": 5594.0,
+      "end": 5594.0,
+      "text": "Trigger: Foul by left @ 2 - 48:14"
+    },
+    {
+      "start": 5599.0,
+      "end": 5599.0,
+      "text": "Then: Red card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5594000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/segment_005540_005600.json",
+  "segment_meta": {
+    "start_seconds": 5540,
+    "end_seconds": 5600,
+    "length_seconds": 60,
+    "start_time_mmss": "92:20",
+    "end_time_mmss": "93:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

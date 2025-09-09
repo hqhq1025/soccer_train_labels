@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23444,
+  "video_id": "14ced636-7ea0-50fe-883e-e9b29ee3d9da",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 5154.0,
+      "end": 5154.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 5185.0,
+      "end": 5185.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5154000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/segment_005080_005200.json",
+  "segment_meta": {
+    "start_seconds": 5080,
+    "end_seconds": 5200,
+    "length_seconds": 120,
+    "start_time_mmss": "84:40",
+    "end_time_mmss": "86:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

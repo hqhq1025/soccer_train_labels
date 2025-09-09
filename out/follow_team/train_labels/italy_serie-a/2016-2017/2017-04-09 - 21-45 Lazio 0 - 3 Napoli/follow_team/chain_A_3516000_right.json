@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20773,
+  "video_id": "753ca915-299f-5b0d-84ec-b2ef93986be7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, follow that same team and alert me whenever it has {Clearance}.",
+  "answer": [
+    {
+      "start": 3516.0,
+      "end": 3516.0,
+      "text": "Trigger: Substitution by right @ 2 - 13:36"
+    },
+    {
+      "start": 3531.0,
+      "end": 3531.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3516000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/segment_003480_003540.json",
+  "segment_meta": {
+    "start_seconds": 3480,
+    "end_seconds": 3540,
+    "length_seconds": 60,
+    "start_time_mmss": "58:00",
+    "end_time_mmss": "59:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

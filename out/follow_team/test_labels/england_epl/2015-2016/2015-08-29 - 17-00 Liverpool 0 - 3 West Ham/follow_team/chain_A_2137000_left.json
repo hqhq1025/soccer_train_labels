@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8111,
+  "video_id": "379393a7-d3db-5a68-b4f5-92771a41b610",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 2137.0,
+      "end": 2137.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 2147.0,
+      "end": 2147.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Liverpool 0 - 3 West Ham/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-29 - 17-00 Liverpool 0 - 3 West Ham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2137000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Liverpool 0 - 3 West Ham/segment_002080_002160.json",
+  "segment_meta": {
+    "start_seconds": 2080,
+    "end_seconds": 2160,
+    "length_seconds": 80,
+    "start_time_mmss": "34:40",
+    "end_time_mmss": "36:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

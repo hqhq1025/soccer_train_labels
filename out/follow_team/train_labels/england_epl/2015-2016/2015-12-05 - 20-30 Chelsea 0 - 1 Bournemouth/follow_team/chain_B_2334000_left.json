@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22274,
+  "video_id": "760b334e-92af-5fa4-835a-2d887099b6c8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "answer": [
+    {
+      "start": 2334.0,
+      "end": 2334.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 2347.0,
+      "end": 2347.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2334000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/segment_002270_002390.json",
+  "segment_meta": {
+    "start_seconds": 2270,
+    "end_seconds": 2390,
+    "length_seconds": 120,
+    "start_time_mmss": "37:50",
+    "end_time_mmss": "39:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

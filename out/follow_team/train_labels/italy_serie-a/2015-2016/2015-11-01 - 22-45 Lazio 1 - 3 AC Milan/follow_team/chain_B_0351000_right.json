@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15494,
+  "video_id": "56aa3def-e186-51e4-b00f-5141ea32a5f6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 351.0,
+      "end": 351.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 381.0,
+      "end": 381.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 351000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/segment_000340_000460.json",
+  "segment_meta": {
+    "start_seconds": 340,
+    "end_seconds": 460,
+    "length_seconds": 120,
+    "start_time_mmss": "05:40",
+    "end_time_mmss": "07:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

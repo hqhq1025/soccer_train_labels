@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3608,
+  "video_id": "b84d3d4d-fac1-5166-97e3-fb800b8da7ae",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 5283.0,
+      "end": 5283.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 5284.0,
+      "end": 5284.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5283000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/segment_005250_005290.json",
+  "segment_meta": {
+    "start_seconds": 5250,
+    "end_seconds": 5290,
+    "length_seconds": 40,
+    "start_time_mmss": "87:30",
+    "end_time_mmss": "88:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

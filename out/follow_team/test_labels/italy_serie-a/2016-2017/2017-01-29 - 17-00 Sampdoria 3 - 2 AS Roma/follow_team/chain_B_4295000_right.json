@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6020,
+  "video_id": "e97dff21-1c0d-52e3-9748-6dacd3875685",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 4295.0,
+      "end": 4295.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4307.0,
+      "end": 4307.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4295000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/segment_004240_004360.json",
+  "segment_meta": {
+    "start_seconds": 4240,
+    "end_seconds": 4360,
+    "length_seconds": 120,
+    "start_time_mmss": "70:40",
+    "end_time_mmss": "72:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15033,
+  "video_id": "a69d2d2e-4d3b-547c-90ee-af3f35790afe",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 2015.0,
+      "end": 2015.0,
+      "text": "Trigger: Shots on target by right @ 1 - 33:35"
+    },
+    {
+      "start": 2027.0,
+      "end": 2027.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-05-21 - 21-00 Malaga 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-21 - 21-00 Malaga 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2015000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-21 - 21-00 Malaga 0 - 2 Real Madrid/segment_001990_002030.json",
+  "segment_meta": {
+    "start_seconds": 1990,
+    "end_seconds": 2030,
+    "length_seconds": 40,
+    "start_time_mmss": "33:10",
+    "end_time_mmss": "33:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

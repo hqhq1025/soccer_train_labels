@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12507,
+  "video_id": "6e9027f3-2837-57d9-86a1-f1e3d6fa843a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
+  "answer": [
+    {
+      "start": 2582.0,
+      "end": 2582.0,
+      "text": "Trigger: Foul by left @ 1 - 43:02"
+    },
+    {
+      "start": 2589.0,
+      "end": 2589.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-09-18 - 21-45 Espanyol 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-09-18 - 21-45 Espanyol 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2582000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-09-18 - 21-45 Espanyol 0 - 2 Real Madrid/segment_002530_002630.json",
+  "segment_meta": {
+    "start_seconds": 2530,
+    "end_seconds": 2630,
+    "length_seconds": 100,
+    "start_time_mmss": "42:10",
+    "end_time_mmss": "43:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

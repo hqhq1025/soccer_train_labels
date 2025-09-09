@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3317,
+  "video_id": "eaab50c7-4a0a-5c1c-998b-52d79eff4a7b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Substitution}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 4544.0,
+      "end": 4544.0,
+      "text": "Trigger: Substitution by right"
+    },
+    {
+      "start": 4608.0,
+      "end": 4608.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4544000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/segment_004510_004630.json",
+  "segment_meta": {
+    "start_seconds": 4510,
+    "end_seconds": 4630,
+    "length_seconds": 120,
+    "start_time_mmss": "75:10",
+    "end_time_mmss": "77:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

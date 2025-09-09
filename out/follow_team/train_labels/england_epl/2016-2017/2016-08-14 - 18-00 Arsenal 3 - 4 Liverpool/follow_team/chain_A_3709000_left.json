@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25363,
+  "video_id": "83ebe0a0-3bcb-576a-bbd7-9674c4430994",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 3709.0,
+      "end": 3709.0,
+      "text": "Trigger: Corner by left @ 2 - 16:49"
+    },
+    {
+      "start": 3750.0,
+      "end": 3750.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 3751.0,
+      "end": 3751.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3709000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_003640_003760.json",
+  "segment_meta": {
+    "start_seconds": 3640,
+    "end_seconds": 3760,
+    "length_seconds": 120,
+    "start_time_mmss": "60:40",
+    "end_time_mmss": "62:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

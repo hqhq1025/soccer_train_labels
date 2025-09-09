@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22919,
+  "video_id": "ece0e334-9d68-559e-890c-0f826452df41",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 2021.0,
+      "end": 2021.0,
+      "text": "Trigger: Corner by left @ 1 - 33:41"
+    },
+    {
+      "start": 2038.0,
+      "end": 2038.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Chelsea 1 - 1 Burnley/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Chelsea 1 - 1 Burnley/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2021000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Chelsea 1 - 1 Burnley/segment_001940_002060.json",
+  "segment_meta": {
+    "start_seconds": 1940,
+    "end_seconds": 2060,
+    "length_seconds": 120,
+    "start_time_mmss": "32:20",
+    "end_time_mmss": "34:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

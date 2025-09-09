@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13266,
+  "video_id": "d5b85533-0c26-533a-851e-dea58276b83e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 2159.0,
+      "end": 2159.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2215.0,
+      "end": 2215.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2159000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/segment_002100_002220.json",
+  "segment_meta": {
+    "start_seconds": 2100,
+    "end_seconds": 2220,
+    "length_seconds": 120,
+    "start_time_mmss": "35:00",
+    "end_time_mmss": "37:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

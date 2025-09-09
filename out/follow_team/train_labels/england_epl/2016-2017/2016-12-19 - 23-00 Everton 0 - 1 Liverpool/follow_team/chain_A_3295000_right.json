@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24803,
+  "video_id": "b43a5314-4104-5d95-a0be-69dd027675a6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 3295.0,
+      "end": 3295.0,
+      "text": "Trigger: Foul by right @ 2 - 09:55"
+    },
+    {
+      "start": 3317.0,
+      "end": 3317.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3295000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/segment_003280_003320.json",
+  "segment_meta": {
+    "start_seconds": 3280,
+    "end_seconds": 3320,
+    "length_seconds": 40,
+    "start_time_mmss": "54:40",
+    "end_time_mmss": "55:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

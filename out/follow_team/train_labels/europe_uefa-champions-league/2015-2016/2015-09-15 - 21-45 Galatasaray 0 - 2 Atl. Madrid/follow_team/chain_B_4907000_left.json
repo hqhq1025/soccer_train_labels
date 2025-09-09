@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5922,
+  "video_id": "f41b7d93-864d-58d6-84ac-0df0532ff99e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 4907.0,
+      "end": 4907.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 4916.0,
+      "end": 4916.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4907000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/segment_004810_004930.json",
+  "segment_meta": {
+    "start_seconds": 4810,
+    "end_seconds": 4930,
+    "length_seconds": 120,
+    "start_time_mmss": "80:10",
+    "end_time_mmss": "82:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

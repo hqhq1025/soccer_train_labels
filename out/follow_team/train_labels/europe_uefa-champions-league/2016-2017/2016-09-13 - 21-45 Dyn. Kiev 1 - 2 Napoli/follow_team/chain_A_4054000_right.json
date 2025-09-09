@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9481,
+  "video_id": "b0d4de0c-3018-5dd0-aab7-043cbf64e6c4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Yellow card} occurs, follow the initiating team and report all {Yellow->red card}.",
+  "answer": [
+    {
+      "start": 4054.0,
+      "end": 4054.0,
+      "text": "Trigger: Yellow card by right @ 2 - 22:34"
+    },
+    {
+      "start": 4057.0,
+      "end": 4057.0,
+      "text": "Then: Yellow->red card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4054000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/segment_003980_004060.json",
+  "segment_meta": {
+    "start_seconds": 3980,
+    "end_seconds": 4060,
+    "length_seconds": 80,
+    "start_time_mmss": "66:20",
+    "end_time_mmss": "67:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

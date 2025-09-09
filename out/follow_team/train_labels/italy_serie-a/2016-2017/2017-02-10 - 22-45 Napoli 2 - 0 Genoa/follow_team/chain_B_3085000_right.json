@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20066,
+  "video_id": "743b0b69-cce1-5959-93cd-b8dbaea9a2b2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 3085.0,
+      "end": 3085.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3088.0,
+      "end": 3088.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3085000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/segment_002990_003090.json",
+  "segment_meta": {
+    "start_seconds": 2990,
+    "end_seconds": 3090,
+    "length_seconds": 100,
+    "start_time_mmss": "49:50",
+    "end_time_mmss": "51:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8696,
+  "video_id": "b4a6be09-c25b-5eca-b278-bc5d58cfa665",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow->red card}.",
+  "answer": [
+    {
+      "start": 4534.0,
+      "end": 4534.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4544.0,
+      "end": 4544.0,
+      "text": "Then: Yellow->red card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4534000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/segment_004510_004550.json",
+  "segment_meta": {
+    "start_seconds": 4510,
+    "end_seconds": 4550,
+    "length_seconds": 40,
+    "start_time_mmss": "75:10",
+    "end_time_mmss": "75:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

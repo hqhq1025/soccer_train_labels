@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4784,
+  "video_id": "e57d980f-33d9-5fe8-93fd-ec1449e65c97",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2563.0,
+      "end": 2563.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2582.0,
+      "end": 2582.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-08 - 21-45 Malaga 2 - 0 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-04-08 - 21-45 Malaga 2 - 0 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2563000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-04-08 - 21-45 Malaga 2 - 0 Barcelona/segment_002530_002650.json",
+  "segment_meta": {
+    "start_seconds": 2530,
+    "end_seconds": 2650,
+    "length_seconds": 120,
+    "start_time_mmss": "42:10",
+    "end_time_mmss": "44:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

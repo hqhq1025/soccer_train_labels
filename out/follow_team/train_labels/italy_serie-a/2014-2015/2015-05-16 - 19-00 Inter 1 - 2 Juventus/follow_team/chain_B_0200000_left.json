@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16202,
+  "video_id": "ae0d386c-4b75-5a27-8014-44397f1db3a3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots off target}, stick with that team and alert me for {Corner}.",
+  "answer": [
+    {
+      "start": 200.0,
+      "end": 200.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 224.0,
+      "end": 224.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 200000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/segment_000130_000230.json",
+  "segment_meta": {
+    "start_seconds": 130,
+    "end_seconds": 230,
+    "length_seconds": 100,
+    "start_time_mmss": "02:10",
+    "end_time_mmss": "03:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

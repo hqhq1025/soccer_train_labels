@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19011,
+  "video_id": "e4f7352e-601b-5b26-be1e-0a9169ba5255",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}.",
+  "answer": [
+    {
+      "start": 4621.0,
+      "end": 4621.0,
+      "text": "Trigger: Foul by right @ 2 - 32:01"
+    },
+    {
+      "start": 4626.0,
+      "end": 4626.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4621000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_004570_004630.json",
+  "segment_meta": {
+    "start_seconds": 4570,
+    "end_seconds": 4630,
+    "length_seconds": 60,
+    "start_time_mmss": "76:10",
+    "end_time_mmss": "77:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

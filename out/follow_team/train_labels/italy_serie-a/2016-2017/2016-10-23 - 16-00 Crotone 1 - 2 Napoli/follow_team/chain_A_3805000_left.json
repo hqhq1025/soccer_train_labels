@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16719,
+  "video_id": "339fb89f-5f91-52b8-9739-7a01db3fd06f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3805.0,
+      "end": 3805.0,
+      "text": "Trigger: Clearance by left @ 2 - 18:25"
+    },
+    {
+      "start": 3833.0,
+      "end": 3833.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3805000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/segment_003760_003860.json",
+  "segment_meta": {
+    "start_seconds": 3760,
+    "end_seconds": 3860,
+    "length_seconds": 100,
+    "start_time_mmss": "62:40",
+    "end_time_mmss": "64:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

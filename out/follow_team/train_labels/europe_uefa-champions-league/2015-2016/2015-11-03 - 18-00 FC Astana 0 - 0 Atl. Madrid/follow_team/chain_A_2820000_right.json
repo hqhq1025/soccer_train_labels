@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5841,
+  "video_id": "046865e8-71a1-5704-a629-d4fc28efa2b3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 2820.0,
+      "end": 2820.0,
+      "text": "Trigger: Foul by right @ 2 - 02:00"
+    },
+    {
+      "start": 2856.0,
+      "end": 2856.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2820000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/segment_002760_002880.json",
+  "segment_meta": {
+    "start_seconds": 2760,
+    "end_seconds": 2880,
+    "length_seconds": 120,
+    "start_time_mmss": "46:00",
+    "end_time_mmss": "48:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 508,
+  "video_id": "35d88f44-08d1-5f26-a61f-e0cdf597e711",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Corner}.",
+  "answer": [
+    {
+      "start": 3004.0,
+      "end": 3004.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 3044.0,
+      "end": 3044.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3004000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_002960_003060.json",
+  "segment_meta": {
+    "start_seconds": 2960,
+    "end_seconds": 3060,
+    "length_seconds": 100,
+    "start_time_mmss": "49:20",
+    "end_time_mmss": "51:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

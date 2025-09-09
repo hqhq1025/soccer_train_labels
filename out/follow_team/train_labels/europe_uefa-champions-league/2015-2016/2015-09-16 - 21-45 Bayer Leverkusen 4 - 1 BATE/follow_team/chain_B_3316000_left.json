@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6170,
+  "video_id": "6f00936f-8321-5519-8a6f-c970fd1c6201",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 3316.0,
+      "end": 3316.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 3351.0,
+      "end": 3351.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3316000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/segment_003280_003360.json",
+  "segment_meta": {
+    "start_seconds": 3280,
+    "end_seconds": 3360,
+    "length_seconds": 80,
+    "start_time_mmss": "54:40",
+    "end_time_mmss": "56:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6311,
+  "video_id": "c18596d0-6fee-56be-a3fd-e3671733c50a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Substitution}, start tracking that team; notify me on its {Indirect free-kick and Foul}.",
+  "answer": [
+    {
+      "start": 4971.0,
+      "end": 4971.0,
+      "text": "Trigger: Substitution by left @ 2 - 37:51"
+    },
+    {
+      "start": 4983.0,
+      "end": 4983.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 4987.0,
+      "end": 4987.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4971000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 PSV 2 - 0 Wolfsburg/segment_004900_005000.json",
+  "segment_meta": {
+    "start_seconds": 4900,
+    "end_seconds": 5000,
+    "length_seconds": 100,
+    "start_time_mmss": "81:40",
+    "end_time_mmss": "83:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

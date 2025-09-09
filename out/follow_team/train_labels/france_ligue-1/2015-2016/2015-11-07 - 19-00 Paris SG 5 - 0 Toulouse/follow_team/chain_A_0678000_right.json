@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 35,
+  "video_id": "8b2dd97c-154f-53dd-adbd-59932c2a40ee",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 678.0,
+      "end": 678.0,
+      "text": "Trigger: Throw-in by right @ 1 - 11:18"
+    },
+    {
+      "start": 683.0,
+      "end": 683.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 678000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/segment_000630_000690.json",
+  "segment_meta": {
+    "start_seconds": 630,
+    "end_seconds": 690,
+    "length_seconds": 60,
+    "start_time_mmss": "10:30",
+    "end_time_mmss": "11:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

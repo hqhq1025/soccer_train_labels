@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5765,
+  "video_id": "3291788c-6c84-5992-8f28-5cb25d5e80a4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 2534.0,
+      "end": 2534.0,
+      "text": "Trigger: Corner by right @ 1 - 42:14"
+    },
+    {
+      "start": 2544.0,
+      "end": 2544.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2534000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/segment_002430_002550.json",
+  "segment_meta": {
+    "start_seconds": 2430,
+    "end_seconds": 2550,
+    "length_seconds": 120,
+    "start_time_mmss": "40:30",
+    "end_time_mmss": "42:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

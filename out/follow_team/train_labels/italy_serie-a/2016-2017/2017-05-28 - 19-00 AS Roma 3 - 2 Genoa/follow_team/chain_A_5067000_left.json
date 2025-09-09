@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17007,
+  "video_id": "dafb69ae-449f-5eb4-8de6-1d3b994e484a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 5067.0,
+      "end": 5067.0,
+      "text": "Trigger: Corner by left @ 2 - 39:27"
+    },
+    {
+      "start": 5069.0,
+      "end": 5069.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5067000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/segment_004970_005090.json",
+  "segment_meta": {
+    "start_seconds": 4970,
+    "end_seconds": 5090,
+    "length_seconds": 120,
+    "start_time_mmss": "82:50",
+    "end_time_mmss": "84:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

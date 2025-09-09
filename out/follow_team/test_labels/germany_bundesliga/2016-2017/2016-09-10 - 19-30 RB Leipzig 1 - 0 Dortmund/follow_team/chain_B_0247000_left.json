@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1542,
+  "video_id": "729494b7-7d5a-5ea7-b621-94ececd6aefc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Offside}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 247.0,
+      "end": 247.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 286.0,
+      "end": 286.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 247000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/segment_000210_000330.json",
+  "segment_meta": {
+    "start_seconds": 210,
+    "end_seconds": 330,
+    "length_seconds": 120,
+    "start_time_mmss": "03:30",
+    "end_time_mmss": "05:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

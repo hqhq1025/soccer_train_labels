@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4999,
+  "video_id": "c0054545-dfe3-548b-8637-31c3dc67bee5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in and Offside}.",
+  "answer": [
+    {
+      "start": 3956.0,
+      "end": 3956.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 20:56"
+    },
+    {
+      "start": 3983.0,
+      "end": 3983.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 3987.0,
+      "end": 3987.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3956000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/segment_003890_003990.json",
+  "segment_meta": {
+    "start_seconds": 3890,
+    "end_seconds": 3990,
+    "length_seconds": 100,
+    "start_time_mmss": "64:50",
+    "end_time_mmss": "66:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

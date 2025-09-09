@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8545,
+  "video_id": "aa68b65a-b087-57f4-b515-caf6c6302d11",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
+  "answer": [
+    {
+      "start": 5500.0,
+      "end": 5500.0,
+      "text": "Trigger: Foul by right @ 2 - 46:40"
+    },
+    {
+      "start": 5510.0,
+      "end": 5510.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5500000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/segment_005480_005520.json",
+  "segment_meta": {
+    "start_seconds": 5480,
+    "end_seconds": 5520,
+    "length_seconds": 40,
+    "start_time_mmss": "91:20",
+    "end_time_mmss": "92:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1013,
+  "video_id": "6ab23900-161a-56c2-a121-e9093507d89f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 641.0,
+      "end": 641.0,
+      "text": "Trigger: Throw-in by right @ 1 - 10:41"
+    },
+    {
+      "start": 683.0,
+      "end": 683.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 641000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/segment_000590_000710.json",
+  "segment_meta": {
+    "start_seconds": 590,
+    "end_seconds": 710,
+    "length_seconds": 120,
+    "start_time_mmss": "09:50",
+    "end_time_mmss": "11:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

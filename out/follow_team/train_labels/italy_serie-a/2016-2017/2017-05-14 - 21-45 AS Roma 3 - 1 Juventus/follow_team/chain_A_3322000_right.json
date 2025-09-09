@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19111,
+  "video_id": "fbbf362a-6e92-59af-907a-c55819d02f66",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 3322.0,
+      "end": 3322.0,
+      "text": "Trigger: Shots on target by right @ 2 - 10:22"
+    },
+    {
+      "start": 3324.0,
+      "end": 3324.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3322000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/segment_003210_003330.json",
+  "segment_meta": {
+    "start_seconds": 3210,
+    "end_seconds": 3330,
+    "length_seconds": 120,
+    "start_time_mmss": "53:30",
+    "end_time_mmss": "55:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

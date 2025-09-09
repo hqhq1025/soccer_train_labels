@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20926,
+  "video_id": "b779a758-0830-544e-b2c4-69f50fa3a8e1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 5160.0,
+      "end": 5160.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5175.0,
+      "end": 5175.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5160000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/segment_005060_005180.json",
+  "segment_meta": {
+    "start_seconds": 5060,
+    "end_seconds": 5180,
+    "length_seconds": 120,
+    "start_time_mmss": "84:20",
+    "end_time_mmss": "86:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

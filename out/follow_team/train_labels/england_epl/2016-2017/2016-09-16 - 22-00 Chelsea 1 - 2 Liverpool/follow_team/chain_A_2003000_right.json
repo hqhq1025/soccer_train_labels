@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23967,
+  "video_id": "a57d4cdf-f294-5ca9-ac2e-7bdeb53871ac",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "answer": [
+    {
+      "start": 2003.0,
+      "end": 2003.0,
+      "text": "Trigger: Direct free-kick by right @ 1 - 33:23"
+    },
+    {
+      "start": 2004.0,
+      "end": 2004.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2003000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/segment_001970_002010.json",
+  "segment_meta": {
+    "start_seconds": 1970,
+    "end_seconds": 2010,
+    "length_seconds": 40,
+    "start_time_mmss": "32:50",
+    "end_time_mmss": "33:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

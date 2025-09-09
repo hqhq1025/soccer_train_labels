@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20307,
+  "video_id": "f3360b20-cb61-5c54-be98-e6f07d5af116",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Substitution}.",
+  "answer": [
+    {
+      "start": 4690.0,
+      "end": 4690.0,
+      "text": "Trigger: Foul by left @ 2 - 33:10"
+    },
+    {
+      "start": 4736.0,
+      "end": 4736.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-15 - 16-00 Napoli 1 - 3 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-15 - 16-00 Napoli 1 - 3 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4690000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-15 - 16-00 Napoli 1 - 3 AS Roma/segment_004650_004770.json",
+  "segment_meta": {
+    "start_seconds": 4650,
+    "end_seconds": 4770,
+    "length_seconds": 120,
+    "start_time_mmss": "77:30",
+    "end_time_mmss": "79:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

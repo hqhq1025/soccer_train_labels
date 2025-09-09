@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17620,
+  "video_id": "b2587803-260f-5b21-a946-2ef914bd879c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 129.0,
+      "end": 129.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 63000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/segment_000040_000160.json",
+  "segment_meta": {
+    "start_seconds": 40,
+    "end_seconds": 160,
+    "length_seconds": 120,
+    "start_time_mmss": "00:40",
+    "end_time_mmss": "02:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

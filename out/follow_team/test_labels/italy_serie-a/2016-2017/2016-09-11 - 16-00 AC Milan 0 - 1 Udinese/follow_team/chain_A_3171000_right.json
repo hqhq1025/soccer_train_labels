@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6641,
+  "video_id": "2eff04d0-3a20-505c-9de1-bbf19c0a11c5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 3171.0,
+      "end": 3171.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 3236.0,
+      "end": 3236.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3171000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/segment_003160_003240.json",
+  "segment_meta": {
+    "start_seconds": 3160,
+    "end_seconds": 3240,
+    "length_seconds": 80,
+    "start_time_mmss": "52:40",
+    "end_time_mmss": "54:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

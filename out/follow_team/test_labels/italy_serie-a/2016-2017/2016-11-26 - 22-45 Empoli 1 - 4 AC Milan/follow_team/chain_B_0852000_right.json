@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7032,
+  "video_id": "c04a88a5-6797-5465-b616-1969cbb2ff7c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 852.0,
+      "end": 852.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 853.0,
+      "end": 853.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 852000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/segment_000770_000870.json",
+  "segment_meta": {
+    "start_seconds": 770,
+    "end_seconds": 870,
+    "length_seconds": 100,
+    "start_time_mmss": "12:50",
+    "end_time_mmss": "14:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

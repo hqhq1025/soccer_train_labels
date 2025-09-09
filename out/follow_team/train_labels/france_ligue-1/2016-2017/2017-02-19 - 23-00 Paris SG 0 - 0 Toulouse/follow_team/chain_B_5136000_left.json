@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1334,
+  "video_id": "a43d0228-441f-5730-8c1d-0201ac87680b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Clearance}.",
+  "answer": [
+    {
+      "start": 5136.0,
+      "end": 5136.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 5184.0,
+      "end": 5184.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5136000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/segment_005110_005190.json",
+  "segment_meta": {
+    "start_seconds": 5110,
+    "end_seconds": 5190,
+    "length_seconds": 80,
+    "start_time_mmss": "85:10",
+    "end_time_mmss": "86:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

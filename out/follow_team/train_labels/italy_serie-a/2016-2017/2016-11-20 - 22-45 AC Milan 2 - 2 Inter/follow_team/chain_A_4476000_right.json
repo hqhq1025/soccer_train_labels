@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18927,
+  "video_id": "f3e591c2-6a48-515b-86a3-1935c9701182",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, follow that same team and alert me whenever it has {Indirect free-kick, Throw-in and Shots off target}.",
+  "answer": [
+    {
+      "start": 4476.0,
+      "end": 4476.0,
+      "text": "Trigger: Substitution by right @ 2 - 29:36"
+    },
+    {
+      "start": 4483.0,
+      "end": 4483.0,
+      "text": "Then: Indirect free-kick by right"
+    },
+    {
+      "start": 4511.0,
+      "end": 4511.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 4539.0,
+      "end": 4539.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4476000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_004420_004540.json",
+  "segment_meta": {
+    "start_seconds": 4420,
+    "end_seconds": 4540,
+    "length_seconds": 120,
+    "start_time_mmss": "73:40",
+    "end_time_mmss": "75:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

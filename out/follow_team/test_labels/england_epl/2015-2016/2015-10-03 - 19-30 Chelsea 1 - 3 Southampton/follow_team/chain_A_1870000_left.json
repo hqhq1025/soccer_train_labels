@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7635,
+  "video_id": "0ebd58da-83ea-59b4-ab28-74074d62207e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 1870.0,
+      "end": 1870.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 1880.0,
+      "end": 1880.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 1884.0,
+      "end": 1884.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1870000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/segment_001770_001890.json",
+  "segment_meta": {
+    "start_seconds": 1770,
+    "end_seconds": 1890,
+    "length_seconds": 120,
+    "start_time_mmss": "29:30",
+    "end_time_mmss": "31:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7699,
+  "video_id": "160c6df1-bd3a-5163-ae7f-d896edd26822",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow->red card}.",
+  "answer": [
+    {
+      "start": 3870.0,
+      "end": 3870.0,
+      "text": "Trigger: Foul by right @ 2 - 19:30"
+    },
+    {
+      "start": 3890.0,
+      "end": 3890.0,
+      "text": "Then: Yellow->red card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Shakhtar Donetsk 0 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Shakhtar Donetsk 0 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3870000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Shakhtar Donetsk 0 - 0 Bayern Munich/segment_003860_003900.json",
+  "segment_meta": {
+    "start_seconds": 3860,
+    "end_seconds": 3900,
+    "length_seconds": 40,
+    "start_time_mmss": "64:20",
+    "end_time_mmss": "65:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

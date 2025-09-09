@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2932,
+  "video_id": "d82c548b-98aa-5b22-bd75-a170e42fccb9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots on target}.",
+  "answer": [
+    {
+      "start": 3826.0,
+      "end": 3826.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 3827.0,
+      "end": 3827.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3826000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/segment_003770_003870.json",
+  "segment_meta": {
+    "start_seconds": 3770,
+    "end_seconds": 3870,
+    "length_seconds": 100,
+    "start_time_mmss": "62:50",
+    "end_time_mmss": "64:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

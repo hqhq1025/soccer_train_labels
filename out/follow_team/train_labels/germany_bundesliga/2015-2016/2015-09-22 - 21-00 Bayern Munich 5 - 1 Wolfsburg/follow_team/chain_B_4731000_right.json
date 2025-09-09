@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2592,
+  "video_id": "cbf8efad-84c3-5214-b08e-f5da2fe41002",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Corner}.",
+  "answer": [
+    {
+      "start": 4731.0,
+      "end": 4731.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4766.0,
+      "end": 4766.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4731000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/segment_004710_004770.json",
+  "segment_meta": {
+    "start_seconds": 4710,
+    "end_seconds": 4770,
+    "length_seconds": 60,
+    "start_time_mmss": "78:30",
+    "end_time_mmss": "79:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9,
+  "video_id": "a92daa9b-b9b1-52d9-bba9-55a216a09139",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 4747.0,
+      "end": 4747.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4753.0,
+      "end": 4753.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/",
+  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4747000,
+  "team": "left",
+  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/segment_004720_004760.json",
+  "segment_meta": {
+    "start_seconds": 4720,
+    "end_seconds": 4760,
+    "length_seconds": 40,
+    "start_time_mmss": "78:40",
+    "end_time_mmss": "79:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

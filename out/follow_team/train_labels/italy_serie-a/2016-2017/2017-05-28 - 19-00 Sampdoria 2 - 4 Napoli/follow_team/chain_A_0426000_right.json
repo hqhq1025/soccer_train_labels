@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19547,
+  "video_id": "2d8fb12c-3898-5d48-9dcc-cc54041202b9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 426.0,
+      "end": 426.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 07:06"
+    },
+    {
+      "start": 486.0,
+      "end": 486.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 426000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_000420_000500.json",
+  "segment_meta": {
+    "start_seconds": 420,
+    "end_seconds": 500,
+    "length_seconds": 80,
+    "start_time_mmss": "07:00",
+    "end_time_mmss": "08:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

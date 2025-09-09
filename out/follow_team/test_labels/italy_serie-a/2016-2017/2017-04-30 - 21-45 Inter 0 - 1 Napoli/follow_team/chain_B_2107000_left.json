@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6704,
+  "video_id": "e52e06f8-36c2-5b2f-9619-5c5abe27150b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Offside}.",
+  "answer": [
+    {
+      "start": 2107.0,
+      "end": 2107.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2116.0,
+      "end": 2116.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2107000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/segment_002060_002120.json",
+  "segment_meta": {
+    "start_seconds": 2060,
+    "end_seconds": 2120,
+    "length_seconds": 60,
+    "start_time_mmss": "34:20",
+    "end_time_mmss": "35:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

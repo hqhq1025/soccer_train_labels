@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19034,
+  "video_id": "5a707292-0bce-595a-be8c-d41a785103f6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Corner} happen.",
+  "answer": [
+    {
+      "start": 4440.0,
+      "end": 4440.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 4469.0,
+      "end": 4469.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-14 - 16-00 Torino 0 - 5 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-14 - 16-00 Torino 0 - 5 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4440000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-14 - 16-00 Torino 0 - 5 Napoli/segment_004410_004470.json",
+  "segment_meta": {
+    "start_seconds": 4410,
+    "end_seconds": 4470,
+    "length_seconds": 60,
+    "start_time_mmss": "73:30",
+    "end_time_mmss": "74:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

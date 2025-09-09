@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1762,
+  "video_id": "50ceec41-184b-5b42-9235-afa12657a893",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 608.0,
+      "end": 608.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 640.0,
+      "end": 640.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 608000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/segment_000580_000660.json",
+  "segment_meta": {
+    "start_seconds": 580,
+    "end_seconds": 660,
+    "length_seconds": 80,
+    "start_time_mmss": "09:40",
+    "end_time_mmss": "11:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3109,
+  "video_id": "07ed357a-d96f-5edd-ae85-65dbc0631b0e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Throw-in and Offside}.",
+  "answer": [
+    {
+      "start": 5135.0,
+      "end": 5135.0,
+      "text": "Trigger: Shots off target by left @ 2 - 40:35"
+    },
+    {
+      "start": 5174.0,
+      "end": 5174.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 5189.0,
+      "end": 5189.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-04-11 - 16-30 Bayern Munich 3 - 0 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-11 - 16-30 Bayern Munich 3 - 0 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5135000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-11 - 16-30 Bayern Munich 3 - 0 Eintracht Frankfurt/segment_005090_005190.json",
+  "segment_meta": {
+    "start_seconds": 5090,
+    "end_seconds": 5190,
+    "length_seconds": 100,
+    "start_time_mmss": "84:50",
+    "end_time_mmss": "86:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8367,
+  "video_id": "e8545d91-db90-5216-92dc-52f115396be8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Substitution} it makes.",
+  "answer": [
+    {
+      "start": 4561.0,
+      "end": 4561.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4635.0,
+      "end": 4635.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4561000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/segment_004540_004640.json",
+  "segment_meta": {
+    "start_seconds": 4540,
+    "end_seconds": 4640,
+    "length_seconds": 100,
+    "start_time_mmss": "75:40",
+    "end_time_mmss": "77:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6090,
+  "video_id": "a58559f6-0af7-5fa1-908c-28f4db8e48b6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 5413.0,
+      "end": 5413.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 5419.0,
+      "end": 5419.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5413000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_005380_005460.json",
+  "segment_meta": {
+    "start_seconds": 5380,
+    "end_seconds": 5460,
+    "length_seconds": 80,
+    "start_time_mmss": "89:40",
+    "end_time_mmss": "91:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

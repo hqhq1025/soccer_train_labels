@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7435,
+  "video_id": "b706363f-841c-55ae-9366-58c617f6574c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 2802.0,
+      "end": 2802.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2816.0,
+      "end": 2816.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2802000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/segment_002740_002820.json",
+  "segment_meta": {
+    "start_seconds": 2740,
+    "end_seconds": 2820,
+    "length_seconds": 80,
+    "start_time_mmss": "45:40",
+    "end_time_mmss": "47:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

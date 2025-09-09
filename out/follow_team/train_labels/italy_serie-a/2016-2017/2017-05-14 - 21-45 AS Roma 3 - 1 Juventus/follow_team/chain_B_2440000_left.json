@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19124,
+  "video_id": "31d404b6-f849-5041-9d79-e3a78351b631",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Clearance} occurs, follow the initiating team and report all {Clearance}.",
+  "answer": [
+    {
+      "start": 2440.0,
+      "end": 2440.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2483.0,
+      "end": 2483.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2440000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/segment_002420_002540.json",
+  "segment_meta": {
+    "start_seconds": 2420,
+    "end_seconds": 2540,
+    "length_seconds": 120,
+    "start_time_mmss": "40:20",
+    "end_time_mmss": "42:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

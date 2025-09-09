@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7069,
+  "video_id": "f8f528c9-adc3-5537-b5a1-80b14af97eac",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Throw-in and Shots off target}.",
+  "answer": [
+    {
+      "start": 654.0,
+      "end": 654.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 680.0,
+      "end": 680.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 687.0,
+      "end": 687.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 654000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/segment_000610_000730.json",
+  "segment_meta": {
+    "start_seconds": 610,
+    "end_seconds": 730,
+    "length_seconds": 120,
+    "start_time_mmss": "10:10",
+    "end_time_mmss": "12:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

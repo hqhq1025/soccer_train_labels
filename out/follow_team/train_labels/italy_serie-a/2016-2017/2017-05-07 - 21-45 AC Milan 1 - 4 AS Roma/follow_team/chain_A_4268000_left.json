@@ -1,0 +1,51 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18161,
+  "video_id": "23728077-13b6-5432-ab7c-38feaef3fcd0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Clearance, Foul and Throw-in}.",
+  "answer": [
+    {
+      "start": 4268.0,
+      "end": 4268.0,
+      "text": "Trigger: Substitution by left @ 2 - 26:08"
+    },
+    {
+      "start": 4281.0,
+      "end": 4281.0,
+      "text": "Then: Clearance by left"
+    },
+    {
+      "start": 4311.0,
+      "end": 4311.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4328.0,
+      "end": 4328.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4347.0,
+      "end": 4347.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4268000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/segment_004230_004350.json",
+  "segment_meta": {
+    "start_seconds": 4230,
+    "end_seconds": 4350,
+    "length_seconds": 120,
+    "start_time_mmss": "70:30",
+    "end_time_mmss": "72:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

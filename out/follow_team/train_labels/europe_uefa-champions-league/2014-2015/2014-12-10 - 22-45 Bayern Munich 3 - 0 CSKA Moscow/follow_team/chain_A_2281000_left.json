@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8397,
+  "video_id": "990b925b-cdad-572c-99dc-345834aff02b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Corner and Shots off target}.",
+  "answer": [
+    {
+      "start": 2281.0,
+      "end": 2281.0,
+      "text": "Trigger: Throw-in by left @ 1 - 38:01"
+    },
+    {
+      "start": 2311.0,
+      "end": 2311.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 2312.0,
+      "end": 2312.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2281000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/segment_002210_002330.json",
+  "segment_meta": {
+    "start_seconds": 2210,
+    "end_seconds": 2330,
+    "length_seconds": 120,
+    "start_time_mmss": "36:50",
+    "end_time_mmss": "38:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

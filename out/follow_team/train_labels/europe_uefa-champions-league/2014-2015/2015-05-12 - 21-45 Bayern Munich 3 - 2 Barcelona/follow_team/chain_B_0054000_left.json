@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8874,
+  "video_id": "530885dd-eff1-5b9e-9407-0a6d14c74384",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 75.0,
+      "end": 75.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 54000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/segment_000010_000090.json",
+  "segment_meta": {
+    "start_seconds": 10,
+    "end_seconds": 90,
+    "length_seconds": 80,
+    "start_time_mmss": "00:10",
+    "end_time_mmss": "01:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

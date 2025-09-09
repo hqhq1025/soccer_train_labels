@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8472,
+  "video_id": "c372ffcc-cdd1-5d91-ad99-b0a90bee89a9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Corner}.",
+  "answer": [
+    {
+      "start": 215.0,
+      "end": 215.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 250.0,
+      "end": 250.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Dortmund 1 - 1 Anderlecht/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Dortmund 1 - 1 Anderlecht/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 215000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Dortmund 1 - 1 Anderlecht/segment_000180_000280.json",
+  "segment_meta": {
+    "start_seconds": 180,
+    "end_seconds": 280,
+    "length_seconds": 100,
+    "start_time_mmss": "03:00",
+    "end_time_mmss": "04:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

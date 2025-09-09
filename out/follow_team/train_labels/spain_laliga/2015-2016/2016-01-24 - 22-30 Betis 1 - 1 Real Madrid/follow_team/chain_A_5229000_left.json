@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10675,
+  "video_id": "d7f10587-e5eb-563e-9a0c-415c40497b89",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Corner}; then follow that team and report its {Offside}.",
+  "answer": [
+    {
+      "start": 5229.0,
+      "end": 5229.0,
+      "text": "Trigger: Corner by left @ 2 - 42:09"
+    },
+    {
+      "start": 5234.0,
+      "end": 5234.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5229000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/segment_005180_005260.json",
+  "segment_meta": {
+    "start_seconds": 5180,
+    "end_seconds": 5260,
+    "length_seconds": 80,
+    "start_time_mmss": "86:20",
+    "end_time_mmss": "87:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8183,
+  "video_id": "711af7f1-0efb-5ad5-b8f0-34dc37c604e9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Offside}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 373.0,
+      "end": 373.0,
+      "text": "Trigger: Offside by right @ 1 - 06:13"
+    },
+    {
+      "start": 414.0,
+      "end": 414.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 373000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/segment_000300_000420.json",
+  "segment_meta": {
+    "start_seconds": 300,
+    "end_seconds": 420,
+    "length_seconds": 120,
+    "start_time_mmss": "05:00",
+    "end_time_mmss": "07:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

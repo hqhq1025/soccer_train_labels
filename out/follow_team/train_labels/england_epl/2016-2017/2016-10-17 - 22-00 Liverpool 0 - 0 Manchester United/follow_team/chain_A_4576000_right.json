@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23299,
+  "video_id": "0291c74f-b379-51ca-a9e4-8367c6da1d14",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Offside}; then follow that team and report its {Substitution}.",
+  "answer": [
+    {
+      "start": 4576.0,
+      "end": 4576.0,
+      "text": "Trigger: Offside by right @ 2 - 31:16"
+    },
+    {
+      "start": 4611.0,
+      "end": 4611.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4576000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_004540_004620.json",
+  "segment_meta": {
+    "start_seconds": 4540,
+    "end_seconds": 4620,
+    "length_seconds": 80,
+    "start_time_mmss": "75:40",
+    "end_time_mmss": "77:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

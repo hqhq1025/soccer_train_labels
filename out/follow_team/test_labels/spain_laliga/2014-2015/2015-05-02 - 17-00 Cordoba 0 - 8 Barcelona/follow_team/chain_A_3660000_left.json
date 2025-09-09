@@ -1,0 +1,51 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3873,
+  "video_id": "440d4c70-6599-549f-bc88-a622300d3c49",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, follow that same team and alert me whenever it has {Clearance, Throw-in and Corner}.",
+  "answer": [
+    {
+      "start": 3660.0,
+      "end": 3660.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 3672.0,
+      "end": 3672.0,
+      "text": "Then: Clearance by left"
+    },
+    {
+      "start": 3690.0,
+      "end": 3690.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 3720.0,
+      "end": 3720.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 3738.0,
+      "end": 3738.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3660000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/segment_003630_003750.json",
+  "segment_meta": {
+    "start_seconds": 3630,
+    "end_seconds": 3750,
+    "length_seconds": 120,
+    "start_time_mmss": "60:30",
+    "end_time_mmss": "62:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

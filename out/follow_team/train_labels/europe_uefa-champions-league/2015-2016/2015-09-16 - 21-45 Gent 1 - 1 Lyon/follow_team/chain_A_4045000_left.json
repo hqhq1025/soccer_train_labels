@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6039,
+  "video_id": "e17b22c2-2bfb-542a-b8d1-5c32557a4829",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "answer": [
+    {
+      "start": 4045.0,
+      "end": 4045.0,
+      "text": "Trigger: Shots on target by left @ 2 - 22:25"
+    },
+    {
+      "start": 4046.0,
+      "end": 4046.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4045000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_004010_004050.json",
+  "segment_meta": {
+    "start_seconds": 4010,
+    "end_seconds": 4050,
+    "length_seconds": 40,
+    "start_time_mmss": "66:50",
+    "end_time_mmss": "67:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

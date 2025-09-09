@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18463,
+  "video_id": "04b3f8bf-23b6-5fa1-864e-850f06a1360d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Penalty} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 398.0,
+      "end": 398.0,
+      "text": "Trigger: Penalty by right @ 1 - 06:38"
+    },
+    {
+      "start": 400.0,
+      "end": 400.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 398000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/segment_000350_000410.json",
+  "segment_meta": {
+    "start_seconds": 350,
+    "end_seconds": 410,
+    "length_seconds": 60,
+    "start_time_mmss": "05:50",
+    "end_time_mmss": "06:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

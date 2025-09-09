@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4743,
+  "video_id": "4b895f29-450c-5b42-9534-203961013ff7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 2641.0,
+      "end": 2641.0,
+      "text": "Trigger: Shots off target by left @ 1 - 44:01"
+    },
+    {
+      "start": 2642.0,
+      "end": 2642.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 2642.0,
+      "end": 2642.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2641000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/segment_002610_002730.json",
+  "segment_meta": {
+    "start_seconds": 2610,
+    "end_seconds": 2730,
+    "length_seconds": 120,
+    "start_time_mmss": "43:30",
+    "end_time_mmss": "45:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

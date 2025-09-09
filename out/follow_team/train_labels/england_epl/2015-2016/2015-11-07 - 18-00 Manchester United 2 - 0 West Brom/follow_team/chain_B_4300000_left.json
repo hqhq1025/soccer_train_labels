@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20996,
+  "video_id": "e712acfe-4b50-5452-b781-f3c980fa758c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 4300.0,
+      "end": 4300.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 4301.0,
+      "end": 4301.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4300000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/segment_004190_004310.json",
+  "segment_meta": {
+    "start_seconds": 4190,
+    "end_seconds": 4310,
+    "length_seconds": 120,
+    "start_time_mmss": "69:50",
+    "end_time_mmss": "71:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

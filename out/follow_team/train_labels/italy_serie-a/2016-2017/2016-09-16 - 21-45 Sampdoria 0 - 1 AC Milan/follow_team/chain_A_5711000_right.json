@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20667,
+  "video_id": "599c7abe-15ed-5722-a554-7a3144f61c58",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Yellow card}, follow that same team and alert me whenever it has {Yellow card, Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 5711.0,
+      "end": 5711.0,
+      "text": "Trigger: Yellow card by right @ 2 - 50:11"
+    },
+    {
+      "start": 5743.0,
+      "end": 5743.0,
+      "text": "Then: Yellow card by right"
+    },
+    {
+      "start": 5754.0,
+      "end": 5754.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 5756.0,
+      "end": 5756.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5711000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/segment_005690_005780.json",
+  "segment_meta": {
+    "start_seconds": 5690,
+    "end_seconds": 5780,
+    "length_seconds": 90,
+    "start_time_mmss": "94:50",
+    "end_time_mmss": "96:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

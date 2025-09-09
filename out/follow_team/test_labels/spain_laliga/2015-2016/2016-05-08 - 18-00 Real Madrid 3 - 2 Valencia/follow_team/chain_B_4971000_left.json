@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3224,
+  "video_id": "ce00861e-1411-5d01-b85c-46fe769a5989",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Red card}.",
+  "answer": [
+    {
+      "start": 4971.0,
+      "end": 4971.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4976.0,
+      "end": 4976.0,
+      "text": "Then: Red card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4971000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/segment_004920_004980.json",
+  "segment_meta": {
+    "start_seconds": 4920,
+    "end_seconds": 4980,
+    "length_seconds": 60,
+    "start_time_mmss": "82:00",
+    "end_time_mmss": "83:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

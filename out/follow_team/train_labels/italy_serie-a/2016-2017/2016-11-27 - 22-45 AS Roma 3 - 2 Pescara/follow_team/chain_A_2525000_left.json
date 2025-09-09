@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18819,
+  "video_id": "d8d69f0e-d594-5fbc-a7d7-f7d4fdef0403",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Corner and Shots on target}.",
+  "answer": [
+    {
+      "start": 2525.0,
+      "end": 2525.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 42:05"
+    },
+    {
+      "start": 2544.0,
+      "end": 2544.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 2552.0,
+      "end": 2552.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2525000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/segment_002440_002560.json",
+  "segment_meta": {
+    "start_seconds": 2440,
+    "end_seconds": 2560,
+    "length_seconds": 120,
+    "start_time_mmss": "40:40",
+    "end_time_mmss": "42:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

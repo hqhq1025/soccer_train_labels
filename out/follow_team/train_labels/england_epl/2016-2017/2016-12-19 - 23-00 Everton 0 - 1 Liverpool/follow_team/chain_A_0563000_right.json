@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24799,
+  "video_id": "97ce89b5-e73c-54b0-88a2-adefac173b70",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Shots off target and Throw-in}.",
+  "answer": [
+    {
+      "start": 563.0,
+      "end": 563.0,
+      "text": "Trigger: Throw-in by right @ 1 - 09:23"
+    },
+    {
+      "start": 606.0,
+      "end": 606.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 625.0,
+      "end": 625.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 563000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/segment_000510_000630.json",
+  "segment_meta": {
+    "start_seconds": 510,
+    "end_seconds": 630,
+    "length_seconds": 120,
+    "start_time_mmss": "08:30",
+    "end_time_mmss": "10:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

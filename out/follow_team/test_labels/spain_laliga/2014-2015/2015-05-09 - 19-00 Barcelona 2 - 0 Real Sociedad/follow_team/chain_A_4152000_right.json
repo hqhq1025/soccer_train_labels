@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4209,
+  "video_id": "572cac78-b086-5dcf-8667-3cbc90962f87",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 4152.0,
+      "end": 4152.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 4176.0,
+      "end": 4176.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4152000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/segment_004100_004180.json",
+  "segment_meta": {
+    "start_seconds": 4100,
+    "end_seconds": 4180,
+    "length_seconds": 80,
+    "start_time_mmss": "68:20",
+    "end_time_mmss": "69:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

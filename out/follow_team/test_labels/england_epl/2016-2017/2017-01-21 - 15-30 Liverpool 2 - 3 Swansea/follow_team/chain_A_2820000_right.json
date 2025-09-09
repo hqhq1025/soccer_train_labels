@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8815,
+  "video_id": "a61a404f-6725-5e26-845a-eba5d858be8c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Goal and Shots on target} happen.",
+  "answer": [
+    {
+      "start": 2820.0,
+      "end": 2820.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2824.0,
+      "end": 2824.0,
+      "text": "Then: Goal by right"
+    },
+    {
+      "start": 2824.0,
+      "end": 2824.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2820000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/segment_002770_002850.json",
+  "segment_meta": {
+    "start_seconds": 2770,
+    "end_seconds": 2850,
+    "length_seconds": 80,
+    "start_time_mmss": "46:10",
+    "end_time_mmss": "47:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

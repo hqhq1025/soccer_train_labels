@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8142,
+  "video_id": "2338f74f-12aa-5a0a-ae72-fe3d56528f92",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, start tracking that team; notify me on its {Shots on target}.",
+  "answer": [
+    {
+      "start": 2262.0,
+      "end": 2262.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2279.0,
+      "end": 2279.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2262000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/segment_002220_002280.json",
+  "segment_meta": {
+    "start_seconds": 2220,
+    "end_seconds": 2280,
+    "length_seconds": 60,
+    "start_time_mmss": "37:00",
+    "end_time_mmss": "38:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

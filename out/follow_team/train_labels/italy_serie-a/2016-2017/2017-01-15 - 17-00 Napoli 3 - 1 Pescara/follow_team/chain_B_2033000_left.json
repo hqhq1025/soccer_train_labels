@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18692,
+  "video_id": "e054884d-f8cb-5874-a940-f0323d9c0f38",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 2033.0,
+      "end": 2033.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2045.0,
+      "end": 2045.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2033000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/segment_001980_002060.json",
+  "segment_meta": {
+    "start_seconds": 1980,
+    "end_seconds": 2060,
+    "length_seconds": 80,
+    "start_time_mmss": "33:00",
+    "end_time_mmss": "34:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

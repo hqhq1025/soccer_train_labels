@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6014,
+  "video_id": "6904dac2-1412-5172-9a3d-6843ef6a99d3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 1389.0,
+      "end": 1389.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 1414.0,
+      "end": 1414.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1389000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/segment_001350_001430.json",
+  "segment_meta": {
+    "start_seconds": 1350,
+    "end_seconds": 1430,
+    "length_seconds": 80,
+    "start_time_mmss": "22:30",
+    "end_time_mmss": "23:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

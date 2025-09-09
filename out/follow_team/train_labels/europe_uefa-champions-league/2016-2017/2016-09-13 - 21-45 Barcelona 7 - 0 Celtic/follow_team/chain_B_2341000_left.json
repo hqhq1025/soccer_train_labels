@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9542,
+  "video_id": "66d83ea5-dcc2-59f2-8038-5b0bd43c7328",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 2341.0,
+      "end": 2341.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2350.0,
+      "end": 2350.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2341000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/segment_002320_002360.json",
+  "segment_meta": {
+    "start_seconds": 2320,
+    "end_seconds": 2360,
+    "length_seconds": 40,
+    "start_time_mmss": "38:40",
+    "end_time_mmss": "39:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

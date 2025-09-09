@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6159,
+  "video_id": "c29cb178-a7e2-590e-b5c3-b7993d8effa5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 3313.0,
+      "end": 3313.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3323.0,
+      "end": 3323.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3313000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/segment_003290_003330.json",
+  "segment_meta": {
+    "start_seconds": 3290,
+    "end_seconds": 3330,
+    "length_seconds": 40,
+    "start_time_mmss": "54:50",
+    "end_time_mmss": "55:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

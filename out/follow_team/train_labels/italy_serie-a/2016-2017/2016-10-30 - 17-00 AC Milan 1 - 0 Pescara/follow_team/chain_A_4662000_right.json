@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20217,
+  "video_id": "b979147c-a5ab-5e25-950d-7fdccc870593",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Clearance}, stick with that team and alert me for {Shots on target and Offside}.",
+  "answer": [
+    {
+      "start": 4662.0,
+      "end": 4662.0,
+      "text": "Trigger: Clearance by right @ 2 - 32:42"
+    },
+    {
+      "start": 4708.0,
+      "end": 4708.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 4709.0,
+      "end": 4709.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4662000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/segment_004650_004710.json",
+  "segment_meta": {
+    "start_seconds": 4650,
+    "end_seconds": 4710,
+    "length_seconds": 60,
+    "start_time_mmss": "77:30",
+    "end_time_mmss": "78:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

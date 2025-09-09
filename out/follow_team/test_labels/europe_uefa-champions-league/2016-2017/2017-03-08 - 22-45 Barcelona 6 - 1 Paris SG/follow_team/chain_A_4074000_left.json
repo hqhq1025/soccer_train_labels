@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2723,
+  "video_id": "cc0f171f-557c-54a2-95f0-9d4004595206",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 4074.0,
+      "end": 4074.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4095.0,
+      "end": 4095.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4074000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/segment_003980_004100.json",
+  "segment_meta": {
+    "start_seconds": 3980,
+    "end_seconds": 4100,
+    "length_seconds": 120,
+    "start_time_mmss": "66:20",
+    "end_time_mmss": "68:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

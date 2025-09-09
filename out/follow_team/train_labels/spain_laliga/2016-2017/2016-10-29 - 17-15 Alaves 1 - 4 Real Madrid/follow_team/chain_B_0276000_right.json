@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12664,
+  "video_id": "f9b45c34-3e8d-5bc5-b258-7f95f786220e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 276.0,
+      "end": 276.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 310.0,
+      "end": 310.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-10-29 - 17-15 Alaves 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-29 - 17-15 Alaves 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 276000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-29 - 17-15 Alaves 1 - 4 Real Madrid/segment_000210_000330.json",
+  "segment_meta": {
+    "start_seconds": 210,
+    "end_seconds": 330,
+    "length_seconds": 120,
+    "start_time_mmss": "03:30",
+    "end_time_mmss": "05:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24292,
+  "video_id": "18979133-a093-5dbe-baa4-d73da573f008",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Offside}, stick with that team and alert me for {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3327.0,
+      "end": 3327.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 3394.0,
+      "end": 3394.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3327000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/segment_003300_003400.json",
+  "segment_meta": {
+    "start_seconds": 3300,
+    "end_seconds": 3400,
+    "length_seconds": 100,
+    "start_time_mmss": "55:00",
+    "end_time_mmss": "56:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

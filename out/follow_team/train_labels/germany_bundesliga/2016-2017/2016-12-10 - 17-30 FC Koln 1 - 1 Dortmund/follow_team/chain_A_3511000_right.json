@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4153,
+  "video_id": "df3174f0-47b5-562e-b849-d9f7c2f7d655",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Throw-in, Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 3511.0,
+      "end": 3511.0,
+      "text": "Trigger: Shots off target by right @ 2 - 13:31"
+    },
+    {
+      "start": 3565.0,
+      "end": 3565.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 3586.0,
+      "end": 3586.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 3591.0,
+      "end": 3591.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3511000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/segment_003500_003620.json",
+  "segment_meta": {
+    "start_seconds": 3500,
+    "end_seconds": 3620,
+    "length_seconds": 120,
+    "start_time_mmss": "58:20",
+    "end_time_mmss": "60:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

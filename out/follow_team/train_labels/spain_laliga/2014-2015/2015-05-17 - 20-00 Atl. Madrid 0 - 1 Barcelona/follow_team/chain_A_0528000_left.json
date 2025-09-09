@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11475,
+  "video_id": "47c68759-0437-5417-9d32-25410753256a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Corner and Offside}.",
+  "answer": [
+    {
+      "start": 528.0,
+      "end": 528.0,
+      "text": "Trigger: Throw-in by left @ 1 - 08:48"
+    },
+    {
+      "start": 561.0,
+      "end": 561.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 564.0,
+      "end": 564.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 528000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/segment_000520_000640.json",
+  "segment_meta": {
+    "start_seconds": 520,
+    "end_seconds": 640,
+    "length_seconds": 120,
+    "start_time_mmss": "08:40",
+    "end_time_mmss": "10:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6591,
+  "video_id": "052d7fec-8a58-5641-97ac-2612bca73a8f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 2051.0,
+      "end": 2051.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 2078.0,
+      "end": 2078.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 2084.0,
+      "end": 2084.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2051000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/segment_002030_002090.json",
+  "segment_meta": {
+    "start_seconds": 2030,
+    "end_seconds": 2090,
+    "length_seconds": 60,
+    "start_time_mmss": "33:50",
+    "end_time_mmss": "34:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

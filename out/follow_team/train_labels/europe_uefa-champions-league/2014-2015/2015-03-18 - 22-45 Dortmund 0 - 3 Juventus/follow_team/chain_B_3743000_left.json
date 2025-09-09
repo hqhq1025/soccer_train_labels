@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7494,
+  "video_id": "49753802-04b8-52d2-b8b9-cc95c82d6cda",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Substitution}.",
+  "answer": [
+    {
+      "start": 3743.0,
+      "end": 3743.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3765.0,
+      "end": 3765.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3743000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/segment_003700_003780.json",
+  "segment_meta": {
+    "start_seconds": 3700,
+    "end_seconds": 3780,
+    "length_seconds": 80,
+    "start_time_mmss": "61:40",
+    "end_time_mmss": "63:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

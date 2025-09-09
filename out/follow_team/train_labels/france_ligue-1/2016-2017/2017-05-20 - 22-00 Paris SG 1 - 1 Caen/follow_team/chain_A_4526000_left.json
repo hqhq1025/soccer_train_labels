@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1751,
+  "video_id": "56d521a0-c079-5b30-9155-89633d8fc3c9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "answer": [
+    {
+      "start": 4526.0,
+      "end": 4526.0,
+      "text": "Trigger: Corner by left @ 2 - 30:26"
+    },
+    {
+      "start": 4549.0,
+      "end": 4549.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4526000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/segment_004510_004550.json",
+  "segment_meta": {
+    "start_seconds": 4510,
+    "end_seconds": 4550,
+    "length_seconds": 40,
+    "start_time_mmss": "75:10",
+    "end_time_mmss": "75:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

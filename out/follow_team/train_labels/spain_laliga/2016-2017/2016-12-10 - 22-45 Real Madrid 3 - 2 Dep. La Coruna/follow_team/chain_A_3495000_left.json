@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13351,
+  "video_id": "3cc24600-6b7c-5482-a931-c36c865e9f80",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 3495.0,
+      "end": 3495.0,
+      "text": "Trigger: Foul by left @ 2 - 13:15"
+    },
+    {
+      "start": 3505.0,
+      "end": 3505.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3495000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/segment_003470_003510.json",
+  "segment_meta": {
+    "start_seconds": 3470,
+    "end_seconds": 3510,
+    "length_seconds": 40,
+    "start_time_mmss": "57:50",
+    "end_time_mmss": "58:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22627,
+  "video_id": "087aba3b-028e-5258-8fe0-604e022ac450",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Substitution}.",
+  "answer": [
+    {
+      "start": 4573.0,
+      "end": 4573.0,
+      "text": "Trigger: Foul by left @ 2 - 31:13"
+    },
+    {
+      "start": 4584.0,
+      "end": 4584.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4573000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_004550_004590.json",
+  "segment_meta": {
+    "start_seconds": 4550,
+    "end_seconds": 4590,
+    "length_seconds": 40,
+    "start_time_mmss": "75:50",
+    "end_time_mmss": "76:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

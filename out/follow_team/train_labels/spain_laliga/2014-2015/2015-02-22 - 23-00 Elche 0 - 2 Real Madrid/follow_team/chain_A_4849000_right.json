@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11377,
+  "video_id": "00e97ef5-4fa6-5241-95d3-86e16f88a1ef",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 4849.0,
+      "end": 4849.0,
+      "text": "Trigger: Foul by right @ 2 - 35:49"
+    },
+    {
+      "start": 4899.0,
+      "end": 4899.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4849000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/segment_004830_004950.json",
+  "segment_meta": {
+    "start_seconds": 4830,
+    "end_seconds": 4950,
+    "length_seconds": 120,
+    "start_time_mmss": "80:30",
+    "end_time_mmss": "82:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

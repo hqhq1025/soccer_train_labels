@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17604,
+  "video_id": "a86b1d9c-ffe6-531d-8889-4001550cd565",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 2364.0,
+      "end": 2364.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2385.0,
+      "end": 2385.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2364000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/segment_002280_002400.json",
+  "segment_meta": {
+    "start_seconds": 2280,
+    "end_seconds": 2400,
+    "length_seconds": 120,
+    "start_time_mmss": "38:00",
+    "end_time_mmss": "40:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

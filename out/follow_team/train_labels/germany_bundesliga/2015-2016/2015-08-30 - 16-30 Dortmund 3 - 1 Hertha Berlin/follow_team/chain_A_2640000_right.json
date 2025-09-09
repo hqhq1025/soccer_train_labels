@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2263,
+  "video_id": "742787a1-7d26-51f8-9129-620509ae410b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
+  "answer": [
+    {
+      "start": 2640.0,
+      "end": 2640.0,
+      "text": "Trigger: Foul by right @ 1 - 44:00"
+    },
+    {
+      "start": 2650.0,
+      "end": 2650.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2640000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_002610_002730.json",
+  "segment_meta": {
+    "start_seconds": 2610,
+    "end_seconds": 2730,
+    "length_seconds": 120,
+    "start_time_mmss": "43:30",
+    "end_time_mmss": "45:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

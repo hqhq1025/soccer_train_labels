@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8847,
+  "video_id": "b8c97be9-b52f-55df-8dcd-380feba6fb46",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Indirect free-kick, Throw-in and Offside}.",
+  "answer": [
+    {
+      "start": 3345.0,
+      "end": 3345.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3364.0,
+      "end": 3364.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 3391.0,
+      "end": 3391.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 3400.0,
+      "end": 3400.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3345000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/segment_003320_003440.json",
+  "segment_meta": {
+    "start_seconds": 3320,
+    "end_seconds": 3440,
+    "length_seconds": 120,
+    "start_time_mmss": "55:20",
+    "end_time_mmss": "57:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

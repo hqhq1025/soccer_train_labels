@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5605,
+  "video_id": "746294d6-7cc3-55b2-8762-b72c6b35d160",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Throw-in and Offside}.",
+  "answer": [
+    {
+      "start": 896.0,
+      "end": 896.0,
+      "text": "Trigger: Shots on target by left @ 1 - 14:56"
+    },
+    {
+      "start": 926.0,
+      "end": 926.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 943.0,
+      "end": 943.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 896000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/segment_000870_000990.json",
+  "segment_meta": {
+    "start_seconds": 870,
+    "end_seconds": 990,
+    "length_seconds": 120,
+    "start_time_mmss": "14:30",
+    "end_time_mmss": "16:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

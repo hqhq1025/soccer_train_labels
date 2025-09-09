@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3477,
+  "video_id": "b0f26ebc-7df2-5c48-bfeb-916a6178f175",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 395.0,
+      "end": 395.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 462.0,
+      "end": 462.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 395000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/segment_000350_000470.json",
+  "segment_meta": {
+    "start_seconds": 350,
+    "end_seconds": 470,
+    "length_seconds": 120,
+    "start_time_mmss": "05:50",
+    "end_time_mmss": "07:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

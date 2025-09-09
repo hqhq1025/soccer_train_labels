@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16432,
+  "video_id": "5c8196b3-061d-5a5f-aa97-25284a92fb3c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 3885.0,
+      "end": 3885.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3922.0,
+      "end": 3922.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3885000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/segment_003870_003930.json",
+  "segment_meta": {
+    "start_seconds": 3870,
+    "end_seconds": 3930,
+    "length_seconds": 60,
+    "start_time_mmss": "64:30",
+    "end_time_mmss": "65:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

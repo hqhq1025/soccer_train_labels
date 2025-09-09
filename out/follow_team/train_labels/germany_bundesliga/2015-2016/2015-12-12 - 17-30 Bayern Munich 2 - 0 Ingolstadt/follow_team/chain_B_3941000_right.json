@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1906,
+  "video_id": "c3fff4b5-f748-5a5d-af1b-0288f6a7f119",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Offside}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 3941.0,
+      "end": 3941.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 3970.0,
+      "end": 3970.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3941000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/segment_003910_003990.json",
+  "segment_meta": {
+    "start_seconds": 3910,
+    "end_seconds": 3990,
+    "length_seconds": 80,
+    "start_time_mmss": "65:10",
+    "end_time_mmss": "66:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5388,
+  "video_id": "2bb09a65-f43b-5c9d-8906-3839c12d5ce9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Offside} happen.",
+  "answer": [
+    {
+      "start": 4308.0,
+      "end": 4308.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4319.0,
+      "end": 4319.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4308000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/segment_004300_004360.json",
+  "segment_meta": {
+    "start_seconds": 4300,
+    "end_seconds": 4360,
+    "length_seconds": 60,
+    "start_time_mmss": "71:40",
+    "end_time_mmss": "72:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

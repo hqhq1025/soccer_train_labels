@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17856,
+  "video_id": "e993332a-62a3-5b7e-ba0d-f0d03e9ed73c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 2267.0,
+      "end": 2267.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 2295.0,
+      "end": 2295.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2267000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_002210_002330.json",
+  "segment_meta": {
+    "start_seconds": 2210,
+    "end_seconds": 2330,
+    "length_seconds": 120,
+    "start_time_mmss": "36:50",
+    "end_time_mmss": "38:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

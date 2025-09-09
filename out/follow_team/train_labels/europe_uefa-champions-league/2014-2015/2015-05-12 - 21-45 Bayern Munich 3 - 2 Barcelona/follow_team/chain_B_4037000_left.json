@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8904,
+  "video_id": "241b6b8b-576b-5298-a03f-b65964e1e3e7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Substitution}, stick with that team and alert me for {Offside}.",
+  "answer": [
+    {
+      "start": 4037.0,
+      "end": 4037.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 4068.0,
+      "end": 4068.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4037000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/segment_003990_004070.json",
+  "segment_meta": {
+    "start_seconds": 3990,
+    "end_seconds": 4070,
+    "length_seconds": 80,
+    "start_time_mmss": "66:30",
+    "end_time_mmss": "67:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

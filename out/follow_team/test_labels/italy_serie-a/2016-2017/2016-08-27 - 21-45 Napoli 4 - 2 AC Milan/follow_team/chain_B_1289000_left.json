@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7346,
+  "video_id": "9fffd463-5c11-550c-8711-2062a9b4e458",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 1289.0,
+      "end": 1289.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 1298.0,
+      "end": 1298.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1289000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/segment_001260_001300.json",
+  "segment_meta": {
+    "start_seconds": 1260,
+    "end_seconds": 1300,
+    "length_seconds": 40,
+    "start_time_mmss": "21:00",
+    "end_time_mmss": "21:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

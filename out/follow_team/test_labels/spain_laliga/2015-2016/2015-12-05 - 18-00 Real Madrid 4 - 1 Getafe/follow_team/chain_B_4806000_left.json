@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3356,
+  "video_id": "44439655-538f-50b8-b1b1-0f4a5bb82eb5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 4806.0,
+      "end": 4806.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 4827.0,
+      "end": 4827.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-12-05 - 18-00 Real Madrid 4 - 1 Getafe/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-12-05 - 18-00 Real Madrid 4 - 1 Getafe/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4806000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-12-05 - 18-00 Real Madrid 4 - 1 Getafe/segment_004730_004830.json",
+  "segment_meta": {
+    "start_seconds": 4730,
+    "end_seconds": 4830,
+    "length_seconds": 100,
+    "start_time_mmss": "78:50",
+    "end_time_mmss": "80:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

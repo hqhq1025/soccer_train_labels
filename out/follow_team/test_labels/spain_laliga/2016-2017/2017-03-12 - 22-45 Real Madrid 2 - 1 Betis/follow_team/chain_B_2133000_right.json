@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4938,
+  "video_id": "e56bacbe-6681-5248-8519-0c15d0c8f7b9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 2133.0,
+      "end": 2133.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2142.0,
+      "end": 2142.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-12 - 22-45 Real Madrid 2 - 1 Betis/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-03-12 - 22-45 Real Madrid 2 - 1 Betis/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2133000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-03-12 - 22-45 Real Madrid 2 - 1 Betis/segment_002070_002150.json",
+  "segment_meta": {
+    "start_seconds": 2070,
+    "end_seconds": 2150,
+    "length_seconds": 80,
+    "start_time_mmss": "34:30",
+    "end_time_mmss": "35:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

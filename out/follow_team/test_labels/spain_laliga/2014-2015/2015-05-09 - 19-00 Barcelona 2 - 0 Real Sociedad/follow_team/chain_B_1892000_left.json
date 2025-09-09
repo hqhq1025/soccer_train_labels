@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4240,
+  "video_id": "c71c8e99-ef17-50d8-86bf-73e5c1c1771d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 1892.0,
+      "end": 1892.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 1894.0,
+      "end": 1894.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1892000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/segment_001860_001900.json",
+  "segment_meta": {
+    "start_seconds": 1860,
+    "end_seconds": 1900,
+    "length_seconds": 40,
+    "start_time_mmss": "31:00",
+    "end_time_mmss": "31:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

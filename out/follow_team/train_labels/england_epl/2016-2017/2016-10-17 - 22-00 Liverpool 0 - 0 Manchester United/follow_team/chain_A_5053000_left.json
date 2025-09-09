@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23291,
+  "video_id": "091c61eb-dd74-566e-a998-b6ddf8239e60",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Substitution} happen.",
+  "answer": [
+    {
+      "start": 5053.0,
+      "end": 5053.0,
+      "text": "Trigger: Throw-in by left @ 2 - 39:13"
+    },
+    {
+      "start": 5094.0,
+      "end": 5094.0,
+      "text": "Then: Substitution by left"
+    },
+    {
+      "start": 5118.0,
+      "end": 5118.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5053000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_005040_005140.json",
+  "segment_meta": {
+    "start_seconds": 5040,
+    "end_seconds": 5140,
+    "length_seconds": 100,
+    "start_time_mmss": "84:00",
+    "end_time_mmss": "85:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

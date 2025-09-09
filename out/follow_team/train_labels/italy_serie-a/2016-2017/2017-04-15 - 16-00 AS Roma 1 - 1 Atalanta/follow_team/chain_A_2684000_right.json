@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17059,
+  "video_id": "f78ea8d0-0e98-525e-a5b1-560656e4afa7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Shots off target and Kick-off}.",
+  "answer": [
+    {
+      "start": 2684.0,
+      "end": 2684.0,
+      "text": "Trigger: Corner by right @ 1 - 44:44"
+    },
+    {
+      "start": 2686.0,
+      "end": 2686.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 2700.0,
+      "end": 2700.0,
+      "text": "Then: Kick-off by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2684000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/segment_002660_002760.json",
+  "segment_meta": {
+    "start_seconds": 2660,
+    "end_seconds": 2760,
+    "length_seconds": 100,
+    "start_time_mmss": "44:20",
+    "end_time_mmss": "46:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

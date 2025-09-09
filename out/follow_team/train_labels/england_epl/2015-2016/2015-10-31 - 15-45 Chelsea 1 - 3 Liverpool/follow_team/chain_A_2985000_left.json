@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21475,
+  "video_id": "73482bbe-438a-53b9-9e35-cb0c9793cadc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 2985.0,
+      "end": 2985.0,
+      "text": "Trigger: Foul by left @ 2 - 04:45"
+    },
+    {
+      "start": 3015.0,
+      "end": 3015.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 3019.0,
+      "end": 3019.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2985000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/segment_002980_003100.json",
+  "segment_meta": {
+    "start_seconds": 2980,
+    "end_seconds": 3100,
+    "length_seconds": 120,
+    "start_time_mmss": "49:40",
+    "end_time_mmss": "51:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13270,
+  "video_id": "9ba18663-797f-55eb-bcae-b2635a2dadbd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 3648.0,
+      "end": 3648.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3663.0,
+      "end": 3663.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3648000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/segment_003570_003670.json",
+  "segment_meta": {
+    "start_seconds": 3570,
+    "end_seconds": 3670,
+    "length_seconds": 100,
+    "start_time_mmss": "59:30",
+    "end_time_mmss": "61:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

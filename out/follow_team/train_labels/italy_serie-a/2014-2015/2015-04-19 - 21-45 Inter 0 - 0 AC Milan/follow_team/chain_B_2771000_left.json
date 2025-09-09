@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16224,
+  "video_id": "214449f5-23fe-560f-9880-497ededb319c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 2771.0,
+      "end": 2771.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 2803.0,
+      "end": 2803.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2771000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/segment_002740_002840.json",
+  "segment_meta": {
+    "start_seconds": 2740,
+    "end_seconds": 2840,
+    "length_seconds": 100,
+    "start_time_mmss": "45:40",
+    "end_time_mmss": "47:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

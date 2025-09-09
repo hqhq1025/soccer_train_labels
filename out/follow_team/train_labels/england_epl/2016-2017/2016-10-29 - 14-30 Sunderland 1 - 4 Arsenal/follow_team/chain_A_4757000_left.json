@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25533,
+  "video_id": "0c5efb26-3060-519b-96cb-c9f686396661",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}.",
+  "answer": [
+    {
+      "start": 4757.0,
+      "end": 4757.0,
+      "text": "Trigger: Foul by left @ 2 - 34:17"
+    },
+    {
+      "start": 4766.0,
+      "end": 4766.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4757000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/segment_004730_004770.json",
+  "segment_meta": {
+    "start_seconds": 4730,
+    "end_seconds": 4770,
+    "length_seconds": 40,
+    "start_time_mmss": "78:50",
+    "end_time_mmss": "79:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

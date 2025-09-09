@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8497,
+  "video_id": "528fa146-8697-5998-b0e0-093793e7744f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 4819.0,
+      "end": 4819.0,
+      "text": "Trigger: Throw-in by left @ 2 - 35:19"
+    },
+    {
+      "start": 4830.0,
+      "end": 4830.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Dortmund 1 - 1 Anderlecht/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Dortmund 1 - 1 Anderlecht/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4819000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Dortmund 1 - 1 Anderlecht/segment_004720_004840.json",
+  "segment_meta": {
+    "start_seconds": 4720,
+    "end_seconds": 4840,
+    "length_seconds": 120,
+    "start_time_mmss": "78:40",
+    "end_time_mmss": "80:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

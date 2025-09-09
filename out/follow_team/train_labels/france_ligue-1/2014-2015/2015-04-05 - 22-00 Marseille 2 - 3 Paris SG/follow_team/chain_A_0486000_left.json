@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 183,
+  "video_id": "7779b52f-2f63-541b-8891-282a759d8bcf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 486.0,
+      "end": 486.0,
+      "text": "Trigger: Foul by left @ 1 - 08:06"
+    },
+    {
+      "start": 494.0,
+      "end": 494.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 486000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/segment_000470_000530.json",
+  "segment_meta": {
+    "start_seconds": 470,
+    "end_seconds": 530,
+    "length_seconds": 60,
+    "start_time_mmss": "07:50",
+    "end_time_mmss": "08:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

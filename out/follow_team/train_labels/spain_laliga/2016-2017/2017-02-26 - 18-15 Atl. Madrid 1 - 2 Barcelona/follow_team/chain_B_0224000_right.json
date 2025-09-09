@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13002,
+  "video_id": "f91fc99b-f687-5390-a81f-7a16501d169b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 224.0,
+      "end": 224.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 226.0,
+      "end": 226.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 224000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/segment_000110_000230.json",
+  "segment_meta": {
+    "start_seconds": 110,
+    "end_seconds": 230,
+    "length_seconds": 120,
+    "start_time_mmss": "01:50",
+    "end_time_mmss": "03:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

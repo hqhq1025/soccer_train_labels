@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7407,
+  "video_id": "fac9656d-d76a-520e-8253-3a8d22462e06",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 4951.0,
+      "end": 4951.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4991.0,
+      "end": 4991.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4951000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/segment_004920_005020.json",
+  "segment_meta": {
+    "start_seconds": 4920,
+    "end_seconds": 5020,
+    "length_seconds": 100,
+    "start_time_mmss": "82:00",
+    "end_time_mmss": "83:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5254,
+  "video_id": "52f3dc09-e1c1-5324-9b27-bc8a19ac0fe0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 1075.0,
+      "end": 1075.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 1120.0,
+      "end": 1120.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1075000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/segment_001010_001130.json",
+  "segment_meta": {
+    "start_seconds": 1010,
+    "end_seconds": 1130,
+    "length_seconds": 120,
+    "start_time_mmss": "16:50",
+    "end_time_mmss": "18:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

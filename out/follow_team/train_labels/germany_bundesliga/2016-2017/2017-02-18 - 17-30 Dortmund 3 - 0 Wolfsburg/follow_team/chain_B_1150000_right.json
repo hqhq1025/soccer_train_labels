@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3684,
+  "video_id": "511a1678-cab2-5bda-b84e-3cf0f6a5e458",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, continue tracking that team and notify me about any {Goal}.",
+  "answer": [
+    {
+      "start": 1150.0,
+      "end": 1150.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 1159.0,
+      "end": 1159.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1150000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_001080_001160.json",
+  "segment_meta": {
+    "start_seconds": 1080,
+    "end_seconds": 1160,
+    "length_seconds": 80,
+    "start_time_mmss": "18:00",
+    "end_time_mmss": "19:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

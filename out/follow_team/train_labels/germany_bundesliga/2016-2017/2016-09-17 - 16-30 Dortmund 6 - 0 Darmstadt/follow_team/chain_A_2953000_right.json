@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4373,
+  "video_id": "1aaa0be3-40cd-5a4c-a5e0-2744367b1d62",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 2953.0,
+      "end": 2953.0,
+      "text": "Trigger: Corner by right @ 2 - 04:13"
+    },
+    {
+      "start": 2961.0,
+      "end": 2961.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2953000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/segment_002870_002990.json",
+  "segment_meta": {
+    "start_seconds": 2870,
+    "end_seconds": 2990,
+    "length_seconds": 120,
+    "start_time_mmss": "47:50",
+    "end_time_mmss": "49:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

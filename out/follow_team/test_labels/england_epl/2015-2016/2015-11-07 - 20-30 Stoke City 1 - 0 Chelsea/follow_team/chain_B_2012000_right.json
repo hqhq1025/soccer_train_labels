@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7848,
+  "video_id": "ef8fea01-bda2-59a8-b4f0-bfa584a9052b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 2012.0,
+      "end": 2012.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2021.0,
+      "end": 2021.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2012000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/segment_001950_002070.json",
+  "segment_meta": {
+    "start_seconds": 1950,
+    "end_seconds": 2070,
+    "length_seconds": 120,
+    "start_time_mmss": "32:30",
+    "end_time_mmss": "34:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6630,
+  "video_id": "2bc0bc69-39af-5ded-806a-41d3d45e23a1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 3819.0,
+      "end": 3819.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 3856.0,
+      "end": 3856.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3819000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/segment_003740_003860.json",
+  "segment_meta": {
+    "start_seconds": 3740,
+    "end_seconds": 3860,
+    "length_seconds": 120,
+    "start_time_mmss": "62:20",
+    "end_time_mmss": "64:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

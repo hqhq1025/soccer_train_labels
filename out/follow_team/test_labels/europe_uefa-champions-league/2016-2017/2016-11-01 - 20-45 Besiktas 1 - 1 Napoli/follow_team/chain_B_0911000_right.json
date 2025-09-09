@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3082,
+  "video_id": "c84bf795-7d60-527e-a5dd-d6bc9a19b163",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Shots on target} happen.",
+  "answer": [
+    {
+      "start": 911.0,
+      "end": 911.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 941.0,
+      "end": 941.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 911000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/segment_000850_000970.json",
+  "segment_meta": {
+    "start_seconds": 850,
+    "end_seconds": 970,
+    "length_seconds": 120,
+    "start_time_mmss": "14:10",
+    "end_time_mmss": "16:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

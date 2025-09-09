@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8333,
+  "video_id": "d99377e8-d7c4-5eed-94a9-3999344b3eff",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card and Substitution}.",
+  "answer": [
+    {
+      "start": 4804.0,
+      "end": 4804.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4813.0,
+      "end": 4813.0,
+      "text": "Then: Yellow card by right"
+    },
+    {
+      "start": 4833.0,
+      "end": 4833.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4804000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/segment_004780_004860.json",
+  "segment_meta": {
+    "start_seconds": 4780,
+    "end_seconds": 4860,
+    "length_seconds": 80,
+    "start_time_mmss": "79:40",
+    "end_time_mmss": "81:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

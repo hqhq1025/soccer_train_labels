@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3795,
+  "video_id": "7a10c187-d532-5961-a2a9-8bfeae30e279",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Corner and Throw-in}.",
+  "answer": [
+    {
+      "start": 502.0,
+      "end": 502.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 555.0,
+      "end": 555.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 584.0,
+      "end": 584.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 502000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/segment_000470_000590.json",
+  "segment_meta": {
+    "start_seconds": 470,
+    "end_seconds": 590,
+    "length_seconds": 120,
+    "start_time_mmss": "07:50",
+    "end_time_mmss": "09:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

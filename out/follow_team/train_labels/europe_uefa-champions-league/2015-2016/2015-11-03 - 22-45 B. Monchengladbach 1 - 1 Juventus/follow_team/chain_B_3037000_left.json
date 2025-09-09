@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7054,
+  "video_id": "97d8d8e3-7439-58ce-a20e-bd7e16b39bf3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 3037.0,
+      "end": 3037.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 3082.0,
+      "end": 3082.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3037000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/segment_003000_003120.json",
+  "segment_meta": {
+    "start_seconds": 3000,
+    "end_seconds": 3120,
+    "length_seconds": 120,
+    "start_time_mmss": "50:00",
+    "end_time_mmss": "52:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

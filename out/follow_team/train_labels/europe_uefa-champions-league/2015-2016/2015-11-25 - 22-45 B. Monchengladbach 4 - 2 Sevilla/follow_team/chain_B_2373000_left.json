@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6722,
+  "video_id": "8e0ca6f5-a120-5d2b-94c6-01677959c45c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 2373.0,
+      "end": 2373.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2386.0,
+      "end": 2386.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2373000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/segment_002290_002390.json",
+  "segment_meta": {
+    "start_seconds": 2290,
+    "end_seconds": 2390,
+    "length_seconds": 100,
+    "start_time_mmss": "38:10",
+    "end_time_mmss": "39:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

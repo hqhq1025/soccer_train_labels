@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 811,
+  "video_id": "1486a6d5-e551-5787-8cee-1016896a3b5a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 645.0,
+      "end": 645.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 652.0,
+      "end": 652.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 645000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/segment_000620_000680.json",
+  "segment_meta": {
+    "start_seconds": 620,
+    "end_seconds": 680,
+    "length_seconds": 60,
+    "start_time_mmss": "10:20",
+    "end_time_mmss": "11:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

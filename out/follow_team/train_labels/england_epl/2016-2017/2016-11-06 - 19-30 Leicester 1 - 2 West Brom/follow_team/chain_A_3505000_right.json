@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23837,
+  "video_id": "1bef1156-4296-53a2-9d93-04525caeeb1e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Corner and Foul}.",
+  "answer": [
+    {
+      "start": 3505.0,
+      "end": 3505.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 13:25"
+    },
+    {
+      "start": 3559.0,
+      "end": 3559.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 3561.0,
+      "end": 3561.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3505000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/segment_003470_003570.json",
+  "segment_meta": {
+    "start_seconds": 3470,
+    "end_seconds": 3570,
+    "length_seconds": 100,
+    "start_time_mmss": "57:50",
+    "end_time_mmss": "59:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

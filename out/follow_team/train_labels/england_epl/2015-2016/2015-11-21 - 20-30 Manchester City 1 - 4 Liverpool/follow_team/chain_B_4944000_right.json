@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21658,
+  "video_id": "c4a6bd3b-e070-5f83-b323-359953711afe",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 4944.0,
+      "end": 4944.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 4966.0,
+      "end": 4966.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4944000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/segment_004880_005000.json",
+  "segment_meta": {
+    "start_seconds": 4880,
+    "end_seconds": 5000,
+    "length_seconds": 120,
+    "start_time_mmss": "81:20",
+    "end_time_mmss": "83:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

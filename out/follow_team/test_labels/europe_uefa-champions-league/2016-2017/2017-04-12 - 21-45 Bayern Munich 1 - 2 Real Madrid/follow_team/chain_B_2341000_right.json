@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3014,
+  "video_id": "9e220f62-3e77-5ca1-98de-da4e944e8422",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 2341.0,
+      "end": 2341.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2344.0,
+      "end": 2344.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-04-12 - 21-45 Bayern Munich 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-04-12 - 21-45 Bayern Munich 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2341000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-04-12 - 21-45 Bayern Munich 1 - 2 Real Madrid/segment_002250_002350.json",
+  "segment_meta": {
+    "start_seconds": 2250,
+    "end_seconds": 2350,
+    "length_seconds": 100,
+    "start_time_mmss": "37:30",
+    "end_time_mmss": "39:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

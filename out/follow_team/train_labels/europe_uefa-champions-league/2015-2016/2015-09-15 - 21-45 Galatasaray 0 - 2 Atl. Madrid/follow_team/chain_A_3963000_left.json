@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6001,
+  "video_id": "d1103dfe-d66a-5492-8520-1772d81493d2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul and Throw-in}.",
+  "answer": [
+    {
+      "start": 3963.0,
+      "end": 3963.0,
+      "text": "Trigger: Throw-in by left @ 2 - 21:03"
+    },
+    {
+      "start": 3975.0,
+      "end": 3975.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4008.0,
+      "end": 4008.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3963000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Galatasaray 0 - 2 Atl. Madrid/segment_003950_004070.json",
+  "segment_meta": {
+    "start_seconds": 3950,
+    "end_seconds": 4070,
+    "length_seconds": 120,
+    "start_time_mmss": "65:50",
+    "end_time_mmss": "67:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

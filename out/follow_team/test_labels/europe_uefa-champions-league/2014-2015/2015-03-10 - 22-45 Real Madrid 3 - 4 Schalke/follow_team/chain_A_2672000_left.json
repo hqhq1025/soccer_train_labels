@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2275,
+  "video_id": "1435d396-8d82-584a-a360-499627995603",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Goal, Shots on target and Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 2672.0,
+      "end": 2672.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2694.0,
+      "end": 2694.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 2694.0,
+      "end": 2694.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 2746.0,
+      "end": 2746.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2672000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/segment_002630_002750.json",
+  "segment_meta": {
+    "start_seconds": 2630,
+    "end_seconds": 2750,
+    "length_seconds": 120,
+    "start_time_mmss": "43:50",
+    "end_time_mmss": "45:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

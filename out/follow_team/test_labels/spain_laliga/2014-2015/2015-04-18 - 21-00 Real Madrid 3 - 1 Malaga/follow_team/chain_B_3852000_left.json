@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4066,
+  "video_id": "918d6b60-c8cf-5de2-b897-1b331e7df18e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 3852.0,
+      "end": 3852.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 3855.0,
+      "end": 3855.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3852000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/segment_003760_003880.json",
+  "segment_meta": {
+    "start_seconds": 3760,
+    "end_seconds": 3880,
+    "length_seconds": 120,
+    "start_time_mmss": "62:40",
+    "end_time_mmss": "64:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

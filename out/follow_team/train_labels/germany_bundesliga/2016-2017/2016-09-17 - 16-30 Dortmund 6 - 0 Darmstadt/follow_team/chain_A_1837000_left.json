@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4395,
+  "video_id": "3a691449-1240-5236-8f85-14b9e1e705dc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Offside}, follow that same team and alert me whenever it has {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 1837.0,
+      "end": 1837.0,
+      "text": "Trigger: Offside by left @ 1 - 30:37"
+    },
+    {
+      "start": 1867.0,
+      "end": 1867.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 1873.0,
+      "end": 1873.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1837000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/segment_001780_001880.json",
+  "segment_meta": {
+    "start_seconds": 1780,
+    "end_seconds": 1880,
+    "length_seconds": 100,
+    "start_time_mmss": "29:40",
+    "end_time_mmss": "31:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

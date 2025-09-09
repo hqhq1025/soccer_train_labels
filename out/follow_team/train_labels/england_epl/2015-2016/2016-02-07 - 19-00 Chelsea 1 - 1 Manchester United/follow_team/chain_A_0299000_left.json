@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22451,
+  "video_id": "504497e5-0975-522a-b4ba-74c7028d58e4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 299.0,
+      "end": 299.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 04:59"
+    },
+    {
+      "start": 339.0,
+      "end": 339.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 299000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/segment_000260_000340.json",
+  "segment_meta": {
+    "start_seconds": 260,
+    "end_seconds": 340,
+    "length_seconds": 80,
+    "start_time_mmss": "04:20",
+    "end_time_mmss": "05:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1553,
+  "video_id": "f08b11df-fc59-59ac-a4ba-878a9c89ecac",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Offside}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 605.0,
+      "end": 605.0,
+      "text": "Trigger: Offside by right @ 1 - 10:05"
+    },
+    {
+      "start": 636.0,
+      "end": 636.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 605000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/segment_000580_000640.json",
+  "segment_meta": {
+    "start_seconds": 580,
+    "end_seconds": 640,
+    "length_seconds": 60,
+    "start_time_mmss": "09:40",
+    "end_time_mmss": "10:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

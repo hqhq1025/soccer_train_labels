@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7247,
+  "video_id": "3672ed67-82b8-5bd5-a2af-16e0042f71fc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Corner and Offside}.",
+  "answer": [
+    {
+      "start": 780.0,
+      "end": 780.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 810.0,
+      "end": 810.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 819.0,
+      "end": 819.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 780000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/segment_000740_000820.json",
+  "segment_meta": {
+    "start_seconds": 740,
+    "end_seconds": 820,
+    "length_seconds": 80,
+    "start_time_mmss": "12:20",
+    "end_time_mmss": "13:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

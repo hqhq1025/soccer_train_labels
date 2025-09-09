@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3912,
+  "video_id": "1b34e234-e149-5012-9ed5-f1b98905cff2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 5055.0,
+      "end": 5055.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 5056.0,
+      "end": 5056.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5055000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/segment_004940_005060.json",
+  "segment_meta": {
+    "start_seconds": 4940,
+    "end_seconds": 5060,
+    "length_seconds": 120,
+    "start_time_mmss": "82:20",
+    "end_time_mmss": "84:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

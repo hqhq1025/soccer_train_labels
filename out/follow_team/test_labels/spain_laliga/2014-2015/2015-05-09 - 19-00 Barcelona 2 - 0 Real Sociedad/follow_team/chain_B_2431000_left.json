@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4214,
+  "video_id": "046a12e9-1234-550c-ae78-22dd95ccda40",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} happens, lock onto that team and report every {Indirect free-kick} it makes.",
+  "answer": [
+    {
+      "start": 2431.0,
+      "end": 2431.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 2465.0,
+      "end": 2465.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2431000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/segment_002410_002470.json",
+  "segment_meta": {
+    "start_seconds": 2410,
+    "end_seconds": 2470,
+    "length_seconds": 60,
+    "start_time_mmss": "40:10",
+    "end_time_mmss": "41:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

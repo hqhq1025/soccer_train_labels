@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21965,
+  "video_id": "3088e570-9987-592c-908f-89d39775dde5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "answer": [
+    {
+      "start": 2915.0,
+      "end": 2915.0,
+      "text": "Trigger: Foul by left @ 2 - 03:35"
+    },
+    {
+      "start": 2920.0,
+      "end": 2920.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2915000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/segment_002890_002930.json",
+  "segment_meta": {
+    "start_seconds": 2890,
+    "end_seconds": 2930,
+    "length_seconds": 40,
+    "start_time_mmss": "48:10",
+    "end_time_mmss": "48:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

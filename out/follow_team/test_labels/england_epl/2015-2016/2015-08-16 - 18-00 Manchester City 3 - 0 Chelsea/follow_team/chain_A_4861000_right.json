@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7573,
+  "video_id": "fc71ca18-d41b-541b-9a15-1e27b5cac4a1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Shots on target and Shots off target}.",
+  "answer": [
+    {
+      "start": 4861.0,
+      "end": 4861.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 4866.0,
+      "end": 4866.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 4874.0,
+      "end": 4874.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4861000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/segment_004760_004880.json",
+  "segment_meta": {
+    "start_seconds": 4760,
+    "end_seconds": 4880,
+    "length_seconds": 120,
+    "start_time_mmss": "79:20",
+    "end_time_mmss": "81:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

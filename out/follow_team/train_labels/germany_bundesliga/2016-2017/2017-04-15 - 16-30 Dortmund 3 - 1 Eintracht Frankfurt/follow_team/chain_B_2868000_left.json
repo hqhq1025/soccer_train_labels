@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4992,
+  "video_id": "adb50f1e-fb79-5c9a-8002-8f16b1f54b9e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Offside}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 2868.0,
+      "end": 2868.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 2892.0,
+      "end": 2892.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2868000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/segment_002780_002900.json",
+  "segment_meta": {
+    "start_seconds": 2780,
+    "end_seconds": 2900,
+    "length_seconds": 120,
+    "start_time_mmss": "46:20",
+    "end_time_mmss": "48:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

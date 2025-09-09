@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2900,
+  "video_id": "ec30a7ef-bc22-5b5b-999d-62246a9537eb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 2241.0,
+      "end": 2241.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2293.0,
+      "end": 2293.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2241000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/segment_002200_002300.json",
+  "segment_meta": {
+    "start_seconds": 2200,
+    "end_seconds": 2300,
+    "length_seconds": 100,
+    "start_time_mmss": "36:40",
+    "end_time_mmss": "38:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

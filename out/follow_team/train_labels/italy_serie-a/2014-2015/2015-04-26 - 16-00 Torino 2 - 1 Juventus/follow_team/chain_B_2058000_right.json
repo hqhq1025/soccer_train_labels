@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16012,
+  "video_id": "7b3a58c6-1972-5c6e-80b4-a4111d800e7f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 2058.0,
+      "end": 2058.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2059.0,
+      "end": 2059.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2058000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/segment_002000_002060.json",
+  "segment_meta": {
+    "start_seconds": 2000,
+    "end_seconds": 2060,
+    "length_seconds": 60,
+    "start_time_mmss": "33:20",
+    "end_time_mmss": "34:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22163,
+  "video_id": "a37f9c90-077f-5dc6-83a0-dca274de571b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Clearance} happens, lock onto that team and report every {Indirect free-kick and Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 2172.0,
+      "end": 2172.0,
+      "text": "Trigger: Clearance by right @ 1 - 36:12"
+    },
+    {
+      "start": 2225.0,
+      "end": 2225.0,
+      "text": "Then: Indirect free-kick by right"
+    },
+    {
+      "start": 2250.0,
+      "end": 2250.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2172000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_002160_002260.json",
+  "segment_meta": {
+    "start_seconds": 2160,
+    "end_seconds": 2260,
+    "length_seconds": 100,
+    "start_time_mmss": "36:00",
+    "end_time_mmss": "37:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

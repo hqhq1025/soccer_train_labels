@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5469,
+  "video_id": "15b21b53-bf75-5ade-b7a5-0324f689d04f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots off target}, stick with that team and alert me for {Offside}.",
+  "answer": [
+    {
+      "start": 2895.0,
+      "end": 2895.0,
+      "text": "Trigger: Shots off target by left @ 2 - 03:15"
+    },
+    {
+      "start": 2896.0,
+      "end": 2896.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Lyon 0 - 2 Zenit Petersburg/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Lyon 0 - 2 Zenit Petersburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2895000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Lyon 0 - 2 Zenit Petersburg/segment_002780_002900.json",
+  "segment_meta": {
+    "start_seconds": 2780,
+    "end_seconds": 2900,
+    "length_seconds": 120,
+    "start_time_mmss": "46:20",
+    "end_time_mmss": "48:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

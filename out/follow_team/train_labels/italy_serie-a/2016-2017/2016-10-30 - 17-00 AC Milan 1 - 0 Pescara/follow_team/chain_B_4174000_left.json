@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20142,
+  "video_id": "7019b61c-fb4e-5944-b281-d6306a0bf9bd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, continue tracking that team and notify me about any {Shots on target}.",
+  "answer": [
+    {
+      "start": 4174.0,
+      "end": 4174.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 4192.0,
+      "end": 4192.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4174000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/segment_004140_004200.json",
+  "segment_meta": {
+    "start_seconds": 4140,
+    "end_seconds": 4200,
+    "length_seconds": 60,
+    "start_time_mmss": "69:00",
+    "end_time_mmss": "70:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

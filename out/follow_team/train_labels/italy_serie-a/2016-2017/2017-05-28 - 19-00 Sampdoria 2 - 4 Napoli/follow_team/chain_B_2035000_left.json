@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19592,
+  "video_id": "69292146-842a-54ab-bfd4-5313f715ec20",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "answer": [
+    {
+      "start": 2035.0,
+      "end": 2035.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2057.0,
+      "end": 2057.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2035000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_001970_002070.json",
+  "segment_meta": {
+    "start_seconds": 1970,
+    "end_seconds": 2070,
+    "length_seconds": 100,
+    "start_time_mmss": "32:50",
+    "end_time_mmss": "34:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

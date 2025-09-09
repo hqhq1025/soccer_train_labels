@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4443,
+  "video_id": "5f18f39b-a99d-530b-a748-43ec3358c5fa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots off target and Corner}.",
+  "answer": [
+    {
+      "start": 2738.0,
+      "end": 2738.0,
+      "text": "Trigger: Corner by left @ 2 - 00:38"
+    },
+    {
+      "start": 2739.0,
+      "end": 2739.0,
+      "text": "Then: Shots off target by left"
+    },
+    {
+      "start": 2758.0,
+      "end": 2758.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2738000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/segment_002670_002770.json",
+  "segment_meta": {
+    "start_seconds": 2670,
+    "end_seconds": 2770,
+    "length_seconds": 100,
+    "start_time_mmss": "44:30",
+    "end_time_mmss": "46:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

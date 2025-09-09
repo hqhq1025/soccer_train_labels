@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5450,
+  "video_id": "8469ad15-811a-5214-86c3-402ad3ca8d7f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Corner}, stick with that team and alert me for {Offside}.",
+  "answer": [
+    {
+      "start": 341.0,
+      "end": 341.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 355.0,
+      "end": 355.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 341000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/segment_000300_000360.json",
+  "segment_meta": {
+    "start_seconds": 300,
+    "end_seconds": 360,
+    "length_seconds": 60,
+    "start_time_mmss": "05:00",
+    "end_time_mmss": "06:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

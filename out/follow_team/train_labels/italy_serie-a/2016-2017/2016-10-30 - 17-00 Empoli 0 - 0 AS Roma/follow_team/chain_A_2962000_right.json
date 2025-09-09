@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19741,
+  "video_id": "521b69d3-d589-5dda-8f93-98f213913395",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 2962.0,
+      "end": 2962.0,
+      "text": "Trigger: Clearance by right @ 2 - 04:22"
+    },
+    {
+      "start": 2995.0,
+      "end": 2995.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2962000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/segment_002880_003000.json",
+  "segment_meta": {
+    "start_seconds": 2880,
+    "end_seconds": 3000,
+    "length_seconds": 120,
+    "start_time_mmss": "48:00",
+    "end_time_mmss": "50:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

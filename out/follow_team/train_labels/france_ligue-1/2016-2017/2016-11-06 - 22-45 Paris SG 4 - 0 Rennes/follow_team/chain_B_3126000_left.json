@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1496,
+  "video_id": "b7d78652-fcf1-5e64-b94c-7fdc932bd7bb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Offside}.",
+  "answer": [
+    {
+      "start": 3126.0,
+      "end": 3126.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3146.0,
+      "end": 3146.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3126000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/segment_003050_003170.json",
+  "segment_meta": {
+    "start_seconds": 3050,
+    "end_seconds": 3170,
+    "length_seconds": 120,
+    "start_time_mmss": "50:50",
+    "end_time_mmss": "52:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

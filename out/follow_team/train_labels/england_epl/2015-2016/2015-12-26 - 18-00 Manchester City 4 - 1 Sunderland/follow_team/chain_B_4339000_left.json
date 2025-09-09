@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21168,
+  "video_id": "06f82377-632b-57e2-bc6d-125c7259f356",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 4339.0,
+      "end": 4339.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 4341.0,
+      "end": 4341.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4339000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/segment_004310_004370.json",
+  "segment_meta": {
+    "start_seconds": 4310,
+    "end_seconds": 4370,
+    "length_seconds": 60,
+    "start_time_mmss": "71:50",
+    "end_time_mmss": "72:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

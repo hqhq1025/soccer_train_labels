@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5657,
+  "video_id": "165f29bc-f7ef-58bc-97c5-b7746d4f7f39",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul and Throw-in}.",
+  "answer": [
+    {
+      "start": 806.0,
+      "end": 806.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 860.0,
+      "end": 860.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 887.0,
+      "end": 887.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 806000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/segment_000770_000890.json",
+  "segment_meta": {
+    "start_seconds": 770,
+    "end_seconds": 890,
+    "length_seconds": 120,
+    "start_time_mmss": "12:50",
+    "end_time_mmss": "14:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

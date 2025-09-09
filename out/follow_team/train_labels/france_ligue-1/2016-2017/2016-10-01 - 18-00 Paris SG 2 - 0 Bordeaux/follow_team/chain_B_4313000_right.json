@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1814,
+  "video_id": "cb1390bd-a9d3-576a-b2bf-56d375078b42",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Offside}, stick with that team and alert me for {Substitution}.",
+  "answer": [
+    {
+      "start": 4313.0,
+      "end": 4313.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 4348.0,
+      "end": 4348.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4313000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/segment_004300_004420.json",
+  "segment_meta": {
+    "start_seconds": 4300,
+    "end_seconds": 4420,
+    "length_seconds": 120,
+    "start_time_mmss": "71:40",
+    "end_time_mmss": "73:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

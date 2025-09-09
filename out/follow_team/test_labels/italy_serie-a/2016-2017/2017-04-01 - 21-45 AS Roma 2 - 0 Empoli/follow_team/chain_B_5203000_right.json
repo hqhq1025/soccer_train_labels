@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6278,
+  "video_id": "d30c6503-bbff-5645-ad70-23591cd0231b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 5203.0,
+      "end": 5203.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 5223.0,
+      "end": 5223.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5203000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/segment_005120_005240.json",
+  "segment_meta": {
+    "start_seconds": 5120,
+    "end_seconds": 5240,
+    "length_seconds": 120,
+    "start_time_mmss": "85:20",
+    "end_time_mmss": "87:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

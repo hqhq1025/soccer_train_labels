@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7636,
+  "video_id": "1bb7c42c-d1ae-5145-85d2-edb0d2c01f5d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Clearance}.",
+  "answer": [
+    {
+      "start": 3270.0,
+      "end": 3270.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3307.0,
+      "end": 3307.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3270000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/segment_003230_003310.json",
+  "segment_meta": {
+    "start_seconds": 3230,
+    "end_seconds": 3310,
+    "length_seconds": 80,
+    "start_time_mmss": "53:50",
+    "end_time_mmss": "55:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

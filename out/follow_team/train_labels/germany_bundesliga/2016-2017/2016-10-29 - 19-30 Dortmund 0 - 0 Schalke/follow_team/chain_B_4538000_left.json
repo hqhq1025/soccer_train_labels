@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3290,
+  "video_id": "aa7363d2-9a08-5d77-8633-57b25c87ae18",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 4538.0,
+      "end": 4538.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4547.0,
+      "end": 4547.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4538000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/segment_004490_004610.json",
+  "segment_meta": {
+    "start_seconds": 4490,
+    "end_seconds": 4610,
+    "length_seconds": 120,
+    "start_time_mmss": "74:50",
+    "end_time_mmss": "76:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

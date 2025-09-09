@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3942,
+  "video_id": "984adaaf-20af-569e-a08f-e238f92f938d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Substitution}.",
+  "answer": [
+    {
+      "start": 3435.0,
+      "end": 3435.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3459.0,
+      "end": 3459.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3435000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/segment_003400_003460.json",
+  "segment_meta": {
+    "start_seconds": 3400,
+    "end_seconds": 3460,
+    "length_seconds": 60,
+    "start_time_mmss": "56:40",
+    "end_time_mmss": "57:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

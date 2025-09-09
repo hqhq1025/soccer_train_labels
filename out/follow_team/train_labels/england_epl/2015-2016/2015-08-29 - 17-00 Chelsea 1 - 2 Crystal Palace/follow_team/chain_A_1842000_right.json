@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22517,
+  "video_id": "67ed769a-9712-5a61-902a-533f0d996d7e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, start tracking that team; notify me on its {Corner and Shots off target}.",
+  "answer": [
+    {
+      "start": 1842.0,
+      "end": 1842.0,
+      "text": "Trigger: Clearance by right @ 1 - 30:42"
+    },
+    {
+      "start": 1922.0,
+      "end": 1922.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 1923.0,
+      "end": 1923.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1842000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_001830_001950.json",
+  "segment_meta": {
+    "start_seconds": 1830,
+    "end_seconds": 1950,
+    "length_seconds": 120,
+    "start_time_mmss": "30:30",
+    "end_time_mmss": "32:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

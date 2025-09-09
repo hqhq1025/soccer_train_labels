@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24579,
+  "video_id": "cc7d0951-5e3f-594e-93db-61ebe4533ce2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Offside}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 3752.0,
+      "end": 3752.0,
+      "text": "Trigger: Offside by right @ 2 - 17:32"
+    },
+    {
+      "start": 3799.0,
+      "end": 3799.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3752000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/segment_003690_003810.json",
+  "segment_meta": {
+    "start_seconds": 3690,
+    "end_seconds": 3810,
+    "length_seconds": 120,
+    "start_time_mmss": "61:30",
+    "end_time_mmss": "63:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

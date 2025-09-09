@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7390,
+  "video_id": "4a8a93e9-bd8a-5a89-88b5-01bd83738eb0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 4752.0,
+      "end": 4752.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4766.0,
+      "end": 4766.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4752000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/segment_004700_004820.json",
+  "segment_meta": {
+    "start_seconds": 4700,
+    "end_seconds": 4820,
+    "length_seconds": 120,
+    "start_time_mmss": "78:20",
+    "end_time_mmss": "80:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

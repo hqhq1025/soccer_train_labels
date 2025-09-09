@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1290,
+  "video_id": "7c91434b-1a59-5d1f-a61a-a87f5d9b2040",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Shots on target}.",
+  "answer": [
+    {
+      "start": 4535.0,
+      "end": 4535.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 4554.0,
+      "end": 4554.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4535000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/segment_004470_004570.json",
+  "segment_meta": {
+    "start_seconds": 4470,
+    "end_seconds": 4570,
+    "length_seconds": 100,
+    "start_time_mmss": "74:30",
+    "end_time_mmss": "76:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21113,
+  "video_id": "507fde1d-99d7-5041-84c4-81919797e380",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 5229.0,
+      "end": 5229.0,
+      "text": "Trigger: Direct free-kick by right @ 2 - 42:09"
+    },
+    {
+      "start": 5236.0,
+      "end": 5236.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 5247.0,
+      "end": 5247.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5229000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/segment_005130_005250.json",
+  "segment_meta": {
+    "start_seconds": 5130,
+    "end_seconds": 5250,
+    "length_seconds": 120,
+    "start_time_mmss": "85:30",
+    "end_time_mmss": "87:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3677,
+  "video_id": "971236b8-25ae-5a59-b0b1-af7c59efbde6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner and Foul}.",
+  "answer": [
+    {
+      "start": 4439.0,
+      "end": 4439.0,
+      "text": "Trigger: Shots on target by left @ 2 - 28:59"
+    },
+    {
+      "start": 4463.0,
+      "end": 4463.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 4473.0,
+      "end": 4473.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4439000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_004360_004480.json",
+  "segment_meta": {
+    "start_seconds": 4360,
+    "end_seconds": 4480,
+    "length_seconds": 120,
+    "start_time_mmss": "72:40",
+    "end_time_mmss": "74:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5324,
+  "video_id": "2eb0b6ef-dfba-5910-b5b0-677425e468b7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 3452.0,
+      "end": 3452.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 3520.0,
+      "end": 3520.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3452000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/segment_003440_003540.json",
+  "segment_meta": {
+    "start_seconds": 3440,
+    "end_seconds": 3540,
+    "length_seconds": 100,
+    "start_time_mmss": "57:20",
+    "end_time_mmss": "59:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

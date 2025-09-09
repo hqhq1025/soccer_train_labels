@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 519,
+  "video_id": "ec2c112e-4f8e-5a3e-8280-67b3eecb1c1e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Kick-off}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 2318.0,
+      "end": 2318.0,
+      "text": "Trigger: Kick-off by right @ 1 - 38:38"
+    },
+    {
+      "start": 2371.0,
+      "end": 2371.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2318000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/segment_002300_002380.json",
+  "segment_meta": {
+    "start_seconds": 2300,
+    "end_seconds": 2380,
+    "length_seconds": 80,
+    "start_time_mmss": "38:20",
+    "end_time_mmss": "39:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

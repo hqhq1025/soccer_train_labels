@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10073,
+  "video_id": "78cb392e-7b72-5a02-8b8e-48c92eb3980e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Corner} it makes.",
+  "answer": [
+    {
+      "start": 1495.0,
+      "end": 1495.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 24:55"
+    },
+    {
+      "start": 1525.0,
+      "end": 1525.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 1539.0,
+      "end": 1539.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1495000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/segment_001460_001580.json",
+  "segment_meta": {
+    "start_seconds": 1460,
+    "end_seconds": 1580,
+    "length_seconds": 120,
+    "start_time_mmss": "24:20",
+    "end_time_mmss": "26:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

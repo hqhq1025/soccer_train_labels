@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1739,
+  "video_id": "c63f5477-122c-53da-a78d-19625866d746",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Clearance}, stick with that team and alert me for {Direct free-kick and Shots off target}.",
+  "answer": [
+    {
+      "start": 1166.0,
+      "end": 1166.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 1227.0,
+      "end": 1227.0,
+      "text": "Then: Direct free-kick by left"
+    },
+    {
+      "start": 1227.0,
+      "end": 1227.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1166000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/segment_001110_001230.json",
+  "segment_meta": {
+    "start_seconds": 1110,
+    "end_seconds": 1230,
+    "length_seconds": 120,
+    "start_time_mmss": "18:30",
+    "end_time_mmss": "20:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

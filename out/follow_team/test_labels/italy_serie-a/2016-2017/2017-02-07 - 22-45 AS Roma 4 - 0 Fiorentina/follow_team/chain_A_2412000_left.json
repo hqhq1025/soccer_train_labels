@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6513,
+  "video_id": "0c2a7ae4-7e39-5093-8d33-bb87143ce472",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Offside}, keep following that team and alert me whenever {Foul and Yellow card} happen.",
+  "answer": [
+    {
+      "start": 2412.0,
+      "end": 2412.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 2442.0,
+      "end": 2442.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 2449.0,
+      "end": 2449.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2412000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/segment_002390_002450.json",
+  "segment_meta": {
+    "start_seconds": 2390,
+    "end_seconds": 2450,
+    "length_seconds": 60,
+    "start_time_mmss": "39:50",
+    "end_time_mmss": "40:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

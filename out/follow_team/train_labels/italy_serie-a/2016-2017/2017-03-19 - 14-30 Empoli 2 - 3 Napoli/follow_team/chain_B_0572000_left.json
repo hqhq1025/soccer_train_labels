@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18508,
+  "video_id": "cfed4784-ca9a-5948-8cc8-4a5097602a90",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 572.0,
+      "end": 572.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 642.0,
+      "end": 642.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 572000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/segment_000540_000660.json",
+  "segment_meta": {
+    "start_seconds": 540,
+    "end_seconds": 660,
+    "length_seconds": 120,
+    "start_time_mmss": "09:00",
+    "end_time_mmss": "11:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

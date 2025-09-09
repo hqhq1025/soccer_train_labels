@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7723,
+  "video_id": "e9dc12e3-766d-5436-aad8-ff2bf936cbc6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 843.0,
+      "end": 843.0,
+      "text": "Trigger: Throw-in by left @ 1 - 14:03"
+    },
+    {
+      "start": 859.0,
+      "end": 859.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 843000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/segment_000750_000870.json",
+  "segment_meta": {
+    "start_seconds": 750,
+    "end_seconds": 870,
+    "length_seconds": 120,
+    "start_time_mmss": "12:30",
+    "end_time_mmss": "14:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21652,
+  "video_id": "4b14bbdd-b41a-53e5-aa3f-31ed437d2584",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Corner}.",
+  "answer": [
+    {
+      "start": 4793.0,
+      "end": 4793.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4835.0,
+      "end": 4835.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4793000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/segment_004780_004880.json",
+  "segment_meta": {
+    "start_seconds": 4780,
+    "end_seconds": 4880,
+    "length_seconds": 100,
+    "start_time_mmss": "79:40",
+    "end_time_mmss": "81:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

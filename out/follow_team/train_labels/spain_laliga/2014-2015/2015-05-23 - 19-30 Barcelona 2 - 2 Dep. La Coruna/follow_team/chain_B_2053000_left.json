@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11716,
+  "video_id": "8004feb3-3ca3-55d4-a6d7-6f1f6acc87c0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 2053.0,
+      "end": 2053.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2056.0,
+      "end": 2056.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2053000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/segment_002000_002080.json",
+  "segment_meta": {
+    "start_seconds": 2000,
+    "end_seconds": 2080,
+    "length_seconds": 80,
+    "start_time_mmss": "33:20",
+    "end_time_mmss": "34:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

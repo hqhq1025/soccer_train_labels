@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1209,
+  "video_id": "5d11cd9c-8752-5a0f-8ba1-618f7889d95c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Direct free-kick and Shots off target}.",
+  "answer": [
+    {
+      "start": 3989.0,
+      "end": 3989.0,
+      "text": "Trigger: Throw-in by right @ 2 - 21:29"
+    },
+    {
+      "start": 4016.0,
+      "end": 4016.0,
+      "text": "Then: Direct free-kick by right"
+    },
+    {
+      "start": 4071.0,
+      "end": 4071.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3989000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/segment_003970_004090.json",
+  "segment_meta": {
+    "start_seconds": 3970,
+    "end_seconds": 4090,
+    "length_seconds": 120,
+    "start_time_mmss": "66:10",
+    "end_time_mmss": "68:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2205,
+  "video_id": "a1b6fe31-2a58-5d9a-b6f1-505122b8c9ca",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
+  "answer": [
+    {
+      "start": 931.0,
+      "end": 931.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 936.0,
+      "end": 936.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 931000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/segment_000850_000970.json",
+  "segment_meta": {
+    "start_seconds": 850,
+    "end_seconds": 970,
+    "length_seconds": 120,
+    "start_time_mmss": "14:10",
+    "end_time_mmss": "16:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

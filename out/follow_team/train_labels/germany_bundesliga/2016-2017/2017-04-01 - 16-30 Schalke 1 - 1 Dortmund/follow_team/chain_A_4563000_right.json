@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3801,
+  "video_id": "750e92f5-05b7-58f2-96a3-4d8fb44c085e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Shots on target and Goal} it makes.",
+  "answer": [
+    {
+      "start": 4563.0,
+      "end": 4563.0,
+      "text": "Trigger: Corner by right @ 2 - 31:03"
+    },
+    {
+      "start": 4572.0,
+      "end": 4572.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 4573.0,
+      "end": 4573.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4563000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/segment_004480_004580.json",
+  "segment_meta": {
+    "start_seconds": 4480,
+    "end_seconds": 4580,
+    "length_seconds": 100,
+    "start_time_mmss": "74:40",
+    "end_time_mmss": "76:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

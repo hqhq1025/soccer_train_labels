@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9999,
+  "video_id": "0491e85f-518b-5b84-bba9-e0f359b9ed70",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 343.0,
+      "end": 343.0,
+      "text": "Trigger: Foul by right @ 1 - 05:43"
+    },
+    {
+      "start": 386.0,
+      "end": 386.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-30 - 17-00 Real Sociedad 0 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-30 - 17-00 Real Sociedad 0 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 343000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-30 - 17-00 Real Sociedad 0 - 1 Real Madrid/segment_000330_000390.json",
+  "segment_meta": {
+    "start_seconds": 330,
+    "end_seconds": 390,
+    "length_seconds": 60,
+    "start_time_mmss": "05:30",
+    "end_time_mmss": "06:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

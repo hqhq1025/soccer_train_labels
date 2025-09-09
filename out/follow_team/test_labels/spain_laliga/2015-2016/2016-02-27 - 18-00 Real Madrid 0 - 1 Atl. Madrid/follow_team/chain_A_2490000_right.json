@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3427,
+  "video_id": "19e3b23e-18da-59ae-805b-28bcf62668c3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Corner and Shots off target}.",
+  "answer": [
+    {
+      "start": 2490.0,
+      "end": 2490.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2517.0,
+      "end": 2517.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 2519.0,
+      "end": 2519.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2490000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/segment_002420_002520.json",
+  "segment_meta": {
+    "start_seconds": 2420,
+    "end_seconds": 2520,
+    "length_seconds": 100,
+    "start_time_mmss": "40:20",
+    "end_time_mmss": "42:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

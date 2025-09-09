@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3611,
+  "video_id": "6892709b-2eec-5d4b-b54c-3cd5aa0ee055",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 3443.0,
+      "end": 3443.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 3478.0,
+      "end": 3478.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3443000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/segment_003420_003520.json",
+  "segment_meta": {
+    "start_seconds": 3420,
+    "end_seconds": 3520,
+    "length_seconds": 100,
+    "start_time_mmss": "57:00",
+    "end_time_mmss": "58:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

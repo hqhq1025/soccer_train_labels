@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11049,
+  "video_id": "92c7a5a2-900b-54e4-91f3-49567983c86c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Offside and Throw-in}.",
+  "answer": [
+    {
+      "start": 1215.0,
+      "end": 1215.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 20:15"
+    },
+    {
+      "start": 1237.0,
+      "end": 1237.0,
+      "text": "Then: Offside by left"
+    },
+    {
+      "start": 1290.0,
+      "end": 1290.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1215000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/segment_001190_001310.json",
+  "segment_meta": {
+    "start_seconds": 1190,
+    "end_seconds": 1310,
+    "length_seconds": 120,
+    "start_time_mmss": "19:50",
+    "end_time_mmss": "21:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

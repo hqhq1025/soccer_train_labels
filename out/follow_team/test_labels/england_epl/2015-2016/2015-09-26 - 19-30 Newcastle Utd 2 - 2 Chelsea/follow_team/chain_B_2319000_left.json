@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7978,
+  "video_id": "307c8e35-df66-502e-8a6e-5acf81888417",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 2319.0,
+      "end": 2319.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2324.0,
+      "end": 2324.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2319000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/segment_002270_002390.json",
+  "segment_meta": {
+    "start_seconds": 2270,
+    "end_seconds": 2390,
+    "length_seconds": 120,
+    "start_time_mmss": "37:50",
+    "end_time_mmss": "39:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16181,
+  "video_id": "73e0dda0-6351-5020-a378-1fe8ad0536bc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}.",
+  "answer": [
+    {
+      "start": 4939.0,
+      "end": 4939.0,
+      "text": "Trigger: Shots on target by right @ 2 - 37:19"
+    },
+    {
+      "start": 4940.0,
+      "end": 4940.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4939000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/segment_004850_004950.json",
+  "segment_meta": {
+    "start_seconds": 4850,
+    "end_seconds": 4950,
+    "length_seconds": 100,
+    "start_time_mmss": "80:50",
+    "end_time_mmss": "82:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

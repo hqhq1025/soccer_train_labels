@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 241,
+  "video_id": "04f2171b-b341-559d-bb42-b9087965fe37",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Shots on target}.",
+  "answer": [
+    {
+      "start": 811.0,
+      "end": 811.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 826.0,
+      "end": 826.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 811000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/segment_000730_000850.json",
+  "segment_meta": {
+    "start_seconds": 730,
+    "end_seconds": 850,
+    "length_seconds": 120,
+    "start_time_mmss": "12:10",
+    "end_time_mmss": "14:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

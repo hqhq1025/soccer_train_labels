@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15736,
+  "video_id": "cfa0ad15-2ea6-5be8-b14c-f4eed5812607",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 2463.0,
+      "end": 2463.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2464.0,
+      "end": 2464.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2463000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_002370_002490.json",
+  "segment_meta": {
+    "start_seconds": 2370,
+    "end_seconds": 2490,
+    "length_seconds": 120,
+    "start_time_mmss": "39:30",
+    "end_time_mmss": "41:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

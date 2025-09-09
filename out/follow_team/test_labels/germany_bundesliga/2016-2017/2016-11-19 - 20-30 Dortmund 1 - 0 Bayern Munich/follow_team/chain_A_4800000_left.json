@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 967,
+  "video_id": "fa900fac-d781-5eb4-a7f3-04a0ea9486bf",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Shots on target and Corner}.",
+  "answer": [
+    {
+      "start": 4800.0,
+      "end": 4800.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 4818.0,
+      "end": 4818.0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 4842.0,
+      "end": 4842.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4800000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/segment_004750_004870.json",
+  "segment_meta": {
+    "start_seconds": 4750,
+    "end_seconds": 4870,
+    "length_seconds": 120,
+    "start_time_mmss": "79:10",
+    "end_time_mmss": "81:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

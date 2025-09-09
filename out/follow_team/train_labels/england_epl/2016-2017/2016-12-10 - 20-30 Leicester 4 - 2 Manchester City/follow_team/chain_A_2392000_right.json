@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24065,
+  "video_id": "6ffc1aae-cfc6-57e0-9752-89def90f4566",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 2392.0,
+      "end": 2392.0,
+      "text": "Trigger: Direct free-kick by right @ 1 - 39:52"
+    },
+    {
+      "start": 2393.0,
+      "end": 2393.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2392000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/segment_002360_002460.json",
+  "segment_meta": {
+    "start_seconds": 2360,
+    "end_seconds": 2460,
+    "length_seconds": 100,
+    "start_time_mmss": "39:20",
+    "end_time_mmss": "41:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13937,
+  "video_id": "af4803b2-9988-53e5-ba0e-a0001aa2ef48",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Substitution} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3300.0,
+      "end": 3300.0,
+      "text": "Trigger: Substitution by left @ 2 - 10:00"
+    },
+    {
+      "start": 3313.0,
+      "end": 3313.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3300000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/segment_003210_003330.json",
+  "segment_meta": {
+    "start_seconds": 3210,
+    "end_seconds": 3330,
+    "length_seconds": 120,
+    "start_time_mmss": "53:30",
+    "end_time_mmss": "55:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

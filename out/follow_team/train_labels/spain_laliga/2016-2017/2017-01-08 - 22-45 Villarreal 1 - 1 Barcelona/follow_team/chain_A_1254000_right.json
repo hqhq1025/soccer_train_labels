@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14725,
+  "video_id": "b295d56a-f22d-5e15-af17-776fbe8fc0ac",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 1254.0,
+      "end": 1254.0,
+      "text": "Trigger: Shots on target by right @ 1 - 20:54"
+    },
+    {
+      "start": 1298.0,
+      "end": 1298.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-08 - 22-45 Villarreal 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-08 - 22-45 Villarreal 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1254000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-08 - 22-45 Villarreal 1 - 1 Barcelona/segment_001230_001310.json",
+  "segment_meta": {
+    "start_seconds": 1230,
+    "end_seconds": 1310,
+    "length_seconds": 80,
+    "start_time_mmss": "20:30",
+    "end_time_mmss": "21:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

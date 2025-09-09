@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2969,
+  "video_id": "6ca0fca7-3451-54f5-8de9-06ad59fb618f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Foul and Throw-in}.",
+  "answer": [
+    {
+      "start": 5086.0,
+      "end": 5086.0,
+      "text": "Trigger: Corner by left @ 2 - 39:46"
+    },
+    {
+      "start": 5115.0,
+      "end": 5115.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 5182.0,
+      "end": 5182.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5086000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/segment_005070_005190.json",
+  "segment_meta": {
+    "start_seconds": 5070,
+    "end_seconds": 5190,
+    "length_seconds": 120,
+    "start_time_mmss": "84:30",
+    "end_time_mmss": "86:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

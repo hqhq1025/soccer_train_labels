@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24402,
+  "video_id": "cda39a1b-f2f7-5316-9009-4fe671f69b4a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 3997.0,
+      "end": 3997.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 4032.0,
+      "end": 4032.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3997000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/segment_003940_004040.json",
+  "segment_meta": {
+    "start_seconds": 3940,
+    "end_seconds": 4040,
+    "length_seconds": 100,
+    "start_time_mmss": "65:40",
+    "end_time_mmss": "67:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

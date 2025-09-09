@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2246,
+  "video_id": "25c1a846-aa12-5789-ae5e-447ef375c056",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 5200.0,
+      "end": 5200.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 5214.0,
+      "end": 5214.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5200000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/segment_005160_005240.json",
+  "segment_meta": {
+    "start_seconds": 5160,
+    "end_seconds": 5240,
+    "length_seconds": 80,
+    "start_time_mmss": "86:00",
+    "end_time_mmss": "87:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

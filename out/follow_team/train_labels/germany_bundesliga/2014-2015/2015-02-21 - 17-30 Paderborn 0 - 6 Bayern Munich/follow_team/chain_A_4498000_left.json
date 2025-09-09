@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3141,
+  "video_id": "b64368c7-9a1f-5eee-ae1f-463c28a3c86c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, continue tracking that team and notify me about any {Direct free-kick and Shots off target}.",
+  "answer": [
+    {
+      "start": 4498.0,
+      "end": 4498.0,
+      "text": "Trigger: Substitution by left @ 2 - 29:58"
+    },
+    {
+      "start": 4530.0,
+      "end": 4530.0,
+      "text": "Then: Direct free-kick by left"
+    },
+    {
+      "start": 4530.0,
+      "end": 4530.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4498000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/segment_004440_004540.json",
+  "segment_meta": {
+    "start_seconds": 4440,
+    "end_seconds": 4540,
+    "length_seconds": 100,
+    "start_time_mmss": "74:00",
+    "end_time_mmss": "75:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

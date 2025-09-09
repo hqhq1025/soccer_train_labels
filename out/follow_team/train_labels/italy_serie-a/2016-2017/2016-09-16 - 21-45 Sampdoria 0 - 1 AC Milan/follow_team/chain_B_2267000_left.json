@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20692,
+  "video_id": "6670b788-e2c4-515b-9ce4-dae33cde7c3e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 2267.0,
+      "end": 2267.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2280.0,
+      "end": 2280.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2267000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/segment_002210_002290.json",
+  "segment_meta": {
+    "start_seconds": 2210,
+    "end_seconds": 2290,
+    "length_seconds": 80,
+    "start_time_mmss": "36:50",
+    "end_time_mmss": "38:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3849,
+  "video_id": "20f2b98f-c8ac-51b9-a514-7abfa787d791",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots off target}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 4545.0,
+      "end": 4545.0,
+      "text": "Trigger: Shots off target by left @ 2 - 30:45"
+    },
+    {
+      "start": 4562.0,
+      "end": 4562.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4545000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/segment_004460_004580.json",
+  "segment_meta": {
+    "start_seconds": 4460,
+    "end_seconds": 4580,
+    "length_seconds": 120,
+    "start_time_mmss": "74:20",
+    "end_time_mmss": "76:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

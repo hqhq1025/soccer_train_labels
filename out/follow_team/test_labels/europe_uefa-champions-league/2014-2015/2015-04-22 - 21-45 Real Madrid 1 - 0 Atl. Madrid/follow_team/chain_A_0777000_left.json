@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2375,
+  "video_id": "ee51e93d-e805-5253-a632-eb0722064261",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 777.0,
+      "end": 777.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 806.0,
+      "end": 806.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 777000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/segment_000730_000810.json",
+  "segment_meta": {
+    "start_seconds": 730,
+    "end_seconds": 810,
+    "length_seconds": 80,
+    "start_time_mmss": "12:10",
+    "end_time_mmss": "13:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

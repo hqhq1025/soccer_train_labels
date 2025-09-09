@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5714,
+  "video_id": "d7bedd73-9a09-52e4-8cc6-c1d1498304ca",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 262.0,
+      "end": 262.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 264.0,
+      "end": 264.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 262000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Sevilla 3 - 0 B. Monchengladbach/segment_000210_000270.json",
+  "segment_meta": {
+    "start_seconds": 210,
+    "end_seconds": 270,
+    "length_seconds": 60,
+    "start_time_mmss": "03:30",
+    "end_time_mmss": "04:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

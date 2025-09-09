@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3550,
+  "video_id": "588bd6df-0863-53e1-93f4-fab6944f66ba",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 3770.0,
+      "end": 3770.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3798.0,
+      "end": 3798.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3770000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/segment_003760_003820.json",
+  "segment_meta": {
+    "start_seconds": 3760,
+    "end_seconds": 3820,
+    "length_seconds": 60,
+    "start_time_mmss": "62:40",
+    "end_time_mmss": "63:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

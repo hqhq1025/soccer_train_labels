@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19785,
+  "video_id": "f444718d-f0bd-51ab-b92c-1a48e339503a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 2449.0,
+      "end": 2449.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 40:49"
+    },
+    {
+      "start": 2461.0,
+      "end": 2461.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2449000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/segment_002430_002550.json",
+  "segment_meta": {
+    "start_seconds": 2430,
+    "end_seconds": 2550,
+    "length_seconds": 120,
+    "start_time_mmss": "40:30",
+    "end_time_mmss": "42:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

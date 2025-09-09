@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13796,
+  "video_id": "cc493eaf-0848-5087-ac25-e6bd7f34ad52",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 1700.0,
+      "end": 1700.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 1713.0,
+      "end": 1713.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1700000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/segment_001640_001720.json",
+  "segment_meta": {
+    "start_seconds": 1640,
+    "end_seconds": 1720,
+    "length_seconds": 80,
+    "start_time_mmss": "27:20",
+    "end_time_mmss": "28:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16362,
+  "video_id": "a67ac49c-ba0e-5d8c-9243-2bacf87f50c0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 3693.0,
+      "end": 3693.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3704.0,
+      "end": 3704.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3693000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/segment_003670_003710.json",
+  "segment_meta": {
+    "start_seconds": 3670,
+    "end_seconds": 3710,
+    "length_seconds": 40,
+    "start_time_mmss": "61:10",
+    "end_time_mmss": "61:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1027,
+  "video_id": "73f35c4f-23fe-5890-8475-b5fa82593454",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 3413.0,
+      "end": 3413.0,
+      "text": "Trigger: Shots on target by left @ 2 - 11:53"
+    },
+    {
+      "start": 3420.0,
+      "end": 3420.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3413000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/segment_003350_003430.json",
+  "segment_meta": {
+    "start_seconds": 3350,
+    "end_seconds": 3430,
+    "length_seconds": 80,
+    "start_time_mmss": "55:50",
+    "end_time_mmss": "57:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

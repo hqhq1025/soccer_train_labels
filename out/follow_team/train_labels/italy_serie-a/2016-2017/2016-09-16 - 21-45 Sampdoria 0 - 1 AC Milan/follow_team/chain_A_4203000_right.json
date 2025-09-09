@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20663,
+  "video_id": "06acd791-f7e4-59c5-95ac-281d0455edb9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4203.0,
+      "end": 4203.0,
+      "text": "Trigger: Throw-in by right @ 2 - 25:03"
+    },
+    {
+      "start": 4267.0,
+      "end": 4267.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4203000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/segment_004150_004270.json",
+  "segment_meta": {
+    "start_seconds": 4150,
+    "end_seconds": 4270,
+    "length_seconds": 120,
+    "start_time_mmss": "69:10",
+    "end_time_mmss": "71:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

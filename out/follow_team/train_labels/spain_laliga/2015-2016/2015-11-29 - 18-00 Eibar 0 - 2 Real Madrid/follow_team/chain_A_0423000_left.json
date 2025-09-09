@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10977,
+  "video_id": "fc2b7cff-a541-5e13-bde2-e4339efd6b3a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 423.0,
+      "end": 423.0,
+      "text": "Trigger: Offside by left @ 1 - 07:03"
+    },
+    {
+      "start": 490.0,
+      "end": 490.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-29 - 18-00 Eibar 0 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-29 - 18-00 Eibar 0 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 423000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-29 - 18-00 Eibar 0 - 2 Real Madrid/segment_000390_000510.json",
+  "segment_meta": {
+    "start_seconds": 390,
+    "end_seconds": 510,
+    "length_seconds": 120,
+    "start_time_mmss": "06:30",
+    "end_time_mmss": "08:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

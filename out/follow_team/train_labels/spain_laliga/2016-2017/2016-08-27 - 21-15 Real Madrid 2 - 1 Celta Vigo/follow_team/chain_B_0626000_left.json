@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13598,
+  "video_id": "2b2bd781-1589-5c80-8989-215ec73e0eda",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 626.0,
+      "end": 626.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 651.0,
+      "end": 651.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-08-27 - 21-15 Real Madrid 2 - 1 Celta Vigo/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-08-27 - 21-15 Real Madrid 2 - 1 Celta Vigo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 626000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-08-27 - 21-15 Real Madrid 2 - 1 Celta Vigo/segment_000590_000710.json",
+  "segment_meta": {
+    "start_seconds": 590,
+    "end_seconds": 710,
+    "length_seconds": 120,
+    "start_time_mmss": "09:50",
+    "end_time_mmss": "11:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

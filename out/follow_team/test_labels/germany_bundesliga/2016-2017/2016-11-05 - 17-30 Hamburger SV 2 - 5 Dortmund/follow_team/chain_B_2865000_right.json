@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1268,
+  "video_id": "64d88749-298a-5a88-bbfb-f718e5342f99",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Goal}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 2865.0,
+      "end": 2865.0,
+      "text": "Trigger: Goal by right"
+    },
+    {
+      "start": 2937.0,
+      "end": 2937.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2865000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/segment_002830_002950.json",
+  "segment_meta": {
+    "start_seconds": 2830,
+    "end_seconds": 2950,
+    "length_seconds": 120,
+    "start_time_mmss": "47:10",
+    "end_time_mmss": "49:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4727,
+  "video_id": "4833107e-e63c-5e4a-9103-7dc7bac52260",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
+  "answer": [
+    {
+      "start": 4073.0,
+      "end": 4073.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4138.0,
+      "end": 4138.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-08 - 21-45 Malaga 2 - 0 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-04-08 - 21-45 Malaga 2 - 0 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4073000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-04-08 - 21-45 Malaga 2 - 0 Barcelona/segment_004050_004150.json",
+  "segment_meta": {
+    "start_seconds": 4050,
+    "end_seconds": 4150,
+    "length_seconds": 100,
+    "start_time_mmss": "67:30",
+    "end_time_mmss": "69:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

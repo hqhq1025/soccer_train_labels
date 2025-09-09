@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25408,
+  "video_id": "cb8eddd2-fd97-52fe-bb78-c53d19b0bdf5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Shots on target}.",
+  "answer": [
+    {
+      "start": 1491.0,
+      "end": 1491.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 1495.0,
+      "end": 1495.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1491000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_001380_001500.json",
+  "segment_meta": {
+    "start_seconds": 1380,
+    "end_seconds": 1500,
+    "length_seconds": 120,
+    "start_time_mmss": "23:00",
+    "end_time_mmss": "25:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21238,
+  "video_id": "9c44cc7f-7df1-5b74-af45-3c3ddb400b93",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Corner}.",
+  "answer": [
+    {
+      "start": 4249.0,
+      "end": 4249.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 4272.0,
+      "end": 4272.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4249000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/segment_004170_004290.json",
+  "segment_meta": {
+    "start_seconds": 4170,
+    "end_seconds": 4290,
+    "length_seconds": 120,
+    "start_time_mmss": "69:30",
+    "end_time_mmss": "71:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

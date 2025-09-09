@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6803,
+  "video_id": "5ebcff2c-ebbe-53d1-859e-d1c9175ac084",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 2566.0,
+      "end": 2566.0,
+      "text": "Trigger: Foul by right @ 1 - 42:46"
+    },
+    {
+      "start": 2601.0,
+      "end": 2601.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2566000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/segment_002540_002660.json",
+  "segment_meta": {
+    "start_seconds": 2540,
+    "end_seconds": 2660,
+    "length_seconds": 120,
+    "start_time_mmss": "42:20",
+    "end_time_mmss": "44:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

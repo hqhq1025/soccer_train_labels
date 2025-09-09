@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2990,
+  "video_id": "27ef111e-58f8-5d59-8bb2-aa371374234c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Offside}.",
+  "answer": [
+    {
+      "start": 4063.0,
+      "end": 4063.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4064.0,
+      "end": 4064.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4063000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/segment_004010_004070.json",
+  "segment_meta": {
+    "start_seconds": 4010,
+    "end_seconds": 4070,
+    "length_seconds": 60,
+    "start_time_mmss": "66:50",
+    "end_time_mmss": "67:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

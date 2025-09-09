@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8514,
+  "video_id": "7c4fe61f-e00f-5019-afe8-a29a9b5c71d1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Shots off target}.",
+  "answer": [
+    {
+      "start": 2750.0,
+      "end": 2750.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2773.0,
+      "end": 2773.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2750000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/segment_002660_002780.json",
+  "segment_meta": {
+    "start_seconds": 2660,
+    "end_seconds": 2780,
+    "length_seconds": 120,
+    "start_time_mmss": "44:20",
+    "end_time_mmss": "46:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4596,
+  "video_id": "c2608182-0cfd-51d7-8e41-4391d8ba504f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Offside}.",
+  "answer": [
+    {
+      "start": 1800.0,
+      "end": 1800.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 1802.0,
+      "end": 1802.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-09-10 - 21-30 Barcelona 1 - 2 Alaves/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2016-09-10 - 21-30 Barcelona 1 - 2 Alaves/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1800000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2016-09-10 - 21-30 Barcelona 1 - 2 Alaves/segment_001770_001810.json",
+  "segment_meta": {
+    "start_seconds": 1770,
+    "end_seconds": 1810,
+    "length_seconds": 40,
+    "start_time_mmss": "29:30",
+    "end_time_mmss": "30:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

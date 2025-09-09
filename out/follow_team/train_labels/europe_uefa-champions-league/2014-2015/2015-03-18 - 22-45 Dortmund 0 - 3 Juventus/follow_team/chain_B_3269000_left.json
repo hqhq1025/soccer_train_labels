@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7452,
+  "video_id": "bbd0a5fe-3f57-5831-8fcd-3079db4a1d80",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 3269.0,
+      "end": 3269.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 3272.0,
+      "end": 3272.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3269000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/segment_003220_003320.json",
+  "segment_meta": {
+    "start_seconds": 3220,
+    "end_seconds": 3320,
+    "length_seconds": 100,
+    "start_time_mmss": "53:40",
+    "end_time_mmss": "55:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

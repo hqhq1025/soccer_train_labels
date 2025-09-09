@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15581,
+  "video_id": "6d727a51-8e33-551e-b243-3c6f06f38f56",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Kick-off} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 2700.0,
+      "end": 2700.0,
+      "text": "Trigger: Kick-off by right @ 2 - 00:00"
+    },
+    {
+      "start": 2742.0,
+      "end": 2742.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2700000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/segment_002650_002770.json",
+  "segment_meta": {
+    "start_seconds": 2650,
+    "end_seconds": 2770,
+    "length_seconds": 120,
+    "start_time_mmss": "44:10",
+    "end_time_mmss": "46:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

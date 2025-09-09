@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13524,
+  "video_id": "13add247-c78e-5c3f-a02d-48e1aa243f7f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Kick-off} happen.",
+  "answer": [
+    {
+      "start": 2657.0,
+      "end": 2657.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2700.0,
+      "end": 2700.0,
+      "text": "Then: Kick-off by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-12-03 - 18-15 Barcelona 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-12-03 - 18-15 Barcelona 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2657000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-12-03 - 18-15 Barcelona 1 - 1 Real Madrid/segment_002590_002710.json",
+  "segment_meta": {
+    "start_seconds": 2590,
+    "end_seconds": 2710,
+    "length_seconds": 120,
+    "start_time_mmss": "43:10",
+    "end_time_mmss": "45:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

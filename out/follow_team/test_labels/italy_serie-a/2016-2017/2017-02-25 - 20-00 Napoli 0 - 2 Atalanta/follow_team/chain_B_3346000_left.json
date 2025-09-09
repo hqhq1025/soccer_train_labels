@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5898,
+  "video_id": "4c925b5d-1d5b-5e9a-a964-10938c5ee31d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 3346.0,
+      "end": 3346.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 3370.0,
+      "end": 3370.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3346000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/segment_003280_003380.json",
+  "segment_meta": {
+    "start_seconds": 3280,
+    "end_seconds": 3380,
+    "length_seconds": 100,
+    "start_time_mmss": "54:40",
+    "end_time_mmss": "56:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

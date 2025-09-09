@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19644,
+  "video_id": "68c9db39-13a7-5b78-bcb1-a8c3359b0af5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 3453.0,
+      "end": 3453.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3515.0,
+      "end": 3515.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3453000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/segment_003440_003540.json",
+  "segment_meta": {
+    "start_seconds": 3440,
+    "end_seconds": 3540,
+    "length_seconds": 100,
+    "start_time_mmss": "57:20",
+    "end_time_mmss": "59:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

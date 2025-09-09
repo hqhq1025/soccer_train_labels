@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1629,
+  "video_id": "f10ab084-1374-5839-b772-6f91c1e2d198",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Substitution}.",
+  "answer": [
+    {
+      "start": 5224.0,
+      "end": 5224.0,
+      "text": "Trigger: Shots off target by left @ 2 - 42:04"
+    },
+    {
+      "start": 5261.0,
+      "end": 5261.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5224000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/segment_005170_005270.json",
+  "segment_meta": {
+    "start_seconds": 5170,
+    "end_seconds": 5270,
+    "length_seconds": 100,
+    "start_time_mmss": "86:10",
+    "end_time_mmss": "87:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20077,
+  "video_id": "16e9b9eb-d11f-5d4d-a96a-51eec7954440",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 477.0,
+      "end": 477.0,
+      "text": "Trigger: Throw-in by right @ 1 - 07:57"
+    },
+    {
+      "start": 493.0,
+      "end": 493.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 477000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/segment_000410_000510.json",
+  "segment_meta": {
+    "start_seconds": 410,
+    "end_seconds": 510,
+    "length_seconds": 100,
+    "start_time_mmss": "06:50",
+    "end_time_mmss": "08:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

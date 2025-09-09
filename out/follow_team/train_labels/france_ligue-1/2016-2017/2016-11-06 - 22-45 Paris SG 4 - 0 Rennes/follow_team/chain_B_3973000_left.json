@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1468,
+  "video_id": "9dfaf800-1de0-53ef-b84a-9df1b7b4dc43",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Goal}.",
+  "answer": [
+    {
+      "start": 3973.0,
+      "end": 3973.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 3975.0,
+      "end": 3975.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3973000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/segment_003940_003980.json",
+  "segment_meta": {
+    "start_seconds": 3940,
+    "end_seconds": 3980,
+    "length_seconds": 40,
+    "start_time_mmss": "65:40",
+    "end_time_mmss": "66:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

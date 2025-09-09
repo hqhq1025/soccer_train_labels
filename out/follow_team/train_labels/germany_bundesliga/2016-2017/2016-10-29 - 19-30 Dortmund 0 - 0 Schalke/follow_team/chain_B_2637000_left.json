@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3302,
+  "video_id": "a957fe93-e1e0-5af2-9111-c67d45f3bb1b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 2637.0,
+      "end": 2637.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2664.0,
+      "end": 2664.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2637000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/segment_002550_002670.json",
+  "segment_meta": {
+    "start_seconds": 2550,
+    "end_seconds": 2670,
+    "length_seconds": 120,
+    "start_time_mmss": "42:30",
+    "end_time_mmss": "44:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

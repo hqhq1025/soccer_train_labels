@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7757,
+  "video_id": "84821358-775d-530f-8ece-5f4a21c9663d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 3840.0,
+      "end": 3840.0,
+      "text": "Trigger: Foul by right @ 2 - 19:00"
+    },
+    {
+      "start": 3875.0,
+      "end": 3875.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 3880.0,
+      "end": 3880.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3840000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/segment_003810_003910.json",
+  "segment_meta": {
+    "start_seconds": 3810,
+    "end_seconds": 3910,
+    "length_seconds": 100,
+    "start_time_mmss": "63:30",
+    "end_time_mmss": "65:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

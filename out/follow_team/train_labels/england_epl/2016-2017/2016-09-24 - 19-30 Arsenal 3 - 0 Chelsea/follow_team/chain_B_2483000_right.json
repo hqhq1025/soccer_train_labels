@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25112,
+  "video_id": "de9b5d04-4cda-58f8-8523-a3146ed059d0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 2483.0,
+      "end": 2483.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2491.0,
+      "end": 2491.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2483000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/segment_002440_002500.json",
+  "segment_meta": {
+    "start_seconds": 2440,
+    "end_seconds": 2500,
+    "length_seconds": 60,
+    "start_time_mmss": "40:40",
+    "end_time_mmss": "41:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

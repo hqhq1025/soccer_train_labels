@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5514,
+  "video_id": "cb998daf-2877-5941-bb05-a49faabc7a89",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 5063.0,
+      "end": 5063.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5100.0,
+      "end": 5100.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5063000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/segment_005010_005110.json",
+  "segment_meta": {
+    "start_seconds": 5010,
+    "end_seconds": 5110,
+    "length_seconds": 100,
+    "start_time_mmss": "83:30",
+    "end_time_mmss": "85:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

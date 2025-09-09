@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3096,
+  "video_id": "25e22d2d-afc5-5768-aeeb-3cb343bd9900",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 4677.0,
+      "end": 4677.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4678.0,
+      "end": 4678.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4677000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/segment_004600_004680.json",
+  "segment_meta": {
+    "start_seconds": 4600,
+    "end_seconds": 4680,
+    "length_seconds": 80,
+    "start_time_mmss": "76:40",
+    "end_time_mmss": "78:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

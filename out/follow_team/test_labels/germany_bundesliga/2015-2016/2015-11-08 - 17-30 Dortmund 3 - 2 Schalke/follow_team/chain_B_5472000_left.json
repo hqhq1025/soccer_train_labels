@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 356,
+  "video_id": "47c64a08-e081-5e70-9b56-f7f1d21c402f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 5472.0,
+      "end": 5472.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5534.0,
+      "end": 5534.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5472000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/segment_005420_005540.json",
+  "segment_meta": {
+    "start_seconds": 5420,
+    "end_seconds": 5540,
+    "length_seconds": 120,
+    "start_time_mmss": "90:20",
+    "end_time_mmss": "92:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15095,
+  "video_id": "e9942410-a3ab-530a-a33c-e7d1dac9a56f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 3000.0,
+      "end": 3000.0,
+      "text": "Trigger: Throw-in by left @ 2 - 05:00"
+    },
+    {
+      "start": 3008.0,
+      "end": 3008.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3000000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/segment_002940_003020.json",
+  "segment_meta": {
+    "start_seconds": 2940,
+    "end_seconds": 3020,
+    "length_seconds": 80,
+    "start_time_mmss": "49:00",
+    "end_time_mmss": "50:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

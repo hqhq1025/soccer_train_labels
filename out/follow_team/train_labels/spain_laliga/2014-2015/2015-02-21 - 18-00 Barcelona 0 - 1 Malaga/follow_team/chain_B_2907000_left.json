@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11828,
+  "video_id": "0df0344a-68c8-5788-8741-fc29af4384a6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
+  "answer": [
+    {
+      "start": 2907.0,
+      "end": 2907.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2916.0,
+      "end": 2916.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2907000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/segment_002800_002920.json",
+  "segment_meta": {
+    "start_seconds": 2800,
+    "end_seconds": 2920,
+    "length_seconds": 120,
+    "start_time_mmss": "46:40",
+    "end_time_mmss": "48:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

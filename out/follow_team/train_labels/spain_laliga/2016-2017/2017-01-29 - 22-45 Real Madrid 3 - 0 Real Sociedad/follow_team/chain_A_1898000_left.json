@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14343,
+  "video_id": "490ad900-83a2-5039-a775-feac1b44242c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 1898.0,
+      "end": 1898.0,
+      "text": "Trigger: Foul by left @ 1 - 31:38"
+    },
+    {
+      "start": 1937.0,
+      "end": 1937.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1898000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/segment_001850_001970.json",
+  "segment_meta": {
+    "start_seconds": 1850,
+    "end_seconds": 1970,
+    "length_seconds": 120,
+    "start_time_mmss": "30:50",
+    "end_time_mmss": "32:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

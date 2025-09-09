@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6322,
+  "video_id": "7656bb4f-0822-5f66-9329-084e1c6745e4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Clearance} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 391.0,
+      "end": 391.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 408.0,
+      "end": 408.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 391000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/segment_000350_000410.json",
+  "segment_meta": {
+    "start_seconds": 350,
+    "end_seconds": 410,
+    "length_seconds": 60,
+    "start_time_mmss": "05:50",
+    "end_time_mmss": "06:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

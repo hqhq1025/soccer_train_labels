@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1934,
+  "video_id": "1af44e67-dcf8-5ddd-ad4f-3524638ffa7c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 2813.0,
+      "end": 2813.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 2832.0,
+      "end": 2832.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2813000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/segment_002780_002900.json",
+  "segment_meta": {
+    "start_seconds": 2780,
+    "end_seconds": 2900,
+    "length_seconds": 120,
+    "start_time_mmss": "46:20",
+    "end_time_mmss": "48:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

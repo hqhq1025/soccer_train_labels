@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8364,
+  "video_id": "a62ace24-9ec5-5e10-8260-97f9244420b1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "answer": [
+    {
+      "start": 4870.0,
+      "end": 4870.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 4901.0,
+      "end": 4901.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4870000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/segment_004800_004920.json",
+  "segment_meta": {
+    "start_seconds": 4800,
+    "end_seconds": 4920,
+    "length_seconds": 120,
+    "start_time_mmss": "80:00",
+    "end_time_mmss": "82:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

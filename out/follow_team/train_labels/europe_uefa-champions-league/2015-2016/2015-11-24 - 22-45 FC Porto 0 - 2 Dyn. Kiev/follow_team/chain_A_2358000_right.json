@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6875,
+  "video_id": "91d2c666-a5e5-5084-bcef-20dfa2734985",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 2358.0,
+      "end": 2358.0,
+      "text": "Trigger: Corner by right @ 1 - 39:18"
+    },
+    {
+      "start": 2382.0,
+      "end": 2382.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2358000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/segment_002340_002420.json",
+  "segment_meta": {
+    "start_seconds": 2340,
+    "end_seconds": 2420,
+    "length_seconds": 80,
+    "start_time_mmss": "39:00",
+    "end_time_mmss": "40:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

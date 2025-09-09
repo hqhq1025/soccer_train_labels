@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8433,
+  "video_id": "90dd9771-cc45-5b30-96a4-26d8b4856bf2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Shots off target}.",
+  "answer": [
+    {
+      "start": 4249.0,
+      "end": 4249.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 25:49"
+    },
+    {
+      "start": 4269.0,
+      "end": 4269.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4249000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/segment_004160_004280.json",
+  "segment_meta": {
+    "start_seconds": 4160,
+    "end_seconds": 4280,
+    "length_seconds": 120,
+    "start_time_mmss": "69:20",
+    "end_time_mmss": "71:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

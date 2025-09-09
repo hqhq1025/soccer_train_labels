@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21145,
+  "video_id": "d7b6f1c9-d5d5-5efe-9044-ab1c4d77c366",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "answer": [
+    {
+      "start": 714.0,
+      "end": 714.0,
+      "text": "Trigger: Shots on target by left @ 1 - 11:54"
+    },
+    {
+      "start": 715.0,
+      "end": 715.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 714000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/segment_000680_000720.json",
+  "segment_meta": {
+    "start_seconds": 680,
+    "end_seconds": 720,
+    "length_seconds": 40,
+    "start_time_mmss": "11:20",
+    "end_time_mmss": "12:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

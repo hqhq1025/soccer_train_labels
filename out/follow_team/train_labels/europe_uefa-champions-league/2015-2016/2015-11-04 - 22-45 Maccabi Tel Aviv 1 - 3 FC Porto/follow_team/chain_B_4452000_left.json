@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6626,
+  "video_id": "b078ace2-73e5-5fde-bda2-64e1742d994a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "answer": [
+    {
+      "start": 4452.0,
+      "end": 4452.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4453.0,
+      "end": 4453.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Maccabi Tel Aviv 1 - 3 FC Porto/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Maccabi Tel Aviv 1 - 3 FC Porto/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4452000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Maccabi Tel Aviv 1 - 3 FC Porto/segment_004400_004460.json",
+  "segment_meta": {
+    "start_seconds": 4400,
+    "end_seconds": 4460,
+    "length_seconds": 60,
+    "start_time_mmss": "73:20",
+    "end_time_mmss": "74:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

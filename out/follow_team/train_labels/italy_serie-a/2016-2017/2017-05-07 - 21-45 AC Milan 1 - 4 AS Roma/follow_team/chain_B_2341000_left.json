@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18182,
+  "video_id": "0767486b-3f8f-53d3-a147-8cc95932b2ef",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 2341.0,
+      "end": 2341.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 2351.0,
+      "end": 2351.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2341000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/segment_002260_002360.json",
+  "segment_meta": {
+    "start_seconds": 2260,
+    "end_seconds": 2360,
+    "length_seconds": 100,
+    "start_time_mmss": "37:40",
+    "end_time_mmss": "39:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

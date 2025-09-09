@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5471,
+  "video_id": "2d23035b-c682-5a7d-a340-c134cc6e5047",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Yellow card} occurs, keep following the same team and tell me whenever they perform {Substitution and Foul}.",
+  "answer": [
+    {
+      "start": 4507.0,
+      "end": 4507.0,
+      "text": "Trigger: Yellow card by left"
+    },
+    {
+      "start": 4541.0,
+      "end": 4541.0,
+      "text": "Then: Substitution by left"
+    },
+    {
+      "start": 4561.0,
+      "end": 4561.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4507000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/segment_004470_004570.json",
+  "segment_meta": {
+    "start_seconds": 4470,
+    "end_seconds": 4570,
+    "length_seconds": 100,
+    "start_time_mmss": "74:30",
+    "end_time_mmss": "76:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

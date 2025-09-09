@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17168,
+  "video_id": "da8db1ed-20af-536c-8bcc-e03f2ed144f6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 5530.0,
+      "end": 5530.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 5548.0,
+      "end": 5548.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5530000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_005450_005550.json",
+  "segment_meta": {
+    "start_seconds": 5450,
+    "end_seconds": 5550,
+    "length_seconds": 100,
+    "start_time_mmss": "90:50",
+    "end_time_mmss": "92:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

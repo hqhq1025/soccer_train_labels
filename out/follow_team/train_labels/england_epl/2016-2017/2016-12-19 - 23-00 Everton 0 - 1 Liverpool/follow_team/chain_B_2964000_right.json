@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24782,
+  "video_id": "a45ddd95-16b9-51ae-89e8-806c75b929eb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 2964.0,
+      "end": 2964.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2970.0,
+      "end": 2970.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2964000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/segment_002940_002980.json",
+  "segment_meta": {
+    "start_seconds": 2940,
+    "end_seconds": 2980,
+    "length_seconds": 40,
+    "start_time_mmss": "49:00",
+    "end_time_mmss": "49:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6294,
+  "video_id": "e83336e1-03fb-515a-98f3-79a2a2ac5843",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Goal}.",
+  "answer": [
+    {
+      "start": 2595.0,
+      "end": 2595.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2596.0,
+      "end": 2596.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Bayern Munich 5 - 1 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Bayern Munich 5 - 1 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2595000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Bayern Munich 5 - 1 Arsenal/segment_002540_002600.json",
+  "segment_meta": {
+    "start_seconds": 2540,
+    "end_seconds": 2600,
+    "length_seconds": 60,
+    "start_time_mmss": "42:20",
+    "end_time_mmss": "43:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

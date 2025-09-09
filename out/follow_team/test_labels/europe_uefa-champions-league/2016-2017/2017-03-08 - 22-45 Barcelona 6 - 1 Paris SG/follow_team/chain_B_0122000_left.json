@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2794,
+  "video_id": "2d4119b5-d620-539e-b081-c92145337d36",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "answer": [
+    {
+      "start": 122.0,
+      "end": 122.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 146.0,
+      "end": 146.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 122000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/segment_000030_000150.json",
+  "segment_meta": {
+    "start_seconds": 30,
+    "end_seconds": 150,
+    "length_seconds": 120,
+    "start_time_mmss": "00:30",
+    "end_time_mmss": "02:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

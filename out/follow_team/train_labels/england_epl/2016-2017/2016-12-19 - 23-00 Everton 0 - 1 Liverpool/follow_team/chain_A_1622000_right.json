@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24817,
+  "video_id": "62aee9a0-b093-5e1c-ba1c-0fea82ebe59a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Foul}.",
+  "answer": [
+    {
+      "start": 1622.0,
+      "end": 1622.0,
+      "text": "Trigger: Clearance by right @ 1 - 27:02"
+    },
+    {
+      "start": 1667.0,
+      "end": 1667.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1622000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/segment_001550_001670.json",
+  "segment_meta": {
+    "start_seconds": 1550,
+    "end_seconds": 1670,
+    "length_seconds": 120,
+    "start_time_mmss": "25:50",
+    "end_time_mmss": "27:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

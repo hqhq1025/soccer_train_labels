@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3524,
+  "video_id": "169798b0-32b6-5187-aecc-ee00f99f8de5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 3993.0,
+      "end": 3993.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4037.0,
+      "end": 4037.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3993000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/segment_003940_004040.json",
+  "segment_meta": {
+    "start_seconds": 3940,
+    "end_seconds": 4040,
+    "length_seconds": 100,
+    "start_time_mmss": "65:40",
+    "end_time_mmss": "67:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

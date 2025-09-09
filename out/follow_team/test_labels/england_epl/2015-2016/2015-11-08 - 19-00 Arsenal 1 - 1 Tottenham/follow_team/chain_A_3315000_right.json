@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7757,
+  "video_id": "d9a3ebb9-f3f6-5ebc-a1f2-e6ddbfe7f5b7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Indirect free-kick} it makes.",
+  "answer": [
+    {
+      "start": 3315.0,
+      "end": 3315.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 3329.0,
+      "end": 3329.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3315000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/segment_003220_003340.json",
+  "segment_meta": {
+    "start_seconds": 3220,
+    "end_seconds": 3340,
+    "length_seconds": 120,
+    "start_time_mmss": "53:40",
+    "end_time_mmss": "55:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

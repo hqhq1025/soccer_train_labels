@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22596,
+  "video_id": "a66ab0cd-2aea-5610-963d-8c76eb103b6c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 5122.0,
+      "end": 5122.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 5152.0,
+      "end": 5152.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5122000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_005050_005170.json",
+  "segment_meta": {
+    "start_seconds": 5050,
+    "end_seconds": 5170,
+    "length_seconds": 120,
+    "start_time_mmss": "84:10",
+    "end_time_mmss": "86:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

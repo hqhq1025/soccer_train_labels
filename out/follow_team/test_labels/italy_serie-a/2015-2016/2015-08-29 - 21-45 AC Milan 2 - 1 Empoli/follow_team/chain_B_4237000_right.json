@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5366,
+  "video_id": "5d9c307c-119b-5901-849d-0ad83ed82435",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 4237.0,
+      "end": 4237.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4239.0,
+      "end": 4239.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4237000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/segment_004170_004290.json",
+  "segment_meta": {
+    "start_seconds": 4170,
+    "end_seconds": 4290,
+    "length_seconds": 120,
+    "start_time_mmss": "69:30",
+    "end_time_mmss": "71:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

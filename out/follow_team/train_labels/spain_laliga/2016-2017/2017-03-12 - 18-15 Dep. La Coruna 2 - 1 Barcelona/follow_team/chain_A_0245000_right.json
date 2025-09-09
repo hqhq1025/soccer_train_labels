@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14775,
+  "video_id": "c0f8aa9a-fbe4-561b-87a4-a940f50e27b8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Offside}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 245.0,
+      "end": 245.0,
+      "text": "Trigger: Offside by right @ 1 - 04:05"
+    },
+    {
+      "start": 291.0,
+      "end": 291.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 245000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/segment_000190_000310.json",
+  "segment_meta": {
+    "start_seconds": 190,
+    "end_seconds": 310,
+    "length_seconds": 120,
+    "start_time_mmss": "03:10",
+    "end_time_mmss": "05:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

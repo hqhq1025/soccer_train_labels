@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17965,
+  "video_id": "6df3a02c-01b7-50f7-9f7e-3cf7692fa856",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 1282.0,
+      "end": 1282.0,
+      "text": "Trigger: Clearance by right @ 1 - 21:22"
+    },
+    {
+      "start": 1303.0,
+      "end": 1303.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1282000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/segment_001270_001310.json",
+  "segment_meta": {
+    "start_seconds": 1270,
+    "end_seconds": 1310,
+    "length_seconds": 40,
+    "start_time_mmss": "21:10",
+    "end_time_mmss": "21:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

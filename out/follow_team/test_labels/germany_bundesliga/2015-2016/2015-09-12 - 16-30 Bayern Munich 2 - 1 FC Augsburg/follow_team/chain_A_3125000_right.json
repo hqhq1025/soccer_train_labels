@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 197,
+  "video_id": "2b6b0e7f-b1a5-5594-8c6f-42088882fe3e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 3125.0,
+      "end": 3125.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 3159.0,
+      "end": 3159.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3125000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/segment_003040_003160.json",
+  "segment_meta": {
+    "start_seconds": 3040,
+    "end_seconds": 3160,
+    "length_seconds": 120,
+    "start_time_mmss": "50:40",
+    "end_time_mmss": "52:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23569,
+  "video_id": "5a803e6f-bce5-50c5-a8a7-d44d0c66e7ea",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 3970.0,
+      "end": 3970.0,
+      "text": "Trigger: Throw-in by left @ 2 - 21:10"
+    },
+    {
+      "start": 3980.0,
+      "end": 3980.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4003.0,
+      "end": 4003.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3970000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/segment_003910_004010.json",
+  "segment_meta": {
+    "start_seconds": 3910,
+    "end_seconds": 4010,
+    "length_seconds": 100,
+    "start_time_mmss": "65:10",
+    "end_time_mmss": "66:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

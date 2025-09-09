@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1053,
+  "video_id": "4c847d69-ac88-537c-9c96-1edb4aa86bde",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Clearance}.",
+  "answer": [
+    {
+      "start": 1206.0,
+      "end": 1206.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 1252.0,
+      "end": 1252.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1206000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/segment_001140_001260.json",
+  "segment_meta": {
+    "start_seconds": 1140,
+    "end_seconds": 1260,
+    "length_seconds": 120,
+    "start_time_mmss": "19:00",
+    "end_time_mmss": "21:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

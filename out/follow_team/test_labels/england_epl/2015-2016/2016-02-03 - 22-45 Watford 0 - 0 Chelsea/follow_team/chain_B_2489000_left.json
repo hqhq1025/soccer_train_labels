@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8234,
+  "video_id": "d6a16704-04e8-55e3-b901-553e5945e905",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 2489.0,
+      "end": 2489.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2513.0,
+      "end": 2513.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-03 - 22-45 Watford 0 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2016-02-03 - 22-45 Watford 0 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2489000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2016-02-03 - 22-45 Watford 0 - 0 Chelsea/segment_002460_002520.json",
+  "segment_meta": {
+    "start_seconds": 2460,
+    "end_seconds": 2520,
+    "length_seconds": 60,
+    "start_time_mmss": "41:00",
+    "end_time_mmss": "42:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

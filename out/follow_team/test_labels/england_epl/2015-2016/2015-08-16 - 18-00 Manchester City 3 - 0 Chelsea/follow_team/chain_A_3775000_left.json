@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7505,
+  "video_id": "1fd9f7d0-9157-5d61-8bd8-91aa6ecffb8b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Substitution and Throw-in}.",
+  "answer": [
+    {
+      "start": 3775.0,
+      "end": 3775.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3814.0,
+      "end": 3814.0,
+      "text": "Then: Substitution by left"
+    },
+    {
+      "start": 3835.0,
+      "end": 3835.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3775000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/segment_003760_003880.json",
+  "segment_meta": {
+    "start_seconds": 3760,
+    "end_seconds": 3880,
+    "length_seconds": 120,
+    "start_time_mmss": "62:40",
+    "end_time_mmss": "64:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

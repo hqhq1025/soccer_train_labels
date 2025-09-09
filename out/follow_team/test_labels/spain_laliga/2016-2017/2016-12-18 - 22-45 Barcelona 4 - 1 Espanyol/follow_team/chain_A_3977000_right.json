@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4519,
+  "video_id": "92d1ee27-3c40-5567-8c1d-7716c838c2c3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 3977.0,
+      "end": 3977.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3979.0,
+      "end": 3979.0,
+      "text": "Then: Goal by right"
+    },
+    {
+      "start": 3979.0,
+      "end": 3979.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-12-18 - 22-45 Barcelona 4 - 1 Espanyol/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2016-12-18 - 22-45 Barcelona 4 - 1 Espanyol/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3977000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2016-12-18 - 22-45 Barcelona 4 - 1 Espanyol/segment_003930_003990.json",
+  "segment_meta": {
+    "start_seconds": 3930,
+    "end_seconds": 3990,
+    "length_seconds": 60,
+    "start_time_mmss": "65:30",
+    "end_time_mmss": "66:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

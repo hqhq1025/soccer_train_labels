@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8592,
+  "video_id": "82230e13-61b1-5f3e-a810-f06773677a73",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Corner}.",
+  "answer": [
+    {
+      "start": 4848.0,
+      "end": 4848.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 4872.0,
+      "end": 4872.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4848000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/segment_004780_004880.json",
+  "segment_meta": {
+    "start_seconds": 4780,
+    "end_seconds": 4880,
+    "length_seconds": 100,
+    "start_time_mmss": "79:40",
+    "end_time_mmss": "81:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

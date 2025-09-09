@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17635,
+  "video_id": "72eeadee-c95f-5fdf-9c45-07ecea7f4325",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Kick-off} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 3421.0,
+      "end": 3421.0,
+      "text": "Trigger: Kick-off by left @ 2 - 12:01"
+    },
+    {
+      "start": 3442.0,
+      "end": 3442.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3421000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/segment_003390_003450.json",
+  "segment_meta": {
+    "start_seconds": 3390,
+    "end_seconds": 3450,
+    "length_seconds": 60,
+    "start_time_mmss": "56:30",
+    "end_time_mmss": "57:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

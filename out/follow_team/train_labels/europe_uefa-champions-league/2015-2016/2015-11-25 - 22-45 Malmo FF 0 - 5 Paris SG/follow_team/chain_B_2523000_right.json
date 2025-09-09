@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5222,
+  "video_id": "10f38ea7-962d-5575-83ed-1836cf0142ea",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 2523.0,
+      "end": 2523.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2550.0,
+      "end": 2550.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2523000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/segment_002480_002600.json",
+  "segment_meta": {
+    "start_seconds": 2480,
+    "end_seconds": 2600,
+    "length_seconds": 120,
+    "start_time_mmss": "41:20",
+    "end_time_mmss": "43:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24626,
+  "video_id": "187fe11a-2ecd-540e-b59f-e6d1834b96fc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 1118.0,
+      "end": 1118.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 1124.0,
+      "end": 1124.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1118000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/segment_001070_001130.json",
+  "segment_meta": {
+    "start_seconds": 1070,
+    "end_seconds": 1130,
+    "length_seconds": 60,
+    "start_time_mmss": "17:50",
+    "end_time_mmss": "18:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

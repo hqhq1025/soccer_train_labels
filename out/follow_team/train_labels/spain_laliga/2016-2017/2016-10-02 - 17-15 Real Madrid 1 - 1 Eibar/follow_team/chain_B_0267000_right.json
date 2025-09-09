@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15098,
+  "video_id": "3dd36304-a9aa-5331-a30d-6f3e1fa030d1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Shots on target}.",
+  "answer": [
+    {
+      "start": 267.0,
+      "end": 267.0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 307.0,
+      "end": 307.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 267000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/segment_000250_000310.json",
+  "segment_meta": {
+    "start_seconds": 250,
+    "end_seconds": 310,
+    "length_seconds": 60,
+    "start_time_mmss": "04:10",
+    "end_time_mmss": "05:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

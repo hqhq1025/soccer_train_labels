@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14626,
+  "video_id": "a7e35acf-3275-55e0-af96-16ccebd2c88a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 2819.0,
+      "end": 2819.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 2822.0,
+      "end": 2822.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2819000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/segment_002740_002860.json",
+  "segment_meta": {
+    "start_seconds": 2740,
+    "end_seconds": 2860,
+    "length_seconds": 120,
+    "start_time_mmss": "45:40",
+    "end_time_mmss": "47:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2675,
+  "video_id": "596cd598-7a54-5442-b273-aeedfb52afa7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 4840.0,
+      "end": 4840.0,
+      "text": "Trigger: Shots on target by left @ 2 - 35:40"
+    },
+    {
+      "start": 4860.0,
+      "end": 4860.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4840000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/segment_004810_004870.json",
+  "segment_meta": {
+    "start_seconds": 4810,
+    "end_seconds": 4870,
+    "length_seconds": 60,
+    "start_time_mmss": "80:10",
+    "end_time_mmss": "81:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

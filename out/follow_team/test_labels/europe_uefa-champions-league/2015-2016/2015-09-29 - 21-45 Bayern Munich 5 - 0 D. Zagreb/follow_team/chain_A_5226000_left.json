@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1681,
+  "video_id": "65d41509-1924-5f03-9ee4-579fc3f97ab0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Indirect free-kick} it makes.",
+  "answer": [
+    {
+      "start": 5226.0,
+      "end": 5226.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 5245.0,
+      "end": 5245.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5226000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/segment_005150_005250.json",
+  "segment_meta": {
+    "start_seconds": 5150,
+    "end_seconds": 5250,
+    "length_seconds": 100,
+    "start_time_mmss": "85:50",
+    "end_time_mmss": "87:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

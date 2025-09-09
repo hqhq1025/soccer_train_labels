@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10659,
+  "video_id": "9f4bc363-cbc9-534a-90ad-b0724d502b54",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 229.0,
+      "end": 229.0,
+      "text": "Trigger: Corner by left @ 1 - 03:49"
+    },
+    {
+      "start": 244.0,
+      "end": 244.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 229000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/segment_000170_000250.json",
+  "segment_meta": {
+    "start_seconds": 170,
+    "end_seconds": 250,
+    "length_seconds": 80,
+    "start_time_mmss": "02:50",
+    "end_time_mmss": "04:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8765,
+  "video_id": "d3b61b86-886b-5792-a826-eccf5a519794",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Substitution and Indirect free-kick} happen.",
+  "answer": [
+    {
+      "start": 5000.0,
+      "end": 5000.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 5086.0,
+      "end": 5086.0,
+      "text": "Then: Substitution by right"
+    },
+    {
+      "start": 5099.0,
+      "end": 5099.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5000000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/segment_004990_005110.json",
+  "segment_meta": {
+    "start_seconds": 4990,
+    "end_seconds": 5110,
+    "length_seconds": 120,
+    "start_time_mmss": "83:10",
+    "end_time_mmss": "85:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

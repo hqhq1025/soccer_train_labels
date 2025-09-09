@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 307,
+  "video_id": "6dc69636-7b1e-56e6-8a6b-2c76e518f613",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
+  "answer": [
+    {
+      "start": 3801.0,
+      "end": 3801.0,
+      "text": "Trigger: Foul by right @ 2 - 18:21"
+    },
+    {
+      "start": 3843.0,
+      "end": 3843.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3801000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/segment_003790_003890.json",
+  "segment_meta": {
+    "start_seconds": 3790,
+    "end_seconds": 3890,
+    "length_seconds": 100,
+    "start_time_mmss": "63:10",
+    "end_time_mmss": "64:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

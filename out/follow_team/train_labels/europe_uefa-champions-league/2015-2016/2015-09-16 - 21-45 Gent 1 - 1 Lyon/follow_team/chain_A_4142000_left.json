@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6077,
+  "video_id": "07325542-a2d9-5b2c-ac62-c1125cedd974",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Substitution}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 4142.0,
+      "end": 4142.0,
+      "text": "Trigger: Substitution by left @ 2 - 24:02"
+    },
+    {
+      "start": 4194.0,
+      "end": 4194.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4142000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_004090_004210.json",
+  "segment_meta": {
+    "start_seconds": 4090,
+    "end_seconds": 4210,
+    "length_seconds": 120,
+    "start_time_mmss": "68:10",
+    "end_time_mmss": "70:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

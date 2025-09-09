@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9527,
+  "video_id": "666bf364-f4b8-5db4-b2e1-8dcbc9840894",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Corner, Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 5225.0,
+      "end": 5225.0,
+      "text": "Trigger: Shots on target by right @ 2 - 42:05"
+    },
+    {
+      "start": 5244.0,
+      "end": 5244.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 5253.0,
+      "end": 5253.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 5254.0,
+      "end": 5254.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5225000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/segment_005160_005260.json",
+  "segment_meta": {
+    "start_seconds": 5160,
+    "end_seconds": 5260,
+    "length_seconds": 100,
+    "start_time_mmss": "86:00",
+    "end_time_mmss": "87:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16966,
+  "video_id": "d882bb77-8d70-513b-9d56-398dfcf48835",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Substitution} happen.",
+  "answer": [
+    {
+      "start": 3309.0,
+      "end": 3309.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 3353.0,
+      "end": 3353.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3309000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/segment_003270_003370.json",
+  "segment_meta": {
+    "start_seconds": 3270,
+    "end_seconds": 3370,
+    "length_seconds": 100,
+    "start_time_mmss": "54:30",
+    "end_time_mmss": "56:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

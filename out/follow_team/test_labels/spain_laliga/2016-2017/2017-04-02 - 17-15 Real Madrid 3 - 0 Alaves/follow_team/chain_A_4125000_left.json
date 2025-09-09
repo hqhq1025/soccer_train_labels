@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4713,
+  "video_id": "bf140aeb-9489-5374-87c1-0c19e04f6b27",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Indirect free-kick, Direct free-kick and Shots off target}.",
+  "answer": [
+    {
+      "start": 4125.0,
+      "end": 4125.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 4145.0,
+      "end": 4145.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 4170.0,
+      "end": 4170.0,
+      "text": "Then: Direct free-kick by left"
+    },
+    {
+      "start": 4171.0,
+      "end": 4171.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4125000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/segment_004100_004220.json",
+  "segment_meta": {
+    "start_seconds": 4100,
+    "end_seconds": 4220,
+    "length_seconds": 120,
+    "start_time_mmss": "68:20",
+    "end_time_mmss": "70:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

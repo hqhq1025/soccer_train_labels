@@ -1,0 +1,51 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5719,
+  "video_id": "c62439b0-a433-58e3-b209-d06f00a031c5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Shots off target, Shots on target, Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 3741.0,
+      "end": 3741.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 3795.0,
+      "end": 3795.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 3823.0,
+      "end": 3823.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 3835.0,
+      "end": 3835.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 3839.0,
+      "end": 3839.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3741000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/segment_003720_003840.json",
+  "segment_meta": {
+    "start_seconds": 3720,
+    "end_seconds": 3840,
+    "length_seconds": 120,
+    "start_time_mmss": "62:00",
+    "end_time_mmss": "64:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

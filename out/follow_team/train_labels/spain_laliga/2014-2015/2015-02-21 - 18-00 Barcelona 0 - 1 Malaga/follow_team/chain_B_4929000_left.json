@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11822,
+  "video_id": "0b6a263e-7bb9-5cd0-a0ba-52e781998f3c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 4929.0,
+      "end": 4929.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4960.0,
+      "end": 4960.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4929000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/segment_004850_004970.json",
+  "segment_meta": {
+    "start_seconds": 4850,
+    "end_seconds": 4970,
+    "length_seconds": 120,
+    "start_time_mmss": "80:50",
+    "end_time_mmss": "82:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

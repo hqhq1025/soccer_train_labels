@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17102,
+  "video_id": "d723c71f-e2a9-525f-9f1c-202b42b7da49",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 2224.0,
+      "end": 2224.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 2227.0,
+      "end": 2227.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2224000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/segment_002150_002270.json",
+  "segment_meta": {
+    "start_seconds": 2150,
+    "end_seconds": 2270,
+    "length_seconds": 120,
+    "start_time_mmss": "35:50",
+    "end_time_mmss": "37:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

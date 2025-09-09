@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9196,
+  "video_id": "278e20c9-003f-570e-80a7-3c0fcbf950d1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
+  "answer": [
+    {
+      "start": 992.0,
+      "end": 992.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 997.0,
+      "end": 997.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 992000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/segment_000960_001020.json",
+  "segment_meta": {
+    "start_seconds": 960,
+    "end_seconds": 1020,
+    "length_seconds": 60,
+    "start_time_mmss": "16:00",
+    "end_time_mmss": "17:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

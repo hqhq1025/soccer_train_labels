@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3823,
+  "video_id": "1bbb36ae-6960-5c90-b92c-0dc259070bf7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 4704.0,
+      "end": 4704.0,
+      "text": "Trigger: Substitution by left @ 2 - 33:24"
+    },
+    {
+      "start": 4730.0,
+      "end": 4730.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4704000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/segment_004620_004740.json",
+  "segment_meta": {
+    "start_seconds": 4620,
+    "end_seconds": 4740,
+    "length_seconds": 120,
+    "start_time_mmss": "77:00",
+    "end_time_mmss": "79:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

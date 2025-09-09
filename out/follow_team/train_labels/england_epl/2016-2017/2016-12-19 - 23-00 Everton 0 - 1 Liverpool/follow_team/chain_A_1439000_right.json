@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24829,
+  "video_id": "0962fbea-2987-5a86-aa61-2b55fc534bb0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 1439.0,
+      "end": 1439.0,
+      "text": "Trigger: Throw-in by right @ 1 - 23:59"
+    },
+    {
+      "start": 1461.0,
+      "end": 1461.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1439000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/segment_001380_001500.json",
+  "segment_meta": {
+    "start_seconds": 1380,
+    "end_seconds": 1500,
+    "length_seconds": 120,
+    "start_time_mmss": "23:00",
+    "end_time_mmss": "25:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

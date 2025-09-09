@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20999,
+  "video_id": "cb89e933-3c48-5580-b2fe-5b4d8a732c25",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Throw-in}; then follow that team and report its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 828.0,
+      "end": 828.0,
+      "text": "Trigger: Throw-in by left @ 1 - 13:48"
+    },
+    {
+      "start": 847.0,
+      "end": 847.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 828000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/segment_000770_000850.json",
+  "segment_meta": {
+    "start_seconds": 770,
+    "end_seconds": 850,
+    "length_seconds": 80,
+    "start_time_mmss": "12:50",
+    "end_time_mmss": "14:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

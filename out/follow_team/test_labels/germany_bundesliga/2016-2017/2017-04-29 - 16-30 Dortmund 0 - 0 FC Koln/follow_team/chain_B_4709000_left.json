@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 684,
+  "video_id": "c10ad75d-46e9-5075-aabe-3f9213558a4e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Substitution}.",
+  "answer": [
+    {
+      "start": 4709.0,
+      "end": 4709.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4758.0,
+      "end": 4758.0,
+      "text": "Then: Substitution by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4709000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/segment_004690_004790.json",
+  "segment_meta": {
+    "start_seconds": 4690,
+    "end_seconds": 4790,
+    "length_seconds": 100,
+    "start_time_mmss": "78:10",
+    "end_time_mmss": "79:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

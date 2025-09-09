@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5033,
+  "video_id": "f0c0dacb-5b3a-5b8b-ae27-d01c228c75db",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in, Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 3005.0,
+      "end": 3005.0,
+      "text": "Trigger: Throw-in by left @ 2 - 05:05"
+    },
+    {
+      "start": 3028.0,
+      "end": 3028.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 3034.0,
+      "end": 3034.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 3034.0,
+      "end": 3034.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3005000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/segment_002920_003040.json",
+  "segment_meta": {
+    "start_seconds": 2920,
+    "end_seconds": 3040,
+    "length_seconds": 120,
+    "start_time_mmss": "48:40",
+    "end_time_mmss": "50:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

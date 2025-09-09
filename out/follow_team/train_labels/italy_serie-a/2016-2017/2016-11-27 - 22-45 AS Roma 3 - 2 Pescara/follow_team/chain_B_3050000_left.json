@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18814,
+  "video_id": "bf858230-27ec-51ef-9cf0-e28ab61c16de",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Offside}.",
+  "answer": [
+    {
+      "start": 3050.0,
+      "end": 3050.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 3088.0,
+      "end": 3088.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3050000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/segment_002970_003090.json",
+  "segment_meta": {
+    "start_seconds": 2970,
+    "end_seconds": 3090,
+    "length_seconds": 120,
+    "start_time_mmss": "49:30",
+    "end_time_mmss": "51:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3117,
+  "video_id": "a2dc9804-14a4-5b6b-9f79-12c4103db0c3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul and Corner}.",
+  "answer": [
+    {
+      "start": 4255.0,
+      "end": 4255.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4264.0,
+      "end": 4264.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4326.0,
+      "end": 4326.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 4329.0,
+      "end": 4329.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4255000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/segment_004240_004360.json",
+  "segment_meta": {
+    "start_seconds": 4240,
+    "end_seconds": 4360,
+    "length_seconds": 120,
+    "start_time_mmss": "70:40",
+    "end_time_mmss": "72:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

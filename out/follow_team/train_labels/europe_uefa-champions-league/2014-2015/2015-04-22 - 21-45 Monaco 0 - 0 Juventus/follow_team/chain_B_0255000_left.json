@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8220,
+  "video_id": "f6c08bc4-ff63-51e3-aaf7-da001060d184",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 255.0,
+      "end": 255.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 295.0,
+      "end": 295.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 255000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/segment_000220_000300.json",
+  "segment_meta": {
+    "start_seconds": 220,
+    "end_seconds": 300,
+    "length_seconds": 80,
+    "start_time_mmss": "03:40",
+    "end_time_mmss": "05:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

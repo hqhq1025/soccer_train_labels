@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6795,
+  "video_id": "21c060e9-cb3d-5346-9827-d700596ec765",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 3859.0,
+      "end": 3859.0,
+      "text": "Trigger: Shots off target by left @ 2 - 19:19"
+    },
+    {
+      "start": 3896.0,
+      "end": 3896.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 3903.0,
+      "end": 3903.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3859000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/segment_003810_003910.json",
+  "segment_meta": {
+    "start_seconds": 3810,
+    "end_seconds": 3910,
+    "length_seconds": 100,
+    "start_time_mmss": "63:30",
+    "end_time_mmss": "65:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3680,
+  "video_id": "41c2ebe3-5021-565d-9c19-6eda086e4a29",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 2455.0,
+      "end": 2455.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2485.0,
+      "end": 2485.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-03-02 - 23-00 Levante 1 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-03-02 - 23-00 Levante 1 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2455000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-03-02 - 23-00 Levante 1 - 3 Real Madrid/segment_002400_002520.json",
+  "segment_meta": {
+    "start_seconds": 2400,
+    "end_seconds": 2520,
+    "length_seconds": 120,
+    "start_time_mmss": "40:00",
+    "end_time_mmss": "42:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

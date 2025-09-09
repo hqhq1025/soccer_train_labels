@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22616,
+  "video_id": "f3f93749-0b34-58e5-9cfe-095688e9b7e1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Clearance} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 883.0,
+      "end": 883.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 905.0,
+      "end": 905.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 883000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_000830_000910.json",
+  "segment_meta": {
+    "start_seconds": 830,
+    "end_seconds": 910,
+    "length_seconds": 80,
+    "start_time_mmss": "13:50",
+    "end_time_mmss": "15:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

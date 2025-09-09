@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17534,
+  "video_id": "654d3302-1267-530b-ad6c-b1c2cefbf123",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 2063.0,
+      "end": 2063.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 2069.0,
+      "end": 2069.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2063000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/segment_002010_002090.json",
+  "segment_meta": {
+    "start_seconds": 2010,
+    "end_seconds": 2090,
+    "length_seconds": 80,
+    "start_time_mmss": "33:30",
+    "end_time_mmss": "34:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

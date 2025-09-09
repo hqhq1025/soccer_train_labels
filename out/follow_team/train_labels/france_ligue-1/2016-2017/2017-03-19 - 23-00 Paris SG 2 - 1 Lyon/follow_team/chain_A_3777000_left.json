@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 939,
+  "video_id": "92ba135a-5e88-588a-bcab-2c98ad29de69",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Yellow card}.",
+  "answer": [
+    {
+      "start": 3777.0,
+      "end": 3777.0,
+      "text": "Trigger: Foul by left @ 2 - 17:57"
+    },
+    {
+      "start": 3782.0,
+      "end": 3782.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3777000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/segment_003750_003790.json",
+  "segment_meta": {
+    "start_seconds": 3750,
+    "end_seconds": 3790,
+    "length_seconds": 40,
+    "start_time_mmss": "62:30",
+    "end_time_mmss": "63:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

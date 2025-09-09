@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2012,
+  "video_id": "98c27d27-6ade-5ef8-ba7a-1d09a34efd9e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Offside}.",
+  "answer": [
+    {
+      "start": 5375.0,
+      "end": 5375.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 5392.0,
+      "end": 5392.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5375000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/segment_005300_005420.json",
+  "segment_meta": {
+    "start_seconds": 5300,
+    "end_seconds": 5420,
+    "length_seconds": 120,
+    "start_time_mmss": "88:20",
+    "end_time_mmss": "90:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

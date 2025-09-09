@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8510,
+  "video_id": "7c4fe61f-e00f-5019-afe8-a29a9b5c71d1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 2726.0,
+      "end": 2726.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2737.0,
+      "end": 2737.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2726000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/segment_002660_002780.json",
+  "segment_meta": {
+    "start_seconds": 2660,
+    "end_seconds": 2780,
+    "length_seconds": 120,
+    "start_time_mmss": "44:20",
+    "end_time_mmss": "46:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

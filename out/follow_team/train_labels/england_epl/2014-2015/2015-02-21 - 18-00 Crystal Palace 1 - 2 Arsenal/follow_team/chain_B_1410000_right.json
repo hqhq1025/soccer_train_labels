@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23024,
+  "video_id": "5726bcb7-2988-5cd3-9856-84451ec629e6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Clearance}.",
+  "answer": [
+    {
+      "start": 1410.0,
+      "end": 1410.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 1472.0,
+      "end": 1472.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1410000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/segment_001380_001500.json",
+  "segment_meta": {
+    "start_seconds": 1380,
+    "end_seconds": 1500,
+    "length_seconds": 120,
+    "start_time_mmss": "23:00",
+    "end_time_mmss": "25:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

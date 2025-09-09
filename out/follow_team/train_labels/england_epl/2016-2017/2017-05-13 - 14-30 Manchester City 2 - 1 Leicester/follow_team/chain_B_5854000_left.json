@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25272,
+  "video_id": "d36eb3ee-d035-5b9d-831a-df0bba7d8bb8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Clearance}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 5854.0,
+      "end": 5854.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 5872.0,
+      "end": 5872.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5854000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/segment_005820_005940.json",
+  "segment_meta": {
+    "start_seconds": 5820,
+    "end_seconds": 5940,
+    "length_seconds": 120,
+    "start_time_mmss": "97:00",
+    "end_time_mmss": "99:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

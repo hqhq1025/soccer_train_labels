@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9044,
+  "video_id": "6b341941-9c75-5a97-89d2-88b0e1d901fe",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 5544.0,
+      "end": 5544.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5549.0,
+      "end": 5549.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5544000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/segment_005490_005550.json",
+  "segment_meta": {
+    "start_seconds": 5490,
+    "end_seconds": 5550,
+    "length_seconds": 60,
+    "start_time_mmss": "91:30",
+    "end_time_mmss": "92:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

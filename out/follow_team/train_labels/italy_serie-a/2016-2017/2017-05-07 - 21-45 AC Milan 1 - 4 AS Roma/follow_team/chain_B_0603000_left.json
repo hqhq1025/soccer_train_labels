@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18160,
+  "video_id": "51996f11-b6d7-5596-929a-51cd0793f70b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Corner}.",
+  "answer": [
+    {
+      "start": 603.0,
+      "end": 603.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 624.0,
+      "end": 624.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 603000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/segment_000530_000630.json",
+  "segment_meta": {
+    "start_seconds": 530,
+    "end_seconds": 630,
+    "length_seconds": 100,
+    "start_time_mmss": "08:50",
+    "end_time_mmss": "10:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14081,
+  "video_id": "a9ea674f-f0ea-54e3-a24a-bbc946ae741d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 3949.0,
+      "end": 3949.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 20:49"
+    },
+    {
+      "start": 3962.0,
+      "end": 3962.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3949000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid/segment_003910_003970.json",
+  "segment_meta": {
+    "start_seconds": 3910,
+    "end_seconds": 3970,
+    "length_seconds": 60,
+    "start_time_mmss": "65:10",
+    "end_time_mmss": "66:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

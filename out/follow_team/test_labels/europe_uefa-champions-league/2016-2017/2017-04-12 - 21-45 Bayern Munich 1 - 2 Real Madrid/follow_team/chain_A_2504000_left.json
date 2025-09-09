@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3017,
+  "video_id": "85db3944-fa4c-5afa-ba1a-368e1040a426",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner and Shots off target}.",
+  "answer": [
+    {
+      "start": 2504.0,
+      "end": 2504.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2528.0,
+      "end": 2528.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 2534.0,
+      "end": 2534.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-04-12 - 21-45 Bayern Munich 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-04-12 - 21-45 Bayern Munich 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2504000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-04-12 - 21-45 Bayern Munich 1 - 2 Real Madrid/segment_002440_002560.json",
+  "segment_meta": {
+    "start_seconds": 2440,
+    "end_seconds": 2560,
+    "length_seconds": 120,
+    "start_time_mmss": "40:40",
+    "end_time_mmss": "42:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

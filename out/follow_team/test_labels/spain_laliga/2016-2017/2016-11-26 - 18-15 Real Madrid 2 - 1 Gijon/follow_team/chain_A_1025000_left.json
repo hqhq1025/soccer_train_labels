@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4349,
+  "video_id": "6192c3b9-662a-5230-b7d8-ce83f975b02a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Goal and Shots on target}.",
+  "answer": [
+    {
+      "start": 1025.0,
+      "end": 1025.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 1060.0,
+      "end": 1060.0,
+      "text": "Then: Goal by left"
+    },
+    {
+      "start": 1060.0,
+      "end": 1060.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-26 - 18-15 Real Madrid 2 - 1 Gijon/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2016-11-26 - 18-15 Real Madrid 2 - 1 Gijon/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1025000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2016-11-26 - 18-15 Real Madrid 2 - 1 Gijon/segment_000990_001070.json",
+  "segment_meta": {
+    "start_seconds": 990,
+    "end_seconds": 1070,
+    "length_seconds": 80,
+    "start_time_mmss": "16:30",
+    "end_time_mmss": "17:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

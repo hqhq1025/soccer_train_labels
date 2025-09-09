@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20732,
+  "video_id": "ff825820-7502-50d1-aa4f-b75b128f7c82",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 5173.0,
+      "end": 5173.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 5204.0,
+      "end": 5204.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5173000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/segment_005130_005230.json",
+  "segment_meta": {
+    "start_seconds": 5130,
+    "end_seconds": 5230,
+    "length_seconds": 100,
+    "start_time_mmss": "85:30",
+    "end_time_mmss": "87:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

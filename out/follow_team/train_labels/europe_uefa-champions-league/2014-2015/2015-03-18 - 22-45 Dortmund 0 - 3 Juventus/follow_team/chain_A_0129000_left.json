@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7499,
+  "video_id": "00aa2eb9-e5d3-560a-960e-d3a640629ee0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 129.0,
+      "end": 129.0,
+      "text": "Trigger: Shots on target by left @ 1 - 02:09"
+    },
+    {
+      "start": 130.0,
+      "end": 130.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 129000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/segment_000080_000140.json",
+  "segment_meta": {
+    "start_seconds": 80,
+    "end_seconds": 140,
+    "length_seconds": 60,
+    "start_time_mmss": "01:20",
+    "end_time_mmss": "02:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

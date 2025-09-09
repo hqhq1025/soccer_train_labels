@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3594,
+  "video_id": "cc361ec9-fd38-5e58-bbfb-686f879953c1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 5381.0,
+      "end": 5381.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 5405.0,
+      "end": 5405.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5381000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/segment_005300_005420.json",
+  "segment_meta": {
+    "start_seconds": 5300,
+    "end_seconds": 5420,
+    "length_seconds": 120,
+    "start_time_mmss": "88:20",
+    "end_time_mmss": "90:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

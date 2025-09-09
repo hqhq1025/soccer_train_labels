@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22610,
+  "video_id": "8e88db58-f261-5a69-b240-08cfa879fbbc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Corner}.",
+  "answer": [
+    {
+      "start": 557.0,
+      "end": 557.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 598.0,
+      "end": 598.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 557000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_000490_000610.json",
+  "segment_meta": {
+    "start_seconds": 490,
+    "end_seconds": 610,
+    "length_seconds": 120,
+    "start_time_mmss": "08:10",
+    "end_time_mmss": "10:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

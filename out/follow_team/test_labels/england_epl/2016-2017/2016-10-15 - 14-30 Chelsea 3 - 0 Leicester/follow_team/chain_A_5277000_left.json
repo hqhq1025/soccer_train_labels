@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8749,
+  "video_id": "fdba8e8f-4099-5d18-a977-67744a98a235",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Throw-in and Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 5277.0,
+      "end": 5277.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 5315.0,
+      "end": 5315.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 5348.0,
+      "end": 5348.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5277000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/segment_005250_005350.json",
+  "segment_meta": {
+    "start_seconds": 5250,
+    "end_seconds": 5350,
+    "length_seconds": 100,
+    "start_time_mmss": "87:30",
+    "end_time_mmss": "89:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3619,
+  "video_id": "486ce5bd-016a-5458-af5b-f09a500f1adb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 580.0,
+      "end": 580.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 09:40"
+    },
+    {
+      "start": 595.0,
+      "end": 595.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 580000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_000500_000620.json",
+  "segment_meta": {
+    "start_seconds": 500,
+    "end_seconds": 620,
+    "length_seconds": 120,
+    "start_time_mmss": "08:20",
+    "end_time_mmss": "10:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

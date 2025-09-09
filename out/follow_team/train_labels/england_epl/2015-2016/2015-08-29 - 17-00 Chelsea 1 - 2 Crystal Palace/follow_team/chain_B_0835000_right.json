@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22514,
+  "video_id": "4b1b00dc-e334-5e11-b4b9-540da367462d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 835.0,
+      "end": 835.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 843.0,
+      "end": 843.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 835000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_000730_000850.json",
+  "segment_meta": {
+    "start_seconds": 730,
+    "end_seconds": 850,
+    "length_seconds": 120,
+    "start_time_mmss": "12:10",
+    "end_time_mmss": "14:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

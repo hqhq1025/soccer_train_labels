@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15501,
+  "video_id": "803eb55a-07be-5596-ae8b-a13f46b3d85b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Shots off target}.",
+  "answer": [
+    {
+      "start": 3595.0,
+      "end": 3595.0,
+      "text": "Trigger: Direct free-kick by left @ 2 - 14:55"
+    },
+    {
+      "start": 3616.0,
+      "end": 3616.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3595000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/segment_003500_003620.json",
+  "segment_meta": {
+    "start_seconds": 3500,
+    "end_seconds": 3620,
+    "length_seconds": 120,
+    "start_time_mmss": "58:20",
+    "end_time_mmss": "60:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

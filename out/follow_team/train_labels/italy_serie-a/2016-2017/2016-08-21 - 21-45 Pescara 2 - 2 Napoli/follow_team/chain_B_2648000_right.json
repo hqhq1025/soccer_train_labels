@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20812,
+  "video_id": "341d46c7-ae6d-5a33-8d46-e10b3ccd7db5",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Corner}.",
+  "answer": [
+    {
+      "start": 2648.0,
+      "end": 2648.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2674.0,
+      "end": 2674.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2648000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/segment_002590_002710.json",
+  "segment_meta": {
+    "start_seconds": 2590,
+    "end_seconds": 2710,
+    "length_seconds": 120,
+    "start_time_mmss": "43:10",
+    "end_time_mmss": "45:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

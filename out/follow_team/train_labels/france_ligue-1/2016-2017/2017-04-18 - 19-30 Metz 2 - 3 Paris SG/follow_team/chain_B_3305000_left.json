@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 628,
+  "video_id": "a878bf06-afe6-5e8e-9020-78c2a82d6533",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Throw-in}; then follow that team and report its {Foul}.",
+  "answer": [
+    {
+      "start": 3305.0,
+      "end": 3305.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3308.0,
+      "end": 3308.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3305000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/segment_003300_003340.json",
+  "segment_meta": {
+    "start_seconds": 3300,
+    "end_seconds": 3340,
+    "length_seconds": 40,
+    "start_time_mmss": "55:00",
+    "end_time_mmss": "55:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

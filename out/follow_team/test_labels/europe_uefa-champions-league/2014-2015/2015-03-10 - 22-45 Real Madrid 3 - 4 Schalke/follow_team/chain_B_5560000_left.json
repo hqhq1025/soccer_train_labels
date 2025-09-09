@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2264,
+  "video_id": "033e1eec-4837-503a-b9b6-1ed423c60df1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
+  "answer": [
+    {
+      "start": 5560.0,
+      "end": 5560.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 5576.0,
+      "end": 5576.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5560000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/segment_005460_005580.json",
+  "segment_meta": {
+    "start_seconds": 5460,
+    "end_seconds": 5580,
+    "length_seconds": 120,
+    "start_time_mmss": "91:00",
+    "end_time_mmss": "93:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

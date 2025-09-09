@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14352,
+  "video_id": "8bab4698-ccd3-5943-a10f-8a557774a214",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 1005.0,
+      "end": 1005.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 1006.0,
+      "end": 1006.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1005000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/segment_000970_001090.json",
+  "segment_meta": {
+    "start_seconds": 970,
+    "end_seconds": 1090,
+    "length_seconds": 120,
+    "start_time_mmss": "16:10",
+    "end_time_mmss": "18:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

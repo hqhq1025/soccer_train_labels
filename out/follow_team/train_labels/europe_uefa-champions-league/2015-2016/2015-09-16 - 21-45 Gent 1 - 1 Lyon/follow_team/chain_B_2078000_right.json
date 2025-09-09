@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6082,
+  "video_id": "2f3bc8e3-8f37-5638-991f-fba4160a0034",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Throw-in}.",
+  "answer": [
+    {
+      "start": 2078.0,
+      "end": 2078.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 2091.0,
+      "end": 2091.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2078000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_001990_002110.json",
+  "segment_meta": {
+    "start_seconds": 1990,
+    "end_seconds": 2110,
+    "length_seconds": 120,
+    "start_time_mmss": "33:10",
+    "end_time_mmss": "35:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14465,
+  "video_id": "1ed9d112-56e1-5436-ba6e-079d2bbc5635",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Shots on target, Corner and Shots off target}.",
+  "answer": [
+    {
+      "start": 5246.0,
+      "end": 5246.0,
+      "text": "Trigger: Foul by right @ 2 - 42:26"
+    },
+    {
+      "start": 5280.0,
+      "end": 5280.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 5306.0,
+      "end": 5306.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 5312.0,
+      "end": 5312.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5246000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-05 - 22-30 Leganes 2 - 4 Real Madrid/segment_005210_005330.json",
+  "segment_meta": {
+    "start_seconds": 5210,
+    "end_seconds": 5330,
+    "length_seconds": 120,
+    "start_time_mmss": "86:50",
+    "end_time_mmss": "88:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

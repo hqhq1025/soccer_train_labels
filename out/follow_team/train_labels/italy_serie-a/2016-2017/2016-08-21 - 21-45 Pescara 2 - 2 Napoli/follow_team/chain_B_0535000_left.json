@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20852,
+  "video_id": "0d8d8583-211d-5f4a-9b95-4dba3a266e7f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Clearance} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 535.0,
+      "end": 535.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 552.0,
+      "end": 552.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 535000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/segment_000480_000560.json",
+  "segment_meta": {
+    "start_seconds": 480,
+    "end_seconds": 560,
+    "length_seconds": 80,
+    "start_time_mmss": "08:00",
+    "end_time_mmss": "09:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

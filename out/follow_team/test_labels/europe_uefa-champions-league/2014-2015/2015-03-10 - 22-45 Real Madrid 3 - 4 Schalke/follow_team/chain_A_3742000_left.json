@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2281,
+  "video_id": "32095453-e6c5-589f-8422-6c9dd0e823d9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Shots off target}.",
+  "answer": [
+    {
+      "start": 3742.0,
+      "end": 3742.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3815.0,
+      "end": 3815.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3742000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/segment_003720_003820.json",
+  "segment_meta": {
+    "start_seconds": 3720,
+    "end_seconds": 3820,
+    "length_seconds": 100,
+    "start_time_mmss": "62:00",
+    "end_time_mmss": "63:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

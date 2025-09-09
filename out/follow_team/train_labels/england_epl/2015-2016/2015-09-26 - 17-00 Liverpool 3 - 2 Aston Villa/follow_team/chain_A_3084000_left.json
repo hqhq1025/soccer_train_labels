@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21055,
+  "video_id": "ad4867d3-30c5-5866-8c81-40fea0d5fa7c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner and Shots on target}.",
+  "answer": [
+    {
+      "start": 3084.0,
+      "end": 3084.0,
+      "text": "Trigger: Shots on target by left @ 2 - 06:24"
+    },
+    {
+      "start": 3114.0,
+      "end": 3114.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 3117.0,
+      "end": 3117.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3084000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/segment_003050_003170.json",
+  "segment_meta": {
+    "start_seconds": 3050,
+    "end_seconds": 3170,
+    "length_seconds": 120,
+    "start_time_mmss": "50:50",
+    "end_time_mmss": "52:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

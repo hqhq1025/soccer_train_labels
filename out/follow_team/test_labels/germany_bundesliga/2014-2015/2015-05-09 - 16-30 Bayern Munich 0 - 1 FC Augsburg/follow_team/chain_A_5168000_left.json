@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 455,
+  "video_id": "60f4ca11-3c87-5339-b6f9-7220c806845b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots off target} it makes.",
+  "answer": [
+    {
+      "start": 5168.0,
+      "end": 5168.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 5221.0,
+      "end": 5221.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5168000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_005130_005230.json",
+  "segment_meta": {
+    "start_seconds": 5130,
+    "end_seconds": 5230,
+    "length_seconds": 100,
+    "start_time_mmss": "85:30",
+    "end_time_mmss": "87:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

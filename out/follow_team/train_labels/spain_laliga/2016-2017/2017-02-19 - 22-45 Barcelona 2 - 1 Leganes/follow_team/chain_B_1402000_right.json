@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14676,
+  "video_id": "027ddd89-1f37-55fc-a775-2548d335412a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 1402.0,
+      "end": 1402.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 1429.0,
+      "end": 1429.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1402000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/segment_001310_001430.json",
+  "segment_meta": {
+    "start_seconds": 1310,
+    "end_seconds": 1430,
+    "length_seconds": 120,
+    "start_time_mmss": "21:50",
+    "end_time_mmss": "23:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

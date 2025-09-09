@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13935,
+  "video_id": "af4803b2-9988-53e5-ba0e-a0001aa2ef48",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Offside}.",
+  "answer": [
+    {
+      "start": 3251.0,
+      "end": 3251.0,
+      "text": "Trigger: Throw-in by right @ 2 - 09:11"
+    },
+    {
+      "start": 3267.0,
+      "end": 3267.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3251000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-02 - 21-45 Granada CF 1 - 4 Barcelona/segment_003210_003330.json",
+  "segment_meta": {
+    "start_seconds": 3210,
+    "end_seconds": 3330,
+    "length_seconds": 120,
+    "start_time_mmss": "53:30",
+    "end_time_mmss": "55:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

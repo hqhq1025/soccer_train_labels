@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7814,
+  "video_id": "cdd459fe-8b41-503a-943a-9efb35a805fa",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 1350.0,
+      "end": 1350.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 1363.0,
+      "end": 1363.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1350000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/segment_001310_001390.json",
+  "segment_meta": {
+    "start_seconds": 1310,
+    "end_seconds": 1390,
+    "length_seconds": 80,
+    "start_time_mmss": "21:50",
+    "end_time_mmss": "23:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

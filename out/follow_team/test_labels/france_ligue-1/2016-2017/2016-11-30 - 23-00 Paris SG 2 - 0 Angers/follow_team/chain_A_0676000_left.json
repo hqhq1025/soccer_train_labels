@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7,
+  "video_id": "29094154-390a-55d8-84bf-5bc90b152559",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Offside}.",
+  "answer": [
+    {
+      "start": 676.0,
+      "end": 676.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 679.0,
+      "end": 679.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/",
+  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 676000,
+  "team": "left",
+  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/segment_000620_000680.json",
+  "segment_meta": {
+    "start_seconds": 620,
+    "end_seconds": 680,
+    "length_seconds": 60,
+    "start_time_mmss": "10:20",
+    "end_time_mmss": "11:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

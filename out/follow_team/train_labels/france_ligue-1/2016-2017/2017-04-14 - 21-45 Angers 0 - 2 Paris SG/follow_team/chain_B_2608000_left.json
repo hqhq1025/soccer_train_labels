@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 852,
+  "video_id": "9f0654a6-183c-5c43-953c-8367ab2abca1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 2608.0,
+      "end": 2608.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2624.0,
+      "end": 2624.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2608000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/segment_002530_002630.json",
+  "segment_meta": {
+    "start_seconds": 2530,
+    "end_seconds": 2630,
+    "length_seconds": 100,
+    "start_time_mmss": "42:10",
+    "end_time_mmss": "43:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

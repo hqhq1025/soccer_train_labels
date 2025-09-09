@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13990,
+  "video_id": "691fa302-7e0a-5223-a4b7-3a137234d0ae",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots off target} happen.",
+  "answer": [
+    {
+      "start": 1585.0,
+      "end": 1585.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 1587.0,
+      "end": 1587.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1585000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/segment_001480_001600.json",
+  "segment_meta": {
+    "start_seconds": 1480,
+    "end_seconds": 1600,
+    "length_seconds": 120,
+    "start_time_mmss": "24:40",
+    "end_time_mmss": "26:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

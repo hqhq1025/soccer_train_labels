@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19618,
+  "video_id": "49b76092-95cd-56a4-b791-d91b39c91bf7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "answer": [
+    {
+      "start": 583.0,
+      "end": 583.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 588.0,
+      "end": 588.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 583000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/segment_000510_000590.json",
+  "segment_meta": {
+    "start_seconds": 510,
+    "end_seconds": 590,
+    "length_seconds": 80,
+    "start_time_mmss": "08:30",
+    "end_time_mmss": "09:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

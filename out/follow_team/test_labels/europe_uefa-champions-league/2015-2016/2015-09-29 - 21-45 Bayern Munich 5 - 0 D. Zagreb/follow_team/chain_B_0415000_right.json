@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1698,
+  "video_id": "911558cc-76cf-5421-9083-4919a76a8bf6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 415.0,
+      "end": 415.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 438.0,
+      "end": 438.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 415000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/segment_000380_000440.json",
+  "segment_meta": {
+    "start_seconds": 380,
+    "end_seconds": 440,
+    "length_seconds": 60,
+    "start_time_mmss": "06:20",
+    "end_time_mmss": "07:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

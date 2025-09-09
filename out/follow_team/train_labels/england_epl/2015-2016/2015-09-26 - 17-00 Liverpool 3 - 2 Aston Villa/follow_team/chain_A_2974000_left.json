@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21045,
+  "video_id": "f37efc86-48be-5319-aafa-00fe10edc49c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 2974.0,
+      "end": 2974.0,
+      "text": "Trigger: Corner by left @ 2 - 04:34"
+    },
+    {
+      "start": 2983.0,
+      "end": 2983.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2974000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/segment_002950_003050.json",
+  "segment_meta": {
+    "start_seconds": 2950,
+    "end_seconds": 3050,
+    "length_seconds": 100,
+    "start_time_mmss": "49:10",
+    "end_time_mmss": "50:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

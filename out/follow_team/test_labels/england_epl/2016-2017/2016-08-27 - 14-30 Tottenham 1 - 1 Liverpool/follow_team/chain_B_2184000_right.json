@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8562,
+  "video_id": "0b9943ff-d218-5bb6-87c4-8c16db4beb9c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 2184.0,
+      "end": 2184.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 2221.0,
+      "end": 2221.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2184000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/segment_002150_002270.json",
+  "segment_meta": {
+    "start_seconds": 2150,
+    "end_seconds": 2270,
+    "length_seconds": 120,
+    "start_time_mmss": "35:50",
+    "end_time_mmss": "37:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

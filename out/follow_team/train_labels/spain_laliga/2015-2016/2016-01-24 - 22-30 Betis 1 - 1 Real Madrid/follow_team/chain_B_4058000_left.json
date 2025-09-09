@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10672,
+  "video_id": "6c06fdda-a9e3-53e4-9c7c-b75194c0bb83",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots off target}.",
+  "answer": [
+    {
+      "start": 4058.0,
+      "end": 4058.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4156.0,
+      "end": 4156.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4058000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/segment_004040_004160.json",
+  "segment_meta": {
+    "start_seconds": 4040,
+    "end_seconds": 4160,
+    "length_seconds": 120,
+    "start_time_mmss": "67:20",
+    "end_time_mmss": "69:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

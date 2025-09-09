@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14240,
+  "video_id": "7ff84955-dd99-521a-8c9a-c7f00cc8ae96",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 3030.0,
+      "end": 3030.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 3035.0,
+      "end": 3035.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-19 - 18-15 Barcelona 0 - 0 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-19 - 18-15 Barcelona 0 - 0 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3030000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-19 - 18-15 Barcelona 0 - 0 Malaga/segment_002940_003040.json",
+  "segment_meta": {
+    "start_seconds": 2940,
+    "end_seconds": 3040,
+    "length_seconds": 100,
+    "start_time_mmss": "49:00",
+    "end_time_mmss": "50:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

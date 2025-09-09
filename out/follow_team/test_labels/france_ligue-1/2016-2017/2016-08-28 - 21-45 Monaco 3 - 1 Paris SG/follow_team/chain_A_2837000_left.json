@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 79,
+  "video_id": "01033157-292c-5f0d-a9c5-48c1eaf39355",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Kick-off} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 2837.0,
+      "end": 2837.0,
+      "text": "Trigger: Kick-off by left"
+    },
+    {
+      "start": 2822.0,
+      "end": 2822.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2837000,
+  "team": "left",
+  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/segment_002730_002850.json",
+  "segment_meta": {
+    "start_seconds": 2730,
+    "end_seconds": 2850,
+    "length_seconds": 120,
+    "start_time_mmss": "45:30",
+    "end_time_mmss": "47:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

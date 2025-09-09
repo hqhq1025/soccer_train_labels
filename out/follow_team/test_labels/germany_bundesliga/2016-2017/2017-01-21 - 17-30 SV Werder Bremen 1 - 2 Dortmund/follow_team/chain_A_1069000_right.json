@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1173,
+  "video_id": "0d15196d-ce7c-59ff-bbec-d2440100ffcb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Yellow card}.",
+  "answer": [
+    {
+      "start": 1069.0,
+      "end": 1069.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 1084.0,
+      "end": 1084.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1069000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/segment_001030_001090.json",
+  "segment_meta": {
+    "start_seconds": 1030,
+    "end_seconds": 1090,
+    "length_seconds": 60,
+    "start_time_mmss": "17:10",
+    "end_time_mmss": "18:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

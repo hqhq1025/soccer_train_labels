@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6830,
+  "video_id": "dba6cca9-701e-5b0e-a598-3f746cabb096",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 2496.0,
+      "end": 2496.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 2521.0,
+      "end": 2521.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2496000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/segment_002420_002540.json",
+  "segment_meta": {
+    "start_seconds": 2420,
+    "end_seconds": 2540,
+    "length_seconds": 120,
+    "start_time_mmss": "40:20",
+    "end_time_mmss": "42:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

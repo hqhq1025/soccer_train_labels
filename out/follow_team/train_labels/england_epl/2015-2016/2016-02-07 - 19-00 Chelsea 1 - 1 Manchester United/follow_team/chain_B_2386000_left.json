@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22414,
+  "video_id": "45c99b98-36c1-599a-9dea-d7a011b76302",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, continue tracking that team and notify me about any {Shots off target}.",
+  "answer": [
+    {
+      "start": 2386.0,
+      "end": 2386.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 2387.0,
+      "end": 2387.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2386000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/segment_002330_002390.json",
+  "segment_meta": {
+    "start_seconds": 2330,
+    "end_seconds": 2390,
+    "length_seconds": 60,
+    "start_time_mmss": "38:50",
+    "end_time_mmss": "39:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

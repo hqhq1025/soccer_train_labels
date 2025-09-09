@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24250,
+  "video_id": "af43e14b-97dc-52bd-acee-3a45f986fbc6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 671.0,
+      "end": 671.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 722.0,
+      "end": 722.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 671000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/segment_000630_000730.json",
+  "segment_meta": {
+    "start_seconds": 630,
+    "end_seconds": 730,
+    "length_seconds": 100,
+    "start_time_mmss": "10:30",
+    "end_time_mmss": "12:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 877,
+  "video_id": "8fe0e429-0c9f-5bcb-85d7-64355796cef3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Throw-in and Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3386.0,
+      "end": 3386.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 3403.0,
+      "end": 3403.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 3482.0,
+      "end": 3482.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3386000,
+  "team": "left",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/segment_003380_003500.json",
+  "segment_meta": {
+    "start_seconds": 3380,
+    "end_seconds": 3500,
+    "length_seconds": 120,
+    "start_time_mmss": "56:20",
+    "end_time_mmss": "58:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

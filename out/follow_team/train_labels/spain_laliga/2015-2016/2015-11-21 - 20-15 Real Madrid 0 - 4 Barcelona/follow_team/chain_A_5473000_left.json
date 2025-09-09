@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10553,
+  "video_id": "e39331b2-6942-5ef7-a938-58383da6560d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 5473.0,
+      "end": 5473.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 46:13"
+    },
+    {
+      "start": 5483.0,
+      "end": 5483.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 5489.0,
+      "end": 5489.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5473000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/segment_005400_005490.json",
+  "segment_meta": {
+    "start_seconds": 5400,
+    "end_seconds": 5490,
+    "length_seconds": 90,
+    "start_time_mmss": "90:00",
+    "end_time_mmss": "91:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

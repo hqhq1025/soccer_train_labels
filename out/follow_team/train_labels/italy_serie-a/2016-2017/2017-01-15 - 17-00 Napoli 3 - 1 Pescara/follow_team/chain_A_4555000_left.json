@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18715,
+  "video_id": "436510be-1bfd-564c-a287-eaf9e9dbe359",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Offside, Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 4555.0,
+      "end": 4555.0,
+      "text": "Trigger: Throw-in by left @ 2 - 30:55"
+    },
+    {
+      "start": 4566.0,
+      "end": 4566.0,
+      "text": "Then: Offside by left"
+    },
+    {
+      "start": 4603.0,
+      "end": 4603.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 4620.0,
+      "end": 4620.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4555000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/segment_004520_004640.json",
+  "segment_meta": {
+    "start_seconds": 4520,
+    "end_seconds": 4640,
+    "length_seconds": 120,
+    "start_time_mmss": "75:20",
+    "end_time_mmss": "77:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

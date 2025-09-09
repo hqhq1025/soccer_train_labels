@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18873,
+  "video_id": "9717fa79-90cf-59bd-b743-39c888b91464",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 3432.0,
+      "end": 3432.0,
+      "text": "Trigger: Shots on target by right @ 2 - 12:12"
+    },
+    {
+      "start": 3438.0,
+      "end": 3438.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3432000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/segment_003400_003440.json",
+  "segment_meta": {
+    "start_seconds": 3400,
+    "end_seconds": 3440,
+    "length_seconds": 40,
+    "start_time_mmss": "56:40",
+    "end_time_mmss": "57:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2,
+  "video_id": "56dc841c-2c4d-5f6a-b232-ac2dc8d2a83b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 4935.0,
+      "end": 4935.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 4944.0,
+      "end": 4944.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/",
+  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4935000,
+  "team": "right",
+  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/segment_004880_004980.json",
+  "segment_meta": {
+    "start_seconds": 4880,
+    "end_seconds": 4980,
+    "length_seconds": 100,
+    "start_time_mmss": "81:20",
+    "end_time_mmss": "83:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

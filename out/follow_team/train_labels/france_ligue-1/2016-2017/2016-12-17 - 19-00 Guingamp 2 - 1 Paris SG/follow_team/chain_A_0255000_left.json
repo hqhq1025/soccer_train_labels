@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 909,
+  "video_id": "68ffb8fe-5bde-5f79-8470-3479af781210",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 255.0,
+      "end": 255.0,
+      "text": "Trigger: Corner by left @ 1 - 04:15"
+    },
+    {
+      "start": 257.0,
+      "end": 257.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 255000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/segment_000220_000260.json",
+  "segment_meta": {
+    "start_seconds": 220,
+    "end_seconds": 260,
+    "length_seconds": 40,
+    "start_time_mmss": "03:40",
+    "end_time_mmss": "04:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

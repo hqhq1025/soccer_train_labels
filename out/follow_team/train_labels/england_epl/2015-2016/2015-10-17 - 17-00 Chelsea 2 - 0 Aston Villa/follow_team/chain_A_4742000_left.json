@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21791,
+  "video_id": "5144599b-7a28-5478-8f04-359813e1535c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 4742.0,
+      "end": 4742.0,
+      "text": "Trigger: Foul by left @ 2 - 34:02"
+    },
+    {
+      "start": 4793.0,
+      "end": 4793.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4742000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/segment_004720_004800.json",
+  "segment_meta": {
+    "start_seconds": 4720,
+    "end_seconds": 4800,
+    "length_seconds": 80,
+    "start_time_mmss": "78:40",
+    "end_time_mmss": "80:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

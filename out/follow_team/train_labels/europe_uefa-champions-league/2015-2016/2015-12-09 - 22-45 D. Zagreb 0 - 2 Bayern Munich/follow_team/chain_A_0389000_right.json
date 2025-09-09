@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5811,
+  "video_id": "8e997cd6-1a31-5561-b018-33ef8c8bb14e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, continue tracking that team and notify me about any {Shots on target and Offside}.",
+  "answer": [
+    {
+      "start": 389.0,
+      "end": 389.0,
+      "text": "Trigger: Corner by right @ 1 - 06:29"
+    },
+    {
+      "start": 393.0,
+      "end": 393.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 423.0,
+      "end": 423.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 389000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/segment_000370_000430.json",
+  "segment_meta": {
+    "start_seconds": 370,
+    "end_seconds": 430,
+    "length_seconds": 60,
+    "start_time_mmss": "06:10",
+    "end_time_mmss": "07:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

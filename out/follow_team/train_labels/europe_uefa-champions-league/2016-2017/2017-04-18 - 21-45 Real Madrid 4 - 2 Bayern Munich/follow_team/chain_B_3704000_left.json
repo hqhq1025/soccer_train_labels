@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 9094,
+  "video_id": "2086726e-b9d7-5ca3-a3e4-a9ad8595ffcb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots off target}.",
+  "answer": [
+    {
+      "start": 3704.0,
+      "end": 3704.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 3738.0,
+      "end": 3738.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3704000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/segment_003660_003740.json",
+  "segment_meta": {
+    "start_seconds": 3660,
+    "end_seconds": 3740,
+    "length_seconds": 80,
+    "start_time_mmss": "61:00",
+    "end_time_mmss": "62:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15747,
+  "video_id": "b108de80-1065-518a-b7c8-5abf58459562",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 3601.0,
+      "end": 3601.0,
+      "text": "Trigger: Foul by right @ 2 - 15:01"
+    },
+    {
+      "start": 3679.0,
+      "end": 3679.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3601000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_003580_003680.json",
+  "segment_meta": {
+    "start_seconds": 3580,
+    "end_seconds": 3680,
+    "length_seconds": 100,
+    "start_time_mmss": "59:40",
+    "end_time_mmss": "61:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

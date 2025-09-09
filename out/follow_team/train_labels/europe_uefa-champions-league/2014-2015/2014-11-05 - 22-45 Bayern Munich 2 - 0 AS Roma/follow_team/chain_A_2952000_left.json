@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8469,
+  "video_id": "de385cd3-4b4b-5162-89b9-6f883ce79b94",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 2952.0,
+      "end": 2952.0,
+      "text": "Trigger: Foul by left @ 2 - 04:12"
+    },
+    {
+      "start": 2995.0,
+      "end": 2995.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2952000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/segment_002900_003000.json",
+  "segment_meta": {
+    "start_seconds": 2900,
+    "end_seconds": 3000,
+    "length_seconds": 100,
+    "start_time_mmss": "48:20",
+    "end_time_mmss": "50:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

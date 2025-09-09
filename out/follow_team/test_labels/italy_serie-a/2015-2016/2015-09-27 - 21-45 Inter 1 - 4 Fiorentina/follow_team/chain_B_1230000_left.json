@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5218,
+  "video_id": "8dcc596d-bfb4-530c-8038-fe954b31a29b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "answer": [
+    {
+      "start": 1230.0,
+      "end": 1230.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 1232.0,
+      "end": 1232.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1230000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/segment_001180_001240.json",
+  "segment_meta": {
+    "start_seconds": 1180,
+    "end_seconds": 1240,
+    "length_seconds": 60,
+    "start_time_mmss": "19:40",
+    "end_time_mmss": "20:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

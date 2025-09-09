@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19490,
+  "video_id": "685cccbf-f42e-558c-9356-57e41fa70af3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "answer": [
+    {
+      "start": 1185.0,
+      "end": 1185.0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 1214.0,
+      "end": 1214.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1185000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/segment_001150_001270.json",
+  "segment_meta": {
+    "start_seconds": 1150,
+    "end_seconds": 1270,
+    "length_seconds": 120,
+    "start_time_mmss": "19:10",
+    "end_time_mmss": "21:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

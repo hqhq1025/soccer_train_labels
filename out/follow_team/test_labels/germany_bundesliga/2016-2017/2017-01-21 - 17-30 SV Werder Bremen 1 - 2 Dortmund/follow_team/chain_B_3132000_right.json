@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1168,
+  "video_id": "1639b0d7-ed7c-5aca-8d35-0245fc458dfc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Clearance}.",
+  "answer": [
+    {
+      "start": 3132.0,
+      "end": 3132.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 3167.0,
+      "end": 3167.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3132000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/segment_003110_003170.json",
+  "segment_meta": {
+    "start_seconds": 3110,
+    "end_seconds": 3170,
+    "length_seconds": 60,
+    "start_time_mmss": "51:50",
+    "end_time_mmss": "52:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

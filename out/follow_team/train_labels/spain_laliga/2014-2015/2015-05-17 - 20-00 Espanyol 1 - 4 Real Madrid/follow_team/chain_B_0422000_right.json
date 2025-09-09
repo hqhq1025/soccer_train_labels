@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11652,
+  "video_id": "a96b0b85-46a0-5c7a-ae4b-26564d3fd7b9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Corner} it makes.",
+  "answer": [
+    {
+      "start": 422.0,
+      "end": 422.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 444.0,
+      "end": 444.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 422000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/segment_000380_000460.json",
+  "segment_meta": {
+    "start_seconds": 380,
+    "end_seconds": 460,
+    "length_seconds": 80,
+    "start_time_mmss": "06:20",
+    "end_time_mmss": "07:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

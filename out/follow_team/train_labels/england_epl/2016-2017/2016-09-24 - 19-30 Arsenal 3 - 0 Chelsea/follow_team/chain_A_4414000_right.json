@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25129,
+  "video_id": "832617ff-49f4-5367-aaf1-2dbeb203db72",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Offside}.",
+  "answer": [
+    {
+      "start": 4414.0,
+      "end": 4414.0,
+      "text": "Trigger: Corner by right @ 2 - 28:34"
+    },
+    {
+      "start": 4421.0,
+      "end": 4421.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4414000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/segment_004390_004430.json",
+  "segment_meta": {
+    "start_seconds": 4390,
+    "end_seconds": 4430,
+    "length_seconds": 40,
+    "start_time_mmss": "73:10",
+    "end_time_mmss": "73:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

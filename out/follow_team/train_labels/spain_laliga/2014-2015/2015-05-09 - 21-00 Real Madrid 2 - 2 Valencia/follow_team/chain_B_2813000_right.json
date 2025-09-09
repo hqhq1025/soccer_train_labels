@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11546,
+  "video_id": "f2e4f2ce-00a3-5c2f-8686-8d2f4507059b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 2813.0,
+      "end": 2813.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2845.0,
+      "end": 2845.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2813000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/segment_002800_002860.json",
+  "segment_meta": {
+    "start_seconds": 2800,
+    "end_seconds": 2860,
+    "length_seconds": 60,
+    "start_time_mmss": "46:40",
+    "end_time_mmss": "47:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

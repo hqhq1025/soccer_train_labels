@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16962,
+  "video_id": "36002fff-e813-5303-a08a-cce5df5d0df6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Clearance}.",
+  "answer": [
+    {
+      "start": 496.0,
+      "end": 496.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 535.0,
+      "end": 535.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 496000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/segment_000440_000560.json",
+  "segment_meta": {
+    "start_seconds": 440,
+    "end_seconds": 560,
+    "length_seconds": 120,
+    "start_time_mmss": "07:20",
+    "end_time_mmss": "09:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 218,
+  "video_id": "f6c40e03-de9c-5439-9db2-c11ae7b37d8e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 4035.0,
+      "end": 4035.0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 4054.0,
+      "end": 4054.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4035000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/segment_003960_004080.json",
+  "segment_meta": {
+    "start_seconds": 3960,
+    "end_seconds": 4080,
+    "length_seconds": 120,
+    "start_time_mmss": "66:00",
+    "end_time_mmss": "68:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7787,
+  "video_id": "acfbda5c-d97b-527d-b53f-0877fd236958",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Shots off target}.",
+  "answer": [
+    {
+      "start": 3781.0,
+      "end": 3781.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 3784.0,
+      "end": 3784.0,
+      "text": "Then: Shots off target by left"
+    },
+    {
+      "start": 3821.0,
+      "end": 3821.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3781000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/segment_003730_003850.json",
+  "segment_meta": {
+    "start_seconds": 3730,
+    "end_seconds": 3850,
+    "length_seconds": 120,
+    "start_time_mmss": "62:10",
+    "end_time_mmss": "64:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

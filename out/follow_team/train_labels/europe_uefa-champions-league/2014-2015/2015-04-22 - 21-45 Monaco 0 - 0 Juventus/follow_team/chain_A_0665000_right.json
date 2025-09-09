@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8277,
+  "video_id": "35c71cbe-c619-5948-8b0e-4caafb6e6252",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 665.0,
+      "end": 665.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 11:05"
+    },
+    {
+      "start": 729.0,
+      "end": 729.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 665000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/segment_000640_000760.json",
+  "segment_meta": {
+    "start_seconds": 640,
+    "end_seconds": 760,
+    "length_seconds": 120,
+    "start_time_mmss": "10:40",
+    "end_time_mmss": "12:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24267,
+  "video_id": "497305aa-23cd-5251-94ce-0d97f0f308a0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Throw-in}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "text": "Trigger: Throw-in by right @ 1 - 00:23"
+    },
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 23000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/segment_000000_000080.json",
+  "segment_meta": {
+    "start_seconds": 0,
+    "end_seconds": 80,
+    "length_seconds": 80,
+    "start_time_mmss": "00:00",
+    "end_time_mmss": "01:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

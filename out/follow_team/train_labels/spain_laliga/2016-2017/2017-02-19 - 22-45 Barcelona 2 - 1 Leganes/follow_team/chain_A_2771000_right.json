@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14623,
+  "video_id": "a7e35acf-3275-55e0-af96-16ccebd2c88a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Direct free-kick, Shots off target and Corner}.",
+  "answer": [
+    {
+      "start": 2771.0,
+      "end": 2771.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 01:11"
+    },
+    {
+      "start": 2819.0,
+      "end": 2819.0,
+      "text": "Then: Direct free-kick by right"
+    },
+    {
+      "start": 2822.0,
+      "end": 2822.0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 2848.0,
+      "end": 2848.0,
+      "text": "Then: Corner by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2771000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/segment_002740_002860.json",
+  "segment_meta": {
+    "start_seconds": 2740,
+    "end_seconds": 2860,
+    "length_seconds": 120,
+    "start_time_mmss": "45:40",
+    "end_time_mmss": "47:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

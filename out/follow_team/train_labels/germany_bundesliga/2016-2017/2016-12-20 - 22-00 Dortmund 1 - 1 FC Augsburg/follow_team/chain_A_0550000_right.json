@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3549,
+  "video_id": "789f2a97-4a23-5d92-bbf2-a4a237ff419e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Throw-in and Foul} it makes.",
+  "answer": [
+    {
+      "start": 550.0,
+      "end": 550.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 09:10"
+    },
+    {
+      "start": 561.0,
+      "end": 561.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 636.0,
+      "end": 636.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 646.0,
+      "end": 646.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 550000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_000530_000650.json",
+  "segment_meta": {
+    "start_seconds": 530,
+    "end_seconds": 650,
+    "length_seconds": 120,
+    "start_time_mmss": "08:50",
+    "end_time_mmss": "10:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

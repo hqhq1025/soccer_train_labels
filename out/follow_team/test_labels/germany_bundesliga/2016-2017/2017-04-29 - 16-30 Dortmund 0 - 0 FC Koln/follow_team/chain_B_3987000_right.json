@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 756,
+  "video_id": "1ca3a39d-cf97-5a7b-9acd-0272a3dfe068",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 3987.0,
+      "end": 3987.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 4006.0,
+      "end": 4006.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3987000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/segment_003950_004050.json",
+  "segment_meta": {
+    "start_seconds": 3950,
+    "end_seconds": 4050,
+    "length_seconds": 100,
+    "start_time_mmss": "65:50",
+    "end_time_mmss": "67:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

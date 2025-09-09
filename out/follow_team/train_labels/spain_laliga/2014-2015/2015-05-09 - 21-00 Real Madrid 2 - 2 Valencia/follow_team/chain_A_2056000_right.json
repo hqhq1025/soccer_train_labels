@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11599,
+  "video_id": "d33cb50e-61d5-592f-b8c4-bd13efad065e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 2056.0,
+      "end": 2056.0,
+      "text": "Trigger: Indirect free-kick by right @ 1 - 34:16"
+    },
+    {
+      "start": 2080.0,
+      "end": 2080.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2056000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/segment_002030_002090.json",
+  "segment_meta": {
+    "start_seconds": 2030,
+    "end_seconds": 2090,
+    "length_seconds": 60,
+    "start_time_mmss": "33:50",
+    "end_time_mmss": "34:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

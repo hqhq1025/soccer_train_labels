@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20,
+  "video_id": "dbccb93a-9ff0-5c7e-b639-c4d56ddc00ae",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 3391.0,
+      "end": 3391.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3411.0,
+      "end": 3411.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3391000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/segment_003360_003480.json",
+  "segment_meta": {
+    "start_seconds": 3360,
+    "end_seconds": 3480,
+    "length_seconds": 120,
+    "start_time_mmss": "56:00",
+    "end_time_mmss": "58:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

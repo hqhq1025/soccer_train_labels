@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3391,
+  "video_id": "be68ebdf-8dd8-5a4e-9e68-4d80768bcdee",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Clearance} occurs, follow the initiating team and report all {Throw-in and Foul}.",
+  "answer": [
+    {
+      "start": 2876.0,
+      "end": 2876.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 2910.0,
+      "end": 2910.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 2962.0,
+      "end": 2962.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2876000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/segment_002860_002980.json",
+  "segment_meta": {
+    "start_seconds": 2860,
+    "end_seconds": 2980,
+    "length_seconds": 120,
+    "start_time_mmss": "47:40",
+    "end_time_mmss": "49:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

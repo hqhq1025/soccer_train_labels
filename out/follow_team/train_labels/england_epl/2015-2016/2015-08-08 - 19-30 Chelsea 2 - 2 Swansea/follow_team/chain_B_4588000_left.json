@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22696,
+  "video_id": "a59fa547-c68c-5d01-bf1a-d1119eec0547",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 4588.0,
+      "end": 4588.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 4626.0,
+      "end": 4626.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4588000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/segment_004530_004650.json",
+  "segment_meta": {
+    "start_seconds": 4530,
+    "end_seconds": 4650,
+    "length_seconds": 120,
+    "start_time_mmss": "75:30",
+    "end_time_mmss": "77:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25349,
+  "video_id": "56183b02-d0c2-5cb7-ba47-14a175c362b8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Throw-in}.",
+  "answer": [
+    {
+      "start": 1560.0,
+      "end": 1560.0,
+      "text": "Trigger: Indirect free-kick by left @ 1 - 26:00"
+    },
+    {
+      "start": 1579.0,
+      "end": 1579.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1560000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_001510_001630.json",
+  "segment_meta": {
+    "start_seconds": 1510,
+    "end_seconds": 1630,
+    "length_seconds": 120,
+    "start_time_mmss": "25:10",
+    "end_time_mmss": "27:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

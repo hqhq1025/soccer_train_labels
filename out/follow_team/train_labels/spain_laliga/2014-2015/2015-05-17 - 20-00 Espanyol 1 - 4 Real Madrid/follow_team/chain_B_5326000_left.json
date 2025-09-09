@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11632,
+  "video_id": "70b69028-1168-5ea6-9360-73949e8991d4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots off target}, stick with that team and alert me for {Goal}.",
+  "answer": [
+    {
+      "start": 5326.0,
+      "end": 5326.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 5404.0,
+      "end": 5404.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5326000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/segment_005300_005410.json",
+  "segment_meta": {
+    "start_seconds": 5300,
+    "end_seconds": 5410,
+    "length_seconds": 110,
+    "start_time_mmss": "88:20",
+    "end_time_mmss": "90:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2229,
+  "video_id": "70984bf3-fc2b-5e08-bffc-3ec5524c1761",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Corner and Throw-in}.",
+  "answer": [
+    {
+      "start": 3101.0,
+      "end": 3101.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 3162.0,
+      "end": 3162.0,
+      "text": "Then: Corner by left"
+    },
+    {
+      "start": 3189.0,
+      "end": 3189.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3101000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-15 - 21-45 FC Porto 3 - 1 Bayern Munich/segment_003070_003190.json",
+  "segment_meta": {
+    "start_seconds": 3070,
+    "end_seconds": 3190,
+    "length_seconds": 120,
+    "start_time_mmss": "51:10",
+    "end_time_mmss": "53:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

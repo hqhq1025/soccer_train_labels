@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18739,
+  "video_id": "c59aa192-01d4-56c7-9029-af43cc942638",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, keep following that team and alert me whenever {Shots on target and Goal} happen.",
+  "answer": [
+    {
+      "start": 2778.0,
+      "end": 2778.0,
+      "text": "Trigger: Direct free-kick by right @ 2 - 01:18"
+    },
+    {
+      "start": 2779.0,
+      "end": 2779.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 2780.0,
+      "end": 2780.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2778000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/segment_002710_002790.json",
+  "segment_meta": {
+    "start_seconds": 2710,
+    "end_seconds": 2790,
+    "length_seconds": 80,
+    "start_time_mmss": "45:10",
+    "end_time_mmss": "46:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17457,
+  "video_id": "edbb665f-7e5f-5cc8-91b8-2f973ebcc6e9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4100.0,
+      "end": 4100.0,
+      "text": "Trigger: Throw-in by right @ 2 - 23:20"
+    },
+    {
+      "start": 4122.0,
+      "end": 4122.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4100000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/segment_004040_004140.json",
+  "segment_meta": {
+    "start_seconds": 4040,
+    "end_seconds": 4140,
+    "length_seconds": 100,
+    "start_time_mmss": "67:20",
+    "end_time_mmss": "69:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

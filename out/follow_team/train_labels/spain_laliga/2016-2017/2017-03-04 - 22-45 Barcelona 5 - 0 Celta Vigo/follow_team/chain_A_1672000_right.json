@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12021,
+  "video_id": "933e3366-1c5f-51d0-a712-be66d6704f3d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 1672.0,
+      "end": 1672.0,
+      "text": "Trigger: Throw-in by right @ 1 - 27:52"
+    },
+    {
+      "start": 1708.0,
+      "end": 1708.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 1738.0,
+      "end": 1738.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1672000,
+  "team": "right",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/segment_001620_001740.json",
+  "segment_meta": {
+    "start_seconds": 1620,
+    "end_seconds": 1740,
+    "length_seconds": 120,
+    "start_time_mmss": "27:00",
+    "end_time_mmss": "29:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

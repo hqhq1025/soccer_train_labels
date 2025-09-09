@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21450,
+  "video_id": "61da7ca9-9e7a-5f97-9fad-9b11d70bbf0a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Substitution}; then follow that team and report its {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3489.0,
+      "end": 3489.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 3504.0,
+      "end": 3504.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3489000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/segment_003460_003580.json",
+  "segment_meta": {
+    "start_seconds": 3460,
+    "end_seconds": 3580,
+    "length_seconds": 120,
+    "start_time_mmss": "57:40",
+    "end_time_mmss": "59:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

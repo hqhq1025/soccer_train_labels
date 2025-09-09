@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20369,
+  "video_id": "98a274a2-63b2-5d50-8511-7ae221b55587",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "answer": [
+    {
+      "start": 910.0,
+      "end": 910.0,
+      "text": "Trigger: Corner by right @ 1 - 15:10"
+    },
+    {
+      "start": 913.0,
+      "end": 913.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 910000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/segment_000840_000960.json",
+  "segment_meta": {
+    "start_seconds": 840,
+    "end_seconds": 960,
+    "length_seconds": 120,
+    "start_time_mmss": "14:00",
+    "end_time_mmss": "16:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

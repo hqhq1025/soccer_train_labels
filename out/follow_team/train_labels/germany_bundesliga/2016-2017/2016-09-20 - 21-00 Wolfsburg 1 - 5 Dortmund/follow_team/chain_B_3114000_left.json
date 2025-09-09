@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4344,
+  "video_id": "3e8f5439-2730-5cf3-b026-d3a22d464e00",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Throw-in}.",
+  "answer": [
+    {
+      "start": 3114.0,
+      "end": 3114.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 3145.0,
+      "end": 3145.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3114000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/segment_003060_003180.json",
+  "segment_meta": {
+    "start_seconds": 3060,
+    "end_seconds": 3180,
+    "length_seconds": 120,
+    "start_time_mmss": "51:00",
+    "end_time_mmss": "53:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

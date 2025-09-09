@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3697,
+  "video_id": "20da954f-85bb-570c-a3ea-8e685c12417f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Foul, Substitution and Throw-in}.",
+  "answer": [
+    {
+      "start": 4771.0,
+      "end": 4771.0,
+      "text": "Trigger: Clearance by left @ 2 - 34:31"
+    },
+    {
+      "start": 4777.0,
+      "end": 4777.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 4811.0,
+      "end": 4811.0,
+      "text": "Then: Substitution by left"
+    },
+    {
+      "start": 4832.0,
+      "end": 4832.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4771000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_004750_004870.json",
+  "segment_meta": {
+    "start_seconds": 4750,
+    "end_seconds": 4870,
+    "length_seconds": 120,
+    "start_time_mmss": "79:10",
+    "end_time_mmss": "81:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

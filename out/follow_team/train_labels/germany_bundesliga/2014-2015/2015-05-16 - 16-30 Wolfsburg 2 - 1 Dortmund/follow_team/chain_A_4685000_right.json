@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2919,
+  "video_id": "5204a7d8-e4a9-5343-b6ad-9ae980889e79",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} happens, lock onto that team and report every {Indirect free-kick} it makes.",
+  "answer": [
+    {
+      "start": 4685.0,
+      "end": 4685.0,
+      "text": "Trigger: Shots off target by right @ 2 - 33:05"
+    },
+    {
+      "start": 4732.0,
+      "end": 4732.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4685000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/segment_004630_004750.json",
+  "segment_meta": {
+    "start_seconds": 4630,
+    "end_seconds": 4750,
+    "length_seconds": 120,
+    "start_time_mmss": "77:10",
+    "end_time_mmss": "79:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

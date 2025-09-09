@@ -1,0 +1,46 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6189,
+  "video_id": "56e147e5-d2f0-50f5-8c57-a57c8f3b5f12",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Throw-in, Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 625.0,
+      "end": 625.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 669.0,
+      "end": 669.0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 690.0,
+      "end": 690.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 695.0,
+      "end": 695.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 625000,
+  "team": "right",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/segment_000620_000740.json",
+  "segment_meta": {
+    "start_seconds": 620,
+    "end_seconds": 740,
+    "length_seconds": 120,
+    "start_time_mmss": "10:20",
+    "end_time_mmss": "12:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

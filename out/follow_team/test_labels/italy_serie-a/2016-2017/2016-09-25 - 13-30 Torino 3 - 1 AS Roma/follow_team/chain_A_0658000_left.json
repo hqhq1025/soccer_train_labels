@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6191,
+  "video_id": "56e147e5-d2f0-50f5-8c57-a57c8f3b5f12",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Clearance}, stick with that team and alert me for {Indirect free-kick and Shots on target}.",
+  "answer": [
+    {
+      "start": 658.0,
+      "end": 658.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 714.0,
+      "end": 714.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 727.0,
+      "end": 727.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/",
+  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 658000,
+  "team": "left",
+  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/segment_000620_000740.json",
+  "segment_meta": {
+    "start_seconds": 620,
+    "end_seconds": 740,
+    "length_seconds": 120,
+    "start_time_mmss": "10:20",
+    "end_time_mmss": "12:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

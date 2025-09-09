@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24716,
+  "video_id": "36607a30-79f9-5283-8dfb-e12f18df3356",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 2121.0,
+      "end": 2121.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 2176.0,
+      "end": 2176.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2121000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/segment_002090_002190.json",
+  "segment_meta": {
+    "start_seconds": 2090,
+    "end_seconds": 2190,
+    "length_seconds": 100,
+    "start_time_mmss": "34:50",
+    "end_time_mmss": "36:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

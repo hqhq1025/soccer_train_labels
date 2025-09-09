@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4117,
+  "video_id": "ccd6541d-7018-5a72-b662-d0f1b5ebbaf6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 540.0,
+      "end": 540.0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 582.0,
+      "end": 582.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 540000,
+  "team": "left",
+  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/segment_000530_000590.json",
+  "segment_meta": {
+    "start_seconds": 530,
+    "end_seconds": 590,
+    "length_seconds": 60,
+    "start_time_mmss": "08:50",
+    "end_time_mmss": "09:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

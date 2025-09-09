@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7870,
+  "video_id": "e7c4877a-b421-5be4-8f2e-d3e46af9fb03",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "answer": [
+    {
+      "start": 2258.0,
+      "end": 2258.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 2259.0,
+      "end": 2259.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2258000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/segment_002200_002260.json",
+  "segment_meta": {
+    "start_seconds": 2200,
+    "end_seconds": 2260,
+    "length_seconds": 60,
+    "start_time_mmss": "36:40",
+    "end_time_mmss": "37:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

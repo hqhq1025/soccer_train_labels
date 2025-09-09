@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16646,
+  "video_id": "9713d530-a7df-5bcf-bb12-a6db2701342a",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots off target}.",
+  "answer": [
+    {
+      "start": 2695.0,
+      "end": 2695.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 2698.0,
+      "end": 2698.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2695000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/segment_002580_002700.json",
+  "segment_meta": {
+    "start_seconds": 2580,
+    "end_seconds": 2700,
+    "length_seconds": 120,
+    "start_time_mmss": "43:00",
+    "end_time_mmss": "45:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21026,
+  "video_id": "566b7786-b527-5ca1-94c4-013192a47c48",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
+  "answer": [
+    {
+      "start": 4417.0,
+      "end": 4417.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 4498.0,
+      "end": 4498.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4417000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/segment_004390_004510.json",
+  "segment_meta": {
+    "start_seconds": 4390,
+    "end_seconds": 4510,
+    "length_seconds": 120,
+    "start_time_mmss": "73:10",
+    "end_time_mmss": "75:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

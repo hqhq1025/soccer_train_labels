@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12099,
+  "video_id": "51baa46c-83c4-5359-8f57-6e46eb60c7dd",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Kick-off}, follow the same team and list all subsequent {Indirect free-kick and Foul}.",
+  "answer": [
+    {
+      "start": 4294.0,
+      "end": 4294.0,
+      "text": "Trigger: Kick-off by left @ 2 - 26:34"
+    },
+    {
+      "start": 4373.0,
+      "end": 4373.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 4385.0,
+      "end": 4385.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4294000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/segment_004280_004400.json",
+  "segment_meta": {
+    "start_seconds": 4280,
+    "end_seconds": 4400,
+    "length_seconds": 120,
+    "start_time_mmss": "71:20",
+    "end_time_mmss": "73:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

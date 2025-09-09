@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 21209,
+  "video_id": "f6fe696d-f76f-5307-aba4-a1adbbe78931",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Corner and Shots off target}.",
+  "answer": [
+    {
+      "start": 1203.0,
+      "end": 1203.0,
+      "text": "Trigger: Shots off target by right @ 1 - 20:03"
+    },
+    {
+      "start": 1251.0,
+      "end": 1251.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 1262.0,
+      "end": 1262.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1203000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/segment_001170_001270.json",
+  "segment_meta": {
+    "start_seconds": 1170,
+    "end_seconds": 1270,
+    "length_seconds": 100,
+    "start_time_mmss": "19:30",
+    "end_time_mmss": "21:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

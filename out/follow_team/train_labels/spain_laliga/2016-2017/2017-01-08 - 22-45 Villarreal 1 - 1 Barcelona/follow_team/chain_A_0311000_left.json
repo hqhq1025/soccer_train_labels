@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 14735,
+  "video_id": "9af31776-d983-5f3b-9069-5f44cf9e14e0",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} occurs, follow the initiating team and report all {Throw-in}.",
+  "answer": [
+    {
+      "start": 311.0,
+      "end": 311.0,
+      "text": "Trigger: Foul by left @ 1 - 05:11"
+    },
+    {
+      "start": 353.0,
+      "end": 353.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-08 - 22-45 Villarreal 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-08 - 22-45 Villarreal 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 311000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-08 - 22-45 Villarreal 1 - 1 Barcelona/segment_000270_000370.json",
+  "segment_meta": {
+    "start_seconds": 270,
+    "end_seconds": 370,
+    "length_seconds": 100,
+    "start_time_mmss": "04:30",
+    "end_time_mmss": "06:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

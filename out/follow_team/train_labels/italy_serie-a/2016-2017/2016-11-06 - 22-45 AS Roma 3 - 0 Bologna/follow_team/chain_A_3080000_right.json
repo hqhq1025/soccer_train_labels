@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19873,
+  "video_id": "e56d01dd-df82-53a1-810d-c14a5549e39f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 3080.0,
+      "end": 3080.0,
+      "text": "Trigger: Offside by right @ 2 - 06:20"
+    },
+    {
+      "start": 3106.0,
+      "end": 3106.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3080000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/segment_003050_003110.json",
+  "segment_meta": {
+    "start_seconds": 3050,
+    "end_seconds": 3110,
+    "length_seconds": 60,
+    "start_time_mmss": "50:50",
+    "end_time_mmss": "51:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15410,
+  "video_id": "73cd9d02-f0b8-5863-bf3e-edd685d9b33f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Offside}.",
+  "answer": [
+    {
+      "start": 2940.0,
+      "end": 2940.0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 2943.0,
+      "end": 2943.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2940000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/segment_002910_003030.json",
+  "segment_meta": {
+    "start_seconds": 2910,
+    "end_seconds": 3030,
+    "length_seconds": 120,
+    "start_time_mmss": "48:30",
+    "end_time_mmss": "50:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

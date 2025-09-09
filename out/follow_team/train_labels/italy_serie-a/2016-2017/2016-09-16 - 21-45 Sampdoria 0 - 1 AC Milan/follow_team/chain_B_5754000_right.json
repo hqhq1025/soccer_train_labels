@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20672,
+  "video_id": "599c7abe-15ed-5722-a554-7a3144f61c58",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 5754.0,
+      "end": 5754.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 5756.0,
+      "end": 5756.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5754000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/segment_005690_005780.json",
+  "segment_meta": {
+    "start_seconds": 5690,
+    "end_seconds": 5780,
+    "length_seconds": 90,
+    "start_time_mmss": "94:50",
+    "end_time_mmss": "96:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

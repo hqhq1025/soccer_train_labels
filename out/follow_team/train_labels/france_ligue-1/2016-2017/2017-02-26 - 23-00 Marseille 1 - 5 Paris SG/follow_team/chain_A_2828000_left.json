@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 381,
+  "video_id": "36a2fc00-f504-5430-af68-3b5d9f603341",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Direct free-kick and Throw-in}.",
+  "answer": [
+    {
+      "start": 2828.0,
+      "end": 2828.0,
+      "text": "Trigger: Foul by left @ 2 - 02:08"
+    },
+    {
+      "start": 2853.0,
+      "end": 2853.0,
+      "text": "Then: Direct free-kick by left"
+    },
+    {
+      "start": 2894.0,
+      "end": 2894.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2828000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/segment_002780_002900.json",
+  "segment_meta": {
+    "start_seconds": 2780,
+    "end_seconds": 2900,
+    "length_seconds": 120,
+    "start_time_mmss": "46:20",
+    "end_time_mmss": "48:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

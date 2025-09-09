@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23708,
+  "video_id": "a4886e4b-f29e-5132-874d-941777e34c64",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots on target}.",
+  "answer": [
+    {
+      "start": 3763.0,
+      "end": 3763.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3769.0,
+      "end": 3769.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3763000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/segment_003690_003810.json",
+  "segment_meta": {
+    "start_seconds": 3690,
+    "end_seconds": 3810,
+    "length_seconds": 120,
+    "start_time_mmss": "61:30",
+    "end_time_mmss": "63:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

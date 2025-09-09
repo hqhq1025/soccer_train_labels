@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16256,
+  "video_id": "e3135bd1-6b2f-5988-a428-3faf6a8995ee",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Foul}; then follow that team and report its {Substitution}.",
+  "answer": [
+    {
+      "start": 4531.0,
+      "end": 4531.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 4559.0,
+      "end": 4559.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4531000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/segment_004510_004630.json",
+  "segment_meta": {
+    "start_seconds": 4510,
+    "end_seconds": 4630,
+    "length_seconds": 120,
+    "start_time_mmss": "75:10",
+    "end_time_mmss": "77:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 12370,
+  "video_id": "098fe667-d924-5e42-983e-eedf37746c3c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Shots on target} it makes.",
+  "answer": [
+    {
+      "start": 2266.0,
+      "end": 2266.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 2318.0,
+      "end": 2318.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2016-08-28 - 21-15 Ath Bilbao 0 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-08-28 - 21-15 Ath Bilbao 0 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2266000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-08-28 - 21-15 Ath Bilbao 0 - 1 Barcelona/segment_002240_002340.json",
+  "segment_meta": {
+    "start_seconds": 2240,
+    "end_seconds": 2340,
+    "length_seconds": 100,
+    "start_time_mmss": "37:20",
+    "end_time_mmss": "39:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

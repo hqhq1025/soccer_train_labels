@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19670,
+  "video_id": "71d9745a-5c24-5714-bcf7-4ae49c43e212",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul}.",
+  "answer": [
+    {
+      "start": 3161.0,
+      "end": 3161.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3169.0,
+      "end": 3169.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3161000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/segment_003110_003170.json",
+  "segment_meta": {
+    "start_seconds": 3110,
+    "end_seconds": 3170,
+    "length_seconds": 60,
+    "start_time_mmss": "51:50",
+    "end_time_mmss": "52:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

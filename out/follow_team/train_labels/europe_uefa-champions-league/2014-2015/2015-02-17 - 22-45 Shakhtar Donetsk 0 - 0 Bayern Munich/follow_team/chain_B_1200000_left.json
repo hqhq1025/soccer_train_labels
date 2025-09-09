@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7694,
+  "video_id": "c077b8bf-21fa-5919-a298-cc787391f9b9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Foul} happens, lock onto that team and report every {Throw-in} it makes.",
+  "answer": [
+    {
+      "start": 1200.0,
+      "end": 1200.0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 1233.0,
+      "end": 1233.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Shakhtar Donetsk 0 - 0 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Shakhtar Donetsk 0 - 0 Bayern Munich/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 1200000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Shakhtar Donetsk 0 - 0 Bayern Munich/segment_001140_001240.json",
+  "segment_meta": {
+    "start_seconds": 1140,
+    "end_seconds": 1240,
+    "length_seconds": 100,
+    "start_time_mmss": "19:00",
+    "end_time_mmss": "20:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 5118,
+  "video_id": "1f4c10bd-4172-57c4-aab3-2c6cf4f2dbeb",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Foul}.",
+  "answer": [
+    {
+      "start": 3993.0,
+      "end": 3993.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 3999.0,
+      "end": 3999.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3993000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/segment_003970_004010.json",
+  "segment_meta": {
+    "start_seconds": 3970,
+    "end_seconds": 4010,
+    "length_seconds": 40,
+    "start_time_mmss": "66:10",
+    "end_time_mmss": "66:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

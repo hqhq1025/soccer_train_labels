@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 18631,
+  "video_id": "f303dba3-fad8-5c8f-bc38-5170a2a41459",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Offside}; then follow that team and report its {Throw-in}.",
+  "answer": [
+    {
+      "start": 825.0,
+      "end": 825.0,
+      "text": "Trigger: Offside by right @ 1 - 13:45"
+    },
+    {
+      "start": 900.0,
+      "end": 900.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 825000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/segment_000810_000910.json",
+  "segment_meta": {
+    "start_seconds": 810,
+    "end_seconds": 910,
+    "length_seconds": 100,
+    "start_time_mmss": "13:30",
+    "end_time_mmss": "15:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

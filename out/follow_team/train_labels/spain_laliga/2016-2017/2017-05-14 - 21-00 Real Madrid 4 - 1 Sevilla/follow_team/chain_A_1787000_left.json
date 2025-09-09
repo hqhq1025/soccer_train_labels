@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13429,
+  "video_id": "9722de9b-c611-5868-8df1-2a8fdf19f372",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Direct free-kick}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 1787.0,
+      "end": 1787.0,
+      "text": "Trigger: Direct free-kick by left @ 1 - 29:47"
+    },
+    {
+      "start": 1828.0,
+      "end": 1828.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-05-14 - 21-00 Real Madrid 4 - 1 Sevilla/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-14 - 21-00 Real Madrid 4 - 1 Sevilla/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1787000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-14 - 21-00 Real Madrid 4 - 1 Sevilla/segment_001750_001830.json",
+  "segment_meta": {
+    "start_seconds": 1750,
+    "end_seconds": 1830,
+    "length_seconds": 80,
+    "start_time_mmss": "29:10",
+    "end_time_mmss": "30:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

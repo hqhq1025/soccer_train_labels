@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8579,
+  "video_id": "1a54e982-9538-5f59-85e5-b3875b028a1d",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
+  "answer": [
+    {
+      "start": 4463.0,
+      "end": 4463.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 4516.0,
+      "end": 4516.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4463000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/segment_004400_004520.json",
+  "segment_meta": {
+    "start_seconds": 4400,
+    "end_seconds": 4520,
+    "length_seconds": 120,
+    "start_time_mmss": "73:20",
+    "end_time_mmss": "75:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

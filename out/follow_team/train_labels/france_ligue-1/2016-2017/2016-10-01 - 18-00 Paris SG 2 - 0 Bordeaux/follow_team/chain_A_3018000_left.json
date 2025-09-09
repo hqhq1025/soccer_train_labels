@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1821,
+  "video_id": "332e550d-4576-52d3-91d6-baa8c4d0420c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Foul}, stick with that team and alert me for {Direct free-kick}.",
+  "answer": [
+    {
+      "start": 3018.0,
+      "end": 3018.0,
+      "text": "Trigger: Foul by left @ 2 - 05:18"
+    },
+    {
+      "start": 3061.0,
+      "end": 3061.0,
+      "text": "Then: Direct free-kick by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3018000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/segment_002950_003070.json",
+  "segment_meta": {
+    "start_seconds": 2950,
+    "end_seconds": 3070,
+    "length_seconds": 120,
+    "start_time_mmss": "49:10",
+    "end_time_mmss": "51:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

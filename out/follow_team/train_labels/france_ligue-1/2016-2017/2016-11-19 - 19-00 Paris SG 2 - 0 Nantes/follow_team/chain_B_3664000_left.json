@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1106,
+  "video_id": "ea7c25a0-dc9d-5fb0-9d88-b37edcb01bf4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "answer": [
+    {
+      "start": 3664.0,
+      "end": 3664.0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 3671.0,
+      "end": 3671.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3664000,
+  "team": "left",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/segment_003600_003700.json",
+  "segment_meta": {
+    "start_seconds": 3600,
+    "end_seconds": 3700,
+    "length_seconds": 100,
+    "start_time_mmss": "60:00",
+    "end_time_mmss": "61:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

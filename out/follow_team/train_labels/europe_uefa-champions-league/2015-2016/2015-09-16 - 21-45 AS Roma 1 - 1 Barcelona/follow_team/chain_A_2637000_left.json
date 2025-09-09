@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7313,
+  "video_id": "61f85d86-639d-5e2f-be0c-b7e2add0dfd6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Offside} it makes.",
+  "answer": [
+    {
+      "start": 2637.0,
+      "end": 2637.0,
+      "text": "Trigger: Throw-in by left @ 1 - 43:57"
+    },
+    {
+      "start": 2690.0,
+      "end": 2690.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2637000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/segment_002620_002700.json",
+  "segment_meta": {
+    "start_seconds": 2620,
+    "end_seconds": 2700,
+    "length_seconds": 80,
+    "start_time_mmss": "43:40",
+    "end_time_mmss": "45:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

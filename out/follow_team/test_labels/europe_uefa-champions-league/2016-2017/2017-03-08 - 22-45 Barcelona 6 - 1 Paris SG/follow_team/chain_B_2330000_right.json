@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2820,
+  "video_id": "44d12925-3828-553c-8b6c-629cec0f3e69",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Offside}.",
+  "answer": [
+    {
+      "start": 2330.0,
+      "end": 2330.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 2335.0,
+      "end": 2335.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2330000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/segment_002260_002340.json",
+  "segment_meta": {
+    "start_seconds": 2260,
+    "end_seconds": 2340,
+    "length_seconds": 80,
+    "start_time_mmss": "37:40",
+    "end_time_mmss": "39:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

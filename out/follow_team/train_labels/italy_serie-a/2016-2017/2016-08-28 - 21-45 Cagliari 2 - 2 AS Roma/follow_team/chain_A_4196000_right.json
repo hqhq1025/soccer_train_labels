@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20569,
+  "video_id": "df531067-0f5d-562a-9cb6-18712620a2a4",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots on target}, stick with that team and alert me for {Shots on target and Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 4196.0,
+      "end": 4196.0,
+      "text": "Trigger: Shots on target by right @ 2 - 24:56"
+    },
+    {
+      "start": 4201.0,
+      "end": 4201.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 4258.0,
+      "end": 4258.0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4196000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/segment_004170_004270.json",
+  "segment_meta": {
+    "start_seconds": 4170,
+    "end_seconds": 4270,
+    "length_seconds": 100,
+    "start_time_mmss": "69:30",
+    "end_time_mmss": "71:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

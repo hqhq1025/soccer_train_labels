@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15834,
+  "video_id": "db0fc60c-9d7e-5e1d-b5b3-f34db05e673b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Clearance}.",
+  "answer": [
+    {
+      "start": 696.0,
+      "end": 696.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 768.0,
+      "end": 768.0,
+      "text": "Then: Clearance by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 696000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/segment_000650_000770.json",
+  "segment_meta": {
+    "start_seconds": 650,
+    "end_seconds": 770,
+    "length_seconds": 120,
+    "start_time_mmss": "10:50",
+    "end_time_mmss": "12:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

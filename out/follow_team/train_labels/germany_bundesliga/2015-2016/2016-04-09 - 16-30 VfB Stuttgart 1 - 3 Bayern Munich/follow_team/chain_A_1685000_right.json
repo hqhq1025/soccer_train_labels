@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2461,
+  "video_id": "13435a51-8d09-5bc1-9cc4-a1de99d4e2ab",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots on target and Throw-in}.",
+  "answer": [
+    {
+      "start": 1685.0,
+      "end": 1685.0,
+      "text": "Trigger: Throw-in by right @ 1 - 28:05"
+    },
+    {
+      "start": 1718.0,
+      "end": 1718.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 1747.0,
+      "end": 1747.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 1685000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-09 - 16-30 VfB Stuttgart 1 - 3 Bayern Munich/segment_001650_001750.json",
+  "segment_meta": {
+    "start_seconds": 1650,
+    "end_seconds": 1750,
+    "length_seconds": 100,
+    "start_time_mmss": "27:30",
+    "end_time_mmss": "29:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

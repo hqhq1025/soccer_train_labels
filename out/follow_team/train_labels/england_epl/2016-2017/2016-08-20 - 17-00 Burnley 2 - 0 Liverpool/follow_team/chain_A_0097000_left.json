@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24843,
+  "video_id": "40c11f34-83f0-56d9-9883-aa69f64fb87f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "answer": [
+    {
+      "start": 97.0,
+      "end": 97.0,
+      "text": "Trigger: Shots on target by left @ 1 - 01:37"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 97000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/segment_000060_000100.json",
+  "segment_meta": {
+    "start_seconds": 60,
+    "end_seconds": 100,
+    "length_seconds": 40,
+    "start_time_mmss": "01:00",
+    "end_time_mmss": "01:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

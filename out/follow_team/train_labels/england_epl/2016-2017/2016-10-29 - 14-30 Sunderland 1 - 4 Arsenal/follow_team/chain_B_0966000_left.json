@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25500,
+  "video_id": "fd0190f6-b0e0-5c7e-9947-114a66848507",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Throw-in}.",
+  "answer": [
+    {
+      "start": 966.0,
+      "end": 966.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 991.0,
+      "end": 991.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 966000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/segment_000940_001060.json",
+  "segment_meta": {
+    "start_seconds": 940,
+    "end_seconds": 1060,
+    "length_seconds": 120,
+    "start_time_mmss": "15:40",
+    "end_time_mmss": "17:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

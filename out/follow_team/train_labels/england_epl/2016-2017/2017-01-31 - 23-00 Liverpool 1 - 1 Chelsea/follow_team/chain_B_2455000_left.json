@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23168,
+  "video_id": "a8b8a987-e311-5600-972e-7d85568a99de",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Corner}, start tracking that team; notify me on its {Offside}.",
+  "answer": [
+    {
+      "start": 2455.0,
+      "end": 2455.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 2465.0,
+      "end": 2465.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2455000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_002410_002510.json",
+  "segment_meta": {
+    "start_seconds": 2410,
+    "end_seconds": 2510,
+    "length_seconds": 100,
+    "start_time_mmss": "40:10",
+    "end_time_mmss": "41:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

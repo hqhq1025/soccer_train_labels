@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 405,
+  "video_id": "5b04104d-cb22-587d-8391-4e91c67e8cce",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "answer": [
+    {
+      "start": 2244.0,
+      "end": 2244.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 2249.0,
+      "end": 2249.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/",
+  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2244000,
+  "team": "right",
+  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/segment_002220_002260.json",
+  "segment_meta": {
+    "start_seconds": 2220,
+    "end_seconds": 2260,
+    "length_seconds": 40,
+    "start_time_mmss": "37:00",
+    "end_time_mmss": "37:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

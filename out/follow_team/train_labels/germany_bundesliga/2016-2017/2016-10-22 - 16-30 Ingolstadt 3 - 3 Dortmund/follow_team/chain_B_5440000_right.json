@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4762,
+  "video_id": "7c409494-accf-546a-9c37-3ae678170329",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "answer": [
+    {
+      "start": 5440.0,
+      "end": 5440.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 5441.0,
+      "end": 5441.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5440000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/segment_005400_005450.json",
+  "segment_meta": {
+    "start_seconds": 5400,
+    "end_seconds": 5450,
+    "length_seconds": 50,
+    "start_time_mmss": "90:00",
+    "end_time_mmss": "90:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 11212,
+  "video_id": "634b77ae-c6b0-515f-9a1e-1b1b4bbf79cc",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Corner}.",
+  "answer": [
+    {
+      "start": 799.0,
+      "end": 799.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 839.0,
+      "end": 839.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 799000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/segment_000750_000850.json",
+  "segment_meta": {
+    "start_seconds": 750,
+    "end_seconds": 850,
+    "length_seconds": 100,
+    "start_time_mmss": "12:30",
+    "end_time_mmss": "14:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

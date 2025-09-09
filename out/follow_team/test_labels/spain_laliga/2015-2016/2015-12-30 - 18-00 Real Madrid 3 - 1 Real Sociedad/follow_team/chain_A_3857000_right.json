@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 3289,
+  "video_id": "b93e881a-8687-52e2-a7a4-b03ea138f247",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 3857.0,
+      "end": 3857.0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 3878.0,
+      "end": 3878.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/",
+  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3857000,
+  "team": "right",
+  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/segment_003840_003880.json",
+  "segment_meta": {
+    "start_seconds": 3840,
+    "end_seconds": 3880,
+    "length_seconds": 40,
+    "start_time_mmss": "64:00",
+    "end_time_mmss": "64:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 2101,
+  "video_id": "17909184-cc2c-5e8b-b59d-f6e6d1db45ab",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Clearance}, keep following that team and alert me whenever {Throw-in} happen.",
+  "answer": [
+    {
+      "start": 4602.0,
+      "end": 4602.0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 4625.0,
+      "end": 4625.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 4664.0,
+      "end": 4664.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4602000,
+  "team": "left",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/segment_004550_004670.json",
+  "segment_meta": {
+    "start_seconds": 4550,
+    "end_seconds": 4670,
+    "length_seconds": 120,
+    "start_time_mmss": "75:50",
+    "end_time_mmss": "77:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

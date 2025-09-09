@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 23629,
+  "video_id": "68d30d19-fe86-50c3-931f-c01ebffa9757",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
+  "answer": [
+    {
+      "start": 2200.0,
+      "end": 2200.0,
+      "text": "Trigger: Foul by right @ 1 - 36:40"
+    },
+    {
+      "start": 2206.0,
+      "end": 2206.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2200000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/segment_002130_002210.json",
+  "segment_meta": {
+    "start_seconds": 2130,
+    "end_seconds": 2210,
+    "length_seconds": 80,
+    "start_time_mmss": "35:30",
+    "end_time_mmss": "36:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

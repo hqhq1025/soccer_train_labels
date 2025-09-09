@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4433,
+  "video_id": "5bcea42d-6e26-57f4-ba11-e5611ee9079c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Foul and Yellow->red card}.",
+  "answer": [
+    {
+      "start": 3384.0,
+      "end": 3384.0,
+      "text": "Trigger: Clearance by right @ 2 - 11:24"
+    },
+    {
+      "start": 3393.0,
+      "end": 3393.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 3400.0,
+      "end": 3400.0,
+      "text": "Then: Yellow->red card by right"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3384000,
+  "team": "right",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/segment_003290_003410.json",
+  "segment_meta": {
+    "start_seconds": 3290,
+    "end_seconds": 3410,
+    "length_seconds": 120,
+    "start_time_mmss": "54:50",
+    "end_time_mmss": "56:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

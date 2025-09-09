@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 99,
+  "video_id": "7f406ca8-413c-5fcc-a399-2b23f88c257c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} happens, lock onto that team and report every {Shots on target and Goal} it makes.",
+  "answer": [
+    {
+      "start": 605.0,
+      "end": 605.0,
+      "text": "Trigger: Corner by right @ 1 - 10:05"
+    },
+    {
+      "start": 615.0,
+      "end": 615.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 616.0,
+      "end": 616.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 605000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/segment_000510_000630.json",
+  "segment_meta": {
+    "start_seconds": 510,
+    "end_seconds": 630,
+    "length_seconds": 120,
+    "start_time_mmss": "08:30",
+    "end_time_mmss": "10:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 1716,
+  "video_id": "a512ce4a-b0ba-5d36-9f8d-389e1a1ea3a2",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots on target}.",
+  "answer": [
+    {
+      "start": 120.0,
+      "end": 120.0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 122.0,
+      "end": 122.0,
+      "text": "Then: Shots on target by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/",
+  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 120000,
+  "team": "right",
+  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/segment_000050_000130.json",
+  "segment_meta": {
+    "start_seconds": 50,
+    "end_seconds": 130,
+    "length_seconds": 80,
+    "start_time_mmss": "00:50",
+    "end_time_mmss": "02:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

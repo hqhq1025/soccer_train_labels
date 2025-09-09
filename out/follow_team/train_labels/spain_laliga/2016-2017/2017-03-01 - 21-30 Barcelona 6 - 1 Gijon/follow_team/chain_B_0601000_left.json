@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13282,
+  "video_id": "d0368794-bc44-5143-8524-33544ade8b6e",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Goal}.",
+  "answer": [
+    {
+      "start": 601.0,
+      "end": 601.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 602.0,
+      "end": 602.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 601000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/segment_000550_000610.json",
+  "segment_meta": {
+    "start_seconds": 550,
+    "end_seconds": 610,
+    "length_seconds": 60,
+    "start_time_mmss": "09:10",
+    "end_time_mmss": "10:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

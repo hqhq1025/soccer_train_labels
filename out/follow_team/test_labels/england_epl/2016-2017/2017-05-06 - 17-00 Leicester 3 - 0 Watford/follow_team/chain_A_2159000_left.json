@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8915,
+  "video_id": "167f7a6c-2403-5e67-b43c-92b7031dc1ce",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Direct free-kick and Shots on target}.",
+  "answer": [
+    {
+      "start": 2159.0,
+      "end": 2159.0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 2237.0,
+      "end": 2237.0,
+      "text": "Then: Direct free-kick by left"
+    },
+    {
+      "start": 2237.0,
+      "end": 2237.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2159000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/segment_002140_002240.json",
+  "segment_meta": {
+    "start_seconds": 2140,
+    "end_seconds": 2240,
+    "length_seconds": 100,
+    "start_time_mmss": "35:40",
+    "end_time_mmss": "37:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

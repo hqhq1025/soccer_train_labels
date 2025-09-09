@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 24819,
+  "video_id": "cf9ff30b-51b0-5295-8d4e-9d934125360b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots off target}.",
+  "answer": [
+    {
+      "start": 3175.0,
+      "end": 3175.0,
+      "text": "Trigger: Indirect free-kick by left @ 2 - 07:55"
+    },
+    {
+      "start": 3190.0,
+      "end": 3190.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3175000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/segment_003120_003200.json",
+  "segment_meta": {
+    "start_seconds": 3120,
+    "end_seconds": 3200,
+    "length_seconds": 80,
+    "start_time_mmss": "52:00",
+    "end_time_mmss": "53:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

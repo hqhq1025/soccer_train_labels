@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19256,
+  "video_id": "48c1b95a-1b68-54bf-92b2-91fdbeb65d5b",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "On the next {Shots off target}, stick with that team and alert me for {Offside}.",
+  "answer": [
+    {
+      "start": 3160.0,
+      "end": 3160.0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 3171.0,
+      "end": 3171.0,
+      "text": "Then: Offside by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3160000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/segment_003120_003240.json",
+  "segment_meta": {
+    "start_seconds": 3120,
+    "end_seconds": 3240,
+    "length_seconds": 120,
+    "start_time_mmss": "52:00",
+    "end_time_mmss": "54:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

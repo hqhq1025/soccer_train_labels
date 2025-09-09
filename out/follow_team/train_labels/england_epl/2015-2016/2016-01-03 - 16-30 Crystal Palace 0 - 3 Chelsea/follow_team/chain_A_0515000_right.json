@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22113,
+  "video_id": "d7fbf2b4-df18-5d4d-bf5a-aff4797ed45f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Corner and Throw-in}.",
+  "answer": [
+    {
+      "start": 515.0,
+      "end": 515.0,
+      "text": "Trigger: Shots off target by right @ 1 - 08:35"
+    },
+    {
+      "start": 539.0,
+      "end": 539.0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 581.0,
+      "end": 581.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 515000,
+  "team": "right",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/segment_000470_000590.json",
+  "segment_meta": {
+    "start_seconds": 470,
+    "end_seconds": 590,
+    "length_seconds": 120,
+    "start_time_mmss": "07:50",
+    "end_time_mmss": "09:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

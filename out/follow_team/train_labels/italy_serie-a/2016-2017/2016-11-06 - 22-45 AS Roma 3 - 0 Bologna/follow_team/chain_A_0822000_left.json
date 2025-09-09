@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19847,
+  "video_id": "001944a1-4008-54a5-a3ab-5d4512077eb7",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Corner} occurs, follow the initiating team and report all {Foul}.",
+  "answer": [
+    {
+      "start": 822.0,
+      "end": 822.0,
+      "text": "Trigger: Corner by left @ 1 - 13:42"
+    },
+    {
+      "start": 823.0,
+      "end": 823.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 822000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/segment_000790_000830.json",
+  "segment_meta": {
+    "start_seconds": 790,
+    "end_seconds": 830,
+    "length_seconds": 40,
+    "start_time_mmss": "13:10",
+    "end_time_mmss": "13:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

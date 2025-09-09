@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20311,
+  "video_id": "f3360b20-cb61-5c54-be98-e6f07d5af116",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Shots off target}.",
+  "answer": [
+    {
+      "start": 4760.0,
+      "end": 4760.0,
+      "text": "Trigger: Shots on target by right @ 2 - 34:20"
+    },
+    {
+      "start": 4762.0,
+      "end": 4762.0,
+      "text": "Then: Shots off target by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-10-15 - 16-00 Napoli 1 - 3 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-15 - 16-00 Napoli 1 - 3 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 4760000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-15 - 16-00 Napoli 1 - 3 AS Roma/segment_004650_004770.json",
+  "segment_meta": {
+    "start_seconds": 4650,
+    "end_seconds": 4770,
+    "length_seconds": 120,
+    "start_time_mmss": "77:30",
+    "end_time_mmss": "79:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

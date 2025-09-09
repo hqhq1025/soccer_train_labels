@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7641,
+  "video_id": "7e2c55fc-c804-546e-b33b-4ff5db7fc4d1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Shots on target and Goal}.",
+  "answer": [
+    {
+      "start": 3543.0,
+      "end": 3543.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 3572.0,
+      "end": 3572.0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 3573.0,
+      "end": 3573.0,
+      "text": "Then: Goal by right"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3543000,
+  "team": "right",
+  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/segment_003500_003580.json",
+  "segment_meta": {
+    "start_seconds": 3500,
+    "end_seconds": 3580,
+    "length_seconds": 80,
+    "start_time_mmss": "58:20",
+    "end_time_mmss": "59:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

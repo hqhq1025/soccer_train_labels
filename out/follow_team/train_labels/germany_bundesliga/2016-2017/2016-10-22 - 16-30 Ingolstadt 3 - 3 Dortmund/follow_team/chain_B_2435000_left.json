@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4818,
+  "video_id": "fcbdd022-79d3-555a-8ced-b130533590e8",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Indirect free-kick}.",
+  "answer": [
+    {
+      "start": 2435.0,
+      "end": 2435.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 2448.0,
+      "end": 2448.0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2435000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/segment_002350_002470.json",
+  "segment_meta": {
+    "start_seconds": 2350,
+    "end_seconds": 2470,
+    "length_seconds": 120,
+    "start_time_mmss": "39:10",
+    "end_time_mmss": "41:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

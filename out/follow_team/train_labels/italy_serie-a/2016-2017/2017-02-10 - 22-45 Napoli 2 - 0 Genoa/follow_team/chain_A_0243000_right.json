@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20027,
+  "video_id": "d3a9df2d-2b30-5a32-9ab1-60de7a2c938c",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "answer": [
+    {
+      "start": 243.0,
+      "end": 243.0,
+      "text": "Trigger: Throw-in by right @ 1 - 04:03"
+    },
+    {
+      "start": 261.0,
+      "end": 261.0,
+      "text": "Then: Foul by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 243000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/segment_000220_000280.json",
+  "segment_meta": {
+    "start_seconds": 220,
+    "end_seconds": 280,
+    "length_seconds": 60,
+    "start_time_mmss": "03:40",
+    "end_time_mmss": "04:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

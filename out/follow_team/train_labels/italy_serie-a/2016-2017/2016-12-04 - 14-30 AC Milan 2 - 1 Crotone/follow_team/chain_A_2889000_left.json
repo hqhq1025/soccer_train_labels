@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19269,
+  "video_id": "99425b3b-507e-58fb-b23e-2f1c863f03e1",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Foul and Yellow card}.",
+  "answer": [
+    {
+      "start": 2889.0,
+      "end": 2889.0,
+      "text": "Trigger: Shots off target by left @ 2 - 03:09"
+    },
+    {
+      "start": 2897.0,
+      "end": 2897.0,
+      "text": "Then: Foul by left"
+    },
+    {
+      "start": 2902.0,
+      "end": 2902.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2889000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/segment_002790_002910.json",
+  "segment_meta": {
+    "start_seconds": 2790,
+    "end_seconds": 2910,
+    "length_seconds": 120,
+    "start_time_mmss": "46:30",
+    "end_time_mmss": "48:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

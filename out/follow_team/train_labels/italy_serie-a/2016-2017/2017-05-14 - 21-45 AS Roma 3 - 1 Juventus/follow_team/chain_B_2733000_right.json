@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 19114,
+  "video_id": "b9ee5f4f-33d3-51a4-bad2-30254dbf3a32",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "answer": [
+    {
+      "start": 2733.0,
+      "end": 2733.0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 2737.0,
+      "end": 2737.0,
+      "text": "Then: Yellow card by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2733000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/segment_002660_002740.json",
+  "segment_meta": {
+    "start_seconds": 2660,
+    "end_seconds": 2740,
+    "length_seconds": 80,
+    "start_time_mmss": "44:20",
+    "end_time_mmss": "45:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

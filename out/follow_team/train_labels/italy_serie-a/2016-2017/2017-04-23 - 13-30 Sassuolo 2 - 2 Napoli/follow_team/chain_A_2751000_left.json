@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 17299,
+  "video_id": "e697ce26-73d6-5b7e-b041-e6529b655aea",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "answer": [
+    {
+      "start": 2751.0,
+      "end": 2751.0,
+      "text": "Trigger: Corner by left @ 2 - 00:51"
+    },
+    {
+      "start": 2797.0,
+      "end": 2797.0,
+      "text": "Then: Throw-in by left"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2751000,
+  "team": "left",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/segment_002730_002850.json",
+  "segment_meta": {
+    "start_seconds": 2730,
+    "end_seconds": 2850,
+    "length_seconds": 120,
+    "start_time_mmss": "45:30",
+    "end_time_mmss": "47:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 4103,
+  "video_id": "7b702970-22d9-55be-82bc-f4b1cadefd24",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Watch for the next {Clearance}; then follow that team and report its {Indirect free-kick and Shots off target}.",
+  "answer": [
+    {
+      "start": 2643.0,
+      "end": 2643.0,
+      "text": "Trigger: Clearance by left @ 1 - 44:03"
+    },
+    {
+      "start": 2657.0,
+      "end": 2657.0,
+      "text": "Then: Indirect free-kick by left"
+    },
+    {
+      "start": 2675.0,
+      "end": 2675.0,
+      "text": "Then: Shots off target by left"
+    }
+  ],
+  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
+  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2643000,
+  "team": "left",
+  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_002560_002680.json",
+  "segment_meta": {
+    "start_seconds": 2560,
+    "end_seconds": 2680,
+    "length_seconds": 120,
+    "start_time_mmss": "42:40",
+    "end_time_mmss": "44:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 25379,
+  "video_id": "c15cdd4a-e8a5-502a-8713-e10d0bebcad3",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Substitution}, follow that same team and alert me whenever it has {Throw-in and Corner}.",
+  "answer": [
+    {
+      "start": 5255.0,
+      "end": 5255.0,
+      "text": "Trigger: Substitution by left @ 2 - 42:35"
+    },
+    {
+      "start": 5271.0,
+      "end": 5271.0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 5301.0,
+      "end": 5301.0,
+      "text": "Then: Corner by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5255000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_005200_005320.json",
+  "segment_meta": {
+    "start_seconds": 5200,
+    "end_seconds": 5320,
+    "length_seconds": 120,
+    "start_time_mmss": "86:40",
+    "end_time_mmss": "88:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

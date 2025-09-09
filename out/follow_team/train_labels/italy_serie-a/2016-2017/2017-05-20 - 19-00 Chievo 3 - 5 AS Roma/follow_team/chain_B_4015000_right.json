@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 16902,
+  "video_id": "c8f452a4-a33b-56b2-a22e-2f004dc6d025",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Offside}.",
+  "answer": [
+    {
+      "start": 4015.0,
+      "end": 4015.0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 4033.0,
+      "end": 4033.0,
+      "text": "Then: Offside by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4015000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/segment_003940_004040.json",
+  "segment_meta": {
+    "start_seconds": 3940,
+    "end_seconds": 4040,
+    "length_seconds": 100,
+    "start_time_mmss": "65:40",
+    "end_time_mmss": "67:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

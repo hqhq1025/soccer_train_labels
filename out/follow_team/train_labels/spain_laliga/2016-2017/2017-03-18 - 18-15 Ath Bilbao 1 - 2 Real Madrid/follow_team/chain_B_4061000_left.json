@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 15232,
+  "video_id": "f4076367-7294-5970-b5f6-53778acb58e9",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Goal}.",
+  "answer": [
+    {
+      "start": 4061.0,
+      "end": 4061.0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 4064.0,
+      "end": 4064.0,
+      "text": "Then: Goal by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-03-18 - 18-15 Ath Bilbao 1 - 2 Real Madrid/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-18 - 18-15 Ath Bilbao 1 - 2 Real Madrid/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 4061000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-18 - 18-15 Ath Bilbao 1 - 2 Real Madrid/segment_003970_004070.json",
+  "segment_meta": {
+    "start_seconds": 3970,
+    "end_seconds": 4070,
+    "length_seconds": 100,
+    "start_time_mmss": "66:10",
+    "end_time_mmss": "67:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

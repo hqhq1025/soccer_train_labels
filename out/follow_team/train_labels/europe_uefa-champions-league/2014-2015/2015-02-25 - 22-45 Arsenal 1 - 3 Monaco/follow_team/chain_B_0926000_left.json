@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 7908,
+  "video_id": "d77d6679-1277-56c8-8861-9c6f6b29f0ba",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul}.",
+  "answer": [
+    {
+      "start": 926.0,
+      "end": 926.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 938.0,
+      "end": 938.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 926000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/segment_000890_001010.json",
+  "segment_meta": {
+    "start_seconds": 890,
+    "end_seconds": 1010,
+    "length_seconds": 120,
+    "start_time_mmss": "14:50",
+    "end_time_mmss": "16:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

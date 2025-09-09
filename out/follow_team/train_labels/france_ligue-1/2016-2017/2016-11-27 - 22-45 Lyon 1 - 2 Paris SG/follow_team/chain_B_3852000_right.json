@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 428,
+  "video_id": "424f0531-8ce5-58ff-ba34-3e450f285e50",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Offside} occurs, follow the initiating team and report all {Substitution}.",
+  "answer": [
+    {
+      "start": 3852.0,
+      "end": 3852.0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 3875.0,
+      "end": 3875.0,
+      "text": "Then: Substitution by right"
+    }
+  ],
+  "match_path": "france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/",
+  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3852000,
+  "team": "right",
+  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/segment_003840_003880.json",
+  "segment_meta": {
+    "start_seconds": 3840,
+    "end_seconds": 3880,
+    "length_seconds": 40,
+    "start_time_mmss": "64:00",
+    "end_time_mmss": "64:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

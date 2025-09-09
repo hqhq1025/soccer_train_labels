@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 22148,
+  "video_id": "da0bcb7d-0fa4-5681-bb3d-9644b9c6751f",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots on target}.",
+  "answer": [
+    {
+      "start": 5371.0,
+      "end": 5371.0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 5372.0,
+      "end": 5372.0,
+      "text": "Then: Shots on target by left"
+    }
+  ],
+  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
+  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 5371000,
+  "team": "left",
+  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_005280_005400.json",
+  "segment_meta": {
+    "start_seconds": 5280,
+    "end_seconds": 5400,
+    "length_seconds": 120,
+    "start_time_mmss": "88:00",
+    "end_time_mmss": "90:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

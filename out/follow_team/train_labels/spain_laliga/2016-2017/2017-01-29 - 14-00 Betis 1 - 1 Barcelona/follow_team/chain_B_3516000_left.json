@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 13804,
+  "video_id": "a60c7969-8e31-520c-8952-9ba3e03ca7ba",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
+  "answer": [
+    {
+      "start": 3516.0,
+      "end": 3516.0,
+      "text": "Trigger: Substitution by left"
+    },
+    {
+      "start": 3534.0,
+      "end": 3534.0,
+      "text": "Then: Clearance by left"
+    }
+  ],
+  "match_path": "spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 3516000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/segment_003440_003560.json",
+  "segment_meta": {
+    "start_seconds": 3440,
+    "end_seconds": 3560,
+    "length_seconds": 120,
+    "start_time_mmss": "57:20",
+    "end_time_mmss": "59:20",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 10736,
+  "video_id": "6a1ca22a-0365-57fe-8a20-1d43cd062b55",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
+  "answer": [
+    {
+      "start": 2646.0,
+      "end": 2646.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 2663.0,
+      "end": 2663.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/",
+  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 2646000,
+  "team": "left",
+  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/segment_002590_002710.json",
+  "segment_meta": {
+    "start_seconds": 2590,
+    "end_seconds": 2710,
+    "length_seconds": 120,
+    "start_time_mmss": "43:10",
+    "end_time_mmss": "45:10",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

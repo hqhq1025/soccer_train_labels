@@ -1,0 +1,41 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 6923,
+  "video_id": "7d2dbee5-6096-55d9-ac2d-4912e85a5e67",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Foul and Throw-in} happen.",
+  "answer": [
+    {
+      "start": 2828.0,
+      "end": 2828.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 02:08"
+    },
+    {
+      "start": 2832.0,
+      "end": 2832.0,
+      "text": "Then: Foul by right"
+    },
+    {
+      "start": 2856.0,
+      "end": 2856.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 2828000,
+  "team": "right",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/segment_002760_002860.json",
+  "segment_meta": {
+    "start_seconds": 2760,
+    "end_seconds": 2860,
+    "length_seconds": 100,
+    "start_time_mmss": "46:00",
+    "end_time_mmss": "47:40",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

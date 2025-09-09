@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 20553,
+  "video_id": "487c01bd-ed84-5908-b685-d06737b19b84",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}.",
+  "answer": [
+    {
+      "start": 5044.0,
+      "end": 5044.0,
+      "text": "Trigger: Indirect free-kick by right @ 2 - 39:04"
+    },
+    {
+      "start": 5072.0,
+      "end": 5072.0,
+      "text": "Then: Throw-in by right"
+    }
+  ],
+  "match_path": "italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/",
+  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 5044000,
+  "team": "right",
+  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/segment_005000_005100.json",
+  "segment_meta": {
+    "start_seconds": 5000,
+    "end_seconds": 5100,
+    "length_seconds": 100,
+    "start_time_mmss": "83:20",
+    "end_time_mmss": "85:00",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

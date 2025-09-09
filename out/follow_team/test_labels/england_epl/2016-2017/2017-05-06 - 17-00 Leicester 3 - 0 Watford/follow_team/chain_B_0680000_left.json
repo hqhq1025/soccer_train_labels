@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8878,
+  "video_id": "0ef35fba-9e65-5bbd-b950-63f0115aed93",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Foul} happen.",
+  "answer": [
+    {
+      "start": 680.0,
+      "end": 680.0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 694.0,
+      "end": 694.0,
+      "text": "Then: Foul by left"
+    }
+  ],
+  "match_path": "england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/",
+  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/Labels-v2.json",
+  "chain_type": "B",
+  "trigger_ms": 680000,
+  "team": "left",
+  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/segment_000630_000750.json",
+  "segment_meta": {
+    "start_seconds": 630,
+    "end_seconds": 750,
+    "length_seconds": 120,
+    "start_time_mmss": "10:30",
+    "end_time_mmss": "12:30",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}

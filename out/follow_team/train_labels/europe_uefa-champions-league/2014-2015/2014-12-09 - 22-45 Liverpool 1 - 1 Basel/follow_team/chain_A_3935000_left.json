@@ -1,0 +1,36 @@
+{
+  "source": "soccernet-dense-chain",
+  "id": 8163,
+  "video_id": "ccb203a7-85b5-5ec3-95ca-72fcc0deb2d6",
+  "data_type": "online",
+  "question_category": "follow_team",
+  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}.",
+  "answer": [
+    {
+      "start": 3935.0,
+      "end": 3935.0,
+      "text": "Trigger: Foul by left @ 2 - 20:35"
+    },
+    {
+      "start": 3940.0,
+      "end": 3940.0,
+      "text": "Then: Yellow card by left"
+    }
+  ],
+  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/",
+  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/Labels-v2.json",
+  "chain_type": "A",
+  "trigger_ms": 3935000,
+  "team": "left",
+  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/segment_003830_003950.json",
+  "segment_meta": {
+    "start_seconds": 3830,
+    "end_seconds": 3950,
+    "length_seconds": 120,
+    "start_time_mmss": "63:50",
+    "end_time_mmss": "65:50",
+    "bin_size_seconds": 10,
+    "threshold_per_bin": 0.5,
+    "mode": "avg"
+  }
+}
