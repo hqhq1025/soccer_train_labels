@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 414,
   "video_id": "250af3ab-d460-5574-9f2f-0c35013df52b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Direct free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Direct free-kick} by left/right'; then for each {Corner} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5157.0,
-      "end": 5157.0,
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 5180.0,
-      "end": 5180.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5157000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/segment_005130_005190.json",
-  "segment_meta": {
-    "start_seconds": 5130,
-    "end_seconds": 5190,
-    "length_seconds": 60,
-    "start_time_mmss": "85:30",
-    "end_time_mmss": "86:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

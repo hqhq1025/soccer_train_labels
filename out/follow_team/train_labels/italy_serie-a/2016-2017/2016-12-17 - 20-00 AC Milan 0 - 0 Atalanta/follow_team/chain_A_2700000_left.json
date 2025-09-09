@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17239,
   "video_id": "ba35aa5e-5763-5cae-939d-3177a277a258",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Kick-off}, start tracking that team; notify me on its {Shots on target and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Kick-off}, stick with that team. For {Shots on target and Shots off target}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2700.0,
-      "end": 2700.0,
-      "text": "Trigger: Kick-off by left @ 2 - 00:00"
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
+      "text": "Trigger: Kick-off by left"
     },
     {
-      "start": 2720.0,
-      "end": 2720.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 2805.0,
-      "end": 2805.0,
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2700000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_002690_002810.json",
-  "segment_meta": {
-    "start_seconds": 2690,
-    "end_seconds": 2810,
-    "length_seconds": 120,
-    "start_time_mmss": "44:50",
-    "end_time_mmss": "46:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

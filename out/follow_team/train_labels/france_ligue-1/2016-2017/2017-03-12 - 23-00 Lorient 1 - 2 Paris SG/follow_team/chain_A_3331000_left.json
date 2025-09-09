@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1647,
   "video_id": "35d7ed02-86b7-5ff6-984f-5925b7cc155d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3331.0,
-      "end": 3331.0,
-      "text": "Trigger: Direct free-kick by left @ 2 - 10:31"
-    },
-    {
-      "start": 3332.0,
-      "end": 3332.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots on target}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3331000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/segment_003260_003360.json",
-  "segment_meta": {
-    "start_seconds": 3260,
-    "end_seconds": 3360,
-    "length_seconds": 100,
-    "start_time_mmss": "54:20",
-    "end_time_mmss": "56:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6181,
   "video_id": "0bff5704-f245-58dc-965d-7d81a7f0159b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 5096.0,
-      "end": 5096.0,
-      "text": "Trigger: Shots off target by right @ 2 - 39:56"
-    },
-    {
-      "start": 5155.0,
-      "end": 5155.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} happens, lock onto that team. Respond 'Trigger: {Shots off target} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in}. Left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5096000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/segment_005040_005160.json",
-  "segment_meta": {
-    "start_seconds": 5040,
-    "end_seconds": 5160,
-    "length_seconds": 120,
-    "start_time_mmss": "84:00",
-    "end_time_mmss": "86:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

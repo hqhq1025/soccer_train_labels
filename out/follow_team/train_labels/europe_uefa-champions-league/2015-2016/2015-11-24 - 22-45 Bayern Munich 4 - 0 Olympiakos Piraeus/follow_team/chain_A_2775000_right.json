@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6387,
   "video_id": "8f3ba02a-1efa-5e6d-a85d-8940960eda07",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2775.0,
-      "end": 2775.0,
-      "text": "Trigger: Foul by right @ 2 - 01:15"
-    },
-    {
-      "start": 2863.0,
-      "end": 2863.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Bayern Munich 4 - 0 Olympiakos Piraeus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Bayern Munich 4 - 0 Olympiakos Piraeus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2775000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Bayern Munich 4 - 0 Olympiakos Piraeus/segment_002760_002880.json",
-  "segment_meta": {
-    "start_seconds": 2760,
-    "end_seconds": 2880,
-    "length_seconds": 120,
-    "start_time_mmss": "46:00",
-    "end_time_mmss": "48:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

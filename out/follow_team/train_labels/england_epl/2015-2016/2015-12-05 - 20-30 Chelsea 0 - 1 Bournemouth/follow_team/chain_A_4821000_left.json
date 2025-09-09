@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22259,
   "video_id": "ac86a37d-efb7-5b81-883f-b7ee4336614d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Foul} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 4821.0,
-      "end": 4821.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 35:21"
-    },
-    {
-      "start": 4850.0,
-      "end": 4850.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4821000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/segment_004760_004860.json",
-  "segment_meta": {
-    "start_seconds": 4760,
-    "end_seconds": 4860,
-    "length_seconds": 100,
-    "start_time_mmss": "79:20",
-    "end_time_mmss": "81:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22925,
   "video_id": "0d8f261f-4c9e-5166-b31f-059e2b105da3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 2400.0,
-      "end": 2400.0,
-      "text": "Trigger: Foul by left @ 1 - 40:00"
-    },
-    {
-      "start": 2408.0,
-      "end": 2408.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Chelsea 1 - 1 Burnley/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Chelsea 1 - 1 Burnley/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2400000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Chelsea 1 - 1 Burnley/segment_002370_002450.json",
-  "segment_meta": {
-    "start_seconds": 2370,
-    "end_seconds": 2450,
-    "length_seconds": 80,
-    "start_time_mmss": "39:30",
-    "end_time_mmss": "40:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

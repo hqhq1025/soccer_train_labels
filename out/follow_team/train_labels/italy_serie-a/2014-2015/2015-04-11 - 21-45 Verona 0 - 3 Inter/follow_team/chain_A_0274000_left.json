@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16049,
   "video_id": "620ca560-d72f-5dee-bbbf-b3b7e48eecaf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Corner} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 274.0,
-      "end": 274.0,
-      "text": "Trigger: Throw-in by left @ 1 - 04:34"
-    },
-    {
-      "start": 308.0,
-      "end": 308.0,
-      "text": "Then: Corner by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Corner}."
     }
   ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 274000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/segment_000220_000340.json",
-  "segment_meta": {
-    "start_seconds": 220,
-    "end_seconds": 340,
-    "length_seconds": 120,
-    "start_time_mmss": "03:40",
-    "end_time_mmss": "05:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
+      "text": "Then: Corner by left"
+    }
+  ]
 }

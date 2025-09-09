@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24021,
   "video_id": "cf0511e3-144d-5e66-be53-faff8e870c2c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Shots on target and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team. Respond 'Trigger: {Shots on target} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots on target and Shots off target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2961.0,
-      "end": 2961.0,
-      "text": "Trigger: Shots on target by left @ 2 - 04:21"
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2963.0,
-      "end": 2963.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 2966.0,
-      "end": 2966.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2961000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/segment_002850_002970.json",
-  "segment_meta": {
-    "start_seconds": 2850,
-    "end_seconds": 2970,
-    "length_seconds": 120,
-    "start_time_mmss": "47:30",
-    "end_time_mmss": "49:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

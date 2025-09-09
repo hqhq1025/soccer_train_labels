@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 14643,
   "video_id": "6f15e429-2ab7-50a0-83d5-996ce0d5f505",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 355.0,
-      "end": 355.0,
-      "text": "Trigger: Throw-in by left @ 1 - 05:55"
-    },
-    {
-      "start": 361.0,
-      "end": 361.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 355000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-19 - 22-45 Barcelona 2 - 1 Leganes/segment_000310_000370.json",
-  "segment_meta": {
-    "start_seconds": 310,
-    "end_seconds": 370,
-    "length_seconds": 60,
-    "start_time_mmss": "05:10",
-    "end_time_mmss": "06:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

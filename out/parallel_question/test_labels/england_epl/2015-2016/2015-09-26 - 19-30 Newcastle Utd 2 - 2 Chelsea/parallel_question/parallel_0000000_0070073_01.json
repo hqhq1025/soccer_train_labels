@@ -1,6 +1,6 @@
 {
   "source": "soccer",
-  "id": 2,
+  "id": 57460,
   "video_id": "3689681a-31e6-5179-9bee-c67c5c54bd1e",
   "data_type": "online",
   "train_stage": 2,
@@ -10,20 +10,32 @@
     {
       "time": 0.0,
       "count": 0,
-      "text": "Watch for {Shots off target}; identify the team each time it occurs."
+      "text": "Track {Shots off target and Ball out of play} and alert me whenever it happens. Answer: 'Alert - <Event>'."
     },
     {
       "time": 70.073,
       "count": 1,
-      "text": "Keep monitoring {Clearance}; when it appears, tell me the team."
+      "text": "Keep monitoring {Clearance}; when it appears, tell me the team (left/right only). Reply 'Team left/right - <Event>'."
     }
   ],
   "answer": [
     {
+      "start": 19.531,
+      "end": 19.531,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
       "start": 68.873,
       "end": 68.873,
       "count": 0,
-      "text": "Team right - Shots off target"
+      "text": "Alert - Shots off target"
+    },
+    {
+      "start": 70.073,
+      "end": 70.073,
+      "count": 0,
+      "text": "Alert - Ball out of play"
     },
     {
       "start": 103.516,
@@ -35,7 +47,13 @@
       "start": 116.511,
       "end": 116.511,
       "count": 0,
-      "text": "Team right - Shots off target"
+      "text": "Alert - Shots off target"
+    },
+    {
+      "start": 117.631,
+      "end": 117.631,
+      "count": 0,
+      "text": "Alert - Ball out of play"
     }
   ]
 }

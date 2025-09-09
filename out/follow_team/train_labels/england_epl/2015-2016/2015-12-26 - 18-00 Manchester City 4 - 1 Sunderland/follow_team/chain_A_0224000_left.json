@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21143,
   "video_id": "9bad8278-3155-574d-905d-235afa932d23",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 224.0,
-      "end": 224.0,
-      "text": "Trigger: Foul by left @ 1 - 03:44"
-    },
-    {
-      "start": 229.0,
-      "end": 229.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that team. Answer format: at trigger reply 'Trigger: {Foul} by left/right'; for each {Yellow card}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 224000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/segment_000170_000230.json",
-  "segment_meta": {
-    "start_seconds": 170,
-    "end_seconds": 230,
-    "length_seconds": 60,
-    "start_time_mmss": "02:50",
-    "end_time_mmss": "03:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

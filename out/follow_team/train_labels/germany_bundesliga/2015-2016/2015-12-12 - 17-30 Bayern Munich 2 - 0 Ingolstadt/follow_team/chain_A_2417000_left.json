@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1887,
   "video_id": "67ff371a-6478-5c3b-bd18-51c0b6c3920c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Corner and Shots on target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Direct free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Direct free-kick} by left/right'; then for each {Corner and Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2417.0,
-      "end": 2417.0,
-      "text": "Trigger: Direct free-kick by left @ 1 - 40:17"
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 2472.0,
-      "end": 2472.0,
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 2474.0,
-      "end": 2474.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2417000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/segment_002380_002480.json",
-  "segment_meta": {
-    "start_seconds": 2380,
-    "end_seconds": 2480,
-    "length_seconds": 100,
-    "start_time_mmss": "39:40",
-    "end_time_mmss": "41:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

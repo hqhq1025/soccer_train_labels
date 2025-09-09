@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 21296,
+  "video_id": "04a7bcc1-7bad-5859-84dc-6e90f48d7050",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Direct free-kick and Ball out of play} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 58.484,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Throw-in}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 57.286,
+      "end": 57.286,
+      "count": 0,
+      "text": "Alert - Direct free-kick"
+    },
+    {
+      "start": 58.484,
+      "end": 58.484,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 102.65,
+      "end": 102.65,
+      "count": 1,
+      "text": "Alert - Throw-in"
+    }
+  ]
+}

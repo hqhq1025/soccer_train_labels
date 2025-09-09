@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22551,
   "video_id": "d68461ef-78d1-5b63-81ec-19bcb1cff820",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 4229.0,
-      "end": 4229.0,
-      "text": "Trigger: Foul by left @ 2 - 25:29"
-    },
-    {
-      "start": 4244.0,
-      "end": 4244.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Yellow card} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4229000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_004210_004250.json",
-  "segment_meta": {
-    "start_seconds": 4210,
-    "end_seconds": 4250,
-    "length_seconds": 40,
-    "start_time_mmss": "70:10",
-    "end_time_mmss": "70:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

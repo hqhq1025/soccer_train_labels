@@ -1,51 +1,48 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18363,
   "video_id": "64b13e5b-7e87-5b4f-8393-753c5bfd74e8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, start tracking that team; notify me on its {Corner, Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots off target}, follow the same team and list all subsequent {Corner, Shots on target and Goal}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4846.0,
-      "end": 4846.0,
-      "text": "Trigger: Shots off target by left @ 2 - 35:46"
+      "start": 6.0,
+      "end": 6.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 4870.0,
-      "end": 4870.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 4874.0,
-      "end": 4874.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 4874.0,
-      "end": 4874.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 4875.0,
-      "end": 4875.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4846000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/segment_004840_004960.json",
-  "segment_meta": {
-    "start_seconds": 4840,
-    "end_seconds": 4960,
-    "length_seconds": 120,
-    "start_time_mmss": "80:40",
-    "end_time_mmss": "82:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4915,
   "video_id": "519eee30-9913-5315-9b44-ef45bda5fc67",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 4752.0,
-      "end": 4752.0,
-      "text": "Trigger: Throw-in by left @ 2 - 34:12"
-    },
-    {
-      "start": 4790.0,
-      "end": 4790.0,
-      "text": "Then: Indirect free-kick by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Indirect free-kick} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4752000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/segment_004680_004800.json",
-  "segment_meta": {
-    "start_seconds": 4680,
-    "end_seconds": 4800,
-    "length_seconds": 120,
-    "start_time_mmss": "78:00",
-    "end_time_mmss": "80:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ]
 }

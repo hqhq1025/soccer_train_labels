@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22429,
   "video_id": "d8982eaa-313e-5eda-bf58-2335ae3fb3ac",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Shots off target} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 2939.0,
-      "end": 2939.0,
-      "text": "Trigger: Shots on target by right @ 2 - 03:59"
-    },
-    {
-      "start": 2985.0,
-      "end": 2985.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2939000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/segment_002910_002990.json",
-  "segment_meta": {
-    "start_seconds": 2910,
-    "end_seconds": 2990,
-    "length_seconds": 80,
-    "start_time_mmss": "48:30",
-    "end_time_mmss": "49:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

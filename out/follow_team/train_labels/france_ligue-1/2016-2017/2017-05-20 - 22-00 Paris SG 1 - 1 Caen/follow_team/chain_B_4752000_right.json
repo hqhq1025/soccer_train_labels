@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1756,
   "video_id": "455d6d14-e4a5-51e7-9e03-6a2e909aae7a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Throw-in} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4752.0,
-      "end": 4752.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 4803.0,
-      "end": 4803.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4752000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/segment_004700_004820.json",
-  "segment_meta": {
-    "start_seconds": 4700,
-    "end_seconds": 4820,
-    "length_seconds": 120,
-    "start_time_mmss": "78:20",
-    "end_time_mmss": "80:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23721,
   "video_id": "5c902ead-e3a0-58ea-9756-2fe5860e3a81",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Foul and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 737.0,
-      "end": 737.0,
-      "text": "Trigger: Shots on target by left @ 1 - 12:17"
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 751.0,
-      "end": 751.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 760.0,
-      "end": 760.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 737000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/segment_000670_000770.json",
-  "segment_meta": {
-    "start_seconds": 670,
-    "end_seconds": 770,
-    "length_seconds": 100,
-    "start_time_mmss": "11:10",
-    "end_time_mmss": "12:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

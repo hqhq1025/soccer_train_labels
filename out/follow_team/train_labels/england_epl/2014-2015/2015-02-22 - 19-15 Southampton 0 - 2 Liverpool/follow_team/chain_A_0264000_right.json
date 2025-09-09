@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23125,
   "video_id": "a6942fef-2ec3-56d5-ae95-8ef8e1f9a633",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Foul and Throw-in} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, keep following that team. Use left/right only; 'Trigger: {Corner} by left/right', then 'Then: <Event> by left/right' for {Foul and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 264.0,
-      "end": 264.0,
-      "text": "Trigger: Corner by right @ 1 - 04:24"
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
     },
     {
-      "start": 299.0,
-      "end": 299.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 339.0,
-      "end": 339.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 264000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/segment_000250_000350.json",
-  "segment_meta": {
-    "start_seconds": 250,
-    "end_seconds": 350,
-    "length_seconds": 100,
-    "start_time_mmss": "04:10",
-    "end_time_mmss": "05:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

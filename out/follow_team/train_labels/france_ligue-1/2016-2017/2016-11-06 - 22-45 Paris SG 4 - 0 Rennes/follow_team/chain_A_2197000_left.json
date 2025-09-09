@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1505,
   "video_id": "137893b8-5af2-5361-ac07-3bcc8d6d4bf0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Throw-in and Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Throw-in and Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2197.0,
-      "end": 2197.0,
-      "text": "Trigger: Foul by left @ 1 - 36:37"
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 2250.0,
-      "end": 2250.0,
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2269.0,
-      "end": 2269.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2197000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/segment_002150_002270.json",
-  "segment_meta": {
-    "start_seconds": 2150,
-    "end_seconds": 2270,
-    "length_seconds": 120,
-    "start_time_mmss": "35:50",
-    "end_time_mmss": "37:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

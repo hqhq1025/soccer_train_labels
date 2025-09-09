@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15660,
   "video_id": "cb8e5b48-20d3-54ef-beb0-ca74f3979428",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Indirect free-kick} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3136.0,
-      "end": 3136.0,
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3147.0,
-      "end": 3147.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3136000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/segment_003050_003170.json",
-  "segment_meta": {
-    "start_seconds": 3050,
-    "end_seconds": 3170,
-    "length_seconds": 120,
-    "start_time_mmss": "50:50",
-    "end_time_mmss": "52:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

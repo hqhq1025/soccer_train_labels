@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9100,
   "video_id": "ecaa8ee1-0572-509c-8de5-8a9bbd739391",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots on target} by left/right'; for each {Goal}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3129.0,
-      "end": 3129.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 3130.0,
-      "end": 3130.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3129000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/segment_003080_003140.json",
-  "segment_meta": {
-    "start_seconds": 3080,
-    "end_seconds": 3140,
-    "length_seconds": 60,
-    "start_time_mmss": "51:20",
-    "end_time_mmss": "52:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

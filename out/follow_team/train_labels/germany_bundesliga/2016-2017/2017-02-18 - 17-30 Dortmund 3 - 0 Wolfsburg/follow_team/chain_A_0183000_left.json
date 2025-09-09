@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3689,
   "video_id": "18d708d2-c555-5412-8d58-332d50e8ec52",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Throw-in} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 183.0,
-      "end": 183.0,
-      "text": "Trigger: Clearance by left @ 1 - 03:03"
-    },
-    {
-      "start": 205.0,
-      "end": 205.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Clearance}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 183000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_000160_000280.json",
-  "segment_meta": {
-    "start_seconds": 160,
-    "end_seconds": 280,
-    "length_seconds": 120,
-    "start_time_mmss": "02:40",
-    "end_time_mmss": "04:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

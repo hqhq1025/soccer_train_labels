@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23296,
   "video_id": "3efd0df7-3257-515e-8a5c-3fe3f3ce25f9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Direct free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 618.0,
-      "end": 618.0,
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 620.0,
-      "end": 620.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 618000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_000570_000630.json",
-  "segment_meta": {
-    "start_seconds": 570,
-    "end_seconds": 630,
-    "length_seconds": 60,
-    "start_time_mmss": "09:30",
-    "end_time_mmss": "10:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

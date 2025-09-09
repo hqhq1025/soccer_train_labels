@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6924,
   "video_id": "7d2dbee5-6096-55d9-ac2d-4912e85a5e67",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Indirect free-kick} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2828.0,
-      "end": 2828.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 2832.0,
-      "end": 2832.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2828000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/segment_002760_002860.json",
-  "segment_meta": {
-    "start_seconds": 2760,
-    "end_seconds": 2860,
-    "length_seconds": 100,
-    "start_time_mmss": "46:00",
-    "end_time_mmss": "47:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10245,
   "video_id": "454d61db-73d0-5b47-ae8e-3d2ffffa425a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Substitution} happens, lock onto that team and report every {Clearance and Shots off target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Substitution}, keep following that team. Use left/right only; 'Trigger: {Substitution} by left/right', then 'Then: <Event> by left/right' for {Clearance and Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4283.0,
-      "end": 4283.0,
-      "text": "Trigger: Substitution by left @ 2 - 26:23"
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
+      "text": "Trigger: Substitution by left"
     },
     {
-      "start": 4301.0,
-      "end": 4301.0,
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     },
     {
-      "start": 4318.0,
-      "end": 4318.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4283000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/segment_004200_004320.json",
-  "segment_meta": {
-    "start_seconds": 4200,
-    "end_seconds": 4320,
-    "length_seconds": 120,
-    "start_time_mmss": "70:00",
-    "end_time_mmss": "72:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

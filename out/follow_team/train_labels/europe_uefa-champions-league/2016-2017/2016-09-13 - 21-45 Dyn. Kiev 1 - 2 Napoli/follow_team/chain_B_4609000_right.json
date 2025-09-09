@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9462,
   "video_id": "eea9e71f-fa51-5e24-98a9-23ae010278fd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots off target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4609.0,
-      "end": 4609.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 4611.0,
-      "end": 4611.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4609000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/segment_004520_004640.json",
-  "segment_meta": {
-    "start_seconds": 4520,
-    "end_seconds": 4640,
-    "length_seconds": 120,
-    "start_time_mmss": "75:20",
-    "end_time_mmss": "77:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

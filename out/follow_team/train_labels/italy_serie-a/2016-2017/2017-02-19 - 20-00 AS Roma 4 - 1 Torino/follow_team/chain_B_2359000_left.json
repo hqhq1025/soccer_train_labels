@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19318,
   "video_id": "4a8b9dfc-1dbf-5f40-bef9-6d1b700f345f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} occurs, follow the initiating team; answer strictly as 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2359.0,
-      "end": 2359.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 2367.0,
-      "end": 2367.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2359000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/segment_002290_002370.json",
-  "segment_meta": {
-    "start_seconds": 2290,
-    "end_seconds": 2370,
-    "length_seconds": 80,
-    "start_time_mmss": "38:10",
-    "end_time_mmss": "39:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3335,
   "video_id": "3145b4a5-5b82-5ca4-b246-d7d75bc723ed",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, start tracking that team; notify me on its {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4174.0,
-      "end": 4174.0,
-      "text": "Trigger: Shots off target by right @ 2 - 24:34"
-    },
-    {
-      "start": 4176.0,
-      "end": 4176.0,
-      "text": "Then: Shots on target by right"
-    },
-    {
-      "start": 4178.0,
-      "end": 4178.0,
-      "text": "Then: Shots on target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots off target}; then follow that team. Respond 'Trigger: {Shots off target} by left/right', and for {Shots on target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4174000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/segment_004140_004240.json",
-  "segment_meta": {
-    "start_seconds": 4140,
-    "end_seconds": 4240,
-    "length_seconds": 100,
-    "start_time_mmss": "69:00",
-    "end_time_mmss": "70:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13378,
   "video_id": "4299d4da-8239-55d0-9c1e-34d8c88ab64e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Foul}, stick with that team. For {Substitution}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4400.0,
-      "end": 4400.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 4443.0,
-      "end": 4443.0,
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4400000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/segment_004350_004450.json",
-  "segment_meta": {
-    "start_seconds": 4350,
-    "end_seconds": 4450,
-    "length_seconds": 100,
-    "start_time_mmss": "72:30",
-    "end_time_mmss": "74:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

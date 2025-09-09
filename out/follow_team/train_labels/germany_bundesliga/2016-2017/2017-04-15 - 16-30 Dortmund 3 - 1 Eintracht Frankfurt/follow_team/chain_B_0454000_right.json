@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4932,
   "video_id": "41d4c848-f884-597e-927b-66ac2c1239eb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 454.0,
-      "end": 454.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 483.0,
-      "end": 483.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 454000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-15 - 16-30 Dortmund 3 - 1 Eintracht Frankfurt/segment_000370_000490.json",
-  "segment_meta": {
-    "start_seconds": 370,
-    "end_seconds": 490,
-    "length_seconds": 120,
-    "start_time_mmss": "06:10",
-    "end_time_mmss": "08:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

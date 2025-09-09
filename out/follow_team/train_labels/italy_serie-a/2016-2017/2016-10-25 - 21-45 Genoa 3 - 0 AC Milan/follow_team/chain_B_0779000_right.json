@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17360,
   "video_id": "dee6ed2f-50c3-5911-821d-862bbaac2a95",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team; answer strictly as 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 779.0,
-      "end": 779.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 818.0,
-      "end": 818.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 779000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/segment_000720_000840.json",
-  "segment_meta": {
-    "start_seconds": 720,
-    "end_seconds": 840,
-    "length_seconds": 120,
-    "start_time_mmss": "12:00",
-    "end_time_mmss": "14:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

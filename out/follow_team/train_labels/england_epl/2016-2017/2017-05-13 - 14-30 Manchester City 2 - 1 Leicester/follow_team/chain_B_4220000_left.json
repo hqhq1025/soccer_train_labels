@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25230,
   "video_id": "52996cfa-2787-586f-8002-a200798d7308",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4220.0,
-      "end": 4220.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 4245.0,
-      "end": 4245.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4220000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/segment_004190_004250.json",
-  "segment_meta": {
-    "start_seconds": 4190,
-    "end_seconds": 4250,
-    "length_seconds": 60,
-    "start_time_mmss": "69:50",
-    "end_time_mmss": "70:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

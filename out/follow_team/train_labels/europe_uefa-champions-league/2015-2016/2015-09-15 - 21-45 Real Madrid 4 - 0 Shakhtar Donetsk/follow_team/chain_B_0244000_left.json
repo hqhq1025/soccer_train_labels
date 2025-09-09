@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7194,
   "video_id": "56baecf3-493d-5fc0-8711-652c6af8fc7b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 244.0,
-      "end": 244.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 264.0,
-      "end": 264.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 244000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Real Madrid 4 - 0 Shakhtar Donetsk/segment_000210_000290.json",
-  "segment_meta": {
-    "start_seconds": 210,
-    "end_seconds": 290,
-    "length_seconds": 80,
-    "start_time_mmss": "03:30",
-    "end_time_mmss": "04:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

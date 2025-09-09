@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20635,
   "video_id": "a6dd2b16-3e4d-585a-84fa-7a9214bd4ee6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Substitution} occurs, follow the initiating team and report all {Corner and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Substitution}, stick with that team. For {Corner and Offside}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4115.0,
-      "end": 4115.0,
-      "text": "Trigger: Substitution by left @ 2 - 23:35"
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
+      "text": "Trigger: Substitution by left"
     },
     {
-      "start": 4138.0,
-      "end": 4138.0,
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 4142.0,
-      "end": 4142.0,
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4115000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/segment_004030_004150.json",
-  "segment_meta": {
-    "start_seconds": 4030,
-    "end_seconds": 4150,
-    "length_seconds": 120,
-    "start_time_mmss": "67:10",
-    "end_time_mmss": "69:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

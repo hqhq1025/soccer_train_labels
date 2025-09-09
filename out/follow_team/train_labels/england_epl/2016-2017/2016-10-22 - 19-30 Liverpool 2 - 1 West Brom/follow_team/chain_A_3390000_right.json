@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24947,
   "video_id": "16db05a8-88a8-562e-9080-2e3e1d6768fc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 3390.0,
-      "end": 3390.0,
-      "text": "Trigger: Foul by right @ 2 - 11:30"
-    },
-    {
-      "start": 3400.0,
-      "end": 3400.0,
-      "text": "Then: Yellow card by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3390000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/segment_003340_003460.json",
-  "segment_meta": {
-    "start_seconds": 3340,
-    "end_seconds": 3460,
-    "length_seconds": 120,
-    "start_time_mmss": "55:40",
-    "end_time_mmss": "57:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
+      "text": "Then: Yellow card by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5042,
   "video_id": "ee65f857-9f15-5555-89e6-8311bb315b01",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Red card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} happens, lock onto that team. Respond 'Trigger: {Foul} by left/right' and thereafter 'Then: <Event> by left/right' for {Red card}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5355.0,
-      "end": 5355.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 5368.0,
-      "end": 5368.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Then: Red card by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5355000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/segment_005330_005370.json",
-  "segment_meta": {
-    "start_seconds": 5330,
-    "end_seconds": 5370,
-    "length_seconds": 40,
-    "start_time_mmss": "88:50",
-    "end_time_mmss": "89:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

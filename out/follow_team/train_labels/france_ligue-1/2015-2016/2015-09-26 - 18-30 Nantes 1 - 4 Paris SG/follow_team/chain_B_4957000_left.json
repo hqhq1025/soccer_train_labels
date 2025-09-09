@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 108,
   "video_id": "7e217fce-00a2-5ae1-84a0-fbbb135f8c27",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4957.0,
-      "end": 4957.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5000.0,
-      "end": 5000.0,
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4957000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/segment_004900_005020.json",
-  "segment_meta": {
-    "start_seconds": 4900,
-    "end_seconds": 5020,
-    "length_seconds": 120,
-    "start_time_mmss": "81:40",
-    "end_time_mmss": "83:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

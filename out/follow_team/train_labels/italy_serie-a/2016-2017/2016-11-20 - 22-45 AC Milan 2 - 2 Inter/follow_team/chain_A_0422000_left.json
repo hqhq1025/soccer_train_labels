@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18987,
   "video_id": "ce4dfc10-77d9-51ac-828a-7eeb83d0544d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 422.0,
-      "end": 422.0,
-      "text": "Trigger: Throw-in by left @ 1 - 07:02"
-    },
-    {
-      "start": 449.0,
-      "end": 449.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 422000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_000370_000450.json",
-  "segment_meta": {
-    "start_seconds": 370,
-    "end_seconds": 450,
-    "length_seconds": 80,
-    "start_time_mmss": "06:10",
-    "end_time_mmss": "07:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24733,
   "video_id": "5d979177-0271-513f-aaba-5930820a17c4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Shots off target} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 445.0,
-      "end": 445.0,
-      "text": "Trigger: Throw-in by left @ 1 - 07:25"
-    },
-    {
-      "start": 452.0,
-      "end": 452.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Shots off target}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 445000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/segment_000350_000470.json",
-  "segment_meta": {
-    "start_seconds": 350,
-    "end_seconds": 470,
-    "length_seconds": 120,
-    "start_time_mmss": "05:50",
-    "end_time_mmss": "07:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

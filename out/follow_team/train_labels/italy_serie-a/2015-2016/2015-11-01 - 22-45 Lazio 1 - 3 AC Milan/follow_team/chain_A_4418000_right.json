@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15567,
   "video_id": "b65ca772-85c7-5c27-b315-4ff0ab56f2e9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots on target}, stick with that team and alert me for {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 4418.0,
-      "end": 4418.0,
-      "text": "Trigger: Shots on target by right @ 2 - 28:38"
-    },
-    {
-      "start": 4421.0,
-      "end": 4421.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots on target}, start tracking that team. Use responses 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Offside}."
     }
   ],
-  "match_path": "italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4418000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/segment_004380_004440.json",
-  "segment_meta": {
-    "start_seconds": 4380,
-    "end_seconds": 4440,
-    "length_seconds": 60,
-    "start_time_mmss": "73:00",
-    "end_time_mmss": "74:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

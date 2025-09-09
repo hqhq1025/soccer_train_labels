@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2564,
   "video_id": "5b917152-7dcd-5c6e-8e6d-36be675b7b48",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Foul}, stick with that team. For {Indirect free-kick}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 783.0,
-      "end": 783.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 857.0,
-      "end": 857.0,
+      "start": 107.0,
+      "end": 107.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 783000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/segment_000750_000870.json",
-  "segment_meta": {
-    "start_seconds": 750,
-    "end_seconds": 870,
-    "length_seconds": 120,
-    "start_time_mmss": "12:30",
-    "end_time_mmss": "14:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

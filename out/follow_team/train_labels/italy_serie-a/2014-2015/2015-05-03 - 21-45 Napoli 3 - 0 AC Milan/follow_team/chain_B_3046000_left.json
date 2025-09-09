@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16368,
   "video_id": "910a59b2-3f39-5205-ab7d-dda26ee6da83",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Clearance} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Clearance}, stick with that team. For {Clearance}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3046.0,
-      "end": 3046.0,
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 3097.0,
-      "end": 3097.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3046000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/segment_002980_003100.json",
-  "segment_meta": {
-    "start_seconds": 2980,
-    "end_seconds": 3100,
-    "length_seconds": 120,
-    "start_time_mmss": "49:40",
-    "end_time_mmss": "51:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

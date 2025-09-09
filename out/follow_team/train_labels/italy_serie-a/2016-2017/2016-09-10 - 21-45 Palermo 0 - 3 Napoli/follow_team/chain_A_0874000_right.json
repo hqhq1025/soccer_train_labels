@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20367,
   "video_id": "98a274a2-63b2-5d50-8511-7ae221b55587",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Corner and Shots off target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots on target} by left/right'; for each {Corner and Shots off target}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 874.0,
-      "end": 874.0,
-      "text": "Trigger: Shots on target by right @ 1 - 14:34"
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 910.0,
-      "end": 910.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 913.0,
-      "end": 913.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 874000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/segment_000840_000960.json",
-  "segment_meta": {
-    "start_seconds": 840,
-    "end_seconds": 960,
-    "length_seconds": 120,
-    "start_time_mmss": "14:00",
-    "end_time_mmss": "16:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

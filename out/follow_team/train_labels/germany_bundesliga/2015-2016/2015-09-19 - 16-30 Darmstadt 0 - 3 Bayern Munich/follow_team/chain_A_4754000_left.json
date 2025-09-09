@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2027,
   "video_id": "02390ccc-fa7b-5cce-8b36-76cf38d5711e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 4754.0,
-      "end": 4754.0,
-      "text": "Trigger: Foul by left @ 2 - 34:14"
-    },
-    {
-      "start": 4761.0,
-      "end": 4761.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that team. Answer format: at trigger reply 'Trigger: {Foul} by left/right'; for each {Yellow card}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4754000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/segment_004730_004790.json",
-  "segment_meta": {
-    "start_seconds": 4730,
-    "end_seconds": 4790,
-    "length_seconds": 60,
-    "start_time_mmss": "78:50",
-    "end_time_mmss": "79:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

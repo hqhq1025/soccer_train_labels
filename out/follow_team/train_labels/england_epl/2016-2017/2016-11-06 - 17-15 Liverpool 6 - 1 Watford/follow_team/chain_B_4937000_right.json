@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24392,
   "video_id": "76e85d83-b906-593a-86c5-98c275df9a57",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4937.0,
-      "end": 4937.0,
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 4941.0,
-      "end": 4941.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4937000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/segment_004890_004950.json",
-  "segment_meta": {
-    "start_seconds": 4890,
-    "end_seconds": 4950,
-    "length_seconds": 60,
-    "start_time_mmss": "81:30",
-    "end_time_mmss": "82:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

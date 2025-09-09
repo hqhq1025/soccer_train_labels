@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9935,
   "video_id": "97390a68-d3d9-5901-9f83-7ad3defb8bd1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Substitution and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots off target}, follow the same team and list all subsequent {Substitution and Throw-in}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4646.0,
-      "end": 4646.0,
-      "text": "Trigger: Shots off target by right @ 2 - 32:26"
+      "start": 16.0,
+      "end": 16.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 4666.0,
-      "end": 4666.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     },
     {
-      "start": 4693.0,
-      "end": 4693.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4646000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/segment_004630_004750.json",
-  "segment_meta": {
-    "start_seconds": 4630,
-    "end_seconds": 4750,
-    "length_seconds": 120,
-    "start_time_mmss": "77:10",
-    "end_time_mmss": "79:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

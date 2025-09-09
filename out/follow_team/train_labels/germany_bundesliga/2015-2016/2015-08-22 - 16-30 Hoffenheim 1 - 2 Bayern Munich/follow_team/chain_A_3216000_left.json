@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2159,
   "video_id": "efc8a05d-e259-5990-aca0-0eaf1d7b5c7d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3216.0,
-      "end": 3216.0,
-      "text": "Trigger: Throw-in by left @ 2 - 08:36"
-    },
-    {
-      "start": 3230.0,
-      "end": 3230.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in}. Left/right only."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3216000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/segment_003170_003290.json",
-  "segment_meta": {
-    "start_seconds": 3170,
-    "end_seconds": 3290,
-    "length_seconds": 120,
-    "start_time_mmss": "52:50",
-    "end_time_mmss": "54:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 8301,
+  "video_id": "1d06e8b6-bb77-5dfd-ab31-eb8f55005b5a",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Track {Ball out of play and Indirect free-kick} and alert me whenever they occur. Reply 'Alert - <Event>'."
+    },
+    {
+      "time": 27.263,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Shots off target}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 27.263,
+      "end": 27.263,
+      "count": 0,
+      "text": "Alert - Indirect free-kick"
+    },
+    {
+      "start": 31.396,
+      "end": 31.396,
+      "count": 1,
+      "text": "Alert - Shots off target"
+    }
+  ]
+}

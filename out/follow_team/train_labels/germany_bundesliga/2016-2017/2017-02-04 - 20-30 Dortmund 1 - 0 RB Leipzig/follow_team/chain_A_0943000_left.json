@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4587,
   "video_id": "c7b43588-7c1e-508a-9109-68ec5703c5cf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 943.0,
-      "end": 943.0,
-      "text": "Trigger: Shots off target by left @ 1 - 15:43"
-    },
-    {
-      "start": 955.0,
-      "end": 955.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots off target}, stick with that team. For {Foul}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 943000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/segment_000860_000960.json",
-  "segment_meta": {
-    "start_seconds": 860,
-    "end_seconds": 960,
-    "length_seconds": 100,
-    "start_time_mmss": "14:20",
-    "end_time_mmss": "16:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

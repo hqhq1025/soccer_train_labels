@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 2381,
+  "video_id": "081e5e5a-0957-54d3-9bf0-b86d66f2f5ae",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Please monitor {Ball out of play and Direct free-kick} and notify me each time they happen. Use 'Alert - <Event>'."
+    },
+    {
+      "time": 75.258,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Foul}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 26.661,
+      "end": 26.661,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 75.258,
+      "end": 75.258,
+      "count": 0,
+      "text": "Alert - Direct free-kick"
+    },
+    {
+      "start": 107.302,
+      "end": 107.302,
+      "count": 1,
+      "text": "Alert - Foul"
+    }
+  ]
+}

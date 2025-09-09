@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11460,
   "video_id": "134c0b85-5ced-581d-b5c7-33237763e88d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Yellow card} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4470.0,
-      "end": 4470.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 4477.0,
-      "end": 4477.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4470000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/segment_004400_004480.json",
-  "segment_meta": {
-    "start_seconds": 4400,
-    "end_seconds": 4480,
-    "length_seconds": 80,
-    "start_time_mmss": "73:20",
-    "end_time_mmss": "74:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

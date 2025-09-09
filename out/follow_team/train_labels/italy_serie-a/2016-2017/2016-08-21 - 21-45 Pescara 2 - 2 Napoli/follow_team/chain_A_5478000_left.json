@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20833,
   "video_id": "1da56be7-c591-5310-b6f1-8a80cdb08013",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card and Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team; answer strictly as 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Yellow card and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5478.0,
-      "end": 5478.0,
-      "text": "Trigger: Foul by left @ 2 - 46:18"
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 5481.0,
-      "end": 5481.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     },
     {
-      "start": 5529.0,
-      "end": 5529.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5478000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/segment_005410_005530.json",
-  "segment_meta": {
-    "start_seconds": 5410,
-    "end_seconds": 5530,
-    "length_seconds": 120,
-    "start_time_mmss": "90:10",
-    "end_time_mmss": "92:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

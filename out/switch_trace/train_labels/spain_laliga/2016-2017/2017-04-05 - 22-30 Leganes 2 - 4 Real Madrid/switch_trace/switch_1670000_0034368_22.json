@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 22448,
+  "video_id": "7600e3a9-bdd4-551a-8fbc-20f22e397b7f",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Track {Direct free-kick} and alert me whenever it occurs. Answer exactly: 'Alert - <Event>'."
+    },
+    {
+      "time": 34.368,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Throw-in and Indirect free-kick}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 32.688,
+      "end": 32.688,
+      "count": 0,
+      "text": "Alert - Direct free-kick"
+    },
+    {
+      "start": 87.37,
+      "end": 87.37,
+      "count": 1,
+      "text": "Alert - Throw-in"
+    },
+    {
+      "start": 117.4,
+      "end": 117.4,
+      "count": 1,
+      "text": "Alert - Indirect free-kick"
+    }
+  ]
+}

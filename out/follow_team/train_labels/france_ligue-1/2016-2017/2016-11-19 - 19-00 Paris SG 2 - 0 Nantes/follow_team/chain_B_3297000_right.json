@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1130,
   "video_id": "ca50baf2-3939-53eb-b21a-5779a8a7fbf8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3297.0,
-      "end": 3297.0,
+      "start": 7.0,
+      "end": 7.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3319.0,
-      "end": 3319.0,
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3297000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/segment_003290_003410.json",
-  "segment_meta": {
-    "start_seconds": 3290,
-    "end_seconds": 3410,
-    "length_seconds": 120,
-    "start_time_mmss": "54:50",
-    "end_time_mmss": "56:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

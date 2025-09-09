@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24633,
   "video_id": "4ec1317c-df88-5114-9e6e-7b2884eacd0a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 4183.0,
-      "end": 4183.0,
-      "text": "Trigger: Corner by right @ 2 - 24:43"
-    },
-    {
-      "start": 4215.0,
-      "end": 4215.0,
-      "text": "Then: Indirect free-kick by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, continue tracking that team. Answers must be 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4183000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/segment_004150_004230.json",
-  "segment_meta": {
-    "start_seconds": 4150,
-    "end_seconds": 4230,
-    "length_seconds": 80,
-    "start_time_mmss": "69:10",
-    "end_time_mmss": "70:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ]
 }

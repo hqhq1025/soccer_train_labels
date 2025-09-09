@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22752,
   "video_id": "602e6206-9407-507b-9eb5-fdb8b24a16da",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 806.0,
-      "end": 806.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 823.0,
-      "end": 823.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 806000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/segment_000770_000870.json",
-  "segment_meta": {
-    "start_seconds": 770,
-    "end_seconds": 870,
-    "length_seconds": 100,
-    "start_time_mmss": "12:50",
-    "end_time_mmss": "14:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

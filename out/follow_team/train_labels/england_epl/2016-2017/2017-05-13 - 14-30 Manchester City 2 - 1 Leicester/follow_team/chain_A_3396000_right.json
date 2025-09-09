@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25263,
   "video_id": "d0bd53ab-4acc-5048-a568-df15533ea6d4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 3396.0,
-      "end": 3396.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 11:36"
-    },
-    {
-      "start": 3426.0,
-      "end": 3426.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, keep following that team. Use left/right only; 'Trigger: {Indirect free-kick} by left/right', then 'Then: <Event> by left/right' for {Corner}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3396000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/segment_003350_003430.json",
-  "segment_meta": {
-    "start_seconds": 3350,
-    "end_seconds": 3430,
-    "length_seconds": 80,
-    "start_time_mmss": "55:50",
-    "end_time_mmss": "57:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

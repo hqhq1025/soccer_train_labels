@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21954,
   "video_id": "a2d14b02-5f8d-5c89-851e-6e148d424ce0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 5097.0,
-      "end": 5097.0,
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 5098.0,
-      "end": 5098.0,
+      "start": 18.0,
+      "end": 18.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5097000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-13 - 22-45 Chelsea 2 - 2 West Brom/segment_005080_005120.json",
-  "segment_meta": {
-    "start_seconds": 5080,
-    "end_seconds": 5120,
-    "length_seconds": 40,
-    "start_time_mmss": "84:40",
-    "end_time_mmss": "85:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

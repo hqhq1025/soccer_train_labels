@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3536,
   "video_id": "32c0a38b-fc4b-56b6-ad76-bb130c4ebc9f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Substitution}, keep following that team and alert me whenever {Clearance} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Substitution}, stick with that team. For {Clearance}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4648.0,
-      "end": 4648.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 4658.0,
-      "end": 4658.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4648000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_004620_004660.json",
-  "segment_meta": {
-    "start_seconds": 4620,
-    "end_seconds": 4660,
-    "length_seconds": 40,
-    "start_time_mmss": "77:00",
-    "end_time_mmss": "77:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

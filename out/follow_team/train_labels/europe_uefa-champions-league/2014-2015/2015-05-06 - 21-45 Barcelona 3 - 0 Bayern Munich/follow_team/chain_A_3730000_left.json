@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7765,
   "video_id": "c6ed1292-71d9-558e-afab-ba1dba760b1e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 3730.0,
-      "end": 3730.0,
-      "text": "Trigger: Foul by left @ 2 - 17:10"
-    },
-    {
-      "start": 3769.0,
-      "end": 3769.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Foul} occurs, keep following the same team and reply exactly 'Trigger: {Foul} by left/right'; then for each {Foul} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3730000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-06 - 21-45 Barcelona 3 - 0 Bayern Munich/segment_003690_003810.json",
-  "segment_meta": {
-    "start_seconds": 3690,
-    "end_seconds": 3810,
-    "length_seconds": 120,
-    "start_time_mmss": "61:30",
-    "end_time_mmss": "63:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 40.0,
+      "end": 40.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

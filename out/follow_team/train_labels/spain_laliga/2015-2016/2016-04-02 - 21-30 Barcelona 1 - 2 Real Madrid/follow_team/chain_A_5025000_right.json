@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11169,
   "video_id": "1164346e-aa73-518f-a808-1fad1be799aa",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Shots off target} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 5025.0,
-      "end": 5025.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 38:45"
-    },
-    {
-      "start": 5026.0,
-      "end": 5026.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5025000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/segment_004930_005030.json",
-  "segment_meta": {
-    "start_seconds": 4930,
-    "end_seconds": 5030,
-    "length_seconds": 100,
-    "start_time_mmss": "82:10",
-    "end_time_mmss": "83:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

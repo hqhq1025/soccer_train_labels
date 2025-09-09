@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2834,
   "video_id": "93918082-b97d-564e-8c1b-1d924d840a8c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 242.0,
-      "end": 242.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 250.0,
-      "end": 250.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 242000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/segment_000140_000260.json",
-  "segment_meta": {
-    "start_seconds": 140,
-    "end_seconds": 260,
-    "length_seconds": 120,
-    "start_time_mmss": "02:20",
-    "end_time_mmss": "04:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

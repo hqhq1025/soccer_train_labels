@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 8500,
+  "video_id": "c16c0912-63a5-5b5d-9c10-3a3bef919c0a",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Observe {Shots off target} and report every time it happens. Respond 'Alert - <Event>'."
+    },
+    {
+      "time": 64.612,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Indirect free-kick and Offside}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 36.546,
+      "end": 36.546,
+      "count": 0,
+      "text": "Alert - Shots off target"
+    },
+    {
+      "start": 94.244,
+      "end": 94.244,
+      "count": 1,
+      "text": "Alert - Offside"
+    },
+    {
+      "start": 116.645,
+      "end": 116.645,
+      "count": 1,
+      "text": "Alert - Indirect free-kick"
+    }
+  ]
+}

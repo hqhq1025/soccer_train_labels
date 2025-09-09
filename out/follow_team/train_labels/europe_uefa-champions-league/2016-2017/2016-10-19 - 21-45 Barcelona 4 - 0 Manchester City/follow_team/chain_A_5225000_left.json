@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9723,
   "video_id": "66569612-3e6b-5a5a-993b-2257f4c277ae",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 5225.0,
-      "end": 5225.0,
-      "text": "Trigger: Throw-in by left @ 2 - 42:05"
-    },
-    {
-      "start": 5236.0,
-      "end": 5236.0,
-      "text": "Then: Offside by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Offside} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5225000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/segment_005120_005240.json",
-  "segment_meta": {
-    "start_seconds": 5120,
-    "end_seconds": 5240,
-    "length_seconds": 120,
-    "start_time_mmss": "85:20",
-    "end_time_mmss": "87:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
+      "text": "Then: Offside by left"
+    }
+  ]
 }

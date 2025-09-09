@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19186,
   "video_id": "5a741ce3-b3e1-522d-bfc8-29fe79bacdad",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} happens, lock onto that team. Respond 'Trigger: {Foul} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5425.0,
-      "end": 5425.0,
+      "start": 5.0,
+      "end": 5.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 5474.0,
-      "end": 5474.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5425000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/segment_005420_005540.json",
-  "segment_meta": {
-    "start_seconds": 5420,
-    "end_seconds": 5540,
-    "length_seconds": 120,
-    "start_time_mmss": "90:20",
-    "end_time_mmss": "92:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

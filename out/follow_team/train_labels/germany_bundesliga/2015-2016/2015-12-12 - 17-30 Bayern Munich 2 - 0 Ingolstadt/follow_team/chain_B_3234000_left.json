@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1892,
   "video_id": "2e0a7160-b129-5e9b-be37-244bc8f6b603",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 3234.0,
-      "end": 3234.0,
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 3248.0,
-      "end": 3248.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3234000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/segment_003210_003310.json",
-  "segment_meta": {
-    "start_seconds": 3210,
-    "end_seconds": 3310,
-    "length_seconds": 100,
-    "start_time_mmss": "53:30",
-    "end_time_mmss": "55:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

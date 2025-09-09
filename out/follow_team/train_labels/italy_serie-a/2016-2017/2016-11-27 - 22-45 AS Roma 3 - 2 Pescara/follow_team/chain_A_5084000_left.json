@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18841,
   "video_id": "efc650d7-2288-5f80-a030-12cf9c1bf16a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Foul} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 5084.0,
-      "end": 5084.0,
-      "text": "Trigger: Clearance by left @ 2 - 39:44"
-    },
-    {
-      "start": 5094.0,
-      "end": 5094.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, follow that team. Answer format: at trigger reply 'Trigger: {Clearance} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5084000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/segment_005000_005120.json",
-  "segment_meta": {
-    "start_seconds": 5000,
-    "end_seconds": 5120,
-    "length_seconds": 120,
-    "start_time_mmss": "83:20",
-    "end_time_mmss": "85:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

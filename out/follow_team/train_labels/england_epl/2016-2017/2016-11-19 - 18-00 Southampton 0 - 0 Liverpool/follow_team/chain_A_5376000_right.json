@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24645,
   "video_id": "4a93db8a-b530-5474-a1d3-8e38d631989b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Substitution, Corner and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Substitution, Corner and Shots on target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5376.0,
-      "end": 5376.0,
-      "text": "Trigger: Throw-in by right @ 2 - 44:36"
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 5423.0,
-      "end": 5423.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     },
     {
-      "start": 5437.0,
-      "end": 5437.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 5438.0,
-      "end": 5438.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5376000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/segment_005320_005440.json",
-  "segment_meta": {
-    "start_seconds": 5320,
-    "end_seconds": 5440,
-    "length_seconds": 120,
-    "start_time_mmss": "88:40",
-    "end_time_mmss": "90:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3612,
   "video_id": "94543834-1ca1-5970-ae27-c0903809f880",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3695.0,
-      "end": 3695.0,
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 3710.0,
-      "end": 3710.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3695000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_003650_003750.json",
-  "segment_meta": {
-    "start_seconds": 3650,
-    "end_seconds": 3750,
-    "length_seconds": 100,
-    "start_time_mmss": "60:50",
-    "end_time_mmss": "62:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

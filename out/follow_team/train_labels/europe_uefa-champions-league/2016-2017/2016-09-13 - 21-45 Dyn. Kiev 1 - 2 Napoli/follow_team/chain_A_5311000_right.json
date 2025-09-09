@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9469,
   "video_id": "c4d82855-8a7d-5db9-a9ec-f1fbbf11bde5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Indirect free-kick} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 5311.0,
-      "end": 5311.0,
-      "text": "Trigger: Throw-in by right @ 2 - 43:31"
-    },
-    {
-      "start": 5347.0,
-      "end": 5347.0,
-      "text": "Then: Indirect free-kick by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Indirect free-kick}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5311000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/segment_005290_005350.json",
-  "segment_meta": {
-    "start_seconds": 5290,
-    "end_seconds": 5350,
-    "length_seconds": 60,
-    "start_time_mmss": "88:10",
-    "end_time_mmss": "89:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 514,
   "video_id": "aa7cf317-d2e7-58ff-8d4b-b367de3faaf1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 286.0,
-      "end": 286.0,
+      "start": 16.0,
+      "end": 16.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 327.0,
-      "end": 327.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 286000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/segment_000270_000330.json",
-  "segment_meta": {
-    "start_seconds": 270,
-    "end_seconds": 330,
-    "length_seconds": 60,
-    "start_time_mmss": "04:30",
-    "end_time_mmss": "05:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

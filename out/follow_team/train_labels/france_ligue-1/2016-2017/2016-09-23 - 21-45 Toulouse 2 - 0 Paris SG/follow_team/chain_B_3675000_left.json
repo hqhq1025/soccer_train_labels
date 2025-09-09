@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1656,
   "video_id": "d04b6683-1d5f-59c0-995a-46595e5b5285",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team. Respond 'Trigger: {Indirect free-kick} by left/right', and for {Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3675.0,
-      "end": 3675.0,
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 3715.0,
-      "end": 3715.0,
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3675000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/segment_003630_003730.json",
-  "segment_meta": {
-    "start_seconds": 3630,
-    "end_seconds": 3730,
-    "length_seconds": 100,
-    "start_time_mmss": "60:30",
-    "end_time_mmss": "62:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

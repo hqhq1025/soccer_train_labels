@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2448,
   "video_id": "34e1a782-55a7-51d2-b4bd-fd7db904b3e4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Indirect free-kick} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 3836.0,
-      "end": 3836.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 3908.0,
-      "end": 3908.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3836000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/segment_003790_003910.json",
-  "segment_meta": {
-    "start_seconds": 3790,
-    "end_seconds": 3910,
-    "length_seconds": 120,
-    "start_time_mmss": "63:10",
-    "end_time_mmss": "65:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

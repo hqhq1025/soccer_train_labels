@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3004,
   "video_id": "3135b7c1-3685-5f9c-b090-bd75fb3d023f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, continue tracking that team. Answers must be 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 2771.0,
-      "end": 2771.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 2772.0,
-      "end": 2772.0,
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2771000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/segment_002660_002780.json",
-  "segment_meta": {
-    "start_seconds": 2660,
-    "end_seconds": 2780,
-    "length_seconds": 120,
-    "start_time_mmss": "44:20",
-    "end_time_mmss": "46:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

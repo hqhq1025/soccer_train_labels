@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9249,
   "video_id": "d36270bd-fb63-58c9-8611-8296b3adab8e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 5270.0,
-      "end": 5270.0,
-      "text": "Trigger: Foul by left @ 2 - 42:50"
-    },
-    {
-      "start": 5274.0,
-      "end": 5274.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Yellow card} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5270000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Celtic 0 - 2 Barcelona/segment_005240_005320.json",
-  "segment_meta": {
-    "start_seconds": 5240,
-    "end_seconds": 5320,
-    "length_seconds": 80,
-    "start_time_mmss": "87:20",
-    "end_time_mmss": "88:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1850,
   "video_id": "e0cf679f-7d13-57a0-893c-a87f10a1e731",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Clearance}; then follow that team. Respond 'Trigger: {Clearance} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2316.0,
-      "end": 2316.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 2355.0,
-      "end": 2355.0,
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2316000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/segment_002260_002380.json",
-  "segment_meta": {
-    "start_seconds": 2260,
-    "end_seconds": 2380,
-    "length_seconds": 120,
-    "start_time_mmss": "37:40",
-    "end_time_mmss": "39:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

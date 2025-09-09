@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4101,
   "video_id": "cdf72c3c-abbe-5461-b9ff-6191fd5fe8db",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 5373.0,
-      "end": 5373.0,
-      "text": "Trigger: Foul by right @ 2 - 44:33"
-    },
-    {
-      "start": 5377.0,
-      "end": 5377.0,
-      "text": "Then: Yellow card by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5373000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_005320_005420.json",
-  "segment_meta": {
-    "start_seconds": 5320,
-    "end_seconds": 5420,
-    "length_seconds": 100,
-    "start_time_mmss": "88:40",
-    "end_time_mmss": "90:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
+      "text": "Then: Yellow card by right"
+    }
+  ]
 }

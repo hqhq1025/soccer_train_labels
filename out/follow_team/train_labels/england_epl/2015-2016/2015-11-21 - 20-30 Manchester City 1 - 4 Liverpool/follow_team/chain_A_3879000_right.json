@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21697,
   "video_id": "2fa8f753-0c5c-5b6a-899f-3f6c5d90488f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Shots off target and Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Direct free-kick}, start tracking that team. Use responses 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots off target and Substitution}."
+    }
+  ],
   "answer": [
     {
-      "start": 3879.0,
-      "end": 3879.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 19:39"
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 3881.0,
-      "end": 3881.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     },
     {
-      "start": 3906.0,
-      "end": 3906.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3879000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/segment_003790_003910.json",
-  "segment_meta": {
-    "start_seconds": 3790,
-    "end_seconds": 3910,
-    "length_seconds": 120,
-    "start_time_mmss": "63:10",
-    "end_time_mmss": "65:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

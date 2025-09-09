@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22238,
   "video_id": "33087c36-641b-5cb0-81d5-a916b5e0dfa2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Shots on target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3292.0,
-      "end": 3292.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 3358.0,
-      "end": 3358.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3292000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/segment_003240_003360.json",
-  "segment_meta": {
-    "start_seconds": 3240,
-    "end_seconds": 3360,
-    "length_seconds": 120,
-    "start_time_mmss": "54:00",
-    "end_time_mmss": "56:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

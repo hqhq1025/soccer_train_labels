@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16255,
   "video_id": "e3135bd1-6b2f-5988-a428-3faf6a8995ee",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Substitution, Throw-in and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Substitution, Throw-in and Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4531.0,
-      "end": 4531.0,
-      "text": "Trigger: Foul by right @ 2 - 30:31"
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
     },
     {
-      "start": 4559.0,
-      "end": 4559.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     },
     {
-      "start": 4594.0,
-      "end": 4594.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 4624.0,
-      "end": 4624.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4531000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/segment_004510_004630.json",
-  "segment_meta": {
-    "start_seconds": 4510,
-    "end_seconds": 4630,
-    "length_seconds": 120,
-    "start_time_mmss": "75:10",
-    "end_time_mmss": "77:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

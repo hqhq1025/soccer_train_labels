@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15841,
   "video_id": "8af7002c-2f06-5b45-ad4e-b0c3d4cdce85",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, start tracking that team; notify me on its {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 2004.0,
-      "end": 2004.0,
-      "text": "Trigger: Clearance by left @ 1 - 33:24"
-    },
-    {
-      "start": 2049.0,
-      "end": 2049.0,
-      "text": "Then: Corner by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and reply exactly 'Trigger: {Clearance} by left/right'; then for each {Corner} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2004000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/segment_001980_002060.json",
-  "segment_meta": {
-    "start_seconds": 1980,
-    "end_seconds": 2060,
-    "length_seconds": 80,
-    "start_time_mmss": "33:00",
-    "end_time_mmss": "34:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
+      "text": "Then: Corner by left"
+    }
+  ]
 }

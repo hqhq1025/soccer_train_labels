@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3038,
   "video_id": "d1618d82-e125-56c3-a06f-472be9e4b719",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, start tracking that team; notify me on its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots off target} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2932.0,
-      "end": 2932.0,
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 2969.0,
-      "end": 2969.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2932000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/segment_002890_002990.json",
-  "segment_meta": {
-    "start_seconds": 2890,
-    "end_seconds": 2990,
-    "length_seconds": 100,
-    "start_time_mmss": "48:10",
-    "end_time_mmss": "49:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

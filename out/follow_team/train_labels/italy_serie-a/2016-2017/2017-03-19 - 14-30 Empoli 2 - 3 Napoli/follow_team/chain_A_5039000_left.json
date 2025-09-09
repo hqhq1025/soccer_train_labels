@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18461,
   "video_id": "bfe101f6-36e9-511f-8066-1cfce2b0977a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 5039.0,
-      "end": 5039.0,
-      "text": "Trigger: Clearance by left @ 2 - 38:59"
-    },
-    {
-      "start": 5072.0,
-      "end": 5072.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Clearance}; then follow that team. Respond 'Trigger: {Clearance} by left/right', and for {Foul} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5039000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/segment_004980_005100.json",
-  "segment_meta": {
-    "start_seconds": 4980,
-    "end_seconds": 5100,
-    "length_seconds": 120,
-    "start_time_mmss": "83:00",
-    "end_time_mmss": "85:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

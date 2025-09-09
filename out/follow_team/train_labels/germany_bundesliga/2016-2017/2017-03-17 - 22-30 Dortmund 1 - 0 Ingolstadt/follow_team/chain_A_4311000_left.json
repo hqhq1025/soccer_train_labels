@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3981,
   "video_id": "77339390-71f1-5c4c-b29c-0382b1129d8f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 4311.0,
-      "end": 4311.0,
-      "text": "Trigger: Throw-in by left @ 2 - 26:51"
-    },
-    {
-      "start": 4323.0,
-      "end": 4323.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4311000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_004210_004330.json",
-  "segment_meta": {
-    "start_seconds": 4210,
-    "end_seconds": 4330,
-    "length_seconds": 120,
-    "start_time_mmss": "70:10",
-    "end_time_mmss": "72:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

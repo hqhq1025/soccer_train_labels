@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 14378,
   "video_id": "3fe92cec-56ce-5f27-be1a-c1d027129b81",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Kick-off}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Kick-off}."
+    }
+  ],
   "answer": [
     {
-      "start": 2694.0,
-      "end": 2694.0,
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 2700.0,
-      "end": 2700.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Then: Kick-off by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2694000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-29 - 22-45 Real Madrid 3 - 0 Real Sociedad/segment_002670_002710.json",
-  "segment_meta": {
-    "start_seconds": 2670,
-    "end_seconds": 2710,
-    "length_seconds": 40,
-    "start_time_mmss": "44:30",
-    "end_time_mmss": "45:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

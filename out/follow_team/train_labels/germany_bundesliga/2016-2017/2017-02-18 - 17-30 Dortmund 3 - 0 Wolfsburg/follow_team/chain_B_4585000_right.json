@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3712,
   "video_id": "0cee28db-c0a7-500b-aa5f-11d6384c421d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4585.0,
-      "end": 4585.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 4599.0,
-      "end": 4599.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4585000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_004480_004600.json",
-  "segment_meta": {
-    "start_seconds": 4480,
-    "end_seconds": 4600,
-    "length_seconds": 120,
-    "start_time_mmss": "74:40",
-    "end_time_mmss": "76:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

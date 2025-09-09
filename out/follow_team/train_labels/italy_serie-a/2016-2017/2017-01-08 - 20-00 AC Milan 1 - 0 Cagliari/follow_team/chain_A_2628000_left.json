@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17931,
   "video_id": "5478a801-58ab-5b86-84b4-7b2571a87199",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Offside and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots on target}, stick with that team. For {Offside and Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2628.0,
-      "end": 2628.0,
-      "text": "Trigger: Shots on target by left @ 1 - 43:48"
+      "start": 8.0,
+      "end": 8.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2630.0,
-      "end": 2630.0,
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
       "text": "Then: Offside by left"
     },
     {
-      "start": 2720.0,
-      "end": 2720.0,
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2628000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/segment_002620_002740.json",
-  "segment_meta": {
-    "start_seconds": 2620,
-    "end_seconds": 2740,
-    "length_seconds": 120,
-    "start_time_mmss": "43:40",
-    "end_time_mmss": "45:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

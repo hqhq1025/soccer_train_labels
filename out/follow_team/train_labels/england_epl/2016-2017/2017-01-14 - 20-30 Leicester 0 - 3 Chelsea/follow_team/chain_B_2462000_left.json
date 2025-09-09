@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24218,
   "video_id": "5fed3619-c128-5d26-a0a6-daafd889bd6b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2462.0,
-      "end": 2462.0,
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2482.0,
-      "end": 2482.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2462000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/segment_002400_002500.json",
-  "segment_meta": {
-    "start_seconds": 2400,
-    "end_seconds": 2500,
-    "length_seconds": 100,
-    "start_time_mmss": "40:00",
-    "end_time_mmss": "41:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

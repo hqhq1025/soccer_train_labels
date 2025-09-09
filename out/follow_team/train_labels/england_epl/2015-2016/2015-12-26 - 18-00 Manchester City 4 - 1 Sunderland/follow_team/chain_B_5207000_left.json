@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21152,
   "video_id": "20c68b6f-af07-52f0-86c9-9ce087c1a651",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 5207.0,
-      "end": 5207.0,
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5248.0,
-      "end": 5248.0,
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5207000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/segment_005160_005280.json",
-  "segment_meta": {
-    "start_seconds": 5160,
-    "end_seconds": 5280,
-    "length_seconds": 120,
-    "start_time_mmss": "86:00",
-    "end_time_mmss": "88:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

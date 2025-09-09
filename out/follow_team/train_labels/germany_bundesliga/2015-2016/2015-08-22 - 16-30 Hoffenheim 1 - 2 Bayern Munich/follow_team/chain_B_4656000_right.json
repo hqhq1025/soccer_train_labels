@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2120,
   "video_id": "406670a6-21d8-5fd4-973b-acbac2f3e398",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Clearance} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Clearance}."
+    }
+  ],
   "answer": [
     {
-      "start": 4656.0,
-      "end": 4656.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 4711.0,
-      "end": 4711.0,
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
       "text": "Then: Clearance by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4656000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/segment_004610_004730.json",
-  "segment_meta": {
-    "start_seconds": 4610,
-    "end_seconds": 4730,
-    "length_seconds": 120,
-    "start_time_mmss": "76:50",
-    "end_time_mmss": "78:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

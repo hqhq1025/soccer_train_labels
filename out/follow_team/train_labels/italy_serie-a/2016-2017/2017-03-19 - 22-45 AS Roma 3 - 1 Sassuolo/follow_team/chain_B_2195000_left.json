@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18634,
   "video_id": "d9452bee-8dd0-5639-81d6-78b69df64ca8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 2195.0,
-      "end": 2195.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 2198.0,
-      "end": 2198.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2195000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/segment_002120_002200.json",
-  "segment_meta": {
-    "start_seconds": 2120,
-    "end_seconds": 2200,
-    "length_seconds": 80,
-    "start_time_mmss": "35:20",
-    "end_time_mmss": "36:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

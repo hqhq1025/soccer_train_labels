@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7654,
   "video_id": "a9fdf130-b252-5af0-a522-b435ca630d0a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} happens, lock onto that team. Respond 'Trigger: {Clearance} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2257.0,
-      "end": 2257.0,
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 2284.0,
-      "end": 2284.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2257000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/segment_002210_002290.json",
-  "segment_meta": {
-    "start_seconds": 2210,
-    "end_seconds": 2290,
-    "length_seconds": 80,
-    "start_time_mmss": "36:50",
-    "end_time_mmss": "38:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

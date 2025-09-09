@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17780,
   "video_id": "1bf9b1a8-808b-546b-b168-a42d678651e8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Offside} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 3185.0,
-      "end": 3185.0,
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 3269.0,
-      "end": 3269.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3185000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/segment_003170_003290.json",
-  "segment_meta": {
-    "start_seconds": 3170,
-    "end_seconds": 3290,
-    "length_seconds": 120,
-    "start_time_mmss": "52:50",
-    "end_time_mmss": "54:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

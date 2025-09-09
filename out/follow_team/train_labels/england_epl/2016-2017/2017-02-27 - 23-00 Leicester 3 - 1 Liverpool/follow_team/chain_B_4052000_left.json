@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23814,
   "video_id": "2def0672-2249-5bee-8bb3-eb30ddd1a25d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4052.0,
-      "end": 4052.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 4053.0,
-      "end": 4053.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4052000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/segment_004020_004060.json",
-  "segment_meta": {
-    "start_seconds": 4020,
-    "end_seconds": 4060,
-    "length_seconds": 40,
-    "start_time_mmss": "67:00",
-    "end_time_mmss": "67:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

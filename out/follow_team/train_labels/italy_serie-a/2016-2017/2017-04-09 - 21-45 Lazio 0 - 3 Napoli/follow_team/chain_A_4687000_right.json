@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20763,
   "video_id": "ceb67eb1-4d25-5fdd-9118-8942a66f4d2f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4687.0,
-      "end": 4687.0,
-      "text": "Trigger: Shots off target by right @ 2 - 33:07"
-    },
-    {
-      "start": 4750.0,
-      "end": 4750.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots off target}, stick with that team. For {Foul}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4687000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/segment_004650_004770.json",
-  "segment_meta": {
-    "start_seconds": 4650,
-    "end_seconds": 4770,
-    "length_seconds": 120,
-    "start_time_mmss": "77:30",
-    "end_time_mmss": "79:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

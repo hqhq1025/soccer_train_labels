@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23262,
   "video_id": "0770183c-5a74-521d-b888-c5f55c4bdb84",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 5321.0,
-      "end": 5321.0,
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5332.0,
-      "end": 5332.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5321000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_005280_005400.json",
-  "segment_meta": {
-    "start_seconds": 5280,
-    "end_seconds": 5400,
-    "length_seconds": 120,
-    "start_time_mmss": "88:00",
-    "end_time_mmss": "90:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1750,
   "video_id": "ad92ec01-21c7-5540-a271-600fc275c69e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 737.0,
-      "end": 737.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 738.0,
-      "end": 738.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 737000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/segment_000700_000740.json",
-  "segment_meta": {
-    "start_seconds": 700,
-    "end_seconds": 740,
-    "length_seconds": 40,
-    "start_time_mmss": "11:40",
-    "end_time_mmss": "12:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

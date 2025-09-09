@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20652,
   "video_id": "2f28d96e-8f29-59cb-9a4c-a7a31a6e16d0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Corner} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} happens, lock onto that team. Respond 'Trigger: {Indirect free-kick} by left/right' and thereafter 'Then: <Event> by left/right' for {Corner}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2131.0,
-      "end": 2131.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 2197.0,
-      "end": 2197.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2131000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/segment_002080_002200.json",
-  "segment_meta": {
-    "start_seconds": 2080,
-    "end_seconds": 2200,
-    "length_seconds": 120,
-    "start_time_mmss": "34:40",
-    "end_time_mmss": "36:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

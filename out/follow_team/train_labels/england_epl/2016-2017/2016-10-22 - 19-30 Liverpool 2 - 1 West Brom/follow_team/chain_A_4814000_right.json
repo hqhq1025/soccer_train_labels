@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24965,
   "video_id": "c7a8d155-5a6c-5e6b-aec6-edefdfc4d601",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Direct free-kick}, start tracking that team; notify me on its {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4814.0,
-      "end": 4814.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 35:14"
-    },
-    {
-      "start": 4816.0,
-      "end": 4816.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4814000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/segment_004700_004820.json",
-  "segment_meta": {
-    "start_seconds": 4700,
-    "end_seconds": 4820,
-    "length_seconds": 120,
-    "start_time_mmss": "78:20",
-    "end_time_mmss": "80:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

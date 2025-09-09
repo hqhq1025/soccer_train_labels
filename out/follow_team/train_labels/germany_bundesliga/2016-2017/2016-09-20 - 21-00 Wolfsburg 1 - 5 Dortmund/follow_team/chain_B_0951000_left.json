@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4350,
   "video_id": "c977a46a-5a83-594b-828d-5d8a594959cf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 951.0,
-      "end": 951.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 957.0,
-      "end": 957.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 951000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/segment_000900_001000.json",
-  "segment_meta": {
-    "start_seconds": 900,
-    "end_seconds": 1000,
-    "length_seconds": 100,
-    "start_time_mmss": "15:00",
-    "end_time_mmss": "16:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

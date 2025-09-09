@@ -1,6 +1,6 @@
 {
   "source": "soccer",
-  "id": 272,
+  "id": 57787,
   "video_id": "8b0ed3d4-aa86-5653-9723-2b42314a2f57",
   "data_type": "online",
   "train_stage": 2,
@@ -10,15 +10,21 @@
     {
       "time": 0.0,
       "count": 0,
-      "text": "Please watch for {Indirect free-kick and Shots on target} and alert me whenever it appears."
+      "text": "Monitor {Shots off target} and notify me each time it happens. Use: 'Alert - <Event>'."
     },
     {
       "time": 48.509,
       "count": 1,
-      "text": "Please track {Clearance} and alert me whenever it occurs."
+      "text": "Please track {Clearance and Indirect free-kick} and alert me whenever it occurs. Reply exactly: 'Alert - <Event>'."
     }
   ],
   "answer": [
+    {
+      "start": 46.469,
+      "end": 46.469,
+      "count": 0,
+      "text": "Alert - Shots off target"
+    },
     {
       "start": 77.587,
       "end": 77.587,
@@ -28,14 +34,8 @@
     {
       "start": 99.899,
       "end": 99.899,
-      "count": 0,
+      "count": 1,
       "text": "Alert - Indirect free-kick"
-    },
-    {
-      "start": 114.757,
-      "end": 114.757,
-      "count": 0,
-      "text": "Alert - Shots on target"
     }
   ]
 }

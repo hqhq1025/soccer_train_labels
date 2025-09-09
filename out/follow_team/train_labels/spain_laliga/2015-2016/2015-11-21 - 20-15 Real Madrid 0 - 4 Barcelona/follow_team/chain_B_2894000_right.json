@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10522,
   "video_id": "ae553cc9-969c-5735-9cc8-30ad9a499d28",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2894.0,
-      "end": 2894.0,
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2910.0,
-      "end": 2910.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2894000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/segment_002880_002940.json",
-  "segment_meta": {
-    "start_seconds": 2880,
-    "end_seconds": 2940,
-    "length_seconds": 60,
-    "start_time_mmss": "48:00",
-    "end_time_mmss": "49:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

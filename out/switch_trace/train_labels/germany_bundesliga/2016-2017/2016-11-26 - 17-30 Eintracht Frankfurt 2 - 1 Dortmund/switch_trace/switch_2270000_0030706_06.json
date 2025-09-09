@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 6210,
+  "video_id": "28c2155e-ffc8-59d2-af14-c8c6ecf1191d",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Observe {Ball out of play and Shots off target} and report every time they happen. Exact text 'Alert - <Event>'."
+    },
+    {
+      "time": 30.706,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Throw-in}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 12.917,
+      "end": 12.917,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 119.015,
+      "end": 119.015,
+      "count": 1,
+      "text": "Alert - Throw-in"
+    }
+  ]
+}

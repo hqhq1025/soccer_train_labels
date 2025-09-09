@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18547,
   "video_id": "0a479aca-82b4-5188-be3c-d5d6bd4c72a2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Throw-in and Shots off target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Clearance}; then follow that team. Respond 'Trigger: {Clearance} by left/right', and for {Throw-in and Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 142.0,
-      "end": 142.0,
-      "text": "Trigger: Clearance by left @ 1 - 02:22"
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
     },
     {
-      "start": 155.0,
-      "end": 155.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 171.0,
-      "end": 171.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 142000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/segment_000080_000200.json",
-  "segment_meta": {
-    "start_seconds": 80,
-    "end_seconds": 200,
-    "length_seconds": 120,
-    "start_time_mmss": "01:20",
-    "end_time_mmss": "03:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

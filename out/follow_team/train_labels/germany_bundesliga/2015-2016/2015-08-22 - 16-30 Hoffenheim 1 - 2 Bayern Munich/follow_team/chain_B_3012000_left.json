@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2084,
   "video_id": "43e45c27-a1ae-5e51-b40f-951dbe29eb4b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 3012.0,
-      "end": 3012.0,
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3037.0,
-      "end": 3037.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3012000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/segment_002920_003040.json",
-  "segment_meta": {
-    "start_seconds": 2920,
-    "end_seconds": 3040,
-    "length_seconds": 120,
-    "start_time_mmss": "48:40",
-    "end_time_mmss": "50:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

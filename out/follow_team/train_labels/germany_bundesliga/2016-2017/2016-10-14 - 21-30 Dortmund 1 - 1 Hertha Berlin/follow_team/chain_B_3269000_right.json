@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5040,
   "video_id": "bd83f08c-be5f-5d9e-acd9-ccb88c0e2610",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3269.0,
-      "end": 3269.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3289.0,
-      "end": 3289.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3269000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/segment_003190_003310.json",
-  "segment_meta": {
-    "start_seconds": 3190,
-    "end_seconds": 3310,
-    "length_seconds": 120,
-    "start_time_mmss": "53:10",
-    "end_time_mmss": "55:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

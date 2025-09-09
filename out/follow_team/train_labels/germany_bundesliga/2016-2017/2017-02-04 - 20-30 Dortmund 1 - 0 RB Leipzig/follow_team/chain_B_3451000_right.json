@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4596,
   "video_id": "1cd816cd-98fc-534e-8572-821fd4bc8790",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Shots on target}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3451.0,
-      "end": 3451.0,
+      "start": 11.0,
+      "end": 11.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3478.0,
-      "end": 3478.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3451000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/segment_003440_003480.json",
-  "segment_meta": {
-    "start_seconds": 3440,
-    "end_seconds": 3480,
-    "length_seconds": 40,
-    "start_time_mmss": "57:20",
-    "end_time_mmss": "58:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

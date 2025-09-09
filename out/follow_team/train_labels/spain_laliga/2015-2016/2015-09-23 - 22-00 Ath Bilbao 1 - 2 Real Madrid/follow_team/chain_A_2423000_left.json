@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10225,
   "video_id": "b4da055c-b5d0-5f7e-b8cb-e31fad1ddf08",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Shots on target and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Direct free-kick} happens, lock onto that team. Respond 'Trigger: {Direct free-kick} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots on target and Throw-in}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2423.0,
-      "end": 2423.0,
-      "text": "Trigger: Direct free-kick by left @ 1 - 40:23"
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 2430.0,
-      "end": 2430.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 2450.0,
-      "end": 2450.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2423000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-23 - 22-00 Ath Bilbao 1 - 2 Real Madrid/segment_002340_002460.json",
-  "segment_meta": {
-    "start_seconds": 2340,
-    "end_seconds": 2460,
-    "length_seconds": 120,
-    "start_time_mmss": "39:00",
-    "end_time_mmss": "41:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

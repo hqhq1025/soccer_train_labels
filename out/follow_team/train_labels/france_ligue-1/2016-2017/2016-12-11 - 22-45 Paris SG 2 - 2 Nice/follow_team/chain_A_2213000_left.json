@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 601,
   "video_id": "6e7e22b9-2b8a-5ee3-8253-92960419aa2b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Foul and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul and Throw-in}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2213.0,
-      "end": 2213.0,
-      "text": "Trigger: Corner by left @ 1 - 36:53"
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
     },
     {
-      "start": 2258.0,
-      "end": 2258.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 2296.0,
-      "end": 2296.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2304.0,
-      "end": 2304.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2213000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/segment_002200_002320.json",
-  "segment_meta": {
-    "start_seconds": 2200,
-    "end_seconds": 2320,
-    "length_seconds": 120,
-    "start_time_mmss": "36:40",
-    "end_time_mmss": "38:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

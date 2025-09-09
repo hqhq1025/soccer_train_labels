@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19047,
   "video_id": "c86bcd61-e62d-5f3b-bc49-2bcc73eaa811",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 4663.0,
-      "end": 4663.0,
-      "text": "Trigger: Shots on target by left @ 2 - 32:43"
-    },
-    {
-      "start": 4664.0,
-      "end": 4664.0,
-      "text": "Then: Goal by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, continue tracking that team. Answers must be 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Goal}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-14 - 16-00 Torino 0 - 5 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-14 - 16-00 Torino 0 - 5 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4663000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-14 - 16-00 Torino 0 - 5 Napoli/segment_004590_004670.json",
-  "segment_meta": {
-    "start_seconds": 4590,
-    "end_seconds": 4670,
-    "length_seconds": 80,
-    "start_time_mmss": "76:30",
-    "end_time_mmss": "77:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
+      "text": "Then: Goal by left"
+    }
+  ]
 }

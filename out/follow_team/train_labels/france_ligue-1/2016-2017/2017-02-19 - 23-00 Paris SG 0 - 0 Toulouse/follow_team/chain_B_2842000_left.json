@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1326,
   "video_id": "9bb0f577-35c6-5c1e-a7b0-e1ad6e5b066a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that team. Answer format: at trigger reply 'Trigger: {Foul} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2842.0,
-      "end": 2842.0,
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 2885.0,
-      "end": 2885.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2842000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/segment_002780_002900.json",
-  "segment_meta": {
-    "start_seconds": 2780,
-    "end_seconds": 2900,
-    "length_seconds": 120,
-    "start_time_mmss": "46:20",
-    "end_time_mmss": "48:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4032,
   "video_id": "2678ff25-c7a0-59e3-ab98-5ef247d4d36d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4072.0,
-      "end": 4072.0,
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 4083.0,
-      "end": 4083.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4072000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_003980_004100.json",
-  "segment_meta": {
-    "start_seconds": 3980,
-    "end_seconds": 4100,
-    "length_seconds": 120,
-    "start_time_mmss": "66:20",
-    "end_time_mmss": "68:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

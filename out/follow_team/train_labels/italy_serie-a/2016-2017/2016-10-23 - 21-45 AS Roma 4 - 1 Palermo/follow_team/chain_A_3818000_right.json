@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17847,
   "video_id": "ead6a2d5-155f-51e7-9aa6-81ce8c545e26",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3818.0,
-      "end": 3818.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 18:38"
-    },
-    {
-      "start": 3857.0,
-      "end": 3857.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3818000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_003800_003860.json",
-  "segment_meta": {
-    "start_seconds": 3800,
-    "end_seconds": 3860,
-    "length_seconds": 60,
-    "start_time_mmss": "63:20",
-    "end_time_mmss": "64:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

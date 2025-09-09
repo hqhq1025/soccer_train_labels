@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13682,
   "video_id": "83040ef4-e099-5d11-a623-66b2d77affdd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Goal} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 973.0,
-      "end": 973.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 974.0,
-      "end": 974.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 973000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/segment_000940_000980.json",
-  "segment_meta": {
-    "start_seconds": 940,
-    "end_seconds": 980,
-    "length_seconds": 40,
-    "start_time_mmss": "15:40",
-    "end_time_mmss": "16:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

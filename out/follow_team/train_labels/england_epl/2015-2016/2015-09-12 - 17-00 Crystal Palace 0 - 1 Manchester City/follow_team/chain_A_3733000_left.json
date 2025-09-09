@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22219,
   "video_id": "46eba81e-0013-59e2-b198-bd3a51868891",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots on target, Corner and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Shots on target, Corner and Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3733.0,
-      "end": 3733.0,
-      "text": "Trigger: Corner by left @ 2 - 17:13"
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
     },
     {
-      "start": 3743.0,
-      "end": 3743.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 3781.0,
-      "end": 3781.0,
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 3783.0,
-      "end": 3783.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3733000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_003680_003800.json",
-  "segment_meta": {
-    "start_seconds": 3680,
-    "end_seconds": 3800,
-    "length_seconds": 120,
-    "start_time_mmss": "61:20",
-    "end_time_mmss": "63:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

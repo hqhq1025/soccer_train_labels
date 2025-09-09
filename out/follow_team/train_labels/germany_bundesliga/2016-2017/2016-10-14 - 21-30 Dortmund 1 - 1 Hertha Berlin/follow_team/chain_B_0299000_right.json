@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5046,
   "video_id": "90656f66-2ad3-5c69-89b2-6c19a9274bd9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Indirect free-kick} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 299.0,
-      "end": 299.0,
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 324.0,
-      "end": 324.0,
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 299000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/segment_000280_000360.json",
-  "segment_meta": {
-    "start_seconds": 280,
-    "end_seconds": 360,
-    "length_seconds": 80,
-    "start_time_mmss": "04:40",
-    "end_time_mmss": "06:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13503,
   "video_id": "a2a96301-1e56-598d-8c1b-60440ef84f6b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Shots on target and Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots off target}; then follow that team. Respond 'Trigger: {Shots off target} by left/right', and for {Shots on target and Corner} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4058.0,
-      "end": 4058.0,
-      "text": "Trigger: Shots off target by right @ 2 - 22:38"
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 4134.0,
-      "end": 4134.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 4149.0,
-      "end": 4149.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2016-12-03 - 18-15 Barcelona 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-12-03 - 18-15 Barcelona 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4058000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-12-03 - 18-15 Barcelona 1 - 1 Real Madrid/segment_004030_004150.json",
-  "segment_meta": {
-    "start_seconds": 4030,
-    "end_seconds": 4150,
-    "length_seconds": 120,
-    "start_time_mmss": "67:10",
-    "end_time_mmss": "69:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

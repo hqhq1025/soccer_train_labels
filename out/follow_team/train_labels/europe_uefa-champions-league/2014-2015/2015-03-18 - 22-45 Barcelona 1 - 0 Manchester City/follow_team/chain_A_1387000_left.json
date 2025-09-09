@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8665,
   "video_id": "d737b07c-9cd1-5c45-a67b-1a955142b79e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 1387.0,
-      "end": 1387.0,
-      "text": "Trigger: Foul by left @ 1 - 23:07"
-    },
-    {
-      "start": 1432.0,
-      "end": 1432.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1387000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/segment_001360_001440.json",
-  "segment_meta": {
-    "start_seconds": 1360,
-    "end_seconds": 1440,
-    "length_seconds": 80,
-    "start_time_mmss": "22:40",
-    "end_time_mmss": "24:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

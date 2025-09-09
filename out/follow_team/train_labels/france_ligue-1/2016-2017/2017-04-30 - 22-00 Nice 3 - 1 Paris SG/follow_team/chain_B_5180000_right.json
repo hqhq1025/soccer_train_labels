@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 990,
   "video_id": "5e02768a-0be4-5611-a70f-a920d0bde2cf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} happens, lock onto that team. Respond 'Trigger: {Indirect free-kick} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5180.0,
-      "end": 5180.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 5189.0,
-      "end": 5189.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5180000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/segment_005070_005190.json",
-  "segment_meta": {
-    "start_seconds": 5070,
-    "end_seconds": 5190,
-    "length_seconds": 120,
-    "start_time_mmss": "84:30",
-    "end_time_mmss": "86:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 615,
   "video_id": "7e02bb04-94fa-50bf-af65-73b1e3117a8e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots off target} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 2783.0,
-      "end": 2783.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 01:23"
-    },
-    {
-      "start": 2790.0,
-      "end": 2790.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2783000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/segment_002720_002800.json",
-  "segment_meta": {
-    "start_seconds": 2720,
-    "end_seconds": 2800,
-    "length_seconds": 80,
-    "start_time_mmss": "45:20",
-    "end_time_mmss": "46:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

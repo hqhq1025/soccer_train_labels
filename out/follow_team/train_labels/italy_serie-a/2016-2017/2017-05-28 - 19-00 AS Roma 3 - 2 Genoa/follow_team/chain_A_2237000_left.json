@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16949,
   "video_id": "fa928636-6706-56ec-b66c-7d533f870eec",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
-  "answer": [
+  "question": [
     {
-      "start": 2237.0,
-      "end": 2237.0,
-      "text": "Trigger: Foul by left @ 1 - 37:17"
-    },
-    {
-      "start": 2281.0,
-      "end": 2281.0,
-      "text": "Then: Clearance by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Clearance}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2237000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 AS Roma 3 - 2 Genoa/segment_002190_002290.json",
-  "segment_meta": {
-    "start_seconds": 2190,
-    "end_seconds": 2290,
-    "length_seconds": 100,
-    "start_time_mmss": "36:30",
-    "end_time_mmss": "38:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
+      "text": "Then: Clearance by left"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1071,
   "video_id": "495b3361-5322-5300-8b55-b8fd1363d799",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 3086.0,
-      "end": 3086.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 06:26"
-    },
-    {
-      "start": 3114.0,
-      "end": 3114.0,
-      "text": "Then: Indirect free-kick by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, start tracking that team. Use responses 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3086000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/segment_003020_003120.json",
-  "segment_meta": {
-    "start_seconds": 3020,
-    "end_seconds": 3120,
-    "length_seconds": 100,
-    "start_time_mmss": "50:20",
-    "end_time_mmss": "52:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ]
 }

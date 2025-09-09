@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16216,
   "video_id": "496b27ee-5755-5854-8590-b78dc40ce25c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Yellow card} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Indirect free-kick} by left/right'; for each {Yellow card}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4895.0,
-      "end": 4895.0,
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 4958.0,
-      "end": 4958.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4895000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-19 - 21-45 Inter 0 - 0 AC Milan/segment_004880_004980.json",
-  "segment_meta": {
-    "start_seconds": 4880,
-    "end_seconds": 4980,
-    "length_seconds": 100,
-    "start_time_mmss": "81:20",
-    "end_time_mmss": "83:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

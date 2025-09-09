@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4303,
   "video_id": "5db71ead-bfe3-55f9-adcb-1b9863d2c4e8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3385.0,
-      "end": 3385.0,
-      "text": "Trigger: Corner by left @ 2 - 11:25"
-    },
-    {
-      "start": 3387.0,
-      "end": 3387.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, follow that team. Answer format: at trigger reply 'Trigger: {Corner} by left/right'; for each {Shots on target}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3385000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/segment_003270_003390.json",
-  "segment_meta": {
-    "start_seconds": 3270,
-    "end_seconds": 3390,
-    "length_seconds": 120,
-    "start_time_mmss": "54:30",
-    "end_time_mmss": "56:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

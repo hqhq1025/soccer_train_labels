@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22179,
   "video_id": "7be32d5b-4494-51c5-9ade-cdfb8879c502",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Throw-in and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, keep following that team. Use left/right only; 'Trigger: {Corner} by left/right', then 'Then: <Event> by left/right' for {Throw-in and Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 161.0,
-      "end": 161.0,
-      "text": "Trigger: Corner by left @ 1 - 02:41"
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
     },
     {
-      "start": 172.0,
-      "end": 172.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 182.0,
-      "end": 182.0,
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 185.0,
-      "end": 185.0,
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 161000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_000090_000210.json",
-  "segment_meta": {
-    "start_seconds": 90,
-    "end_seconds": 210,
-    "length_seconds": 120,
-    "start_time_mmss": "01:30",
-    "end_time_mmss": "03:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

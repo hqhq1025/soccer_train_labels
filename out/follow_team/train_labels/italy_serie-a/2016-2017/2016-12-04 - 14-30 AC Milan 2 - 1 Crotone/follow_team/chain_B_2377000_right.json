@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19182,
   "video_id": "4e9789ef-97cf-5810-8e0f-9b3e9e73da82",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, continue tracking that team. Answers must be 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 2377.0,
-      "end": 2377.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 2411.0,
-      "end": 2411.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2377000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/segment_002320_002420.json",
-  "segment_meta": {
-    "start_seconds": 2320,
-    "end_seconds": 2420,
-    "length_seconds": 100,
-    "start_time_mmss": "38:40",
-    "end_time_mmss": "40:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24258,
   "video_id": "49ddd1e3-392e-55df-92a8-472e5f0a6046",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4900.0,
-      "end": 4900.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 4920.0,
-      "end": 4920.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4900000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/segment_004870_004970.json",
-  "segment_meta": {
-    "start_seconds": 4870,
-    "end_seconds": 4970,
-    "length_seconds": 100,
-    "start_time_mmss": "81:10",
-    "end_time_mmss": "82:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

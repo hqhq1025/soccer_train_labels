@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10189,
   "video_id": "f95b2e91-d7ea-5238-bdb1-86650970e708",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3404.0,
-      "end": 3404.0,
-      "text": "Trigger: Corner by left @ 2 - 11:44"
-    },
-    {
-      "start": 3406.0,
-      "end": 3406.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3404000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/segment_003290_003410.json",
-  "segment_meta": {
-    "start_seconds": 3290,
-    "end_seconds": 3410,
-    "length_seconds": 120,
-    "start_time_mmss": "54:50",
-    "end_time_mmss": "56:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

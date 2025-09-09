@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20546,
   "video_id": "c59beeae-6d37-5e90-850f-420ccd8ca93c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Substitution}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3814.0,
-      "end": 3814.0,
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
       "text": "Trigger: Substitution by right"
     },
     {
-      "start": 3836.0,
-      "end": 3836.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3814000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/segment_003800_003840.json",
-  "segment_meta": {
-    "start_seconds": 3800,
-    "end_seconds": 3840,
-    "length_seconds": 40,
-    "start_time_mmss": "63:20",
-    "end_time_mmss": "64:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

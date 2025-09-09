@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19334,
   "video_id": "fdd2e41f-bb03-5296-ab16-29640639f646",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, keep following that team and alert me whenever {Offside} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, follow that team. Answer format: at trigger reply 'Trigger: {Corner} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 396.0,
-      "end": 396.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 400.0,
-      "end": 400.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 396000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/segment_000350_000430.json",
-  "segment_meta": {
-    "start_seconds": 350,
-    "end_seconds": 430,
-    "length_seconds": 80,
-    "start_time_mmss": "05:50",
-    "end_time_mmss": "07:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

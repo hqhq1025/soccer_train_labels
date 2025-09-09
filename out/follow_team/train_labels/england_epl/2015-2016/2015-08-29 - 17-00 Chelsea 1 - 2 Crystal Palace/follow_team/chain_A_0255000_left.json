@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22561,
   "video_id": "1d80fc31-161c-5659-8183-1006df87b0ff",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 255.0,
-      "end": 255.0,
-      "text": "Trigger: Clearance by left @ 1 - 04:15"
-    },
-    {
-      "start": 280.0,
-      "end": 280.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and reply exactly 'Trigger: {Clearance} by left/right'; then for each {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 255000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_000170_000290.json",
-  "segment_meta": {
-    "start_seconds": 170,
-    "end_seconds": 290,
-    "length_seconds": 120,
-    "start_time_mmss": "02:50",
-    "end_time_mmss": "04:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

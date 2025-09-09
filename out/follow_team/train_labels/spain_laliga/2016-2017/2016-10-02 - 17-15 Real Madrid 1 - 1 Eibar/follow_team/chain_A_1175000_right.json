@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15115,
   "video_id": "95e5314f-105f-5439-96c1-edf5d975709b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, keep following that team and alert me whenever {Throw-in} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 1175.0,
-      "end": 1175.0,
-      "text": "Trigger: Corner by right @ 1 - 19:35"
-    },
-    {
-      "start": 1196.0,
-      "end": 1196.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1175000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/segment_001160_001200.json",
-  "segment_meta": {
-    "start_seconds": 1160,
-    "end_seconds": 1200,
-    "length_seconds": 40,
-    "start_time_mmss": "19:20",
-    "end_time_mmss": "20:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

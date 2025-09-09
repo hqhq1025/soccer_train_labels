@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8117,
   "video_id": "c766c357-b210-5593-8451-693aeffdc4c7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Red card}.",
-  "answer": [
+  "question": [
     {
-      "start": 3586.0,
-      "end": 3586.0,
-      "text": "Trigger: Foul by left @ 2 - 14:46"
-    },
-    {
-      "start": 3596.0,
-      "end": 3596.0,
-      "text": "Then: Red card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} happens, lock onto that team. Respond 'Trigger: {Foul} by left/right' and thereafter 'Then: <Event> by left/right' for {Red card}. Left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3586000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/segment_003560_003600.json",
-  "segment_meta": {
-    "start_seconds": 3560,
-    "end_seconds": 3600,
-    "length_seconds": 40,
-    "start_time_mmss": "59:20",
-    "end_time_mmss": "60:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Then: Red card by left"
+    }
+  ]
 }

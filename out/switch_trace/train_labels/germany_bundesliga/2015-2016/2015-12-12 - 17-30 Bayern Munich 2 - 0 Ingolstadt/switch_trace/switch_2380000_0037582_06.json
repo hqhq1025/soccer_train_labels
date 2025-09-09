@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 2885,
+  "video_id": "67ff371a-6478-5c3b-bd18-51c0b6c3920c",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Direct free-kick} and tell me when it occurs. Reply 'Alert - <Event>'."
+    },
+    {
+      "time": 37.582,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Ball out of play and Corner}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 37.582,
+      "end": 37.582,
+      "count": 0,
+      "text": "Alert - Direct free-kick"
+    },
+    {
+      "start": 53.702,
+      "end": 53.702,
+      "count": 1,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 92.4,
+      "end": 92.4,
+      "count": 1,
+      "text": "Alert - Corner"
+    }
+  ]
+}

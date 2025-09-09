@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20084,
   "video_id": "12c62295-defa-5e7a-b4db-cca9448452d3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Red card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Red card}."
+    }
+  ],
   "answer": [
     {
-      "start": 1534.0,
-      "end": 1534.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 1540.0,
-      "end": 1540.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Red card by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 1534000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-04 - 22-45 Bologna 1 - 7 Napoli/segment_001470_001550.json",
-  "segment_meta": {
-    "start_seconds": 1470,
-    "end_seconds": 1550,
-    "length_seconds": 80,
-    "start_time_mmss": "24:30",
-    "end_time_mmss": "25:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

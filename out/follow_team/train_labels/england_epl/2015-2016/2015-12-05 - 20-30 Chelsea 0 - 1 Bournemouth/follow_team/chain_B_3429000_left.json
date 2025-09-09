@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22264,
   "video_id": "e85b33c2-aa4a-52c2-80d5-87cc78a4c8f7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3429.0,
-      "end": 3429.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 3487.0,
-      "end": 3487.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3429000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-05 - 20-30 Chelsea 0 - 1 Bournemouth/segment_003370_003490.json",
-  "segment_meta": {
-    "start_seconds": 3370,
-    "end_seconds": 3490,
-    "length_seconds": 120,
-    "start_time_mmss": "56:10",
-    "end_time_mmss": "58:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

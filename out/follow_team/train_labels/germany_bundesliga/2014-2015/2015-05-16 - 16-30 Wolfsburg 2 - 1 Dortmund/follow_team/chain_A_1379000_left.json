@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2889,
   "video_id": "31c17d24-237a-5b9f-8221-26b76044585f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 1379.0,
-      "end": 1379.0,
-      "text": "Trigger: Throw-in by left @ 1 - 22:59"
-    },
-    {
-      "start": 1436.0,
-      "end": 1436.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul}. Left/right only."
     }
   ],
-  "match_path": "germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1379000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-16 - 16-30 Wolfsburg 2 - 1 Dortmund/segment_001340_001440.json",
-  "segment_meta": {
-    "start_seconds": 1340,
-    "end_seconds": 1440,
-    "length_seconds": 100,
-    "start_time_mmss": "22:20",
-    "end_time_mmss": "24:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

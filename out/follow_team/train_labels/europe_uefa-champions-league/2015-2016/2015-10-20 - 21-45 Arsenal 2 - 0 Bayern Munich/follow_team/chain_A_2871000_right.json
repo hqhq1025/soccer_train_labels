@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7007,
   "video_id": "598cf3ee-97c4-5f6d-9be2-b61feea167ae",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, start tracking that team; notify me on its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2871.0,
-      "end": 2871.0,
-      "text": "Trigger: Clearance by right @ 2 - 02:51"
-    },
-    {
-      "start": 2884.0,
-      "end": 2884.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and reply exactly 'Trigger: {Clearance} by left/right'; then for each {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2871000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/segment_002770_002890.json",
-  "segment_meta": {
-    "start_seconds": 2770,
-    "end_seconds": 2890,
-    "length_seconds": 120,
-    "start_time_mmss": "46:10",
-    "end_time_mmss": "48:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

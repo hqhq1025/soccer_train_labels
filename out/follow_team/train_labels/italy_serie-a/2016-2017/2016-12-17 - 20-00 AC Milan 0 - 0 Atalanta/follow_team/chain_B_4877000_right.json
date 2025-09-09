@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17250,
   "video_id": "31f4f55b-001f-58a0-b79a-1fc652050410",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Clearance}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4877.0,
-      "end": 4877.0,
+      "start": 7.0,
+      "end": 7.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 4898.0,
-      "end": 4898.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4877000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_004870_004990.json",
-  "segment_meta": {
-    "start_seconds": 4870,
-    "end_seconds": 4990,
-    "length_seconds": 120,
-    "start_time_mmss": "81:10",
-    "end_time_mmss": "83:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

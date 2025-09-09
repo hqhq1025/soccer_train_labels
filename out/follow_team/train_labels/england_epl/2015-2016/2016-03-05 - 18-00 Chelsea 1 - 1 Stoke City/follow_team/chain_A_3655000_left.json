@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21381,
   "video_id": "7eb0dce3-684f-5f1f-b25e-0e0ef74e856e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3655.0,
-      "end": 3655.0,
-      "text": "Trigger: Corner by left @ 2 - 15:55"
-    },
-    {
-      "start": 3674.0,
-      "end": 3674.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Shots on target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3655000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/segment_003560_003680.json",
-  "segment_meta": {
-    "start_seconds": 3560,
-    "end_seconds": 3680,
-    "length_seconds": 120,
-    "start_time_mmss": "59:20",
-    "end_time_mmss": "61:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

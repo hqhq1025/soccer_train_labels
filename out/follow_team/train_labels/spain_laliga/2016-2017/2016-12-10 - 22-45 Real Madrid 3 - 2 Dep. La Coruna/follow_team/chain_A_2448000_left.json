@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13339,
   "video_id": "47a3fe7b-e3ea-5fbb-8463-e504afe08b2c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Foul and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Foul and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2448.0,
-      "end": 2448.0,
-      "text": "Trigger: Shots off target by left @ 1 - 40:48"
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 2479.0,
-      "end": 2479.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 2523.0,
-      "end": 2523.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2448000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/segment_002410_002530.json",
-  "segment_meta": {
-    "start_seconds": 2410,
-    "end_seconds": 2530,
-    "length_seconds": 120,
-    "start_time_mmss": "40:10",
-    "end_time_mmss": "42:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -65,30 +65,30 @@ class Ann:
 
 
 ALERT_TEMPLATES_EN = [
-    "Please track {EVENT_SET} and alert me whenever it occurs.",
-    "Monitor {EVENT_SET} and notify me each time it happens.",
-    "Watch for {EVENT_SET} and alert me upon occurrence.",
-    "Keep an eye on {EVENT_SET}; ping me every time it happens.",
-    "Observe {EVENT_SET} and let me know when it occurs.",
-    "Track {EVENT_SET} and alert me whenever it happens.",
-    "Continuously monitor {EVENT_SET} and notify me on occurrence.",
-    "Please watch for {EVENT_SET} and alert me whenever it appears.",
-    "Keep watching for {EVENT_SET} and let me know each time.",
-    "Observe the stream and alert me for every {EVENT_SET}.",
+    "Please track {EVENT_SET} and alert me whenever it occurs. Reply exactly: 'Alert - <Event>'.",
+    "Monitor {EVENT_SET} and notify me each time it happens. Use: 'Alert - <Event>'.",
+    "Watch for {EVENT_SET} and alert me upon occurrence. Answer format: 'Alert - <Event>'.",
+    "Keep an eye on {EVENT_SET}; ping me every time it happens. Respond 'Alert - <Event>'.",
+    "Observe {EVENT_SET} and let me know when it occurs. Respond exactly 'Alert - <Event>'.",
+    "Track {EVENT_SET} and alert me whenever it happens. Answer: 'Alert - <Event>'.",
+    "Continuously monitor {EVENT_SET} and notify me on occurrence. Reply with 'Alert - <Event>'.",
+    "Please watch for {EVENT_SET} and alert me whenever it appears. Use 'Alert - <Event>'.",
+    "Keep watching for {EVENT_SET} and let me know each time. Strictly 'Alert - <Event>'.",
+    "Observe the stream and alert me for every {EVENT_SET}. Exact text: 'Alert - <Event>'.",
 ]
 
 
 TEAM_TEMPLATES_EN = [
-    "Track {EVENT_SET}; when it occurs, tell me which team.",
-    "Monitor {EVENT_SET} and report the team whenever it happens.",
-    "Watch for {EVENT_SET}; identify the team each time it occurs.",
-    "Follow {EVENT_SET} and respond with the team on occurrence.",
-    "Observe {EVENT_SET} and specify the team when it happens.",
-    "Keep monitoring {EVENT_SET}; when it appears, tell me the team.",
-    "Track {EVENT_SET} and report which team triggers it.",
-    "Watch {EVENT_SET} and say which team when it happens.",
-    "Observe {EVENT_SET}; on occurrence, identify the team.",
-    "Monitor {EVENT_SET}; each time it occurs, tell me the team.",
+    "Track {EVENT_SET}; when it occurs, tell me which team (left/right only). Reply: 'Team left/right - <Event>'.",
+    "Monitor {EVENT_SET} and report the team whenever it happens (left/right only). Answer: 'Team left/right - <Event>'.",
+    "Watch for {EVENT_SET}; identify the team (left/right only) each time. Respond 'Team left/right - <Event>'.",
+    "Follow {EVENT_SET} and respond with the team (left/right only) on occurrence: 'Team left/right - <Event>'.",
+    "Observe {EVENT_SET} and specify the team when it happens (left/right only). Use 'Team left/right - <Event>'.",
+    "Keep monitoring {EVENT_SET}; when it appears, tell me the team (left/right only). Reply 'Team left/right - <Event>'.",
+    "Track {EVENT_SET} and report which team triggers it (left/right only). Answer 'Team left/right - <Event>'.",
+    "Watch {EVENT_SET} and say which team (left/right only) when it happens. Use 'Team left/right - <Event>'.",
+    "Observe {EVENT_SET}; on occurrence, identify the team (left/right only). Respond 'Team left/right - <Event>'.",
+    "Monitor {EVENT_SET}; each time it occurs, tell me the team (left/right only). Exact: 'Team left/right - <Event>'.",
 ]
 
 

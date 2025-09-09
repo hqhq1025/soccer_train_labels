@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 12341,
   "video_id": "8975774c-3d12-54bf-ae05-70223305e6c4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4192.0,
-      "end": 4192.0,
-      "text": "Trigger: Throw-in by left @ 2 - 24:52"
-    },
-    {
-      "start": 4256.0,
-      "end": 4256.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4192000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 22-45 Villarreal 2 - 3 Real Madrid/segment_004160_004260.json",
-  "segment_meta": {
-    "start_seconds": 4160,
-    "end_seconds": 4260,
-    "length_seconds": 100,
-    "start_time_mmss": "69:20",
-    "end_time_mmss": "71:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

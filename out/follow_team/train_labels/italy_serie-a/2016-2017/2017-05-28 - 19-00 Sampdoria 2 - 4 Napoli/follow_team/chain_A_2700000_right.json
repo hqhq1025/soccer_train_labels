@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19513,
   "video_id": "b6a7fa27-8f78-5cfd-bf71-cd0d015621fc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Kick-off}, stick with that team and alert me for {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2700.0,
-      "end": 2700.0,
-      "text": "Trigger: Kick-off by right @ 2 - 00:00"
-    },
-    {
-      "start": 2712.0,
-      "end": 2712.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Kick-off} happens, lock onto that team. Respond 'Trigger: {Kick-off} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in}. Left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2700000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_002670_002790.json",
-  "segment_meta": {
-    "start_seconds": 2670,
-    "end_seconds": 2790,
-    "length_seconds": 120,
-    "start_time_mmss": "44:30",
-    "end_time_mmss": "46:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Trigger: Kick-off by right"
+    },
+    {
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

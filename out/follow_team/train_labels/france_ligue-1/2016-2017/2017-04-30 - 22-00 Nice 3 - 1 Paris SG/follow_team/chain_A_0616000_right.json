@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1011,
   "video_id": "6ab23900-161a-56c2-a121-e9093507d89f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 616.0,
-      "end": 616.0,
-      "text": "Trigger: Indirect free-kick by right @ 1 - 10:16"
-    },
-    {
-      "start": 641.0,
-      "end": 641.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 683.0,
-      "end": 683.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 616000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/segment_000590_000710.json",
-  "segment_meta": {
-    "start_seconds": 590,
-    "end_seconds": 710,
-    "length_seconds": 120,
-    "start_time_mmss": "09:50",
-    "end_time_mmss": "11:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

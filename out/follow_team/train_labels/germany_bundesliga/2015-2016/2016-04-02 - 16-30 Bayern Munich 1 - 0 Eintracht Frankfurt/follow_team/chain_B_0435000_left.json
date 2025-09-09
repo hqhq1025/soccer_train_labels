@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2348,
   "video_id": "d489b238-4e95-5219-8a85-970e49925053",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 435.0,
-      "end": 435.0,
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 446.0,
-      "end": 446.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 435000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/segment_000370_000450.json",
-  "segment_meta": {
-    "start_seconds": 370,
-    "end_seconds": 450,
-    "length_seconds": 80,
-    "start_time_mmss": "06:10",
-    "end_time_mmss": "07:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3627,
   "video_id": "c2e15cd2-ec00-5172-aa64-86c32f2fad41",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 825.0,
-      "end": 825.0,
-      "text": "Trigger: Shots off target by right @ 1 - 13:45"
-    },
-    {
-      "start": 869.0,
-      "end": 869.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, continue tracking that team. Answers must be 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 825000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_000770_000890.json",
-  "segment_meta": {
-    "start_seconds": 770,
-    "end_seconds": 890,
-    "length_seconds": 120,
-    "start_time_mmss": "12:50",
-    "end_time_mmss": "14:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

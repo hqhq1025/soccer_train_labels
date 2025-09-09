@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17661,
   "video_id": "60960e4c-d9d1-5539-8bf7-979383733b39",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Substitution, Penalty and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Substitution, Penalty and Shots on target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3518.0,
-      "end": 3518.0,
-      "text": "Trigger: Throw-in by left @ 2 - 13:38"
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3563.0,
-      "end": 3563.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     },
     {
-      "start": 3570.0,
-      "end": 3570.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Penalty by left"
     },
     {
-      "start": 3570.0,
-      "end": 3570.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3518000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/segment_003460_003580.json",
-  "segment_meta": {
-    "start_seconds": 3460,
-    "end_seconds": 3580,
-    "length_seconds": 120,
-    "start_time_mmss": "57:40",
-    "end_time_mmss": "59:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

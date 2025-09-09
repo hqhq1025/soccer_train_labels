@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2847,
   "video_id": "208b2912-9cb1-54f7-9a57-cfee89316648",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 2352.0,
-      "end": 2352.0,
-      "text": "Trigger: Throw-in by left @ 1 - 39:12"
-    },
-    {
-      "start": 2357.0,
-      "end": 2357.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2352000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/segment_002290_002390.json",
-  "segment_meta": {
-    "start_seconds": 2290,
-    "end_seconds": 2390,
-    "length_seconds": 100,
-    "start_time_mmss": "38:10",
-    "end_time_mmss": "39:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

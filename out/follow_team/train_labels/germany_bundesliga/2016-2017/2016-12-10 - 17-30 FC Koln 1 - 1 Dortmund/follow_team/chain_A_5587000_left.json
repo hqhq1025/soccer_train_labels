@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4217,
   "video_id": "b80fea93-1e9a-5e73-93e9-1fbdcbe6a6ac",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow->red card}.",
-  "answer": [
+  "question": [
     {
-      "start": 5587.0,
-      "end": 5587.0,
-      "text": "Trigger: Foul by left @ 2 - 48:07"
-    },
-    {
-      "start": 5592.0,
-      "end": 5592.0,
-      "text": "Then: Yellow->red card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that team. Answer format: at trigger reply 'Trigger: {Foul} by left/right'; for each {Yellow->red card}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5587000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/segment_005560_005600.json",
-  "segment_meta": {
-    "start_seconds": 5560,
-    "end_seconds": 5600,
-    "length_seconds": 40,
-    "start_time_mmss": "92:40",
-    "end_time_mmss": "93:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Then: Yellow->red card by left"
+    }
+  ]
 }

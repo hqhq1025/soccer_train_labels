@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 254,
   "video_id": "8ffef866-8b11-580d-80f4-34d589081cce",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2403.0,
-      "end": 2403.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 2429.0,
-      "end": 2429.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2403000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/segment_002330_002430.json",
-  "segment_meta": {
-    "start_seconds": 2330,
-    "end_seconds": 2430,
-    "length_seconds": 100,
-    "start_time_mmss": "38:50",
-    "end_time_mmss": "40:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

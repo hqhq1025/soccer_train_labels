@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20659,
   "video_id": "555a16ae-638d-56c8-a23c-9d846ee77c26",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 312.0,
-      "end": 312.0,
-      "text": "Trigger: Throw-in by right @ 1 - 05:12"
-    },
-    {
-      "start": 319.0,
-      "end": 319.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 312000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/segment_000230_000350.json",
-  "segment_meta": {
-    "start_seconds": 230,
-    "end_seconds": 350,
-    "length_seconds": 120,
-    "start_time_mmss": "03:50",
-    "end_time_mmss": "05:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

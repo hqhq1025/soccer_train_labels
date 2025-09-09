@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5433,
   "video_id": "2d8dc062-d21b-5b08-8e8f-04401f625fbc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Substitution}, follow that same team and alert me whenever it has {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4603.0,
-      "end": 4603.0,
-      "text": "Trigger: Substitution by right @ 2 - 31:43"
-    },
-    {
-      "start": 4632.0,
-      "end": 4632.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Substitution}, follow the same team and list all subsequent {Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Lyon 0 - 2 Zenit Petersburg/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Lyon 0 - 2 Zenit Petersburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4603000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Lyon 0 - 2 Zenit Petersburg/segment_004540_004640.json",
-  "segment_meta": {
-    "start_seconds": 4540,
-    "end_seconds": 4640,
-    "length_seconds": 100,
-    "start_time_mmss": "75:40",
-    "end_time_mmss": "77:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
+      "text": "Trigger: Substitution by right"
+    },
+    {
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

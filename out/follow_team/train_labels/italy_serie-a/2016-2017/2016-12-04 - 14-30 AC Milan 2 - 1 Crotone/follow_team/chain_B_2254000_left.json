@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19266,
   "video_id": "ac030cb6-63d3-5c1e-a1b0-dde5020e93f1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2254.0,
-      "end": 2254.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2274.0,
-      "end": 2274.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2254000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/segment_002160_002280.json",
-  "segment_meta": {
-    "start_seconds": 2160,
-    "end_seconds": 2280,
-    "length_seconds": 120,
-    "start_time_mmss": "36:00",
-    "end_time_mmss": "38:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

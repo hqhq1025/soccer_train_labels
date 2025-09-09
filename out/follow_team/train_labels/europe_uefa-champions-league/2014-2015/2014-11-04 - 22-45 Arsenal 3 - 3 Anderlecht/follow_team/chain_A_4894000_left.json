@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9055,
   "video_id": "638fad2f-25a2-5627-83eb-cdfa05004e9d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 4894.0,
-      "end": 4894.0,
-      "text": "Trigger: Throw-in by left @ 2 - 36:34"
-    },
-    {
-      "start": 4934.0,
-      "end": 4934.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4894000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/segment_004820_004940.json",
-  "segment_meta": {
-    "start_seconds": 4820,
-    "end_seconds": 4940,
-    "length_seconds": 120,
-    "start_time_mmss": "80:20",
-    "end_time_mmss": "82:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

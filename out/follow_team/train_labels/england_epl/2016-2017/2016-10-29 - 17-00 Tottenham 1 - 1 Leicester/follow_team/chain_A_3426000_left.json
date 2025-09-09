@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23581,
   "video_id": "82ca988c-2272-5fce-8680-3f19259a4a1e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 3426.0,
-      "end": 3426.0,
-      "text": "Trigger: Throw-in by left @ 2 - 12:06"
-    },
-    {
-      "start": 3436.0,
-      "end": 3436.0,
-      "text": "Then: Offside by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Offside} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3426000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/segment_003380_003440.json",
-  "segment_meta": {
-    "start_seconds": 3380,
-    "end_seconds": 3440,
-    "length_seconds": 60,
-    "start_time_mmss": "56:20",
-    "end_time_mmss": "57:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Then: Offside by left"
+    }
+  ]
 }

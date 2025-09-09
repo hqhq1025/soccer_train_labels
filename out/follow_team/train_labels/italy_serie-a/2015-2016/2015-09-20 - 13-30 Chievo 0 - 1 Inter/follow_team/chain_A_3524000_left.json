@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15773,
   "video_id": "7d3dbb71-4a71-513c-b4bc-6dd42e7e37d2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 3524.0,
-      "end": 3524.0,
-      "text": "Trigger: Throw-in by left @ 2 - 13:44"
-    },
-    {
-      "start": 3569.0,
-      "end": 3569.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3524000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_003460_003580.json",
-  "segment_meta": {
-    "start_seconds": 3460,
-    "end_seconds": 3580,
-    "length_seconds": 120,
-    "start_time_mmss": "57:40",
-    "end_time_mmss": "59:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 109.0,
+      "end": 109.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

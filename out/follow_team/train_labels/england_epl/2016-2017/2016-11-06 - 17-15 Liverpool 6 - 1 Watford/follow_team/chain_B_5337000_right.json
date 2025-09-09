@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24368,
   "video_id": "441029ea-061c-57ff-8057-21f3243bb0f2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Indirect free-kick} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5337.0,
-      "end": 5337.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 5344.0,
-      "end": 5344.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5337000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/segment_005260_005380.json",
-  "segment_meta": {
-    "start_seconds": 5260,
-    "end_seconds": 5380,
-    "length_seconds": 120,
-    "start_time_mmss": "87:40",
-    "end_time_mmss": "89:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21486,
   "video_id": "989b1b1a-efc4-5953-a3c0-55f628080d65",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Throw-in} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4719.0,
-      "end": 4719.0,
+      "start": 9.0,
+      "end": 9.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4739.0,
-      "end": 4739.0,
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-03-02 - 23-00 Liverpool 3 - 0 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-02 - 23-00 Liverpool 3 - 0 Manchester City/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4719000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-02 - 23-00 Liverpool 3 - 0 Manchester City/segment_004710_004830.json",
-  "segment_meta": {
-    "start_seconds": 4710,
-    "end_seconds": 4830,
-    "length_seconds": 120,
-    "start_time_mmss": "78:30",
-    "end_time_mmss": "80:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

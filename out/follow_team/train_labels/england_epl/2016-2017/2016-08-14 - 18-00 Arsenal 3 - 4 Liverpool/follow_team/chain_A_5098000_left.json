@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25353,
   "video_id": "8919cc5d-539e-5837-9cf8-da2c184d072e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, keep following that team and alert me whenever {Offside} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 5098.0,
-      "end": 5098.0,
-      "text": "Trigger: Corner by left @ 2 - 39:58"
-    },
-    {
-      "start": 5112.0,
-      "end": 5112.0,
-      "text": "Then: Offside by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} occurs, follow the initiating team; answer strictly as 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Offside}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5098000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_005020_005140.json",
-  "segment_meta": {
-    "start_seconds": 5020,
-    "end_seconds": 5140,
-    "length_seconds": 120,
-    "start_time_mmss": "83:40",
-    "end_time_mmss": "85:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
+      "text": "Then: Offside by left"
+    }
+  ]
 }

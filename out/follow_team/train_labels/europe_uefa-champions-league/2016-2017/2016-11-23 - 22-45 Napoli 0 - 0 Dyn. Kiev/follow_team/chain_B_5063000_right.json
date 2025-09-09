@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9618,
   "video_id": "97a538f6-ee2f-505d-b06d-97968aac8276",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5063.0,
-      "end": 5063.0,
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 5066.0,
-      "end": 5066.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5063000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/segment_005020_005120.json",
-  "segment_meta": {
-    "start_seconds": 5020,
-    "end_seconds": 5120,
-    "length_seconds": 100,
-    "start_time_mmss": "83:40",
-    "end_time_mmss": "85:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

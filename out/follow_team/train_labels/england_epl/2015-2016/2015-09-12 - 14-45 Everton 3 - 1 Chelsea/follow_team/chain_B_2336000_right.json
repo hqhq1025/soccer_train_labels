@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22634,
   "video_id": "805facab-9161-5de9-83b7-99bcd99078dd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, start tracking that team. Use responses 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2336.0,
-      "end": 2336.0,
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 2339.0,
-      "end": 2339.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2336000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_002270_002390.json",
-  "segment_meta": {
-    "start_seconds": 2270,
-    "end_seconds": 2390,
-    "length_seconds": 120,
-    "start_time_mmss": "37:50",
-    "end_time_mmss": "39:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

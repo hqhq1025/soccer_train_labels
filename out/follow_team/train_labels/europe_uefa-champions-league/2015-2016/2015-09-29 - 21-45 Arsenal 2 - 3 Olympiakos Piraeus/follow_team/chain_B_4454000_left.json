@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7300,
   "video_id": "56c26e4c-f5bd-53f7-83aa-62584cf9ce47",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Yellow card}, keep following that team and alert me whenever {Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Yellow card}, stick with that team. For {Foul}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4454.0,
-      "end": 4454.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Trigger: Yellow card by left"
     },
     {
-      "start": 4499.0,
-      "end": 4499.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4454000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/segment_004400_004520.json",
-  "segment_meta": {
-    "start_seconds": 4400,
-    "end_seconds": 4520,
-    "length_seconds": 120,
-    "start_time_mmss": "73:20",
-    "end_time_mmss": "75:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

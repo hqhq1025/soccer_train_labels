@@ -273,16 +273,16 @@ def _format_event_set(labels: Sequence[str]) -> str:
 
 
 FOLLOW_TEMPLATES_EN = [
-    "After the next {TRIGGER}, follow that same team and alert me whenever it has {EVENT_SET}.",
-    "When the next {TRIGGER} happens, lock onto that team and report every {EVENT_SET} it makes.",
-    "At the next {TRIGGER}, start tracking that team; notify me on its {EVENT_SET}.",
-    "Once the next {TRIGGER} occurs, keep following the same team and tell me whenever they perform {EVENT_SET}.",
-    "When the next {TRIGGER} occurs, follow the initiating team and report all {EVENT_SET}.",
-    "On the next {TRIGGER}, stick with that team and alert me for {EVENT_SET}.",
-    "After the next {TRIGGER}, continue tracking that team and notify me about any {EVENT_SET}.",
-    "Watch for the next {TRIGGER}; then follow that team and report its {EVENT_SET}.",
-    "Upon the next {TRIGGER}, follow the same team and list all subsequent {EVENT_SET}.",
-    "At the next {TRIGGER}, keep following that team and alert me whenever {EVENT_SET} happen.",
+    "After the next {TRIGGER}, follow that team. Answer format: at trigger reply 'Trigger: {TRIGGER} by left/right'; for each {EVENT_SET}, reply 'Then: <Event> by left/right'. Use left/right only.",
+    "When the next {TRIGGER} happens, lock onto that team. Respond 'Trigger: {TRIGGER} by left/right' and thereafter 'Then: <Event> by left/right' for {EVENT_SET}. Left/right only.",
+    "At the next {TRIGGER}, start tracking that team. Use responses 'Trigger: {TRIGGER} by left/right' and 'Then: <Event> by left/right' for {EVENT_SET}.", 
+    "Once the next {TRIGGER} occurs, keep following the same team and reply exactly 'Trigger: {TRIGGER} by left/right'; then for each {EVENT_SET} reply 'Then: <Event> by left/right'.", 
+    "When the next {TRIGGER} occurs, follow the initiating team; answer strictly as 'Trigger: {TRIGGER} by left/right' and 'Then: <Event> by left/right' for {EVENT_SET}.", 
+    "On the next {TRIGGER}, stick with that team. For {EVENT_SET}, reply 'Then: <Event> by left/right' (left/right only).", 
+    "After the next {TRIGGER}, continue tracking that team. Answers must be 'Trigger: {TRIGGER} by left/right' and 'Then: <Event> by left/right' for {EVENT_SET}.", 
+    "Watch for the next {TRIGGER}; then follow that team. Respond 'Trigger: {TRIGGER} by left/right', and for {EVENT_SET} reply 'Then: <Event> by left/right'.", 
+    "Upon the next {TRIGGER}, follow the same team and list all subsequent {EVENT_SET}. Use 'Then: <Event> by left/right' only (left/right only).", 
+    "At the next {TRIGGER}, keep following that team. Use left/right only; 'Trigger: {TRIGGER} by left/right', then 'Then: <Event> by left/right' for {EVENT_SET}.",
 ]
 
 

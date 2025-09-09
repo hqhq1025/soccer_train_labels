@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3042,
   "video_id": "c433408b-f7fc-562e-92a9-ba6ac2b41e21",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Yellow card} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Yellow card}, stick with that team. For {Yellow card}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3140.0,
-      "end": 3140.0,
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
       "text": "Trigger: Yellow card by left"
     },
     {
-      "start": 3141.0,
-      "end": 3141.0,
+      "start": 11.0,
+      "end": 11.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3140000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/segment_003130_003250.json",
-  "segment_meta": {
-    "start_seconds": 3130,
-    "end_seconds": 3250,
-    "length_seconds": 120,
-    "start_time_mmss": "52:10",
-    "end_time_mmss": "54:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

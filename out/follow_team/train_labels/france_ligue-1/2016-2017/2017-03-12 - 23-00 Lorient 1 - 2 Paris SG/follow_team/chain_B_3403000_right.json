@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1598,
   "video_id": "c24f72cf-8feb-5049-b385-8d8ae9fb5973",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Substitution}."
+    }
+  ],
   "answer": [
     {
-      "start": 3403.0,
-      "end": 3403.0,
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 3421.0,
-      "end": 3421.0,
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3403000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/segment_003390_003430.json",
-  "segment_meta": {
-    "start_seconds": 3390,
-    "end_seconds": 3430,
-    "length_seconds": 40,
-    "start_time_mmss": "56:30",
-    "end_time_mmss": "57:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

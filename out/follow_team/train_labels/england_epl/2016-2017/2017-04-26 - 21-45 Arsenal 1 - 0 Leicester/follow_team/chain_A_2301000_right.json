@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25661,
   "video_id": "378ff7bf-e481-522a-9536-c72d20f05d88",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 2301.0,
-      "end": 2301.0,
-      "text": "Trigger: Clearance by right @ 1 - 38:21"
-    },
-    {
-      "start": 2334.0,
-      "end": 2334.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and reply exactly 'Trigger: {Clearance} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2301000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/segment_002260_002340.json",
-  "segment_meta": {
-    "start_seconds": 2260,
-    "end_seconds": 2340,
-    "length_seconds": 80,
-    "start_time_mmss": "37:40",
-    "end_time_mmss": "39:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

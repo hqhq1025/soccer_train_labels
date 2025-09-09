@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10120,
   "video_id": "2a500bdc-4b84-52ff-ab6f-ae353bf20c7c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Corner} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Corner} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3437.0,
-      "end": 3437.0,
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3460.0,
-      "end": 3460.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3437000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/segment_003410_003510.json",
-  "segment_meta": {
-    "start_seconds": 3410,
-    "end_seconds": 3510,
-    "length_seconds": 100,
-    "start_time_mmss": "56:50",
-    "end_time_mmss": "58:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

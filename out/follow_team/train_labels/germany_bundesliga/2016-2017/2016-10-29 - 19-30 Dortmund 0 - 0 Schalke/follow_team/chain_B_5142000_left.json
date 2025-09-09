@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3284,
   "video_id": "d438c5ea-ddf2-5c51-8755-835c5e1132b6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 5142.0,
-      "end": 5142.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 5206.0,
-      "end": 5206.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5142000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/segment_005110_005230.json",
-  "segment_meta": {
-    "start_seconds": 5110,
-    "end_seconds": 5230,
-    "length_seconds": 120,
-    "start_time_mmss": "85:10",
-    "end_time_mmss": "87:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

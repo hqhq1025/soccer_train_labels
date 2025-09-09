@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 917,
   "video_id": "0ff3421b-bba1-5904-a182-9ee5606b5bc3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Corner and Throw-in} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, continue tracking that team. Answers must be 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Corner and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3180.0,
-      "end": 3180.0,
-      "text": "Trigger: Shots off target by right @ 2 - 08:00"
+      "start": 40.0,
+      "end": 40.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 3209.0,
-      "end": 3209.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 3237.0,
-      "end": 3237.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3180000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/segment_003140_003240.json",
-  "segment_meta": {
-    "start_seconds": 3140,
-    "end_seconds": 3240,
-    "length_seconds": 100,
-    "start_time_mmss": "52:20",
-    "end_time_mmss": "54:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

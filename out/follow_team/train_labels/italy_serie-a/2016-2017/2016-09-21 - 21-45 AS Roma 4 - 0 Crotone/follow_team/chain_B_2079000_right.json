@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17686,
   "video_id": "473a2ae1-0627-5dc6-9cd9-3f0953360651",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2079.0,
-      "end": 2079.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2084.0,
-      "end": 2084.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2079000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/segment_001990_002090.json",
-  "segment_meta": {
-    "start_seconds": 1990,
-    "end_seconds": 2090,
-    "length_seconds": 100,
-    "start_time_mmss": "33:10",
-    "end_time_mmss": "34:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

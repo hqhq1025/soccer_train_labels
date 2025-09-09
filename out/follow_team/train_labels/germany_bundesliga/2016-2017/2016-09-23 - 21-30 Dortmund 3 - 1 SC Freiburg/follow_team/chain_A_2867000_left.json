@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4649,
   "video_id": "cd92cf67-b605-55dd-b3da-2f2d449866b8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Clearance}, stick with that team and alert me for {Foul and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Foul and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2867.0,
-      "end": 2867.0,
-      "text": "Trigger: Clearance by left @ 2 - 02:47"
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
     },
     {
-      "start": 2872.0,
-      "end": 2872.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 2967.0,
-      "end": 2967.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2867000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/segment_002850_002970.json",
-  "segment_meta": {
-    "start_seconds": 2850,
-    "end_seconds": 2970,
-    "length_seconds": 120,
-    "start_time_mmss": "47:30",
-    "end_time_mmss": "49:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18347,
   "video_id": "c6805e51-1f0d-5de1-b56b-cdca862c07ea",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Shots off target and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, keep following that team. Use left/right only; 'Trigger: {Indirect free-kick} by left/right', then 'Then: <Event> by left/right' for {Shots off target and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4758.0,
-      "end": 4758.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 34:18"
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 4779.0,
-      "end": 4779.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     },
     {
-      "start": 4818.0,
-      "end": 4818.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4758000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/segment_004720_004840.json",
-  "segment_meta": {
-    "start_seconds": 4720,
-    "end_seconds": 4840,
-    "length_seconds": 120,
-    "start_time_mmss": "78:40",
-    "end_time_mmss": "80:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

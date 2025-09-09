@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1015,
   "video_id": "04c56b65-35df-5197-bd74-5c7ed4ad1be4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3677.0,
-      "end": 3677.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 16:17"
-    },
-    {
-      "start": 3685.0,
-      "end": 3685.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Direct free-kick} happens, lock onto that team. Respond 'Trigger: {Direct free-kick} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots off target}. Left/right only."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3677000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/segment_003630_003690.json",
-  "segment_meta": {
-    "start_seconds": 3630,
-    "end_seconds": 3690,
-    "length_seconds": 60,
-    "start_time_mmss": "60:30",
-    "end_time_mmss": "61:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

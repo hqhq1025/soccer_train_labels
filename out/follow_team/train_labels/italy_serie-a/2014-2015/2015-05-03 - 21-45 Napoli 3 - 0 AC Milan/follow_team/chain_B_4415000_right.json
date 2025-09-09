@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16356,
   "video_id": "a84e58bf-17e4-5d94-a8f0-6f94c4b7ed3b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots on target} by left/right'; for each {Goal}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4415.0,
-      "end": 4415.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 4416.0,
-      "end": 4416.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4415000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/segment_004380_004420.json",
-  "segment_meta": {
-    "start_seconds": 4380,
-    "end_seconds": 4420,
-    "length_seconds": 40,
-    "start_time_mmss": "73:00",
-    "end_time_mmss": "73:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

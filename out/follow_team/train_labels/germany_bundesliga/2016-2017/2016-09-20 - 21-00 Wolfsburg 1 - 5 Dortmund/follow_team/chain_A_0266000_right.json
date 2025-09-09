@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4325,
   "video_id": "444672ef-138a-5ae4-8f17-1cf19043fb35",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 266.0,
-      "end": 266.0,
-      "text": "Trigger: Clearance by right @ 1 - 04:26"
-    },
-    {
-      "start": 286.0,
-      "end": 286.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, follow that team. Answer format: at trigger reply 'Trigger: {Clearance} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 266000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/segment_000210_000290.json",
-  "segment_meta": {
-    "start_seconds": 210,
-    "end_seconds": 290,
-    "length_seconds": 80,
-    "start_time_mmss": "03:30",
-    "end_time_mmss": "04:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

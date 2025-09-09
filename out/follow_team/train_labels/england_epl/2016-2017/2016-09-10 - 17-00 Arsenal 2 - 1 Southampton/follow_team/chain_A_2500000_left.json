@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23519,
   "video_id": "066c9081-2206-5422-a2c4-d4c847a0bdcd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots on target}, stick with that team and alert me for {Corner and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Corner and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2500.0,
-      "end": 2500.0,
-      "text": "Trigger: Shots on target by left @ 1 - 41:40"
+      "start": 40.0,
+      "end": 40.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2534.0,
-      "end": 2534.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 2557.0,
-      "end": 2557.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2500000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/segment_002460_002560.json",
-  "segment_meta": {
-    "start_seconds": 2460,
-    "end_seconds": 2560,
-    "length_seconds": 100,
-    "start_time_mmss": "41:00",
-    "end_time_mmss": "42:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

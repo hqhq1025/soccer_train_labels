@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3549,
   "video_id": "789f2a97-4a23-5d92-bbf2-a4a237ff419e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Throw-in and Foul} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 550.0,
-      "end": 550.0,
-      "text": "Trigger: Indirect free-kick by right @ 1 - 09:10"
-    },
-    {
-      "start": 561.0,
-      "end": 561.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 636.0,
-      "end": 636.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 646.0,
-      "end": 646.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, keep following that team. Use left/right only; 'Trigger: {Indirect free-kick} by left/right', then 'Then: <Event> by left/right' for {Throw-in and Foul}."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 550000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_000530_000650.json",
-  "segment_meta": {
-    "start_seconds": 530,
-    "end_seconds": 650,
-    "length_seconds": 120,
-    "start_time_mmss": "08:50",
-    "end_time_mmss": "10:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

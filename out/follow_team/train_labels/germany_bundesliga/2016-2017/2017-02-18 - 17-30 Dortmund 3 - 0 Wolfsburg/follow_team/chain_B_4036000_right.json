@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3696,
   "video_id": "250cc50f-c94c-54ea-ac71-3e580cf88e4d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Corner} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 4036.0,
-      "end": 4036.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 4064.0,
-      "end": 4064.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4036000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_004000_004080.json",
-  "segment_meta": {
-    "start_seconds": 4000,
-    "end_seconds": 4080,
-    "length_seconds": 80,
-    "start_time_mmss": "66:40",
-    "end_time_mmss": "68:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

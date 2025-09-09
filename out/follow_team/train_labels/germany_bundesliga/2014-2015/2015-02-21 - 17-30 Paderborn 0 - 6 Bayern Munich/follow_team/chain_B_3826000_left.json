@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3188,
   "video_id": "03733b7d-c4f1-5a71-a20c-2fe2d8706e01",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3826.0,
-      "end": 3826.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 3844.0,
-      "end": 3844.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3826000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/segment_003790_003910.json",
-  "segment_meta": {
-    "start_seconds": 3790,
-    "end_seconds": 3910,
-    "length_seconds": 120,
-    "start_time_mmss": "63:10",
-    "end_time_mmss": "65:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

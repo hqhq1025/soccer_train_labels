@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21930,
   "video_id": "aade263b-fbae-5364-9195-81b32921ade2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots off target}; then follow that team and report its {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots off target}, follow the same team and list all subsequent {Corner}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2461.0,
-      "end": 2461.0,
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 2491.0,
-      "end": 2491.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2461000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/segment_002420_002520.json",
-  "segment_meta": {
-    "start_seconds": 2420,
-    "end_seconds": 2520,
-    "length_seconds": 100,
-    "start_time_mmss": "40:20",
-    "end_time_mmss": "42:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

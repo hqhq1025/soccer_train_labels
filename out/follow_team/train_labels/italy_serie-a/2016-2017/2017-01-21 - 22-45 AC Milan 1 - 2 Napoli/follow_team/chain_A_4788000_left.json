@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19981,
   "video_id": "b8725b88-b02e-562f-a2e8-57f85c8ce5dd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Indirect free-kick, Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Indirect free-kick, Foul and Yellow card} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4788.0,
-      "end": 4788.0,
-      "text": "Trigger: Foul by left @ 2 - 34:48"
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 4862.0,
-      "end": 4862.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     },
     {
-      "start": 4865.0,
-      "end": 4865.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 4879.0,
-      "end": 4879.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4788000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/segment_004760_004880.json",
-  "segment_meta": {
-    "start_seconds": 4760,
-    "end_seconds": 4880,
-    "length_seconds": 120,
-    "start_time_mmss": "79:20",
-    "end_time_mmss": "81:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

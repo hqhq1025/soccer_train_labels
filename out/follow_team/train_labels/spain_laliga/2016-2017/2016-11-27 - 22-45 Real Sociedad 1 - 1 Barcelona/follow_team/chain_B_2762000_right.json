@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11868,
   "video_id": "add2b85e-594e-53e5-a489-ce9e50f5033a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2762.0,
-      "end": 2762.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 2804.0,
-      "end": 2804.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2016-11-27 - 22-45 Real Sociedad 1 - 1 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-27 - 22-45 Real Sociedad 1 - 1 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2762000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-27 - 22-45 Real Sociedad 1 - 1 Barcelona/segment_002740_002840.json",
-  "segment_meta": {
-    "start_seconds": 2740,
-    "end_seconds": 2840,
-    "length_seconds": 100,
-    "start_time_mmss": "45:40",
-    "end_time_mmss": "47:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

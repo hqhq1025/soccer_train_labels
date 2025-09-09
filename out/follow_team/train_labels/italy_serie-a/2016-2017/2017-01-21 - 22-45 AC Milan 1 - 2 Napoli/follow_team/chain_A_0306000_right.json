@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19979,
   "video_id": "3de702c7-ad73-5db1-81c1-56f1738a0c04",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 306.0,
-      "end": 306.0,
-      "text": "Trigger: Shots on target by right @ 1 - 05:06"
-    },
-    {
-      "start": 307.0,
-      "end": 307.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Goal} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 306000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/segment_000270_000310.json",
-  "segment_meta": {
-    "start_seconds": 270,
-    "end_seconds": 310,
-    "length_seconds": 40,
-    "start_time_mmss": "04:30",
-    "end_time_mmss": "05:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

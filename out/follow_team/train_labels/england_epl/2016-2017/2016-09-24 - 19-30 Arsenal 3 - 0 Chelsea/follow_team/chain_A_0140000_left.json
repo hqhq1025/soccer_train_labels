@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25145,
   "video_id": "8594d23f-eb98-58b3-b60e-a9d88add5d04",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 140.0,
-      "end": 140.0,
-      "text": "Trigger: Corner by left @ 1 - 02:20"
-    },
-    {
-      "start": 168.0,
-      "end": 168.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, continue tracking that team. Answers must be 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 140000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/segment_000120_000180.json",
-  "segment_meta": {
-    "start_seconds": 120,
-    "end_seconds": 180,
-    "length_seconds": 60,
-    "start_time_mmss": "02:00",
-    "end_time_mmss": "03:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

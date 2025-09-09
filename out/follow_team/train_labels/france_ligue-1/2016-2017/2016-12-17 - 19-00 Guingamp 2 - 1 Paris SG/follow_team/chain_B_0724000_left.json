@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 874,
   "video_id": "2d85bde9-6ccf-5565-ac44-d77a9233e6be",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 724.0,
-      "end": 724.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 752.0,
-      "end": 752.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 724000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/segment_000650_000770.json",
-  "segment_meta": {
-    "start_seconds": 650,
-    "end_seconds": 770,
-    "length_seconds": 120,
-    "start_time_mmss": "10:50",
-    "end_time_mmss": "12:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

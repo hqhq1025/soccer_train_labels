@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20965,
   "video_id": "31edb75c-0d0f-5229-a4d3-7be89b0492de",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 248.0,
-      "end": 248.0,
-      "text": "Trigger: Throw-in by right @ 1 - 04:08"
-    },
-    {
-      "start": 251.0,
-      "end": 251.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Foul} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 248000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/segment_000200_000260.json",
-  "segment_meta": {
-    "start_seconds": 200,
-    "end_seconds": 260,
-    "length_seconds": 60,
-    "start_time_mmss": "03:20",
-    "end_time_mmss": "04:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

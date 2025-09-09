@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15797,
   "video_id": "ae9af33e-f64d-5d8a-90b5-f2414277610b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 2855.0,
-      "end": 2855.0,
-      "text": "Trigger: Corner by left @ 2 - 02:35"
-    },
-    {
-      "start": 2893.0,
-      "end": 2893.0,
-      "text": "Then: Corner by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} occurs, follow the initiating team; answer strictly as 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Corner}."
     }
   ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2855000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_002790_002910.json",
-  "segment_meta": {
-    "start_seconds": 2790,
-    "end_seconds": 2910,
-    "length_seconds": 120,
-    "start_time_mmss": "46:30",
-    "end_time_mmss": "48:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
+      "text": "Then: Corner by left"
+    }
+  ]
 }

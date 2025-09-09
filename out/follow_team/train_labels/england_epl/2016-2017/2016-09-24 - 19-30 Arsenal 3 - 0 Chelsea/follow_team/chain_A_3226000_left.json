@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25101,
   "video_id": "07bf7c53-3b9a-56e5-916b-a20f010c02dc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Offside}, stick with that team and alert me for {Substitution}.",
-  "answer": [
+  "question": [
     {
-      "start": 3226.0,
-      "end": 3226.0,
-      "text": "Trigger: Offside by left @ 2 - 08:46"
-    },
-    {
-      "start": 3251.0,
-      "end": 3251.0,
-      "text": "Then: Substitution by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Offside}; then follow that team. Respond 'Trigger: {Offside} by left/right', and for {Substitution} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3226000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/segment_003190_003270.json",
-  "segment_meta": {
-    "start_seconds": 3190,
-    "end_seconds": 3270,
-    "length_seconds": 80,
-    "start_time_mmss": "53:10",
-    "end_time_mmss": "54:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
+      "text": "Then: Substitution by left"
+    }
+  ]
 }

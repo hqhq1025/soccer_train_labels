@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22047,
   "video_id": "89176fba-961c-565c-ba28-42a1c7dc3813",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, start tracking that team; notify me on its {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 920.0,
-      "end": 920.0,
-      "text": "Trigger: Shots off target by left @ 1 - 15:20"
-    },
-    {
-      "start": 941.0,
-      "end": 941.0,
-      "text": "Then: Corner by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots off target} occurs, keep following the same team and reply exactly 'Trigger: {Shots off target} by left/right'; then for each {Corner} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 920000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/segment_000870_000950.json",
-  "segment_meta": {
-    "start_seconds": 870,
-    "end_seconds": 950,
-    "length_seconds": 80,
-    "start_time_mmss": "14:30",
-    "end_time_mmss": "15:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Then: Corner by left"
+    }
+  ]
 }

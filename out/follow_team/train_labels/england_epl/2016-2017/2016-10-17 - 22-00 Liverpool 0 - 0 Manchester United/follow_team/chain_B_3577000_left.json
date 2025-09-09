@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23256,
   "video_id": "786fc9ac-a2cb-59b7-80bb-03f5f2cac03d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3577.0,
-      "end": 3577.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 3609.0,
-      "end": 3609.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3577000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_003490_003610.json",
-  "segment_meta": {
-    "start_seconds": 3490,
-    "end_seconds": 3610,
-    "length_seconds": 120,
-    "start_time_mmss": "58:10",
-    "end_time_mmss": "60:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

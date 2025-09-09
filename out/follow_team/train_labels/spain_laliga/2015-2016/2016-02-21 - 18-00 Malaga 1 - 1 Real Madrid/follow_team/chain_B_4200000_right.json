@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10320,
   "video_id": "fb22e282-183a-5fec-a85b-335a0288529e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Indirect free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Indirect free-kick} by left/right'; then for each {Indirect free-kick} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4200.0,
-      "end": 4200.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 4243.0,
-      "end": 4243.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4200000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/segment_004140_004260.json",
-  "segment_meta": {
-    "start_seconds": 4140,
-    "end_seconds": 4260,
-    "length_seconds": 120,
-    "start_time_mmss": "69:00",
-    "end_time_mmss": "71:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

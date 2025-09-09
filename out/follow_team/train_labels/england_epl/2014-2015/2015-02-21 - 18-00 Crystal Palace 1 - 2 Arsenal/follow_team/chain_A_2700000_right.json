@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22985,
   "video_id": "abd95d9e-abe5-51fd-a1f7-5a3bd5bd48d9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Kick-off}, stick with that team and alert me for {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 2700.0,
-      "end": 2700.0,
-      "text": "Trigger: Kick-off by right @ 2 - 00:00"
-    },
-    {
-      "start": 2754.0,
-      "end": 2754.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Kick-off}; then follow that team. Respond 'Trigger: {Kick-off} by left/right', and for {Offside} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2700000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/segment_002640_002760.json",
-  "segment_meta": {
-    "start_seconds": 2640,
-    "end_seconds": 2760,
-    "length_seconds": 120,
-    "start_time_mmss": "44:00",
-    "end_time_mmss": "46:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
+      "text": "Trigger: Kick-off by right"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

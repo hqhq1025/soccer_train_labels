@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2868,
   "video_id": "4e5f4c8a-0558-5843-9e9e-cce19f91a2de",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, keep following that team. Use left/right only; 'Trigger: {Corner} by left/right', then 'Then: <Event> by left/right' for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 986.0,
-      "end": 986.0,
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 993.0,
-      "end": 993.0,
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 986000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-04-25 - 16-30 Dortmund 2 - 0 Eintracht Frankfurt/segment_000900_001000.json",
-  "segment_meta": {
-    "start_seconds": 900,
-    "end_seconds": 1000,
-    "length_seconds": 100,
-    "start_time_mmss": "15:00",
-    "end_time_mmss": "16:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

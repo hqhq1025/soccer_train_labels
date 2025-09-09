@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23386,
   "video_id": "cc1d3696-16ab-511c-9d15-a356d78ebe7b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3637.0,
-      "end": 3637.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 3647.0,
-      "end": 3647.0,
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3637000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/segment_003580_003700.json",
-  "segment_meta": {
-    "start_seconds": 3580,
-    "end_seconds": 3700,
-    "length_seconds": 120,
-    "start_time_mmss": "59:40",
-    "end_time_mmss": "61:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

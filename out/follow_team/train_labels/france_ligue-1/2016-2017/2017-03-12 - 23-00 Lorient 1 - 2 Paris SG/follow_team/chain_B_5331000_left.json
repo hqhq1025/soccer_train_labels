@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1652,
   "video_id": "002feb6f-9678-562b-82e1-c4f37de53130",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 5331.0,
-      "end": 5331.0,
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5344.0,
-      "end": 5344.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5331000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/segment_005270_005390.json",
-  "segment_meta": {
-    "start_seconds": 5270,
-    "end_seconds": 5390,
-    "length_seconds": 120,
-    "start_time_mmss": "87:50",
-    "end_time_mmss": "89:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

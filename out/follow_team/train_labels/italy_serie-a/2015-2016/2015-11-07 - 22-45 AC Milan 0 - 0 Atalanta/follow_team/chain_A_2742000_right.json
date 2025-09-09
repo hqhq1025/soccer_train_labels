@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15379,
   "video_id": "0632a26f-25d9-5298-bc31-277f8983ff0a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Offside} occurs, follow the initiating team and report all {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2742.0,
-      "end": 2742.0,
-      "text": "Trigger: Offside by right @ 2 - 00:42"
-    },
-    {
-      "start": 2793.0,
-      "end": 2793.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Offside}; then follow that team. Respond 'Trigger: {Offside} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2742000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/segment_002730_002810.json",
-  "segment_meta": {
-    "start_seconds": 2730,
-    "end_seconds": 2810,
-    "length_seconds": 80,
-    "start_time_mmss": "45:30",
-    "end_time_mmss": "46:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 12.0,
+      "end": 12.0,
+      "count": 0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

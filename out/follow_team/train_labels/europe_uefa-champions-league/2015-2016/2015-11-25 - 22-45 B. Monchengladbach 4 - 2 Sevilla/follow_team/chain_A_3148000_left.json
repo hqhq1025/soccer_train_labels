@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6733,
   "video_id": "e3915cff-aff6-5ab8-9bb4-b9bb983c9866",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Shots on target} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 3148.0,
-      "end": 3148.0,
-      "text": "Trigger: Corner by left @ 2 - 07:28"
-    },
-    {
-      "start": 3154.0,
-      "end": 3154.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Shots on target}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3148000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/segment_003100_003160.json",
-  "segment_meta": {
-    "start_seconds": 3100,
-    "end_seconds": 3160,
-    "length_seconds": 60,
-    "start_time_mmss": "51:40",
-    "end_time_mmss": "52:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

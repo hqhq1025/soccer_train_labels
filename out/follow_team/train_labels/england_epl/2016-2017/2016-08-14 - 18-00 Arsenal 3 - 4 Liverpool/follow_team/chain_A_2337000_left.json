@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25391,
   "video_id": "36473280-1eee-51b3-a4f8-7fe56c5c59f0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2337.0,
-      "end": 2337.0,
-      "text": "Trigger: Throw-in by left @ 1 - 38:57"
-    },
-    {
-      "start": 2408.0,
-      "end": 2408.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in}. Left/right only."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2337000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_002310_002410.json",
-  "segment_meta": {
-    "start_seconds": 2310,
-    "end_seconds": 2410,
-    "length_seconds": 100,
-    "start_time_mmss": "38:30",
-    "end_time_mmss": "40:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17545,
   "video_id": "45d5cf79-f098-5c24-a97a-97e34baa4c00",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Throw-in} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 3962.0,
-      "end": 3962.0,
-      "text": "Trigger: Throw-in by right @ 2 - 21:02"
-    },
-    {
-      "start": 3974.0,
-      "end": 3974.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3962000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/segment_003890_004010.json",
-  "segment_meta": {
-    "start_seconds": 3890,
-    "end_seconds": 4010,
-    "length_seconds": 120,
-    "start_time_mmss": "64:50",
-    "end_time_mmss": "66:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

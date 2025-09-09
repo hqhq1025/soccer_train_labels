@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20631,
   "video_id": "0ffb4b05-9517-586f-8ee6-7afdef2984d0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3946.0,
-      "end": 3946.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 20:46"
-    },
-    {
-      "start": 4021.0,
-      "end": 4021.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, keep following that team. Use left/right only; 'Trigger: {Indirect free-kick} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3946000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/segment_003910_004030.json",
-  "segment_meta": {
-    "start_seconds": 3910,
-    "end_seconds": 4030,
-    "length_seconds": 120,
-    "start_time_mmss": "65:10",
-    "end_time_mmss": "67:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

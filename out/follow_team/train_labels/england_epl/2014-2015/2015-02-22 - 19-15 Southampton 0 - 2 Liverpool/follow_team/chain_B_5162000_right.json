@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23120,
   "video_id": "e8862b23-4344-5424-98d5-6f179439d8cd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots on target}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 5162.0,
-      "end": 5162.0,
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 5171.0,
-      "end": 5171.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5162000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/segment_005120_005180.json",
-  "segment_meta": {
-    "start_seconds": 5120,
-    "end_seconds": 5180,
-    "length_seconds": 60,
-    "start_time_mmss": "85:20",
-    "end_time_mmss": "86:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

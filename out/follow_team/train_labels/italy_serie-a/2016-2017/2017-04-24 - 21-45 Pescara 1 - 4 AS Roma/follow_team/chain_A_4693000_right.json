@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17515,
   "video_id": "b7413c2a-cc1d-5a9a-8916-eadb26916138",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Offside}, continue tracking that team and notify me about any {Foul and Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Offside}, continue tracking that team. Answers must be 'Trigger: {Offside} by left/right' and 'Then: <Event> by left/right' for {Foul and Substitution}."
+    }
+  ],
   "answer": [
     {
-      "start": 4693.0,
-      "end": 4693.0,
-      "text": "Trigger: Offside by right @ 2 - 33:13"
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Trigger: Offside by right"
     },
     {
-      "start": 4734.0,
-      "end": 4734.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 4753.0,
-      "end": 4753.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4693000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/segment_004640_004760.json",
-  "segment_meta": {
-    "start_seconds": 4640,
-    "end_seconds": 4760,
-    "length_seconds": 120,
-    "start_time_mmss": "77:20",
-    "end_time_mmss": "79:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

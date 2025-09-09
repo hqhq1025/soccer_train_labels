@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24735,
   "video_id": "ac3032ae-87d2-5579-8a4c-d983c84b0b16",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Throw-in and Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team; answer strictly as 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Throw-in and Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 848.0,
-      "end": 848.0,
-      "text": "Trigger: Foul by right @ 1 - 14:08"
+      "start": 18.0,
+      "end": 18.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
     },
     {
-      "start": 916.0,
-      "end": 916.0,
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 928.0,
-      "end": 928.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 848000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/segment_000830_000950.json",
-  "segment_meta": {
-    "start_seconds": 830,
-    "end_seconds": 950,
-    "length_seconds": 120,
-    "start_time_mmss": "13:50",
-    "end_time_mmss": "15:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

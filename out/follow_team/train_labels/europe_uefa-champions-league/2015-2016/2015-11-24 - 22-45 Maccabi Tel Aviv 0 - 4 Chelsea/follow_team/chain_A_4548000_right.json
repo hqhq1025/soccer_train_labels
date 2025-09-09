@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6839,
   "video_id": "76fc4cd8-dc82-5757-b823-3224b49581d2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 4548.0,
-      "end": 4548.0,
-      "text": "Trigger: Throw-in by right @ 2 - 30:48"
-    },
-    {
-      "start": 4568.0,
-      "end": 4568.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Goal}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4548000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/segment_004510_004570.json",
-  "segment_meta": {
-    "start_seconds": 4510,
-    "end_seconds": 4570,
-    "length_seconds": 60,
-    "start_time_mmss": "75:10",
-    "end_time_mmss": "76:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

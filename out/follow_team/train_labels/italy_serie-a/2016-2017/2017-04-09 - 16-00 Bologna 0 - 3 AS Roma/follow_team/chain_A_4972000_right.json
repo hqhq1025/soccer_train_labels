@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17755,
   "video_id": "9a561343-08fd-57b0-9ed1-f649bd87ca52",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Corner, Foul and Yellow card} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team. Respond 'Trigger: {Indirect free-kick} by left/right', and for {Corner, Foul and Yellow card} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4972.0,
-      "end": 4972.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 37:52"
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 5021.0,
-      "end": 5021.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 5027.0,
-      "end": 5027.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 5035.0,
-      "end": 5035.0,
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4972000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/segment_004940_005040.json",
-  "segment_meta": {
-    "start_seconds": 4940,
-    "end_seconds": 5040,
-    "length_seconds": 100,
-    "start_time_mmss": "82:20",
-    "end_time_mmss": "84:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

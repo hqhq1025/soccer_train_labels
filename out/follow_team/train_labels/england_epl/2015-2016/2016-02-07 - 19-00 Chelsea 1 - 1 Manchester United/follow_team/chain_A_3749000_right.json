@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22403,
   "video_id": "bb4d84ff-dfe6-53b3-8f55-07d4c1fe4b41",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 3749.0,
-      "end": 3749.0,
-      "text": "Trigger: Foul by right @ 2 - 17:29"
-    },
-    {
-      "start": 3757.0,
-      "end": 3757.0,
-      "text": "Then: Yellow card by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3749000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-07 - 19-00 Chelsea 1 - 1 Manchester United/segment_003700_003760.json",
-  "segment_meta": {
-    "start_seconds": 3700,
-    "end_seconds": 3760,
-    "length_seconds": 60,
-    "start_time_mmss": "61:40",
-    "end_time_mmss": "62:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
+      "text": "Then: Yellow card by right"
+    }
+  ]
 }

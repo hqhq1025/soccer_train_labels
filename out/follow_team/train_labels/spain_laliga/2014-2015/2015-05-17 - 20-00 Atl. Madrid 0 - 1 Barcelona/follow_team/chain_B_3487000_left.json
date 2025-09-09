@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11464,
   "video_id": "82fb5293-21f2-52b5-8be3-9ce81d94ce6f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Offside}, stick with that team and alert me for {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Offside}, continue tracking that team. Answers must be 'Trigger: {Offside} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3487.0,
-      "end": 3487.0,
+      "start": 7.0,
+      "end": 7.0,
+      "count": 0,
       "text": "Trigger: Offside by left"
     },
     {
-      "start": 3532.0,
-      "end": 3532.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3487000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/segment_003480_003540.json",
-  "segment_meta": {
-    "start_seconds": 3480,
-    "end_seconds": 3540,
-    "length_seconds": 60,
-    "start_time_mmss": "58:00",
-    "end_time_mmss": "59:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3573,
   "video_id": "dfd82521-30ad-5af0-8748-cacfa39c68ab",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3617.0,
-      "end": 3617.0,
-      "text": "Trigger: Shots off target by left @ 2 - 15:17"
-    },
-    {
-      "start": 3666.0,
-      "end": 3666.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots off target}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3617000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_003570_003690.json",
-  "segment_meta": {
-    "start_seconds": 3570,
-    "end_seconds": 3690,
-    "length_seconds": 120,
-    "start_time_mmss": "59:30",
-    "end_time_mmss": "61:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

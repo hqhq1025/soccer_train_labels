@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6047,
   "video_id": "2429016b-ebd5-57ca-a47c-ba088c9b7d19",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots on target}, stick with that team and alert me for {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 92.0,
-      "end": 92.0,
-      "text": "Trigger: Shots on target by right @ 1 - 01:32"
-    },
-    {
-      "start": 126.0,
-      "end": 126.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Corner} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 92000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_000010_000130.json",
-  "segment_meta": {
-    "start_seconds": 10,
-    "end_seconds": 130,
-    "length_seconds": 120,
-    "start_time_mmss": "00:10",
-    "end_time_mmss": "02:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

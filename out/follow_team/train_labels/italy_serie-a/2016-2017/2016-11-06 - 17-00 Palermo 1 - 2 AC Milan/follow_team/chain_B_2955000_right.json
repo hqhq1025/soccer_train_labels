@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18300,
   "video_id": "f3bad8c7-e5a5-5ba1-a700-dc77d3cf61ad",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} occurs, follow the initiating team; answer strictly as 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2955.0,
-      "end": 2955.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2958.0,
-      "end": 2958.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2955000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/segment_002900_002960.json",
-  "segment_meta": {
-    "start_seconds": 2900,
-    "end_seconds": 2960,
-    "length_seconds": 60,
-    "start_time_mmss": "48:20",
-    "end_time_mmss": "49:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

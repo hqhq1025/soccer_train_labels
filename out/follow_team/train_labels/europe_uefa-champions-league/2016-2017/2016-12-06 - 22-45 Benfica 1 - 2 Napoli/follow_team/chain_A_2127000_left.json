@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9383,
   "video_id": "c3491b59-c011-55dc-a36f-03dda295b47e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Shots on target and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Indirect free-kick} by left/right'; for each {Shots on target and Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2127.0,
-      "end": 2127.0,
-      "text": "Trigger: Indirect free-kick by left @ 1 - 35:27"
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 2157.0,
-      "end": 2157.0,
+      "start": 107.0,
+      "end": 107.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 2169.0,
-      "end": 2169.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2127000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/segment_002050_002170.json",
-  "segment_meta": {
-    "start_seconds": 2050,
-    "end_seconds": 2170,
-    "length_seconds": 120,
-    "start_time_mmss": "34:10",
-    "end_time_mmss": "36:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 817,
   "video_id": "b09da9ea-1d35-589c-bb99-5604248431cb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 3460.0,
-      "end": 3460.0,
-      "text": "Trigger: Foul by right @ 2 - 12:40"
-    },
-    {
-      "start": 3468.0,
-      "end": 3468.0,
-      "text": "Then: Yellow card by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3460000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/segment_003430_003470.json",
-  "segment_meta": {
-    "start_seconds": 3430,
-    "end_seconds": 3470,
-    "length_seconds": 40,
-    "start_time_mmss": "57:10",
-    "end_time_mmss": "57:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Then: Yellow card by right"
+    }
+  ]
 }

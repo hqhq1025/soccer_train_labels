@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1608,
   "video_id": "07784594-4789-52ce-ac20-1d836089e6ae",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} happens, lock onto that team and report every {Throw-in} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots off target} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4451.0,
-      "end": 4451.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 4487.0,
-      "end": 4487.0,
+      "start": 107.0,
+      "end": 107.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4451000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-12 - 23-00 Lorient 1 - 2 Paris SG/segment_004380_004500.json",
-  "segment_meta": {
-    "start_seconds": 4380,
-    "end_seconds": 4500,
-    "length_seconds": 120,
-    "start_time_mmss": "73:00",
-    "end_time_mmss": "75:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

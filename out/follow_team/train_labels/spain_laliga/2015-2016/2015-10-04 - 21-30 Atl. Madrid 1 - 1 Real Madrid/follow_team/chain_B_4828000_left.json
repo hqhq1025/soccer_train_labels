@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10772,
   "video_id": "91833a1b-f2a0-56c7-ae68-6b58c97ce78e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} occurs, follow the initiating team and report all {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4828.0,
-      "end": 4828.0,
+      "start": 18.0,
+      "end": 18.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 4831.0,
-      "end": 4831.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4828000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_004810_004930.json",
-  "segment_meta": {
-    "start_seconds": 4810,
-    "end_seconds": 4930,
-    "length_seconds": 120,
-    "start_time_mmss": "80:10",
-    "end_time_mmss": "82:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16420,
   "video_id": "d89ea9f4-c997-5b20-bb12-873ae70c64e6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2192.0,
-      "end": 2192.0,
+      "start": 12.0,
+      "end": 12.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2212.0,
-      "end": 2212.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2192000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/segment_002180_002300.json",
-  "segment_meta": {
-    "start_seconds": 2180,
-    "end_seconds": 2300,
-    "length_seconds": 120,
-    "start_time_mmss": "36:20",
-    "end_time_mmss": "38:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

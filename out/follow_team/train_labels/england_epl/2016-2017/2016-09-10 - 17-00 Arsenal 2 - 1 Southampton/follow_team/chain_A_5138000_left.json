@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23489,
   "video_id": "8fb3a326-2425-5f8e-b6fa-1f2c18937941",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 5138.0,
-      "end": 5138.0,
-      "text": "Trigger: Foul by left @ 2 - 40:38"
-    },
-    {
-      "start": 5143.0,
-      "end": 5143.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5138000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/segment_005030_005150.json",
-  "segment_meta": {
-    "start_seconds": 5030,
-    "end_seconds": 5150,
-    "length_seconds": 120,
-    "start_time_mmss": "83:50",
-    "end_time_mmss": "85:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

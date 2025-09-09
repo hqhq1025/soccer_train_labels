@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7592,
   "video_id": "d5701b7f-0b53-5e86-98af-c6dd0a031dfa",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 4615.0,
-      "end": 4615.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 4658.0,
-      "end": 4658.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4615000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/segment_004590_004710.json",
-  "segment_meta": {
-    "start_seconds": 4590,
-    "end_seconds": 4710,
-    "length_seconds": 120,
-    "start_time_mmss": "76:30",
-    "end_time_mmss": "78:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

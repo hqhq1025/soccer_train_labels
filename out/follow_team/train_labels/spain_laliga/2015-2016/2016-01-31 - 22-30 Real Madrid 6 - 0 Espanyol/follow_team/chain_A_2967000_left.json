@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10641,
   "video_id": "e41e03e9-68f3-5bc4-a9e6-02e561563a9c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Indirect free-kick and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Indirect free-kick and Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2967.0,
-      "end": 2967.0,
-      "text": "Trigger: Throw-in by left @ 2 - 04:27"
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3009.0,
-      "end": 3009.0,
+      "start": 109.0,
+      "end": 109.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     },
     {
-      "start": 3013.0,
-      "end": 3013.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2967000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-31 - 22-30 Real Madrid 6 - 0 Espanyol/segment_002900_003020.json",
-  "segment_meta": {
-    "start_seconds": 2900,
-    "end_seconds": 3020,
-    "length_seconds": 120,
-    "start_time_mmss": "48:20",
-    "end_time_mmss": "50:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

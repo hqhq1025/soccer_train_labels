@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6962,
   "video_id": "23d4ee47-a3c4-55c0-9a09-6525b93f7030",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team. Use responses 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3277.0,
-      "end": 3277.0,
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 3280.0,
-      "end": 3280.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3277000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/segment_003250_003290.json",
-  "segment_meta": {
-    "start_seconds": 3250,
-    "end_seconds": 3290,
-    "length_seconds": 40,
-    "start_time_mmss": "54:10",
-    "end_time_mmss": "54:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

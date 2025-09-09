@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24011,
   "video_id": "280ba866-b042-5f89-9925-f4f44e40ae68",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Shots off target and Corner} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Shots off target and Corner} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3617.0,
-      "end": 3617.0,
-      "text": "Trigger: Corner by left @ 2 - 15:17"
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
     },
     {
-      "start": 3676.0,
-      "end": 3676.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     },
     {
-      "start": 3696.0,
-      "end": 3696.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3617000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/segment_003580_003700.json",
-  "segment_meta": {
-    "start_seconds": 3580,
-    "end_seconds": 3700,
-    "length_seconds": 120,
-    "start_time_mmss": "59:40",
-    "end_time_mmss": "61:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

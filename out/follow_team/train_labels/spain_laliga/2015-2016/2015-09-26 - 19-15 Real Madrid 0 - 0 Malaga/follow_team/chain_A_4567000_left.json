@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10185,
   "video_id": "8c8bd69e-ca07-5788-bb8c-89d3f5fe3c7a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Red card}.",
-  "answer": [
+  "question": [
     {
-      "start": 4567.0,
-      "end": 4567.0,
-      "text": "Trigger: Foul by left @ 2 - 31:07"
-    },
-    {
-      "start": 4577.0,
-      "end": 4577.0,
-      "text": "Then: Red card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Foul}, stick with that team. For {Red card}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4567000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/segment_004500_004580.json",
-  "segment_meta": {
-    "start_seconds": 4500,
-    "end_seconds": 4580,
-    "length_seconds": 80,
-    "start_time_mmss": "75:00",
-    "end_time_mmss": "76:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
+      "text": "Then: Red card by left"
+    }
+  ]
 }

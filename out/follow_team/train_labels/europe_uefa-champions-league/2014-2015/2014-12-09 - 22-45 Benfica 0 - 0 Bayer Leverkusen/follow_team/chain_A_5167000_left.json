@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7633,
   "video_id": "e5366cb4-53dd-505d-9971-8f16aae4b4bd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 5167.0,
-      "end": 5167.0,
-      "text": "Trigger: Corner by left @ 2 - 41:07"
-    },
-    {
-      "start": 5169.0,
-      "end": 5169.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots off target}. Left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5167000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/segment_005060_005180.json",
-  "segment_meta": {
-    "start_seconds": 5060,
-    "end_seconds": 5180,
-    "length_seconds": 120,
-    "start_time_mmss": "84:20",
-    "end_time_mmss": "86:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 107.0,
+      "end": 107.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 109.0,
+      "end": 109.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

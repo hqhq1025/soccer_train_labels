@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24848,
   "video_id": "86292052-75e8-5af8-ba1d-6379dabbef2a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, continue tracking that team. Answers must be 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 878.0,
-      "end": 878.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 961.0,
-      "end": 961.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 878000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/segment_000850_000970.json",
-  "segment_meta": {
-    "start_seconds": 850,
-    "end_seconds": 970,
-    "length_seconds": 120,
-    "start_time_mmss": "14:10",
-    "end_time_mmss": "16:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

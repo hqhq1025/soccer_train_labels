@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 12209,
   "video_id": "e9d0fcdf-63f9-59af-814f-cd2865244bda",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots off target and Kick-off}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team. Respond 'Trigger: {Shots on target} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots off target and Kick-off}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2655.0,
-      "end": 2655.0,
-      "text": "Trigger: Shots on target by right @ 1 - 44:15"
+      "start": 5.0,
+      "end": 5.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 2657.0,
-      "end": 2657.0,
+      "start": 7.0,
+      "end": 7.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     },
     {
-      "start": 2700.0,
-      "end": 2700.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Kick-off by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2655000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/segment_002650_002730.json",
-  "segment_meta": {
-    "start_seconds": 2650,
-    "end_seconds": 2730,
-    "length_seconds": 80,
-    "start_time_mmss": "44:10",
-    "end_time_mmss": "45:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10895,
   "video_id": "b847d1b8-034a-5eef-84b4-d57bcf2e1c74",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4143.0,
-      "end": 4143.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 24:03"
-    },
-    {
-      "start": 4151.0,
-      "end": 4151.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Direct free-kick}, stick with that team. For {Shots off target}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4143000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/segment_004060_004160.json",
-  "segment_meta": {
-    "start_seconds": 4060,
-    "end_seconds": 4160,
-    "length_seconds": 100,
-    "start_time_mmss": "67:40",
-    "end_time_mmss": "69:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

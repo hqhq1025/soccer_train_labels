@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20378,
   "video_id": "5ab35141-8c61-50bb-a0f1-3f64b64bf34d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 2812.0,
-      "end": 2812.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2813.0,
-      "end": 2813.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2812000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/segment_002780_002840.json",
-  "segment_meta": {
-    "start_seconds": 2780,
-    "end_seconds": 2840,
-    "length_seconds": 60,
-    "start_time_mmss": "46:20",
-    "end_time_mmss": "47:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

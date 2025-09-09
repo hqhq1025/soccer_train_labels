@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17307,
   "video_id": "ebd2a831-0d47-51a2-a07d-eb2f6f38c956",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 2008.0,
-      "end": 2008.0,
-      "text": "Trigger: Shots on target by left @ 1 - 33:28"
-    },
-    {
-      "start": 2010.0,
-      "end": 2010.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots on target} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2008000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/segment_001940_002060.json",
-  "segment_meta": {
-    "start_seconds": 1940,
-    "end_seconds": 2060,
-    "length_seconds": 120,
-    "start_time_mmss": "32:20",
-    "end_time_mmss": "34:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

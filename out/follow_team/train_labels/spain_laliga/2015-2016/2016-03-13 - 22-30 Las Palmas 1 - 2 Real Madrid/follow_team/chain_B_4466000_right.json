@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10484,
   "video_id": "3bf12217-cb3c-50f7-b6dd-460beb0af9cc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Direct free-kick}, start tracking that team. Use responses 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4466.0,
-      "end": 4466.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 4467.0,
-      "end": 4467.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4466000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/segment_004370_004490.json",
-  "segment_meta": {
-    "start_seconds": 4370,
-    "end_seconds": 4490,
-    "length_seconds": 120,
-    "start_time_mmss": "72:50",
-    "end_time_mmss": "74:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

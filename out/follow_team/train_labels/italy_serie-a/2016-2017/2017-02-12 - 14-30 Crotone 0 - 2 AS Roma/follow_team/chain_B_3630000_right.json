@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18256,
   "video_id": "81e04046-fb4f-58ac-bfc5-383f4c53388a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Corner} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3630.0,
-      "end": 3630.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3670.0,
-      "end": 3670.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3630000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/segment_003580_003680.json",
-  "segment_meta": {
-    "start_seconds": 3580,
-    "end_seconds": 3680,
-    "length_seconds": 100,
-    "start_time_mmss": "59:40",
-    "end_time_mmss": "61:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6524,
   "video_id": "80a44264-5acd-533c-977b-7531c4ccda21",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Substitution} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Substitution}, start tracking that team. Use responses 'Trigger: {Substitution} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4456.0,
-      "end": 4456.0,
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
       "text": "Trigger: Substitution by right"
     },
     {
-      "start": 4469.0,
-      "end": 4469.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4456000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/segment_004430_004470.json",
-  "segment_meta": {
-    "start_seconds": 4430,
-    "end_seconds": 4470,
-    "length_seconds": 40,
-    "start_time_mmss": "73:50",
-    "end_time_mmss": "74:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

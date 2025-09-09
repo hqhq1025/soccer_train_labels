@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1178,
   "video_id": "632eb77c-07c0-5fa5-8f98-b2c26611dd87",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Substitution}."
+    }
+  ],
   "answer": [
     {
-      "start": 4726.0,
-      "end": 4726.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 4756.0,
-      "end": 4756.0,
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4726000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/segment_004670_004770.json",
-  "segment_meta": {
-    "start_seconds": 4670,
-    "end_seconds": 4770,
-    "length_seconds": 100,
-    "start_time_mmss": "77:50",
-    "end_time_mmss": "79:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

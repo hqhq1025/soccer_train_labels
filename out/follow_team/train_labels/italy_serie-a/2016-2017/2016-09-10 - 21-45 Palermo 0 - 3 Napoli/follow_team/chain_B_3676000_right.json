@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20374,
   "video_id": "31941118-4ebf-5881-a39d-64f1c6aca131",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3676.0,
-      "end": 3676.0,
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3693.0,
-      "end": 3693.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3676000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/segment_003590_003710.json",
-  "segment_meta": {
-    "start_seconds": 3590,
-    "end_seconds": 3710,
-    "length_seconds": 120,
-    "start_time_mmss": "59:50",
-    "end_time_mmss": "61:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

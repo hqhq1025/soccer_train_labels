@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7030,
   "video_id": "14943242-9439-5ba2-9d4f-e2beeb8dcbc8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Direct free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Direct free-kick} by left/right'; then for each {Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4584.0,
-      "end": 4584.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 4586.0,
-      "end": 4586.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4584000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/segment_004510_004630.json",
-  "segment_meta": {
-    "start_seconds": 4510,
-    "end_seconds": 4630,
-    "length_seconds": 120,
-    "start_time_mmss": "75:10",
-    "end_time_mmss": "77:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

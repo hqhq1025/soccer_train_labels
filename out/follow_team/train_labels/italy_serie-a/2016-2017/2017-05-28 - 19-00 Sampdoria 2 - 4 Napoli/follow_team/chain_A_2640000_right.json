@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19565,
   "video_id": "7242cbde-e218-5e51-909e-e7af44d0db7a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Clearance}, stick with that team and alert me for {Indirect free-kick and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Indirect free-kick and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2640.0,
-      "end": 2640.0,
-      "text": "Trigger: Clearance by right @ 1 - 44:00"
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
     },
     {
-      "start": 2659.0,
-      "end": 2659.0,
+      "start": 109.0,
+      "end": 109.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     },
     {
-      "start": 2665.0,
-      "end": 2665.0,
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2640000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_002550_002670.json",
-  "segment_meta": {
-    "start_seconds": 2550,
-    "end_seconds": 2670,
-    "length_seconds": 120,
-    "start_time_mmss": "42:30",
-    "end_time_mmss": "44:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

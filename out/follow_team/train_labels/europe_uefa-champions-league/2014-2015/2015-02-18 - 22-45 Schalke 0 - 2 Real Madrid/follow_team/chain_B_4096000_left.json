@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8966,
   "video_id": "5c0b27c1-1786-5017-b9cd-6806dc900912",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4096.0,
-      "end": 4096.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 4116.0,
-      "end": 4116.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4096000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/segment_004040_004120.json",
-  "segment_meta": {
-    "start_seconds": 4040,
-    "end_seconds": 4120,
-    "length_seconds": 80,
-    "start_time_mmss": "67:20",
-    "end_time_mmss": "68:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

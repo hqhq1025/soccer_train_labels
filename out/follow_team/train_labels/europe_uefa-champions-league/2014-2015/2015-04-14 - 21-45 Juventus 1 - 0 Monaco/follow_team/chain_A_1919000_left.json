@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7993,
   "video_id": "84a6c71c-7194-564d-9efe-f1c9ec93b720",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 1919.0,
-      "end": 1919.0,
-      "text": "Trigger: Foul by left @ 1 - 31:59"
-    },
-    {
-      "start": 1957.0,
-      "end": 1957.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Juventus 1 - 0 Monaco/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Juventus 1 - 0 Monaco/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1919000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Juventus 1 - 0 Monaco/segment_001890_001970.json",
-  "segment_meta": {
-    "start_seconds": 1890,
-    "end_seconds": 1970,
-    "length_seconds": 80,
-    "start_time_mmss": "31:30",
-    "end_time_mmss": "32:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

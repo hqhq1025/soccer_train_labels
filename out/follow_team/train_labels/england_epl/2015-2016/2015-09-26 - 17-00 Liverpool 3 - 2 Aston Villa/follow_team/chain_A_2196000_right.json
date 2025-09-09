@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21079,
   "video_id": "22b589fb-2590-5759-86ba-4e22f38473e4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 2196.0,
-      "end": 2196.0,
-      "text": "Trigger: Shots on target by right @ 1 - 36:36"
-    },
-    {
-      "start": 2228.0,
-      "end": 2228.0,
-      "text": "Then: Corner by right"
-    },
-    {
-      "start": 2248.0,
-      "end": 2248.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots on target}, stick with that team. For {Corner}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2196000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/segment_002150_002270.json",
-  "segment_meta": {
-    "start_seconds": 2150,
-    "end_seconds": 2270,
-    "length_seconds": 120,
-    "start_time_mmss": "35:50",
-    "end_time_mmss": "37:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

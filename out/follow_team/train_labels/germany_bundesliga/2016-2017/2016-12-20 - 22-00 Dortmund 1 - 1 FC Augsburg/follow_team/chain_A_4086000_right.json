@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3511,
   "video_id": "caa3b1c9-cb91-57dd-905d-baea3dd95000",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Yellow card}, stick with that team and alert me for {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 4086.0,
-      "end": 4086.0,
-      "text": "Trigger: Yellow card by right @ 2 - 23:06"
-    },
-    {
-      "start": 4148.0,
-      "end": 4148.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Yellow card} occurs, follow the initiating team; answer strictly as 'Trigger: {Yellow card} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4086000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_004030_004150.json",
-  "segment_meta": {
-    "start_seconds": 4030,
-    "end_seconds": 4150,
-    "length_seconds": 120,
-    "start_time_mmss": "67:10",
-    "end_time_mmss": "69:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Trigger: Yellow card by right"
+    },
+    {
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

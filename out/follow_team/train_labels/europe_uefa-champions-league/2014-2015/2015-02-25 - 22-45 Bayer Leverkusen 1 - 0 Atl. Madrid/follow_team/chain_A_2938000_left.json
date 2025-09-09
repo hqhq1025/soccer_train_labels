@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8759,
   "video_id": "ee62989c-aeb3-540c-b2cb-a74dfd099a91",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in and Shots off target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Throw-in and Shots off target}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2938.0,
-      "end": 2938.0,
-      "text": "Trigger: Throw-in by left @ 2 - 03:58"
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2987.0,
-      "end": 2987.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 3012.0,
-      "end": 3012.0,
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2938000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/segment_002900_003020.json",
-  "segment_meta": {
-    "start_seconds": 2900,
-    "end_seconds": 3020,
-    "length_seconds": 120,
-    "start_time_mmss": "48:20",
-    "end_time_mmss": "50:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

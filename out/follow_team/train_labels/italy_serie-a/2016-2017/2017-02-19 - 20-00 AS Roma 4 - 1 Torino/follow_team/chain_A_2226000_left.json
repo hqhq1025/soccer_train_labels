@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19361,
   "video_id": "4ce5404d-27ed-5f42-abda-ffab46f68986",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2226.0,
-      "end": 2226.0,
-      "text": "Trigger: Throw-in by left @ 1 - 37:06"
-    },
-    {
-      "start": 2257.0,
-      "end": 2257.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2226000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/segment_002140_002260.json",
-  "segment_meta": {
-    "start_seconds": 2140,
-    "end_seconds": 2260,
-    "length_seconds": 120,
-    "start_time_mmss": "35:40",
-    "end_time_mmss": "37:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

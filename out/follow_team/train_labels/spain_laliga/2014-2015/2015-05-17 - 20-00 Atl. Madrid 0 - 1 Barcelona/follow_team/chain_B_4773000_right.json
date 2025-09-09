@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11400,
   "video_id": "24af7700-da9a-5a06-aad9-e7864ab47829",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Substitution} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Substitution}, keep following that team. Use left/right only; 'Trigger: {Substitution} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4773.0,
-      "end": 4773.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Trigger: Substitution by right"
     },
     {
-      "start": 4814.0,
-      "end": 4814.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4773000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/segment_004710_004830.json",
-  "segment_meta": {
-    "start_seconds": 4710,
-    "end_seconds": 4830,
-    "length_seconds": 120,
-    "start_time_mmss": "78:30",
-    "end_time_mmss": "80:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

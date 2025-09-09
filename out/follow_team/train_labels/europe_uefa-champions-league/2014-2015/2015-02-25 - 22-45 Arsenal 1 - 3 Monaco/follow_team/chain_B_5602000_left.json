@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7844,
   "video_id": "11003a27-b59b-5ac6-bc9e-9548832f2c80",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 90.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Goal} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team. Respond 'Trigger: {Shots on target} by left/right' and thereafter 'Then: <Event> by left/right' for {Goal}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5602.0,
-      "end": 5602.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 5603.0,
-      "end": 5603.0,
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5602000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Arsenal 1 - 3 Monaco/segment_005520_005610.json",
-  "segment_meta": {
-    "start_seconds": 5520,
-    "end_seconds": 5610,
-    "length_seconds": 90,
-    "start_time_mmss": "92:00",
-    "end_time_mmss": "93:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

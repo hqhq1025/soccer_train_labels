@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16417,
   "video_id": "9e8f7c3c-80d1-5741-b102-6c63ee357bcc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Yellow card}; then follow that team and report its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4620.0,
-      "end": 4620.0,
-      "text": "Trigger: Yellow card by left @ 2 - 32:00"
-    },
-    {
-      "start": 4656.0,
-      "end": 4656.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Yellow card}, follow the same team and list all subsequent {Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4620000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/segment_004540_004660.json",
-  "segment_meta": {
-    "start_seconds": 4540,
-    "end_seconds": 4660,
-    "length_seconds": 120,
-    "start_time_mmss": "75:40",
-    "end_time_mmss": "77:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
+      "text": "Trigger: Yellow card by left"
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

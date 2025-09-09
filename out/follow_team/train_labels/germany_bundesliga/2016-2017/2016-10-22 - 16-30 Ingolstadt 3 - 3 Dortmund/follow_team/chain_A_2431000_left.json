@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4815,
   "video_id": "fcbdd022-79d3-555a-8ced-b130533590e8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Shots on target, Indirect free-kick and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, continue tracking that team. Answers must be 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Shots on target, Indirect free-kick and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2431.0,
-      "end": 2431.0,
-      "text": "Trigger: Shots on target by left @ 1 - 40:31"
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2435.0,
-      "end": 2435.0,
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 2448.0,
-      "end": 2448.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     },
     {
-      "start": 2453.0,
-      "end": 2453.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2431000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/segment_002350_002470.json",
-  "segment_meta": {
-    "start_seconds": 2350,
-    "end_seconds": 2470,
-    "length_seconds": 120,
-    "start_time_mmss": "39:10",
-    "end_time_mmss": "41:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

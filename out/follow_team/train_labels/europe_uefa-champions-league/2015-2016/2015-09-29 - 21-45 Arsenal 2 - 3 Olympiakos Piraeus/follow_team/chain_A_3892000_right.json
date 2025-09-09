@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7283,
   "video_id": "9ee8c856-585c-5d61-850c-35333731099a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 3892.0,
-      "end": 3892.0,
-      "text": "Trigger: Shots on target by right @ 2 - 19:52"
-    },
-    {
-      "start": 3893.0,
-      "end": 3893.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, continue tracking that team. Answers must be 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Goal}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3892000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Arsenal 2 - 3 Olympiakos Piraeus/segment_003860_003900.json",
-  "segment_meta": {
-    "start_seconds": 3860,
-    "end_seconds": 3900,
-    "length_seconds": 40,
-    "start_time_mmss": "64:20",
-    "end_time_mmss": "65:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

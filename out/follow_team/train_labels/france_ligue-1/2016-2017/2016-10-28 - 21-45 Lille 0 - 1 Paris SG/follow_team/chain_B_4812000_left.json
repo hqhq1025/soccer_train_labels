@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1422,
   "video_id": "5dd7d9d5-deae-5a8a-b489-bc171ebd6674",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Direct free-kick}, stick with that team. For {Foul}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4812.0,
-      "end": 4812.0,
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 4824.0,
-      "end": 4824.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4812000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/segment_004750_004830.json",
-  "segment_meta": {
-    "start_seconds": 4750,
-    "end_seconds": 4830,
-    "length_seconds": 80,
-    "start_time_mmss": "79:10",
-    "end_time_mmss": "80:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

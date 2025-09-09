@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 358,
   "video_id": "06898145-b444-5a04-b26a-b447e9f0a4d6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2122.0,
-      "end": 2122.0,
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2124.0,
-      "end": 2124.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2122000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/segment_002010_002130.json",
-  "segment_meta": {
-    "start_seconds": 2010,
-    "end_seconds": 2130,
-    "length_seconds": 120,
-    "start_time_mmss": "33:30",
-    "end_time_mmss": "35:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

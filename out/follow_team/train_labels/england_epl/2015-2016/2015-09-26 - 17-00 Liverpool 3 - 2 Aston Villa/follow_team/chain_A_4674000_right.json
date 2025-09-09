@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21061,
   "video_id": "6771e886-529e-577e-bcfa-0a64c8354040",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4674.0,
-      "end": 4674.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 32:54"
-    },
-    {
-      "start": 4676.0,
-      "end": 4676.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Direct free-kick}, keep following that team. Use left/right only; 'Trigger: {Direct free-kick} by left/right', then 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4674000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/segment_004630_004710.json",
-  "segment_meta": {
-    "start_seconds": 4630,
-    "end_seconds": 4710,
-    "length_seconds": 80,
-    "start_time_mmss": "77:10",
-    "end_time_mmss": "78:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18536,
   "video_id": "90b45e1d-4c26-5447-bc54-b3f051d6e10c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2072.0,
-      "end": 2072.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 2092.0,
-      "end": 2092.0,
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2072000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/segment_002000_002120.json",
-  "segment_meta": {
-    "start_seconds": 2000,
-    "end_seconds": 2120,
-    "length_seconds": 120,
-    "start_time_mmss": "33:20",
-    "end_time_mmss": "35:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

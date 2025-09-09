@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20413,
   "video_id": "eb9968ff-dfde-56cb-8590-4c22843e1a48",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots on target} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 2077.0,
-      "end": 2077.0,
-      "text": "Trigger: Indirect free-kick by right @ 1 - 34:37"
-    },
-    {
-      "start": 2084.0,
-      "end": 2084.0,
-      "text": "Then: Shots on target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Indirect free-kick} by left/right'; for each {Shots on target}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2077000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/segment_001990_002110.json",
-  "segment_meta": {
-    "start_seconds": 1990,
-    "end_seconds": 2110,
-    "length_seconds": 120,
-    "start_time_mmss": "33:10",
-    "end_time_mmss": "35:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    }
+  ]
 }

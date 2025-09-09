@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24091,
   "video_id": "50019177-9619-5a90-97ec-26d3247982eb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
       "start": 33.0,
       "end": 33.0,
-      "text": "Trigger: Throw-in by left @ 1 - 00:33"
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
       "start": 72.0,
       "end": 72.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 33000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-27 - 20-15 Liverpool 4 - 1 Stoke City/segment_000000_000100.json",
-  "segment_meta": {
-    "start_seconds": 0,
-    "end_seconds": 100,
-    "length_seconds": 100,
-    "start_time_mmss": "00:00",
-    "end_time_mmss": "01:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

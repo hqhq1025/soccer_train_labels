@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4073,
   "video_id": "15e3d812-ac8c-5bc0-b9c5-ab1c60954a65",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4528.0,
-      "end": 4528.0,
-      "text": "Trigger: Direct free-kick by left @ 2 - 30:28"
-    },
-    {
-      "start": 4529.0,
-      "end": 4529.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Direct free-kick}, stick with that team. For {Foul}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4528000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_004410_004530.json",
-  "segment_meta": {
-    "start_seconds": 4410,
-    "end_seconds": 4530,
-    "length_seconds": 120,
-    "start_time_mmss": "73:30",
-    "end_time_mmss": "75:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

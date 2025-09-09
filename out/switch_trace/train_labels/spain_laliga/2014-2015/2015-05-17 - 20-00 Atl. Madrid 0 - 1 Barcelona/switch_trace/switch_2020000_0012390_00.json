@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 17671,
+  "video_id": "4c19ee11-b2d1-51a7-92a9-2351e522a16d",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Observe {Foul} and report every time it happens. Respond 'Alert - <Event>'."
+    },
+    {
+      "time": 12.39,
+      "count": 1,
+      "text": "Stop the last one and continuously follow {Indirect free-kick} from now on. Respond 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 12.39,
+      "end": 12.39,
+      "count": 0,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 32.806,
+      "end": 32.806,
+      "count": 1,
+      "text": "Alert - Indirect free-kick"
+    }
+  ]
+}

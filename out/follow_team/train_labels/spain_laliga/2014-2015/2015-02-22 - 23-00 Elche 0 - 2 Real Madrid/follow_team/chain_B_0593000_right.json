@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11354,
   "video_id": "70e12acf-a4d9-59dc-b691-8403e6209b82",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, keep following that team. Use left/right only; 'Trigger: {Corner} by left/right', then 'Then: <Event> by left/right' for {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 593.0,
-      "end": 593.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 610.0,
-      "end": 610.0,
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 593000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/segment_000530_000630.json",
-  "segment_meta": {
-    "start_seconds": 530,
-    "end_seconds": 630,
-    "length_seconds": 100,
-    "start_time_mmss": "08:50",
-    "end_time_mmss": "10:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19501,
   "video_id": "9ba38c94-dec2-513a-bce7-67831b803703",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 3059.0,
-      "end": 3059.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 05:59"
-    },
-    {
-      "start": 3074.0,
-      "end": 3074.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, keep following that team. Use left/right only; 'Trigger: {Indirect free-kick} by left/right', then 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3059000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/segment_003040_003120.json",
-  "segment_meta": {
-    "start_seconds": 3040,
-    "end_seconds": 3120,
-    "length_seconds": 80,
-    "start_time_mmss": "50:40",
-    "end_time_mmss": "52:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

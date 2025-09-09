@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16403,
   "video_id": "f034f1d8-f28f-57a3-a9c7-70f42682866c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Indirect free-kick} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 4483.0,
-      "end": 4483.0,
-      "text": "Trigger: Foul by left @ 2 - 29:43"
-    },
-    {
-      "start": 4491.0,
-      "end": 4491.0,
-      "text": "Then: Indirect free-kick by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick}."
     }
   ],
-  "match_path": "italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4483000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/segment_004420_004540.json",
-  "segment_meta": {
-    "start_seconds": 4420,
-    "end_seconds": 4540,
-    "length_seconds": 120,
-    "start_time_mmss": "73:40",
-    "end_time_mmss": "75:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ]
 }

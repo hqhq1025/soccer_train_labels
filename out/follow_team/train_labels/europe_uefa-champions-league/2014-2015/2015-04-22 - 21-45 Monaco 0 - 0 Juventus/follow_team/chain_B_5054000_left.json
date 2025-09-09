@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8258,
   "video_id": "d6132ded-9d85-5865-9656-fb297af1a3ff",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 5054.0,
-      "end": 5054.0,
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5096.0,
-      "end": 5096.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5054000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/segment_005040_005120.json",
-  "segment_meta": {
-    "start_seconds": 5040,
-    "end_seconds": 5120,
-    "length_seconds": 80,
-    "start_time_mmss": "84:00",
-    "end_time_mmss": "85:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

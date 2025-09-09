@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7820,
   "video_id": "d8307565-2055-519f-979c-4df5e1162829",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots on target} by left/right'; for each {Goal}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4583.0,
-      "end": 4583.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 4584.0,
-      "end": 4584.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4583000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/segment_004530_004590.json",
-  "segment_meta": {
-    "start_seconds": 4530,
-    "end_seconds": 4590,
-    "length_seconds": 60,
-    "start_time_mmss": "75:30",
-    "end_time_mmss": "76:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

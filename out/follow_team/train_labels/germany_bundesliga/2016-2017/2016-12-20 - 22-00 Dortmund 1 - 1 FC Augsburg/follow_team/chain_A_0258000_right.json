@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3529,
   "video_id": "808d10f1-3cc7-5020-b9d5-4e6ef7596d0e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, keep following that team and alert me whenever {Throw-in} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 258.0,
-      "end": 258.0,
-      "text": "Trigger: Corner by right @ 1 - 04:18"
-    },
-    {
-      "start": 271.0,
-      "end": 271.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 312.0,
-      "end": 312.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 334.0,
-      "end": 334.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team. Use responses 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 258000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_000230_000350.json",
-  "segment_meta": {
-    "start_seconds": 230,
-    "end_seconds": 350,
-    "length_seconds": 120,
-    "start_time_mmss": "03:50",
-    "end_time_mmss": "05:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

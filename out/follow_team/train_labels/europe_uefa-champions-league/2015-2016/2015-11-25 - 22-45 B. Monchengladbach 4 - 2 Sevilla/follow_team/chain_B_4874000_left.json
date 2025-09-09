@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6742,
   "video_id": "61cd8832-f690-5e02-9f73-34bd9e97d900",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots on target}, keep following that team. Use left/right only; 'Trigger: {Shots on target} by left/right', then 'Then: <Event> by left/right' for {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 4874.0,
-      "end": 4874.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 4876.0,
-      "end": 4876.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4874000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/segment_004820_004880.json",
-  "segment_meta": {
-    "start_seconds": 4820,
-    "end_seconds": 4880,
-    "length_seconds": 60,
-    "start_time_mmss": "80:20",
-    "end_time_mmss": "81:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

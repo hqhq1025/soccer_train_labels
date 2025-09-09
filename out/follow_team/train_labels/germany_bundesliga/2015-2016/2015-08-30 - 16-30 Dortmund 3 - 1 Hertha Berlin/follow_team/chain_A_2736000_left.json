@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2203,
   "video_id": "103fceb4-d8d9-52a3-8478-7889781a5912",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Throw-in and Indirect free-kick} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Throw-in and Indirect free-kick} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2736.0,
-      "end": 2736.0,
-      "text": "Trigger: Throw-in by left @ 2 - 00:36"
+      "start": 6.0,
+      "end": 6.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2782.0,
-      "end": 2782.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2826.0,
-      "end": 2826.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2736000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_002730_002850.json",
-  "segment_meta": {
-    "start_seconds": 2730,
-    "end_seconds": 2850,
-    "length_seconds": 120,
-    "start_time_mmss": "45:30",
-    "end_time_mmss": "47:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

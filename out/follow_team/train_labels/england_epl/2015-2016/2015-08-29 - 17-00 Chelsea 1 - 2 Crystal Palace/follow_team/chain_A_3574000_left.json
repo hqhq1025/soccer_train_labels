@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22553,
   "video_id": "79b18969-95b0-5fba-8dc2-7863e6aaa9aa",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Throw-in, Direct free-kick and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Direct free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Direct free-kick} by left/right'; for each {Throw-in, Direct free-kick and Shots on target}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3574.0,
-      "end": 3574.0,
-      "text": "Trigger: Direct free-kick by left @ 2 - 14:34"
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 3597.0,
-      "end": 3597.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 3665.0,
-      "end": 3665.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Then: Direct free-kick by left"
     },
     {
-      "start": 3679.0,
-      "end": 3679.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3574000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_003560_003680.json",
-  "segment_meta": {
-    "start_seconds": 3560,
-    "end_seconds": 3680,
-    "length_seconds": 120,
-    "start_time_mmss": "59:20",
-    "end_time_mmss": "61:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

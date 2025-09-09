@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6926,
   "video_id": "7d2dbee5-6096-55d9-ac2d-4912e85a5e67",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2832.0,
-      "end": 2832.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 2856.0,
-      "end": 2856.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2832000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/segment_002760_002860.json",
-  "segment_meta": {
-    "start_seconds": 2760,
-    "end_seconds": 2860,
-    "length_seconds": 100,
-    "start_time_mmss": "46:00",
-    "end_time_mmss": "47:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

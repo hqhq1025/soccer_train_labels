@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10547,
   "video_id": "5c1c4a55-6179-5c27-b747-ea32914fc02e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner, Goal and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, continue tracking that team. Answers must be 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Corner, Goal and Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3069.0,
-      "end": 3069.0,
-      "text": "Trigger: Shots on target by left @ 2 - 06:09"
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 3092.0,
-      "end": 3092.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 3137.0,
-      "end": 3137.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Goal by left"
     },
     {
-      "start": 3137.0,
-      "end": 3137.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3069000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/segment_003020_003140.json",
-  "segment_meta": {
-    "start_seconds": 3020,
-    "end_seconds": 3140,
-    "length_seconds": 120,
-    "start_time_mmss": "50:20",
-    "end_time_mmss": "52:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

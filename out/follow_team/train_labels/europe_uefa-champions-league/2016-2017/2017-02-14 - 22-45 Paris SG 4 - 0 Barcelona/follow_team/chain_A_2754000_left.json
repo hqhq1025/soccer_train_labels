@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9655,
   "video_id": "7740285d-4b22-5922-ac72-1ec3ee675213",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 2754.0,
-      "end": 2754.0,
-      "text": "Trigger: Direct free-kick by left @ 2 - 00:54"
-    },
-    {
-      "start": 2798.0,
-      "end": 2798.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Direct free-kick}, start tracking that team. Use responses 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2754000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/segment_002740_002800.json",
-  "segment_meta": {
-    "start_seconds": 2740,
-    "end_seconds": 2800,
-    "length_seconds": 60,
-    "start_time_mmss": "45:40",
-    "end_time_mmss": "46:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

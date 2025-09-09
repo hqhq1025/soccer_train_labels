@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1,
   "video_id": "7793aafd-e59d-5155-ade6-7f923671e08d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3314.0,
-      "end": 3314.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 10:14"
-    },
-    {
-      "start": 3331.0,
-      "end": 3331.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3314000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/segment_003240_003360.json",
-  "segment_meta": {
-    "start_seconds": 3240,
-    "end_seconds": 3360,
-    "length_seconds": 120,
-    "start_time_mmss": "54:00",
-    "end_time_mmss": "56:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

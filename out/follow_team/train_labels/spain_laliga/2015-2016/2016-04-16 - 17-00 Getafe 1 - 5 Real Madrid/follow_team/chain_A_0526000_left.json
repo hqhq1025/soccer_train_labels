@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11053,
   "video_id": "3032ce7d-10d4-5940-a6f2-31bec56ad451",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, start tracking that team; notify me on its {Throw-in and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team; answer strictly as 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Throw-in and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 526.0,
-      "end": 526.0,
-      "text": "Trigger: Clearance by left @ 1 - 08:46"
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
     },
     {
-      "start": 567.0,
-      "end": 567.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 604.0,
-      "end": 604.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 526000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/segment_000490_000610.json",
-  "segment_meta": {
-    "start_seconds": 490,
-    "end_seconds": 610,
-    "length_seconds": 120,
-    "start_time_mmss": "08:10",
-    "end_time_mmss": "10:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

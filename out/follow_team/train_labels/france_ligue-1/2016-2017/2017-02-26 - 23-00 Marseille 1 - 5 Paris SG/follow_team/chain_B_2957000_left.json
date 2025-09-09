@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 400,
   "video_id": "50a86423-a9cb-56a8-a2af-a4f5a21b6a7b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Goal} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2957.0,
-      "end": 2957.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2958.0,
-      "end": 2958.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2957000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-26 - 23-00 Marseille 1 - 5 Paris SG/segment_002920_002960.json",
-  "segment_meta": {
-    "start_seconds": 2920,
-    "end_seconds": 2960,
-    "length_seconds": 40,
-    "start_time_mmss": "48:40",
-    "end_time_mmss": "49:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

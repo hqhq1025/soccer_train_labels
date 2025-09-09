@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24864,
   "video_id": "d50a2e9b-d61f-50fa-9b00-0095947a2988",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 3947.0,
-      "end": 3947.0,
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 4010.0,
-      "end": 4010.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3947000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/segment_003900_004020.json",
-  "segment_meta": {
-    "start_seconds": 3900,
-    "end_seconds": 4020,
-    "length_seconds": 120,
-    "start_time_mmss": "65:00",
-    "end_time_mmss": "67:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

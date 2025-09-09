@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 23491,
+  "video_id": "ecf2afd0-7478-5058-8abb-f2153e45b4ed",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Offside and Shots on target} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 84.089,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Throw-in}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 18.711,
+      "end": 18.711,
+      "count": 0,
+      "text": "Alert - Shots on target"
+    },
+    {
+      "start": 92.909,
+      "end": 92.909,
+      "count": 1,
+      "text": "Alert - Throw-in"
+    }
+  ]
+}

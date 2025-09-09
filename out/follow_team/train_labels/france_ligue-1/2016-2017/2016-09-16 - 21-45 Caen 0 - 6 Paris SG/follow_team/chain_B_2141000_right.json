@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 504,
   "video_id": "55577474-dace-5e3a-9057-ff955eea0bee",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Direct free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Direct free-kick} by left/right'; then for each {Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2141.0,
-      "end": 2141.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 2152.0,
-      "end": 2152.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2141000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/segment_002070_002190.json",
-  "segment_meta": {
-    "start_seconds": 2070,
-    "end_seconds": 2190,
-    "length_seconds": 120,
-    "start_time_mmss": "34:30",
-    "end_time_mmss": "36:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

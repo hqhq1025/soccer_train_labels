@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23993,
   "video_id": "97fd117f-a1d5-5d6f-a868-6171ba1db538",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4316.0,
-      "end": 4316.0,
-      "text": "Trigger: Foul by right @ 2 - 26:56"
-    },
-    {
-      "start": 4365.0,
-      "end": 4365.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that team. Answer format: at trigger reply 'Trigger: {Foul} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4316000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/segment_004270_004390.json",
-  "segment_meta": {
-    "start_seconds": 4270,
-    "end_seconds": 4390,
-    "length_seconds": 120,
-    "start_time_mmss": "71:10",
-    "end_time_mmss": "73:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

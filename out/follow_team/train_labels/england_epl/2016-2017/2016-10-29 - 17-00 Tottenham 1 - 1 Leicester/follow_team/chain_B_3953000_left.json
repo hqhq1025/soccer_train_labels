@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23568,
   "video_id": "5a803e6f-bce5-50c5-a8a7-d44d0c66e7ea",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, start tracking that team. Use responses 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3953.0,
-      "end": 3953.0,
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 3970.0,
-      "end": 3970.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3953000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/segment_003910_004010.json",
-  "segment_meta": {
-    "start_seconds": 3910,
-    "end_seconds": 4010,
-    "length_seconds": 100,
-    "start_time_mmss": "65:10",
-    "end_time_mmss": "66:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

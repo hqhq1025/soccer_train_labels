@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1929,
   "video_id": "a368003e-cc8c-5b50-ad73-a1fc1f5928b5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Offside} occurs, keep following the same team and tell me whenever they perform {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 4189.0,
-      "end": 4189.0,
-      "text": "Trigger: Offside by left @ 2 - 24:49"
-    },
-    {
-      "start": 4221.0,
-      "end": 4221.0,
-      "text": "Then: Offside by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Offside}, follow that team. Answer format: at trigger reply 'Trigger: {Offside} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4189000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/segment_004110_004230.json",
-  "segment_meta": {
-    "start_seconds": 4110,
-    "end_seconds": 4230,
-    "length_seconds": 120,
-    "start_time_mmss": "68:30",
-    "end_time_mmss": "70:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
+      "text": "Then: Offside by left"
+    }
+  ]
 }

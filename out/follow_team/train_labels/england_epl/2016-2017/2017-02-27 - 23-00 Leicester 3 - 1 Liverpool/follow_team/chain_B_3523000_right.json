@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23740,
   "video_id": "a2871ca0-2c5e-5d29-8122-d508ea733146",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} occurs, follow the initiating team and report all {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team; answer strictly as 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 3523.0,
-      "end": 3523.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 3527.0,
-      "end": 3527.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3523000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/segment_003470_003530.json",
-  "segment_meta": {
-    "start_seconds": 3470,
-    "end_seconds": 3530,
-    "length_seconds": 60,
-    "start_time_mmss": "57:50",
-    "end_time_mmss": "58:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

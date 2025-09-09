@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7078,
   "video_id": "824969d0-2159-54bb-ae8f-62e16dc27696",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Direct free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Direct free-kick} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2316.0,
-      "end": 2316.0,
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 2319.0,
-      "end": 2319.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2316000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/segment_002230_002350.json",
-  "segment_meta": {
-    "start_seconds": 2230,
-    "end_seconds": 2350,
-    "length_seconds": 120,
-    "start_time_mmss": "37:10",
-    "end_time_mmss": "39:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1310,
   "video_id": "1f4172d2-605b-54a6-ab87-66a998a13173",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Clearance}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3031.0,
-      "end": 3031.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 3066.0,
-      "end": 3066.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3031000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/segment_002950_003070.json",
-  "segment_meta": {
-    "start_seconds": 2950,
-    "end_seconds": 3070,
-    "length_seconds": 120,
-    "start_time_mmss": "49:10",
-    "end_time_mmss": "51:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16117,
   "video_id": "7c0e3395-613b-5b95-9364-da2faf420197",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Substitution and Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Substitution and Clearance}."
+    }
+  ],
   "answer": [
     {
-      "start": 3867.0,
-      "end": 3867.0,
-      "text": "Trigger: Foul by right @ 2 - 19:27"
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
     },
     {
-      "start": 3914.0,
-      "end": 3914.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     },
     {
-      "start": 3931.0,
-      "end": 3931.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Clearance by right"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3867000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/segment_003820_003940.json",
-  "segment_meta": {
-    "start_seconds": 3820,
-    "end_seconds": 3940,
-    "length_seconds": 120,
-    "start_time_mmss": "63:40",
-    "end_time_mmss": "65:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20807,
   "video_id": "db773b7d-03b7-5866-af66-cc1a7dbb7226",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 204.0,
-      "end": 204.0,
-      "text": "Trigger: Indirect free-kick by right @ 1 - 03:24"
-    },
-    {
-      "start": 259.0,
-      "end": 259.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team. Respond 'Trigger: {Indirect free-kick} by left/right', and for {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 204000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/segment_000160_000260.json",
-  "segment_meta": {
-    "start_seconds": 160,
-    "end_seconds": 260,
-    "length_seconds": 100,
-    "start_time_mmss": "02:40",
-    "end_time_mmss": "04:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

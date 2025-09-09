@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19072,
   "video_id": "f7d86494-a390-5cc7-afeb-fe764b1873db",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 5506.0,
-      "end": 5506.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 5507.0,
-      "end": 5507.0,
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5506000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/segment_005460_005580.json",
-  "segment_meta": {
-    "start_seconds": 5460,
-    "end_seconds": 5580,
-    "length_seconds": 120,
-    "start_time_mmss": "91:00",
-    "end_time_mmss": "93:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

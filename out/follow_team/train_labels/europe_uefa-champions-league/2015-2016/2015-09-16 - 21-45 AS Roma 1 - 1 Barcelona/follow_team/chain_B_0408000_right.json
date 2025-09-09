@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7332,
   "video_id": "377e04a9-6281-52b7-951b-c22af335fbc9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 408.0,
-      "end": 408.0,
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 412.0,
-      "end": 412.0,
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 408000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 AS Roma 1 - 1 Barcelona/segment_000300_000420.json",
-  "segment_meta": {
-    "start_seconds": 300,
-    "end_seconds": 420,
-    "length_seconds": 120,
-    "start_time_mmss": "05:00",
-    "end_time_mmss": "07:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

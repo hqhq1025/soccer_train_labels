@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11766,
   "video_id": "c52fe10f-510c-5198-8a05-b13ec57a1860",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Clearance}, stick with that team and alert me for {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, follow that team. Answer format: at trigger reply 'Trigger: {Clearance} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 178.0,
-      "end": 178.0,
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 218.0,
-      "end": 218.0,
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 178000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/segment_000130_000250.json",
-  "segment_meta": {
-    "start_seconds": 130,
-    "end_seconds": 250,
-    "length_seconds": 120,
-    "start_time_mmss": "02:10",
-    "end_time_mmss": "04:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

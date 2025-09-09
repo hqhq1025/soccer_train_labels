@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19890,
   "video_id": "fb36374c-963b-5e51-a8e7-5703579e7d7f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2916.0,
-      "end": 2916.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2926.0,
-      "end": 2926.0,
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2916000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/segment_002860_002960.json",
-  "segment_meta": {
-    "start_seconds": 2860,
-    "end_seconds": 2960,
-    "length_seconds": 100,
-    "start_time_mmss": "47:40",
-    "end_time_mmss": "49:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 305,
   "video_id": "f4cb4783-be1c-5970-b109-ea9f9cf00e43",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 2180.0,
-      "end": 2180.0,
-      "text": "Trigger: Shots off target by right @ 1 - 36:20"
-    },
-    {
-      "start": 2226.0,
-      "end": 2226.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots off target}; then follow that team. Respond 'Trigger: {Shots off target} by left/right', and for {Foul} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2180000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/segment_002150_002230.json",
-  "segment_meta": {
-    "start_seconds": 2150,
-    "end_seconds": 2230,
-    "length_seconds": 80,
-    "start_time_mmss": "35:50",
-    "end_time_mmss": "37:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

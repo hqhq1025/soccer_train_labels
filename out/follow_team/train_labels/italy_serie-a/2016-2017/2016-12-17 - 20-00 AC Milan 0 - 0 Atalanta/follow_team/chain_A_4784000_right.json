@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17243,
   "video_id": "49a143d5-7e40-58d3-ac28-ff1bae804ed9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Substitution}.",
-  "answer": [
+  "question": [
     {
-      "start": 4784.0,
-      "end": 4784.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 34:44"
-    },
-    {
-      "start": 4865.0,
-      "end": 4865.0,
-      "text": "Then: Substitution by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Substitution}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4784000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_004750_004870.json",
-  "segment_meta": {
-    "start_seconds": 4750,
-    "end_seconds": 4870,
-    "length_seconds": 120,
-    "start_time_mmss": "79:10",
-    "end_time_mmss": "81:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
+      "text": "Then: Substitution by right"
+    }
+  ]
 }

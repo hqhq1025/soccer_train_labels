@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11457,
   "video_id": "3bacaca9-df24-5873-8a2c-ef9269e71557",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 5391.0,
-      "end": 5391.0,
-      "text": "Trigger: Shots on target by left @ 2 - 44:51"
-    },
-    {
-      "start": 5413.0,
-      "end": 5413.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots on target}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5391000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/segment_005340_005440.json",
-  "segment_meta": {
-    "start_seconds": 5340,
-    "end_seconds": 5440,
-    "length_seconds": 100,
-    "start_time_mmss": "89:00",
-    "end_time_mmss": "90:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

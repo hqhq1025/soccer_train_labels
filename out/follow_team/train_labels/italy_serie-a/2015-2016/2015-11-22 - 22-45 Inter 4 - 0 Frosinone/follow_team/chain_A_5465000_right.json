@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15925,
   "video_id": "eb45fd4c-b675-5728-a579-09858919abb2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Shots on target and Goal} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5465.0,
-      "end": 5465.0,
-      "text": "Trigger: Foul by right @ 2 - 46:05"
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
     },
     {
-      "start": 5487.0,
-      "end": 5487.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 5488.0,
-      "end": 5488.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5465000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/segment_005410_005490.json",
-  "segment_meta": {
-    "start_seconds": 5410,
-    "end_seconds": 5490,
-    "length_seconds": 80,
-    "start_time_mmss": "90:10",
-    "end_time_mmss": "91:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

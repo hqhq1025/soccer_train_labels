@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23926,
   "video_id": "65c65540-8ced-5d48-a32b-71fd25a77ba3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4434.0,
-      "end": 4434.0,
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 4459.0,
-      "end": 4459.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4434000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/segment_004390_004510.json",
-  "segment_meta": {
-    "start_seconds": 4390,
-    "end_seconds": 4510,
-    "length_seconds": 120,
-    "start_time_mmss": "73:10",
-    "end_time_mmss": "75:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10837,
   "video_id": "a498c059-ac78-5e04-aedb-b3abcce0979a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4512.0,
-      "end": 4512.0,
-      "text": "Trigger: Throw-in by right @ 2 - 30:12"
-    },
-    {
-      "start": 4529.0,
-      "end": 4529.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4512000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_004410_004530.json",
-  "segment_meta": {
-    "start_seconds": 4410,
-    "end_seconds": 4530,
-    "length_seconds": 120,
-    "start_time_mmss": "73:30",
-    "end_time_mmss": "75:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

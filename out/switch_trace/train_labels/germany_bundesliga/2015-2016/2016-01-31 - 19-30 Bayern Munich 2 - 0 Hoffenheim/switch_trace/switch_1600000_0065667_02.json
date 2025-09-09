@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 4213,
+  "video_id": "af62dfb2-810e-5e3e-9fe8-4125e78536ab",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Keep an eye on {Foul}; alert me on occurrence. Answer format: 'Alert - <Event>'."
+    },
+    {
+      "time": 65.667,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Yellow card}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 33.874,
+      "end": 33.874,
+      "count": 0,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 65.667,
+      "end": 65.667,
+      "count": 0,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 78.0,
+      "end": 78.0,
+      "count": 1,
+      "text": "Alert - Yellow card"
+    }
+  ]
+}

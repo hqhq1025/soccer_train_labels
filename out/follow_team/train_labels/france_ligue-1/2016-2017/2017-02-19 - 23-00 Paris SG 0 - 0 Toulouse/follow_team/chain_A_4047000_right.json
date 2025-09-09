@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1295,
   "video_id": "942b24af-ccd7-5530-93a5-13d1430da860",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4047.0,
-      "end": 4047.0,
-      "text": "Trigger: Corner by right @ 2 - 22:27"
-    },
-    {
-      "start": 4049.0,
-      "end": 4049.0,
-      "text": "Then: Shots on target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team. Use responses 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4047000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/segment_003970_004050.json",
-  "segment_meta": {
-    "start_seconds": 3970,
-    "end_seconds": 4050,
-    "length_seconds": 80,
-    "start_time_mmss": "66:10",
-    "end_time_mmss": "67:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    }
+  ]
 }

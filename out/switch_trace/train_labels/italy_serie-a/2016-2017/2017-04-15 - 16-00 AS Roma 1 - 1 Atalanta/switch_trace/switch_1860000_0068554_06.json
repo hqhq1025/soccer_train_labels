@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 26602,
+  "video_id": "c3c970e4-c66e-511f-8fbb-1366ea0debbb",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Offside} and tell me when it occurs. Reply 'Alert - <Event>'."
+    },
+    {
+      "time": 68.554,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Indirect free-kick}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 68.554,
+      "end": 68.554,
+      "count": 0,
+      "text": "Alert - Offside"
+    },
+    {
+      "start": 75.147,
+      "end": 75.147,
+      "count": 1,
+      "text": "Alert - Indirect free-kick"
+    }
+  ]
+}

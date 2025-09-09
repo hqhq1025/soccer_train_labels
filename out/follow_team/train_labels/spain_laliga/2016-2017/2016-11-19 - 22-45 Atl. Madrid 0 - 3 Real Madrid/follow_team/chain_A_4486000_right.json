@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 12131,
   "video_id": "21b9e27c-c922-515f-89e4-f1e506f02830",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 4486.0,
-      "end": 4486.0,
-      "text": "Trigger: Foul by right @ 2 - 29:46"
-    },
-    {
-      "start": 4521.0,
-      "end": 4521.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 4562.0,
-      "end": 4562.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that team. Answer format: at trigger reply 'Trigger: {Foul} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4486000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/segment_004450_004570.json",
-  "segment_meta": {
-    "start_seconds": 4450,
-    "end_seconds": 4570,
-    "length_seconds": 120,
-    "start_time_mmss": "74:10",
-    "end_time_mmss": "76:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 84,
   "video_id": "b509c385-4ee6-5cfc-b102-aee281f6760f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Substitution}, start tracking that team; notify me on its {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Substitution}; then follow that team. Respond 'Trigger: {Substitution} by left/right', and for {Corner} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4606.0,
-      "end": 4606.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 4621.0,
-      "end": 4621.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4606000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/segment_004550_004650.json",
-  "segment_meta": {
-    "start_seconds": 4550,
-    "end_seconds": 4650,
-    "length_seconds": 100,
-    "start_time_mmss": "75:50",
-    "end_time_mmss": "77:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

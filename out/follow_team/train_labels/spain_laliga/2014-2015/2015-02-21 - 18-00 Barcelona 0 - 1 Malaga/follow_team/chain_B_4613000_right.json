@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11772,
   "video_id": "bc790666-b49e-5a43-855a-253a6e76b84d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Offside}; then follow that team and report its {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Offside}, stick with that team. For {Offside}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4613.0,
-      "end": 4613.0,
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
       "text": "Trigger: Offside by right"
     },
     {
-      "start": 4655.0,
-      "end": 4655.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4613000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/segment_004600_004720.json",
-  "segment_meta": {
-    "start_seconds": 4600,
-    "end_seconds": 4720,
-    "length_seconds": 120,
-    "start_time_mmss": "76:40",
-    "end_time_mmss": "78:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8583,
   "video_id": "753e2b09-da43-53ea-83b3-cecba5867113",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Corner, Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} occurs, follow the initiating team; answer strictly as 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Corner, Shots on target and Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 3279.0,
-      "end": 3279.0,
-      "text": "Trigger: Corner by left @ 2 - 09:39"
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
     },
     {
-      "start": 3291.0,
-      "end": 3291.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 3298.0,
-      "end": 3298.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 3299.0,
-      "end": 3299.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3279000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Dortmund 4 - 1 Galatasaray/segment_003200_003300.json",
-  "segment_meta": {
-    "start_seconds": 3200,
-    "end_seconds": 3300,
-    "length_seconds": 100,
-    "start_time_mmss": "53:20",
-    "end_time_mmss": "55:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

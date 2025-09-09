@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11135,
   "video_id": "21e13957-194b-565a-9e2d-c95315203c8f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 3343.0,
-      "end": 3343.0,
-      "text": "Trigger: Shots on target by right @ 2 - 10:43"
-    },
-    {
-      "start": 3344.0,
-      "end": 3344.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots on target}, start tracking that team. Use responses 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Goal}."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3343000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/segment_003320_003380.json",
-  "segment_meta": {
-    "start_seconds": 3320,
-    "end_seconds": 3380,
-    "length_seconds": 60,
-    "start_time_mmss": "55:20",
-    "end_time_mmss": "56:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

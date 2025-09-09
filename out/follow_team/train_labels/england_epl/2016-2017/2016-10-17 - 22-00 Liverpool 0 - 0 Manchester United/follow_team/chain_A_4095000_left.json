@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23361,
   "video_id": "b3750dd1-8ad0-5d31-8156-3b3c0ad9496d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4095.0,
-      "end": 4095.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 23:15"
-    },
-    {
-      "start": 4106.0,
-      "end": 4106.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Indirect free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Indirect free-kick} by left/right'; then for each {Foul} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4095000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_004010_004110.json",
-  "segment_meta": {
-    "start_seconds": 4010,
-    "end_seconds": 4110,
-    "length_seconds": 100,
-    "start_time_mmss": "66:50",
-    "end_time_mmss": "68:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

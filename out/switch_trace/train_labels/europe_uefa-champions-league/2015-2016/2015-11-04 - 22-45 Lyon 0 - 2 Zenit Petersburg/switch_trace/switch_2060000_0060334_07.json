@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 8563,
+  "video_id": "eb1b682b-95f5-5bfd-8062-14898a7037bc",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Observe {Shots off target and Ball out of play} and report every time they happen. Exact text 'Alert - <Event>'."
+    },
+    {
+      "time": 60.334,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Corner}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 15.354,
+      "end": 15.354,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 60.334,
+      "end": 60.334,
+      "count": 0,
+      "text": "Alert - Shots off target"
+    },
+    {
+      "start": 94.384,
+      "end": 94.384,
+      "count": 1,
+      "text": "Alert - Corner"
+    }
+  ]
+}

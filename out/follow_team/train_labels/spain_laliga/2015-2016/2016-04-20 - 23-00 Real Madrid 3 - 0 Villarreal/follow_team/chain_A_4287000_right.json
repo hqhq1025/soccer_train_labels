@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10759,
   "video_id": "112b3d01-2317-5cd7-9798-61d2b9f95621",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Substitution and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, keep following that team. Use left/right only; 'Trigger: {Corner} by left/right', then 'Then: <Event> by left/right' for {Substitution and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4287.0,
-      "end": 4287.0,
-      "text": "Trigger: Corner by right @ 2 - 26:27"
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
     },
     {
-      "start": 4345.0,
-      "end": 4345.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     },
     {
-      "start": 4386.0,
-      "end": 4386.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4287000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/segment_004270_004390.json",
-  "segment_meta": {
-    "start_seconds": 4270,
-    "end_seconds": 4390,
-    "length_seconds": 120,
-    "start_time_mmss": "71:10",
-    "end_time_mmss": "73:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

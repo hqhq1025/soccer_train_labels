@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4791,
   "video_id": "377ade2a-ae22-59e6-8541-95c702ce24a7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 936.0,
-      "end": 936.0,
-      "text": "Trigger: Foul by right @ 1 - 15:36"
-    },
-    {
-      "start": 972.0,
-      "end": 972.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Offside} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 936000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/segment_000870_000990.json",
-  "segment_meta": {
-    "start_seconds": 870,
-    "end_seconds": 990,
-    "length_seconds": 120,
-    "start_time_mmss": "14:30",
-    "end_time_mmss": "16:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

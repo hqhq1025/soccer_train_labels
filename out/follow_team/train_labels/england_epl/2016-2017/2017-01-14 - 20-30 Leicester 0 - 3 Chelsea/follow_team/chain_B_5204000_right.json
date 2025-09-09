@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24196,
   "video_id": "3d2120fb-f761-592b-b72d-18a83b84616d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots on target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5204.0,
-      "end": 5204.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 5209.0,
-      "end": 5209.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5204000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/segment_005120_005220.json",
-  "segment_meta": {
-    "start_seconds": 5120,
-    "end_seconds": 5220,
-    "length_seconds": 100,
-    "start_time_mmss": "85:20",
-    "end_time_mmss": "87:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

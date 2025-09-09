@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18581,
   "video_id": "3944762a-9c39-546e-9591-7a2dc79cdd96",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 606.0,
-      "end": 606.0,
-      "text": "Trigger: Corner by left @ 1 - 10:06"
-    },
-    {
-      "start": 631.0,
-      "end": 631.0,
-      "text": "Then: Offside by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Offside}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 606000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/segment_000560_000660.json",
-  "segment_meta": {
-    "start_seconds": 560,
-    "end_seconds": 660,
-    "length_seconds": 100,
-    "start_time_mmss": "09:20",
-    "end_time_mmss": "11:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Then: Offside by left"
+    }
+  ]
 }

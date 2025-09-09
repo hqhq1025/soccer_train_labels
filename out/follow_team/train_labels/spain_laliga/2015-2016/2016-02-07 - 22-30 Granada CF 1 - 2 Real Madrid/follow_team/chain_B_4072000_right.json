@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9916,
   "video_id": "f9a28a1a-178c-5f45-8df2-3fba9daa4aa1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4072.0,
-      "end": 4072.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 4074.0,
-      "end": 4074.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4072000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/segment_004020_004140.json",
-  "segment_meta": {
-    "start_seconds": 4020,
-    "end_seconds": 4140,
-    "length_seconds": 120,
-    "start_time_mmss": "67:00",
-    "end_time_mmss": "69:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

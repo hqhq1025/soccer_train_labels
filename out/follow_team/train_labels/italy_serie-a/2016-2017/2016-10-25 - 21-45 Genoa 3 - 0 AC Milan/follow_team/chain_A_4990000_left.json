@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17391,
   "video_id": "468861e0-bdac-57fe-9b15-8849da29124d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4990.0,
-      "end": 4990.0,
-      "text": "Trigger: Direct free-kick by left @ 2 - 38:10"
-    },
-    {
-      "start": 4991.0,
-      "end": 4991.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Direct free-kick}, keep following that team. Use left/right only; 'Trigger: {Direct free-kick} by left/right', then 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4990000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/segment_004940_005040.json",
-  "segment_meta": {
-    "start_seconds": 4940,
-    "end_seconds": 5040,
-    "length_seconds": 100,
-    "start_time_mmss": "82:20",
-    "end_time_mmss": "84:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

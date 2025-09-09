@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21897,
   "video_id": "a52d34cb-dab7-58c5-b370-6f58d9b2e23e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Offside}, keep following that team and alert me whenever {Substitution} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 3914.0,
-      "end": 3914.0,
-      "text": "Trigger: Offside by right @ 2 - 20:14"
-    },
-    {
-      "start": 3936.0,
-      "end": 3936.0,
-      "text": "Then: Substitution by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Offside} occurs, keep following the same team and reply exactly 'Trigger: {Offside} by left/right'; then for each {Substitution} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3914000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/segment_003900_003940.json",
-  "segment_meta": {
-    "start_seconds": 3900,
-    "end_seconds": 3940,
-    "length_seconds": 40,
-    "start_time_mmss": "65:00",
-    "end_time_mmss": "65:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Then: Substitution by right"
+    }
+  ]
 }

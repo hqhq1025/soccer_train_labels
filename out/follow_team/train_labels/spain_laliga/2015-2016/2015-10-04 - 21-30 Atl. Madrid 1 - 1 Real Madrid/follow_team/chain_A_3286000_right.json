@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10827,
   "video_id": "b4a54eb9-23f9-5787-9fe7-fe68d5a9f946",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Throw-in and Foul} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 3286.0,
-      "end": 3286.0,
-      "text": "Trigger: Shots off target by right @ 2 - 09:46"
-    },
-    {
-      "start": 3297.0,
-      "end": 3297.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 3304.0,
-      "end": 3304.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 3308.0,
-      "end": 3308.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots off target} occurs, keep following the same team and reply exactly 'Trigger: {Shots off target} by left/right'; then for each {Throw-in and Foul} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3286000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_003210_003330.json",
-  "segment_meta": {
-    "start_seconds": 3210,
-    "end_seconds": 3330,
-    "length_seconds": 120,
-    "start_time_mmss": "53:30",
-    "end_time_mmss": "55:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15854,
   "video_id": "cd715ab0-2600-5168-a07d-e821a53e224d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 5046.0,
-      "end": 5046.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 5069.0,
-      "end": 5069.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5046000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/segment_005010_005070.json",
-  "segment_meta": {
-    "start_seconds": 5010,
-    "end_seconds": 5070,
-    "length_seconds": 60,
-    "start_time_mmss": "83:30",
-    "end_time_mmss": "84:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25068,
   "video_id": "84d94938-4ad7-512a-994c-3a132db89e6d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Foul}, follow the same team and list all subsequent {Shots on target}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4025.0,
-      "end": 4025.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 4076.0,
-      "end": 4076.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4025000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/segment_004000_004080.json",
-  "segment_meta": {
-    "start_seconds": 4000,
-    "end_seconds": 4080,
-    "length_seconds": 80,
-    "start_time_mmss": "66:40",
-    "end_time_mmss": "68:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6498,
   "video_id": "c948fcaa-2aca-5872-be46-136a67ba6aa2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 935.0,
-      "end": 935.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 956.0,
-      "end": 956.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 935000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/segment_000880_000980.json",
-  "segment_meta": {
-    "start_seconds": 880,
-    "end_seconds": 980,
-    "length_seconds": 100,
-    "start_time_mmss": "14:40",
-    "end_time_mmss": "16:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

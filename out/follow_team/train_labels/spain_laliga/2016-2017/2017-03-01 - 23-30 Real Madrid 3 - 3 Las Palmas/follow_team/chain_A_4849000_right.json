@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 14937,
   "video_id": "79ca39ad-5839-51a0-9a38-2f65b5aeeffb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Yellow card} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4849.0,
-      "end": 4849.0,
-      "text": "Trigger: Yellow card by right @ 2 - 35:49"
-    },
-    {
-      "start": 4908.0,
-      "end": 4908.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Yellow card}; then follow that team. Respond 'Trigger: {Yellow card} by left/right', and for {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4849000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/segment_004800_004920.json",
-  "segment_meta": {
-    "start_seconds": 4800,
-    "end_seconds": 4920,
-    "length_seconds": 120,
-    "start_time_mmss": "80:00",
-    "end_time_mmss": "82:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Yellow card by right"
+    },
+    {
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

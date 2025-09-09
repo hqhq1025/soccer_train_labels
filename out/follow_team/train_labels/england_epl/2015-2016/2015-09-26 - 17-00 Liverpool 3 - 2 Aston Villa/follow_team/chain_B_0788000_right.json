@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21064,
   "video_id": "2f8c1df5-d31c-52d6-b281-afb746800f0c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Offside}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Offside} occurs, keep following the same team and reply exactly 'Trigger: {Offside} by left/right'; then for each {Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 788.0,
-      "end": 788.0,
+      "start": 18.0,
+      "end": 18.0,
+      "count": 0,
       "text": "Trigger: Offside by right"
     },
     {
-      "start": 852.0,
-      "end": 852.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 788000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/segment_000770_000870.json",
-  "segment_meta": {
-    "start_seconds": 770,
-    "end_seconds": 870,
-    "length_seconds": 100,
-    "start_time_mmss": "12:50",
-    "end_time_mmss": "14:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9082,
   "video_id": "a0ad90ea-c4f0-5646-a23f-68078d1d7552",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Yellow card} happens, lock onto that team and report every {Yellow->red card} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Yellow card}; then follow that team. Respond 'Trigger: {Yellow card} by left/right', and for {Yellow->red card} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5004.0,
-      "end": 5004.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Trigger: Yellow card by left"
     },
     {
-      "start": 5006.0,
-      "end": 5006.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Then: Yellow->red card by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5004000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/segment_004970_005030.json",
-  "segment_meta": {
-    "start_seconds": 4970,
-    "end_seconds": 5030,
-    "length_seconds": 60,
-    "start_time_mmss": "82:50",
-    "end_time_mmss": "83:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

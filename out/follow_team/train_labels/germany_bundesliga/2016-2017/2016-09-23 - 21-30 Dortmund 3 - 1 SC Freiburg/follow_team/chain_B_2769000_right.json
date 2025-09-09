@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4666,
   "video_id": "46e50b40-82dc-5ec5-824c-7b78f465aa6d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Corner} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Corner} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2769.0,
-      "end": 2769.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 2796.0,
-      "end": 2796.0,
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2769000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/segment_002730_002850.json",
-  "segment_meta": {
-    "start_seconds": 2730,
-    "end_seconds": 2850,
-    "length_seconds": 120,
-    "start_time_mmss": "45:30",
-    "end_time_mmss": "47:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

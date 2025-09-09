@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20167,
   "video_id": "28444259-dd68-5fee-b2d5-46ccef0d199e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Corner and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Direct free-kick}, stick with that team. For {Corner and Foul}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2257.0,
-      "end": 2257.0,
-      "text": "Trigger: Direct free-kick by right @ 1 - 37:37"
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 2296.0,
-      "end": 2296.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 2318.0,
-      "end": 2318.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2257000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/segment_002220_002340.json",
-  "segment_meta": {
-    "start_seconds": 2220,
-    "end_seconds": 2340,
-    "length_seconds": 120,
-    "start_time_mmss": "37:00",
-    "end_time_mmss": "39:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

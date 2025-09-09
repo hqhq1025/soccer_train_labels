@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23009,
   "video_id": "94d9ba74-7d1d-5440-ac74-0c87bf4c11ec",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 5606.0,
-      "end": 5606.0,
-      "text": "Trigger: Corner by right @ 2 - 48:26"
-    },
-    {
-      "start": 5613.0,
-      "end": 5613.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, follow that team. Answer format: at trigger reply 'Trigger: {Corner} by left/right'; for each {Goal}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5606000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/segment_005560_005620.json",
-  "segment_meta": {
-    "start_seconds": 5560,
-    "end_seconds": 5620,
-    "length_seconds": 60,
-    "start_time_mmss": "92:40",
-    "end_time_mmss": "93:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25431,
   "video_id": "15b042fe-2c80-550a-aedf-b63c43d63620",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 5382.0,
-      "end": 5382.0,
-      "text": "Trigger: Throw-in by right @ 2 - 44:42"
-    },
-    {
-      "start": 5454.0,
-      "end": 5454.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5382000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/segment_005370_005470.json",
-  "segment_meta": {
-    "start_seconds": 5370,
-    "end_seconds": 5470,
-    "length_seconds": 100,
-    "start_time_mmss": "89:30",
-    "end_time_mmss": "91:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 12.0,
+      "end": 12.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

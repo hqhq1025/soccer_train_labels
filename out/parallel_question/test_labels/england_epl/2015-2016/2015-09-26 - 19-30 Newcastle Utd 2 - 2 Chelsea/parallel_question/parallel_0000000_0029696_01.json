@@ -1,6 +1,6 @@
 {
   "source": "soccer",
-  "id": 97,
+  "id": 57591,
   "video_id": "bebff9dd-4148-5248-95ea-7b2821487168",
   "data_type": "online",
   "train_stage": 2,
@@ -10,12 +10,12 @@
     {
       "time": 0.0,
       "count": 0,
-      "text": "Track {Clearance} and alert me whenever it happens."
+      "text": "Observe {Clearance}; on occurrence, identify the team (left/right only). Respond 'Team left/right - <Event>'."
     },
     {
       "time": 29.696,
       "count": 1,
-      "text": "Monitor {Foul}; each time it occurs, tell me the team."
+      "text": "Monitor {Indirect free-kick} and notify me each time it happens. Use: 'Alert - <Event>'."
     }
   ],
   "answer": [
@@ -23,13 +23,13 @@
       "start": 29.696,
       "end": 29.696,
       "count": 0,
-      "text": "Alert - Clearance"
+      "text": "Team left - Clearance"
     },
     {
-      "start": 32.773,
-      "end": 32.773,
+      "start": 38.595,
+      "end": 38.595,
       "count": 1,
-      "text": "Team left - Foul"
+      "text": "Alert - Indirect free-kick"
     }
   ]
 }

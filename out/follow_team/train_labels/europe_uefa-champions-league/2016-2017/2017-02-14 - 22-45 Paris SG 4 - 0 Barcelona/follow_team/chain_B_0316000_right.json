@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9652,
   "video_id": "886248e6-a3f4-53ea-b4bc-2917e7e9424b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots off target}, stick with that team. For {Offside}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 316.0,
-      "end": 316.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 318.0,
-      "end": 318.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 316000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-14 - 22-45 Paris SG 4 - 0 Barcelona/segment_000220_000320.json",
-  "segment_meta": {
-    "start_seconds": 220,
-    "end_seconds": 320,
-    "length_seconds": 100,
-    "start_time_mmss": "03:40",
-    "end_time_mmss": "05:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

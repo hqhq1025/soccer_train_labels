@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11095,
   "video_id": "a30d4474-c6c0-5cad-adcc-eed9ce448e34",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3876.0,
-      "end": 3876.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 19:36"
-    },
-    {
-      "start": 3880.0,
-      "end": 3880.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3876000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/segment_003800_003920.json",
-  "segment_meta": {
-    "start_seconds": 3800,
-    "end_seconds": 3920,
-    "length_seconds": 120,
-    "start_time_mmss": "63:20",
-    "end_time_mmss": "65:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

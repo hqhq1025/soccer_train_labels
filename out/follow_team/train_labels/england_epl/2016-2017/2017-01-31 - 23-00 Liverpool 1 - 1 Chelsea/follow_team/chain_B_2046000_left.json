@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23204,
   "video_id": "1b073cbd-07fa-57f5-bb37-1241fbb59df5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2046.0,
-      "end": 2046.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2088.0,
-      "end": 2088.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2046000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_002010_002130.json",
-  "segment_meta": {
-    "start_seconds": 2010,
-    "end_seconds": 2130,
-    "length_seconds": 120,
-    "start_time_mmss": "33:30",
-    "end_time_mmss": "35:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

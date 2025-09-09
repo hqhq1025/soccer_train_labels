@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11825,
   "video_id": "0df0344a-68c8-5788-8741-fc29af4384a6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Indirect free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Indirect free-kick} by left/right'; then for each {Foul and Yellow card} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2892.0,
-      "end": 2892.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 03:12"
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 2907.0,
-      "end": 2907.0,
+      "start": 107.0,
+      "end": 107.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 2916.0,
-      "end": 2916.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2892000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/segment_002800_002920.json",
-  "segment_meta": {
-    "start_seconds": 2800,
-    "end_seconds": 2920,
-    "length_seconds": 120,
-    "start_time_mmss": "46:40",
-    "end_time_mmss": "48:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

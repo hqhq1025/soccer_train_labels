@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4887,
   "video_id": "c0f0a81f-66bc-580d-9626-aa8253251f30",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots on target and Shots off target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Shots on target and Shots off target}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4707.0,
-      "end": 4707.0,
-      "text": "Trigger: Corner by right @ 2 - 33:27"
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
     },
     {
-      "start": 4714.0,
-      "end": 4714.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 4734.0,
-      "end": 4734.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4707000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-22 - 16-30 Ingolstadt 3 - 3 Dortmund/segment_004640_004760.json",
-  "segment_meta": {
-    "start_seconds": 4640,
-    "end_seconds": 4760,
-    "length_seconds": 120,
-    "start_time_mmss": "77:20",
-    "end_time_mmss": "79:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

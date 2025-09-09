@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17878,
   "video_id": "a0e1e44b-a603-54cd-b22c-f74903488e21",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Offside} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Offside}, continue tracking that team. Answers must be 'Trigger: {Offside} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2728.0,
-      "end": 2728.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Trigger: Offside by left"
     },
     {
-      "start": 2764.0,
-      "end": 2764.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2728000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_002700_002800.json",
-  "segment_meta": {
-    "start_seconds": 2700,
-    "end_seconds": 2800,
-    "length_seconds": 100,
-    "start_time_mmss": "45:00",
-    "end_time_mmss": "46:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

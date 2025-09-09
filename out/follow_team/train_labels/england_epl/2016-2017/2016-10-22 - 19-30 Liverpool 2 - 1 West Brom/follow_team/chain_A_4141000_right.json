@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24937,
   "video_id": "e56e3a27-3626-59a3-a1a4-34bbad64d214",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4141.0,
-      "end": 4141.0,
-      "text": "Trigger: Corner by right @ 2 - 24:01"
-    },
-    {
-      "start": 4144.0,
-      "end": 4144.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Shots off target}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4141000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/segment_004050_004150.json",
-  "segment_meta": {
-    "start_seconds": 4050,
-    "end_seconds": 4150,
-    "length_seconds": 100,
-    "start_time_mmss": "67:30",
-    "end_time_mmss": "69:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

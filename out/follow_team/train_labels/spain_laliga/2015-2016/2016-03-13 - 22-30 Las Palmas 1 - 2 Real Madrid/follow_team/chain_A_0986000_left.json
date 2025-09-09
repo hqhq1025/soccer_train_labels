@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10473,
   "video_id": "8fcbbdb7-1222-535b-a1dc-bea50c527a94",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 986.0,
-      "end": 986.0,
-      "text": "Trigger: Direct free-kick by left @ 1 - 16:26"
-    },
-    {
-      "start": 991.0,
-      "end": 991.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Direct free-kick}, start tracking that team. Use responses 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 986000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/segment_000960_001000.json",
-  "segment_meta": {
-    "start_seconds": 960,
-    "end_seconds": 1000,
-    "length_seconds": 40,
-    "start_time_mmss": "16:00",
-    "end_time_mmss": "16:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

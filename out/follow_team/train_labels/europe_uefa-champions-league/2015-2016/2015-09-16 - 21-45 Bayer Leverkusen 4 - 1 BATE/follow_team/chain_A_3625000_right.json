@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6235,
   "video_id": "c980a008-36a4-5ada-95f3-a7d96e04331b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3625.0,
-      "end": 3625.0,
-      "text": "Trigger: Clearance by right @ 2 - 15:25"
-    },
-    {
-      "start": 3637.0,
-      "end": 3637.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and reply exactly 'Trigger: {Clearance} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3625000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/segment_003520_003640.json",
-  "segment_meta": {
-    "start_seconds": 3520,
-    "end_seconds": 3640,
-    "length_seconds": 120,
-    "start_time_mmss": "58:40",
-    "end_time_mmss": "60:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

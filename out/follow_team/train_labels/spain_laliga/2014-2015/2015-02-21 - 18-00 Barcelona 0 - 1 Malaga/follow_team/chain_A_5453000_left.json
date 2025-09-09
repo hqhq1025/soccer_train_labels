@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11819,
   "video_id": "9c0f24f1-392a-5ac3-b129-95de44fa97df",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Yellow card}, stick with that team and alert me for {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 5453.0,
-      "end": 5453.0,
-      "text": "Trigger: Yellow card by left @ 2 - 45:53"
-    },
-    {
-      "start": 5477.0,
-      "end": 5477.0,
-      "text": "Then: Indirect free-kick by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Yellow card}, follow that team. Answer format: at trigger reply 'Trigger: {Yellow card} by left/right'; for each {Indirect free-kick}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5453000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/segment_005370_005490.json",
-  "segment_meta": {
-    "start_seconds": 5370,
-    "end_seconds": 5490,
-    "length_seconds": 120,
-    "start_time_mmss": "89:30",
-    "end_time_mmss": "91:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
+      "text": "Trigger: Yellow card by left"
+    },
+    {
+      "start": 107.0,
+      "end": 107.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ]
 }

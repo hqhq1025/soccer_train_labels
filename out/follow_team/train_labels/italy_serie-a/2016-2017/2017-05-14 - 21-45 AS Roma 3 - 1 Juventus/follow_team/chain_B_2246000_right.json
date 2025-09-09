@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19080,
   "video_id": "8d4d9a05-3ad6-5bd1-b9b8-4247b7e9b6ba",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots off target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2246.0,
-      "end": 2246.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2268.0,
-      "end": 2268.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2246000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/segment_002210_002270.json",
-  "segment_meta": {
-    "start_seconds": 2210,
-    "end_seconds": 2270,
-    "length_seconds": 60,
-    "start_time_mmss": "36:50",
-    "end_time_mmss": "37:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

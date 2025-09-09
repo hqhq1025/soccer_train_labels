@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25114,
   "video_id": "1f8e950a-f243-50fa-8201-0d4f590f7d6e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots on target}, stick with that team. For {Foul}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 216.0,
-      "end": 216.0,
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 229.0,
-      "end": 229.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 216000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/segment_000190_000230.json",
-  "segment_meta": {
-    "start_seconds": 190,
-    "end_seconds": 230,
-    "length_seconds": 40,
-    "start_time_mmss": "03:10",
-    "end_time_mmss": "03:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

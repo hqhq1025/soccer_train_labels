@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7645,
   "video_id": "1c2b11cb-3eba-5b3b-bb5d-88b3b43a11e1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Shots on target} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 617.0,
-      "end": 617.0,
-      "text": "Trigger: Clearance by right @ 1 - 10:17"
-    },
-    {
-      "start": 641.0,
-      "end": 641.0,
-      "text": "Then: Shots on target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, follow that team. Answer format: at trigger reply 'Trigger: {Clearance} by left/right'; for each {Shots on target}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 617000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Benfica 0 - 0 Bayer Leverkusen/segment_000550_000650.json",
-  "segment_meta": {
-    "start_seconds": 550,
-    "end_seconds": 650,
-    "length_seconds": 100,
-    "start_time_mmss": "09:10",
-    "end_time_mmss": "10:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    }
+  ]
 }

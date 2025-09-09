@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3737,
   "video_id": "17bf75a4-d36f-5703-acc0-c05d51aab6aa",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Substitution}, continue tracking that team and notify me about any {Substitution and Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Substitution}; then follow that team. Respond 'Trigger: {Substitution} by left/right', and for {Substitution and Clearance} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4145.0,
-      "end": 4145.0,
-      "text": "Trigger: Substitution by right @ 2 - 24:05"
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
+      "text": "Trigger: Substitution by right"
     },
     {
-      "start": 4153.0,
-      "end": 4153.0,
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     },
     {
-      "start": 4164.0,
-      "end": 4164.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Clearance by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4145000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/segment_004070_004190.json",
-  "segment_meta": {
-    "start_seconds": 4070,
-    "end_seconds": 4190,
-    "length_seconds": 120,
-    "start_time_mmss": "67:50",
-    "end_time_mmss": "69:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

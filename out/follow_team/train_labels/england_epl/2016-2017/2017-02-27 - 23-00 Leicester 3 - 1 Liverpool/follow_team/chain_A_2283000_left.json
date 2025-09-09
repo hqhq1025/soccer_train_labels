@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23819,
   "video_id": "52421b5f-254f-51c7-a077-ce25a93b2afe",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 2283.0,
-      "end": 2283.0,
-      "text": "Trigger: Shots on target by left @ 1 - 38:03"
-    },
-    {
-      "start": 2284.0,
-      "end": 2284.0,
-      "text": "Then: Goal by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team. Respond 'Trigger: {Shots on target} by left/right' and thereafter 'Then: <Event> by left/right' for {Goal}. Left/right only."
     }
   ],
-  "match_path": "england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2283000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/segment_002170_002290.json",
-  "segment_meta": {
-    "start_seconds": 2170,
-    "end_seconds": 2290,
-    "length_seconds": 120,
-    "start_time_mmss": "36:10",
-    "end_time_mmss": "38:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Then: Goal by left"
+    }
+  ]
 }

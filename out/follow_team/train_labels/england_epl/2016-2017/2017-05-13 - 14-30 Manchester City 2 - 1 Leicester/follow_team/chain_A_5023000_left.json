@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25261,
   "video_id": "bd5a2678-f031-539e-ab30-6ed61e22409b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 5023.0,
-      "end": 5023.0,
-      "text": "Trigger: Foul by left @ 2 - 38:43"
-    },
-    {
-      "start": 5035.0,
-      "end": 5035.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5023000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/segment_004960_005060.json",
-  "segment_meta": {
-    "start_seconds": 4960,
-    "end_seconds": 5060,
-    "length_seconds": 100,
-    "start_time_mmss": "82:40",
-    "end_time_mmss": "84:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

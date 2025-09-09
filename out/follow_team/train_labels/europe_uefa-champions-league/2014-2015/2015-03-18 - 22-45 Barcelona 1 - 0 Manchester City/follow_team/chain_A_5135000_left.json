@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8597,
   "video_id": "329fbe08-b884-5e44-97fd-351f935c0f2e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Substitution and Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots off target}; then follow that team. Respond 'Trigger: {Shots off target} by left/right', and for {Substitution and Indirect free-kick} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5135.0,
-      "end": 5135.0,
-      "text": "Trigger: Shots off target by left @ 2 - 40:35"
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 5161.0,
-      "end": 5161.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     },
     {
-      "start": 5169.0,
-      "end": 5169.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     },
     {
-      "start": 5169.0,
-      "end": 5169.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5135000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Barcelona 1 - 0 Manchester City/segment_005050_005170.json",
-  "segment_meta": {
-    "start_seconds": 5050,
-    "end_seconds": 5170,
-    "length_seconds": 120,
-    "start_time_mmss": "84:10",
-    "end_time_mmss": "86:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

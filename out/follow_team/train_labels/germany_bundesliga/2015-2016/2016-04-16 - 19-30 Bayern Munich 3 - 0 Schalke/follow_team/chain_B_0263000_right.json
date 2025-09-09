@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2728,
   "video_id": "46dea677-054f-51ce-affb-5584ddb259d9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 263.0,
-      "end": 263.0,
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 313.0,
-      "end": 313.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 263000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/segment_000250_000330.json",
-  "segment_meta": {
-    "start_seconds": 250,
-    "end_seconds": 330,
-    "length_seconds": 80,
-    "start_time_mmss": "04:10",
-    "end_time_mmss": "05:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

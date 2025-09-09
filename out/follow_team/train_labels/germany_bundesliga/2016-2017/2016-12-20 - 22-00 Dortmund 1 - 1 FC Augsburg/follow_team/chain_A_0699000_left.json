@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3497,
   "video_id": "2cdae5dc-e63a-59c7-b20c-7e81879ff199",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 699.0,
-      "end": 699.0,
-      "text": "Trigger: Direct free-kick by left @ 1 - 11:39"
-    },
-    {
-      "start": 731.0,
-      "end": 731.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Throw-in}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 699000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-20 - 22-00 Dortmund 1 - 1 FC Augsburg/segment_000650_000750.json",
-  "segment_meta": {
-    "start_seconds": 650,
-    "end_seconds": 750,
-    "length_seconds": 100,
-    "start_time_mmss": "10:50",
-    "end_time_mmss": "12:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18275,
   "video_id": "816fad00-ffe8-5597-9c21-d172d6a540d1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3700.0,
-      "end": 3700.0,
-      "text": "Trigger: Foul by right @ 2 - 16:40"
-    },
-    {
-      "start": 3793.0,
-      "end": 3793.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3700000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/segment_003680_003800.json",
-  "segment_meta": {
-    "start_seconds": 3680,
-    "end_seconds": 3800,
-    "length_seconds": 120,
-    "start_time_mmss": "61:20",
-    "end_time_mmss": "63:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2015,
   "video_id": "05485b85-2b6b-5b0f-a90c-b9677b546796",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Offside} happens, lock onto that team and report every {Indirect free-kick} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 443.0,
-      "end": 443.0,
-      "text": "Trigger: Offside by right @ 1 - 07:23"
-    },
-    {
-      "start": 491.0,
-      "end": 491.0,
-      "text": "Then: Indirect free-kick by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Offside}, stick with that team. For {Indirect free-kick}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 443000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/segment_000420_000500.json",
-  "segment_meta": {
-    "start_seconds": 420,
-    "end_seconds": 500,
-    "length_seconds": 80,
-    "start_time_mmss": "07:00",
-    "end_time_mmss": "08:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ]
 }

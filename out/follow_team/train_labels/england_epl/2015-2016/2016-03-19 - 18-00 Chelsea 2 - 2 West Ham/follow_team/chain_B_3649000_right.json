@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21220,
   "video_id": "6f399d74-79ba-54bd-b5f6-40657de1fbd9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots on target}, stick with that team and alert me for {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Goal} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3649.0,
-      "end": 3649.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3650.0,
-      "end": 3650.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3649000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/segment_003600_003660.json",
-  "segment_meta": {
-    "start_seconds": 3600,
-    "end_seconds": 3660,
-    "length_seconds": 60,
-    "start_time_mmss": "60:00",
-    "end_time_mmss": "61:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

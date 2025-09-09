@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24365,
   "video_id": "441029ea-061c-57ff-8057-21f3243bb0f2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Indirect free-kick} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 5315.0,
-      "end": 5315.0,
-      "text": "Trigger: Foul by left @ 2 - 43:35"
-    },
-    {
-      "start": 5369.0,
-      "end": 5369.0,
-      "text": "Then: Indirect free-kick by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5315000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/segment_005260_005380.json",
-  "segment_meta": {
-    "start_seconds": 5260,
-    "end_seconds": 5380,
-    "length_seconds": 120,
-    "start_time_mmss": "87:40",
-    "end_time_mmss": "89:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 109.0,
+      "end": 109.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ]
 }

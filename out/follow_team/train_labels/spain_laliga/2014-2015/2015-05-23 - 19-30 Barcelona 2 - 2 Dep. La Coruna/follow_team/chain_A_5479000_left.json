@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11711,
   "video_id": "7ea0b917-4960-5b8a-a2f6-b315eeb9b504",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 5479.0,
-      "end": 5479.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 46:19"
-    },
-    {
-      "start": 5512.0,
-      "end": 5512.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5479000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/segment_005420_005520.json",
-  "segment_meta": {
-    "start_seconds": 5420,
-    "end_seconds": 5520,
-    "length_seconds": 100,
-    "start_time_mmss": "90:20",
-    "end_time_mmss": "92:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

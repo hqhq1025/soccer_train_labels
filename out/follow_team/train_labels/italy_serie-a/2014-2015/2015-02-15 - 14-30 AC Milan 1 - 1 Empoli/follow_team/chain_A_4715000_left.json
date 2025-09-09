@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16443,
   "video_id": "c9266483-158a-59ad-9839-bd0880e6c935",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Substitution and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, keep following that team. Use left/right only; 'Trigger: {Shots off target} by left/right', then 'Then: <Event> by left/right' for {Substitution and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 4715.0,
-      "end": 4715.0,
-      "text": "Trigger: Shots off target by left @ 2 - 33:35"
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 4737.0,
-      "end": 4737.0,
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     },
     {
-      "start": 4784.0,
-      "end": 4784.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4715000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-02-15 - 14-30 AC Milan 1 - 1 Empoli/segment_004670_004790.json",
-  "segment_meta": {
-    "start_seconds": 4670,
-    "end_seconds": 4790,
-    "length_seconds": 120,
-    "start_time_mmss": "77:50",
-    "end_time_mmss": "79:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

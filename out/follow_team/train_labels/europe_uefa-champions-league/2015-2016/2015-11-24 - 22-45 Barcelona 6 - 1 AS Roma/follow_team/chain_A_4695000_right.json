@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5295,
   "video_id": "a8e58a74-65b6-5786-abff-3ee2e4a678d8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Offside} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 4695.0,
-      "end": 4695.0,
-      "text": "Trigger: Clearance by right @ 2 - 33:15"
-    },
-    {
-      "start": 4711.0,
-      "end": 4711.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, follow that team. Answer format: at trigger reply 'Trigger: {Clearance} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4695000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/segment_004600_004720.json",
-  "segment_meta": {
-    "start_seconds": 4600,
-    "end_seconds": 4720,
-    "length_seconds": 120,
-    "start_time_mmss": "76:40",
-    "end_time_mmss": "78:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5823,
   "video_id": "462e09ee-ea75-5c68-b5a4-3d7933cb2347",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 3789.0,
-      "end": 3789.0,
-      "text": "Trigger: Shots on target by right @ 2 - 18:09"
-    },
-    {
-      "start": 3791.0,
-      "end": 3791.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Goal} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3789000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-12-09 - 22-45 D. Zagreb 0 - 2 Bayern Munich/segment_003760_003800.json",
-  "segment_meta": {
-    "start_seconds": 3760,
-    "end_seconds": 3800,
-    "length_seconds": 40,
-    "start_time_mmss": "62:40",
-    "end_time_mmss": "63:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10880,
   "video_id": "b88f6f91-2f2a-5018-849b-2ab8e8405b6b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Direct free-kick}; then follow that team. Respond 'Trigger: {Direct free-kick} by left/right', and for {Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2194.0,
-      "end": 2194.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 2196.0,
-      "end": 2196.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2194000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-12 - 17-00 Espanyol 0 - 6 Real Madrid/segment_002160_002200.json",
-  "segment_meta": {
-    "start_seconds": 2160,
-    "end_seconds": 2200,
-    "length_seconds": 40,
-    "start_time_mmss": "36:00",
-    "end_time_mmss": "36:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

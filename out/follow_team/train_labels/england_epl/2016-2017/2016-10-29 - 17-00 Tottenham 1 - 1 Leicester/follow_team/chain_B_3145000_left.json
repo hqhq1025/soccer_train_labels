@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23620,
   "video_id": "5b85b351-1a68-56e2-8c9a-0591ddb0497f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Shots on target}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3145.0,
-      "end": 3145.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3181.0,
-      "end": 3181.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3145000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/segment_003070_003190.json",
-  "segment_meta": {
-    "start_seconds": 3070,
-    "end_seconds": 3190,
-    "length_seconds": 120,
-    "start_time_mmss": "51:10",
-    "end_time_mmss": "53:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9107,
   "video_id": "dd524d57-540f-5761-ad94-3d76c51e36d4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 2278.0,
-      "end": 2278.0,
-      "text": "Trigger: Shots on target by left @ 1 - 37:58"
-    },
-    {
-      "start": 2290.0,
-      "end": 2290.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots on target} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2278000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/segment_002260_002300.json",
-  "segment_meta": {
-    "start_seconds": 2260,
-    "end_seconds": 2300,
-    "length_seconds": 40,
-    "start_time_mmss": "37:40",
-    "end_time_mmss": "38:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

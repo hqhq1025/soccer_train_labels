@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3156,
   "video_id": "fe6d66d0-39d3-5ec0-ad78-d45ac7d1e06e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4048.0,
-      "end": 4048.0,
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 4056.0,
-      "end": 4056.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4048000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/segment_004000_004060.json",
-  "segment_meta": {
-    "start_seconds": 4000,
-    "end_seconds": 4060,
-    "length_seconds": 60,
-    "start_time_mmss": "66:40",
-    "end_time_mmss": "67:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2087,
   "video_id": "f72d5953-0b69-5fd7-8c3f-0b3eeffdbb07",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2809.0,
-      "end": 2809.0,
-      "text": "Trigger: Corner by left @ 2 - 01:49"
-    },
-    {
-      "start": 2828.0,
-      "end": 2828.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, keep following that team. Use left/right only; 'Trigger: {Corner} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2809000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich/segment_002730_002830.json",
-  "segment_meta": {
-    "start_seconds": 2730,
-    "end_seconds": 2830,
-    "length_seconds": 100,
-    "start_time_mmss": "45:30",
-    "end_time_mmss": "47:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

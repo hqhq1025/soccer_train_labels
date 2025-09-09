@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5289,
   "video_id": "43410aed-28e3-56da-8a04-90e5c2fc42dc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Offside}, stick with that team and alert me for {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 2487.0,
-      "end": 2487.0,
-      "text": "Trigger: Offside by left @ 1 - 41:27"
-    },
-    {
-      "start": 2504.0,
-      "end": 2504.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Offside} occurs, keep following the same team and reply exactly 'Trigger: {Offside} by left/right'; then for each {Foul} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2487000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/segment_002410_002530.json",
-  "segment_meta": {
-    "start_seconds": 2410,
-    "end_seconds": 2530,
-    "length_seconds": 120,
-    "start_time_mmss": "40:10",
-    "end_time_mmss": "42:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

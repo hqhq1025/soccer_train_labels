@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24002,
   "video_id": "f901340e-061d-55c1-9ef5-2050638b5fe2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 833.0,
-      "end": 833.0,
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 847.0,
-      "end": 847.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 833000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/segment_000790_000850.json",
-  "segment_meta": {
-    "start_seconds": 790,
-    "end_seconds": 850,
-    "length_seconds": 60,
-    "start_time_mmss": "13:10",
-    "end_time_mmss": "14:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

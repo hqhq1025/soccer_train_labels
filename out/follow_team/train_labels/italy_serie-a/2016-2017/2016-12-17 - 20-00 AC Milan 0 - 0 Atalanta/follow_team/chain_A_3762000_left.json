@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17155,
   "video_id": "fe320508-8322-54fb-a885-f49230a3bda5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Clearance}, stick with that team and alert me for {Substitution and Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, start tracking that team. Use responses 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Substitution and Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 3762.0,
-      "end": 3762.0,
-      "text": "Trigger: Clearance by left @ 2 - 17:42"
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
     },
     {
-      "start": 3829.0,
-      "end": 3829.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     },
     {
-      "start": 3843.0,
-      "end": 3843.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3762000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_003730_003850.json",
-  "segment_meta": {
-    "start_seconds": 3730,
-    "end_seconds": 3850,
-    "length_seconds": 120,
-    "start_time_mmss": "62:10",
-    "end_time_mmss": "64:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

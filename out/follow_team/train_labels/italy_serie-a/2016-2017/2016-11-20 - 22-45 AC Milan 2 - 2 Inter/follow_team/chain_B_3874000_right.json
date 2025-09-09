@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18924,
   "video_id": "0d62f57a-6dcb-5788-839e-1587a3f2f507",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Substitution} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Substitution}."
+    }
+  ],
   "answer": [
     {
-      "start": 3874.0,
-      "end": 3874.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 3891.0,
-      "end": 3891.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3874000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_003840_003960.json",
-  "segment_meta": {
-    "start_seconds": 3840,
-    "end_seconds": 3960,
-    "length_seconds": 120,
-    "start_time_mmss": "64:00",
-    "end_time_mmss": "66:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

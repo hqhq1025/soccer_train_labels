@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19449,
   "video_id": "0b0f0d74-0926-5d02-949c-e598599b9f2e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 5522.0,
-      "end": 5522.0,
-      "text": "Trigger: Shots on target by left @ 2 - 47:02"
-    },
-    {
-      "start": 5523.0,
-      "end": 5523.0,
-      "text": "Then: Goal by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots on target} by left/right'; for each {Goal}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5522000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/segment_005450_005530.json",
-  "segment_meta": {
-    "start_seconds": 5450,
-    "end_seconds": 5530,
-    "length_seconds": 80,
-    "start_time_mmss": "90:50",
-    "end_time_mmss": "92:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
+      "text": "Then: Goal by left"
+    }
+  ]
 }

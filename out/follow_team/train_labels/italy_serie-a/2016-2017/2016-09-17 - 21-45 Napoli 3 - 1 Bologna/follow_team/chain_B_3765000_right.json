@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19660,
   "video_id": "8dbd43eb-a654-5a82-8392-367916fdd50a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots off target}, follow the same team and list all subsequent {Clearance}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3765.0,
-      "end": 3765.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 3792.0,
-      "end": 3792.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Clearance by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3765000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/segment_003710_003830.json",
-  "segment_meta": {
-    "start_seconds": 3710,
-    "end_seconds": 3830,
-    "length_seconds": 120,
-    "start_time_mmss": "61:50",
-    "end_time_mmss": "63:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

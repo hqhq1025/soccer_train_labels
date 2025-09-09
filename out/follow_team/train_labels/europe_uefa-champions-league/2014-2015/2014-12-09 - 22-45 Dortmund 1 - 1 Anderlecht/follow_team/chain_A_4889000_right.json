@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8499,
   "video_id": "d83c8887-e9cf-5f61-983f-299dd871ee63",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Corner and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots off target} by left/right'; for each {Corner and Shots on target}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4889.0,
-      "end": 4889.0,
-      "text": "Trigger: Shots off target by right @ 2 - 36:29"
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 4914.0,
-      "end": 4914.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 4917.0,
-      "end": 4917.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Dortmund 1 - 1 Anderlecht/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Dortmund 1 - 1 Anderlecht/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4889000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Dortmund 1 - 1 Anderlecht/segment_004840_004940.json",
-  "segment_meta": {
-    "start_seconds": 4840,
-    "end_seconds": 4940,
-    "length_seconds": 100,
-    "start_time_mmss": "80:40",
-    "end_time_mmss": "82:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

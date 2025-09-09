@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19793,
   "video_id": "f81abdf5-8d2d-5b33-8f27-337f20ceae0f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 5397.0,
-      "end": 5397.0,
-      "text": "Trigger: Foul by right @ 2 - 44:57"
-    },
-    {
-      "start": 5438.0,
-      "end": 5438.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5397000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/segment_005350_005470.json",
-  "segment_meta": {
-    "start_seconds": 5350,
-    "end_seconds": 5470,
-    "length_seconds": 120,
-    "start_time_mmss": "89:10",
-    "end_time_mmss": "91:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

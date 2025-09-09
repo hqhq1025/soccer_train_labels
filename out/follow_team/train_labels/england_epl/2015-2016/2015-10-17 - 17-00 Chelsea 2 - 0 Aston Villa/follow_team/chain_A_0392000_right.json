@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21733,
   "video_id": "15dd876d-9ed7-5cff-897a-639616057a76",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 392.0,
-      "end": 392.0,
-      "text": "Trigger: Shots on target by right @ 1 - 06:32"
-    },
-    {
-      "start": 414.0,
-      "end": 414.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Corner}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 392000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/segment_000340_000420.json",
-  "segment_meta": {
-    "start_seconds": 340,
-    "end_seconds": 420,
-    "length_seconds": 80,
-    "start_time_mmss": "05:40",
-    "end_time_mmss": "07:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

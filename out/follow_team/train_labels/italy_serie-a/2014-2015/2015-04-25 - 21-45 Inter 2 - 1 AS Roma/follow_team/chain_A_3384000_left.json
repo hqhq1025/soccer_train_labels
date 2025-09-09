@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16541,
   "video_id": "09791888-36ba-55fa-baba-8476a652b548",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Throw-in and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in and Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3384.0,
-      "end": 3384.0,
-      "text": "Trigger: Throw-in by left @ 2 - 11:24"
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3432.0,
-      "end": 3432.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 3451.0,
-      "end": 3451.0,
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3384000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_003350_003470.json",
-  "segment_meta": {
-    "start_seconds": 3350,
-    "end_seconds": 3470,
-    "length_seconds": 120,
-    "start_time_mmss": "55:50",
-    "end_time_mmss": "57:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

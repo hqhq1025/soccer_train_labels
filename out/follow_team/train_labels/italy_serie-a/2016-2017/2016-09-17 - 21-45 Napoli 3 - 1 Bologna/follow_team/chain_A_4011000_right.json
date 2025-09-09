@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19631,
   "video_id": "2ccbcba4-ce17-5fac-ba51-f3c7e0f399f2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 4011.0,
-      "end": 4011.0,
-      "text": "Trigger: Shots on target by right @ 2 - 21:51"
-    },
-    {
-      "start": 4012.0,
-      "end": 4012.0,
-      "text": "Then: Goal by right"
-    },
-    {
-      "start": 4013.0,
-      "end": 4013.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Goal} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4011000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/segment_003900_004020.json",
-  "segment_meta": {
-    "start_seconds": 3900,
-    "end_seconds": 4020,
-    "length_seconds": 120,
-    "start_time_mmss": "65:00",
-    "end_time_mmss": "67:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    },
+    {
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

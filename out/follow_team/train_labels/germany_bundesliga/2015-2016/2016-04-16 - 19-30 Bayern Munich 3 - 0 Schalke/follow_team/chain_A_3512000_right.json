@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2733,
   "video_id": "dff486d3-bbea-54a1-be21-357e4fe78b4c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 3512.0,
-      "end": 3512.0,
-      "text": "Trigger: Corner by right @ 2 - 13:32"
-    },
-    {
-      "start": 3519.0,
-      "end": 3519.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, continue tracking that team. Answers must be 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Offside}."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3512000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-16 - 19-30 Bayern Munich 3 - 0 Schalke/segment_003460_003540.json",
-  "segment_meta": {
-    "start_seconds": 3460,
-    "end_seconds": 3540,
-    "length_seconds": 80,
-    "start_time_mmss": "57:40",
-    "end_time_mmss": "59:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

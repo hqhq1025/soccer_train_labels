@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7453,
   "video_id": "2de14024-4a68-51fb-bb80-1e97fa13538e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Throw-in and Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2751.0,
-      "end": 2751.0,
-      "text": "Trigger: Throw-in by left @ 2 - 00:51"
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2775.0,
-      "end": 2775.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2797.0,
-      "end": 2797.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2751000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/segment_002720_002840.json",
-  "segment_meta": {
-    "start_seconds": 2720,
-    "end_seconds": 2840,
-    "length_seconds": 120,
-    "start_time_mmss": "45:20",
-    "end_time_mmss": "47:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

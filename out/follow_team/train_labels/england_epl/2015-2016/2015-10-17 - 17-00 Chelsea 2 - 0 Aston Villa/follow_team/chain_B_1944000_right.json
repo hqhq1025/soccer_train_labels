@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21766,
   "video_id": "5ba6195f-89ad-5920-8f8f-403b659dc3cc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Direct free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Direct free-kick} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 1944.0,
-      "end": 1944.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 1946.0,
-      "end": 1946.0,
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 1944000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/segment_001860_001980.json",
-  "segment_meta": {
-    "start_seconds": 1860,
-    "end_seconds": 1980,
-    "length_seconds": 120,
-    "start_time_mmss": "31:00",
-    "end_time_mmss": "33:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

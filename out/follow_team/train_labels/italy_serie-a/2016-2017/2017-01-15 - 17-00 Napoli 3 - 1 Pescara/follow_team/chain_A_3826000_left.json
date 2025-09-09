@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18713,
   "video_id": "21fac54b-ab78-5cb4-a257-45385c8d8eeb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3826.0,
-      "end": 3826.0,
-      "text": "Trigger: Corner by left @ 2 - 18:46"
-    },
-    {
-      "start": 3835.0,
-      "end": 3835.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, follow that team. Answer format: at trigger reply 'Trigger: {Corner} by left/right'; for each {Shots off target}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3826000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/segment_003750_003870.json",
-  "segment_meta": {
-    "start_seconds": 3750,
-    "end_seconds": 3870,
-    "length_seconds": 120,
-    "start_time_mmss": "62:30",
-    "end_time_mmss": "64:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

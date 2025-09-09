@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17774,
   "video_id": "8adeab72-03c8-511e-be67-1669930ab9a1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Throw-in} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2904.0,
-      "end": 2904.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 2952.0,
-      "end": 2952.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2904000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/segment_002870_002970.json",
-  "segment_meta": {
-    "start_seconds": 2870,
-    "end_seconds": 2970,
-    "length_seconds": 100,
-    "start_time_mmss": "47:50",
-    "end_time_mmss": "49:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

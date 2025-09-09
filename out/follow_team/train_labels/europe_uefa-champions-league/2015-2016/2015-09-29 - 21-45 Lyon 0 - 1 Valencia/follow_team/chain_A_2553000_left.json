@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5565,
   "video_id": "36c6f81b-c088-5ea1-9f21-3a4f153682af",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Kick-off}, follow the same team and list all subsequent {Throw-in and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Kick-off}, follow that team. Answer format: at trigger reply 'Trigger: {Kick-off} by left/right'; for each {Throw-in and Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2553.0,
-      "end": 2553.0,
-      "text": "Trigger: Kick-off by left @ 1 - 42:33"
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
+      "text": "Trigger: Kick-off by left"
     },
     {
-      "start": 2590.0,
-      "end": 2590.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2620.0,
-      "end": 2620.0,
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2553000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/segment_002540_002660.json",
-  "segment_meta": {
-    "start_seconds": 2540,
-    "end_seconds": 2660,
-    "length_seconds": 120,
-    "start_time_mmss": "42:20",
-    "end_time_mmss": "44:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

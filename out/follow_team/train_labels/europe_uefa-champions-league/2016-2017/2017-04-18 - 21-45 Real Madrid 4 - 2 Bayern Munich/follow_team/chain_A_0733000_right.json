@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9137,
   "video_id": "c87512c8-01f9-575e-89c5-6280ac0edbb3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 733.0,
-      "end": 733.0,
-      "text": "Trigger: Corner by right @ 1 - 12:13"
-    },
-    {
-      "start": 749.0,
-      "end": 749.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 733000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-04-18 - 21-45 Real Madrid 4 - 2 Bayern Munich/segment_000670_000750.json",
-  "segment_meta": {
-    "start_seconds": 670,
-    "end_seconds": 750,
-    "length_seconds": 80,
-    "start_time_mmss": "11:10",
-    "end_time_mmss": "12:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

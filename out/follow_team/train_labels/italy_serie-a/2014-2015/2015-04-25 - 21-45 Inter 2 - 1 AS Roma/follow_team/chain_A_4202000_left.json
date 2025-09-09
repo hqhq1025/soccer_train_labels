@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16485,
   "video_id": "68542d2f-71ff-599f-8f3a-f0d70845623b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Clearance} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 4202.0,
-      "end": 4202.0,
-      "text": "Trigger: Clearance by left @ 2 - 25:02"
-    },
-    {
-      "start": 4269.0,
-      "end": 4269.0,
-      "text": "Then: Clearance by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, follow that team. Answer format: at trigger reply 'Trigger: {Clearance} by left/right'; for each {Clearance}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4202000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_004190_004270.json",
-  "segment_meta": {
-    "start_seconds": 4190,
-    "end_seconds": 4270,
-    "length_seconds": 80,
-    "start_time_mmss": "69:50",
-    "end_time_mmss": "71:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 12.0,
+      "end": 12.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
+      "text": "Then: Clearance by left"
+    }
+  ]
 }

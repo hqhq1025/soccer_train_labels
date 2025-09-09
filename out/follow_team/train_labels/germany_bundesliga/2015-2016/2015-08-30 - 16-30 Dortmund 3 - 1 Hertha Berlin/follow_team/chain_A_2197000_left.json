@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2239,
   "video_id": "2d4560b8-faf9-51fc-973f-801d57e57807",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} happens, lock onto that team and report every {Throw-in} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 2197.0,
-      "end": 2197.0,
-      "text": "Trigger: Clearance by left @ 1 - 36:37"
-    },
-    {
-      "start": 2218.0,
-      "end": 2218.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2197000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_002140_002220.json",
-  "segment_meta": {
-    "start_seconds": 2140,
-    "end_seconds": 2220,
-    "length_seconds": 80,
-    "start_time_mmss": "35:40",
-    "end_time_mmss": "37:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

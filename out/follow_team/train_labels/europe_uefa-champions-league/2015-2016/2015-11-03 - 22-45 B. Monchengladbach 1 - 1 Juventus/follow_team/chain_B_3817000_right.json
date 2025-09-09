@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7098,
   "video_id": "a124a6f2-cdee-5460-8663-5b52ed97be30",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, continue tracking that team. Answers must be 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3817.0,
-      "end": 3817.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 3848.0,
-      "end": 3848.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3817000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/segment_003730_003850.json",
-  "segment_meta": {
-    "start_seconds": 3730,
-    "end_seconds": 3850,
-    "length_seconds": 120,
-    "start_time_mmss": "62:10",
-    "end_time_mmss": "64:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

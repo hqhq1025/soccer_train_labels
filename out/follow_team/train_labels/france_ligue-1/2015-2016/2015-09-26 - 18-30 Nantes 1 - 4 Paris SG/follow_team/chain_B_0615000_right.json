@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 102,
   "video_id": "7f406ca8-413c-5fcc-a399-2b23f88c257c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team. Respond 'Trigger: {Shots on target} by left/right' and thereafter 'Then: <Event> by left/right' for {Goal}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 615.0,
-      "end": 615.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 616.0,
-      "end": 616.0,
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 615000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/segment_000510_000630.json",
-  "segment_meta": {
-    "start_seconds": 510,
-    "end_seconds": 630,
-    "length_seconds": 120,
-    "start_time_mmss": "08:30",
-    "end_time_mmss": "10:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

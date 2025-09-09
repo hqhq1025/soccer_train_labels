@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10177,
   "video_id": "2c24fad2-173f-522c-98a0-c4da3d80d642",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Shots on target and Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, follow that team. Answer format: at trigger reply 'Trigger: {Clearance} by left/right'; for each {Shots on target and Corner}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 333.0,
-      "end": 333.0,
-      "text": "Trigger: Clearance by right @ 1 - 05:33"
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
     },
     {
-      "start": 353.0,
-      "end": 353.0,
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 385.0,
-      "end": 385.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 386.0,
-      "end": 386.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 333000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-09-26 - 19-15 Real Madrid 0 - 0 Malaga/segment_000310_000430.json",
-  "segment_meta": {
-    "start_seconds": 310,
-    "end_seconds": 430,
-    "length_seconds": 120,
-    "start_time_mmss": "05:10",
-    "end_time_mmss": "07:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

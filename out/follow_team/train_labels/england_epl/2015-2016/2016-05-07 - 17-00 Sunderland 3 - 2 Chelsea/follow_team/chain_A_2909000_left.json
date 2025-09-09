@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21125,
   "video_id": "b9d22445-0d40-5ed4-8e30-764d34a44d72",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 2909.0,
-      "end": 2909.0,
-      "text": "Trigger: Throw-in by left @ 2 - 03:29"
-    },
-    {
-      "start": 2957.0,
-      "end": 2957.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Foul}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2909000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/segment_002880_002980.json",
-  "segment_meta": {
-    "start_seconds": 2880,
-    "end_seconds": 2980,
-    "length_seconds": 100,
-    "start_time_mmss": "48:00",
-    "end_time_mmss": "49:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

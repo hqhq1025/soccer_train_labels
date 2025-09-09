@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3724,
   "video_id": "5696b1c2-649e-5ad0-9cc9-ea429f0827dd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Substitution}; then follow that team. Respond 'Trigger: {Substitution} by left/right', and for {Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5095.0,
-      "end": 5095.0,
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
       "text": "Trigger: Substitution by right"
     },
     {
-      "start": 5136.0,
-      "end": 5136.0,
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5095000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/segment_005050_005150.json",
-  "segment_meta": {
-    "start_seconds": 5050,
-    "end_seconds": 5150,
-    "length_seconds": 100,
-    "start_time_mmss": "84:10",
-    "end_time_mmss": "85:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

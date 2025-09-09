@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9375,
   "video_id": "4ec1b264-a029-5645-8dee-0a7047b7da66",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Throw-in} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 4352.0,
-      "end": 4352.0,
-      "text": "Trigger: Foul by left @ 2 - 27:32"
-    },
-    {
-      "start": 4405.0,
-      "end": 4405.0,
-      "text": "Then: Throw-in by left"
-    },
-    {
-      "start": 4431.0,
-      "end": 4431.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4352000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/segment_004320_004440.json",
-  "segment_meta": {
-    "start_seconds": 4320,
-    "end_seconds": 4440,
-    "length_seconds": 120,
-    "start_time_mmss": "72:00",
-    "end_time_mmss": "74:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

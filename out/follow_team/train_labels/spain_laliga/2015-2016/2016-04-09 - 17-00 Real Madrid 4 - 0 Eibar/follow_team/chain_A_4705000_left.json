@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11311,
   "video_id": "3df60775-7890-5d9c-859b-a9b6aff5d59a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Corner and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Corner and Shots off target}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4705.0,
-      "end": 4705.0,
-      "text": "Trigger: Throw-in by left @ 2 - 33:25"
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 4731.0,
-      "end": 4731.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 4733.0,
-      "end": 4733.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     },
     {
-      "start": 4734.0,
-      "end": 4734.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4705000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-09 - 17-00 Real Madrid 4 - 0 Eibar/segment_004620_004740.json",
-  "segment_meta": {
-    "start_seconds": 4620,
-    "end_seconds": 4740,
-    "length_seconds": 120,
-    "start_time_mmss": "77:00",
-    "end_time_mmss": "79:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

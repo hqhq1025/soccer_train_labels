@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21298,
   "video_id": "3610da84-864c-5f9d-acb9-acb92c347793",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Direct free-kick}, start tracking that team; notify me on its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Direct free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3302.0,
-      "end": 3302.0,
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 3303.0,
-      "end": 3303.0,
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Manchester City 2 - 0 Watford/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Manchester City 2 - 0 Watford/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3302000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Manchester City 2 - 0 Watford/segment_003210_003310.json",
-  "segment_meta": {
-    "start_seconds": 3210,
-    "end_seconds": 3310,
-    "length_seconds": 100,
-    "start_time_mmss": "53:30",
-    "end_time_mmss": "55:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

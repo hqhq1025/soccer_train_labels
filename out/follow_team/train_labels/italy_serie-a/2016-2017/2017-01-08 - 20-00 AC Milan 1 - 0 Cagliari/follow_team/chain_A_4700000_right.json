@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17907,
   "video_id": "899e9f05-3e9e-5c9b-a089-d1f473fab460",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4700.0,
-      "end": 4700.0,
-      "text": "Trigger: Corner by right @ 2 - 33:20"
-    },
-    {
-      "start": 4704.0,
-      "end": 4704.0,
-      "text": "Then: Shots on target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, follow that team. Answer format: at trigger reply 'Trigger: {Corner} by left/right'; for each {Shots on target}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4700000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/segment_004600_004720.json",
-  "segment_meta": {
-    "start_seconds": 4600,
-    "end_seconds": 4720,
-    "length_seconds": 120,
-    "start_time_mmss": "76:40",
-    "end_time_mmss": "78:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    }
+  ]
 }

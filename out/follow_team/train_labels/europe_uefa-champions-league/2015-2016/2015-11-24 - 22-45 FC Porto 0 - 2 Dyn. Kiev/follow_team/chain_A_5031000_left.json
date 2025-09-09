@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6943,
   "video_id": "5f905f7c-367a-518a-9290-3adb801524d6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 5031.0,
-      "end": 5031.0,
-      "text": "Trigger: Clearance by left @ 2 - 38:51"
-    },
-    {
-      "start": 5045.0,
-      "end": 5045.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Clearance}; then follow that team. Respond 'Trigger: {Clearance} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5031000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/segment_004950_005070.json",
-  "segment_meta": {
-    "start_seconds": 4950,
-    "end_seconds": 5070,
-    "length_seconds": 120,
-    "start_time_mmss": "82:30",
-    "end_time_mmss": "84:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

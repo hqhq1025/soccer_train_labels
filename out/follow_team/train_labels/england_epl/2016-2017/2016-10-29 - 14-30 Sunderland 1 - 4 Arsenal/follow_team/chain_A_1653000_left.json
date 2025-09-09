@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25565,
   "video_id": "b0db6fc3-2a65-5690-bfa6-7ced925bd6b1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Foul} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 1653.0,
-      "end": 1653.0,
-      "text": "Trigger: Direct free-kick by left @ 1 - 27:33"
-    },
-    {
-      "start": 1669.0,
-      "end": 1669.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Direct free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1653000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/segment_001630_001670.json",
-  "segment_meta": {
-    "start_seconds": 1630,
-    "end_seconds": 1670,
-    "length_seconds": 40,
-    "start_time_mmss": "27:10",
-    "end_time_mmss": "27:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

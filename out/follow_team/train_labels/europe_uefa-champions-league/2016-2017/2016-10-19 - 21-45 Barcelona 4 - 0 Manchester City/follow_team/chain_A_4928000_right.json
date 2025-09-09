@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9745,
   "video_id": "3f0f6a6d-2777-5516-a8e1-39b8d9a6ac0d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 4928.0,
-      "end": 4928.0,
-      "text": "Trigger: Throw-in by right @ 2 - 37:08"
-    },
-    {
-      "start": 4981.0,
-      "end": 4981.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 5002.0,
-      "end": 5002.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4928000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-10-19 - 21-45 Barcelona 4 - 0 Manchester City/segment_004890_005010.json",
-  "segment_meta": {
-    "start_seconds": 4890,
-    "end_seconds": 5010,
-    "length_seconds": 120,
-    "start_time_mmss": "81:30",
-    "end_time_mmss": "83:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

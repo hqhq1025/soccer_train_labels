@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8430,
   "video_id": "90dd9771-cc45-5b30-96a4-26d8b4856bf2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4199.0,
-      "end": 4199.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 4245.0,
-      "end": 4245.0,
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4199000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/segment_004160_004280.json",
-  "segment_meta": {
-    "start_seconds": 4160,
-    "end_seconds": 4280,
-    "length_seconds": 120,
-    "start_time_mmss": "69:20",
-    "end_time_mmss": "71:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

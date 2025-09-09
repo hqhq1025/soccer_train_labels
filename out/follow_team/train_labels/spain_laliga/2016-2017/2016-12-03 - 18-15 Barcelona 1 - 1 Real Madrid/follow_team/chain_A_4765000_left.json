@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13559,
   "video_id": "f6415633-9620-5405-87ca-f51690bbb48a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card, Clearance and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card, Clearance and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4765.0,
-      "end": 4765.0,
-      "text": "Trigger: Foul by left @ 2 - 34:25"
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 4771.0,
-      "end": 4771.0,
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     },
     {
-      "start": 4827.0,
-      "end": 4827.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     },
     {
-      "start": 4848.0,
-      "end": 4848.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2016-12-03 - 18-15 Barcelona 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-12-03 - 18-15 Barcelona 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4765000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-12-03 - 18-15 Barcelona 1 - 1 Real Madrid/segment_004730_004850.json",
-  "segment_meta": {
-    "start_seconds": 4730,
-    "end_seconds": 4850,
-    "length_seconds": 120,
-    "start_time_mmss": "78:50",
-    "end_time_mmss": "80:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

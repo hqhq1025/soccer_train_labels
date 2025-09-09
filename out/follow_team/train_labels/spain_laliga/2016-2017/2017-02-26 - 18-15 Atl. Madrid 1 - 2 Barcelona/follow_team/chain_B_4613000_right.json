@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 12950,
   "video_id": "7cc00723-14b9-5536-a787-b712ebdae900",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Substitution}, continue tracking that team and notify me about any {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Substitution}, follow the same team and list all subsequent {Throw-in}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4613.0,
-      "end": 4613.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Trigger: Substitution by right"
     },
     {
-      "start": 4629.0,
-      "end": 4629.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4613000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/segment_004550_004630.json",
-  "segment_meta": {
-    "start_seconds": 4550,
-    "end_seconds": 4630,
-    "length_seconds": 80,
-    "start_time_mmss": "75:50",
-    "end_time_mmss": "77:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23975,
   "video_id": "d38b24ca-39fd-59ab-b570-f0f9f20c3ea8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots on target and Goal} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Shots on target and Goal} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2131.0,
-      "end": 2131.0,
-      "text": "Trigger: Throw-in by left @ 1 - 35:31"
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2136.0,
-      "end": 2136.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 2137.0,
-      "end": 2137.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2131000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/segment_002020_002140.json",
-  "segment_meta": {
-    "start_seconds": 2020,
-    "end_seconds": 2140,
-    "length_seconds": 120,
-    "start_time_mmss": "33:40",
-    "end_time_mmss": "35:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

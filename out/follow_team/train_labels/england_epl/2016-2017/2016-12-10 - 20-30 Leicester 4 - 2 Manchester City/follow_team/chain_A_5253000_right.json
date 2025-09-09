@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24019,
   "video_id": "713a42da-1ab7-5959-9c86-26577dab545a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 5253.0,
-      "end": 5253.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 42:33"
-    },
-    {
-      "start": 5280.0,
-      "end": 5280.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5253000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/segment_005210_005290.json",
-  "segment_meta": {
-    "start_seconds": 5210,
-    "end_seconds": 5290,
-    "length_seconds": 80,
-    "start_time_mmss": "86:50",
-    "end_time_mmss": "88:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 22637,
+  "video_id": "4831f6cf-57ae-5579-8db4-f4e29b9b10c0",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Keep an eye on {Foul}; alert me on occurrence. Answer format: 'Alert - <Event>'."
+    },
+    {
+      "time": 32.322,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Indirect free-kick}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 11.625,
+      "end": 11.625,
+      "count": 0,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 32.322,
+      "end": 32.322,
+      "count": 0,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 50.593,
+      "end": 50.593,
+      "count": 1,
+      "text": "Alert - Indirect free-kick"
+    }
+  ]
+}

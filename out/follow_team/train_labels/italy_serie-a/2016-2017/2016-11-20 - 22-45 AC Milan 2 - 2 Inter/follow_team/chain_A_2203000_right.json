@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19015,
   "video_id": "a7737938-32e3-5b01-96cf-d4df0d46e1cf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2203.0,
-      "end": 2203.0,
-      "text": "Trigger: Clearance by right @ 1 - 36:43"
-    },
-    {
-      "start": 2232.0,
-      "end": 2232.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team; answer strictly as 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2203000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_002130_002250.json",
-  "segment_meta": {
-    "start_seconds": 2130,
-    "end_seconds": 2250,
-    "length_seconds": 120,
-    "start_time_mmss": "35:30",
-    "end_time_mmss": "37:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

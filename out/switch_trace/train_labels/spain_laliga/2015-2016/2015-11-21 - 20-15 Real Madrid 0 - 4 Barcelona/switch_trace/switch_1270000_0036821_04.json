@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 16152,
+  "video_id": "139071d2-3d53-5f99-b2ae-eeee55a8fb2b",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Keep an eye on {Indirect free-kick}; alert me on occurrence. Answer format: 'Alert - <Event>'."
+    },
+    {
+      "time": 36.821,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Foul and Yellow card}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 36.821,
+      "end": 36.821,
+      "count": 0,
+      "text": "Alert - Indirect free-kick"
+    },
+    {
+      "start": 66.012,
+      "end": 66.012,
+      "count": 1,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 72.632,
+      "end": 72.632,
+      "count": 1,
+      "text": "Alert - Yellow card"
+    }
+  ]
+}

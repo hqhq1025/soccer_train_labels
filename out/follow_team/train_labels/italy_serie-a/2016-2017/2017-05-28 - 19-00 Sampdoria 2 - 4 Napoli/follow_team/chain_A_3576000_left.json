@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19543,
   "video_id": "c2bd3830-de2d-5930-9925-aaa2a8bb7c58",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 3576.0,
-      "end": 3576.0,
-      "text": "Trigger: Foul by left @ 2 - 14:36"
-    },
-    {
-      "start": 3588.0,
-      "end": 3588.0,
-      "text": "Then: Indirect free-kick by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Indirect free-kick} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3576000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_003550_003630.json",
-  "segment_meta": {
-    "start_seconds": 3550,
-    "end_seconds": 3630,
-    "length_seconds": 80,
-    "start_time_mmss": "59:10",
-    "end_time_mmss": "60:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ]
 }

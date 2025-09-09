@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15398,
   "video_id": "9d3f5d0c-07a4-5c2c-b9e3-83dcc46c5450",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3752.0,
-      "end": 3752.0,
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 3753.0,
-      "end": 3753.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3752000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/segment_003640_003760.json",
-  "segment_meta": {
-    "start_seconds": 3640,
-    "end_seconds": 3760,
-    "length_seconds": 120,
-    "start_time_mmss": "60:40",
-    "end_time_mmss": "62:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

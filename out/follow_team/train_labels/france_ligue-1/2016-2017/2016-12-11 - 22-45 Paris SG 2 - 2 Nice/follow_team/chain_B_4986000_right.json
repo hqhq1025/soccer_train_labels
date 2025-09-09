@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 556,
   "video_id": "9fc42f20-13de-50ba-90b5-8deb9d05525d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4986.0,
-      "end": 4986.0,
+      "start": 6.0,
+      "end": 6.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 5014.0,
-      "end": 5014.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4986000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/segment_004980_005080.json",
-  "segment_meta": {
-    "start_seconds": 4980,
-    "end_seconds": 5080,
-    "length_seconds": 100,
-    "start_time_mmss": "83:00",
-    "end_time_mmss": "84:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

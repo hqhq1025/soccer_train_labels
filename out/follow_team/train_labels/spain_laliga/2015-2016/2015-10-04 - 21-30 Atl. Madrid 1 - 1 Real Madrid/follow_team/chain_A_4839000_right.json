@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10775,
   "video_id": "91833a1b-f2a0-56c7-ae68-6b58c97ce78e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} happens, lock onto that team. Respond 'Trigger: {Indirect free-kick} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul and Yellow card}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4839.0,
-      "end": 4839.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 35:39"
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 4913.0,
-      "end": 4913.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 4920.0,
-      "end": 4920.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4839000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_004810_004930.json",
-  "segment_meta": {
-    "start_seconds": 4810,
-    "end_seconds": 4930,
-    "length_seconds": 120,
-    "start_time_mmss": "80:10",
-    "end_time_mmss": "82:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

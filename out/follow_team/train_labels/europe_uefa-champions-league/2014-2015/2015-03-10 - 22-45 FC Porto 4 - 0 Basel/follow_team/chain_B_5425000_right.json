@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8798,
   "video_id": "a5d3cb4f-11c5-5bb6-9c35-0e9c4c35ce0a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow->red card} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team; answer strictly as 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Yellow->red card}."
+    }
+  ],
   "answer": [
     {
-      "start": 5425.0,
-      "end": 5425.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 5436.0,
-      "end": 5436.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Then: Yellow->red card by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5425000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/segment_005390_005450.json",
-  "segment_meta": {
-    "start_seconds": 5390,
-    "end_seconds": 5450,
-    "length_seconds": 60,
-    "start_time_mmss": "89:50",
-    "end_time_mmss": "90:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19939,
   "video_id": "df059f32-7311-50f6-9fd6-088fd6eb8f05",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 110.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Indirect free-kick and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, continue tracking that team. Answers must be 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5339.0,
-      "end": 5339.0,
-      "text": "Trigger: Clearance by left @ 2 - 43:59"
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
     },
     {
-      "start": 5375.0,
-      "end": 5375.0,
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     },
     {
-      "start": 5391.0,
-      "end": 5391.0,
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5339000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/segment_005290_005400.json",
-  "segment_meta": {
-    "start_seconds": 5290,
-    "end_seconds": 5400,
-    "length_seconds": 110,
-    "start_time_mmss": "88:10",
-    "end_time_mmss": "90:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

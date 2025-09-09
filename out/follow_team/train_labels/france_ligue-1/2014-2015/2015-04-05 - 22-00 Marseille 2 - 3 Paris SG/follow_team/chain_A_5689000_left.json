@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 207,
   "video_id": "cee4bcd3-495a-5ce4-a47d-35588ccdb603",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Offside and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Offside and Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 5689.0,
-      "end": 5689.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 49:49"
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 5707.0,
-      "end": 5707.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Offside by left"
     },
     {
-      "start": 5709.0,
-      "end": 5709.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5689000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/segment_005610_005730.json",
-  "segment_meta": {
-    "start_seconds": 5610,
-    "end_seconds": 5730,
-    "length_seconds": 120,
-    "start_time_mmss": "93:30",
-    "end_time_mmss": "95:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

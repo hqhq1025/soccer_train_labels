@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 8262,
+  "video_id": "332ecf04-8e6d-5c58-a717-424a4ed31429",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Please monitor {Offside} and notify me each time it happens. Use 'Alert - <Event>'."
+    },
+    {
+      "time": 20.105,
+      "count": 1,
+      "text": "Stop the last one and continuously follow {Clearance and Ball out of play} from now on. Respond 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 20.105,
+      "end": 20.105,
+      "count": 0,
+      "text": "Alert - Offside"
+    },
+    {
+      "start": 45.306,
+      "end": 45.306,
+      "count": 1,
+      "text": "Alert - Clearance"
+    },
+    {
+      "start": 72.022,
+      "end": 72.022,
+      "count": 1,
+      "text": "Alert - Ball out of play"
+    }
+  ]
+}

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21326,
   "video_id": "bce9f156-ad7a-5900-b32b-4b11b5df9211",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and reply exactly 'Trigger: {Clearance} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4460.0,
-      "end": 4460.0,
+      "start": 40.0,
+      "end": 40.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 4512.0,
-      "end": 4512.0,
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4460000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-05 - 18-00 Chelsea 1 - 1 Stoke City/segment_004420_004520.json",
-  "segment_meta": {
-    "start_seconds": 4420,
-    "end_seconds": 4520,
-    "length_seconds": 100,
-    "start_time_mmss": "73:40",
-    "end_time_mmss": "75:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

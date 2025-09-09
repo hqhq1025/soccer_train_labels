@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23400,
   "video_id": "a662cac4-f83a-5ab1-8a91-d82d00947283",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Throw-in} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4672.0,
-      "end": 4672.0,
+      "start": 12.0,
+      "end": 12.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 4712.0,
-      "end": 4712.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4672000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/segment_004660_004720.json",
-  "segment_meta": {
-    "start_seconds": 4660,
-    "end_seconds": 4720,
-    "length_seconds": 60,
-    "start_time_mmss": "77:40",
-    "end_time_mmss": "78:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

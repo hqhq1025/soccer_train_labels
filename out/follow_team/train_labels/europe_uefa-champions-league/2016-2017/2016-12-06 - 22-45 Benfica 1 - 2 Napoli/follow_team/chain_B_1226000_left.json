@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9392,
   "video_id": "97bd98c6-b2a0-5c09-b39b-01a60b074e0b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Offside} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Offside}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 1226.0,
-      "end": 1226.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 1227.0,
-      "end": 1227.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 1226000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-12-06 - 22-45 Benfica 1 - 2 Napoli/segment_001190_001230.json",
-  "segment_meta": {
-    "start_seconds": 1190,
-    "end_seconds": 1230,
-    "length_seconds": 40,
-    "start_time_mmss": "19:50",
-    "end_time_mmss": "20:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

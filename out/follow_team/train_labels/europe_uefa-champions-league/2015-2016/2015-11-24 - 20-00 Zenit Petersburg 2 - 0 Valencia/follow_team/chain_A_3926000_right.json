@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5181,
   "video_id": "d1fe403c-ac43-575c-9721-cf3d2e36329c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Indirect free-kick and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Indirect free-kick and Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3926.0,
-      "end": 3926.0,
-      "text": "Trigger: Throw-in by right @ 2 - 20:26"
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3954.0,
-      "end": 3954.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     },
     {
-      "start": 3964.0,
-      "end": 3964.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3926000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/segment_003870_003970.json",
-  "segment_meta": {
-    "start_seconds": 3870,
-    "end_seconds": 3970,
-    "length_seconds": 100,
-    "start_time_mmss": "64:30",
-    "end_time_mmss": "66:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

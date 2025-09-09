@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 2429,
+  "video_id": "4aa241c3-7e7b-5644-9b7e-86a8bc9a0be9",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Observe {Direct free-kick} and report every time it happens. Respond 'Alert - <Event>'."
+    },
+    {
+      "time": 51.425,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Clearance}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 51.425,
+      "end": 51.425,
+      "count": 0,
+      "text": "Alert - Direct free-kick"
+    },
+    {
+      "start": 75.516,
+      "end": 75.516,
+      "count": 1,
+      "text": "Alert - Clearance"
+    }
+  ]
+}

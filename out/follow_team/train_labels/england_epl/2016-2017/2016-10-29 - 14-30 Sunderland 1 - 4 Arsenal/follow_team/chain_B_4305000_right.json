@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25576,
   "video_id": "58f2ae3e-497b-58aa-9c73-66a7f23af48d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 4305.0,
-      "end": 4305.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 4315.0,
-      "end": 4315.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4305000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/segment_004280_004320.json",
-  "segment_meta": {
-    "start_seconds": 4280,
-    "end_seconds": 4320,
-    "length_seconds": 40,
-    "start_time_mmss": "71:20",
-    "end_time_mmss": "72:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19998,
   "video_id": "6439a41e-982c-50a1-916e-4bb3ef12d6fe",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Yellow card}, start tracking that team; notify me on its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Yellow card}, start tracking that team. Use responses 'Trigger: {Yellow card} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2719.0,
-      "end": 2719.0,
+      "start": 9.0,
+      "end": 9.0,
+      "count": 0,
       "text": "Trigger: Yellow card by right"
     },
     {
-      "start": 2780.0,
-      "end": 2780.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2719000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/segment_002710_002790.json",
-  "segment_meta": {
-    "start_seconds": 2710,
-    "end_seconds": 2790,
-    "length_seconds": 80,
-    "start_time_mmss": "45:10",
-    "end_time_mmss": "46:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10663,
   "video_id": "7d0dade9-efc5-513e-bb5a-7ebf1ffa1351",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 379.0,
-      "end": 379.0,
-      "text": "Trigger: Shots on target by left @ 1 - 06:19"
-    },
-    {
-      "start": 380.0,
-      "end": 380.0,
-      "text": "Then: Goal by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Goal}."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 379000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/segment_000330_000390.json",
-  "segment_meta": {
-    "start_seconds": 330,
-    "end_seconds": 390,
-    "length_seconds": 60,
-    "start_time_mmss": "05:30",
-    "end_time_mmss": "06:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
+      "text": "Then: Goal by left"
+    }
+  ]
 }

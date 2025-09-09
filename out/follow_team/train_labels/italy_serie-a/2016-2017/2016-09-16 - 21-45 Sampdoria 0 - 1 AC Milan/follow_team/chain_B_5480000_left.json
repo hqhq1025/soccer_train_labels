@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20646,
   "video_id": "de2a6d7a-1fd9-5d4c-b9a2-782665548b7c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots on target} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5480.0,
-      "end": 5480.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 5497.0,
-      "end": 5497.0,
+      "start": 107.0,
+      "end": 107.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5480000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-16 - 21-45 Sampdoria 0 - 1 AC Milan/segment_005390_005510.json",
-  "segment_meta": {
-    "start_seconds": 5390,
-    "end_seconds": 5510,
-    "length_seconds": 120,
-    "start_time_mmss": "89:50",
-    "end_time_mmss": "91:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

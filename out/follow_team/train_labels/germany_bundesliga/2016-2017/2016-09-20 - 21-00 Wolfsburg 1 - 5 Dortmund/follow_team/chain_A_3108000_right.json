@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4341,
   "video_id": "3e8f5439-2730-5cf3-b026-d3a22d464e00",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} occurs, follow the initiating team and report all {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 3108.0,
-      "end": 3108.0,
-      "text": "Trigger: Clearance by right @ 2 - 06:48"
-    },
-    {
-      "start": 3125.0,
-      "end": 3125.0,
-      "text": "Then: Indirect free-kick by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Clearance}, follow the same team and list all subsequent {Indirect free-kick}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3108000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-20 - 21-00 Wolfsburg 1 - 5 Dortmund/segment_003060_003180.json",
-  "segment_meta": {
-    "start_seconds": 3060,
-    "end_seconds": 3180,
-    "length_seconds": 120,
-    "start_time_mmss": "51:00",
-    "end_time_mmss": "53:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ]
 }

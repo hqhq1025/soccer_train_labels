@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16546,
   "video_id": "aed56af6-f956-531d-b1ab-d799b1b6d264",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4086.0,
-      "end": 4086.0,
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 4137.0,
-      "end": 4137.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4086000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_004060_004180.json",
-  "segment_meta": {
-    "start_seconds": 4060,
-    "end_seconds": 4180,
-    "length_seconds": 120,
-    "start_time_mmss": "67:40",
-    "end_time_mmss": "69:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

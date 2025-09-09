@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21502,
   "video_id": "5043a995-6174-5e4d-bc39-66cccb58e607",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3352.0,
-      "end": 3352.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3376.0,
-      "end": 3376.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-03-02 - 23-00 Liverpool 3 - 0 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-02 - 23-00 Liverpool 3 - 0 Manchester City/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3352000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-02 - 23-00 Liverpool 3 - 0 Manchester City/segment_003330_003450.json",
-  "segment_meta": {
-    "start_seconds": 3330,
-    "end_seconds": 3450,
-    "length_seconds": 120,
-    "start_time_mmss": "55:30",
-    "end_time_mmss": "57:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

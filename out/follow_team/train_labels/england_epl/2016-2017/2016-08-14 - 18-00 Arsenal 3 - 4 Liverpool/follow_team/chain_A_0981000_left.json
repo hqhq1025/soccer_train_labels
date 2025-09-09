@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25325,
   "video_id": "fc6e8f08-38ff-5f54-adf8-f1b584e50597",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 981.0,
-      "end": 981.0,
-      "text": "Trigger: Throw-in by left @ 1 - 16:21"
-    },
-    {
-      "start": 1035.0,
-      "end": 1035.0,
-      "text": "Then: Indirect free-kick by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 981000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_000940_001040.json",
-  "segment_meta": {
-    "start_seconds": 940,
-    "end_seconds": 1040,
-    "length_seconds": 100,
-    "start_time_mmss": "15:40",
-    "end_time_mmss": "17:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ]
 }

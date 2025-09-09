@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16314,
   "video_id": "a2465dd4-a4ee-5f50-ab1a-e761bbffa50e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Corner} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3113.0,
-      "end": 3113.0,
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3145.0,
-      "end": 3145.0,
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3113000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/segment_003100_003220.json",
-  "segment_meta": {
-    "start_seconds": 3100,
-    "end_seconds": 3220,
-    "length_seconds": 120,
-    "start_time_mmss": "51:40",
-    "end_time_mmss": "53:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

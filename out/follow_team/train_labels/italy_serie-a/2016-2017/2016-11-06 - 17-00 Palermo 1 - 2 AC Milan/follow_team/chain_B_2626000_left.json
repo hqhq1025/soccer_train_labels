@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18384,
   "video_id": "847ceb54-cd86-50ac-b34a-bee684920308",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2626.0,
-      "end": 2626.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2641.0,
-      "end": 2641.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2626000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 17-00 Palermo 1 - 2 AC Milan/segment_002550_002670.json",
-  "segment_meta": {
-    "start_seconds": 2550,
-    "end_seconds": 2670,
-    "length_seconds": 120,
-    "start_time_mmss": "42:30",
-    "end_time_mmss": "44:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

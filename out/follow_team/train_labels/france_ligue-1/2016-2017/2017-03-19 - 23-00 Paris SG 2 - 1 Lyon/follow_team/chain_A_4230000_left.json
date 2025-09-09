@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 957,
   "video_id": "23f9f1fc-a3c7-5a55-bd82-ac890654d22e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Shots on target} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 4230.0,
-      "end": 4230.0,
-      "text": "Trigger: Direct free-kick by left @ 2 - 25:30"
-    },
-    {
-      "start": 4232.0,
-      "end": 4232.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Direct free-kick}, continue tracking that team. Answers must be 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4230000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/segment_004180_004240.json",
-  "segment_meta": {
-    "start_seconds": 4180,
-    "end_seconds": 4240,
-    "length_seconds": 60,
-    "start_time_mmss": "69:40",
-    "end_time_mmss": "70:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

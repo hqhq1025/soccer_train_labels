@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22482,
   "video_id": "ada1113a-f428-5c30-a33b-89d916ea4c49",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5234.0,
-      "end": 5234.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5250.0,
-      "end": 5250.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5234000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_005140_005260.json",
-  "segment_meta": {
-    "start_seconds": 5140,
-    "end_seconds": 5260,
-    "length_seconds": 120,
-    "start_time_mmss": "85:40",
-    "end_time_mmss": "87:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23801,
   "video_id": "225bae00-b03b-5b71-ae17-cec107d28ef8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots on target and Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Shots on target and Corner}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5138.0,
-      "end": 5138.0,
-      "text": "Trigger: Throw-in by left @ 2 - 40:38"
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5169.0,
-      "end": 5169.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 5201.0,
-      "end": 5201.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5138000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/segment_005090_005210.json",
-  "segment_meta": {
-    "start_seconds": 5090,
-    "end_seconds": 5210,
-    "length_seconds": 120,
-    "start_time_mmss": "84:50",
-    "end_time_mmss": "86:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

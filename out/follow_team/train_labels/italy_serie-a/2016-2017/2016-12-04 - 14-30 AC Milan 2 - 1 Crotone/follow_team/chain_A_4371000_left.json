@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19275,
   "video_id": "65b0089c-7ba3-5f6a-926c-f4fa0eac16d6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Substitution}, stick with that team and alert me for {Indirect free-kick and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Substitution} occurs, keep following the same team and reply exactly 'Trigger: {Substitution} by left/right'; then for each {Indirect free-kick and Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4371.0,
-      "end": 4371.0,
-      "text": "Trigger: Substitution by left @ 2 - 27:51"
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
+      "text": "Trigger: Substitution by left"
     },
     {
-      "start": 4401.0,
-      "end": 4401.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     },
     {
-      "start": 4466.0,
-      "end": 4466.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4371000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/segment_004350_004470.json",
-  "segment_meta": {
-    "start_seconds": 4350,
-    "end_seconds": 4470,
-    "length_seconds": 120,
-    "start_time_mmss": "72:30",
-    "end_time_mmss": "74:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19930,
   "video_id": "91a2e99a-3aa2-566a-ba20-ea4601c757b9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2362.0,
-      "end": 2362.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 2377.0,
-      "end": 2377.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2362000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-21 - 22-45 AC Milan 1 - 2 Napoli/segment_002260_002380.json",
-  "segment_meta": {
-    "start_seconds": 2260,
-    "end_seconds": 2380,
-    "length_seconds": 120,
-    "start_time_mmss": "37:40",
-    "end_time_mmss": "39:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

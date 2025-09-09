@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16825,
   "video_id": "99b13d52-3c89-53d6-8a4c-be4bcb809df4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3040.0,
-      "end": 3040.0,
-      "text": "Trigger: Throw-in by left @ 2 - 05:40"
-    },
-    {
-      "start": 3059.0,
-      "end": 3059.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3040000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/segment_002940_003060.json",
-  "segment_meta": {
-    "start_seconds": 2940,
-    "end_seconds": 3060,
-    "length_seconds": 120,
-    "start_time_mmss": "49:00",
-    "end_time_mmss": "51:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

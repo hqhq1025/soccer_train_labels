@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11968,
   "video_id": "797578e5-acbb-5f60-b227-ebafb64b708b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots on target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4161.0,
-      "end": 4161.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 4167.0,
-      "end": 4167.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-05-06 - 21-45 Granada CF 0 - 4 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-06 - 21-45 Granada CF 0 - 4 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4161000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-06 - 21-45 Granada CF 0 - 4 Real Madrid/segment_004110_004170.json",
-  "segment_meta": {
-    "start_seconds": 4110,
-    "end_seconds": 4170,
-    "length_seconds": 60,
-    "start_time_mmss": "68:30",
-    "end_time_mmss": "69:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

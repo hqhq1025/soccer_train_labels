@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18500,
   "video_id": "e6c8e99c-61ce-5000-b1b3-734f1e155e30",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Kick-off} occurs, follow the initiating team and report all {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Kick-off}, follow that team. Answer format: at trigger reply 'Trigger: {Kick-off} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4964.0,
-      "end": 4964.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Trigger: Kick-off by left"
     },
     {
-      "start": 4975.0,
-      "end": 4975.0,
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4964000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/segment_004860_004980.json",
-  "segment_meta": {
-    "start_seconds": 4860,
-    "end_seconds": 4980,
-    "length_seconds": 120,
-    "start_time_mmss": "81:00",
-    "end_time_mmss": "83:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

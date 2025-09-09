@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8,
   "video_id": "d1cd22d6-cd62-5b6f-836c-d5b73bdb7346",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots on target}, stick with that team and alert me for {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4445.0,
-      "end": 4445.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 4447.0,
-      "end": 4447.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4445000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/segment_004370_004450.json",
-  "segment_meta": {
-    "start_seconds": 4370,
-    "end_seconds": 4450,
-    "length_seconds": 80,
-    "start_time_mmss": "72:50",
-    "end_time_mmss": "74:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

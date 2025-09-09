@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5310,
   "video_id": "c16c0912-63a5-5b5d-9c10-3a3bef919c0a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots off target} occurs, keep following the same team and reply exactly 'Trigger: {Shots off target} by left/right'; then for each {Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 516.0,
-      "end": 516.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 574.0,
-      "end": 574.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 516000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Barcelona 6 - 1 AS Roma/segment_000480_000600.json",
-  "segment_meta": {
-    "start_seconds": 480,
-    "end_seconds": 600,
-    "length_seconds": 120,
-    "start_time_mmss": "08:00",
-    "end_time_mmss": "10:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

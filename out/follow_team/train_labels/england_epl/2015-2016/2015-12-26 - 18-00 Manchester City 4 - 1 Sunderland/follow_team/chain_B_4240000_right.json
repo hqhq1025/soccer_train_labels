@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21148,
   "video_id": "86bc05f1-24a8-5ae5-8492-5d7812c1dc10",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Substitution}, stick with that team and alert me for {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Substitution} occurs, keep following the same team and reply exactly 'Trigger: {Substitution} by left/right'; then for each {Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4240.0,
-      "end": 4240.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Trigger: Substitution by right"
     },
     {
-      "start": 4300.0,
-      "end": 4300.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4240000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/segment_004210_004310.json",
-  "segment_meta": {
-    "start_seconds": 4210,
-    "end_seconds": 4310,
-    "length_seconds": 100,
-    "start_time_mmss": "70:10",
-    "end_time_mmss": "71:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

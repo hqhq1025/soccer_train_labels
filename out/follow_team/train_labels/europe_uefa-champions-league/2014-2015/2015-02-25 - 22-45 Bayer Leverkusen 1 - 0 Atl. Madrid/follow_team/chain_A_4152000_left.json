@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8693,
   "video_id": "ab02e569-bb0a-599d-96a5-b61ff6b26545",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4152.0,
-      "end": 4152.0,
-      "text": "Trigger: Foul by left @ 2 - 24:12"
-    },
-    {
-      "start": 4186.0,
-      "end": 4186.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that team. Answer format: at trigger reply 'Trigger: {Foul} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4152000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-25 - 22-45 Bayer Leverkusen 1 - 0 Atl. Madrid/segment_004130_004190.json",
-  "segment_meta": {
-    "start_seconds": 4130,
-    "end_seconds": 4190,
-    "length_seconds": 60,
-    "start_time_mmss": "68:50",
-    "end_time_mmss": "69:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

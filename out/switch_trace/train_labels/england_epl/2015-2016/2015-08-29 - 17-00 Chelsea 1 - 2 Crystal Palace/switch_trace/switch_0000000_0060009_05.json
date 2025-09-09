@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 35271,
+  "video_id": "e9496a5b-479d-5400-956e-c38398bd9f37",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Offside and Ball out of play} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 60.009,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Corner}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 30.973,
+      "end": 30.973,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 60.009,
+      "end": 60.009,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 84.999,
+      "end": 84.999,
+      "count": 1,
+      "text": "Alert - Corner"
+    }
+  ]
+}

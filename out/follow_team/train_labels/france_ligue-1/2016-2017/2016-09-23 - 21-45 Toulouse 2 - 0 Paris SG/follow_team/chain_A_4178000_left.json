@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1703,
   "video_id": "2d6b0b7d-17f1-5476-86bf-eb1e55c84348",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Substitution}, keep following that team and alert me whenever {Corner and Shots off target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Substitution} occurs, follow the initiating team; answer strictly as 'Trigger: {Substitution} by left/right' and 'Then: <Event> by left/right' for {Corner and Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4178.0,
-      "end": 4178.0,
-      "text": "Trigger: Substitution by left @ 2 - 24:38"
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
+      "text": "Trigger: Substitution by left"
     },
     {
-      "start": 4189.0,
-      "end": 4189.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 4190.0,
-      "end": 4190.0,
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4178000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/segment_004090_004210.json",
-  "segment_meta": {
-    "start_seconds": 4090,
-    "end_seconds": 4210,
-    "length_seconds": 120,
-    "start_time_mmss": "68:10",
-    "end_time_mmss": "70:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

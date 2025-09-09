@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10419,
   "video_id": "742e9788-6334-5d10-a1e7-c212986bbaaf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 4787.0,
-      "end": 4787.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 34:47"
-    },
-    {
-      "start": 4804.0,
-      "end": 4804.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4787000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/segment_004710_004810.json",
-  "segment_meta": {
-    "start_seconds": 4710,
-    "end_seconds": 4810,
-    "length_seconds": 100,
-    "start_time_mmss": "78:30",
-    "end_time_mmss": "80:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

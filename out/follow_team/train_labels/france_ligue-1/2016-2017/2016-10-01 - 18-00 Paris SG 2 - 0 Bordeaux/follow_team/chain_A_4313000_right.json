@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1813,
   "video_id": "cb1390bd-a9d3-576a-b2bf-56d375078b42",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Offside} happens, lock onto that team and report every {Substitution} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 4313.0,
-      "end": 4313.0,
-      "text": "Trigger: Offside by right @ 2 - 26:53"
-    },
-    {
-      "start": 4348.0,
-      "end": 4348.0,
-      "text": "Then: Substitution by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Offside}, follow that team. Answer format: at trigger reply 'Trigger: {Offside} by left/right'; for each {Substitution}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4313000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/segment_004300_004420.json",
-  "segment_meta": {
-    "start_seconds": 4300,
-    "end_seconds": 4420,
-    "length_seconds": 120,
-    "start_time_mmss": "71:40",
-    "end_time_mmss": "73:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Then: Substitution by right"
+    }
+  ]
 }

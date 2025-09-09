@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15699,
   "video_id": "d4c04f1e-fe3a-5c67-906f-76b2caa18dc3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 591.0,
-      "end": 591.0,
-      "text": "Trigger: Shots on target by left @ 1 - 09:51"
-    },
-    {
-      "start": 592.0,
-      "end": 592.0,
-      "text": "Then: Goal by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots on target}, start tracking that team. Use responses 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Goal}."
     }
   ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 591000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/segment_000540_000600.json",
-  "segment_meta": {
-    "start_seconds": 540,
-    "end_seconds": 600,
-    "length_seconds": 60,
-    "start_time_mmss": "09:00",
-    "end_time_mmss": "10:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
+      "text": "Then: Goal by left"
+    }
+  ]
 }

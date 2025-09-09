@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3665,
   "video_id": "2d32afbb-cf14-5e3b-bbb3-9391ae1f0b8e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 3527.0,
-      "end": 3527.0,
-      "text": "Trigger: Shots on target by left @ 2 - 13:47"
-    },
-    {
-      "start": 3528.0,
-      "end": 3528.0,
-      "text": "Then: Goal by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team. Respond 'Trigger: {Shots on target} by left/right' and thereafter 'Then: <Event> by left/right' for {Goal}. Left/right only."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3527000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_003490_003530.json",
-  "segment_meta": {
-    "start_seconds": 3490,
-    "end_seconds": 3530,
-    "length_seconds": 40,
-    "start_time_mmss": "58:10",
-    "end_time_mmss": "58:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Then: Goal by left"
+    }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7833,
   "video_id": "49a1943e-7fbe-5ea0-843c-81c4d121b27d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick and Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick and Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 4771.0,
-      "end": 4771.0,
-      "text": "Trigger: Throw-in by left @ 2 - 34:31"
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 4816.0,
-      "end": 4816.0,
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     },
     {
-      "start": 4842.0,
-      "end": 4842.0,
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4771000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Barcelona 3 - 1 Paris SG/segment_004730_004850.json",
-  "segment_meta": {
-    "start_seconds": 4730,
-    "end_seconds": 4850,
-    "length_seconds": 120,
-    "start_time_mmss": "78:50",
-    "end_time_mmss": "80:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

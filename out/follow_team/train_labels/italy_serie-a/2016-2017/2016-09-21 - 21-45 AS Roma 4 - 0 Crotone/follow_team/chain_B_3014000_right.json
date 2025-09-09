@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17678,
   "video_id": "06436bfe-deae-5212-9d6a-f619994d6517",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3014.0,
-      "end": 3014.0,
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 3015.0,
-      "end": 3015.0,
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3014000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-21 - 21-45 AS Roma 4 - 0 Crotone/segment_002970_003030.json",
-  "segment_meta": {
-    "start_seconds": 2970,
-    "end_seconds": 3030,
-    "length_seconds": 60,
-    "start_time_mmss": "49:30",
-    "end_time_mmss": "50:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

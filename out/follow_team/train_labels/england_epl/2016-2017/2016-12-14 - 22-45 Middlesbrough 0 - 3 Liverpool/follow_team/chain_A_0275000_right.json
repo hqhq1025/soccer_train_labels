@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25039,
   "video_id": "bbab8538-67c8-529a-925d-727fa3030782",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Foul and Clearance} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Clearance}, stick with that team. For {Foul and Clearance}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 275.0,
-      "end": 275.0,
-      "text": "Trigger: Clearance by right @ 1 - 04:35"
+      "start": 5.0,
+      "end": 5.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
     },
     {
-      "start": 289.0,
-      "end": 289.0,
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 340.0,
-      "end": 340.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Clearance by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 275000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/segment_000270_000390.json",
-  "segment_meta": {
-    "start_seconds": 270,
-    "end_seconds": 390,
-    "length_seconds": 120,
-    "start_time_mmss": "04:30",
-    "end_time_mmss": "06:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

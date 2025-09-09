@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21206,
   "video_id": "c3c1a9a8-6c11-5bde-93df-5f2f93c48f8d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 939.0,
-      "end": 939.0,
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 972.0,
-      "end": 972.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 939000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/segment_000920_000980.json",
-  "segment_meta": {
-    "start_seconds": 920,
-    "end_seconds": 980,
-    "length_seconds": 60,
-    "start_time_mmss": "15:20",
-    "end_time_mmss": "16:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

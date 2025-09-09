@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19433,
   "video_id": "b06cf870-31e7-54bc-88e8-fd955d1abac2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Corner and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Corner and Offside}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2962.0,
-      "end": 2962.0,
-      "text": "Trigger: Throw-in by left @ 2 - 04:22"
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3028.0,
-      "end": 3028.0,
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 3032.0,
-      "end": 3032.0,
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2962000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/segment_002920_003040.json",
-  "segment_meta": {
-    "start_seconds": 2920,
-    "end_seconds": 3040,
-    "length_seconds": 120,
-    "start_time_mmss": "48:40",
-    "end_time_mmss": "50:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24804,
   "video_id": "b43a5314-4104-5d95-a0be-69dd027675a6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3295.0,
-      "end": 3295.0,
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 3317.0,
-      "end": 3317.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3295000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/segment_003280_003320.json",
-  "segment_meta": {
-    "start_seconds": 3280,
-    "end_seconds": 3320,
-    "length_seconds": 40,
-    "start_time_mmss": "54:40",
-    "end_time_mmss": "55:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

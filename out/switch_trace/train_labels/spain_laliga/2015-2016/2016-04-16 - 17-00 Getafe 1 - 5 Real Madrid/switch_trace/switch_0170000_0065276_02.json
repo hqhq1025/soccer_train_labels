@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 16983,
+  "video_id": "27c6db02-91be-5a7b-b83d-68c22a2e5010",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Corner and Ball out of play} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 65.276,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Foul}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 39.704,
+      "end": 39.704,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 65.276,
+      "end": 65.276,
+      "count": 0,
+      "text": "Alert - Corner"
+    },
+    {
+      "start": 72.836,
+      "end": 72.836,
+      "count": 1,
+      "text": "Alert - Foul"
+    }
+  ]
+}

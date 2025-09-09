@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16871,
   "video_id": "abb15fdd-56c9-5b0a-94b5-750414816f1c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Clearance}, stick with that team and alert me for {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 4315.0,
-      "end": 4315.0,
-      "text": "Trigger: Clearance by right @ 2 - 26:55"
-    },
-    {
-      "start": 4354.0,
-      "end": 4354.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team; answer strictly as 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4315000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 19-00 Chievo 3 - 5 AS Roma/segment_004260_004380.json",
-  "segment_meta": {
-    "start_seconds": 4260,
-    "end_seconds": 4380,
-    "length_seconds": 120,
-    "start_time_mmss": "71:00",
-    "end_time_mmss": "73:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

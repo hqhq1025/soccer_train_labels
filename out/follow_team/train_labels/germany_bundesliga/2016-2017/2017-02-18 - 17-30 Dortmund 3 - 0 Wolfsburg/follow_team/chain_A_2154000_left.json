@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3687,
   "video_id": "4689b8ff-caac-5f46-8140-795d9d65076a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 2154.0,
-      "end": 2154.0,
-      "text": "Trigger: Indirect free-kick by left @ 1 - 35:54"
-    },
-    {
-      "start": 2156.0,
-      "end": 2156.0,
-      "text": "Then: Offside by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team. Respond 'Trigger: {Indirect free-kick} by left/right', and for {Offside} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2154000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_002080_002160.json",
-  "segment_meta": {
-    "start_seconds": 2080,
-    "end_seconds": 2160,
-    "length_seconds": 80,
-    "start_time_mmss": "34:40",
-    "end_time_mmss": "36:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
+      "text": "Then: Offside by left"
+    }
+  ]
 }

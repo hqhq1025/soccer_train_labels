@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17433,
   "video_id": "0cfd7e45-b0df-597c-9f0e-f8f7bef487d7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Foul and Yellow card} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2300.0,
-      "end": 2300.0,
-      "text": "Trigger: Foul by left @ 1 - 38:20"
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 2341.0,
-      "end": 2341.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 2345.0,
-      "end": 2345.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2300000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/segment_002290_002350.json",
-  "segment_meta": {
-    "start_seconds": 2290,
-    "end_seconds": 2350,
-    "length_seconds": 60,
-    "start_time_mmss": "38:10",
-    "end_time_mmss": "39:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

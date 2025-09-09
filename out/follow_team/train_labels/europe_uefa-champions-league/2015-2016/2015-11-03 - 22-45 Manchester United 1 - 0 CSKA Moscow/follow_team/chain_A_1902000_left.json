@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5617,
   "video_id": "662c2190-04c6-5b15-b72d-0f287af3874b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 1902.0,
-      "end": 1902.0,
-      "text": "Trigger: Shots off target by left @ 1 - 31:42"
-    },
-    {
-      "start": 1941.0,
-      "end": 1941.0,
-      "text": "Then: Throw-in by left"
-    },
-    {
-      "start": 1957.0,
-      "end": 1957.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, continue tracking that team. Answers must be 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1902000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/segment_001870_001990.json",
-  "segment_meta": {
-    "start_seconds": 1870,
-    "end_seconds": 1990,
-    "length_seconds": 120,
-    "start_time_mmss": "31:10",
-    "end_time_mmss": "33:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

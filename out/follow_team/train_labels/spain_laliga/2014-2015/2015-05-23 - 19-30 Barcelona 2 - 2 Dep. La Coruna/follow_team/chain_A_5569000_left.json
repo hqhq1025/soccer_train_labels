@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11719,
   "video_id": "8abfb76d-12b5-57c3-93ee-efe9aa78e248",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Corner and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Direct free-kick}, keep following that team. Use left/right only; 'Trigger: {Direct free-kick} by left/right', then 'Then: <Event> by left/right' for {Corner and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5569.0,
-      "end": 5569.0,
-      "text": "Trigger: Direct free-kick by left @ 2 - 47:49"
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 5599.0,
-      "end": 5599.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 5630.0,
-      "end": 5630.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5569000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-23 - 19-30 Barcelona 2 - 2 Dep. La Coruna/segment_005520_005640.json",
-  "segment_meta": {
-    "start_seconds": 5520,
-    "end_seconds": 5640,
-    "length_seconds": 120,
-    "start_time_mmss": "92:00",
-    "end_time_mmss": "94:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

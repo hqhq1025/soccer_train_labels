@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 891,
   "video_id": "0ae7731d-8112-5e72-8068-34b61fdcbe72",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4998.0,
-      "end": 4998.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 38:18"
-    },
-    {
-      "start": 5000.0,
-      "end": 5000.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4998000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-17 - 19-00 Guingamp 2 - 1 Paris SG/segment_004970_005030.json",
-  "segment_meta": {
-    "start_seconds": 4970,
-    "end_seconds": 5030,
-    "length_seconds": 60,
-    "start_time_mmss": "82:50",
-    "end_time_mmss": "83:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

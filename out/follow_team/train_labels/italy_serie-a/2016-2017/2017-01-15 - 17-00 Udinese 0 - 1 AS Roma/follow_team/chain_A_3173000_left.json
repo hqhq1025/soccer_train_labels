@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17581,
   "video_id": "5151864b-94ab-5049-9ca1-9f62c45f52da",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3173.0,
-      "end": 3173.0,
-      "text": "Trigger: Corner by left @ 2 - 07:53"
-    },
-    {
-      "start": 3186.0,
-      "end": 3186.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team. Use responses 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3173000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/segment_003140_003200.json",
-  "segment_meta": {
-    "start_seconds": 3140,
-    "end_seconds": 3200,
-    "length_seconds": 60,
-    "start_time_mmss": "52:20",
-    "end_time_mmss": "53:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

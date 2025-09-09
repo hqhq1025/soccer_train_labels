@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22797,
   "video_id": "fbd0483b-d104-5c29-9f74-a9a87a872d91",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3126.0,
-      "end": 3126.0,
-      "text": "Trigger: Corner by right @ 2 - 07:06"
-    },
-    {
-      "start": 3135.0,
-      "end": 3135.0,
-      "text": "Then: Shots on target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team. Use responses 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3126000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/segment_003060_003140.json",
-  "segment_meta": {
-    "start_seconds": 3060,
-    "end_seconds": 3140,
-    "length_seconds": 80,
-    "start_time_mmss": "51:00",
-    "end_time_mmss": "52:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    }
+  ]
 }

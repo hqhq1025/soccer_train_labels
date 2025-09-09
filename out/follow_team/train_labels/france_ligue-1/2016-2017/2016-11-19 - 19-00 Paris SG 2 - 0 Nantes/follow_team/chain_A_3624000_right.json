@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1103,
   "video_id": "ea7c25a0-dc9d-5fb0-9d88-b37edcb01bf4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 3624.0,
-      "end": 3624.0,
-      "text": "Trigger: Foul by right @ 2 - 15:24"
-    },
-    {
-      "start": 3690.0,
-      "end": 3690.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Foul} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3624000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-19 - 19-00 Paris SG 2 - 0 Nantes/segment_003600_003700.json",
-  "segment_meta": {
-    "start_seconds": 3600,
-    "end_seconds": 3700,
-    "length_seconds": 100,
-    "start_time_mmss": "60:00",
-    "end_time_mmss": "61:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 35861,
+  "video_id": "2534ede3-0b4a-5ede-b493-60c86aa76c8e",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Observe {Shots on target} and report every time it happens. Respond 'Alert - <Event>'."
+    },
+    {
+      "time": 17.326,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Shots off target}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 17.326,
+      "end": 17.326,
+      "count": 0,
+      "text": "Alert - Shots on target"
+    },
+    {
+      "start": 48.803,
+      "end": 48.803,
+      "count": 1,
+      "text": "Alert - Shots off target"
+    }
+  ]
+}

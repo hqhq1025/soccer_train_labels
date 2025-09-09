@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22108,
   "video_id": "84a4e87c-9476-58f5-8aeb-2d1cee8ccbcd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Foul}, follow the same team and list all subsequent {Substitution}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4743.0,
-      "end": 4743.0,
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 4778.0,
-      "end": 4778.0,
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4743000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/segment_004730_004810.json",
-  "segment_meta": {
-    "start_seconds": 4730,
-    "end_seconds": 4810,
-    "length_seconds": 80,
-    "start_time_mmss": "78:50",
-    "end_time_mmss": "80:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

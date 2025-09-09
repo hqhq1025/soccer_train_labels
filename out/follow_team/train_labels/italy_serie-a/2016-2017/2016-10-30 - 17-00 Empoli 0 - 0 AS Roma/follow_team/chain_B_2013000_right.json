@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19816,
   "video_id": "fb16f0d7-c93d-550b-966f-b7d31b0b387e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2013.0,
-      "end": 2013.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2023.0,
-      "end": 2023.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2013000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/segment_001910_002030.json",
-  "segment_meta": {
-    "start_seconds": 1910,
-    "end_seconds": 2030,
-    "length_seconds": 120,
-    "start_time_mmss": "31:50",
-    "end_time_mmss": "33:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

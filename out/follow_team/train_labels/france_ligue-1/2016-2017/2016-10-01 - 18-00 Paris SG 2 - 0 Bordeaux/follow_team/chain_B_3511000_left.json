@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1784,
   "video_id": "a915232a-0e2a-571e-b55d-16d68c70162e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3511.0,
-      "end": 3511.0,
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3521.0,
-      "end": 3521.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3511000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-01 - 18-00 Paris SG 2 - 0 Bordeaux/segment_003410_003530.json",
-  "segment_meta": {
-    "start_seconds": 3410,
-    "end_seconds": 3530,
-    "length_seconds": 120,
-    "start_time_mmss": "56:50",
-    "end_time_mmss": "58:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

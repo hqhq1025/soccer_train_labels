@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16638,
   "video_id": "4f8f7308-3ad3-55a9-b8fe-ed46470437e4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Clearance} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3925.0,
-      "end": 3925.0,
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 3968.0,
-      "end": 3968.0,
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3925000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/segment_003860_003980.json",
-  "segment_meta": {
-    "start_seconds": 3860,
-    "end_seconds": 3980,
-    "length_seconds": 120,
-    "start_time_mmss": "64:20",
-    "end_time_mmss": "66:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25130,
   "video_id": "832617ff-49f4-5367-aaf1-2dbeb203db72",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4414.0,
-      "end": 4414.0,
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 4421.0,
-      "end": 4421.0,
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4414000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/segment_004390_004430.json",
-  "segment_meta": {
-    "start_seconds": 4390,
-    "end_seconds": 4430,
-    "length_seconds": 40,
-    "start_time_mmss": "73:10",
-    "end_time_mmss": "73:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24000,
   "video_id": "64676891-ce67-5a77-90f3-e958f9b32b26",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots on target}, stick with that team. For {Shots on target}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4841.0,
-      "end": 4841.0,
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 4849.0,
-      "end": 4849.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4841000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/segment_004800_004860.json",
-  "segment_meta": {
-    "start_seconds": 4800,
-    "end_seconds": 4860,
-    "length_seconds": 60,
-    "start_time_mmss": "80:00",
-    "end_time_mmss": "81:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

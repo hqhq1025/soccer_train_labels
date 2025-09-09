@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22573,
   "video_id": "5e4e123f-4f24-5acc-9246-e1c125f93242",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 4829.0,
-      "end": 4829.0,
-      "text": "Trigger: Shots on target by right @ 2 - 35:29"
-    },
-    {
-      "start": 4830.0,
-      "end": 4830.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots on target}, stick with that team. For {Goal}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4829000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_004800_004840.json",
-  "segment_meta": {
-    "start_seconds": 4800,
-    "end_seconds": 4840,
-    "length_seconds": 40,
-    "start_time_mmss": "80:00",
-    "end_time_mmss": "80:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

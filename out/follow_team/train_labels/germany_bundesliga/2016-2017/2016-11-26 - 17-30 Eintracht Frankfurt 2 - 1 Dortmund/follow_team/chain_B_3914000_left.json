@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3898,
   "video_id": "53dc0c6a-0f4b-5d1b-870a-67cd49142593",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team. Respond 'Trigger: {Indirect free-kick} by left/right', and for {Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3914.0,
-      "end": 3914.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 3923.0,
-      "end": 3923.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3914000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/segment_003850_003930.json",
-  "segment_meta": {
-    "start_seconds": 3850,
-    "end_seconds": 3930,
-    "length_seconds": 80,
-    "start_time_mmss": "64:10",
-    "end_time_mmss": "65:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

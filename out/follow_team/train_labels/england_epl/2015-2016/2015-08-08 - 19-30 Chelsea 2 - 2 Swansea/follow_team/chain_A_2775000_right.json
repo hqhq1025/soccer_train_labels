@@ -1,51 +1,48 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22725,
   "video_id": "9627cff1-2535-5a77-80a9-aca1c1a9ac38",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Shots on target, Throw-in, Corner and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots on target}, keep following that team. Use left/right only; 'Trigger: {Shots on target} by left/right', then 'Then: <Event> by left/right' for {Shots on target, Throw-in, Corner and Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2775.0,
-      "end": 2775.0,
-      "text": "Trigger: Shots on target by right @ 2 - 01:15"
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 2804.0,
-      "end": 2804.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 2812.0,
-      "end": 2812.0,
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 2846.0,
-      "end": 2846.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 2848.0,
-      "end": 2848.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2775000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/segment_002750_002870.json",
-  "segment_meta": {
-    "start_seconds": 2750,
-    "end_seconds": 2870,
-    "length_seconds": 120,
-    "start_time_mmss": "45:50",
-    "end_time_mmss": "47:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25333,
   "video_id": "e5bd4d55-c829-5729-a74e-da36ea55061c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 290.0,
-      "end": 290.0,
-      "text": "Trigger: Throw-in by right @ 1 - 04:50"
-    },
-    {
-      "start": 353.0,
-      "end": 353.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 290000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_000240_000360.json",
-  "segment_meta": {
-    "start_seconds": 240,
-    "end_seconds": 360,
-    "length_seconds": 120,
-    "start_time_mmss": "04:00",
-    "end_time_mmss": "06:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

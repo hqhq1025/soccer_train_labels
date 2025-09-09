@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13679,
   "video_id": "98560c8d-a189-522b-83ed-bf4396a9258d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 5483.0,
-      "end": 5483.0,
-      "text": "Trigger: Foul by right @ 2 - 46:23"
-    },
-    {
-      "start": 5489.0,
-      "end": 5489.0,
-      "text": "Then: Yellow card by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5483000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/segment_005430_005490.json",
-  "segment_meta": {
-    "start_seconds": 5430,
-    "end_seconds": 5490,
-    "length_seconds": 60,
-    "start_time_mmss": "90:30",
-    "end_time_mmss": "91:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
+      "text": "Then: Yellow card by right"
+    }
+  ]
 }

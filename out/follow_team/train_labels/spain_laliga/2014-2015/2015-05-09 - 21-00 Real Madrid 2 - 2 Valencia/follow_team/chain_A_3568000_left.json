@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11551,
   "video_id": "20b76133-dab3-555b-8476-74ef5e1d7ad9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3568.0,
-      "end": 3568.0,
-      "text": "Trigger: Shots off target by left @ 2 - 14:28"
-    },
-    {
-      "start": 3642.0,
-      "end": 3642.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots off target} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3568000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/segment_003530_003650.json",
-  "segment_meta": {
-    "start_seconds": 3530,
-    "end_seconds": 3650,
-    "length_seconds": 120,
-    "start_time_mmss": "58:50",
-    "end_time_mmss": "60:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

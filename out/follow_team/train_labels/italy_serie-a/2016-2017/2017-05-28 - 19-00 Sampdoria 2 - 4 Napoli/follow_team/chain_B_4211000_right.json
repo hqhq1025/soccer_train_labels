@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19542,
   "video_id": "7f00e1ed-ed12-529a-94f3-abd7bae79feb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Substitution}; then follow that team. Respond 'Trigger: {Substitution} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4211.0,
-      "end": 4211.0,
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
       "text": "Trigger: Substitution by right"
     },
     {
-      "start": 4221.0,
-      "end": 4221.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4211000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_004170_004230.json",
-  "segment_meta": {
-    "start_seconds": 4170,
-    "end_seconds": 4230,
-    "length_seconds": 60,
-    "start_time_mmss": "69:30",
-    "end_time_mmss": "70:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

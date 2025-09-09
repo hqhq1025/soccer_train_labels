@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9189,
   "video_id": "16015449-7cc9-5e6d-b234-20417c0f6c25",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in and Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 363.0,
-      "end": 363.0,
-      "text": "Trigger: Throw-in by right @ 1 - 06:03"
-    },
-    {
-      "start": 381.0,
-      "end": 381.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 397.0,
-      "end": 397.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 410.0,
-      "end": 410.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in and Shots off target}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 363000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2017-02-15 - 22-45 Real Madrid 3 - 1 Napoli/segment_000300_000420.json",
-  "segment_meta": {
-    "start_seconds": 300,
-    "end_seconds": 420,
-    "length_seconds": 120,
-    "start_time_mmss": "05:00",
-    "end_time_mmss": "07:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

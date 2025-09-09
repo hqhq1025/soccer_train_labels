@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21549,
   "video_id": "8a52380c-67f7-5ddd-9ea6-33a356c8d28f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Foul} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 4391.0,
-      "end": 4391.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 28:11"
-    },
-    {
-      "start": 4408.0,
-      "end": 4408.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4391000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/segment_004370_004410.json",
-  "segment_meta": {
-    "start_seconds": 4370,
-    "end_seconds": 4410,
-    "length_seconds": 40,
-    "start_time_mmss": "72:50",
-    "end_time_mmss": "73:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

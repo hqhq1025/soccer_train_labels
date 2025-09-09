@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2985,
   "video_id": "9e67c882-b502-5d16-8e5d-558887ab0b86",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Throw-in} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 2622.0,
-      "end": 2622.0,
-      "text": "Trigger: Throw-in by right @ 1 - 43:42"
-    },
-    {
-      "start": 2634.0,
-      "end": 2634.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2622000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Dortmund 2 - 0 Hertha Berlin/segment_002560_002640.json",
-  "segment_meta": {
-    "start_seconds": 2560,
-    "end_seconds": 2640,
-    "length_seconds": 80,
-    "start_time_mmss": "42:40",
-    "end_time_mmss": "44:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

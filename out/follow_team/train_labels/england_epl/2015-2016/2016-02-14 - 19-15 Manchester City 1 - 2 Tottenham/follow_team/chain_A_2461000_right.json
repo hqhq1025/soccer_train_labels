@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21929,
   "video_id": "aade263b-fbae-5364-9195-81b32921ade2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Corner} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 2461.0,
-      "end": 2461.0,
-      "text": "Trigger: Shots off target by right @ 1 - 41:01"
-    },
-    {
-      "start": 2491.0,
-      "end": 2491.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots off target}; then follow that team. Respond 'Trigger: {Shots off target} by left/right', and for {Corner} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2461000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/segment_002420_002520.json",
-  "segment_meta": {
-    "start_seconds": 2420,
-    "end_seconds": 2520,
-    "length_seconds": 100,
-    "start_time_mmss": "40:20",
-    "end_time_mmss": "42:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

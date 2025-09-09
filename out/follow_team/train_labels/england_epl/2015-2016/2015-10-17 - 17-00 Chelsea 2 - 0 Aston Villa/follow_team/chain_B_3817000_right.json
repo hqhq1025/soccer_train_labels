@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21774,
   "video_id": "80480f7a-0b5d-52e3-94c7-57cc13ee931e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Substitution}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Substitution}, keep following that team. Use left/right only; 'Trigger: {Substitution} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3817.0,
-      "end": 3817.0,
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
       "text": "Trigger: Substitution by right"
     },
     {
-      "start": 3830.0,
-      "end": 3830.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3817000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/segment_003800_003840.json",
-  "segment_meta": {
-    "start_seconds": 3800,
-    "end_seconds": 3840,
-    "length_seconds": 40,
-    "start_time_mmss": "63:20",
-    "end_time_mmss": "64:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

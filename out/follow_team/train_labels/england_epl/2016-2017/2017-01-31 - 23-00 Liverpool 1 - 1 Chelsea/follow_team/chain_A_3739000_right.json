@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23237,
   "video_id": "0163920e-b559-5951-8ec0-861821ee1f2b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 3739.0,
-      "end": 3739.0,
-      "text": "Trigger: Shots on target by right @ 2 - 17:19"
-    },
-    {
-      "start": 3746.0,
-      "end": 3746.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Offside} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3739000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_003690_003810.json",
-  "segment_meta": {
-    "start_seconds": 3690,
-    "end_seconds": 3810,
-    "length_seconds": 120,
-    "start_time_mmss": "61:30",
-    "end_time_mmss": "63:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

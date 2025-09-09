@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6699,
   "video_id": "c7f5b5a7-4e93-5423-90e2-1d7a07605c52",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} happens, lock onto that team and report every {Throw-in} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 2537.0,
-      "end": 2537.0,
-      "text": "Trigger: Shots off target by right @ 1 - 42:17"
-    },
-    {
-      "start": 2590.0,
-      "end": 2590.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 2616.0,
-      "end": 2616.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} happens, lock onto that team. Respond 'Trigger: {Shots off target} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in}. Left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2537000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 B. Monchengladbach 4 - 2 Sevilla/segment_002510_002630.json",
-  "segment_meta": {
-    "start_seconds": 2510,
-    "end_seconds": 2630,
-    "length_seconds": 120,
-    "start_time_mmss": "41:50",
-    "end_time_mmss": "43:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

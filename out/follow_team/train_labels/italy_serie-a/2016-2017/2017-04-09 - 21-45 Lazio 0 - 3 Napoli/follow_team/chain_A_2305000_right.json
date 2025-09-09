@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20729,
   "video_id": "33699789-724e-56de-8a4a-7e4027b1cc34",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2305.0,
-      "end": 2305.0,
-      "text": "Trigger: Throw-in by right @ 1 - 38:25"
-    },
-    {
-      "start": 2313.0,
-      "end": 2313.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2305000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 21-45 Lazio 0 - 3 Napoli/segment_002240_002320.json",
-  "segment_meta": {
-    "start_seconds": 2240,
-    "end_seconds": 2320,
-    "length_seconds": 80,
-    "start_time_mmss": "37:20",
-    "end_time_mmss": "38:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

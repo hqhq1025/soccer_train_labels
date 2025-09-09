@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4392,
   "video_id": "6f040299-40bd-5d15-9b5c-d946d1fb1983",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Direct free-kick}, start tracking that team; notify me on its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Direct free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Direct free-kick} by left/right'; for each {Shots on target}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5389.0,
-      "end": 5389.0,
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 5393.0,
-      "end": 5393.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5389000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/segment_005360_005400.json",
-  "segment_meta": {
-    "start_seconds": 5360,
-    "end_seconds": 5400,
-    "length_seconds": 40,
-    "start_time_mmss": "89:20",
-    "end_time_mmss": "90:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9505,
   "video_id": "c929f3ef-49a4-52e0-a950-b629ea8a2e61",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Foul} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 3734.0,
-      "end": 3734.0,
-      "text": "Trigger: Foul by right @ 2 - 17:14"
-    },
-    {
-      "start": 3741.0,
-      "end": 3741.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that team. Answer format: at trigger reply 'Trigger: {Foul} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3734000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Barcelona 7 - 0 Celtic/segment_003690_003770.json",
-  "segment_meta": {
-    "start_seconds": 3690,
-    "end_seconds": 3770,
-    "length_seconds": 80,
-    "start_time_mmss": "61:30",
-    "end_time_mmss": "62:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

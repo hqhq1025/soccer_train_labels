@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3193,
   "video_id": "639530a9-5b12-560e-a903-a8ae9ee9a574",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Throw-in and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Throw-in and Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 5242.0,
-      "end": 5242.0,
-      "text": "Trigger: Foul by right @ 2 - 42:22"
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
     },
     {
-      "start": 5272.0,
-      "end": 5272.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 5309.0,
-      "end": 5309.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5242000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/segment_005220_005340.json",
-  "segment_meta": {
-    "start_seconds": 5220,
-    "end_seconds": 5340,
-    "length_seconds": 120,
-    "start_time_mmss": "87:00",
-    "end_time_mmss": "89:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

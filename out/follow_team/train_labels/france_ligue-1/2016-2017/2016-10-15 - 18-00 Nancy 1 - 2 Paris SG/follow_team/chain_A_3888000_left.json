@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1169,
   "video_id": "da93ee6d-6deb-5188-b4de-bca99aea1193",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 3888.0,
-      "end": 3888.0,
-      "text": "Trigger: Foul by left @ 2 - 19:48"
-    },
-    {
-      "start": 3931.0,
-      "end": 3931.0,
-      "text": "Then: Indirect free-kick by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Indirect free-kick}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3888000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/segment_003850_003970.json",
-  "segment_meta": {
-    "start_seconds": 3850,
-    "end_seconds": 3970,
-    "length_seconds": 120,
-    "start_time_mmss": "64:10",
-    "end_time_mmss": "66:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ]
 }

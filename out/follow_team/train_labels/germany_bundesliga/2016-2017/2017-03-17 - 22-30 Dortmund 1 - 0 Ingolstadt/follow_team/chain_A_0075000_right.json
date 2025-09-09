@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4065,
   "video_id": "0f524305-e40f-53ba-85a0-34149e677088",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Offside} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 75.0,
-      "end": 75.0,
-      "text": "Trigger: Indirect free-kick by right @ 1 - 01:15"
-    },
-    {
-      "start": 83.0,
-      "end": 83.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team. Respond 'Trigger: {Indirect free-kick} by left/right', and for {Offside} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 75000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_000010_000130.json",
-  "segment_meta": {
-    "start_seconds": 10,
-    "end_seconds": 130,
-    "length_seconds": 120,
-    "start_time_mmss": "00:10",
-    "end_time_mmss": "02:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

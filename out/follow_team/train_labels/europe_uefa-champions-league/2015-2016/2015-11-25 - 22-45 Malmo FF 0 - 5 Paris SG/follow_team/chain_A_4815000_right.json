@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5211,
   "video_id": "fe9ddd0d-5fa2-5cd1-b4b5-4dd9e0d56a04",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Substitution}.",
-  "answer": [
+  "question": [
     {
-      "start": 4815.0,
-      "end": 4815.0,
-      "text": "Trigger: Foul by right @ 2 - 35:15"
-    },
-    {
-      "start": 4847.0,
-      "end": 4847.0,
-      "text": "Then: Substitution by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team; answer strictly as 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Substitution}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4815000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/segment_004780_004880.json",
-  "segment_meta": {
-    "start_seconds": 4780,
-    "end_seconds": 4880,
-    "length_seconds": 100,
-    "start_time_mmss": "79:40",
-    "end_time_mmss": "81:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Then: Substitution by right"
+    }
+  ]
 }

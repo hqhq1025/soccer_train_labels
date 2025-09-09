@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22343,
   "video_id": "9d844674-35c8-54a9-a181-0d7814414171",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Shots off target} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 4197.0,
-      "end": 4197.0,
-      "text": "Trigger: Clearance by left @ 2 - 24:57"
-    },
-    {
-      "start": 4220.0,
-      "end": 4220.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and reply exactly 'Trigger: {Clearance} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4197000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/segment_004150_004230.json",
-  "segment_meta": {
-    "start_seconds": 4150,
-    "end_seconds": 4230,
-    "length_seconds": 80,
-    "start_time_mmss": "69:10",
-    "end_time_mmss": "70:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21018,
   "video_id": "3c6d5f3a-5b1c-5302-8dd2-d3fc536ff0cc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 422.0,
-      "end": 422.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 430.0,
-      "end": 430.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 422000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-26 - 17-00 Liverpool 3 - 2 Aston Villa/segment_000340_000440.json",
-  "segment_meta": {
-    "start_seconds": 340,
-    "end_seconds": 440,
-    "length_seconds": 100,
-    "start_time_mmss": "05:40",
-    "end_time_mmss": "07:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 618,
   "video_id": "0769cf35-221f-5b96-bf22-f49804b2eda9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Substitution} happens, lock onto that team and report every {Clearance} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Substitution} happens, lock onto that team. Respond 'Trigger: {Substitution} by left/right' and thereafter 'Then: <Event> by left/right' for {Clearance}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3726.0,
-      "end": 3726.0,
+      "start": 16.0,
+      "end": 16.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 3742.0,
-      "end": 3742.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3726000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/segment_003710_003750.json",
-  "segment_meta": {
-    "start_seconds": 3710,
-    "end_seconds": 3750,
-    "length_seconds": 40,
-    "start_time_mmss": "61:50",
-    "end_time_mmss": "62:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

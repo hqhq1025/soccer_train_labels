@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16092,
   "video_id": "5700c0aa-f3b1-5c03-8875-a3942175f913",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team; answer strictly as 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5282.0,
-      "end": 5282.0,
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 5286.0,
-      "end": 5286.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5282000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/segment_005240_005300.json",
-  "segment_meta": {
-    "start_seconds": 5240,
-    "end_seconds": 5300,
-    "length_seconds": 60,
-    "start_time_mmss": "87:20",
-    "end_time_mmss": "88:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16295,
   "video_id": "190c59c7-caf4-5d25-9d1d-a30fc79e9826",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} happens, lock onto that team and report every {Foul} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 5096.0,
-      "end": 5096.0,
-      "text": "Trigger: Shots off target by right @ 2 - 39:56"
-    },
-    {
-      "start": 5099.0,
-      "end": 5099.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, continue tracking that team. Answers must be 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5096000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/segment_005050_005130.json",
-  "segment_meta": {
-    "start_seconds": 5050,
-    "end_seconds": 5130,
-    "length_seconds": 80,
-    "start_time_mmss": "84:10",
-    "end_time_mmss": "85:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

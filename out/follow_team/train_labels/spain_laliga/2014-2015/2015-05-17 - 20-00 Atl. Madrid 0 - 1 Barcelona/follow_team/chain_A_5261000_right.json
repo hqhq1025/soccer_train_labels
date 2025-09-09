@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11429,
   "video_id": "5cb35130-a371-5bf0-9ce4-e2d7904d3576",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in, Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in, Foul and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 5261.0,
-      "end": 5261.0,
-      "text": "Trigger: Throw-in by right @ 2 - 42:41"
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 5284.0,
-      "end": 5284.0,
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 5308.0,
-      "end": 5308.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 5316.0,
-      "end": 5316.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5261000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Atl. Madrid 0 - 1 Barcelona/segment_005240_005340.json",
-  "segment_meta": {
-    "start_seconds": 5240,
-    "end_seconds": 5340,
-    "length_seconds": 100,
-    "start_time_mmss": "87:20",
-    "end_time_mmss": "89:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

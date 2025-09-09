@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 447,
   "video_id": "b32adfe1-28e0-523f-80f2-feebc2e94f65",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots off target} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 2225.0,
-      "end": 2225.0,
-      "text": "Trigger: Corner by right @ 1 - 37:05"
-    },
-    {
-      "start": 2237.0,
-      "end": 2237.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2225000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-27 - 22-45 Lyon 1 - 2 Paris SG/segment_002210_002310.json",
-  "segment_meta": {
-    "start_seconds": 2210,
-    "end_seconds": 2310,
-    "length_seconds": 100,
-    "start_time_mmss": "36:50",
-    "end_time_mmss": "38:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

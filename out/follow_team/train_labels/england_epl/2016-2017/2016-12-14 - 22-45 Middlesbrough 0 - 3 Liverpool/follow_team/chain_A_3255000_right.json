@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25009,
   "video_id": "54263ce6-4433-5d46-82f5-db7c2d7bbbed",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Foul} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 3255.0,
-      "end": 3255.0,
-      "text": "Trigger: Shots on target by right @ 2 - 09:15"
-    },
-    {
-      "start": 3305.0,
-      "end": 3305.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team. Respond 'Trigger: {Shots on target} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul}. Left/right only."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3255000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/segment_003240_003360.json",
-  "segment_meta": {
-    "start_seconds": 3240,
-    "end_seconds": 3360,
-    "length_seconds": 120,
-    "start_time_mmss": "54:00",
-    "end_time_mmss": "56:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

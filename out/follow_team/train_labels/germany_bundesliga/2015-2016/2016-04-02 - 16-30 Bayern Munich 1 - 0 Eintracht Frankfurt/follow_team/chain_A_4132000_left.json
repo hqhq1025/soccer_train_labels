@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2301,
   "video_id": "3576e36a-b56c-522d-bef8-db06601899c5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4132.0,
-      "end": 4132.0,
-      "text": "Trigger: Clearance by left @ 2 - 23:52"
-    },
-    {
-      "start": 4168.0,
-      "end": 4168.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and reply exactly 'Trigger: {Clearance} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4132000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/segment_004110_004170.json",
-  "segment_meta": {
-    "start_seconds": 4110,
-    "end_seconds": 4170,
-    "length_seconds": 60,
-    "start_time_mmss": "68:30",
-    "end_time_mmss": "69:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

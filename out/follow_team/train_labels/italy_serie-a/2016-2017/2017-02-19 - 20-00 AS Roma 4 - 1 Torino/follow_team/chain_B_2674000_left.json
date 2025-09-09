@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19328,
   "video_id": "cb89b056-5293-5b0f-b27a-34eb03d7be90",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots on target}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2674.0,
-      "end": 2674.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2684.0,
-      "end": 2684.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2674000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/segment_002590_002710.json",
-  "segment_meta": {
-    "start_seconds": 2590,
-    "end_seconds": 2710,
-    "length_seconds": 120,
-    "start_time_mmss": "43:10",
-    "end_time_mmss": "45:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15712,
   "video_id": "70f08bed-7624-54e8-b0bc-d4436f483077",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team; answer strictly as 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2710.0,
-      "end": 2710.0,
+      "start": 40.0,
+      "end": 40.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 2776.0,
-      "end": 2776.0,
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2710000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_002670_002790.json",
-  "segment_meta": {
-    "start_seconds": 2670,
-    "end_seconds": 2790,
-    "length_seconds": 120,
-    "start_time_mmss": "44:30",
-    "end_time_mmss": "46:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

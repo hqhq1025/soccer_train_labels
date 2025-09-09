@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8887,
   "video_id": "2a52e101-09ec-574f-a8c6-5c3b17e256d1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Clearance}.",
-  "answer": [
+  "question": [
     {
-      "start": 148.0,
-      "end": 148.0,
-      "text": "Trigger: Throw-in by left @ 1 - 02:28"
-    },
-    {
-      "start": 195.0,
-      "end": 195.0,
-      "text": "Then: Clearance by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Clearance}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 148000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-12 - 21-45 Bayern Munich 3 - 2 Barcelona/segment_000090_000210.json",
-  "segment_meta": {
-    "start_seconds": 90,
-    "end_seconds": 210,
-    "length_seconds": 120,
-    "start_time_mmss": "01:30",
-    "end_time_mmss": "03:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
+      "text": "Then: Clearance by left"
+    }
+  ]
 }

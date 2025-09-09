@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22358,
   "video_id": "1f8c17d0-5540-5b0a-9deb-847dbc6eacf0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3496.0,
-      "end": 3496.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3529.0,
-      "end": 3529.0,
+      "start": 109.0,
+      "end": 109.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3496000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/segment_003420_003540.json",
-  "segment_meta": {
-    "start_seconds": 3420,
-    "end_seconds": 3540,
-    "length_seconds": 120,
-    "start_time_mmss": "57:00",
-    "end_time_mmss": "59:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

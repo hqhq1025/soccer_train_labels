@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24879,
   "video_id": "b015f8a9-fd03-5746-a474-9e5e35bb93a0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Throw-in} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 2997.0,
-      "end": 2997.0,
-      "text": "Trigger: Shots on target by left @ 2 - 04:57"
-    },
-    {
-      "start": 3026.0,
-      "end": 3026.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2997000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/segment_002930_003030.json",
-  "segment_meta": {
-    "start_seconds": 2930,
-    "end_seconds": 3030,
-    "length_seconds": 100,
-    "start_time_mmss": "48:50",
-    "end_time_mmss": "50:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

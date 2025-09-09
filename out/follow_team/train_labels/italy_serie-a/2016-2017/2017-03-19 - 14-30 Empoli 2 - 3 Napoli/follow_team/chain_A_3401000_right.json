@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18437,
   "video_id": "d42a1972-ca77-5823-b3fa-fb4e797c0095",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Direct free-kick and Shots off target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Direct free-kick and Shots off target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3401.0,
-      "end": 3401.0,
-      "text": "Trigger: Throw-in by right @ 2 - 11:41"
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3453.0,
-      "end": 3453.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Direct free-kick by right"
     },
     {
-      "start": 3454.0,
-      "end": 3454.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3401000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/segment_003340_003460.json",
-  "segment_meta": {
-    "start_seconds": 3340,
-    "end_seconds": 3460,
-    "length_seconds": 120,
-    "start_time_mmss": "55:40",
-    "end_time_mmss": "57:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

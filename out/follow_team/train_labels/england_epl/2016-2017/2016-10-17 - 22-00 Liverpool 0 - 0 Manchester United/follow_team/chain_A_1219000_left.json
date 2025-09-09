@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23315,
   "video_id": "0ef79f95-bc2f-582e-93ea-66e3ac4511a8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 1219.0,
-      "end": 1219.0,
-      "text": "Trigger: Throw-in by left @ 1 - 20:19"
-    },
-    {
-      "start": 1234.0,
-      "end": 1234.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots off target}. Left/right only."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1219000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-17 - 22-00 Liverpool 0 - 0 Manchester United/segment_001120_001240.json",
-  "segment_meta": {
-    "start_seconds": 1120,
-    "end_seconds": 1240,
-    "length_seconds": 120,
-    "start_time_mmss": "18:40",
-    "end_time_mmss": "20:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

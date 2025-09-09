@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11665,
   "video_id": "b579e6d2-3199-5ede-874f-11abf0d35391",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 5121.0,
-      "end": 5121.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 40:21"
-    },
-    {
-      "start": 5176.0,
-      "end": 5176.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5121000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/segment_005060_005180.json",
-  "segment_meta": {
-    "start_seconds": 5060,
-    "end_seconds": 5180,
-    "length_seconds": 120,
-    "start_time_mmss": "84:20",
-    "end_time_mmss": "86:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

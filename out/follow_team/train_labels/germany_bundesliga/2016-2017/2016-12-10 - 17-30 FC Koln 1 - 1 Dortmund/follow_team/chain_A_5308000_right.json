@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4205,
   "video_id": "95c5257c-c473-534c-b1c5-0bfe008975d6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Indirect free-kick, Goal and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Foul} occurs, keep following the same team and reply exactly 'Trigger: {Foul} by left/right'; then for each {Indirect free-kick, Goal and Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5308.0,
-      "end": 5308.0,
-      "text": "Trigger: Foul by right @ 2 - 43:28"
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
     },
     {
-      "start": 5350.0,
-      "end": 5350.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     },
     {
-      "start": 5374.0,
-      "end": 5374.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Goal by right"
     },
     {
-      "start": 5374.0,
-      "end": 5374.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5308000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-12-10 - 17-30 FC Koln 1 - 1 Dortmund/segment_005260_005380.json",
-  "segment_meta": {
-    "start_seconds": 5260,
-    "end_seconds": 5380,
-    "length_seconds": 120,
-    "start_time_mmss": "87:40",
-    "end_time_mmss": "89:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

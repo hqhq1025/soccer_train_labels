@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16600,
   "video_id": "41b5aeeb-b16b-5408-9afc-1d88691dcc1e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Yellow card}, stick with that team and alert me for {Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Yellow card} occurs, keep following the same team and reply exactly 'Trigger: {Yellow card} by left/right'; then for each {Clearance} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5451.0,
-      "end": 5451.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Trigger: Yellow card by left"
     },
     {
-      "start": 5459.0,
-      "end": 5459.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5451000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_005370_005490.json",
-  "segment_meta": {
-    "start_seconds": 5370,
-    "end_seconds": 5490,
-    "length_seconds": 120,
-    "start_time_mmss": "89:30",
-    "end_time_mmss": "91:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

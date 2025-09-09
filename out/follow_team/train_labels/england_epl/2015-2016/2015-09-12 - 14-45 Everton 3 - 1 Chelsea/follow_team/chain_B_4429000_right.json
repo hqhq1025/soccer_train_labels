@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22626,
   "video_id": "5b3c2ceb-2285-525e-95d5-616cbeaacd20",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Substitution} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Substitution} happens, lock onto that team. Respond 'Trigger: {Substitution} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4429.0,
-      "end": 4429.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Trigger: Substitution by right"
     },
     {
-      "start": 4443.0,
-      "end": 4443.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4429000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_004390_004490.json",
-  "segment_meta": {
-    "start_seconds": 4390,
-    "end_seconds": 4490,
-    "length_seconds": 100,
-    "start_time_mmss": "73:10",
-    "end_time_mmss": "74:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

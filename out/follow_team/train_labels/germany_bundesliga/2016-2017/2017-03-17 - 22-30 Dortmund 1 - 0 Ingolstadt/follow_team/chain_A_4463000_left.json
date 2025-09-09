@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4069,
   "video_id": "15e3d812-ac8c-5bc0-b9c5-ab1c60954a65",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Substitution}, continue tracking that team and notify me about any {Direct free-kick and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Substitution}, keep following that team. Use left/right only; 'Trigger: {Substitution} by left/right', then 'Then: <Event> by left/right' for {Direct free-kick and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4463.0,
-      "end": 4463.0,
-      "text": "Trigger: Substitution by left @ 2 - 29:23"
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Trigger: Substitution by left"
     },
     {
-      "start": 4528.0,
-      "end": 4528.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Direct free-kick by left"
     },
     {
-      "start": 4529.0,
-      "end": 4529.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4463000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_004410_004530.json",
-  "segment_meta": {
-    "start_seconds": 4410,
-    "end_seconds": 4530,
-    "length_seconds": 120,
-    "start_time_mmss": "73:30",
-    "end_time_mmss": "75:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

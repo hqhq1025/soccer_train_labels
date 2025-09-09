@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24807,
   "video_id": "64ef9084-cace-5d9a-b8fc-e52f8ac61b02",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 5270.0,
-      "end": 5270.0,
-      "text": "Trigger: Throw-in by left @ 2 - 42:50"
-    },
-    {
-      "start": 5297.0,
-      "end": 5297.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5270000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/segment_005200_005320.json",
-  "segment_meta": {
-    "start_seconds": 5200,
-    "end_seconds": 5320,
-    "length_seconds": 120,
-    "start_time_mmss": "86:40",
-    "end_time_mmss": "88:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

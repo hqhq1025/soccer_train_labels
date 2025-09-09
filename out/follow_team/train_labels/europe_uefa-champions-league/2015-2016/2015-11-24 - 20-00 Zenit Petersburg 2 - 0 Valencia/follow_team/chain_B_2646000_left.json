@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5102,
   "video_id": "5ecad690-8413-5653-9d2b-ce99637cf6cc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} happens, lock onto that team and report every {Foul} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, start tracking that team. Use responses 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2646.0,
-      "end": 2646.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 2672.0,
-      "end": 2672.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2646000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/segment_002590_002690.json",
-  "segment_meta": {
-    "start_seconds": 2590,
-    "end_seconds": 2690,
-    "length_seconds": 100,
-    "start_time_mmss": "43:10",
-    "end_time_mmss": "44:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

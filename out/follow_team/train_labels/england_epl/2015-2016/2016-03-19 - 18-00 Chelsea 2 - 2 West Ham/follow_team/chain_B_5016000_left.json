@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21200,
   "video_id": "30c8347b-804b-57ee-b475-fde4f74aeb25",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Substitution}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Substitution}, follow the same team and list all subsequent {Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 5016.0,
-      "end": 5016.0,
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 5029.0,
-      "end": 5029.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5016000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/segment_004910_005030.json",
-  "segment_meta": {
-    "start_seconds": 4910,
-    "end_seconds": 5030,
-    "length_seconds": 120,
-    "start_time_mmss": "81:50",
-    "end_time_mmss": "83:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

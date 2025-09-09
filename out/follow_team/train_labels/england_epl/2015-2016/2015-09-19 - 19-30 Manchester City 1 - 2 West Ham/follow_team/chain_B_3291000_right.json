@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22850,
   "video_id": "afb8dae4-f30d-5730-ba3d-89de8f9e6146",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3291.0,
-      "end": 3291.0,
+      "start": 11.0,
+      "end": 11.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3317.0,
-      "end": 3317.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3291000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/segment_003280_003320.json",
-  "segment_meta": {
-    "start_seconds": 3280,
-    "end_seconds": 3320,
-    "length_seconds": 40,
-    "start_time_mmss": "54:40",
-    "end_time_mmss": "55:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

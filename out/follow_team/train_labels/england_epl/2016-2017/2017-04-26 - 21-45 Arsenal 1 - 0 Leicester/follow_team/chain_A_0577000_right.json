@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25629,
   "video_id": "6e38de98-68a2-5c52-bbb7-42b7c132f303",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Offside} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 577.0,
-      "end": 577.0,
-      "text": "Trigger: Throw-in by right @ 1 - 09:37"
-    },
-    {
-      "start": 596.0,
-      "end": 596.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Offside}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 577000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/segment_000530_000610.json",
-  "segment_meta": {
-    "start_seconds": 530,
-    "end_seconds": 610,
-    "length_seconds": 80,
-    "start_time_mmss": "08:50",
-    "end_time_mmss": "10:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

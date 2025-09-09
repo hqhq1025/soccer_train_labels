@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22976,
   "video_id": "6dfceb51-6240-5e72-ad47-bb249d4dd8ad",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5238.0,
-      "end": 5238.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5244.0,
-      "end": 5244.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5238000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/segment_005170_005290.json",
-  "segment_meta": {
-    "start_seconds": 5170,
-    "end_seconds": 5290,
-    "length_seconds": 120,
-    "start_time_mmss": "86:10",
-    "end_time_mmss": "88:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

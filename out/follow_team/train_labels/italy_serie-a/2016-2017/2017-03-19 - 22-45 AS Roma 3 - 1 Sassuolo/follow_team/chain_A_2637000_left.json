@@ -1,51 +1,48 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18623,
   "video_id": "a4462f20-73a1-5760-9263-2c0df0c1a0ef",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Throw-in, Shots off target, Shots on target and Kick-off} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, continue tracking that team. Answers must be 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Throw-in, Shots off target, Shots on target and Kick-off}."
+    }
+  ],
   "answer": [
     {
-      "start": 2637.0,
-      "end": 2637.0,
-      "text": "Trigger: Shots on target by left @ 1 - 43:57"
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2663.0,
-      "end": 2663.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2682.0,
-      "end": 2682.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     },
     {
-      "start": 2702.0,
-      "end": 2702.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 2700.0,
-      "end": 2700.0,
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
       "text": "Then: Kick-off by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2637000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/segment_002600_002720.json",
-  "segment_meta": {
-    "start_seconds": 2600,
-    "end_seconds": 2720,
-    "length_seconds": 120,
-    "start_time_mmss": "43:20",
-    "end_time_mmss": "45:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

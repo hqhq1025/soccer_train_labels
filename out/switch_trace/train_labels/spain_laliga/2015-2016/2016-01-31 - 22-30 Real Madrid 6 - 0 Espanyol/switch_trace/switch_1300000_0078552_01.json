@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 16281,
+  "video_id": "f9631c0e-d4f1-5828-b212-22c3b1d02b99",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Foul and Shots off target} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 78.552,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Clearance}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 19.841,
+      "end": 19.841,
+      "count": 0,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 78.552,
+      "end": 78.552,
+      "count": 0,
+      "text": "Alert - Shots off target"
+    },
+    {
+      "start": 106.473,
+      "end": 106.473,
+      "count": 1,
+      "text": "Alert - Clearance"
+    }
+  ]
+}

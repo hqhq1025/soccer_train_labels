@@ -1,6 +1,6 @@
 {
   "source": "soccer",
-  "id": 202,
+  "id": 57717,
   "video_id": "8b0ed3d4-aa86-5653-9723-2b42314a2f57",
   "data_type": "online",
   "train_stage": 2,
@@ -10,12 +10,12 @@
     {
       "time": 0.0,
       "count": 0,
-      "text": "Monitor {Shots on target} and notify me each time it happens."
+      "text": "Watch {Foul and Shots on target} and say which team (left/right only) when it happens. Use 'Team left/right - <Event>'."
     },
     {
       "time": 48.509,
       "count": 1,
-      "text": "Please track {Clearance} and alert me whenever it occurs."
+      "text": "Please watch for {Clearance} and alert me whenever it appears. Use 'Alert - <Event>'."
     }
   ],
   "answer": [
@@ -26,10 +26,16 @@
       "text": "Alert - Clearance"
     },
     {
+      "start": 88.588,
+      "end": 88.588,
+      "count": 0,
+      "text": "Team left - Foul"
+    },
+    {
       "start": 114.757,
       "end": 114.757,
       "count": 0,
-      "text": "Alert - Shots on target"
+      "text": "Team right - Shots on target"
     }
   ]
 }

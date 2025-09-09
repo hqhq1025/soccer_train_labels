@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17462,
   "video_id": "f91e61ba-2482-5583-9bd2-abb92c15e777",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots off target}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots off target} occurs, keep following the same team and reply exactly 'Trigger: {Shots off target} by left/right'; then for each {Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 459.0,
-      "end": 459.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 476.0,
-      "end": 476.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 459000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-24 - 21-45 Pescara 1 - 4 AS Roma/segment_000380_000480.json",
-  "segment_meta": {
-    "start_seconds": 380,
-    "end_seconds": 480,
-    "length_seconds": 100,
-    "start_time_mmss": "06:20",
-    "end_time_mmss": "08:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

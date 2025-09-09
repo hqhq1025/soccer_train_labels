@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24274,
   "video_id": "5772f90b-83b6-55a8-90d6-46a2e2820441",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Direct free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Direct free-kick} by left/right'; then for each {Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2768.0,
-      "end": 2768.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 2777.0,
-      "end": 2777.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2768000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/segment_002740_002780.json",
-  "segment_meta": {
-    "start_seconds": 2740,
-    "end_seconds": 2780,
-    "length_seconds": 40,
-    "start_time_mmss": "45:40",
-    "end_time_mmss": "46:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

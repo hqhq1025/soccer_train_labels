@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 860,
   "video_id": "0d58b50e-4b2b-5c75-933b-c29699c801dc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4662.0,
-      "end": 4662.0,
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 4671.0,
-      "end": 4671.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4662000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/segment_004620_004680.json",
-  "segment_meta": {
-    "start_seconds": 4620,
-    "end_seconds": 4680,
-    "length_seconds": 60,
-    "start_time_mmss": "77:00",
-    "end_time_mmss": "78:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

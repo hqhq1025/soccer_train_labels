@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24017,
   "video_id": "713a42da-1ab7-5959-9c86-26577dab545a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Substitution}; then follow that team and report its {Indirect free-kick and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Substitution}, follow the same team and list all subsequent {Indirect free-kick and Throw-in}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 5238.0,
-      "end": 5238.0,
-      "text": "Trigger: Substitution by right @ 2 - 42:18"
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Substitution by right"
     },
     {
-      "start": 5253.0,
-      "end": 5253.0,
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     },
     {
-      "start": 5280.0,
-      "end": 5280.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5238000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/segment_005210_005290.json",
-  "segment_meta": {
-    "start_seconds": 5210,
-    "end_seconds": 5290,
-    "length_seconds": 80,
-    "start_time_mmss": "86:50",
-    "end_time_mmss": "88:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

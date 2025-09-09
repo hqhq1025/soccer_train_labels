@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15552,
   "video_id": "bd1bc9c2-099c-5075-b3d2-dc906697de02",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Clearance}, stick with that team and alert me for {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 4018.0,
-      "end": 4018.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 4041.0,
-      "end": 4041.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4018000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/segment_003960_004080.json",
-  "segment_meta": {
-    "start_seconds": 3960,
-    "end_seconds": 4080,
-    "length_seconds": 120,
-    "start_time_mmss": "66:00",
-    "end_time_mmss": "68:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

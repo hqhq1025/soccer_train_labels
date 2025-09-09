@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4615,
   "video_id": "36cb4671-a4ca-5a6d-bcb7-f14d7df66b46",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 4174.0,
-      "end": 4174.0,
-      "text": "Trigger: Foul by right @ 2 - 24:34"
-    },
-    {
-      "start": 4181.0,
-      "end": 4181.0,
-      "text": "Then: Yellow card by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Foul}, stick with that team. For {Yellow card}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4174000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/segment_004070_004190.json",
-  "segment_meta": {
-    "start_seconds": 4070,
-    "end_seconds": 4190,
-    "length_seconds": 120,
-    "start_time_mmss": "67:50",
-    "end_time_mmss": "69:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
+      "text": "Then: Yellow card by right"
+    }
+  ]
 }

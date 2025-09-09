@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5553,
   "video_id": "e3ee7cb5-4c51-5c3d-a746-19b4b4666817",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Offside} happens, lock onto that team and report every {Throw-in} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 4636.0,
-      "end": 4636.0,
-      "text": "Trigger: Offside by left @ 2 - 32:16"
-    },
-    {
-      "start": 4699.0,
-      "end": 4699.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Offside}, follow that team. Answer format: at trigger reply 'Trigger: {Offside} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4636000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/segment_004580_004700.json",
-  "segment_meta": {
-    "start_seconds": 4580,
-    "end_seconds": 4700,
-    "length_seconds": 120,
-    "start_time_mmss": "76:20",
-    "end_time_mmss": "78:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

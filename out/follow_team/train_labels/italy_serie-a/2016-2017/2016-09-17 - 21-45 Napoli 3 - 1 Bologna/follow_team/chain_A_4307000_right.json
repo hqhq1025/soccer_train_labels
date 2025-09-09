@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19603,
   "video_id": "d974c997-1560-5053-a442-6760d62ec5af",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 4307.0,
-      "end": 4307.0,
-      "text": "Trigger: Throw-in by right @ 2 - 26:47"
-    },
-    {
-      "start": 4316.0,
-      "end": 4316.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4307000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/segment_004210_004330.json",
-  "segment_meta": {
-    "start_seconds": 4210,
-    "end_seconds": 4330,
-    "length_seconds": 120,
-    "start_time_mmss": "70:10",
-    "end_time_mmss": "72:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

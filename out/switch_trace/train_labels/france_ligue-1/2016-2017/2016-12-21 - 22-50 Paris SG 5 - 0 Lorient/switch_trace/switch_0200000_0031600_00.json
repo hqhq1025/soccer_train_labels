@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 2398,
+  "video_id": "a9716928-d4cf-57c9-bb74-71290f1be268",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Keep an eye on {Direct free-kick}; alert me on occurrence. Answer format: 'Alert - <Event>'."
+    },
+    {
+      "time": 31.6,
+      "count": 1,
+      "text": "Stop the last one and continuously follow {Shots off target and Ball out of play} from now on. Respond 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 31.6,
+      "end": 31.6,
+      "count": 0,
+      "text": "Alert - Direct free-kick"
+    },
+    {
+      "start": 71.125,
+      "end": 71.125,
+      "count": 1,
+      "text": "Alert - Shots off target"
+    },
+    {
+      "start": 72.285,
+      "end": 72.285,
+      "count": 1,
+      "text": "Alert - Ball out of play"
+    }
+  ]
+}

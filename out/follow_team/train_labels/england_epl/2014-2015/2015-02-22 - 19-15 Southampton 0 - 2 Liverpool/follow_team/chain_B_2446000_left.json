@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23152,
   "video_id": "5ca060a9-f002-5af4-8e20-fe6c3a7b384b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Indirect free-kick} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2446.0,
-      "end": 2446.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 2480.0,
-      "end": 2480.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2446000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/segment_002390_002490.json",
-  "segment_meta": {
-    "start_seconds": 2390,
-    "end_seconds": 2490,
-    "length_seconds": 100,
-    "start_time_mmss": "39:50",
-    "end_time_mmss": "41:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

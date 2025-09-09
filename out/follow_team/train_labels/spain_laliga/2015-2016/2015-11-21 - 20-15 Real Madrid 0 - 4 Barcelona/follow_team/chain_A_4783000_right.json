@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10543,
   "video_id": "7f6fea4a-d484-57ad-af41-263d250f2dd8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4783.0,
-      "end": 4783.0,
-      "text": "Trigger: Throw-in by right @ 2 - 34:43"
-    },
-    {
-      "start": 4818.0,
-      "end": 4818.0,
-      "text": "Then: Shots on target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Shots on target}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4783000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-21 - 20-15 Real Madrid 0 - 4 Barcelona/segment_004750_004870.json",
-  "segment_meta": {
-    "start_seconds": 4750,
-    "end_seconds": 4870,
-    "length_seconds": 120,
-    "start_time_mmss": "79:10",
-    "end_time_mmss": "81:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17846,
   "video_id": "b0cbabab-1e7c-5db8-8483-9474932055d0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team. Use responses 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5132.0,
-      "end": 5132.0,
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 5134.0,
-      "end": 5134.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5132000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_005040_005140.json",
-  "segment_meta": {
-    "start_seconds": 5040,
-    "end_seconds": 5140,
-    "length_seconds": 100,
-    "start_time_mmss": "84:00",
-    "end_time_mmss": "85:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

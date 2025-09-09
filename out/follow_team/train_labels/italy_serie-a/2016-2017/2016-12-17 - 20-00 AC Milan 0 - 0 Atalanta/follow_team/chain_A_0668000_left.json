@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17177,
   "video_id": "1b167e60-44b1-57d1-a28d-c21f4189baac",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 668.0,
-      "end": 668.0,
-      "text": "Trigger: Indirect free-kick by left @ 1 - 11:08"
-    },
-    {
-      "start": 688.0,
-      "end": 688.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 668000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_000650_000690.json",
-  "segment_meta": {
-    "start_seconds": 650,
-    "end_seconds": 690,
-    "length_seconds": 40,
-    "start_time_mmss": "10:50",
-    "end_time_mmss": "11:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 18.0,
+      "end": 18.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

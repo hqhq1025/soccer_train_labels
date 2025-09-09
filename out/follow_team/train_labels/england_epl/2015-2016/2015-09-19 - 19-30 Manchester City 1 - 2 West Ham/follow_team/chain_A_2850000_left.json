@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22815,
   "video_id": "ab4411be-2777-5abf-86c2-45a6fec9c96a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Clearance and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Clearance and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2850.0,
-      "end": 2850.0,
-      "text": "Trigger: Foul by left @ 1 - 47:30"
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 2845.0,
-      "end": 2845.0,
+      "start": 5.0,
+      "end": 5.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     },
     {
-      "start": 2852.0,
-      "end": 2852.0,
+      "start": 12.0,
+      "end": 12.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2850000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/segment_002840_002960.json",
-  "segment_meta": {
-    "start_seconds": 2840,
-    "end_seconds": 2960,
-    "length_seconds": 120,
-    "start_time_mmss": "47:20",
-    "end_time_mmss": "49:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

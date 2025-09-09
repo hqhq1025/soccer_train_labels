@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11086,
   "video_id": "62a70c53-2c19-5b24-802e-440d13d292f0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3163.0,
-      "end": 3163.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 3164.0,
-      "end": 3164.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3163000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-16 - 17-00 Getafe 1 - 5 Real Madrid/segment_003110_003170.json",
-  "segment_meta": {
-    "start_seconds": 3110,
-    "end_seconds": 3170,
-    "length_seconds": 60,
-    "start_time_mmss": "51:50",
-    "end_time_mmss": "52:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

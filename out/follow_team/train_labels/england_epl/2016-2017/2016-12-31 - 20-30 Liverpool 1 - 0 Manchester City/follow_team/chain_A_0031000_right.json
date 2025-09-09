@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24417,
   "video_id": "dfd3dbe2-9eb4-5842-b49b-157419a4b23f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Foul}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
       "start": 31.0,
       "end": 31.0,
-      "text": "Trigger: Foul by right @ 1 - 00:31"
+      "count": 0,
+      "text": "Trigger: Foul by right"
     },
     {
       "start": 114.0,
       "end": 114.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 31000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/segment_000000_000120.json",
-  "segment_meta": {
-    "start_seconds": 0,
-    "end_seconds": 120,
-    "length_seconds": 120,
-    "start_time_mmss": "00:00",
-    "end_time_mmss": "02:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

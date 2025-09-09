@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24198,
   "video_id": "7b3606ae-7401-553f-ba88-821102e0825a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, keep following that team. Use left/right only; 'Trigger: {Indirect free-kick} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 535.0,
-      "end": 535.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 576.0,
-      "end": 576.0,
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 535000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/segment_000510_000610.json",
-  "segment_meta": {
-    "start_seconds": 510,
-    "end_seconds": 610,
-    "length_seconds": 100,
-    "start_time_mmss": "08:30",
-    "end_time_mmss": "10:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

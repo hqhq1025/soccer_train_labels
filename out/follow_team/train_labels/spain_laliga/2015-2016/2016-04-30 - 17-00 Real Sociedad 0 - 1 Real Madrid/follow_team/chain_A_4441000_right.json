@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9995,
   "video_id": "d1c94b6d-e0f2-56af-9bc4-75f8c12c8aa5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 4441.0,
-      "end": 4441.0,
-      "text": "Trigger: Foul by right @ 2 - 29:01"
-    },
-    {
-      "start": 4448.0,
-      "end": 4448.0,
-      "text": "Then: Yellow card by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2016-04-30 - 17-00 Real Sociedad 0 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-30 - 17-00 Real Sociedad 0 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4441000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-30 - 17-00 Real Sociedad 0 - 1 Real Madrid/segment_004410_004450.json",
-  "segment_meta": {
-    "start_seconds": 4410,
-    "end_seconds": 4450,
-    "length_seconds": 40,
-    "start_time_mmss": "73:30",
-    "end_time_mmss": "74:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Then: Yellow card by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1149,
   "video_id": "7c73e5b8-aaf7-56ca-b991-082a449c669e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 4182.0,
-      "end": 4182.0,
-      "text": "Trigger: Foul by left @ 2 - 24:42"
-    },
-    {
-      "start": 4189.0,
-      "end": 4189.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Foul}, stick with that team. For {Yellow card}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4182000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/segment_004150_004190.json",
-  "segment_meta": {
-    "start_seconds": 4150,
-    "end_seconds": 4190,
-    "length_seconds": 40,
-    "start_time_mmss": "69:10",
-    "end_time_mmss": "69:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19607,
   "video_id": "f2b8096a-720f-51d1-bbe7-122bdfb11ab2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Red card}.",
-  "answer": [
+  "question": [
     {
-      "start": 4798.0,
-      "end": 4798.0,
-      "text": "Trigger: Foul by left @ 2 - 34:58"
-    },
-    {
-      "start": 4802.0,
-      "end": 4802.0,
-      "text": "Then: Red card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Foul}, follow the same team and list all subsequent {Red card}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4798000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/segment_004770_004810.json",
-  "segment_meta": {
-    "start_seconds": 4770,
-    "end_seconds": 4810,
-    "length_seconds": 40,
-    "start_time_mmss": "79:30",
-    "end_time_mmss": "80:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Then: Red card by left"
+    }
+  ]
 }

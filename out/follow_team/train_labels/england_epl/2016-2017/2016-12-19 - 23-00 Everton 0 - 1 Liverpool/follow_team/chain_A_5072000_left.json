@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24805,
   "video_id": "bcbfd70f-6243-5f9a-bd27-eedc8e0c98d6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 5072.0,
-      "end": 5072.0,
-      "text": "Trigger: Foul by left @ 2 - 39:32"
-    },
-    {
-      "start": 5088.0,
-      "end": 5088.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5072000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-19 - 23-00 Everton 0 - 1 Liverpool/segment_005050_005090.json",
-  "segment_meta": {
-    "start_seconds": 5050,
-    "end_seconds": 5090,
-    "length_seconds": 40,
-    "start_time_mmss": "84:10",
-    "end_time_mmss": "84:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

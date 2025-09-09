@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 832,
   "video_id": "4de4e6dc-e858-5ea4-b3a6-15a73d18ed5d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Direct free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Direct free-kick} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3717.0,
-      "end": 3717.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 3737.0,
-      "end": 3737.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3717000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-14 - 21-45 Angers 0 - 2 Paris SG/segment_003660_003760.json",
-  "segment_meta": {
-    "start_seconds": 3660,
-    "end_seconds": 3760,
-    "length_seconds": 100,
-    "start_time_mmss": "61:00",
-    "end_time_mmss": "62:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

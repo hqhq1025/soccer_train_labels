@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24989,
   "video_id": "97de0aa9-1689-51b6-b519-552f661b3ee3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3888.0,
-      "end": 3888.0,
-      "text": "Trigger: Throw-in by left @ 2 - 19:48"
-    },
-    {
-      "start": 3904.0,
-      "end": 3904.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Shots on target}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3888000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-22 - 19-30 Liverpool 2 - 1 West Brom/segment_003790_003910.json",
-  "segment_meta": {
-    "start_seconds": 3790,
-    "end_seconds": 3910,
-    "length_seconds": 120,
-    "start_time_mmss": "63:10",
-    "end_time_mmss": "65:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

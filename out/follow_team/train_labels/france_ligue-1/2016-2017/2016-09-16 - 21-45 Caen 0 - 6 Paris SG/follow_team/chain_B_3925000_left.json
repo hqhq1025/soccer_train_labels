@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 498,
   "video_id": "997b3bdb-5ea9-51ec-a882-f269c002c45a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots off target}; then follow that team. Respond 'Trigger: {Shots off target} by left/right', and for {Clearance} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3925.0,
-      "end": 3925.0,
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 3959.0,
-      "end": 3959.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3925000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-16 - 21-45 Caen 0 - 6 Paris SG/segment_003880_003980.json",
-  "segment_meta": {
-    "start_seconds": 3880,
-    "end_seconds": 3980,
-    "length_seconds": 100,
-    "start_time_mmss": "64:40",
-    "end_time_mmss": "66:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

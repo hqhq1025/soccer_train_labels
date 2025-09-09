@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 14007,
   "video_id": "c9dc43da-6c20-523b-98ce-f627fa51da3f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4456.0,
-      "end": 4456.0,
-      "text": "Trigger: Corner by left @ 2 - 29:16"
-    },
-    {
-      "start": 4507.0,
-      "end": 4507.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Corner}, follow the same team and list all subsequent {Shots on target}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4456000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/segment_004410_004510.json",
-  "segment_meta": {
-    "start_seconds": 4410,
-    "end_seconds": 4510,
-    "length_seconds": 100,
-    "start_time_mmss": "73:30",
-    "end_time_mmss": "75:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

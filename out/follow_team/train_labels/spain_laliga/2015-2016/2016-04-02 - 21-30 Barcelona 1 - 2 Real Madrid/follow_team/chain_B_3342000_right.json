@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11134,
   "video_id": "21e13957-194b-565a-9e2d-c95315203c8f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots on target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots on target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3342.0,
-      "end": 3342.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 3343.0,
-      "end": 3343.0,
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3342000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-02 - 21-30 Barcelona 1 - 2 Real Madrid/segment_003320_003380.json",
-  "segment_meta": {
-    "start_seconds": 3320,
-    "end_seconds": 3380,
-    "length_seconds": 60,
-    "start_time_mmss": "55:20",
-    "end_time_mmss": "56:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21133,
   "video_id": "4c3e4771-f327-5799-95b0-4da4796ddcc4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
+    }
+  ],
   "answer": [
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
     {
       "start": 33.0,
       "end": 33.0,
-      "text": "Trigger: Foul by right @ 1 - 00:33"
-    },
-    {
-      "start": 43.0,
-      "end": 43.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 33000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-05-07 - 17-00 Sunderland 3 - 2 Chelsea/segment_000010_000050.json",
-  "segment_meta": {
-    "start_seconds": 10,
-    "end_seconds": 50,
-    "length_seconds": 40,
-    "start_time_mmss": "00:10",
-    "end_time_mmss": "00:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24544,
   "video_id": "b65db78b-6b52-512c-8689-2f8cab16558c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Corner} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 455.0,
-      "end": 455.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 485.0,
-      "end": 485.0,
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 455000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/segment_000400_000520.json",
-  "segment_meta": {
-    "start_seconds": 400,
-    "end_seconds": 520,
-    "length_seconds": 120,
-    "start_time_mmss": "06:40",
-    "end_time_mmss": "08:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1777,
   "video_id": "89e42946-aefa-52bc-b610-2b21b80eefba",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Throw-in and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Direct free-kick}, start tracking that team. Use responses 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in and Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 2990.0,
-      "end": 2990.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 04:50"
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 3010.0,
-      "end": 3010.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 3034.0,
-      "end": 3034.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2990000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/segment_002960_003040.json",
-  "segment_meta": {
-    "start_seconds": 2960,
-    "end_seconds": 3040,
-    "length_seconds": 80,
-    "start_time_mmss": "49:20",
-    "end_time_mmss": "50:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

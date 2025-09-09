@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19545,
   "video_id": "0b910cf0-fe53-5f95-8393-4b0c8d8f6671",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Goal and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Goal and Shots on target}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2985.0,
-      "end": 2985.0,
-      "text": "Trigger: Throw-in by left @ 2 - 04:45"
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2990.0,
-      "end": 2990.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Goal by left"
     },
     {
-      "start": 2990.0,
-      "end": 2990.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2985000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_002880_003000.json",
-  "segment_meta": {
-    "start_seconds": 2880,
-    "end_seconds": 3000,
-    "length_seconds": 120,
-    "start_time_mmss": "48:00",
-    "end_time_mmss": "50:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23775,
   "video_id": "1476d52f-8b98-5075-9eb3-8dd8603580ec",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Clearance}.",
-  "answer": [
+  "question": [
     {
-      "start": 906.0,
-      "end": 906.0,
-      "text": "Trigger: Foul by left @ 1 - 15:06"
-    },
-    {
-      "start": 980.0,
-      "end": 980.0,
-      "text": "Then: Clearance by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Clearance}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 906000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-02-27 - 23-00 Leicester 3 - 1 Liverpool/segment_000880_001000.json",
-  "segment_meta": {
-    "start_seconds": 880,
-    "end_seconds": 1000,
-    "length_seconds": 120,
-    "start_time_mmss": "14:40",
-    "end_time_mmss": "16:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
+      "text": "Then: Clearance by left"
+    }
+  ]
 }

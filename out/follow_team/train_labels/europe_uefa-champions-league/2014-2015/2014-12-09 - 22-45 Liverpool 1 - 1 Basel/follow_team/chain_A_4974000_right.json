@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8199,
   "video_id": "7dc0d82d-2db4-5ea7-97af-5885b08b19cc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Substitution}, start tracking that team; notify me on its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4974.0,
-      "end": 4974.0,
-      "text": "Trigger: Substitution by right @ 2 - 37:54"
-    },
-    {
-      "start": 4988.0,
-      "end": 4988.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Substitution} happens, lock onto that team. Respond 'Trigger: {Substitution} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul}. Left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4974000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-09 - 22-45 Liverpool 1 - 1 Basel/segment_004870_004990.json",
-  "segment_meta": {
-    "start_seconds": 4870,
-    "end_seconds": 4990,
-    "length_seconds": 120,
-    "start_time_mmss": "81:10",
-    "end_time_mmss": "83:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
+      "text": "Trigger: Substitution by right"
+    },
+    {
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

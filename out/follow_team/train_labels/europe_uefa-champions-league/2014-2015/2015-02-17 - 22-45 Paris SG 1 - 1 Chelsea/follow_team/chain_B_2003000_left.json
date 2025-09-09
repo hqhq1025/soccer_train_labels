@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7936,
   "video_id": "77ffe002-b326-5c2e-b497-54f3dd05bd95",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Shots on target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots on target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2003.0,
-      "end": 2003.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 2004.0,
-      "end": 2004.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2003000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-17 - 22-45 Paris SG 1 - 1 Chelsea/segment_001930_002030.json",
-  "segment_meta": {
-    "start_seconds": 1930,
-    "end_seconds": 2030,
-    "length_seconds": 100,
-    "start_time_mmss": "32:10",
-    "end_time_mmss": "33:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

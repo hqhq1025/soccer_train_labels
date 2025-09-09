@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6983,
   "video_id": "475c28f8-bd57-5772-b088-886135ab955a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Corner and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, continue tracking that team. Answers must be 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Corner and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4453.0,
-      "end": 4453.0,
-      "text": "Trigger: Shots on target by left @ 2 - 29:13"
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 4476.0,
-      "end": 4476.0,
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 4507.0,
-      "end": 4507.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4453000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-10-20 - 21-45 Arsenal 2 - 0 Bayern Munich/segment_004390_004510.json",
-  "segment_meta": {
-    "start_seconds": 4390,
-    "end_seconds": 4510,
-    "length_seconds": 120,
-    "start_time_mmss": "73:10",
-    "end_time_mmss": "75:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

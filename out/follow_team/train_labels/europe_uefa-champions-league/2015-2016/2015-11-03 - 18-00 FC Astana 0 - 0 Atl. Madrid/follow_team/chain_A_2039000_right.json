@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5855,
   "video_id": "0ff1c448-35fa-50d0-a1f8-2bece1f39361",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2039.0,
-      "end": 2039.0,
-      "text": "Trigger: Corner by right @ 1 - 33:59"
-    },
-    {
-      "start": 2110.0,
-      "end": 2110.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 2129.0,
-      "end": 2129.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2039000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 18-00 FC Astana 0 - 0 Atl. Madrid/segment_002010_002130.json",
-  "segment_meta": {
-    "start_seconds": 2010,
-    "end_seconds": 2130,
-    "length_seconds": 120,
-    "start_time_mmss": "33:30",
-    "end_time_mmss": "35:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

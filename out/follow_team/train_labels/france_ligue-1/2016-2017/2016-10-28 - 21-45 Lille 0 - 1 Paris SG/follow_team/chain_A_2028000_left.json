@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1405,
   "video_id": "0f3c0526-113d-5ee1-8d8d-737f726b8ec1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Direct free-kick}, start tracking that team; notify me on its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2028.0,
-      "end": 2028.0,
-      "text": "Trigger: Direct free-kick by left @ 1 - 33:48"
-    },
-    {
-      "start": 2070.0,
-      "end": 2070.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Direct free-kick}, continue tracking that team. Answers must be 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2028000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-28 - 21-45 Lille 0 - 1 Paris SG/segment_001980_002080.json",
-  "segment_meta": {
-    "start_seconds": 1980,
-    "end_seconds": 2080,
-    "length_seconds": 100,
-    "start_time_mmss": "33:00",
-    "end_time_mmss": "34:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

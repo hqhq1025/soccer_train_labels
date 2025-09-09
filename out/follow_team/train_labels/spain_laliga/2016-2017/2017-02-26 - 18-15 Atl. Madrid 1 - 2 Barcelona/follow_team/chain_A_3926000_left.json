@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13083,
   "video_id": "a6b8579e-5ad9-564a-ab12-28b7ae6d74d6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Yellow card}, start tracking that team; notify me on its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 3926.0,
-      "end": 3926.0,
-      "text": "Trigger: Yellow card by left @ 2 - 20:26"
-    },
-    {
-      "start": 3930.0,
-      "end": 3930.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Yellow card}, stick with that team. For {Foul}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3926000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/segment_003860_003940.json",
-  "segment_meta": {
-    "start_seconds": 3860,
-    "end_seconds": 3940,
-    "length_seconds": 80,
-    "start_time_mmss": "64:20",
-    "end_time_mmss": "65:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
+      "text": "Trigger: Yellow card by left"
+    },
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

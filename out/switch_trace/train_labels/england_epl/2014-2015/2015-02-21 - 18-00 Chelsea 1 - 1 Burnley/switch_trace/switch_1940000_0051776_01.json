@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 36066,
+  "video_id": "ece0e334-9d68-559e-890c-0f826452df41",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Ball out of play and Throw-in} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 51.776,
+      "count": 1,
+      "text": "Cease the prior task and start continuously tracking {Corner} now. Reply 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 51.776,
+      "end": 51.776,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 81.651,
+      "end": 81.651,
+      "count": 1,
+      "text": "Alert - Corner"
+    }
+  ]
+}

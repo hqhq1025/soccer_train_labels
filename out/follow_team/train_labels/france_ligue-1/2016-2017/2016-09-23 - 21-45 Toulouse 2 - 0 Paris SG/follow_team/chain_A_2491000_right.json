@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1717,
   "video_id": "9c4dae26-2104-5c51-a5dd-a618da7ce359",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Clearance}.",
-  "answer": [
+  "question": [
     {
-      "start": 2491.0,
-      "end": 2491.0,
-      "text": "Trigger: Shots off target by right @ 1 - 41:31"
-    },
-    {
-      "start": 2492.0,
-      "end": 2492.0,
-      "text": "Then: Clearance by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, keep following that team. Use left/right only; 'Trigger: {Shots off target} by left/right', then 'Then: <Event> by left/right' for {Clearance}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2491000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/segment_002380_002500.json",
-  "segment_meta": {
-    "start_seconds": 2380,
-    "end_seconds": 2500,
-    "length_seconds": 120,
-    "start_time_mmss": "39:40",
-    "end_time_mmss": "41:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
+      "text": "Then: Clearance by right"
+    }
+  ]
 }

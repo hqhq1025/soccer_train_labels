@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5581,
   "video_id": "2a0d3028-420f-549f-b5f4-ca581fc10044",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Offside and Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Offside and Substitution}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4956.0,
-      "end": 4956.0,
-      "text": "Trigger: Throw-in by left @ 2 - 37:36"
+      "start": 6.0,
+      "end": 6.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 4965.0,
-      "end": 4965.0,
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
       "text": "Then: Offside by left"
     },
     {
-      "start": 5019.0,
-      "end": 5019.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4956000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/segment_004950_005070.json",
-  "segment_meta": {
-    "start_seconds": 4950,
-    "end_seconds": 5070,
-    "length_seconds": 120,
-    "start_time_mmss": "82:30",
-    "end_time_mmss": "84:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

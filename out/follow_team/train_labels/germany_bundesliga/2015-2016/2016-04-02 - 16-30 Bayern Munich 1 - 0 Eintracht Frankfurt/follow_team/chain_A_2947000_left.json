@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2291,
   "video_id": "dce4b24a-34af-5eec-9a50-ea76788a1c78",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 2947.0,
-      "end": 2947.0,
-      "text": "Trigger: Direct free-kick by left @ 2 - 04:07"
-    },
-    {
-      "start": 2950.0,
-      "end": 2950.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Direct free-kick}, continue tracking that team. Answers must be 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2947000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-04-02 - 16-30 Bayern Munich 1 - 0 Eintracht Frankfurt/segment_002840_002960.json",
-  "segment_meta": {
-    "start_seconds": 2840,
-    "end_seconds": 2960,
-    "length_seconds": 120,
-    "start_time_mmss": "47:20",
-    "end_time_mmss": "49:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 107.0,
+      "end": 107.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

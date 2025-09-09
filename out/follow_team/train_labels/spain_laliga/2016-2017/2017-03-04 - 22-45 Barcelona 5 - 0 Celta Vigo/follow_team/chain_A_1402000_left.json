@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 12057,
   "video_id": "28849a93-ff88-527a-a3de-43bf7801c4c7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 1402.0,
-      "end": 1402.0,
-      "text": "Trigger: Shots on target by left @ 1 - 23:22"
-    },
-    {
-      "start": 1403.0,
-      "end": 1403.0,
-      "text": "Then: Goal by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Goal} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1402000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/segment_001370_001410.json",
-  "segment_meta": {
-    "start_seconds": 1370,
-    "end_seconds": 1410,
-    "length_seconds": 40,
-    "start_time_mmss": "22:50",
-    "end_time_mmss": "23:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
+      "text": "Then: Goal by left"
+    }
+  ]
 }

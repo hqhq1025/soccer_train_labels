@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16519,
   "video_id": "914c0e9e-eac5-5530-a209-bdbb3b3b7087",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Offside}, follow that same team and alert me whenever it has {Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Offside}, start tracking that team. Use responses 'Trigger: {Offside} by left/right' and 'Then: <Event> by left/right' for {Foul and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 4301.0,
-      "end": 4301.0,
-      "text": "Trigger: Offside by right @ 2 - 26:41"
+      "start": 11.0,
+      "end": 11.0,
+      "count": 0,
+      "text": "Trigger: Offside by right"
     },
     {
-      "start": 4381.0,
-      "end": 4381.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 4383.0,
-      "end": 4383.0,
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4301000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_004290_004390.json",
-  "segment_meta": {
-    "start_seconds": 4290,
-    "end_seconds": 4390,
-    "length_seconds": 100,
-    "start_time_mmss": "71:30",
-    "end_time_mmss": "73:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

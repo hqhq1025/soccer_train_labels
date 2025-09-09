@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3699,
   "video_id": "20da954f-85bb-570c-a3ea-8e685c12417f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Substitution and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} happens, lock onto that team. Respond 'Trigger: {Foul} by left/right' and thereafter 'Then: <Event> by left/right' for {Substitution and Throw-in}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4777.0,
-      "end": 4777.0,
-      "text": "Trigger: Foul by left @ 2 - 34:37"
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 4811.0,
-      "end": 4811.0,
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     },
     {
-      "start": 4832.0,
-      "end": 4832.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4777000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-18 - 17-30 Dortmund 3 - 0 Wolfsburg/segment_004750_004870.json",
-  "segment_meta": {
-    "start_seconds": 4750,
-    "end_seconds": 4870,
-    "length_seconds": 120,
-    "start_time_mmss": "79:10",
-    "end_time_mmss": "81:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

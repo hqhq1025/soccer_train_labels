@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23574,
   "video_id": "e828672d-900a-5a63-856d-0b5c4bb048e6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Shots off target}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2015.0,
-      "end": 2015.0,
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2021.0,
-      "end": 2021.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2015000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/segment_001950_002030.json",
-  "segment_meta": {
-    "start_seconds": 1950,
-    "end_seconds": 2030,
-    "length_seconds": 80,
-    "start_time_mmss": "32:30",
-    "end_time_mmss": "33:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

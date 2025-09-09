@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11382,
   "video_id": "f2f5f56e-5264-5342-ab5f-d2f94ec7d602",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Offside}, continue tracking that team and notify me about any {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Offside}, follow that team. Answer format: at trigger reply 'Trigger: {Offside} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2917.0,
-      "end": 2917.0,
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
       "text": "Trigger: Offside by left"
     },
     {
-      "start": 2970.0,
-      "end": 2970.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2917000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/segment_002900_002980.json",
-  "segment_meta": {
-    "start_seconds": 2900,
-    "end_seconds": 2980,
-    "length_seconds": 80,
-    "start_time_mmss": "48:20",
-    "end_time_mmss": "49:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

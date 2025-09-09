@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21902,
   "video_id": "d4f45352-8506-55d6-8ba9-890085b4d5fe",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Goal} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 4393.0,
-      "end": 4393.0,
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 4418.0,
-      "end": 4418.0,
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4393000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/segment_004310_004430.json",
-  "segment_meta": {
-    "start_seconds": 4310,
-    "end_seconds": 4430,
-    "length_seconds": 120,
-    "start_time_mmss": "71:50",
-    "end_time_mmss": "73:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

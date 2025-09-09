@@ -1,6 +1,6 @@
 {
   "source": "soccer",
-  "id": 418,
+  "id": 57965,
   "video_id": "e90dafa1-0ea0-519c-b4e2-a4faaf0eaf43",
   "data_type": "online",
   "train_stage": 2,
@@ -10,25 +10,31 @@
     {
       "time": 0.0,
       "count": 0,
-      "text": "Keep watching for {Ball out of play} and let me know each time."
+      "text": "Track {Shots off target and Shots on target} and report which team triggers it (left/right only). Answer 'Team left/right - <Event>'."
     },
     {
       "time": 76.047,
       "count": 1,
-      "text": "Observe the stream and alert me for every {Shots on target}."
+      "text": "Track {Ball out of play} and alert me whenever it happens. Answer: 'Alert - <Event>'."
     }
   ],
   "answer": [
     {
-      "start": 48.044,
-      "end": 48.044,
+      "start": 76.047,
+      "end": 76.047,
       "count": 0,
-      "text": "Alert - Ball out of play"
+      "text": "Team right - Shots on target"
+    },
+    {
+      "start": 92.124,
+      "end": 92.124,
+      "count": 0,
+      "text": "Team left - Shots off target"
     },
     {
       "start": 94.684,
       "end": 94.684,
-      "count": 0,
+      "count": 1,
       "text": "Alert - Ball out of play"
     }
   ]

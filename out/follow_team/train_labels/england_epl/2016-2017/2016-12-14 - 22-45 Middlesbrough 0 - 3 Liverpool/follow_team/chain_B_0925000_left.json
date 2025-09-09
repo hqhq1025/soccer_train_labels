@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25056,
   "video_id": "41c3a419-5082-5c36-9631-e51e5921c01a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Offside}, follow the same team and list all subsequent {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Offside}, continue tracking that team. Answers must be 'Trigger: {Offside} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 925.0,
-      "end": 925.0,
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
       "text": "Trigger: Offside by left"
     },
     {
-      "start": 997.0,
-      "end": 997.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 925000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-14 - 22-45 Middlesbrough 0 - 3 Liverpool/segment_000910_001030.json",
-  "segment_meta": {
-    "start_seconds": 910,
-    "end_seconds": 1030,
-    "length_seconds": 120,
-    "start_time_mmss": "15:10",
-    "end_time_mmss": "17:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

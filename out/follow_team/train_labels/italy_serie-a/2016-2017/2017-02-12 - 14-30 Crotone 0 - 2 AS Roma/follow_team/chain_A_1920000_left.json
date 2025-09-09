@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18227,
   "video_id": "5f0e1198-c076-5321-93e7-c230ea62e4b7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 1920.0,
-      "end": 1920.0,
-      "text": "Trigger: Shots off target by left @ 1 - 32:00"
-    },
-    {
-      "start": 1948.0,
-      "end": 1948.0,
-      "text": "Then: Corner by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots off target}, stick with that team. For {Corner}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1920000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/segment_001850_001950.json",
-  "segment_meta": {
-    "start_seconds": 1850,
-    "end_seconds": 1950,
-    "length_seconds": 100,
-    "start_time_mmss": "30:50",
-    "end_time_mmss": "32:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
+      "text": "Then: Corner by left"
+    }
+  ]
 }

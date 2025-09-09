@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9017,
   "video_id": "21c89794-03a7-59d8-869d-f0841b5e712d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, start tracking that team; notify me on its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 5245.0,
-      "end": 5245.0,
-      "text": "Trigger: Shots off target by right @ 2 - 42:25"
-    },
-    {
-      "start": 5266.0,
-      "end": 5266.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, continue tracking that team. Answers must be 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5245000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/segment_005210_005330.json",
-  "segment_meta": {
-    "start_seconds": 5210,
-    "end_seconds": 5330,
-    "length_seconds": 120,
-    "start_time_mmss": "86:50",
-    "end_time_mmss": "88:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

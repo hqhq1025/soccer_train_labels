@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19575,
   "video_id": "ec075782-f78b-5a4b-b727-f35cc1889a48",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Offside}, stick with that team and alert me for {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3046.0,
-      "end": 3046.0,
-      "text": "Trigger: Offside by left @ 2 - 05:46"
-    },
-    {
-      "start": 3084.0,
-      "end": 3084.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Offside}; then follow that team. Respond 'Trigger: {Offside} by left/right', and for {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3046000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_003030_003090.json",
-  "segment_meta": {
-    "start_seconds": 3030,
-    "end_seconds": 3090,
-    "length_seconds": 60,
-    "start_time_mmss": "50:30",
-    "end_time_mmss": "51:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 16.0,
+      "end": 16.0,
+      "count": 0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

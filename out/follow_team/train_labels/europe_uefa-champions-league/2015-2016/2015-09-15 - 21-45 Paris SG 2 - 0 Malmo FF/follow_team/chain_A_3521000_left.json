@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6755,
   "video_id": "4dc7b75e-317e-54dd-8089-a089dd24ac68",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 3521.0,
-      "end": 3521.0,
-      "text": "Trigger: Corner by left @ 2 - 13:41"
-    },
-    {
-      "start": 3541.0,
-      "end": 3541.0,
-      "text": "Then: Offside by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Offside} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3521000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Paris SG 2 - 0 Malmo FF/segment_003500_003580.json",
-  "segment_meta": {
-    "start_seconds": 3500,
-    "end_seconds": 3580,
-    "length_seconds": 80,
-    "start_time_mmss": "58:20",
-    "end_time_mmss": "59:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
+      "text": "Then: Offside by left"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20869,
   "video_id": "29e7e2b3-70d0-5fab-a860-4188affa80f2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 3335.0,
-      "end": 3335.0,
-      "text": "Trigger: Shots off target by left @ 2 - 10:35"
-    },
-    {
-      "start": 3352.0,
-      "end": 3352.0,
-      "text": "Then: Corner by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Corner}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3335000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-04 - 17-00 AS Roma 1 - 2 Napoli/segment_003240_003360.json",
-  "segment_meta": {
-    "start_seconds": 3240,
-    "end_seconds": 3360,
-    "length_seconds": 120,
-    "start_time_mmss": "54:00",
-    "end_time_mmss": "56:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
+      "text": "Then: Corner by left"
+    }
+  ]
 }

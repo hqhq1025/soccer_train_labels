@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24057,
   "video_id": "5076eb0d-7b74-59af-b7a1-ad6449d85ba0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Shots on target and Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 252.0,
-      "end": 252.0,
-      "text": "Trigger: Throw-in by left @ 1 - 04:12"
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 256.0,
-      "end": 256.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 257.0,
-      "end": 257.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 252000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-10 - 20-30 Leicester 4 - 2 Manchester City/segment_000140_000260.json",
-  "segment_meta": {
-    "start_seconds": 140,
-    "end_seconds": 260,
-    "length_seconds": 120,
-    "start_time_mmss": "02:20",
-    "end_time_mmss": "04:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

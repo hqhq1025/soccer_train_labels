@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18994,
   "video_id": "b2823683-e3a9-579c-a530-71d4331cd8cb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Yellow card}, follow that same team and alert me whenever it has {Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Yellow card}, keep following that team. Use left/right only; 'Trigger: {Yellow card} by left/right', then 'Then: <Event> by left/right' for {Clearance}."
+    }
+  ],
   "answer": [
     {
-      "start": 5573.0,
-      "end": 5573.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Trigger: Yellow card by right"
     },
     {
-      "start": 5582.0,
-      "end": 5582.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Then: Clearance by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5573000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_005510_005590.json",
-  "segment_meta": {
-    "start_seconds": 5510,
-    "end_seconds": 5590,
-    "length_seconds": 80,
-    "start_time_mmss": "91:50",
-    "end_time_mmss": "93:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

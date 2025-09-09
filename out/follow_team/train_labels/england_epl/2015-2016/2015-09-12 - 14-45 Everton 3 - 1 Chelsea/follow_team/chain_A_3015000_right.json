@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22579,
   "video_id": "b9f887e9-25be-54a6-8524-26cbf186645c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Throw-in and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, keep following that team. Use left/right only; 'Trigger: {Corner} by left/right', then 'Then: <Event> by left/right' for {Throw-in and Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3015.0,
-      "end": 3015.0,
-      "text": "Trigger: Corner by right @ 2 - 05:15"
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
     },
     {
-      "start": 3040.0,
-      "end": 3040.0,
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 3044.0,
-      "end": 3044.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3015000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_002940_003060.json",
-  "segment_meta": {
-    "start_seconds": 2940,
-    "end_seconds": 3060,
-    "length_seconds": 120,
-    "start_time_mmss": "49:00",
-    "end_time_mmss": "51:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

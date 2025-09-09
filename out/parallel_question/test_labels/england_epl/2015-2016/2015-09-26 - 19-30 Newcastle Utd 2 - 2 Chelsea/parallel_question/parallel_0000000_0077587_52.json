@@ -1,6 +1,6 @@
 {
   "source": "soccer",
-  "id": 175,
+  "id": 57690,
   "video_id": "8b0ed3d4-aa86-5653-9723-2b42314a2f57",
   "data_type": "online",
   "train_stage": 2,
@@ -10,12 +10,12 @@
     {
       "time": 0.0,
       "count": 0,
-      "text": "Monitor {Shots off target} and report the team whenever it happens."
+      "text": "Track {Shots off target} and alert me whenever it happens. Answer: 'Alert - <Event>'."
     },
     {
       "time": 77.587,
       "count": 1,
-      "text": "Watch {Foul and Shots on target} and say which team when it happens."
+      "text": "Please track {Clearance and Foul} and alert me whenever it occurs. Reply exactly: 'Alert - <Event>'."
     }
   ],
   "answer": [
@@ -23,19 +23,13 @@
       "start": 46.469,
       "end": 46.469,
       "count": 0,
-      "text": "Team right - Shots off target"
+      "text": "Alert - Shots off target"
     },
     {
       "start": 88.588,
       "end": 88.588,
       "count": 1,
-      "text": "Team left - Foul"
-    },
-    {
-      "start": 114.757,
-      "end": 114.757,
-      "count": 1,
-      "text": "Team right - Shots on target"
+      "text": "Alert - Foul"
     }
   ]
 }

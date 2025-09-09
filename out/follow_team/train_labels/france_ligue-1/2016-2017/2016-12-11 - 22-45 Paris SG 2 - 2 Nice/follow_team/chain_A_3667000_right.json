@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 591,
   "video_id": "3a219540-d1fc-573c-8c6f-5455ac0d76c8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3667.0,
-      "end": 3667.0,
-      "text": "Trigger: Corner by right @ 2 - 16:07"
-    },
-    {
-      "start": 3669.0,
-      "end": 3669.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, follow that team. Answer format: at trigger reply 'Trigger: {Corner} by left/right'; for each {Shots off target}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3667000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/segment_003550_003670.json",
-  "segment_meta": {
-    "start_seconds": 3550,
-    "end_seconds": 3670,
-    "length_seconds": 120,
-    "start_time_mmss": "59:10",
-    "end_time_mmss": "61:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

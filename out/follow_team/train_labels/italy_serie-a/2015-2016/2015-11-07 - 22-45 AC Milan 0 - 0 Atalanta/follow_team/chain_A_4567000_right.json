@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15383,
   "video_id": "772bfdfa-5120-53bc-8ab9-a396f6e8971f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and reply exactly 'Trigger: {Clearance} by left/right'; then for each {Foul and Yellow card} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4567.0,
-      "end": 4567.0,
-      "text": "Trigger: Clearance by right @ 2 - 31:07"
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
     },
     {
-      "start": 4591.0,
-      "end": 4591.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 4614.0,
-      "end": 4614.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4567000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/segment_004540_004640.json",
-  "segment_meta": {
-    "start_seconds": 4540,
-    "end_seconds": 4640,
-    "length_seconds": 100,
-    "start_time_mmss": "75:40",
-    "end_time_mmss": "77:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

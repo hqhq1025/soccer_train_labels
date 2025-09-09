@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 791,
   "video_id": "a39d812c-7ed9-541d-9950-9e95ab6dd50c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Substitution}.",
-  "answer": [
+  "question": [
     {
-      "start": 4818.0,
-      "end": 4818.0,
-      "text": "Trigger: Foul by left @ 2 - 35:18"
-    },
-    {
-      "start": 4847.0,
-      "end": 4847.0,
-      "text": "Then: Substitution by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Substitution}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4818000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/segment_004790_004850.json",
-  "segment_meta": {
-    "start_seconds": 4790,
-    "end_seconds": 4850,
-    "length_seconds": 60,
-    "start_time_mmss": "79:50",
-    "end_time_mmss": "80:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
+      "text": "Then: Substitution by left"
+    }
+  ]
 }

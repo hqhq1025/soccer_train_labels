@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2237,
   "video_id": "b8a0cacd-77fc-525f-9185-b0c9d0072531",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Offside} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 5392.0,
-      "end": 5392.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 44:52"
-    },
-    {
-      "start": 5394.0,
-      "end": 5394.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Offside}."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5392000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_005340_005420.json",
-  "segment_meta": {
-    "start_seconds": 5340,
-    "end_seconds": 5420,
-    "length_seconds": 80,
-    "start_time_mmss": "89:00",
-    "end_time_mmss": "90:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

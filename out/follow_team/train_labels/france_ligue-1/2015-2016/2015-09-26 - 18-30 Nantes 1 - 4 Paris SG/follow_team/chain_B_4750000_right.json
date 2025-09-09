@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 124,
   "video_id": "2884f2f0-3ed4-532a-bc6f-d15a011233a4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Goal} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4750.0,
-      "end": 4750.0,
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 4752.0,
-      "end": 4752.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4750000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/segment_004650_004770.json",
-  "segment_meta": {
-    "start_seconds": 4650,
-    "end_seconds": 4770,
-    "length_seconds": 120,
-    "start_time_mmss": "77:30",
-    "end_time_mmss": "79:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

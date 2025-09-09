@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1671,
   "video_id": "90b43ecc-73ae-535f-87a9-b934ec6d2936",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, start tracking that team; notify me on its {Kick-off}.",
-  "answer": [
+  "question": [
     {
-      "start": 2684.0,
-      "end": 2684.0,
-      "text": "Trigger: Shots off target by right @ 1 - 44:44"
-    },
-    {
-      "start": 2700.0,
-      "end": 2700.0,
-      "text": "Then: Kick-off by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, start tracking that team. Use responses 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Kick-off}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2684000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/segment_002590_002710.json",
-  "segment_meta": {
-    "start_seconds": 2590,
-    "end_seconds": 2710,
-    "length_seconds": 120,
-    "start_time_mmss": "43:10",
-    "end_time_mmss": "45:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
+      "text": "Then: Kick-off by right"
+    }
+  ]
 }

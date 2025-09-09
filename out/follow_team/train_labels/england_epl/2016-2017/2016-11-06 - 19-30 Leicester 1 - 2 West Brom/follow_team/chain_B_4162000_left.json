@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23830,
   "video_id": "d6287a4c-fcb9-5985-aea7-bdace5c3a882",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, keep following that team. Use left/right only; 'Trigger: {Corner} by left/right', then 'Then: <Event> by left/right' for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4162.0,
-      "end": 4162.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 4163.0,
-      "end": 4163.0,
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4162000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/segment_004140_004200.json",
-  "segment_meta": {
-    "start_seconds": 4140,
-    "end_seconds": 4200,
-    "length_seconds": 60,
-    "start_time_mmss": "69:00",
-    "end_time_mmss": "70:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

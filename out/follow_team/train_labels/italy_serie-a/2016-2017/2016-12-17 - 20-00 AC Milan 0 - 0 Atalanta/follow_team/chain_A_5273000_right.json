@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17265,
   "video_id": "e63c6c5a-10bd-552f-8661-92eca2c74d40",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Foul} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 5273.0,
-      "end": 5273.0,
-      "text": "Trigger: Throw-in by right @ 2 - 42:53"
-    },
-    {
-      "start": 5278.0,
-      "end": 5278.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5273000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-17 - 20-00 AC Milan 0 - 0 Atalanta/segment_005250_005370.json",
-  "segment_meta": {
-    "start_seconds": 5250,
-    "end_seconds": 5370,
-    "length_seconds": 120,
-    "start_time_mmss": "87:30",
-    "end_time_mmss": "89:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16078,
   "video_id": "76008ae0-1fce-5af0-80d9-57b892a58986",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Goal} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2871.0,
-      "end": 2871.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 2872.0,
-      "end": 2872.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2871000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-11 - 21-45 Verona 0 - 3 Inter/segment_002820_002880.json",
-  "segment_meta": {
-    "start_seconds": 2820,
-    "end_seconds": 2880,
-    "length_seconds": 60,
-    "start_time_mmss": "47:00",
-    "end_time_mmss": "48:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

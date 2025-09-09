@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24925,
   "video_id": "d7fe1cca-7940-5708-9c9e-f3ef146c8164",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4343.0,
-      "end": 4343.0,
-      "text": "Trigger: Throw-in by right @ 2 - 27:23"
-    },
-    {
-      "start": 4369.0,
-      "end": 4369.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul}. Left/right only."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4343000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/segment_004330_004390.json",
-  "segment_meta": {
-    "start_seconds": 4330,
-    "end_seconds": 4390,
-    "length_seconds": 60,
-    "start_time_mmss": "72:10",
-    "end_time_mmss": "73:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

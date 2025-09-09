@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9447,
   "video_id": "5a4dcdde-9a53-5ca7-a31b-d26af5609c71",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 504.0,
-      "end": 504.0,
-      "text": "Trigger: Foul by left @ 1 - 08:24"
-    },
-    {
-      "start": 513.0,
-      "end": 513.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 504000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-09-13 - 21-45 Dyn. Kiev 1 - 2 Napoli/segment_000480_000600.json",
-  "segment_meta": {
-    "start_seconds": 480,
-    "end_seconds": 600,
-    "length_seconds": 120,
-    "start_time_mmss": "08:00",
-    "end_time_mmss": "10:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

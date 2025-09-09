@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25614,
   "video_id": "32b50826-4a69-5a6a-9d26-b7064ff56cce",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} happens, lock onto that team. Respond 'Trigger: {Foul} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 304.0,
-      "end": 304.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 327.0,
-      "end": 327.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 304000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-04-26 - 21-45 Arsenal 1 - 0 Leicester/segment_000230_000330.json",
-  "segment_meta": {
-    "start_seconds": 230,
-    "end_seconds": 330,
-    "length_seconds": 100,
-    "start_time_mmss": "03:50",
-    "end_time_mmss": "05:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

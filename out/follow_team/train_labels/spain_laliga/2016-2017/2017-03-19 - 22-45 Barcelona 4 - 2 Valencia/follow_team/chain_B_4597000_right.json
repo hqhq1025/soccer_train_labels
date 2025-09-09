@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13144,
   "video_id": "c10e1817-a1f6-5c79-a01b-e8f2631a8d70",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} happens, lock onto that team. Respond 'Trigger: {Foul} by left/right' and thereafter 'Then: <Event> by left/right' for {Yellow card}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4597.0,
-      "end": 4597.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 4606.0,
-      "end": 4606.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4597000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-19 - 22-45 Barcelona 4 - 2 Valencia/segment_004560_004680.json",
-  "segment_meta": {
-    "start_seconds": 4560,
-    "end_seconds": 4680,
-    "length_seconds": 120,
-    "start_time_mmss": "76:00",
-    "end_time_mmss": "78:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

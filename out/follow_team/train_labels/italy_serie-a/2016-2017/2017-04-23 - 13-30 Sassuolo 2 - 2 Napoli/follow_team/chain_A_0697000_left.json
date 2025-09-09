@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17291,
   "video_id": "b5a196a1-6188-58b9-bd95-9aac005e0c3f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Throw-in} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 697.0,
-      "end": 697.0,
-      "text": "Trigger: Corner by left @ 1 - 11:37"
-    },
-    {
-      "start": 718.0,
-      "end": 718.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team. Use responses 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 697000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/segment_000640_000720.json",
-  "segment_meta": {
-    "start_seconds": 640,
-    "end_seconds": 720,
-    "length_seconds": 80,
-    "start_time_mmss": "10:40",
-    "end_time_mmss": "12:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

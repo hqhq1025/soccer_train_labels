@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22364,
   "video_id": "da09c3c6-ff2f-5792-add2-803b68bf5daa",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, continue tracking that team. Answers must be 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3593.0,
-      "end": 3593.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 3627.0,
-      "end": 3627.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3593000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/segment_003540_003660.json",
-  "segment_meta": {
-    "start_seconds": 3540,
-    "end_seconds": 3660,
-    "length_seconds": 120,
-    "start_time_mmss": "59:00",
-    "end_time_mmss": "61:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

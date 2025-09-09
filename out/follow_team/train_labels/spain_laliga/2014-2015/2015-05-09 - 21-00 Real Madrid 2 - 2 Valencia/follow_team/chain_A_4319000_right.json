@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11621,
   "video_id": "3461102d-7bc9-557b-9e36-ed98b7b73a86",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Direct free-kick and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Direct free-kick and Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4319.0,
-      "end": 4319.0,
-      "text": "Trigger: Clearance by right @ 2 - 26:59"
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
     },
     {
-      "start": 4365.0,
-      "end": 4365.0,
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
       "text": "Then: Direct free-kick by right"
     },
     {
-      "start": 4366.0,
-      "end": 4366.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4319000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/segment_004250_004370.json",
-  "segment_meta": {
-    "start_seconds": 4250,
-    "end_seconds": 4370,
-    "length_seconds": 120,
-    "start_time_mmss": "70:50",
-    "end_time_mmss": "72:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

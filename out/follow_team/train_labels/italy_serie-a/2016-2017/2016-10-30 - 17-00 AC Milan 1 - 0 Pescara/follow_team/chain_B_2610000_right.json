@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20244,
   "video_id": "429a9174-0bee-5dfe-8131-edc49790539e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, keep following that team. Use left/right only; 'Trigger: {Corner} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2610.0,
-      "end": 2610.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2619.0,
-      "end": 2619.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2610000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/segment_002520_002640.json",
-  "segment_meta": {
-    "start_seconds": 2520,
-    "end_seconds": 2640,
-    "length_seconds": 120,
-    "start_time_mmss": "42:00",
-    "end_time_mmss": "44:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

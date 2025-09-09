@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3145,
   "video_id": "7f957647-8c1f-5dfb-8b58-35eb642ed12f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 4201.0,
-      "end": 4201.0,
-      "text": "Trigger: Shots off target by right @ 2 - 25:01"
-    },
-    {
-      "start": 4240.0,
-      "end": 4240.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, continue tracking that team. Answers must be 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4201000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2014-2015/2015-02-21 - 17-30 Paderborn 0 - 6 Bayern Munich/segment_004160_004280.json",
-  "segment_meta": {
-    "start_seconds": 4160,
-    "end_seconds": 4280,
-    "length_seconds": 120,
-    "start_time_mmss": "69:20",
-    "end_time_mmss": "71:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

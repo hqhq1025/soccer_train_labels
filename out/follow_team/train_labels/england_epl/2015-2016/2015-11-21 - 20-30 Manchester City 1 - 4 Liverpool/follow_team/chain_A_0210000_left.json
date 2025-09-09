@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21701,
   "video_id": "ec158dd2-da8b-5d3f-bd33-5fe0fb913e2c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Shots on target and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Shots on target and Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 210.0,
-      "end": 210.0,
-      "text": "Trigger: Corner by left @ 1 - 03:30"
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
     },
     {
-      "start": 230.0,
-      "end": 230.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 236.0,
-      "end": 236.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 210000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/segment_000140_000260.json",
-  "segment_meta": {
-    "start_seconds": 140,
-    "end_seconds": 260,
-    "length_seconds": 120,
-    "start_time_mmss": "02:20",
-    "end_time_mmss": "04:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

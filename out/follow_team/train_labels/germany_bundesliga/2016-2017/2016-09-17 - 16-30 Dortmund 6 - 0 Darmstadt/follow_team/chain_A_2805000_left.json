@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4421,
   "video_id": "1ca81537-0e9f-543c-a503-4ec694cb993b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Shots on target and Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 2805.0,
-      "end": 2805.0,
-      "text": "Trigger: Throw-in by left @ 2 - 01:45"
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2823.0,
-      "end": 2823.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 2826.0,
-      "end": 2826.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Then: Goal by left"
     },
     {
-      "start": 2826.0,
-      "end": 2826.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2805000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/segment_002770_002870.json",
-  "segment_meta": {
-    "start_seconds": 2770,
-    "end_seconds": 2870,
-    "length_seconds": 100,
-    "start_time_mmss": "46:10",
-    "end_time_mmss": "47:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

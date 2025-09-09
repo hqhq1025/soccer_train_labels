@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7074,
   "video_id": "974ee9f0-a4f2-5d44-b5da-84f922a83094",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Clearance}, follow the same team and list all subsequent {Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3288.0,
-      "end": 3288.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 3295.0,
-      "end": 3295.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3288000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/segment_003190_003310.json",
-  "segment_meta": {
-    "start_seconds": 3190,
-    "end_seconds": 3310,
-    "length_seconds": 120,
-    "start_time_mmss": "53:10",
-    "end_time_mmss": "55:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

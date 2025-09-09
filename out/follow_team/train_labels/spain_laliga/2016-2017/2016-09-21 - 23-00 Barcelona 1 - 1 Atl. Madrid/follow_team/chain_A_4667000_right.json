@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 12753,
   "video_id": "dfd8613f-8be9-5bec-9278-203de5320f49",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Throw-in and Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4667.0,
-      "end": 4667.0,
-      "text": "Trigger: Throw-in by right @ 2 - 32:47"
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 4679.0,
-      "end": 4679.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 4689.0,
-      "end": 4689.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 4704.0,
-      "end": 4704.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4667000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-09-21 - 23-00 Barcelona 1 - 1 Atl. Madrid/segment_004590_004710.json",
-  "segment_meta": {
-    "start_seconds": 4590,
-    "end_seconds": 4710,
-    "length_seconds": 120,
-    "start_time_mmss": "76:30",
-    "end_time_mmss": "78:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4627,
   "video_id": "a5764e58-e801-5421-9238-cd70fab16414",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 652.0,
-      "end": 652.0,
-      "text": "Trigger: Throw-in by left @ 1 - 10:52"
-    },
-    {
-      "start": 655.0,
-      "end": 655.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 652000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-23 - 21-30 Dortmund 3 - 1 SC Freiburg/segment_000600_000660.json",
-  "segment_meta": {
-    "start_seconds": 600,
-    "end_seconds": 660,
-    "length_seconds": 60,
-    "start_time_mmss": "10:00",
-    "end_time_mmss": "11:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

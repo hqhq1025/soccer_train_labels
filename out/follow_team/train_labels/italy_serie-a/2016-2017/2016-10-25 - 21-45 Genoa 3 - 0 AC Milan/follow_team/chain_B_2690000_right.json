@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17414,
   "video_id": "7997254a-64ee-5113-af21-c201b9ff76fe",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Direct free-kick} occurs, keep following the same team and tell me whenever they perform {Kick-off}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Direct free-kick}, continue tracking that team. Answers must be 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Kick-off}."
+    }
+  ],
   "answer": [
     {
-      "start": 2690.0,
-      "end": 2690.0,
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 2700.0,
-      "end": 2700.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Then: Kick-off by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2690000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-25 - 21-45 Genoa 3 - 0 AC Milan/segment_002670_002710.json",
-  "segment_meta": {
-    "start_seconds": 2670,
-    "end_seconds": 2710,
-    "length_seconds": 40,
-    "start_time_mmss": "44:30",
-    "end_time_mmss": "45:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

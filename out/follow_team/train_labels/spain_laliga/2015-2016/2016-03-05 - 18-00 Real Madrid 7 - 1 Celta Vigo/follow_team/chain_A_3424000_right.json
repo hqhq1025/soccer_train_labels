@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10067,
   "video_id": "cd450d84-2999-529e-b09c-c95a6e02e85f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 3424.0,
-      "end": 3424.0,
-      "text": "Trigger: Shots on target by right @ 2 - 12:04"
-    },
-    {
-      "start": 3425.0,
-      "end": 3425.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Goal} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3424000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/segment_003350_003430.json",
-  "segment_meta": {
-    "start_seconds": 3350,
-    "end_seconds": 3430,
-    "length_seconds": 80,
-    "start_time_mmss": "55:50",
-    "end_time_mmss": "57:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

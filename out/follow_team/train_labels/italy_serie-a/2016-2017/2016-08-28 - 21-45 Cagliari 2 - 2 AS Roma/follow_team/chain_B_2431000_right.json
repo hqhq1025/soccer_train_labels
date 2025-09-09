@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20504,
   "video_id": "7fae3a9b-ed2e-5cc5-a0ce-cbe965fc1660",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, start tracking that team. Use responses 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Clearance}."
+    }
+  ],
   "answer": [
     {
-      "start": 2431.0,
-      "end": 2431.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 2509.0,
-      "end": 2509.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Clearance by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2431000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/segment_002410_002530.json",
-  "segment_meta": {
-    "start_seconds": 2410,
-    "end_seconds": 2530,
-    "length_seconds": 120,
-    "start_time_mmss": "40:10",
-    "end_time_mmss": "42:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

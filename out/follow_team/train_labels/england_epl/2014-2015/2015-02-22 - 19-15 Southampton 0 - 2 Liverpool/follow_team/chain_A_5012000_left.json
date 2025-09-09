@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23107,
   "video_id": "9224b72c-3230-56f1-a502-63e05a889f51",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Indirect free-kick and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Indirect free-kick and Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 5012.0,
-      "end": 5012.0,
-      "text": "Trigger: Throw-in by left @ 2 - 38:32"
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5069.0,
-      "end": 5069.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     },
     {
-      "start": 5077.0,
-      "end": 5077.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5012000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/segment_004980_005080.json",
-  "segment_meta": {
-    "start_seconds": 4980,
-    "end_seconds": 5080,
-    "length_seconds": 100,
-    "start_time_mmss": "83:00",
-    "end_time_mmss": "84:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

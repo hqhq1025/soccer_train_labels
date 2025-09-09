@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6035,
   "video_id": "642549e6-2593-569f-84bc-1a6c95df237d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 352.0,
-      "end": 352.0,
-      "text": "Trigger: Throw-in by left @ 1 - 05:52"
-    },
-    {
-      "start": 374.0,
-      "end": 374.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 352000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_000320_000380.json",
-  "segment_meta": {
-    "start_seconds": 320,
-    "end_seconds": 380,
-    "length_seconds": 60,
-    "start_time_mmss": "05:20",
-    "end_time_mmss": "06:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

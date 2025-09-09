@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16683,
   "video_id": "a417ee0b-2733-54ed-8640-a92ff5940e93",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Foul} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 514.0,
-      "end": 514.0,
-      "text": "Trigger: Clearance by left @ 1 - 08:34"
-    },
-    {
-      "start": 533.0,
-      "end": 533.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team; answer strictly as 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 514000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/segment_000460_000560.json",
-  "segment_meta": {
-    "start_seconds": 460,
-    "end_seconds": 560,
-    "length_seconds": 100,
-    "start_time_mmss": "07:40",
-    "end_time_mmss": "09:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

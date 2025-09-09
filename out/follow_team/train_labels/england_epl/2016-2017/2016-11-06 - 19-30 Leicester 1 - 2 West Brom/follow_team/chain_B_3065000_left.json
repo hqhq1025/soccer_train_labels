@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23898,
   "video_id": "9c82ffb3-3994-5f42-9697-20f4c5097e72",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Direct free-kick}; then follow that team. Respond 'Trigger: {Direct free-kick} by left/right', and for {Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3065.0,
-      "end": 3065.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 3082.0,
-      "end": 3082.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3065000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/segment_003030_003090.json",
-  "segment_meta": {
-    "start_seconds": 3030,
-    "end_seconds": 3090,
-    "length_seconds": 60,
-    "start_time_mmss": "50:30",
-    "end_time_mmss": "51:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

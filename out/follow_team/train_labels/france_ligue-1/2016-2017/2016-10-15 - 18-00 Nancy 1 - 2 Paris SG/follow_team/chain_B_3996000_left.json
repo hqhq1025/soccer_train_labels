@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1212,
   "video_id": "5d11cd9c-8752-5a0f-8ba1-618f7889d95c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Foul} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3996.0,
-      "end": 3996.0,
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 4047.0,
-      "end": 4047.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3996000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/segment_003970_004090.json",
-  "segment_meta": {
-    "start_seconds": 3970,
-    "end_seconds": 4090,
-    "length_seconds": 120,
-    "start_time_mmss": "66:10",
-    "end_time_mmss": "68:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

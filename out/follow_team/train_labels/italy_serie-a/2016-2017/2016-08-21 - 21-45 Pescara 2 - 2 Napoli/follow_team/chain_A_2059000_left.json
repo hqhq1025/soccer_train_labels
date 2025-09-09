@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20861,
   "video_id": "378a7380-d086-5aed-8f6c-206a2eba62fb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Shots on target and Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 2059.0,
-      "end": 2059.0,
-      "text": "Trigger: Throw-in by left @ 1 - 34:19"
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2093.0,
-      "end": 2093.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 2094.0,
-      "end": 2094.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2059000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/segment_002020_002100.json",
-  "segment_meta": {
-    "start_seconds": 2020,
-    "end_seconds": 2100,
-    "length_seconds": 80,
-    "start_time_mmss": "33:40",
-    "end_time_mmss": "35:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

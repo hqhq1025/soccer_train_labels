@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22145,
   "video_id": "da0bcb7d-0fa4-5681-bb3d-9644b9c6751f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Shots on target and Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 5360.0,
-      "end": 5360.0,
-      "text": "Trigger: Throw-in by left @ 2 - 44:20"
-    },
-    {
-      "start": 5371.0,
-      "end": 5371.0,
-      "text": "Then: Shots on target by left"
-    },
-    {
-      "start": 5372.0,
-      "end": 5372.0,
-      "text": "Then: Shots on target by left"
-    },
-    {
-      "start": 5373.0,
-      "end": 5373.0,
-      "text": "Then: Goal by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Shots on target and Goal}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5360000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_005280_005400.json",
-  "segment_meta": {
-    "start_seconds": 5280,
-    "end_seconds": 5400,
-    "length_seconds": 120,
-    "start_time_mmss": "88:00",
-    "end_time_mmss": "90:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    },
+    {
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
+      "text": "Then: Goal by left"
+    }
+  ]
 }

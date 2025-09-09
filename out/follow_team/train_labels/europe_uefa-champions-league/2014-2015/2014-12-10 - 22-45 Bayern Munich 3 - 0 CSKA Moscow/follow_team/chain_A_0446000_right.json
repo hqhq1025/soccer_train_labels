@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8381,
   "video_id": "4c9368e9-6ebc-54f2-b198-38fb936a64d5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Corner} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 446.0,
-      "end": 446.0,
-      "text": "Trigger: Throw-in by right @ 1 - 07:26"
-    },
-    {
-      "start": 487.0,
-      "end": 487.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Corner}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 446000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-12-10 - 22-45 Bayern Munich 3 - 0 CSKA Moscow/segment_000410_000490.json",
-  "segment_meta": {
-    "start_seconds": 410,
-    "end_seconds": 490,
-    "length_seconds": 80,
-    "start_time_mmss": "06:50",
-    "end_time_mmss": "08:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 37592,
+  "video_id": "544c9994-2b8e-5219-9826-b02650260731",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Ball out of play and Clearance} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 23.252,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Throw-in}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 23.252,
+      "end": 23.252,
+      "count": 0,
+      "text": "Alert - Clearance"
+    },
+    {
+      "start": 57.864,
+      "end": 57.864,
+      "count": 1,
+      "text": "Alert - Throw-in"
+    }
+  ]
+}

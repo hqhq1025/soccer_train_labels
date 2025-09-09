@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6187,
   "video_id": "071a6747-7a03-50c6-b44d-2de62f6d9f22",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 2424.0,
-      "end": 2424.0,
-      "text": "Trigger: Foul by left @ 1 - 40:24"
-    },
-    {
-      "start": 2444.0,
-      "end": 2444.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2424000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Bayer Leverkusen 4 - 1 BATE/segment_002330_002450.json",
-  "segment_meta": {
-    "start_seconds": 2330,
-    "end_seconds": 2450,
-    "length_seconds": 120,
-    "start_time_mmss": "38:50",
-    "end_time_mmss": "40:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

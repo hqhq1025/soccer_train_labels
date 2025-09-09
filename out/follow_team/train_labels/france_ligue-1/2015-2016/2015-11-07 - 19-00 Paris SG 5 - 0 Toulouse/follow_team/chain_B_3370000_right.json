@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18,
   "video_id": "dbccb93a-9ff0-5c7e-b639-c4d56ddc00ae",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3370.0,
-      "end": 3370.0,
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3382.0,
-      "end": 3382.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3370000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-11-07 - 19-00 Paris SG 5 - 0 Toulouse/segment_003360_003480.json",
-  "segment_meta": {
-    "start_seconds": 3360,
-    "end_seconds": 3480,
-    "length_seconds": 120,
-    "start_time_mmss": "56:00",
-    "end_time_mmss": "58:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

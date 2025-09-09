@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19482,
   "video_id": "6cf74ee5-b188-51f9-bece-57e172a88183",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5354.0,
-      "end": 5354.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 5355.0,
-      "end": 5355.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5354000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-22 - 22-45 AS Roma 3 - 1 Chievo/segment_005300_005360.json",
-  "segment_meta": {
-    "start_seconds": 5300,
-    "end_seconds": 5360,
-    "length_seconds": 60,
-    "start_time_mmss": "88:20",
-    "end_time_mmss": "89:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

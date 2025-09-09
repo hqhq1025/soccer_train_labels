@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 14158,
+  "video_id": "30f38a81-deae-509a-b9a4-a6b03dca2b37",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Keep an eye on {Ball out of play and Goal}; alert me on occurrences. Respond 'Alert - <Event>'."
+    },
+    {
+      "time": 67.0,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Shots on target}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 15.353,
+      "end": 15.353,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Alert - Goal"
+    },
+    {
+      "start": 73.567,
+      "end": 73.567,
+      "count": 1,
+      "text": "Alert - Shots on target"
+    }
+  ]
+}

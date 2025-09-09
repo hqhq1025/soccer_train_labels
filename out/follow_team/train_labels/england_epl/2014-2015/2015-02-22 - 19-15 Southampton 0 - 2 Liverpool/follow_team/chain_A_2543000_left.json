@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23135,
   "video_id": "809c1490-55b9-5148-be07-5def39bc076b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul and Yellow card} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Foul and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 2543.0,
-      "end": 2543.0,
-      "text": "Trigger: Throw-in by left @ 1 - 42:23"
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2555.0,
-      "end": 2555.0,
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 2561.0,
-      "end": 2561.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2543000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-22 - 19-15 Southampton 0 - 2 Liverpool/segment_002490_002570.json",
-  "segment_meta": {
-    "start_seconds": 2490,
-    "end_seconds": 2570,
-    "length_seconds": 80,
-    "start_time_mmss": "41:30",
-    "end_time_mmss": "42:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

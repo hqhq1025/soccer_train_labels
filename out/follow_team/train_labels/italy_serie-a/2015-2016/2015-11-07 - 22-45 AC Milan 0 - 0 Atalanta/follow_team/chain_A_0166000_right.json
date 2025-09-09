@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15377,
   "video_id": "d7d1874c-61ce-5671-903f-26ad0a9e82d4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 166.0,
-      "end": 166.0,
-      "text": "Trigger: Indirect free-kick by right @ 1 - 02:46"
-    },
-    {
-      "start": 198.0,
-      "end": 198.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 166000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-07 - 22-45 AC Milan 0 - 0 Atalanta/segment_000090_000210.json",
-  "segment_meta": {
-    "start_seconds": 90,
-    "end_seconds": 210,
-    "length_seconds": 120,
-    "start_time_mmss": "01:30",
-    "end_time_mmss": "03:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

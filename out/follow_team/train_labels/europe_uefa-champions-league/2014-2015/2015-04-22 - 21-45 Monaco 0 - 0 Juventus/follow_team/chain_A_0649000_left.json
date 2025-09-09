@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8275,
   "video_id": "35c71cbe-c619-5948-8b0e-4caafb6e6252",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Throw-in and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Throw-in and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 649.0,
-      "end": 649.0,
-      "text": "Trigger: Foul by left @ 1 - 10:49"
+      "start": 9.0,
+      "end": 9.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 695.0,
-      "end": 695.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 759.0,
-      "end": 759.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 649000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/segment_000640_000760.json",
-  "segment_meta": {
-    "start_seconds": 640,
-    "end_seconds": 760,
-    "length_seconds": 120,
-    "start_time_mmss": "10:40",
-    "end_time_mmss": "12:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

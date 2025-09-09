@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21159,
   "video_id": "ffcc8bc2-c4f0-5f3c-9de6-8c2a1f63e3a0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 3186.0,
-      "end": 3186.0,
-      "text": "Trigger: Shots on target by right @ 2 - 08:06"
-    },
-    {
-      "start": 3187.0,
-      "end": 3187.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Goal} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3186000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-12-26 - 18-00 Manchester City 4 - 1 Sunderland/segment_003150_003190.json",
-  "segment_meta": {
-    "start_seconds": 3150,
-    "end_seconds": 3190,
-    "length_seconds": 40,
-    "start_time_mmss": "52:30",
-    "end_time_mmss": "53:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

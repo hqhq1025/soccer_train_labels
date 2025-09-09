@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16587,
   "video_id": "cedbba65-e943-597c-8069-c0e90a91edc6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} occurs, follow the initiating team and report all {Foul and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} happens, lock onto that team. Respond 'Trigger: {Clearance} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul and Throw-in}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4787.0,
-      "end": 4787.0,
-      "text": "Trigger: Clearance by left @ 2 - 34:47"
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
     },
     {
-      "start": 4802.0,
-      "end": 4802.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 4854.0,
-      "end": 4854.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 4861.0,
-      "end": 4861.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4787000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-25 - 21-45 Inter 2 - 1 AS Roma/segment_004750_004870.json",
-  "segment_meta": {
-    "start_seconds": 4750,
-    "end_seconds": 4870,
-    "length_seconds": 120,
-    "start_time_mmss": "79:10",
-    "end_time_mmss": "81:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

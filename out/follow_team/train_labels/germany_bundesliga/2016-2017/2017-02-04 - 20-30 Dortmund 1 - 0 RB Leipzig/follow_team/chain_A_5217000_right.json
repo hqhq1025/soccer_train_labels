@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4507,
   "video_id": "d3c23eeb-7675-5f64-a647-397294135401",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 5217.0,
-      "end": 5217.0,
-      "text": "Trigger: Throw-in by right @ 2 - 41:57"
-    },
-    {
-      "start": 5229.0,
-      "end": 5229.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5217000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-04 - 20-30 Dortmund 1 - 0 RB Leipzig/segment_005140_005260.json",
-  "segment_meta": {
-    "start_seconds": 5140,
-    "end_seconds": 5260,
-    "length_seconds": 120,
-    "start_time_mmss": "85:40",
-    "end_time_mmss": "87:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

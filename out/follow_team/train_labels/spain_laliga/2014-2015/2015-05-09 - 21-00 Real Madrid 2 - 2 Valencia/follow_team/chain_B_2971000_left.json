@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11618,
   "video_id": "8b9e35de-b6dc-5a43-8b6a-ab3400d93baa",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots off target}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2971.0,
-      "end": 2971.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 2996.0,
-      "end": 2996.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2971000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/segment_002900_003000.json",
-  "segment_meta": {
-    "start_seconds": 2900,
-    "end_seconds": 3000,
-    "length_seconds": 100,
-    "start_time_mmss": "48:20",
-    "end_time_mmss": "50:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

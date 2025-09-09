@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1760,
   "video_id": "366f00d1-5a23-5888-8a70-f193b2aa970b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots on target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3860.0,
-      "end": 3860.0,
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 3896.0,
-      "end": 3896.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3860000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-05-20 - 22-00 Paris SG 1 - 1 Caen/segment_003850_003910.json",
-  "segment_meta": {
-    "start_seconds": 3850,
-    "end_seconds": 3910,
-    "length_seconds": 60,
-    "start_time_mmss": "64:10",
-    "end_time_mmss": "65:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

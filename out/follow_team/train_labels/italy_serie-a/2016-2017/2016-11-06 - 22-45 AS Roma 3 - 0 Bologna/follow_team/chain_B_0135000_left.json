@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19878,
   "video_id": "1c8d6d3e-cd4b-5875-8ef9-70709c3c5935",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Corner} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 135.0,
-      "end": 135.0,
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 192.0,
-      "end": 192.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 135000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/segment_000120_000200.json",
-  "segment_meta": {
-    "start_seconds": 120,
-    "end_seconds": 200,
-    "length_seconds": 80,
-    "start_time_mmss": "02:00",
-    "end_time_mmss": "03:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

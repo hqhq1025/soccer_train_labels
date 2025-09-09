@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22081,
   "video_id": "eb4f1dd8-6c37-5cc7-94a9-cdbaaf6fc8bb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 4698.0,
-      "end": 4698.0,
-      "text": "Trigger: Corner by right @ 2 - 33:18"
-    },
-    {
-      "start": 4720.0,
-      "end": 4720.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4698000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/segment_004610_004730.json",
-  "segment_meta": {
-    "start_seconds": 4610,
-    "end_seconds": 4730,
-    "length_seconds": 120,
-    "start_time_mmss": "76:50",
-    "end_time_mmss": "78:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

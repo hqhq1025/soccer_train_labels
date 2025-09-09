@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10781,
   "video_id": "eb9d5e46-a5f4-5bbc-b189-f919d1516165",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 2328.0,
-      "end": 2328.0,
-      "text": "Trigger: Foul by left @ 1 - 38:48"
-    },
-    {
-      "start": 2333.0,
-      "end": 2333.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Yellow card} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2328000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_002300_002340.json",
-  "segment_meta": {
-    "start_seconds": 2300,
-    "end_seconds": 2340,
-    "length_seconds": 40,
-    "start_time_mmss": "38:20",
-    "end_time_mmss": "39:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

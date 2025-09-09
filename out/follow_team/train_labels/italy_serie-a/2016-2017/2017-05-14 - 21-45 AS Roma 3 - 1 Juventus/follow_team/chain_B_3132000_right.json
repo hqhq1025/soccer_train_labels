@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19122,
   "video_id": "0beebef4-266e-5ec0-9b94-09ddcc9edb91",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3132.0,
-      "end": 3132.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3149.0,
-      "end": 3149.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3132000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-14 - 21-45 AS Roma 3 - 1 Juventus/segment_003030_003150.json",
-  "segment_meta": {
-    "start_seconds": 3030,
-    "end_seconds": 3150,
-    "length_seconds": 120,
-    "start_time_mmss": "50:30",
-    "end_time_mmss": "52:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

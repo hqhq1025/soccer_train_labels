@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18512,
   "video_id": "94e31aaf-83d9-5f24-9539-120456335f3e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots off target}; then follow that team. Respond 'Trigger: {Shots off target} by left/right', and for {Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4654.0,
-      "end": 4654.0,
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 4703.0,
-      "end": 4703.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4654000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/segment_004640_004740.json",
-  "segment_meta": {
-    "start_seconds": 4640,
-    "end_seconds": 4740,
-    "length_seconds": 100,
-    "start_time_mmss": "77:20",
-    "end_time_mmss": "79:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

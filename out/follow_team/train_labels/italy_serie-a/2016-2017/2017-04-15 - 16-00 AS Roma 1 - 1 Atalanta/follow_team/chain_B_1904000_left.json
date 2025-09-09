@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17098,
   "video_id": "c3c970e4-c66e-511f-8fbb-1366ea0debbb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Offside}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 1904.0,
-      "end": 1904.0,
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 1928.0,
-      "end": 1928.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 1904000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/segment_001860_001940.json",
-  "segment_meta": {
-    "start_seconds": 1860,
-    "end_seconds": 1940,
-    "length_seconds": 80,
-    "start_time_mmss": "31:00",
-    "end_time_mmss": "32:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

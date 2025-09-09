@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 673,
   "video_id": "a57060dd-5d6e-5b29-8166-728fef6211a4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 5147.0,
-      "end": 5147.0,
-      "text": "Trigger: Clearance by left @ 2 - 40:47"
-    },
-    {
-      "start": 5156.0,
-      "end": 5156.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} happens, lock onto that team. Respond 'Trigger: {Clearance} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul}. Left/right only."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5147000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/segment_005110_005190.json",
-  "segment_meta": {
-    "start_seconds": 5110,
-    "end_seconds": 5190,
-    "length_seconds": 80,
-    "start_time_mmss": "85:10",
-    "end_time_mmss": "86:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

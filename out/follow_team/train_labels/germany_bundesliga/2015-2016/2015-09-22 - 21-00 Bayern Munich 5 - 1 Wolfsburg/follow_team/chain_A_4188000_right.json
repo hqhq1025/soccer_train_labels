@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2605,
   "video_id": "2d2c411b-8a83-507e-b0d6-5e72ba8f42ec",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 4188.0,
-      "end": 4188.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 24:48"
-    },
-    {
-      "start": 4202.0,
-      "end": 4202.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Offside}."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4188000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/segment_004100_004220.json",
-  "segment_meta": {
-    "start_seconds": 4100,
-    "end_seconds": 4220,
-    "length_seconds": 120,
-    "start_time_mmss": "68:20",
-    "end_time_mmss": "70:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

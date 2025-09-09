@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21461,
   "video_id": "d692e2f7-f689-5a25-8261-520fd3c4694c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Shots off target} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 3120.0,
-      "end": 3120.0,
-      "text": "Trigger: Shots on target by right @ 2 - 07:00"
-    },
-    {
-      "start": 3123.0,
-      "end": 3123.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Shots off target}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3120000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-31 - 15-45 Chelsea 1 - 3 Liverpool/segment_003110_003170.json",
-  "segment_meta": {
-    "start_seconds": 3110,
-    "end_seconds": 3170,
-    "length_seconds": 60,
-    "start_time_mmss": "51:50",
-    "end_time_mmss": "52:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7121,
   "video_id": "7db88744-cfc4-5c1c-87d4-6bb43b45fa9b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3326.0,
-      "end": 3326.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 10:26"
-    },
-    {
-      "start": 3366.0,
-      "end": 3366.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Indirect free-kick}, stick with that team. For {Shots off target}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3326000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 B. Monchengladbach 1 - 1 Juventus/segment_003310_003390.json",
-  "segment_meta": {
-    "start_seconds": 3310,
-    "end_seconds": 3390,
-    "length_seconds": 80,
-    "start_time_mmss": "55:10",
-    "end_time_mmss": "56:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 16.0,
+      "end": 16.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22467,
   "video_id": "e9496a5b-479d-5400-956e-c38398bd9f37",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
       "start": 84.0,
       "end": 84.0,
-      "text": "Trigger: Corner by left @ 1 - 01:24"
+      "count": 0,
+      "text": "Trigger: Corner by left"
     },
     {
       "start": 93.0,
       "end": 93.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 84000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Chelsea 1 - 2 Crystal Palace/segment_000000_000100.json",
-  "segment_meta": {
-    "start_seconds": 0,
-    "end_seconds": 100,
-    "length_seconds": 100,
-    "start_time_mmss": "00:00",
-    "end_time_mmss": "01:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25420,
   "video_id": "bdc15868-0196-5a9c-92ae-48dc3d68b5c8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Indirect free-kick} by left/right'; for each {Shots off target}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2232.0,
-      "end": 2232.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 2272.0,
-      "end": 2272.0,
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2232000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 15-30 Middlesbrough 0 - 0 Leicester/segment_002180_002280.json",
-  "segment_meta": {
-    "start_seconds": 2180,
-    "end_seconds": 2280,
-    "length_seconds": 100,
-    "start_time_mmss": "36:20",
-    "end_time_mmss": "38:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

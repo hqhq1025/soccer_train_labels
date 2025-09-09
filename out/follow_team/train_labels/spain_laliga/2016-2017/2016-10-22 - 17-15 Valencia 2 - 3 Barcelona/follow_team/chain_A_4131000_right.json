@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 14401,
   "video_id": "e7778390-e241-5c40-b066-f639d3b731ed",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 4131.0,
-      "end": 4131.0,
-      "text": "Trigger: Foul by right @ 2 - 23:51"
-    },
-    {
-      "start": 4138.0,
-      "end": 4138.0,
-      "text": "Then: Yellow card by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2016-10-22 - 17-15 Valencia 2 - 3 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-22 - 17-15 Valencia 2 - 3 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4131000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-22 - 17-15 Valencia 2 - 3 Barcelona/segment_004100_004140.json",
-  "segment_meta": {
-    "start_seconds": 4100,
-    "end_seconds": 4140,
-    "length_seconds": 40,
-    "start_time_mmss": "68:20",
-    "end_time_mmss": "69:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
+      "text": "Then: Yellow card by right"
+    }
+  ]
 }

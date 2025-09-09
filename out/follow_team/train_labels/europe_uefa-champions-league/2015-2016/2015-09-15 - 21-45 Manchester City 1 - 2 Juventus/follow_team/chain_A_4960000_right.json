@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6513,
   "video_id": "99c4fc22-75be-560b-b0f6-e928cc8dcaff",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Substitution}.",
-  "answer": [
+  "question": [
     {
-      "start": 4960.0,
-      "end": 4960.0,
-      "text": "Trigger: Foul by right @ 2 - 37:40"
-    },
-    {
-      "start": 4974.0,
-      "end": 4974.0,
-      "text": "Then: Substitution by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Foul} occurs, keep following the same team and reply exactly 'Trigger: {Foul} by left/right'; then for each {Substitution} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4960000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/segment_004940_004980.json",
-  "segment_meta": {
-    "start_seconds": 4940,
-    "end_seconds": 4980,
-    "length_seconds": 40,
-    "start_time_mmss": "82:20",
-    "end_time_mmss": "83:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Then: Substitution by right"
+    }
+  ]
 }

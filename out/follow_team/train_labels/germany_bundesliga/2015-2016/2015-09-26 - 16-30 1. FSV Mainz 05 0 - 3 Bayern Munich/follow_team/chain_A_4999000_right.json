@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2429,
   "video_id": "8026af2f-8094-54a2-b56b-50d5e042db77",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Clearance and Offside} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Clearance and Offside}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4999.0,
-      "end": 4999.0,
-      "text": "Trigger: Throw-in by right @ 2 - 38:19"
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 5024.0,
-      "end": 5024.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Clearance by right"
     },
     {
-      "start": 5058.0,
-      "end": 5058.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4999000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-26 - 16-30 1. FSV Mainz 05 0 - 3 Bayern Munich/segment_004960_005080.json",
-  "segment_meta": {
-    "start_seconds": 4960,
-    "end_seconds": 5080,
-    "length_seconds": 120,
-    "start_time_mmss": "82:40",
-    "end_time_mmss": "84:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

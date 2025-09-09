@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24520,
   "video_id": "dd7a74cd-402f-55a7-a8ea-d2f8c36ae332",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team. Respond 'Trigger: {Shots on target} by left/right' and thereafter 'Then: <Event> by left/right' for {Goal}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 248.0,
-      "end": 248.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 249.0,
-      "end": 249.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 248000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/segment_000210_000250.json",
-  "segment_meta": {
-    "start_seconds": 210,
-    "end_seconds": 250,
-    "length_seconds": 40,
-    "start_time_mmss": "03:30",
-    "end_time_mmss": "04:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

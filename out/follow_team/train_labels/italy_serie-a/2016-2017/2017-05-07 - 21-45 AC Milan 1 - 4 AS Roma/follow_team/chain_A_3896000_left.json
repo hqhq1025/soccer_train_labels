@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18109,
   "video_id": "460ca582-388d-5b5b-a7ef-9829fc4ac75c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Throw-in and Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3896.0,
-      "end": 3896.0,
-      "text": "Trigger: Throw-in by left @ 2 - 19:56"
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3910.0,
-      "end": 3910.0,
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 3926.0,
-      "end": 3926.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3896000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/segment_003830_003930.json",
-  "segment_meta": {
-    "start_seconds": 3830,
-    "end_seconds": 3930,
-    "length_seconds": 100,
-    "start_time_mmss": "63:50",
-    "end_time_mmss": "65:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

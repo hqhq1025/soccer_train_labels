@@ -1,51 +1,48 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16369,
   "video_id": "085dd10d-b7ed-5e6e-8b25-79867a683322",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots off target}, stick with that team and alert me for {Corner and Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3513.0,
-      "end": 3513.0,
-      "text": "Trigger: Shots off target by right @ 2 - 13:33"
-    },
-    {
-      "start": 3521.0,
-      "end": 3521.0,
-      "text": "Then: Corner by right"
-    },
-    {
-      "start": 3527.0,
-      "end": 3527.0,
-      "text": "Then: Shots on target by right"
-    },
-    {
-      "start": 3552.0,
-      "end": 3552.0,
-      "text": "Then: Shots on target by right"
-    },
-    {
-      "start": 3569.0,
-      "end": 3569.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots off target}; then follow that team. Respond 'Trigger: {Shots off target} by left/right', and for {Corner and Shots on target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3513000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-03 - 21-45 Napoli 3 - 0 AC Milan/segment_003470_003590.json",
-  "segment_meta": {
-    "start_seconds": 3470,
-    "end_seconds": 3590,
-    "length_seconds": 120,
-    "start_time_mmss": "57:50",
-    "end_time_mmss": "59:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    },
+    {
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    },
+    {
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

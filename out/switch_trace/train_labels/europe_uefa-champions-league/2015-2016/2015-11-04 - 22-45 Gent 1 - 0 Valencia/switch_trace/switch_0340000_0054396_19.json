@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 11790,
+  "video_id": "7531d2cf-7d15-5b11-8d3f-dec85716225e",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Indirect free-kick and Foul} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 54.396,
+      "count": 1,
+      "text": "Cease the prior task and start continuously tracking {Ball out of play} now. Reply 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 56.009,
+      "end": 56.009,
+      "count": 0,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 118.68,
+      "end": 118.68,
+      "count": 1,
+      "text": "Alert - Ball out of play"
+    }
+  ]
+}

@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16659,
   "video_id": "a6c80531-07ca-56ad-88a9-4016cdf2678c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Foul and Throw-in} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Foul and Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4300.0,
-      "end": 4300.0,
-      "text": "Trigger: Throw-in by right @ 2 - 26:40"
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 4320.0,
-      "end": 4320.0,
+      "start": 40.0,
+      "end": 40.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 4378.0,
-      "end": 4378.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 4397.0,
-      "end": 4397.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4300000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 16-00 Crotone 1 - 2 Napoli/segment_004280_004400.json",
-  "segment_meta": {
-    "start_seconds": 4280,
-    "end_seconds": 4400,
-    "length_seconds": 120,
-    "start_time_mmss": "71:20",
-    "end_time_mmss": "73:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 12795,
   "video_id": "cbb527e7-dc07-5ca3-b54f-5998d82f41ef",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Foul} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 2795.0,
-      "end": 2795.0,
-      "text": "Trigger: Clearance by right @ 2 - 01:35"
-    },
-    {
-      "start": 2798.0,
-      "end": 2798.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, follow that team. Answer format: at trigger reply 'Trigger: {Clearance} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2795000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-15 - 21-45 Betis 1 - 6 Real Madrid/segment_002720_002820.json",
-  "segment_meta": {
-    "start_seconds": 2720,
-    "end_seconds": 2820,
-    "length_seconds": 100,
-    "start_time_mmss": "45:20",
-    "end_time_mmss": "47:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

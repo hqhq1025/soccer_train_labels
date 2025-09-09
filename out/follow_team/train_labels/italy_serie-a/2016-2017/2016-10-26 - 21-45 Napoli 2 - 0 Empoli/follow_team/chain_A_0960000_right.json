@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20439,
   "video_id": "cf08b409-f15a-5cbb-be64-851e164c50eb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 960.0,
-      "end": 960.0,
-      "text": "Trigger: Corner by right @ 1 - 16:00"
-    },
-    {
-      "start": 979.0,
-      "end": 979.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Corner}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 960000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/segment_000930_000990.json",
-  "segment_meta": {
-    "start_seconds": 930,
-    "end_seconds": 990,
-    "length_seconds": 60,
-    "start_time_mmss": "15:30",
-    "end_time_mmss": "16:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

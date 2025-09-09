@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18435,
   "video_id": "d42a1972-ca77-5823-b3fa-fb4e797c0095",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Offside}, stick with that team and alert me for {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 3364.0,
-      "end": 3364.0,
-      "text": "Trigger: Offside by left @ 2 - 11:04"
-    },
-    {
-      "start": 3417.0,
-      "end": 3417.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Offside} occurs, follow the initiating team; answer strictly as 'Trigger: {Offside} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3364000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 14-30 Empoli 2 - 3 Napoli/segment_003340_003460.json",
-  "segment_meta": {
-    "start_seconds": 3340,
-    "end_seconds": 3460,
-    "length_seconds": 120,
-    "start_time_mmss": "55:40",
-    "end_time_mmss": "57:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
+      "text": "Trigger: Offside by left"
+    },
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

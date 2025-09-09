@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 14128,
   "video_id": "7d13156b-37a4-57f8-a06f-89aa649754ba",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 1760.0,
-      "end": 1760.0,
+      "start": 40.0,
+      "end": 40.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 1836.0,
-      "end": 1836.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 1760000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-08-20 - 19-15 Barcelona 6 - 2 Betis/segment_001720_001840.json",
-  "segment_meta": {
-    "start_seconds": 1720,
-    "end_seconds": 1840,
-    "length_seconds": 120,
-    "start_time_mmss": "28:40",
-    "end_time_mmss": "30:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

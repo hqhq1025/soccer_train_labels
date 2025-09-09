@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24851,
   "video_id": "17ea0ec2-ac24-5832-9bf9-f5258ea7edd3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Clearance} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 311.0,
-      "end": 311.0,
-      "text": "Trigger: Indirect free-kick by right @ 1 - 05:11"
-    },
-    {
-      "start": 353.0,
-      "end": 353.0,
-      "text": "Then: Clearance by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Clearance}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 311000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 17-00 Burnley 2 - 0 Liverpool/segment_000280_000360.json",
-  "segment_meta": {
-    "start_seconds": 280,
-    "end_seconds": 360,
-    "length_seconds": 80,
-    "start_time_mmss": "04:40",
-    "end_time_mmss": "06:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
+      "text": "Then: Clearance by right"
+    }
+  ]
 }

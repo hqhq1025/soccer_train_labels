@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 1881,
+  "video_id": "ba5d5021-b932-5699-ba92-899f31f6f434",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Keep an eye on {Foul}; alert me on occurrence. Answer format: 'Alert - <Event>'."
+    },
+    {
+      "time": 53.02,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Clearance}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 20.113,
+      "end": 20.113,
+      "count": 0,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 75.782,
+      "end": 75.782,
+      "count": 1,
+      "text": "Alert - Clearance"
+    }
+  ]
+}

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15644,
   "video_id": "05ab5842-6dbc-5649-a1ee-3fd9e0d6f270",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} happens, lock onto that team and report every {Corner} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, start tracking that team. Use responses 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 5377.0,
-      "end": 5377.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 5393.0,
-      "end": 5393.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5377000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-22 - 21-45 Udinese 2 - 3 AC Milan/segment_005290_005410.json",
-  "segment_meta": {
-    "start_seconds": 5290,
-    "end_seconds": 5410,
-    "length_seconds": 120,
-    "start_time_mmss": "88:10",
-    "end_time_mmss": "90:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

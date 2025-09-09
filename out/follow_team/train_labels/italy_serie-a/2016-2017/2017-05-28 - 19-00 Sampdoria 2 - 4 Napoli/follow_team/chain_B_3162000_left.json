@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19586,
   "video_id": "f8dfdf4d-ec03-505a-9ca4-24dfe99e7755",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Yellow card} occurs, keep following the same team and tell me whenever they perform {Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Yellow card}; then follow that team. Respond 'Trigger: {Yellow card} by left/right', and for {Substitution} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3162.0,
-      "end": 3162.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Yellow card by left"
     },
     {
-      "start": 3173.0,
-      "end": 3173.0,
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3162000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_003130_003250.json",
-  "segment_meta": {
-    "start_seconds": 3130,
-    "end_seconds": 3250,
-    "length_seconds": 120,
-    "start_time_mmss": "52:10",
-    "end_time_mmss": "54:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

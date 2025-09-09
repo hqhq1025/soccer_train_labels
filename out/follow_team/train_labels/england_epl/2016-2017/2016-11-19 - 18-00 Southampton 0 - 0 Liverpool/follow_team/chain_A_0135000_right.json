@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24661,
   "video_id": "284c4ee4-fb29-5669-a951-6419954392cd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Corner and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Corner and Offside}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 135.0,
-      "end": 135.0,
-      "text": "Trigger: Throw-in by right @ 1 - 02:15"
+      "start": 5.0,
+      "end": 5.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 194.0,
-      "end": 194.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 205.0,
-      "end": 205.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 135000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/segment_000130_000210.json",
-  "segment_meta": {
-    "start_seconds": 130,
-    "end_seconds": 210,
-    "length_seconds": 80,
-    "start_time_mmss": "02:10",
-    "end_time_mmss": "03:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

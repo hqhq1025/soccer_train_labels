@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 599,
   "video_id": "df24297a-2dc5-595b-93a3-4a79f4aa47b4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 3240.0,
-      "end": 3240.0,
-      "text": "Trigger: Shots on target by right @ 2 - 09:00"
-    },
-    {
-      "start": 3264.0,
-      "end": 3264.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3240000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-11 - 22-45 Paris SG 2 - 2 Nice/segment_003230_003270.json",
-  "segment_meta": {
-    "start_seconds": 3230,
-    "end_seconds": 3270,
-    "length_seconds": 40,
-    "start_time_mmss": "53:50",
-    "end_time_mmss": "54:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

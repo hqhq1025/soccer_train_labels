@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24619,
   "video_id": "1198bfb5-d3a8-57d7-9af5-d0e607158307",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3991.0,
-      "end": 3991.0,
-      "text": "Trigger: Throw-in by left @ 2 - 21:31"
-    },
-    {
-      "start": 4010.0,
-      "end": 4010.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3991000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-19 - 18-00 Southampton 0 - 0 Liverpool/segment_003900_004020.json",
-  "segment_meta": {
-    "start_seconds": 3900,
-    "end_seconds": 4020,
-    "length_seconds": 120,
-    "start_time_mmss": "65:00",
-    "end_time_mmss": "67:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

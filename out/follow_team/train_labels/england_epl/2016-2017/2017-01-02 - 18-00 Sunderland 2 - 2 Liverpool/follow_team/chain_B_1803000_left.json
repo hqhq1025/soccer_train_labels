@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23694,
   "video_id": "5edd4945-310b-5dbf-afc0-ef3115a8f7bb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Offside} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, start tracking that team. Use responses 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 1803.0,
-      "end": 1803.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 1806.0,
-      "end": 1806.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 1803000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/segment_001770_001810.json",
-  "segment_meta": {
-    "start_seconds": 1770,
-    "end_seconds": 1810,
-    "length_seconds": 40,
-    "start_time_mmss": "29:30",
-    "end_time_mmss": "30:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1044,
   "video_id": "82dc70f9-d937-55e0-ab90-ebff57f9d1af",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Goal} happens, lock onto that team and report every {Substitution} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Goal} occurs, keep following the same team and reply exactly 'Trigger: {Goal} by left/right'; then for each {Substitution} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3827.0,
-      "end": 3827.0,
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
       "text": "Trigger: Goal by left"
     },
     {
-      "start": 3870.0,
-      "end": 3870.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3827000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/segment_003810_003930.json",
-  "segment_meta": {
-    "start_seconds": 3810,
-    "end_seconds": 3930,
-    "length_seconds": 120,
-    "start_time_mmss": "63:30",
-    "end_time_mmss": "65:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

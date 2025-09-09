@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1241,
   "video_id": "56bb5cbf-3446-5371-8879-400c10f1eb05",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
-  "answer": [
+  "question": [
     {
-      "start": 2042.0,
-      "end": 2042.0,
-      "text": "Trigger: Shots on target by right @ 1 - 34:02"
-    },
-    {
-      "start": 2044.0,
-      "end": 2044.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-05-06 - 18-00 Paris SG 5 - 0 Bastia/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-05-06 - 18-00 Paris SG 5 - 0 Bastia/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2042000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-05-06 - 18-00 Paris SG 5 - 0 Bastia/segment_001990_002050.json",
-  "segment_meta": {
-    "start_seconds": 1990,
-    "end_seconds": 2050,
-    "length_seconds": 60,
-    "start_time_mmss": "33:10",
-    "end_time_mmss": "34:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11028,
   "video_id": "d4c919ce-737e-5203-b9e7-c683aca0fc84",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team. Use responses 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4358.0,
-      "end": 4358.0,
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 4360.0,
-      "end": 4360.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-11-29 - 18-00 Eibar 0 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-11-29 - 18-00 Eibar 0 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4358000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-11-29 - 18-00 Eibar 0 - 2 Real Madrid/segment_004250_004370.json",
-  "segment_meta": {
-    "start_seconds": 4250,
-    "end_seconds": 4370,
-    "length_seconds": 120,
-    "start_time_mmss": "70:50",
-    "end_time_mmss": "72:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

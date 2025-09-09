@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7518,
   "video_id": "ce1dc69b-7d7c-5d8d-8535-93e8cec0f9af",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 5263.0,
-      "end": 5263.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 5264.0,
-      "end": 5264.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5263000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-21 - 21-45 Bayern Munich 6 - 1 FC Porto/segment_005190_005270.json",
-  "segment_meta": {
-    "start_seconds": 5190,
-    "end_seconds": 5270,
-    "length_seconds": 80,
-    "start_time_mmss": "86:30",
-    "end_time_mmss": "87:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

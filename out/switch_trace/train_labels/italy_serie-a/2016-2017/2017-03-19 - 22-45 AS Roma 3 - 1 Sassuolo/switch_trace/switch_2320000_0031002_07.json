@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 28443,
+  "video_id": "c3c3bbc9-e270-57e7-aaa5-8ca02009b0fa",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Shots off target and Foul} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 31.002,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Ball out of play}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 86.637,
+      "end": 86.637,
+      "count": 1,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 112.189,
+      "end": 112.189,
+      "count": 1,
+      "text": "Alert - Ball out of play"
+    }
+  ]
+}

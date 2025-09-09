@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20830,
   "video_id": "e96d4949-fc73-536b-b939-626e976b48c0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Kick-off} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Kick-off}, continue tracking that team. Answers must be 'Trigger: {Kick-off} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2154.0,
-      "end": 2154.0,
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
       "text": "Trigger: Kick-off by right"
     },
     {
-      "start": 2187.0,
-      "end": 2187.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2154000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-21 - 21-45 Pescara 2 - 2 Napoli/segment_002110_002190.json",
-  "segment_meta": {
-    "start_seconds": 2110,
-    "end_seconds": 2190,
-    "length_seconds": 80,
-    "start_time_mmss": "35:10",
-    "end_time_mmss": "36:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11226,
   "video_id": "b87a9a24-ad0a-5e4a-8418-6f7b3d043b9c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Throw-in}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3854.0,
-      "end": 3854.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3864.0,
-      "end": 3864.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3854000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/segment_003750_003870.json",
-  "segment_meta": {
-    "start_seconds": 3750,
-    "end_seconds": 3870,
-    "length_seconds": 120,
-    "start_time_mmss": "62:30",
-    "end_time_mmss": "64:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

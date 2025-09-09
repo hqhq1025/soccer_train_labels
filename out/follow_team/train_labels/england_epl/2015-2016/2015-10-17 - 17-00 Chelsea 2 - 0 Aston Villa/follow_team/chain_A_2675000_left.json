@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21775,
   "video_id": "c6047a3a-6c6e-5cd5-8fcd-4a201d855a1a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2675.0,
-      "end": 2675.0,
-      "text": "Trigger: Indirect free-kick by left @ 1 - 44:35"
-    },
-    {
-      "start": 2720.0,
-      "end": 2720.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Indirect free-kick} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2675000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-10-17 - 17-00 Chelsea 2 - 0 Aston Villa/segment_002640_002760.json",
-  "segment_meta": {
-    "start_seconds": 2640,
-    "end_seconds": 2760,
-    "length_seconds": 120,
-    "start_time_mmss": "44:00",
-    "end_time_mmss": "46:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

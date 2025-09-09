@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6895,
   "video_id": "21286db8-3e35-5c03-83d1-babae40f1270",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Yellow card}, keep following that team and alert me whenever {Foul and Yellow card} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Yellow card}, start tracking that team. Use responses 'Trigger: {Yellow card} by left/right' and 'Then: <Event> by left/right' for {Foul and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 2219.0,
-      "end": 2219.0,
-      "text": "Trigger: Yellow card by left @ 1 - 36:59"
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
+      "text": "Trigger: Yellow card by left"
     },
     {
-      "start": 2251.0,
-      "end": 2251.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 2259.0,
-      "end": 2259.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2219000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 FC Porto 0 - 2 Dyn. Kiev/segment_002160_002260.json",
-  "segment_meta": {
-    "start_seconds": 2160,
-    "end_seconds": 2260,
-    "length_seconds": 100,
-    "start_time_mmss": "36:00",
-    "end_time_mmss": "37:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

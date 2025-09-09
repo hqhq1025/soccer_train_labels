@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3933,
   "video_id": "12181ee8-d1c0-5c0a-820b-4e58fc4364e3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 2439.0,
-      "end": 2439.0,
-      "text": "Trigger: Throw-in by left @ 1 - 40:39"
-    },
-    {
-      "start": 2476.0,
-      "end": 2476.0,
-      "text": "Then: Corner by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Corner}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2439000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/segment_002390_002510.json",
-  "segment_meta": {
-    "start_seconds": 2390,
-    "end_seconds": 2510,
-    "length_seconds": 120,
-    "start_time_mmss": "39:50",
-    "end_time_mmss": "41:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
+      "text": "Then: Corner by left"
+    }
+  ]
 }

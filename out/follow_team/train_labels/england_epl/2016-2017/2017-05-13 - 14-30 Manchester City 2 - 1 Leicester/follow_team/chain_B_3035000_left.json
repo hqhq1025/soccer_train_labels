@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25268,
   "video_id": "46ba035e-98a3-5f53-b095-c2cfd4208a3f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Foul}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3035.0,
-      "end": 3035.0,
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3037.0,
-      "end": 3037.0,
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3035000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/segment_002970_003090.json",
-  "segment_meta": {
-    "start_seconds": 2970,
-    "end_seconds": 3090,
-    "length_seconds": 120,
-    "start_time_mmss": "49:30",
-    "end_time_mmss": "51:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

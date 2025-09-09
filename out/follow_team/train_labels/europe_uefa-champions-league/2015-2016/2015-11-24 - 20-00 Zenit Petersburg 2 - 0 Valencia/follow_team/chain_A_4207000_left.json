@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5149,
   "video_id": "648681c6-5e45-5688-bf8c-8936a2f37f74",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 4207.0,
-      "end": 4207.0,
-      "text": "Trigger: Foul by left @ 2 - 25:07"
-    },
-    {
-      "start": 4216.0,
-      "end": 4216.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Foul}, stick with that team. For {Yellow card}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4207000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 20-00 Zenit Petersburg 2 - 0 Valencia/segment_004180_004220.json",
-  "segment_meta": {
-    "start_seconds": 4180,
-    "end_seconds": 4220,
-    "length_seconds": 40,
-    "start_time_mmss": "69:40",
-    "end_time_mmss": "70:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

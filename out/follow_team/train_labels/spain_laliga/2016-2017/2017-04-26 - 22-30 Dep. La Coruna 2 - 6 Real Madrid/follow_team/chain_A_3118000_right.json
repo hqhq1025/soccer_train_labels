@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13995,
   "video_id": "0834a7c6-5ea5-5b70-bd1d-f4a321581c45",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 3118.0,
-      "end": 3118.0,
-      "text": "Trigger: Corner by right @ 2 - 06:58"
-    },
-    {
-      "start": 3151.0,
-      "end": 3151.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, follow that team. Answer format: at trigger reply 'Trigger: {Corner} by left/right'; for each {Corner}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3118000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-26 - 22-30 Dep. La Coruna 2 - 6 Real Madrid/segment_003070_003170.json",
-  "segment_meta": {
-    "start_seconds": 3070,
-    "end_seconds": 3170,
-    "length_seconds": 100,
-    "start_time_mmss": "51:10",
-    "end_time_mmss": "52:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 76,
   "video_id": "4ec418e1-9832-5e60-929b-1f612030098b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Direct free-kick}, stick with that team. For {Goal}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4340.0,
-      "end": 4340.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 4341.0,
-      "end": 4341.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4340000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2015-2016/2015-09-26 - 18-30 Nantes 1 - 4 Paris SG/segment_004270_004370.json",
-  "segment_meta": {
-    "start_seconds": 4270,
-    "end_seconds": 4370,
-    "length_seconds": 100,
-    "start_time_mmss": "71:10",
-    "end_time_mmss": "72:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

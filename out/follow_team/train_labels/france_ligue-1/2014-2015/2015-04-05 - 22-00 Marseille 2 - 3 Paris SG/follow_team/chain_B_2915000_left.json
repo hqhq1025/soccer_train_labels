@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 188,
   "video_id": "ed576302-7987-5f59-9a3b-5141c37de6fb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots off target}, stick with that team and alert me for {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots off target} occurs, keep following the same team and reply exactly 'Trigger: {Shots off target} by left/right'; then for each {Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2915.0,
-      "end": 2915.0,
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 2917.0,
-      "end": 2917.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2915000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/segment_002820_002920.json",
-  "segment_meta": {
-    "start_seconds": 2820,
-    "end_seconds": 2920,
-    "length_seconds": 100,
-    "start_time_mmss": "47:00",
-    "end_time_mmss": "48:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

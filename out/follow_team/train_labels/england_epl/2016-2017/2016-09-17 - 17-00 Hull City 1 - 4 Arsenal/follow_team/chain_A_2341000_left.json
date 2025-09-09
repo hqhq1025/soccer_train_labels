@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24253,
   "video_id": "d2cacc99-adeb-5161-90f4-5340defe8485",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 2341.0,
-      "end": 2341.0,
-      "text": "Trigger: Shots on target by left @ 1 - 39:01"
-    },
-    {
-      "start": 2351.0,
-      "end": 2351.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2341000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-17 - 17-00 Hull City 1 - 4 Arsenal/segment_002290_002370.json",
-  "segment_meta": {
-    "start_seconds": 2290,
-    "end_seconds": 2370,
-    "length_seconds": 80,
-    "start_time_mmss": "38:10",
-    "end_time_mmss": "39:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

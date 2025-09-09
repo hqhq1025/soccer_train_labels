@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24583,
   "video_id": "6bf0e2aa-5169-58b5-a8df-956ae088ed5f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, keep following that team and alert me whenever {Corner} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 4181.0,
-      "end": 4181.0,
-      "text": "Trigger: Corner by right @ 2 - 24:41"
-    },
-    {
-      "start": 4203.0,
-      "end": 4203.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Corner}. Left/right only."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4181000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/segment_004100_004220.json",
-  "segment_meta": {
-    "start_seconds": 4100,
-    "end_seconds": 4220,
-    "length_seconds": 120,
-    "start_time_mmss": "68:20",
-    "end_time_mmss": "70:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

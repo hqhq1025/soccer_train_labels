@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 28579,
+  "video_id": "7b101f9c-924a-5db5-8c9c-558382237e86",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Keep an eye on {Goal}; alert me on occurrence. Answer format: 'Alert - <Event>'."
+    },
+    {
+      "time": 33.169,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Shots on target and Kick-off}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 42.945,
+      "end": 42.945,
+      "count": 1,
+      "text": "Alert - Shots on target"
+    },
+    {
+      "start": 94.65,
+      "end": 94.65,
+      "count": 1,
+      "text": "Alert - Kick-off"
+    }
+  ]
+}

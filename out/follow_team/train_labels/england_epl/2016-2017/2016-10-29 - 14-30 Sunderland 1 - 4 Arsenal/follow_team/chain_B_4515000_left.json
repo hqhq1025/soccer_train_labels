@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25560,
   "video_id": "00548e30-76da-594b-a3a8-b611b9eed1fd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} occurs, follow the initiating team and report all {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} occurs, follow the initiating team; answer strictly as 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4515.0,
-      "end": 4515.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 4516.0,
-      "end": 4516.0,
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4515000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/segment_004410_004530.json",
-  "segment_meta": {
-    "start_seconds": 4410,
-    "end_seconds": 4530,
-    "length_seconds": 120,
-    "start_time_mmss": "73:30",
-    "end_time_mmss": "75:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13793,
   "video_id": "46bf386a-f38f-5066-b3cc-971121be03b7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 1122.0,
-      "end": 1122.0,
-      "text": "Trigger: Corner by left @ 1 - 18:42"
-    },
-    {
-      "start": 1177.0,
-      "end": 1177.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, continue tracking that team. Answers must be 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1122000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-01-29 - 14-00 Betis 1 - 1 Barcelona/segment_001110_001190.json",
-  "segment_meta": {
-    "start_seconds": 1110,
-    "end_seconds": 1190,
-    "length_seconds": 80,
-    "start_time_mmss": "18:30",
-    "end_time_mmss": "19:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 12.0,
+      "end": 12.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

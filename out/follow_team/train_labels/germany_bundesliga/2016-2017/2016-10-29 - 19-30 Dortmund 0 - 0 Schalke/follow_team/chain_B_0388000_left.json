@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3238,
   "video_id": "4ee86e64-4137-5db2-a770-fc3b4b96f0b0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that team. Answer format: at trigger reply 'Trigger: {Foul} by left/right'; for each {Yellow card}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 388.0,
-      "end": 388.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 398.0,
-      "end": 398.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 388000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-29 - 19-30 Dortmund 0 - 0 Schalke/segment_000320_000400.json",
-  "segment_meta": {
-    "start_seconds": 320,
-    "end_seconds": 400,
-    "length_seconds": 80,
-    "start_time_mmss": "05:20",
-    "end_time_mmss": "06:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

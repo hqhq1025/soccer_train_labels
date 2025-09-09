@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 969,
   "video_id": "a114e3d8-5b85-502f-94a1-d45c26ab3c76",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots off target} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 4943.0,
-      "end": 4943.0,
-      "text": "Trigger: Throw-in by right @ 2 - 37:23"
-    },
-    {
-      "start": 4960.0,
-      "end": 4960.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4943000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/segment_004850_004970.json",
-  "segment_meta": {
-    "start_seconds": 4850,
-    "end_seconds": 4970,
-    "length_seconds": 120,
-    "start_time_mmss": "80:50",
-    "end_time_mmss": "82:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

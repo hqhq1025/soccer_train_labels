@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22131,
   "video_id": "501ceadb-b8b3-5275-a251-3f4d206721e7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 2763.0,
-      "end": 2763.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 01:03"
-    },
-    {
-      "start": 2779.0,
-      "end": 2779.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Indirect free-kick} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2763000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_002740_002820.json",
-  "segment_meta": {
-    "start_seconds": 2740,
-    "end_seconds": 2820,
-    "length_seconds": 80,
-    "start_time_mmss": "45:40",
-    "end_time_mmss": "47:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

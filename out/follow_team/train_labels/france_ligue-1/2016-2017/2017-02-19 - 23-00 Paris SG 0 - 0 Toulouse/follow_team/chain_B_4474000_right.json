@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1344,
   "video_id": "3a2517d7-b7b7-533e-adaf-2863e51d3141",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Direct free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Direct free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 4474.0,
-      "end": 4474.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 4518.0,
-      "end": 4518.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Direct free-kick by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4474000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-02-19 - 23-00 Paris SG 0 - 0 Toulouse/segment_004400_004520.json",
-  "segment_meta": {
-    "start_seconds": 4400,
-    "end_seconds": 4520,
-    "length_seconds": 120,
-    "start_time_mmss": "73:20",
-    "end_time_mmss": "75:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 964,
   "video_id": "2fa9c213-c352-55c9-a8fc-f2c66063c68c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 242.0,
-      "end": 242.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 264.0,
-      "end": 264.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 242000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-03-19 - 23-00 Paris SG 2 - 1 Lyon/segment_000190_000270.json",
-  "segment_meta": {
-    "start_seconds": 190,
-    "end_seconds": 270,
-    "length_seconds": 80,
-    "start_time_mmss": "03:10",
-    "end_time_mmss": "04:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

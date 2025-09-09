@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3364,
   "video_id": "43e713b1-efd9-58a3-b850-deb2b2a07a21",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Clearance}."
+    }
+  ],
   "answer": [
     {
-      "start": 3803.0,
-      "end": 3803.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 3884.0,
-      "end": 3884.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3803000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-02-11 - 17-30 Darmstadt 2 - 1 Dortmund/segment_003770_003890.json",
-  "segment_meta": {
-    "start_seconds": 3770,
-    "end_seconds": 3890,
-    "length_seconds": 120,
-    "start_time_mmss": "62:50",
-    "end_time_mmss": "64:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

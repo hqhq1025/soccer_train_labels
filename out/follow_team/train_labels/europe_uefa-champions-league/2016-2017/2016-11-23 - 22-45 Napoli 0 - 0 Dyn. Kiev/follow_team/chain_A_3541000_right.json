@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9575,
   "video_id": "70844583-265c-51e4-a7eb-10aaec6e1bf9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Offside} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 3541.0,
-      "end": 3541.0,
-      "text": "Trigger: Corner by right @ 2 - 14:01"
-    },
-    {
-      "start": 3554.0,
-      "end": 3554.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Corner}, follow the same team and list all subsequent {Offside}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3541000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Napoli 0 - 0 Dyn. Kiev/segment_003500_003600.json",
-  "segment_meta": {
-    "start_seconds": 3500,
-    "end_seconds": 3600,
-    "length_seconds": 100,
-    "start_time_mmss": "58:20",
-    "end_time_mmss": "60:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

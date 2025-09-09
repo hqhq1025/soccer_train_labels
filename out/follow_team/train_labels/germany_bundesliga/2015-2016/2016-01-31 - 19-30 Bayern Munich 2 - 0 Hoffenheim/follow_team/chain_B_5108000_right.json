@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2666,
   "video_id": "d13fc611-b633-5fed-bdd5-65320c464378",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team; answer strictly as 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5108.0,
-      "end": 5108.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 5119.0,
-      "end": 5119.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5108000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/segment_005040_005140.json",
-  "segment_meta": {
-    "start_seconds": 5040,
-    "end_seconds": 5140,
-    "length_seconds": 100,
-    "start_time_mmss": "84:00",
-    "end_time_mmss": "85:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

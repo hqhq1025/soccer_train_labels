@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17835,
   "video_id": "c830d241-bd06-50e6-88b6-b995d8966b84",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Throw-in and Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team. Use responses 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Throw-in and Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 2404.0,
-      "end": 2404.0,
-      "text": "Trigger: Foul by left @ 1 - 40:04"
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 2453.0,
-      "end": 2453.0,
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2472.0,
-      "end": 2472.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2404000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_002370_002490.json",
-  "segment_meta": {
-    "start_seconds": 2370,
-    "end_seconds": 2490,
-    "length_seconds": 120,
-    "start_time_mmss": "39:30",
-    "end_time_mmss": "41:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

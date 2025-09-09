@@ -1,51 +1,48 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10825,
   "video_id": "b4a54eb9-23f9-5787-9fe7-fe68d5a9f946",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target, Throw-in and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Direct free-kick} happens, lock onto that team. Respond 'Trigger: {Direct free-kick} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots off target, Throw-in and Foul}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3263.0,
-      "end": 3263.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 09:23"
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 3286.0,
-      "end": 3286.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     },
     {
-      "start": 3297.0,
-      "end": 3297.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 3304.0,
-      "end": 3304.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 3308.0,
-      "end": 3308.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3263000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_003210_003330.json",
-  "segment_meta": {
-    "start_seconds": 3210,
-    "end_seconds": 3330,
-    "length_seconds": 120,
-    "start_time_mmss": "53:30",
-    "end_time_mmss": "55:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

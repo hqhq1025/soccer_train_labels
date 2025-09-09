@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8953,
   "video_id": "810805a2-d235-5674-a510-28318f5a668a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 520.0,
-      "end": 520.0,
-      "text": "Trigger: Foul by left @ 1 - 08:40"
-    },
-    {
-      "start": 523.0,
-      "end": 523.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 520000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-18 - 22-45 Schalke 0 - 2 Real Madrid/segment_000470_000530.json",
-  "segment_meta": {
-    "start_seconds": 470,
-    "end_seconds": 530,
-    "length_seconds": 60,
-    "start_time_mmss": "07:50",
-    "end_time_mmss": "08:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

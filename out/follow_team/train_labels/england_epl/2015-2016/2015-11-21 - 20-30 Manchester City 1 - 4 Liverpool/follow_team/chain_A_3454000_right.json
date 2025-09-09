@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21647,
   "video_id": "6ae43505-f505-5877-9914-e2ff35488507",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Throw-in and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Throw-in and Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3454.0,
-      "end": 3454.0,
-      "text": "Trigger: Throw-in by right @ 2 - 12:34"
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3492.0,
-      "end": 3492.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 3500.0,
-      "end": 3500.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3454000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/segment_003410_003510.json",
-  "segment_meta": {
-    "start_seconds": 3410,
-    "end_seconds": 3510,
-    "length_seconds": 100,
-    "start_time_mmss": "56:50",
-    "end_time_mmss": "58:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

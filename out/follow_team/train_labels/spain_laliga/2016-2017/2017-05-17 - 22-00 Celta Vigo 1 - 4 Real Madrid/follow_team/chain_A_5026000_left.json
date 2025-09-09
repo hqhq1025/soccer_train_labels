@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 14867,
   "video_id": "12c31254-b2e1-5e2f-8ea1-6131120ec951",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} happens, lock onto that team and report every {Yellow card} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 5026.0,
-      "end": 5026.0,
-      "text": "Trigger: Clearance by left @ 2 - 38:46"
-    },
-    {
-      "start": 5078.0,
-      "end": 5078.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-05-17 - 22-00 Celta Vigo 1 - 4 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-17 - 22-00 Celta Vigo 1 - 4 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5026000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-17 - 22-00 Celta Vigo 1 - 4 Real Madrid/segment_004960_005080.json",
-  "segment_meta": {
-    "start_seconds": 4960,
-    "end_seconds": 5080,
-    "length_seconds": 120,
-    "start_time_mmss": "82:40",
-    "end_time_mmss": "84:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

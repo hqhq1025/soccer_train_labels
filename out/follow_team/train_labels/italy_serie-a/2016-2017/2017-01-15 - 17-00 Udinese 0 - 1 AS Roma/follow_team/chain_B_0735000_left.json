@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17530,
   "video_id": "14e0fc30-2ffd-5e5f-8e4b-cd875e2fb57d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Kick-off}, follow the same team and list all subsequent {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Kick-off} occurs, keep following the same team and reply exactly 'Trigger: {Kick-off} by left/right'; then for each {Indirect free-kick} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 735.0,
-      "end": 735.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Kick-off by left"
     },
     {
-      "start": 767.0,
-      "end": 767.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 735000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Udinese 0 - 1 AS Roma/segment_000710_000770.json",
-  "segment_meta": {
-    "start_seconds": 710,
-    "end_seconds": 770,
-    "length_seconds": 60,
-    "start_time_mmss": "11:50",
-    "end_time_mmss": "12:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

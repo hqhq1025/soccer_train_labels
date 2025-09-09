@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 684,
   "video_id": "ff63e357-91c6-5b32-84f6-c8cd78981951",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Substitution}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Substitution}, stick with that team. For {Indirect free-kick}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4268.0,
-      "end": 4268.0,
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 4275.0,
-      "end": 4275.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4268000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-18 - 19-30 Metz 2 - 3 Paris SG/segment_004220_004280.json",
-  "segment_meta": {
-    "start_seconds": 4220,
-    "end_seconds": 4280,
-    "length_seconds": 60,
-    "start_time_mmss": "70:20",
-    "end_time_mmss": "71:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

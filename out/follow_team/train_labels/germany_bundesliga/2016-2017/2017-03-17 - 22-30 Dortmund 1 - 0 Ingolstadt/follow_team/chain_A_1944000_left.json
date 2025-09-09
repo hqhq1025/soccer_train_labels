@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4123,
   "video_id": "287fba64-48a5-5393-8121-863b262b20a6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Throw-in and Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Indirect free-kick}, stick with that team. For {Throw-in and Clearance}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 1944.0,
-      "end": 1944.0,
-      "text": "Trigger: Indirect free-kick by left @ 1 - 32:24"
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 1987.0,
-      "end": 1987.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2028.0,
-      "end": 2028.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1944000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_001910_002030.json",
-  "segment_meta": {
-    "start_seconds": 1910,
-    "end_seconds": 2030,
-    "length_seconds": 120,
-    "start_time_mmss": "31:50",
-    "end_time_mmss": "33:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

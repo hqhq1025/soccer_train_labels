@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5095,
   "video_id": "83bf3c5c-530f-588a-8f82-af0f3c6c8d43",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Direct free-kick} happens, lock onto that team and report every {Shots off target} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 971.0,
-      "end": 971.0,
-      "text": "Trigger: Direct free-kick by right @ 1 - 16:11"
-    },
-    {
-      "start": 982.0,
-      "end": 982.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Direct free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 971000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-10-14 - 21-30 Dortmund 1 - 1 Hertha Berlin/segment_000890_000990.json",
-  "segment_meta": {
-    "start_seconds": 890,
-    "end_seconds": 990,
-    "length_seconds": 100,
-    "start_time_mmss": "14:50",
-    "end_time_mmss": "16:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

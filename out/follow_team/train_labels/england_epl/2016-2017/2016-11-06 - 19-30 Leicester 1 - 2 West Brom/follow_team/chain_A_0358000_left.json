@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23869,
   "video_id": "ff9a22d7-2431-5ed8-b5b6-ca575cc09ba6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Throw-in} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 358.0,
-      "end": 358.0,
-      "text": "Trigger: Clearance by left @ 1 - 05:58"
-    },
-    {
-      "start": 444.0,
-      "end": 444.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Clearance}, follow the same team and list all subsequent {Throw-in}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 358000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/segment_000330_000450.json",
-  "segment_meta": {
-    "start_seconds": 330,
-    "end_seconds": 450,
-    "length_seconds": 120,
-    "start_time_mmss": "05:30",
-    "end_time_mmss": "07:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

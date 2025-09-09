@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22341,
   "video_id": "65a89641-7488-530c-8b50-b768dd0cd750",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4593.0,
-      "end": 4593.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 31:33"
-    },
-    {
-      "start": 4596.0,
-      "end": 4596.0,
-      "text": "Then: Shots on target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team; answer strictly as 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4593000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/segment_004520_004600.json",
-  "segment_meta": {
-    "start_seconds": 4520,
-    "end_seconds": 4600,
-    "length_seconds": 80,
-    "start_time_mmss": "75:20",
-    "end_time_mmss": "76:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    }
+  ]
 }

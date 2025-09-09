@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11193,
   "video_id": "0c966f63-3153-5bc1-82b5-644682165197",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots on target}, stick with that team and alert me for {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3453.0,
-      "end": 3453.0,
-      "text": "Trigger: Shots on target by right @ 2 - 12:33"
-    },
-    {
-      "start": 3484.0,
-      "end": 3484.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3453000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/segment_003410_003490.json",
-  "segment_meta": {
-    "start_seconds": 3410,
-    "end_seconds": 3490,
-    "length_seconds": 80,
-    "start_time_mmss": "56:50",
-    "end_time_mmss": "58:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

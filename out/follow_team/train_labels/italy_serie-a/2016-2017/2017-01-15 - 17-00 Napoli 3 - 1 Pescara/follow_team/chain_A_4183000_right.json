@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18685,
   "video_id": "dd57ac29-d222-533b-b881-9ffd69f7e52e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} occurs, follow the initiating team and report all {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4183.0,
-      "end": 4183.0,
-      "text": "Trigger: Corner by right @ 2 - 24:43"
-    },
-    {
-      "start": 4206.0,
-      "end": 4206.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Corner} occurs, keep following the same team and reply exactly 'Trigger: {Corner} by left/right'; then for each {Foul} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4183000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/segment_004140_004220.json",
-  "segment_meta": {
-    "start_seconds": 4140,
-    "end_seconds": 4220,
-    "length_seconds": 80,
-    "start_time_mmss": "69:00",
-    "end_time_mmss": "70:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

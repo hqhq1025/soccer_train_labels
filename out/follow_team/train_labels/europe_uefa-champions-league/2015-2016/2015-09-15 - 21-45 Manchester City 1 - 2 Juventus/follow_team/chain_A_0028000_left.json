@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6445,
   "video_id": "ec4c8d31-b80a-509b-bd44-587b71497690",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Throw-in and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Throw-in and Shots on target}."
+    }
+  ],
   "answer": [
     {
       "start": 28.0,
       "end": 28.0,
-      "text": "Trigger: Throw-in by left @ 1 - 00:28"
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
       "start": 72.0,
       "end": 72.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
       "start": 106.0,
       "end": 106.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 28000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-15 - 21-45 Manchester City 1 - 2 Juventus/segment_000000_000120.json",
-  "segment_meta": {
-    "start_seconds": 0,
-    "end_seconds": 120,
-    "length_seconds": 120,
-    "start_time_mmss": "00:00",
-    "end_time_mmss": "02:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15977,
   "video_id": "dff684ec-dcf6-5e3a-a590-1186c2ac7252",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in, Indirect free-kick and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Throw-in, Indirect free-kick and Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5216.0,
-      "end": 5216.0,
-      "text": "Trigger: Throw-in by left @ 2 - 41:56"
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5226.0,
-      "end": 5226.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 5272.0,
-      "end": 5272.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     },
     {
-      "start": 5277.0,
-      "end": 5277.0,
+      "start": 107.0,
+      "end": 107.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5216000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/segment_005170_005290.json",
-  "segment_meta": {
-    "start_seconds": 5170,
-    "end_seconds": 5290,
-    "length_seconds": 120,
-    "start_time_mmss": "86:10",
-    "end_time_mmss": "88:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

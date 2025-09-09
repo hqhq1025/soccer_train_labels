@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20394,
   "video_id": "1192a186-c2ed-5c2a-9c26-8b3488aed3cf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Substitution}, start tracking that team; notify me on its {Direct free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Substitution} happens, lock onto that team. Respond 'Trigger: {Substitution} by left/right' and thereafter 'Then: <Event> by left/right' for {Direct free-kick}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4338.0,
-      "end": 4338.0,
+      "start": 18.0,
+      "end": 18.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 4376.0,
-      "end": 4376.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Then: Direct free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4338000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/segment_004320_004420.json",
-  "segment_meta": {
-    "start_seconds": 4320,
-    "end_seconds": 4420,
-    "length_seconds": 100,
-    "start_time_mmss": "72:00",
-    "end_time_mmss": "73:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

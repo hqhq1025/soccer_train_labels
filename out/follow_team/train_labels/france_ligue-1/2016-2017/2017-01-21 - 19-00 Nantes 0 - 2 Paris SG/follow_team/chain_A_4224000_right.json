@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 291,
   "video_id": "dd29daad-fb08-5f8f-90c0-a9a860289b2b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4224.0,
-      "end": 4224.0,
-      "text": "Trigger: Throw-in by right @ 2 - 25:24"
-    },
-    {
-      "start": 4273.0,
-      "end": 4273.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Shots off target}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4224000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-01-21 - 19-00 Nantes 0 - 2 Paris SG/segment_004180_004300.json",
-  "segment_meta": {
-    "start_seconds": 4180,
-    "end_seconds": 4300,
-    "length_seconds": 120,
-    "start_time_mmss": "69:40",
-    "end_time_mmss": "71:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

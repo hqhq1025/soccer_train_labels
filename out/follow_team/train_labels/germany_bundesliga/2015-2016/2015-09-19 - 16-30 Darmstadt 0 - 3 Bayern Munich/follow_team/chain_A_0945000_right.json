@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2007,
   "video_id": "9925a7a6-4926-5c2b-8568-aab1a2267677",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 945.0,
-      "end": 945.0,
-      "text": "Trigger: Throw-in by right @ 1 - 15:45"
-    },
-    {
-      "start": 963.0,
-      "end": 963.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 945000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/segment_000910_000970.json",
-  "segment_meta": {
-    "start_seconds": 910,
-    "end_seconds": 970,
-    "length_seconds": 60,
-    "start_time_mmss": "15:10",
-    "end_time_mmss": "16:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

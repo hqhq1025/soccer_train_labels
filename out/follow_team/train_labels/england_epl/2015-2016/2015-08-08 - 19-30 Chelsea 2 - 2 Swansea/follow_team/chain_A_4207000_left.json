@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22735,
   "video_id": "1fbafd30-ab2b-5f3f-b67f-976d079f5480",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul and Throw-in}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4207.0,
-      "end": 4207.0,
-      "text": "Trigger: Throw-in by left @ 2 - 25:07"
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 4209.0,
-      "end": 4209.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 4269.0,
-      "end": 4269.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4207000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/segment_004150_004270.json",
-  "segment_meta": {
-    "start_seconds": 4150,
-    "end_seconds": 4270,
-    "length_seconds": 120,
-    "start_time_mmss": "69:10",
-    "end_time_mmss": "71:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

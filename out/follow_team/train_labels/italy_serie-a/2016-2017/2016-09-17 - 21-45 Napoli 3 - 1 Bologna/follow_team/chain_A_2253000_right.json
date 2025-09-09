@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19609,
   "video_id": "c441c3a8-0076-5440-87c6-f598aab9d70b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 2253.0,
-      "end": 2253.0,
-      "text": "Trigger: Indirect free-kick by right @ 1 - 37:33"
-    },
-    {
-      "start": 2261.0,
-      "end": 2261.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team. Answers must be 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Offside}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2253000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/segment_002210_002270.json",
-  "segment_meta": {
-    "start_seconds": 2210,
-    "end_seconds": 2270,
-    "length_seconds": 60,
-    "start_time_mmss": "36:50",
-    "end_time_mmss": "37:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

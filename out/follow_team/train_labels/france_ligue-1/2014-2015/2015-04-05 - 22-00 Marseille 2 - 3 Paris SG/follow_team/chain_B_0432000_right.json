@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 200,
   "video_id": "62866de4-8d3d-5295-891b-d82a4a11fe63",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team; answer strictly as 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 432.0,
-      "end": 432.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 454.0,
-      "end": 454.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 432000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/segment_000350_000470.json",
-  "segment_meta": {
-    "start_seconds": 350,
-    "end_seconds": 470,
-    "length_seconds": 120,
-    "start_time_mmss": "05:50",
-    "end_time_mmss": "07:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

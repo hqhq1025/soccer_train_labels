@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 14279,
   "video_id": "9b010c2c-050a-5da0-8c6f-f043f091c5be",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots off target}; then follow that team and report its {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4776.0,
-      "end": 4776.0,
-      "text": "Trigger: Shots off target by right @ 2 - 34:36"
-    },
-    {
-      "start": 4839.0,
-      "end": 4839.0,
-      "text": "Then: Shots off target by right"
-    },
-    {
-      "start": 4851.0,
-      "end": 4851.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, start tracking that team. Use responses 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2016-11-19 - 18-15 Barcelona 0 - 0 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-19 - 18-15 Barcelona 0 - 0 Malaga/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4776000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-19 - 18-15 Barcelona 0 - 0 Malaga/segment_004740_004860.json",
-  "segment_meta": {
-    "start_seconds": 4740,
-    "end_seconds": 4860,
-    "length_seconds": 120,
-    "start_time_mmss": "79:00",
-    "end_time_mmss": "81:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

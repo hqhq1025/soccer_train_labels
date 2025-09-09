@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2663,
   "video_id": "d13fc611-b633-5fed-bdd5-65320c464378",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 5089.0,
-      "end": 5089.0,
-      "text": "Trigger: Shots off target by left @ 2 - 39:49"
-    },
-    {
-      "start": 5135.0,
-      "end": 5135.0,
-      "text": "Then: Indirect free-kick by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, keep following that team. Use left/right only; 'Trigger: {Shots off target} by left/right', then 'Then: <Event> by left/right' for {Indirect free-kick}."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5089000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2016-01-31 - 19-30 Bayern Munich 2 - 0 Hoffenheim/segment_005040_005140.json",
-  "segment_meta": {
-    "start_seconds": 5040,
-    "end_seconds": 5140,
-    "length_seconds": 100,
-    "start_time_mmss": "84:00",
-    "end_time_mmss": "85:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ]
 }

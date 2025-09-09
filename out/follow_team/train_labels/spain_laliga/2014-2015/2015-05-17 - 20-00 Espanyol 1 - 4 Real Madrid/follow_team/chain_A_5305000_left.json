@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11629,
   "video_id": "70b69028-1168-5ea6-9360-73949e8991d4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 110.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Shots off target, Goal and Shots on target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, start tracking that team. Use responses 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Shots off target, Goal and Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 5305.0,
-      "end": 5305.0,
-      "text": "Trigger: Clearance by left @ 2 - 43:25"
+      "start": 5.0,
+      "end": 5.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
     },
     {
-      "start": 5326.0,
-      "end": 5326.0,
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     },
     {
-      "start": 5404.0,
-      "end": 5404.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Goal by left"
     },
     {
-      "start": 5404.0,
-      "end": 5404.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5305000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/segment_005300_005410.json",
-  "segment_meta": {
-    "start_seconds": 5300,
-    "end_seconds": 5410,
-    "length_seconds": 110,
-    "start_time_mmss": "88:20",
-    "end_time_mmss": "90:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

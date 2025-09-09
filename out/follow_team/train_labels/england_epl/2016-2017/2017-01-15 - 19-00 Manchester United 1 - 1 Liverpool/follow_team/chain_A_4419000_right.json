@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23433,
   "video_id": "1cf9665d-34ea-5594-8db0-44c65f345ba0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Throw-in} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 4419.0,
-      "end": 4419.0,
-      "text": "Trigger: Clearance by right @ 2 - 28:39"
-    },
-    {
-      "start": 4439.0,
-      "end": 4439.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Clearance}; then follow that team. Respond 'Trigger: {Clearance} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4419000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/segment_004320_004440.json",
-  "segment_meta": {
-    "start_seconds": 4320,
-    "end_seconds": 4440,
-    "length_seconds": 120,
-    "start_time_mmss": "72:00",
-    "end_time_mmss": "74:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

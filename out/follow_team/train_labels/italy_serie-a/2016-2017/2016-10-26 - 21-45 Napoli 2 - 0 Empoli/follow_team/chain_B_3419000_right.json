@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20480,
   "video_id": "0d29b7cd-3445-51f8-b813-53ef1a6c255d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Corner} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 3419.0,
-      "end": 3419.0,
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3453.0,
-      "end": 3453.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3419000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/segment_003400_003460.json",
-  "segment_meta": {
-    "start_seconds": 3400,
-    "end_seconds": 3460,
-    "length_seconds": 60,
-    "start_time_mmss": "56:40",
-    "end_time_mmss": "57:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

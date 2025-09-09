@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23065,
   "video_id": "2b644a44-687e-566c-9848-762fd24b9c97",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3977.0,
-      "end": 3977.0,
-      "text": "Trigger: Corner by right @ 2 - 21:17"
-    },
-    {
-      "start": 4014.0,
-      "end": 4014.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3977000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/segment_003900_004020.json",
-  "segment_meta": {
-    "start_seconds": 3900,
-    "end_seconds": 4020,
-    "length_seconds": 120,
-    "start_time_mmss": "65:00",
-    "end_time_mmss": "67:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

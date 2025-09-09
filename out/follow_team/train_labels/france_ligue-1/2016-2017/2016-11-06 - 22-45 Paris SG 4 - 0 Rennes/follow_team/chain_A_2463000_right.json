@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1477,
   "video_id": "405ccd18-80a5-5a7a-a514-e30dc03640bb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots on target}, stick with that team. For {Shots on target and Goal}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2463.0,
-      "end": 2463.0,
-      "text": "Trigger: Shots on target by right @ 1 - 41:03"
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 2482.0,
-      "end": 2482.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 2483.0,
-      "end": 2483.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2463000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/segment_002410_002490.json",
-  "segment_meta": {
-    "start_seconds": 2410,
-    "end_seconds": 2490,
-    "length_seconds": 80,
-    "start_time_mmss": "40:10",
-    "end_time_mmss": "41:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

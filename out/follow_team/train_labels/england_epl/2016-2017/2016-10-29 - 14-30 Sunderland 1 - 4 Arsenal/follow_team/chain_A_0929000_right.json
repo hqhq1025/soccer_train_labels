@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25567,
   "video_id": "bebb4909-ed81-5d65-9b64-df12fd14f101",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 929.0,
-      "end": 929.0,
-      "text": "Trigger: Throw-in by right @ 1 - 15:29"
-    },
-    {
-      "start": 931.0,
-      "end": 931.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team. Use left/right only; 'Trigger: {Throw-in} by left/right', then 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 929000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 14-30 Sunderland 1 - 4 Arsenal/segment_000860_000940.json",
-  "segment_meta": {
-    "start_seconds": 860,
-    "end_seconds": 940,
-    "length_seconds": 80,
-    "start_time_mmss": "14:20",
-    "end_time_mmss": "15:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

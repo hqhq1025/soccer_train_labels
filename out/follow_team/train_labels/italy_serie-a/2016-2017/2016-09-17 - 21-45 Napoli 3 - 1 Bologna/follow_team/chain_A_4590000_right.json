@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19619,
   "video_id": "d37d08c2-b842-5d7b-a0b3-f54e4f09a3c3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Shots on target and Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 4590.0,
-      "end": 4590.0,
-      "text": "Trigger: Throw-in by right @ 2 - 31:30"
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 4620.0,
-      "end": 4620.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 4621.0,
-      "end": 4621.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4590000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/segment_004530_004630.json",
-  "segment_meta": {
-    "start_seconds": 4530,
-    "end_seconds": 4630,
-    "length_seconds": 100,
-    "start_time_mmss": "75:30",
-    "end_time_mmss": "77:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

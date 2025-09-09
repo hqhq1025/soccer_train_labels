@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22332,
   "video_id": "31946a03-6cdb-51b2-b3d4-a4afa10e3f31",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots off target}, follow the same team and list all subsequent {Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4901.0,
-      "end": 4901.0,
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 4943.0,
-      "end": 4943.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4901000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 19-30 Manchester City 2 - 1 West Brom/segment_004870_004950.json",
-  "segment_meta": {
-    "start_seconds": 4870,
-    "end_seconds": 4950,
-    "length_seconds": 80,
-    "start_time_mmss": "81:10",
-    "end_time_mmss": "82:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

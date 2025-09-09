@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18139,
   "video_id": "f65d84ed-3a00-551d-8061-d93567ebf6f8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3099.0,
-      "end": 3099.0,
-      "text": "Trigger: Corner by right @ 2 - 06:39"
-    },
-    {
-      "start": 3101.0,
-      "end": 3101.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots off target}. Left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3099000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-07 - 21-45 AC Milan 1 - 4 AS Roma/segment_003030_003110.json",
-  "segment_meta": {
-    "start_seconds": 3030,
-    "end_seconds": 3110,
-    "length_seconds": 80,
-    "start_time_mmss": "50:30",
-    "end_time_mmss": "51:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

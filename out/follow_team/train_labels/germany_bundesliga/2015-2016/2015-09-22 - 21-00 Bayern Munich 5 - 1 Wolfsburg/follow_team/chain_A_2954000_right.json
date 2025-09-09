@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2569,
   "video_id": "43e5e5ac-6176-5cc5-bd29-728b52db3039",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 2954.0,
-      "end": 2954.0,
-      "text": "Trigger: Throw-in by right @ 2 - 04:14"
-    },
-    {
-      "start": 2972.0,
-      "end": 2972.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Offside} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2954000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-22 - 21-00 Bayern Munich 5 - 1 Wolfsburg/segment_002870_002990.json",
-  "segment_meta": {
-    "start_seconds": 2870,
-    "end_seconds": 2990,
-    "length_seconds": 120,
-    "start_time_mmss": "47:50",
-    "end_time_mmss": "49:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

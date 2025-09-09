@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9031,
   "video_id": "920a3a80-a154-53ec-84dc-7855f028ea79",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Corner} occurs, keep following the same team and tell me whenever they perform {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4136.0,
-      "end": 4136.0,
-      "text": "Trigger: Corner by right @ 2 - 23:56"
-    },
-    {
-      "start": 4138.0,
-      "end": 4138.0,
-      "text": "Then: Shots on target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Shots on target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4136000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 22-45 Arsenal 3 - 3 Anderlecht/segment_004110_004150.json",
-  "segment_meta": {
-    "start_seconds": 4110,
-    "end_seconds": 4150,
-    "length_seconds": 40,
-    "start_time_mmss": "68:30",
-    "end_time_mmss": "69:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    }
+  ]
 }

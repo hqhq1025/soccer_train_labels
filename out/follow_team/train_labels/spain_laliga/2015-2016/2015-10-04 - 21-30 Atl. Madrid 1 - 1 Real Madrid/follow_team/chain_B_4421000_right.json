@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10834,
   "video_id": "a498c059-ac78-5e04-aedb-b3abcce0979a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} happens, lock onto that team. Respond 'Trigger: {Shots off target} by left/right' and thereafter 'Then: <Event> by left/right' for {Clearance}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4421.0,
-      "end": 4421.0,
+      "start": 11.0,
+      "end": 11.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 4450.0,
-      "end": 4450.0,
+      "start": 40.0,
+      "end": 40.0,
+      "count": 0,
       "text": "Then: Clearance by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4421000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_004410_004530.json",
-  "segment_meta": {
-    "start_seconds": 4410,
-    "end_seconds": 4530,
-    "length_seconds": 120,
-    "start_time_mmss": "73:30",
-    "end_time_mmss": "75:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

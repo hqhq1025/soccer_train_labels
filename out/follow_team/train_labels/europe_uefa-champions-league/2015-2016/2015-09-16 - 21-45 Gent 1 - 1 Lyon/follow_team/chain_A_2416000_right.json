@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6053,
   "video_id": "4840c877-85cc-58ad-af32-940e6a4b950e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Red card}.",
-  "answer": [
+  "question": [
     {
-      "start": 2416.0,
-      "end": 2416.0,
-      "text": "Trigger: Throw-in by right @ 1 - 40:16"
-    },
-    {
-      "start": 2423.0,
-      "end": 2423.0,
-      "text": "Then: Red card by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Red card} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2416000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-16 - 21-45 Gent 1 - 1 Lyon/segment_002370_002430.json",
-  "segment_meta": {
-    "start_seconds": 2370,
-    "end_seconds": 2430,
-    "length_seconds": 60,
-    "start_time_mmss": "39:30",
-    "end_time_mmss": "40:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Then: Red card by right"
+    }
+  ]
 }

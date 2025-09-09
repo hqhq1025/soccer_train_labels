@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24469,
   "video_id": "d95d0967-f889-5a66-b639-bf564e981c32",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 5345.0,
-      "end": 5345.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 44:05"
-    },
-    {
-      "start": 5367.0,
-      "end": 5367.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, start tracking that team. Use responses 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5345000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/segment_005260_005380.json",
-  "segment_meta": {
-    "start_seconds": 5260,
-    "end_seconds": 5380,
-    "length_seconds": 120,
-    "start_time_mmss": "87:40",
-    "end_time_mmss": "89:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 107.0,
+      "end": 107.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

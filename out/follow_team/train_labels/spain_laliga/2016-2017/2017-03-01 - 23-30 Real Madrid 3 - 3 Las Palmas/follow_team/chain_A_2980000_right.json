@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 14951,
   "video_id": "6ea13011-c11a-5095-aa04-4d6c8e626019",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Offside} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 2980.0,
-      "end": 2980.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 04:40"
-    },
-    {
-      "start": 2982.0,
-      "end": 2982.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Indirect free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Indirect free-kick} by left/right'; then for each {Offside} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2980000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 23-30 Real Madrid 3 - 3 Las Palmas/segment_002930_002990.json",
-  "segment_meta": {
-    "start_seconds": 2930,
-    "end_seconds": 2990,
-    "length_seconds": 60,
-    "start_time_mmss": "48:50",
-    "end_time_mmss": "49:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6819,
   "video_id": "707bd559-007b-5dba-a3fe-d3a81e3522e1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Foul and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 4997.0,
-      "end": 4997.0,
-      "text": "Trigger: Throw-in by right @ 2 - 38:17"
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 5012.0,
-      "end": 5012.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 5018.0,
-      "end": 5018.0,
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4997000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-24 - 22-45 Maccabi Tel Aviv 0 - 4 Chelsea/segment_004910_005030.json",
-  "segment_meta": {
-    "start_seconds": 4910,
-    "end_seconds": 5030,
-    "length_seconds": 120,
-    "start_time_mmss": "81:50",
-    "end_time_mmss": "83:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

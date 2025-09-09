@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23607,
   "video_id": "0df63a02-0adc-5a95-9c4d-0098452d036f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Corner and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Foul}, follow the same team and list all subsequent {Corner and Shots off target}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2259.0,
-      "end": 2259.0,
-      "text": "Trigger: Foul by left @ 1 - 37:39"
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 2314.0,
-      "end": 2314.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 2316.0,
-      "end": 2316.0,
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2259000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-10-29 - 17-00 Tottenham 1 - 1 Leicester/segment_002210_002330.json",
-  "segment_meta": {
-    "start_seconds": 2210,
-    "end_seconds": 2330,
-    "length_seconds": 120,
-    "start_time_mmss": "36:50",
-    "end_time_mmss": "38:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

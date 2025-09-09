@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25099,
   "video_id": "01b3b042-76da-5e9e-93ee-32b5afb0f268",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Yellow card}, continue tracking that team and notify me about any {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4951.0,
-      "end": 4951.0,
-      "text": "Trigger: Yellow card by left @ 2 - 37:31"
-    },
-    {
-      "start": 4986.0,
-      "end": 4986.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Yellow card}; then follow that team. Respond 'Trigger: {Yellow card} by left/right', and for {Shots on target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4951000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-24 - 19-30 Arsenal 3 - 0 Chelsea/segment_004890_004990.json",
-  "segment_meta": {
-    "start_seconds": 4890,
-    "end_seconds": 4990,
-    "length_seconds": 100,
-    "start_time_mmss": "81:30",
-    "end_time_mmss": "83:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
+      "text": "Trigger: Yellow card by left"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

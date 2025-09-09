@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 17919,
+  "video_id": "7f41e4d4-959c-5355-840b-fee9d790c593",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Track {Ball out of play} and alert me whenever it occurs. Answer exactly: 'Alert - <Event>'."
+    },
+    {
+      "time": 47.52,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Foul and Indirect free-kick}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 31.512,
+      "end": 31.512,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 51.322,
+      "end": 51.322,
+      "count": 1,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 89.71,
+      "end": 89.71,
+      "count": 1,
+      "text": "Alert - Indirect free-kick"
+    }
+  ]
+}

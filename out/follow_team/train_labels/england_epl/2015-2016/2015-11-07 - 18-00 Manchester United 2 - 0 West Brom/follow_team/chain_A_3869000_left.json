@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20967,
   "video_id": "6aa6350d-3770-5d9d-83f0-9222cf7ac720",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 3869.0,
-      "end": 3869.0,
-      "text": "Trigger: Foul by left @ 2 - 19:29"
-    },
-    {
-      "start": 3876.0,
-      "end": 3876.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3869000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-07 - 18-00 Manchester United 2 - 0 West Brom/segment_003840_003880.json",
-  "segment_meta": {
-    "start_seconds": 3840,
-    "end_seconds": 3880,
-    "length_seconds": 40,
-    "start_time_mmss": "64:00",
-    "end_time_mmss": "64:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

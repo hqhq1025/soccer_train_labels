@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3944,
   "video_id": "8421b987-fc84-5110-8873-6333bf72a4ad",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Substitution}, continue tracking that team and notify me about any {Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Substitution}, continue tracking that team. Answers must be 'Trigger: {Substitution} by left/right' and 'Then: <Event> by left/right' for {Clearance}."
+    }
+  ],
   "answer": [
     {
-      "start": 4919.0,
-      "end": 4919.0,
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 4927.0,
-      "end": 4927.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4919000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-11-26 - 17-30 Eintracht Frankfurt 2 - 1 Dortmund/segment_004890_004930.json",
-  "segment_meta": {
-    "start_seconds": 4890,
-    "end_seconds": 4930,
-    "length_seconds": 40,
-    "start_time_mmss": "81:30",
-    "end_time_mmss": "82:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

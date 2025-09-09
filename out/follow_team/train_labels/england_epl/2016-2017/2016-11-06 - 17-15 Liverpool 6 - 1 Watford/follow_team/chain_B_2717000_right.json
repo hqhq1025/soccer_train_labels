@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24406,
   "video_id": "3dcda2a7-9577-58b3-a8a8-4f5dea688324",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team; answer strictly as 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 2717.0,
-      "end": 2717.0,
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 2762.0,
-      "end": 2762.0,
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2717000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 17-15 Liverpool 6 - 1 Watford/segment_002700_002800.json",
-  "segment_meta": {
-    "start_seconds": 2700,
-    "end_seconds": 2800,
-    "length_seconds": 100,
-    "start_time_mmss": "45:00",
-    "end_time_mmss": "46:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

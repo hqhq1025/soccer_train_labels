@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11543,
   "video_id": "2df4602e-68e5-536a-b533-827be7ef2a81",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 3461.0,
-      "end": 3461.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 12:41"
-    },
-    {
-      "start": 3481.0,
-      "end": 3481.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Indirect free-kick}, stick with that team. For {Offside}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3461000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-09 - 21-00 Real Madrid 2 - 2 Valencia/segment_003400_003520.json",
-  "segment_meta": {
-    "start_seconds": 3400,
-    "end_seconds": 3520,
-    "length_seconds": 120,
-    "start_time_mmss": "56:40",
-    "end_time_mmss": "58:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

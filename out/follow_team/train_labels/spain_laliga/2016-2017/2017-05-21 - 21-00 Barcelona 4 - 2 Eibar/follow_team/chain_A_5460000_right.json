@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 12247,
   "video_id": "ebf38686-b7e6-53f8-a3a4-1002fb95b157",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 5460.0,
-      "end": 5460.0,
-      "text": "Trigger: Shots on target by right @ 2 - 46:00"
-    },
-    {
-      "start": 5474.0,
-      "end": 5474.0,
-      "text": "Then: Goal by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots on target} by left/right'; for each {Goal}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5460000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-05-21 - 21-00 Barcelona 4 - 2 Eibar/segment_005440_005480.json",
-  "segment_meta": {
-    "start_seconds": 5440,
-    "end_seconds": 5480,
-    "length_seconds": 40,
-    "start_time_mmss": "90:40",
-    "end_time_mmss": "91:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Then: Goal by right"
+    }
+  ]
 }

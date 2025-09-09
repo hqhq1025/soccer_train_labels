@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1851,
   "video_id": "e0cf679f-7d13-57a0-893c-a87f10a1e731",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2355.0,
-      "end": 2355.0,
-      "text": "Trigger: Throw-in by left @ 1 - 39:15"
-    },
-    {
-      "start": 2369.0,
-      "end": 2369.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2355000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-12-12 - 17-30 Bayern Munich 2 - 0 Ingolstadt/segment_002260_002380.json",
-  "segment_meta": {
-    "start_seconds": 2260,
-    "end_seconds": 2380,
-    "length_seconds": 120,
-    "start_time_mmss": "37:40",
-    "end_time_mmss": "39:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 109.0,
+      "end": 109.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

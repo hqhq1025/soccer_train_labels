@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22973,
   "video_id": "6dfceb51-6240-5e72-ad47-bb249d4dd8ad",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 5215.0,
-      "end": 5215.0,
-      "text": "Trigger: Shots on target by right @ 2 - 41:55"
-    },
-    {
-      "start": 5271.0,
-      "end": 5271.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots on target}, stick with that team. For {Foul}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5215000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Crystal Palace 1 - 2 Arsenal/segment_005170_005290.json",
-  "segment_meta": {
-    "start_seconds": 5170,
-    "end_seconds": 5290,
-    "length_seconds": 120,
-    "start_time_mmss": "86:10",
-    "end_time_mmss": "88:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

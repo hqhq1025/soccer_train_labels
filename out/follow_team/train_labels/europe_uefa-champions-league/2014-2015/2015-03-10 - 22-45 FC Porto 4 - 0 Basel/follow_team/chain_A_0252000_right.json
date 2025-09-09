@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8813,
   "video_id": "c5344d57-dcef-55c3-87ad-b025a851d050",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 252.0,
-      "end": 252.0,
-      "text": "Trigger: Clearance by right @ 1 - 04:12"
-    },
-    {
-      "start": 271.0,
-      "end": 271.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 278.0,
-      "end": 278.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, follow that team. Answer format: at trigger reply 'Trigger: {Clearance} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 252000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 FC Porto 4 - 0 Basel/segment_000160_000280.json",
-  "segment_meta": {
-    "start_seconds": 160,
-    "end_seconds": 280,
-    "length_seconds": 120,
-    "start_time_mmss": "02:40",
-    "end_time_mmss": "04:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

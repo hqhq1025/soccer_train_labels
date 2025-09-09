@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4129,
   "video_id": "8a3b0f2b-4073-5b15-bca0-505f00d26191",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Clearance}.",
-  "answer": [
+  "question": [
     {
-      "start": 2215.0,
-      "end": 2215.0,
-      "text": "Trigger: Foul by left @ 1 - 36:55"
-    },
-    {
-      "start": 2289.0,
-      "end": 2289.0,
-      "text": "Then: Clearance by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Clearance}."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2215000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-03-17 - 22-30 Dortmund 1 - 0 Ingolstadt/segment_002200_002320.json",
-  "segment_meta": {
-    "start_seconds": 2200,
-    "end_seconds": 2320,
-    "length_seconds": 120,
-    "start_time_mmss": "36:40",
-    "end_time_mmss": "38:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
+      "text": "Then: Clearance by left"
+    }
+  ]
 }

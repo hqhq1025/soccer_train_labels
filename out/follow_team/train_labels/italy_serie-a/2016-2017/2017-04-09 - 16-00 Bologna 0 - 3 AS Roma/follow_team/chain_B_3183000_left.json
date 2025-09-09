@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17778,
   "video_id": "1bf9b1a8-808b-546b-b168-a42d678651e8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3183.0,
-      "end": 3183.0,
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 3185.0,
-      "end": 3185.0,
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3183000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-09 - 16-00 Bologna 0 - 3 AS Roma/segment_003170_003290.json",
-  "segment_meta": {
-    "start_seconds": 3170,
-    "end_seconds": 3290,
-    "length_seconds": 120,
-    "start_time_mmss": "52:50",
-    "end_time_mmss": "54:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

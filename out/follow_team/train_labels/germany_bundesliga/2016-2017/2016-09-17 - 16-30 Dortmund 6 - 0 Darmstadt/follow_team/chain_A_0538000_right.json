@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4441,
   "video_id": "db06a9bd-266c-540e-9f2d-03c5a6d5a790",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 538.0,
-      "end": 538.0,
-      "text": "Trigger: Shots on target by right @ 1 - 08:58"
-    },
-    {
-      "start": 547.0,
-      "end": 547.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots on target}, keep following that team. Use left/right only; 'Trigger: {Shots on target} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 538000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2016-09-17 - 16-30 Dortmund 6 - 0 Darmstadt/segment_000430_000550.json",
-  "segment_meta": {
-    "start_seconds": 430,
-    "end_seconds": 550,
-    "length_seconds": 120,
-    "start_time_mmss": "07:10",
-    "end_time_mmss": "09:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
+    },
+    {
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

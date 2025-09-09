@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5527,
   "video_id": "5869f23c-274f-50da-90a1-9ca43fc759ce",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} occurs, follow the initiating team and report all {Substitution and Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Substitution and Clearance}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4142.0,
-      "end": 4142.0,
-      "text": "Trigger: Corner by left @ 2 - 24:02"
+      "start": 12.0,
+      "end": 12.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
     },
     {
-      "start": 4228.0,
-      "end": 4228.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     },
     {
-      "start": 4239.0,
-      "end": 4239.0,
+      "start": 109.0,
+      "end": 109.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4142000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/segment_004130_004250.json",
-  "segment_meta": {
-    "start_seconds": 4130,
-    "end_seconds": 4250,
-    "length_seconds": 120,
-    "start_time_mmss": "68:50",
-    "end_time_mmss": "70:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15782,
   "video_id": "9d20e749-da4a-5426-aa53-f45cc6ba6303",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, keep following that team. Use left/right only; 'Trigger: {Indirect free-kick} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 5169.0,
-      "end": 5169.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 5184.0,
-      "end": 5184.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5169000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_005110_005230.json",
-  "segment_meta": {
-    "start_seconds": 5110,
-    "end_seconds": 5230,
-    "length_seconds": 120,
-    "start_time_mmss": "85:10",
-    "end_time_mmss": "87:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

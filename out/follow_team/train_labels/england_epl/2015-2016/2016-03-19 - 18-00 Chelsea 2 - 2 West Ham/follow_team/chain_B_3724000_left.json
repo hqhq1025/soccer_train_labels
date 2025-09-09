@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21242,
   "video_id": "40c29d6a-e731-5248-bc52-f789f19744e5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Substitution}, follow the same team and list all subsequent {Kick-off}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Substitution}, keep following that team. Use left/right only; 'Trigger: {Substitution} by left/right', then 'Then: <Event> by left/right' for {Kick-off}."
+    }
+  ],
   "answer": [
     {
-      "start": 3724.0,
-      "end": 3724.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 3729.0,
-      "end": 3729.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Then: Kick-off by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3724000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-03-19 - 18-00 Chelsea 2 - 2 West Ham/segment_003690_003730.json",
-  "segment_meta": {
-    "start_seconds": 3690,
-    "end_seconds": 3730,
-    "length_seconds": 40,
-    "start_time_mmss": "61:30",
-    "end_time_mmss": "62:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

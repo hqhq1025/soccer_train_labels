@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19511,
   "video_id": "b6a7fa27-8f78-5cfd-bf71-cd0d015621fc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2687.0,
-      "end": 2687.0,
-      "text": "Trigger: Indirect free-kick by left @ 1 - 44:47"
-    },
-    {
-      "start": 2737.0,
-      "end": 2737.0,
-      "text": "Then: Throw-in by left"
-    },
-    {
-      "start": 2750.0,
-      "end": 2750.0,
-      "text": "Then: Throw-in by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team. Respond 'Trigger: {Indirect free-kick} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2687000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_002670_002790.json",
-  "segment_meta": {
-    "start_seconds": 2670,
-    "end_seconds": 2790,
-    "length_seconds": 120,
-    "start_time_mmss": "44:30",
-    "end_time_mmss": "46:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
+    },
+    {
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    },
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
+      "text": "Then: Throw-in by left"
+    }
+  ]
 }

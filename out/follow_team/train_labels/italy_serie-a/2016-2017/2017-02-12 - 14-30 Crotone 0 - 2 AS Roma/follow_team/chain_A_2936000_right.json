@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18261,
   "video_id": "d6d22b51-99bb-5722-b9a5-6e4679e5d99d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, continue tracking that team and notify me about any {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 2936.0,
-      "end": 2936.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 03:56"
-    },
-    {
-      "start": 3008.0,
-      "end": 3008.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Direct free-kick}; then follow that team. Respond 'Trigger: {Direct free-kick} by left/right', and for {Shots off target} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2936000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-12 - 14-30 Crotone 0 - 2 AS Roma/segment_002910_003010.json",
-  "segment_meta": {
-    "start_seconds": 2910,
-    "end_seconds": 3010,
-    "length_seconds": 100,
-    "start_time_mmss": "48:30",
-    "end_time_mmss": "50:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

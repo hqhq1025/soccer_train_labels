@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23038,
   "video_id": "6d8e0226-a5a2-5b08-9d5b-682f64ec118f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, follow that team. Answer format: at trigger reply 'Trigger: {Corner} by left/right'; for each {Shots off target}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3888.0,
-      "end": 3888.0,
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 3890.0,
-      "end": 3890.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3888000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2014-2015/2015-02-21 - 18-00 Swansea 2 - 1 Manchester United/segment_003840_003900.json",
-  "segment_meta": {
-    "start_seconds": 3840,
-    "end_seconds": 3900,
-    "length_seconds": 60,
-    "start_time_mmss": "64:00",
-    "end_time_mmss": "65:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

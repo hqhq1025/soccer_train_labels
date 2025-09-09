@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24230,
   "video_id": "c7835d2e-0f2b-58cc-a31a-904c08b95ab1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, continue tracking that team. Answers must be 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 202.0,
-      "end": 202.0,
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 220.0,
-      "end": 220.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 202000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/segment_000160_000280.json",
-  "segment_meta": {
-    "start_seconds": 160,
-    "end_seconds": 280,
-    "length_seconds": 120,
-    "start_time_mmss": "02:40",
-    "end_time_mmss": "04:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

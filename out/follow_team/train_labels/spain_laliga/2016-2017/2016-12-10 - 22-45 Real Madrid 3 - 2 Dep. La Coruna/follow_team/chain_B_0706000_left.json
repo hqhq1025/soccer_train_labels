@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13406,
   "video_id": "03459da7-84b5-5411-91e8-8c39478fd75e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Corner}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 706.0,
-      "end": 706.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 740.0,
-      "end": 740.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 706000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/segment_000670_000750.json",
-  "segment_meta": {
-    "start_seconds": 670,
-    "end_seconds": 750,
-    "length_seconds": 80,
-    "start_time_mmss": "11:10",
-    "end_time_mmss": "12:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

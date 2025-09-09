@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8035,
   "video_id": "dfdfdbb2-95e0-584d-a42d-af181d09d237",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 482.0,
-      "end": 482.0,
-      "text": "Trigger: Clearance by right @ 1 - 08:02"
-    },
-    {
-      "start": 492.0,
-      "end": 492.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Juventus 1 - 0 Monaco/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Juventus 1 - 0 Monaco/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 482000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-14 - 21-45 Juventus 1 - 0 Monaco/segment_000460_000580.json",
-  "segment_meta": {
-    "start_seconds": 460,
-    "end_seconds": 580,
-    "length_seconds": 120,
-    "start_time_mmss": "07:40",
-    "end_time_mmss": "09:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

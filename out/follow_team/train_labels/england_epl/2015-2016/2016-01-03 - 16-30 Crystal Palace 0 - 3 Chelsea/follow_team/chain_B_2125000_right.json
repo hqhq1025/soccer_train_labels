@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22104,
   "video_id": "c37f9401-9e54-53ca-a191-269ebf234b37",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 2125.0,
-      "end": 2125.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 2154.0,
-      "end": 2154.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2125000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/segment_002100_002160.json",
-  "segment_meta": {
-    "start_seconds": 2100,
-    "end_seconds": 2160,
-    "length_seconds": 60,
-    "start_time_mmss": "35:00",
-    "end_time_mmss": "36:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

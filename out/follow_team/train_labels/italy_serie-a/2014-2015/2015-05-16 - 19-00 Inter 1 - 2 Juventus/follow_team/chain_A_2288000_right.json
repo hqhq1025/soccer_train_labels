@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16177,
   "video_id": "cd171f07-6550-5109-b1a5-05fa3e680b83",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots off target}; then follow that team and report its {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 2288.0,
-      "end": 2288.0,
-      "text": "Trigger: Shots off target by right @ 1 - 38:08"
-    },
-    {
-      "start": 2294.0,
-      "end": 2294.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots off target} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2288000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/segment_002260_002300.json",
-  "segment_meta": {
-    "start_seconds": 2260,
-    "end_seconds": 2300,
-    "length_seconds": 40,
-    "start_time_mmss": "37:40",
-    "end_time_mmss": "38:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

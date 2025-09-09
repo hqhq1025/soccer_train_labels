@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22651,
   "video_id": "4227fc80-b48b-5de7-94db-2352f933a570",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, keep following that team and alert me whenever {Corner and Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner and Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4786.0,
-      "end": 4786.0,
-      "text": "Trigger: Shots on target by right @ 2 - 34:46"
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 4809.0,
-      "end": 4809.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 4851.0,
-      "end": 4851.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4786000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 14-45 Everton 3 - 1 Chelsea/segment_004740_004860.json",
-  "segment_meta": {
-    "start_seconds": 4740,
-    "end_seconds": 4860,
-    "length_seconds": 120,
-    "start_time_mmss": "79:00",
-    "end_time_mmss": "81:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

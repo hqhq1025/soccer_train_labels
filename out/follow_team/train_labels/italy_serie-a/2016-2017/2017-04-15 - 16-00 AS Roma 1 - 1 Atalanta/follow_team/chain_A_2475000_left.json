@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17063,
   "video_id": "377df544-77ee-5445-8d35-b5927ab7834d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Foul} occurs, keep following the same team and reply exactly 'Trigger: {Foul} by left/right'; then for each {Yellow card and Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2475.0,
-      "end": 2475.0,
-      "text": "Trigger: Foul by left @ 1 - 41:15"
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 2481.0,
-      "end": 2481.0,
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     },
     {
-      "start": 2516.0,
-      "end": 2516.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2475000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-15 - 16-00 AS Roma 1 - 1 Atalanta/segment_002440_002540.json",
-  "segment_meta": {
-    "start_seconds": 2440,
-    "end_seconds": 2540,
-    "length_seconds": 100,
-    "start_time_mmss": "40:40",
-    "end_time_mmss": "42:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

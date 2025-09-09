@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20412,
   "video_id": "eb9968ff-dfde-56cb-8590-4c22843e1a48",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2067.0,
-      "end": 2067.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 2100.0,
-      "end": 2100.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2067000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/segment_001990_002110.json",
-  "segment_meta": {
-    "start_seconds": 1990,
-    "end_seconds": 2110,
-    "length_seconds": 120,
-    "start_time_mmss": "33:10",
-    "end_time_mmss": "35:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

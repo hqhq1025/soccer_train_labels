@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8317,
   "video_id": "b00b746c-54d5-51f0-ae33-a3a4d8279a41",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3366.0,
-      "end": 3366.0,
-      "text": "Trigger: Corner by right @ 2 - 11:06"
-    },
-    {
-      "start": 3376.0,
-      "end": 3376.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Throw-in}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3366000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Monaco 0 - 0 Juventus/segment_003280_003400.json",
-  "segment_meta": {
-    "start_seconds": 3280,
-    "end_seconds": 3400,
-    "length_seconds": 120,
-    "start_time_mmss": "54:40",
-    "end_time_mmss": "56:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

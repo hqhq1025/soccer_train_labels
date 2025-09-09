@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19903,
   "video_id": "152957e9-ac5f-5fdf-8c4b-287fa76d12d3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 3787.0,
-      "end": 3787.0,
-      "text": "Trigger: Foul by left @ 2 - 18:07"
-    },
-    {
-      "start": 3789.0,
-      "end": 3789.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Foul}, stick with that team. For {Yellow card}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3787000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-06 - 22-45 AS Roma 3 - 0 Bologna/segment_003700_003820.json",
-  "segment_meta": {
-    "start_seconds": 3700,
-    "end_seconds": 3820,
-    "length_seconds": 120,
-    "start_time_mmss": "61:40",
-    "end_time_mmss": "63:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

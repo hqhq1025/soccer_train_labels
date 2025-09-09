@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19233,
   "video_id": "a92a531e-6ada-58e7-82d5-21e067e068e3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 4973.0,
-      "end": 4973.0,
-      "text": "Trigger: Throw-in by right @ 2 - 37:53"
-    },
-    {
-      "start": 5005.0,
-      "end": 5005.0,
-      "text": "Then: Indirect free-kick by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Indirect free-kick}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4973000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 14-30 AC Milan 2 - 1 Crotone/segment_004900_005020.json",
-  "segment_meta": {
-    "start_seconds": 4900,
-    "end_seconds": 5020,
-    "length_seconds": 120,
-    "start_time_mmss": "81:40",
-    "end_time_mmss": "83:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ]
 }

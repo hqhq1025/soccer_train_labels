@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15097,
   "video_id": "3dd36304-a9aa-5331-a30d-6f3e1fa030d1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Clearance}; then follow that team. Respond 'Trigger: {Clearance} by left/right', and for {Shots on target and Goal} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 267.0,
-      "end": 267.0,
-      "text": "Trigger: Clearance by right @ 1 - 04:27"
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
     },
     {
-      "start": 307.0,
-      "end": 307.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 308.0,
-      "end": 308.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 267000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/segment_000250_000310.json",
-  "segment_meta": {
-    "start_seconds": 250,
-    "end_seconds": 310,
-    "length_seconds": 60,
-    "start_time_mmss": "04:10",
-    "end_time_mmss": "05:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "source": "soccer",
-  "id": 331,
+  "id": 57942,
   "video_id": "146a1d6c-1eeb-5838-ab76-88da52a97c96",
   "data_type": "online",
   "train_stage": 2,
@@ -10,32 +10,26 @@
     {
       "time": 0.0,
       "count": 0,
-      "text": "Observe {Clearance and Throw-in} and specify the team when it happens."
+      "text": "Watch for {Foul}; identify the team (left/right only) each time. Respond 'Team left/right - <Event>'."
     },
     {
       "time": 64.849,
       "count": 1,
-      "text": "Keep monitoring {Shots on target}; when it appears, tell me the team."
+      "text": "Monitor {Throw-in} and notify me each time it happens. Use: 'Alert - <Event>'."
     }
   ],
   "answer": [
     {
-      "start": 30.765,
-      "end": 30.765,
+      "start": 37.845,
+      "end": 37.845,
       "count": 0,
-      "text": "Team left - Clearance"
+      "text": "Team left - Foul"
     },
     {
       "start": 80.607,
       "end": 80.607,
-      "count": 0,
-      "text": "Team right - Throw-in"
-    },
-    {
-      "start": 86.617,
-      "end": 86.617,
       "count": 1,
-      "text": "Team right - Shots on target"
+      "text": "Alert - Throw-in"
     }
   ]
 }

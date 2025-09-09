@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 27028,
+  "video_id": "fb6f295f-7c29-5188-9382-153a03ddfd2a",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Clearance and Indirect free-kick} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 15.895,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Foul}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 15.895,
+      "end": 15.895,
+      "count": 0,
+      "text": "Alert - Clearance"
+    },
+    {
+      "start": 44.367,
+      "end": 44.367,
+      "count": 1,
+      "text": "Alert - Foul"
+    }
+  ]
+}

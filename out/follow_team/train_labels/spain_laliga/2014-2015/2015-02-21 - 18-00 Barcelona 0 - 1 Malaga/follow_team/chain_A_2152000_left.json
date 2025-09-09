@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11779,
   "video_id": "95ff16d6-36ee-528b-abaa-351b90bf2ed4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 2152.0,
-      "end": 2152.0,
-      "text": "Trigger: Shots on target by left @ 1 - 35:52"
-    },
-    {
-      "start": 2154.0,
-      "end": 2154.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team. Respond 'Trigger: {Shots on target} by left/right', and for {Foul} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2152000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-21 - 18-00 Barcelona 0 - 1 Malaga/segment_002120_002160.json",
-  "segment_meta": {
-    "start_seconds": 2120,
-    "end_seconds": 2160,
-    "length_seconds": 40,
-    "start_time_mmss": "35:20",
-    "end_time_mmss": "36:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
+    },
+    {
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

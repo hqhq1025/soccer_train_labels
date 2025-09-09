@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 10696,
+  "video_id": "08eba3b4-09be-54fd-aab1-29bf3a9b109f",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Keep an eye on {Indirect free-kick}; alert me on occurrence. Answer format: 'Alert - <Event>'."
+    },
+    {
+      "time": 69.747,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Ball out of play}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 69.747,
+      "end": 69.747,
+      "count": 0,
+      "text": "Alert - Indirect free-kick"
+    },
+    {
+      "start": 77.868,
+      "end": 77.868,
+      "count": 1,
+      "text": "Alert - Ball out of play"
+    }
+  ]
+}

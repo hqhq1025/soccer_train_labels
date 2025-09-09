@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20464,
   "video_id": "9105ba8c-a027-5cb5-9639-8ea0ab8ba924",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 4931.0,
-      "end": 4931.0,
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 4937.0,
-      "end": 4937.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4931000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-26 - 21-45 Napoli 2 - 0 Empoli/segment_004900_004940.json",
-  "segment_meta": {
-    "start_seconds": 4900,
-    "end_seconds": 4940,
-    "length_seconds": 40,
-    "start_time_mmss": "81:40",
-    "end_time_mmss": "82:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

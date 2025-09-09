@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22129,
   "video_id": "501ceadb-b8b3-5275-a251-3f4d206721e7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 2759.0,
-      "end": 2759.0,
-      "text": "Trigger: Foul by left @ 2 - 00:59"
-    },
-    {
-      "start": 2805.0,
-      "end": 2805.0,
-      "text": "Then: Indirect free-kick by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Indirect free-kick}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2759000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-12 - 17-00 Crystal Palace 0 - 1 Manchester City/segment_002740_002820.json",
-  "segment_meta": {
-    "start_seconds": 2740,
-    "end_seconds": 2820,
-    "length_seconds": 80,
-    "start_time_mmss": "45:40",
-    "end_time_mmss": "47:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ]
 }

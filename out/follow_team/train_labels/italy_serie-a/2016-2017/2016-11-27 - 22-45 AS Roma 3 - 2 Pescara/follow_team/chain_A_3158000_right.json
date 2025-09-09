@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18787,
   "video_id": "e5ac995f-23aa-5c8a-87b3-5975cf3eb06f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 3158.0,
-      "end": 3158.0,
-      "text": "Trigger: Shots off target by right @ 2 - 07:38"
-    },
-    {
-      "start": 3181.0,
-      "end": 3181.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots off target}, stick with that team. For {Corner}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3158000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-27 - 22-45 AS Roma 3 - 2 Pescara/segment_003090_003210.json",
-  "segment_meta": {
-    "start_seconds": 3090,
-    "end_seconds": 3210,
-    "length_seconds": 120,
-    "start_time_mmss": "51:30",
-    "end_time_mmss": "53:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

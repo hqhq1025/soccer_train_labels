@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 223,
   "video_id": "a138137c-bfd2-557a-997f-d7e0795a2f00",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 5528.0,
-      "end": 5528.0,
-      "text": "Trigger: Shots off target by right @ 2 - 47:08"
-    },
-    {
-      "start": 5572.0,
-      "end": 5572.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots off target} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5528000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/segment_005500_005580.json",
-  "segment_meta": {
-    "start_seconds": 5500,
-    "end_seconds": 5580,
-    "length_seconds": 80,
-    "start_time_mmss": "91:40",
-    "end_time_mmss": "93:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

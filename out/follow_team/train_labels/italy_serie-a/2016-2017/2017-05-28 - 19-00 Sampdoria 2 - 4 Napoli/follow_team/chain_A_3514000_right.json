@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19569,
   "video_id": "13907c64-ac77-5755-ad28-d5492c9e5ae2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots off target and Corner} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Shots off target and Corner}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3514.0,
-      "end": 3514.0,
-      "text": "Trigger: Corner by right @ 2 - 13:34"
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
     },
     {
-      "start": 3515.0,
-      "end": 3515.0,
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     },
     {
-      "start": 3545.0,
-      "end": 3545.0,
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3514000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_003430_003550.json",
-  "segment_meta": {
-    "start_seconds": 3430,
-    "end_seconds": 3550,
-    "length_seconds": 120,
-    "start_time_mmss": "57:10",
-    "end_time_mmss": "59:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13665,
   "video_id": "37aa2001-e06a-5caa-bf23-03b941428aa6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Direct free-kick}, keep following that team and alert me whenever {Shots off target} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 2861.0,
-      "end": 2861.0,
-      "text": "Trigger: Direct free-kick by left @ 2 - 02:41"
-    },
-    {
-      "start": 2864.0,
-      "end": 2864.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Direct free-kick}, keep following that team. Use left/right only; 'Trigger: {Direct free-kick} by left/right', then 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2861000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-04-15 - 17-15 Gijon 2 - 3 Real Madrid/segment_002790_002870.json",
-  "segment_meta": {
-    "start_seconds": 2790,
-    "end_seconds": 2870,
-    "length_seconds": 80,
-    "start_time_mmss": "46:30",
-    "end_time_mmss": "47:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

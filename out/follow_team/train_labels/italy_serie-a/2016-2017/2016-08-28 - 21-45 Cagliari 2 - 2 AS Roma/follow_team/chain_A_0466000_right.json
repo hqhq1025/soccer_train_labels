@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20499,
   "video_id": "01018e18-da12-5c06-9f94-766dfea737cd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Clearance}.",
-  "answer": [
+  "question": [
     {
-      "start": 466.0,
-      "end": 466.0,
-      "text": "Trigger: Throw-in by right @ 1 - 07:46"
-    },
-    {
-      "start": 509.0,
-      "end": 509.0,
-      "text": "Then: Clearance by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Clearance}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 466000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-08-28 - 21-45 Cagliari 2 - 2 AS Roma/segment_000410_000510.json",
-  "segment_meta": {
-    "start_seconds": 410,
-    "end_seconds": 510,
-    "length_seconds": 100,
-    "start_time_mmss": "06:50",
-    "end_time_mmss": "08:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
+      "text": "Then: Clearance by right"
+    }
+  ]
 }

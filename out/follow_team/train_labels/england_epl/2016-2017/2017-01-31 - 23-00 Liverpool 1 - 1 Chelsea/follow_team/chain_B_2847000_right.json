@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23242,
   "video_id": "0409cf06-52bd-5125-87ff-01fda5190563",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Shots off target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2847.0,
-      "end": 2847.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 2888.0,
-      "end": 2888.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2847000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-31 - 23-00 Liverpool 1 - 1 Chelsea/segment_002810_002890.json",
-  "segment_meta": {
-    "start_seconds": 2810,
-    "end_seconds": 2890,
-    "length_seconds": 80,
-    "start_time_mmss": "46:50",
-    "end_time_mmss": "48:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5262,
   "video_id": "5ba0359f-c724-5360-a945-e49d7c696c7b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2118.0,
-      "end": 2118.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 2144.0,
-      "end": 2144.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2118000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Malmo FF 0 - 5 Paris SG/segment_002060_002180.json",
-  "segment_meta": {
-    "start_seconds": 2060,
-    "end_seconds": 2180,
-    "length_seconds": 120,
-    "start_time_mmss": "34:20",
-    "end_time_mmss": "36:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

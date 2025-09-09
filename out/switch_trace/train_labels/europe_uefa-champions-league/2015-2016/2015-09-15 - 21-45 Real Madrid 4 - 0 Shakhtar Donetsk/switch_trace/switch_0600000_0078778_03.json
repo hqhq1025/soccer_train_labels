@@ -1,0 +1,53 @@
+{
+  "source": "soccer",
+  "id": 11508,
+  "video_id": "bd329146-b6f7-5d38-bcef-230546c7947a",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Keep an eye on {Ball out of play}; alert me on occurrence. Answer format: 'Alert - <Event>'."
+    },
+    {
+      "time": 78.778,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Throw-in and Offside}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 25.683,
+      "end": 25.683,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 43.309,
+      "end": 43.309,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 78.778,
+      "end": 78.778,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 88.062,
+      "end": 88.062,
+      "count": 1,
+      "text": "Alert - Throw-in"
+    },
+    {
+      "start": 99.817,
+      "end": 99.817,
+      "count": 1,
+      "text": "Alert - Offside"
+    }
+  ]
+}

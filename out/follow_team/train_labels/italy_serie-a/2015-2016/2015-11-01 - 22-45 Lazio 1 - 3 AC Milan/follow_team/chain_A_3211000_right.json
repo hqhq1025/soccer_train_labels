@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15477,
   "video_id": "289ef4f6-d020-5ad0-8cfe-9e283ea6c489",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Clearance} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 3211.0,
-      "end": 3211.0,
-      "text": "Trigger: Throw-in by right @ 2 - 08:31"
-    },
-    {
-      "start": 3278.0,
-      "end": 3278.0,
-      "text": "Then: Clearance by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Clearance} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3211000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-01 - 22-45 Lazio 1 - 3 AC Milan/segment_003180_003280.json",
-  "segment_meta": {
-    "start_seconds": 3180,
-    "end_seconds": 3280,
-    "length_seconds": 100,
-    "start_time_mmss": "53:00",
-    "end_time_mmss": "54:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
+      "text": "Then: Clearance by right"
+    }
+  ]
 }

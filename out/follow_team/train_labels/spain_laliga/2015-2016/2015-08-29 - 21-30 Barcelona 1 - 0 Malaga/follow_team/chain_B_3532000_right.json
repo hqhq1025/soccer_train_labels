@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11252,
   "video_id": "3ee287f3-b2cd-50de-b85e-380b17571f02",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 3532.0,
-      "end": 3532.0,
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3540.0,
-      "end": 3540.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3532000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-08-29 - 21-30 Barcelona 1 - 0 Malaga/segment_003490_003550.json",
-  "segment_meta": {
-    "start_seconds": 3490,
-    "end_seconds": 3550,
-    "length_seconds": 60,
-    "start_time_mmss": "58:10",
-    "end_time_mmss": "59:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

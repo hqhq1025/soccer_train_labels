@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23949,
   "video_id": "e3fbc6eb-9707-5cf4-9c7c-c9912482ffc7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 529.0,
-      "end": 529.0,
-      "text": "Trigger: Direct free-kick by left @ 1 - 08:49"
-    },
-    {
-      "start": 531.0,
-      "end": 531.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Direct free-kick}, start tracking that team. Use responses 'Trigger: {Direct free-kick} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 529000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/segment_000490_000550.json",
-  "segment_meta": {
-    "start_seconds": 490,
-    "end_seconds": 550,
-    "length_seconds": 60,
-    "start_time_mmss": "08:10",
-    "end_time_mmss": "09:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
+    },
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

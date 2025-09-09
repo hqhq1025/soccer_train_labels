@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 24933,
+  "video_id": "620ca560-d72f-5dee-bbbf-b3b7e48eecaf",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Indirect free-kick and Corner} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 88.415,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Foul}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 88.415,
+      "end": 88.415,
+      "count": 0,
+      "text": "Alert - Corner"
+    },
+    {
+      "start": 98.643,
+      "end": 98.643,
+      "count": 1,
+      "text": "Alert - Foul"
+    }
+  ]
+}

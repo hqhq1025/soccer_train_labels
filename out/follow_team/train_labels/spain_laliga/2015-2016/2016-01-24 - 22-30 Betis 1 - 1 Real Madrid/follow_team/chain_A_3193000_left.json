@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10705,
   "video_id": "73b16a3b-23e2-54e9-bb3e-9c0bea80729d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Corner and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Indirect free-kick}, stick with that team. For {Corner and Shots on target}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 3193.0,
-      "end": 3193.0,
-      "text": "Trigger: Indirect free-kick by left @ 2 - 08:13"
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 3247.0,
-      "end": 3247.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 3249.0,
-      "end": 3249.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3193000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/segment_003130_003250.json",
-  "segment_meta": {
-    "start_seconds": 3130,
-    "end_seconds": 3250,
-    "length_seconds": 120,
-    "start_time_mmss": "52:10",
-    "end_time_mmss": "54:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

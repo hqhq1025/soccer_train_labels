@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22008,
   "video_id": "5ec87aa8-c228-56ec-ae50-89f4d4968c8f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots off target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and reply exactly 'Trigger: {Throw-in} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3539.0,
-      "end": 3539.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3549.0,
-      "end": 3549.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3539000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/segment_003480_003580.json",
-  "segment_meta": {
-    "start_seconds": 3480,
-    "end_seconds": 3580,
-    "length_seconds": 100,
-    "start_time_mmss": "58:00",
-    "end_time_mmss": "59:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

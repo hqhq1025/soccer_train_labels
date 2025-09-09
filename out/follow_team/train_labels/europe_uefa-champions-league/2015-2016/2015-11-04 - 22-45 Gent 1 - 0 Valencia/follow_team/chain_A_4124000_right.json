@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7407,
   "video_id": "177f790f-c5d6-5433-8267-9ab8aa72479a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Substitution and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, keep following that team. Use left/right only; 'Trigger: {Shots off target} by left/right', then 'Then: <Event> by left/right' for {Substitution and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4124.0,
-      "end": 4124.0,
-      "text": "Trigger: Shots off target by right @ 2 - 23:44"
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 4148.0,
-      "end": 4148.0,
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     },
     {
-      "start": 4178.0,
-      "end": 4178.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4124000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-04 - 22-45 Gent 1 - 0 Valencia/segment_004060_004180.json",
-  "segment_meta": {
-    "start_seconds": 4060,
-    "end_seconds": 4180,
-    "length_seconds": 120,
-    "start_time_mmss": "67:40",
-    "end_time_mmss": "69:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

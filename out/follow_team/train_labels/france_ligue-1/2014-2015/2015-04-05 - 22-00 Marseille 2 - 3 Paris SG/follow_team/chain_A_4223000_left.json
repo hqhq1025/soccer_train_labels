@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 167,
   "video_id": "c272f75f-1604-56d5-aa0a-01a66ac30b2d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 4223.0,
-      "end": 4223.0,
-      "text": "Trigger: Foul by left @ 2 - 25:23"
-    },
-    {
-      "start": 4306.0,
-      "end": 4306.0,
-      "text": "Then: Shots on target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Foul}, stick with that team. For {Shots on target}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4223000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/segment_004210_004310.json",
-  "segment_meta": {
-    "start_seconds": 4210,
-    "end_seconds": 4310,
-    "length_seconds": 100,
-    "start_time_mmss": "70:10",
-    "end_time_mmss": "71:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
+      "text": "Then: Shots on target by left"
+    }
+  ]
 }

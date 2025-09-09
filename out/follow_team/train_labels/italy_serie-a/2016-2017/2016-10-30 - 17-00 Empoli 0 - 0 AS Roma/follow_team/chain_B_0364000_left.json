@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19762,
   "video_id": "deba2eec-1741-5fd6-a792-752bc8ed03dd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 364.0,
-      "end": 364.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 398.0,
-      "end": 398.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 364000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 Empoli 0 - 0 AS Roma/segment_000280_000400.json",
-  "segment_meta": {
-    "start_seconds": 280,
-    "end_seconds": 400,
-    "length_seconds": 120,
-    "start_time_mmss": "04:40",
-    "end_time_mmss": "06:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22061,
   "video_id": "855f8886-69ac-511b-b6b4-44b44eb7cc1d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Corner} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 3050.0,
-      "end": 3050.0,
-      "text": "Trigger: Corner by left @ 2 - 05:50"
-    },
-    {
-      "start": 3071.0,
-      "end": 3071.0,
-      "text": "Then: Corner by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team. Use responses 'Trigger: {Corner} by left/right' and 'Then: <Event> by left/right' for {Corner}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3050000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-01-03 - 16-30 Crystal Palace 0 - 3 Chelsea/segment_003000_003100.json",
-  "segment_meta": {
-    "start_seconds": 3000,
-    "end_seconds": 3100,
-    "length_seconds": 100,
-    "start_time_mmss": "50:00",
-    "end_time_mmss": "51:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Then: Corner by left"
+    }
+  ]
 }

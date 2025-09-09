@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18684,
   "video_id": "dd57ac29-d222-533b-b881-9ffd69f7e52e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Once the next {Substitution} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Substitution}, follow that team. Answer format: at trigger reply 'Trigger: {Substitution} by left/right'; for each {Indirect free-kick}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4157.0,
-      "end": 4157.0,
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 4219.0,
-      "end": 4219.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4157000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/segment_004140_004220.json",
-  "segment_meta": {
-    "start_seconds": 4140,
-    "end_seconds": 4220,
-    "length_seconds": 80,
-    "start_time_mmss": "69:00",
-    "end_time_mmss": "70:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

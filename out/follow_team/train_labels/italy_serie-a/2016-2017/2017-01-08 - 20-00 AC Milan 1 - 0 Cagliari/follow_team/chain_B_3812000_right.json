@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17974,
   "video_id": "6af38553-f454-57bb-83fb-b36b372b58a5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} happens, lock onto that team. Respond 'Trigger: {Shots off target} by left/right' and thereafter 'Then: <Event> by left/right' for {Substitution}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3812.0,
-      "end": 3812.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 3841.0,
-      "end": 3841.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3812000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 20-00 AC Milan 1 - 0 Cagliari/segment_003760_003860.json",
-  "segment_meta": {
-    "start_seconds": 3760,
-    "end_seconds": 3860,
-    "length_seconds": 100,
-    "start_time_mmss": "62:40",
-    "end_time_mmss": "64:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

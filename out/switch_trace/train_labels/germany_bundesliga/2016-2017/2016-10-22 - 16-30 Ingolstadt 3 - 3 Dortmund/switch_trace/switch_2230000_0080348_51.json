@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 7790,
+  "video_id": "ea9d96b0-83b3-5e01-b976-97c90bbf7dca",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Please monitor {Shots off target and Throw-in} and notify me each time they happen. Use 'Alert - <Event>'."
+    },
+    {
+      "time": 80.348,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Clearance}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 80.348,
+      "end": 80.348,
+      "count": 0,
+      "text": "Alert - Shots off target"
+    },
+    {
+      "start": 107.978,
+      "end": 107.978,
+      "count": 1,
+      "text": "Alert - Clearance"
+    }
+  ]
+}

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15944,
   "video_id": "8a927ef8-309d-5757-b86b-0fed2c535715",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Kick-off}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots on target} by left/right'; for each {Kick-off}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2692.0,
-      "end": 2692.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2700.0,
-      "end": 2700.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Then: Kick-off by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2692000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-11-22 - 22-45 Inter 4 - 0 Frosinone/segment_002670_002750.json",
-  "segment_meta": {
-    "start_seconds": 2670,
-    "end_seconds": 2750,
-    "length_seconds": 80,
-    "start_time_mmss": "44:30",
-    "end_time_mmss": "45:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

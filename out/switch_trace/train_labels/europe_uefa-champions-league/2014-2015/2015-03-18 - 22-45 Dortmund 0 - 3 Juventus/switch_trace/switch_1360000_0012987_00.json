@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 12062,
+  "video_id": "cd77eb28-c8f5-5d88-ba51-05aed4dbce4f",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Offside} and tell me when it occurs. Reply 'Alert - <Event>'."
+    },
+    {
+      "time": 12.987,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Foul}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 12.987,
+      "end": 12.987,
+      "count": 0,
+      "text": "Alert - Offside"
+    },
+    {
+      "start": 37.333,
+      "end": 37.333,
+      "count": 1,
+      "text": "Alert - Foul"
+    }
+  ]
+}

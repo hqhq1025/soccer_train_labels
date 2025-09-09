@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18591,
   "video_id": "78dd0bca-ccc4-5d5a-8c23-fc1426383958",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Indirect free-kick, Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Indirect free-kick, Foul and Yellow card}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 5483.0,
-      "end": 5483.0,
-      "text": "Trigger: Throw-in by right @ 2 - 46:23"
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 5503.0,
-      "end": 5503.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     },
     {
-      "start": 5527.0,
-      "end": 5527.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 5531.0,
-      "end": 5531.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5483000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-19 - 22-45 AS Roma 3 - 1 Sassuolo/segment_005450_005570.json",
-  "segment_meta": {
-    "start_seconds": 5450,
-    "end_seconds": 5570,
-    "length_seconds": 120,
-    "start_time_mmss": "90:50",
-    "end_time_mmss": "92:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

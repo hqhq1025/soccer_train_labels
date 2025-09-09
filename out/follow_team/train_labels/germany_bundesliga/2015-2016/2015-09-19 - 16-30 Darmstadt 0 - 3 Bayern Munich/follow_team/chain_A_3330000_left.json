@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2005,
   "video_id": "a85c654f-f281-5ef0-896d-34888338a49a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3330.0,
-      "end": 3330.0,
-      "text": "Trigger: Corner by left @ 2 - 10:30"
-    },
-    {
-      "start": 3347.0,
-      "end": 3347.0,
-      "text": "Then: Shots off target by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3330000,
-  "team": "left",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-09-19 - 16-30 Darmstadt 0 - 3 Bayern Munich/segment_003250_003350.json",
-  "segment_meta": {
-    "start_seconds": 3250,
-    "end_seconds": 3350,
-    "length_seconds": 100,
-    "start_time_mmss": "54:10",
-    "end_time_mmss": "55:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
+      "text": "Then: Shots off target by left"
+    }
+  ]
 }

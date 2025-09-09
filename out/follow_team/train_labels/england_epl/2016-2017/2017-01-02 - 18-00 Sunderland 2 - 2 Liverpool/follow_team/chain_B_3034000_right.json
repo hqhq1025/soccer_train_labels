@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23714,
   "video_id": "2424864c-7026-5d53-b882-f0b11141066a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 3034.0,
-      "end": 3034.0,
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 3043.0,
-      "end": 3043.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3034000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-02 - 18-00 Sunderland 2 - 2 Liverpool/segment_002990_003090.json",
-  "segment_meta": {
-    "start_seconds": 2990,
-    "end_seconds": 3090,
-    "length_seconds": 100,
-    "start_time_mmss": "49:50",
-    "end_time_mmss": "51:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

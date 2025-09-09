@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10713,
   "video_id": "2dcbb2ce-30ed-5e68-bc53-7aa2351b7919",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 2945.0,
-      "end": 2945.0,
-      "text": "Trigger: Corner by right @ 2 - 04:05"
-    },
-    {
-      "start": 2952.0,
-      "end": 2952.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, keep following that team. Use left/right only; 'Trigger: {Corner} by left/right', then 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2945000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-20 - 23-00 Real Madrid 3 - 0 Villarreal/segment_002900_002960.json",
-  "segment_meta": {
-    "start_seconds": 2900,
-    "end_seconds": 2960,
-    "length_seconds": 60,
-    "start_time_mmss": "48:20",
-    "end_time_mmss": "49:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

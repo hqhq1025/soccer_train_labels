@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 15050,
+  "video_id": "886248e6-a3f4-53ea-b4bc-2917e7e9424b",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Please monitor {Shots on target and Offside} and notify me each time they happen. Use 'Alert - <Event>'."
+    },
+    {
+      "time": 93.859,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Ball out of play}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 93.859,
+      "end": 93.859,
+      "count": 0,
+      "text": "Alert - Shots on target"
+    },
+    {
+      "start": 96.969,
+      "end": 96.969,
+      "count": 1,
+      "text": "Alert - Ball out of play"
+    }
+  ]
+}

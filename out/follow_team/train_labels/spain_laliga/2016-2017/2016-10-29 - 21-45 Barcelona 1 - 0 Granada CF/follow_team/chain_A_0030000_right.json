@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15163,
   "video_id": "66a037ea-a948-5d26-aca5-8b50bfe7eed1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Shots on target}.",
-  "answer": [
+  "question": [
     {
-      "start": 30.0,
-      "end": 30.0,
-      "text": "Trigger: Throw-in by right @ 1 - 00:30"
-    },
-    {
-      "start": 34.0,
-      "end": 34.0,
-      "text": "Then: Shots on target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team; answer strictly as 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2016-10-29 - 21-45 Barcelona 1 - 0 Granada CF/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-29 - 21-45 Barcelona 1 - 0 Granada CF/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 30000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-29 - 21-45 Barcelona 1 - 0 Granada CF/segment_000020_000060.json",
-  "segment_meta": {
-    "start_seconds": 20,
-    "end_seconds": 60,
-    "length_seconds": 40,
-    "start_time_mmss": "00:20",
-    "end_time_mmss": "01:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
+      "text": "Then: Shots on target by right"
+    }
+  ]
 }

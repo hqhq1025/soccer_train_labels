@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 36062,
+  "video_id": "33b4cb70-1062-53fe-9b08-606d639c0f98",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Observe {Shots on target} and report every time it happens. Respond 'Alert - <Event>'."
+    },
+    {
+      "time": 13.355,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Foul}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 13.355,
+      "end": 13.355,
+      "count": 0,
+      "text": "Alert - Shots on target"
+    },
+    {
+      "start": 35.712,
+      "end": 35.712,
+      "count": 1,
+      "text": "Alert - Foul"
+    }
+  ]
+}

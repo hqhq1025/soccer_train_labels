@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11697,
   "video_id": "b47ae4ba-14d7-5e5d-ac97-b54652405690",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Goal and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Goal and Shots on target}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4651.0,
-      "end": 4651.0,
-      "text": "Trigger: Throw-in by left @ 2 - 32:31"
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 4694.0,
-      "end": 4694.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Goal by left"
     },
     {
-      "start": 4694.0,
-      "end": 4694.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4651000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-05-17 - 20-00 Espanyol 1 - 4 Real Madrid/segment_004590_004710.json",
-  "segment_meta": {
-    "start_seconds": 4590,
-    "end_seconds": 4710,
-    "length_seconds": 120,
-    "start_time_mmss": "76:30",
-    "end_time_mmss": "78:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

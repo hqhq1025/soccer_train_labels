@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25335,
   "video_id": "51739eb3-d1c1-5b6c-bf96-bd050e5d8033",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Throw-in and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Throw-in and Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 4892.0,
-      "end": 4892.0,
-      "text": "Trigger: Corner by right @ 2 - 36:32"
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
     },
     {
-      "start": 4915.0,
-      "end": 4915.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 4924.0,
-      "end": 4924.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4892000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-14 - 18-00 Arsenal 3 - 4 Liverpool/segment_004810_004930.json",
-  "segment_meta": {
-    "start_seconds": 4810,
-    "end_seconds": 4930,
-    "length_seconds": 120,
-    "start_time_mmss": "80:10",
-    "end_time_mmss": "82:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

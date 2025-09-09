@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 19020,
+  "video_id": "9f4d14fe-b351-59b9-8e0c-43b76c940c2d",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for {Shots on target and Yellow card} and tell me when they occur. Answer: 'Alert - <Event>'."
+    },
+    {
+      "time": 57.172,
+      "count": 1,
+      "text": "End the previous tracking; from now on continuously track {Corner}. Answer 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 57.172,
+      "end": 57.172,
+      "count": 0,
+      "text": "Alert - Shots on target"
+    },
+    {
+      "start": 89.256,
+      "end": 89.256,
+      "count": 1,
+      "text": "Alert - Corner"
+    }
+  ]
+}

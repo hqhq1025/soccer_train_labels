@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21715,
   "video_id": "3a0cd63a-327c-5d7d-b6c1-4efab4b34ac3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 5154.0,
-      "end": 5154.0,
-      "text": "Trigger: Throw-in by right @ 2 - 40:54"
-    },
-    {
-      "start": 5206.0,
-      "end": 5206.0,
-      "text": "Then: Indirect free-kick by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Indirect free-kick}. Left/right only."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5154000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-21 - 20-30 Manchester City 1 - 4 Liverpool/segment_005100_005220.json",
-  "segment_meta": {
-    "start_seconds": 5100,
-    "end_seconds": 5220,
-    "length_seconds": 120,
-    "start_time_mmss": "85:00",
-    "end_time_mmss": "87:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24587,
   "video_id": "e14167cc-3b8b-5969-b0ab-b1f106402e1f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 2185.0,
-      "end": 2185.0,
-      "text": "Trigger: Shots off target by left @ 1 - 36:25"
-    },
-    {
-      "start": 2238.0,
-      "end": 2238.0,
-      "text": "Then: Offside by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, keep following that team. Use left/right only; 'Trigger: {Shots off target} by left/right', then 'Then: <Event> by left/right' for {Offside}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2185000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/segment_002150_002270.json",
-  "segment_meta": {
-    "start_seconds": 2150,
-    "end_seconds": 2270,
-    "length_seconds": 120,
-    "start_time_mmss": "35:50",
-    "end_time_mmss": "37:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
+      "text": "Then: Offside by left"
+    }
+  ]
 }

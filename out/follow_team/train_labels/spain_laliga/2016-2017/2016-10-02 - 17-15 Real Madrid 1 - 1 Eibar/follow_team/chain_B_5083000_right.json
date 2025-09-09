@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15082,
   "video_id": "a43186bf-67e4-5137-8498-09ec1f2cdc47",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Indirect free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Indirect free-kick} by left/right'; then for each {Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5083.0,
-      "end": 5083.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 5097.0,
-      "end": 5097.0,
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5083000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-10-02 - 17-15 Real Madrid 1 - 1 Eibar/segment_005050_005170.json",
-  "segment_meta": {
-    "start_seconds": 5050,
-    "end_seconds": 5170,
-    "length_seconds": 120,
-    "start_time_mmss": "84:10",
-    "end_time_mmss": "86:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

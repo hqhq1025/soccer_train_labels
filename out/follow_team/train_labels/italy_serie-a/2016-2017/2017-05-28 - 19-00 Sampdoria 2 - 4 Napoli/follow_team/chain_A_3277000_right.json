@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19593,
   "video_id": "b4f2a7d0-96b4-5e4a-9eea-1b1c15b7de36",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 3277.0,
-      "end": 3277.0,
-      "text": "Trigger: Corner by right @ 2 - 09:37"
-    },
-    {
-      "start": 3326.0,
-      "end": 3326.0,
-      "text": "Then: Corner by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team. For {Corner}, reply 'Then: <Event> by left/right' (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3277000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_003260_003340.json",
-  "segment_meta": {
-    "start_seconds": 3260,
-    "end_seconds": 3340,
-    "length_seconds": 80,
-    "start_time_mmss": "54:20",
-    "end_time_mmss": "55:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
+      "text": "Then: Corner by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9993,
   "video_id": "a22c7397-52fd-5b45-aaf3-b3c08a2603a9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 5392.0,
-      "end": 5392.0,
-      "text": "Trigger: Clearance by right @ 2 - 44:52"
-    },
-    {
-      "start": 5395.0,
-      "end": 5395.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2016-04-30 - 17-00 Real Sociedad 0 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-04-30 - 17-00 Real Sociedad 0 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5392000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-04-30 - 17-00 Real Sociedad 0 - 1 Real Madrid/segment_005280_005400.json",
-  "segment_meta": {
-    "start_seconds": 5280,
-    "end_seconds": 5400,
-    "length_seconds": 120,
-    "start_time_mmss": "88:00",
-    "end_time_mmss": "90:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

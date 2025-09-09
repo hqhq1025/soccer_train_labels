@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2199,
   "video_id": "8ac6d5ad-189a-5757-9165-293b4baf89eb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots off target}; then follow that team and report its {Shots off target}.",
-  "answer": [
+  "question": [
     {
-      "start": 3281.0,
-      "end": 3281.0,
-      "text": "Trigger: Shots off target by right @ 2 - 09:41"
-    },
-    {
-      "start": 3337.0,
-      "end": 3337.0,
-      "text": "Then: Shots off target by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
     }
   ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3281000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_003230_003350.json",
-  "segment_meta": {
-    "start_seconds": 3230,
-    "end_seconds": 3350,
-    "length_seconds": 120,
-    "start_time_mmss": "53:50",
-    "end_time_mmss": "55:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
+    },
+    {
+      "start": 107.0,
+      "end": 107.0,
+      "count": 0,
+      "text": "Then: Shots off target by right"
+    }
+  ]
 }

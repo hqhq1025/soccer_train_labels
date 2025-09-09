@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23452,
   "video_id": "f584b07f-c0f3-539a-8e24-891b61ee90af",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4973.0,
-      "end": 4973.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 4984.0,
-      "end": 4984.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4973000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-15 - 19-00 Manchester United 1 - 1 Liverpool/segment_004870_004990.json",
-  "segment_meta": {
-    "start_seconds": 4870,
-    "end_seconds": 4990,
-    "length_seconds": 120,
-    "start_time_mmss": "81:10",
-    "end_time_mmss": "83:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18751,
   "video_id": "c51d77aa-eee9-5600-8475-a956c9d574c3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 2518.0,
-      "end": 2518.0,
-      "text": "Trigger: Foul by left @ 1 - 41:58"
-    },
-    {
-      "start": 2522.0,
-      "end": 2522.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2518000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/segment_002470_002590.json",
-  "segment_meta": {
-    "start_seconds": 2470,
-    "end_seconds": 2590,
-    "length_seconds": 120,
-    "start_time_mmss": "41:10",
-    "end_time_mmss": "43:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

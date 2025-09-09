@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7491,
   "video_id": "49753802-04b8-52d2-b8b9-cc95c82d6cda",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Foul and Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team. Respond 'Trigger: {Shots on target} by left/right' and thereafter 'Then: <Event> by left/right' for {Foul and Substitution}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3727.0,
-      "end": 3727.0,
-      "text": "Trigger: Shots on target by left @ 2 - 17:07"
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 3743.0,
-      "end": 3743.0,
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 3765.0,
-      "end": 3765.0,
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     },
     {
-      "start": 3779.0,
-      "end": 3779.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3727000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-18 - 22-45 Dortmund 0 - 3 Juventus/segment_003700_003780.json",
-  "segment_meta": {
-    "start_seconds": 3700,
-    "end_seconds": 3780,
-    "length_seconds": 80,
-    "start_time_mmss": "61:40",
-    "end_time_mmss": "63:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

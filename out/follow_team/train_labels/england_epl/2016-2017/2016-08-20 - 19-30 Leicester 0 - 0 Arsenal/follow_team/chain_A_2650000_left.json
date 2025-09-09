@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24743,
   "video_id": "42502dcd-7df7-5b4c-9069-7611cfb2984f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team. For {Foul and Yellow card}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2650.0,
-      "end": 2650.0,
-      "text": "Trigger: Throw-in by left @ 1 - 44:10"
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2657.0,
-      "end": 2657.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 2677.0,
-      "end": 2677.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2650000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-08-20 - 19-30 Leicester 0 - 0 Arsenal/segment_002600_002720.json",
-  "segment_meta": {
-    "start_seconds": 2600,
-    "end_seconds": 2720,
-    "length_seconds": 120,
-    "start_time_mmss": "43:20",
-    "end_time_mmss": "45:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

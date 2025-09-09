@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1003,
   "video_id": "8b9029d6-4c58-5101-a381-7f88ef693108",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
-  "answer": [
+  "question": [
     {
-      "start": 2447.0,
-      "end": 2447.0,
-      "text": "Trigger: Foul by left @ 1 - 40:47"
-    },
-    {
-      "start": 2452.0,
-      "end": 2452.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team. Respond 'Trigger: {Foul} by left/right', and for {Yellow card} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2447000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-30 - 22-00 Nice 3 - 1 Paris SG/segment_002420_002460.json",
-  "segment_meta": {
-    "start_seconds": 2420,
-    "end_seconds": 2460,
-    "length_seconds": 40,
-    "start_time_mmss": "40:20",
-    "end_time_mmss": "41:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

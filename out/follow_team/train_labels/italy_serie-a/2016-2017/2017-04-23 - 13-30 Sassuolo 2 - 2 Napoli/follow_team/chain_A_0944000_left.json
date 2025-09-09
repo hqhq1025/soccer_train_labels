@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17281,
   "video_id": "ad2ddd7c-e5ec-55fa-995d-594e9f99142a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 944.0,
-      "end": 944.0,
-      "text": "Trigger: Foul by left @ 1 - 15:44"
-    },
-    {
-      "start": 981.0,
-      "end": 981.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Foul}, follow the same team and list all subsequent {Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 944000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-04-23 - 13-30 Sassuolo 2 - 2 Napoli/segment_000920_001000.json",
-  "segment_meta": {
-    "start_seconds": 920,
-    "end_seconds": 1000,
-    "length_seconds": 80,
-    "start_time_mmss": "15:20",
-    "end_time_mmss": "16:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

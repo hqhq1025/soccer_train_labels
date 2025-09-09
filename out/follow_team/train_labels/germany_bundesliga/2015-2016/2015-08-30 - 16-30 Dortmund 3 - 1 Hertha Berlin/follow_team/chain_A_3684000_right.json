@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2221,
   "video_id": "da6210fb-6192-5099-bcff-b2dbcc03674d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Throw-in and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Direct free-kick} occurs, keep following the same team and reply exactly 'Trigger: {Direct free-kick} by left/right'; then for each {Throw-in and Foul} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3684.0,
-      "end": 3684.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 16:24"
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 3716.0,
-      "end": 3716.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 3738.0,
-      "end": 3738.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 3757.0,
-      "end": 3757.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3684000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2015-2016/2015-08-30 - 16-30 Dortmund 3 - 1 Hertha Berlin/segment_003660_003760.json",
-  "segment_meta": {
-    "start_seconds": 3660,
-    "end_seconds": 3760,
-    "length_seconds": 100,
-    "start_time_mmss": "61:00",
-    "end_time_mmss": "62:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

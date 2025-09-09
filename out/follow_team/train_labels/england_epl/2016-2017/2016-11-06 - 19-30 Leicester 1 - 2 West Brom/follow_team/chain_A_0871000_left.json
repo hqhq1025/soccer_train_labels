@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23901,
   "video_id": "6d7db3c7-3ee1-561f-9a89-3d61af08ae42",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} happens, lock onto that team and report every {Indirect free-kick} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 871.0,
-      "end": 871.0,
-      "text": "Trigger: Clearance by left @ 1 - 14:31"
-    },
-    {
-      "start": 931.0,
-      "end": 931.0,
-      "text": "Then: Indirect free-kick by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and reply exactly 'Trigger: {Clearance} by left/right'; then for each {Indirect free-kick} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 871000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-06 - 19-30 Leicester 1 - 2 West Brom/segment_000860_000940.json",
-  "segment_meta": {
-    "start_seconds": 860,
-    "end_seconds": 940,
-    "length_seconds": 80,
-    "start_time_mmss": "14:20",
-    "end_time_mmss": "15:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 11.0,
+      "end": 11.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by left"
+    }
+  ]
 }

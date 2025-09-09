@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24212,
   "video_id": "4d768b8c-be5a-54a4-8829-3a9b378369f7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 2996.0,
-      "end": 2996.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 3005.0,
-      "end": 3005.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2996000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-01-14 - 20-30 Leicester 0 - 3 Chelsea/segment_002950_003050.json",
-  "segment_meta": {
-    "start_seconds": 2950,
-    "end_seconds": 3050,
-    "length_seconds": 100,
-    "start_time_mmss": "49:10",
-    "end_time_mmss": "50:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1574,
   "video_id": "9c36fd00-476a-511f-90ed-5cd450559b9d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Shots off target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, continue tracking that team. Answers must be 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 452.0,
-      "end": 452.0,
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 480.0,
-      "end": 480.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 452000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/segment_000390_000490.json",
-  "segment_meta": {
-    "start_seconds": 390,
-    "end_seconds": 490,
-    "length_seconds": 100,
-    "start_time_mmss": "06:30",
-    "end_time_mmss": "08:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

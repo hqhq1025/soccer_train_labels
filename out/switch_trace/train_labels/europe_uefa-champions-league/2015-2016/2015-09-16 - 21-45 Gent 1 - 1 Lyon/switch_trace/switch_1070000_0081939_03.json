@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 9691,
+  "video_id": "5ab14470-9b54-56c3-993f-0aa4c3c87c30",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Observe {Shots off target} and report every time it happens. Respond 'Alert - <Event>'."
+    },
+    {
+      "time": 81.939,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Ball out of play and Clearance}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 87.288,
+      "end": 87.288,
+      "count": 1,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 114.353,
+      "end": 114.353,
+      "count": 1,
+      "text": "Alert - Clearance"
+    }
+  ]
+}

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 778,
   "video_id": "2c0af4c2-3a58-576a-b4a4-e44645083d9f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3705.0,
-      "end": 3705.0,
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3715.0,
-      "end": 3715.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3705000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-04-22 - 18-00 Paris SG 2 - 0 Montpellier/segment_003640_003720.json",
-  "segment_meta": {
-    "start_seconds": 3640,
-    "end_seconds": 3720,
-    "length_seconds": 80,
-    "start_time_mmss": "60:40",
-    "end_time_mmss": "62:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

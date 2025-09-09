@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25182,
   "video_id": "9aa2515f-a351-504e-b8a6-ca084f1ed2bd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team. Use responses 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2720.0,
-      "end": 2720.0,
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 2745.0,
-      "end": 2745.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2720000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-11-26 - 18-00 Liverpool 2 - 0 Sunderland/segment_002640_002760.json",
-  "segment_meta": {
-    "start_seconds": 2640,
-    "end_seconds": 2760,
-    "length_seconds": 120,
-    "start_time_mmss": "44:00",
-    "end_time_mmss": "46:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20063,
   "video_id": "743b0b69-cce1-5959-93cd-b8dbaea9a2b2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots on target}, stick with that team and alert me for {Shots on target and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Shots on target and Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3040.0,
-      "end": 3040.0,
-      "text": "Trigger: Shots on target by right @ 2 - 05:40"
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3085.0,
-      "end": 3085.0,
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 3088.0,
-      "end": 3088.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3040000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/segment_002990_003090.json",
-  "segment_meta": {
-    "start_seconds": 2990,
-    "end_seconds": 3090,
-    "length_seconds": 100,
-    "start_time_mmss": "49:50",
-    "end_time_mmss": "51:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

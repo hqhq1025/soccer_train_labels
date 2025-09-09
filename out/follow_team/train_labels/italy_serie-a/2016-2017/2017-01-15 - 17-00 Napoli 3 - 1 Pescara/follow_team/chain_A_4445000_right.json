@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18679,
   "video_id": "0a7f1f5d-1225-50c0-a682-2b5fb49c44f4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots off target}; then follow that team and report its {Corner and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, follow that team. Answer format: at trigger reply 'Trigger: {Shots off target} by left/right'; for each {Corner and Shots on target}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4445.0,
-      "end": 4445.0,
-      "text": "Trigger: Shots off target by right @ 2 - 29:05"
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 4485.0,
-      "end": 4485.0,
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 4490.0,
-      "end": 4490.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4445000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-01-15 - 17-00 Napoli 3 - 1 Pescara/segment_004420_004520.json",
-  "segment_meta": {
-    "start_seconds": 4420,
-    "end_seconds": 4520,
-    "length_seconds": 100,
-    "start_time_mmss": "73:40",
-    "end_time_mmss": "75:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

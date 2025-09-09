@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 12330,
+  "video_id": "083c27d3-d9e2-5478-bfaf-260f70f6d25d",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Keep an eye on {Offside}; alert me on occurrence. Answer format: 'Alert - <Event>'."
+    },
+    {
+      "time": 70.772,
+      "count": 1,
+      "text": "Cease the prior task and start continuously tracking {Ball out of play} now. Reply 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 45.252,
+      "end": 45.252,
+      "count": 0,
+      "text": "Alert - Offside"
+    },
+    {
+      "start": 75.115,
+      "end": 75.115,
+      "count": 1,
+      "text": "Alert - Ball out of play"
+    }
+  ]
+}

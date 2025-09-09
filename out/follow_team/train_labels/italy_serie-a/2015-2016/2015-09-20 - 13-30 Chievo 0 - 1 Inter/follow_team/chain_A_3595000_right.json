@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15745,
   "video_id": "b108de80-1065-518a-b7c8-5abf58459562",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Foul and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Direct free-kick}; then follow that team. Respond 'Trigger: {Direct free-kick} by left/right', and for {Foul and Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3595.0,
-      "end": 3595.0,
-      "text": "Trigger: Direct free-kick by right @ 2 - 14:55"
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 3601.0,
-      "end": 3601.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 3679.0,
-      "end": 3679.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3595000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_003580_003680.json",
-  "segment_meta": {
-    "start_seconds": 3580,
-    "end_seconds": 3680,
-    "length_seconds": 100,
-    "start_time_mmss": "59:40",
-    "end_time_mmss": "61:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

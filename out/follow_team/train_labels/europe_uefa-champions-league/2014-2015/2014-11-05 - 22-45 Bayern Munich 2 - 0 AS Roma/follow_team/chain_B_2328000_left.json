@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8440,
   "video_id": "0e573ce8-66f6-5e9e-9786-072b0ce99e37",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, start tracking that team; notify me on its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2328.0,
-      "end": 2328.0,
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 2334.0,
-      "end": 2334.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2328000,
-  "team": "left",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-05 - 22-45 Bayern Munich 2 - 0 AS Roma/segment_002220_002340.json",
-  "segment_meta": {
-    "start_seconds": 2220,
-    "end_seconds": 2340,
-    "length_seconds": 120,
-    "start_time_mmss": "37:00",
-    "end_time_mmss": "39:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19021,
   "video_id": "8ef61150-0e4e-5995-9235-98bcd35f9553",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Throw-in and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3680.0,
-      "end": 3680.0,
-      "text": "Trigger: Throw-in by left @ 2 - 16:20"
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3697.0,
-      "end": 3697.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 3726.0,
-      "end": 3726.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3680000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_003610_003730.json",
-  "segment_meta": {
-    "start_seconds": 3610,
-    "end_seconds": 3730,
-    "length_seconds": 120,
-    "start_time_mmss": "60:10",
-    "end_time_mmss": "62:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

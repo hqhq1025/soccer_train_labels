@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20371,
   "video_id": "31941118-4ebf-5881-a39d-64f1c6aca131",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3621.0,
-      "end": 3621.0,
-      "text": "Trigger: Foul by right @ 2 - 15:21"
-    },
-    {
-      "start": 3676.0,
-      "end": 3676.0,
-      "text": "Then: Throw-in by right"
-    },
-    {
-      "start": 3693.0,
-      "end": 3693.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3621000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-10 - 21-45 Palermo 0 - 3 Napoli/segment_003590_003710.json",
-  "segment_meta": {
-    "start_seconds": 3590,
-    "end_seconds": 3710,
-    "length_seconds": 120,
-    "start_time_mmss": "59:50",
-    "end_time_mmss": "61:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
+    },
+    {
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    },
+    {
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

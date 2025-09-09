@@ -1,51 +1,48 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15729,
   "video_id": "cfa0ad15-2ea6-5be8-b14c-f4eed5812607",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Throw-in, Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and reply exactly 'Trigger: {Clearance} by left/right'; then for each {Throw-in, Shots on target and Goal} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 2413.0,
-      "end": 2413.0,
-      "text": "Trigger: Clearance by right @ 1 - 40:13"
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
     },
     {
-      "start": 2451.0,
-      "end": 2451.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 2457.0,
-      "end": 2457.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 2463.0,
-      "end": 2463.0,
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 2464.0,
-      "end": 2464.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2413000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_002370_002490.json",
-  "segment_meta": {
-    "start_seconds": 2370,
-    "end_seconds": 2490,
-    "length_seconds": 120,
-    "start_time_mmss": "39:30",
-    "end_time_mmss": "41:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19301,
   "video_id": "3425dd90-ad5e-54e4-8432-c440893932c7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 4018.0,
-      "end": 4018.0,
-      "text": "Trigger: Shots off target by left @ 2 - 21:58"
-    },
-    {
-      "start": 4021.0,
-      "end": 4021.0,
-      "text": "Then: Offside by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots off target} by left/right' and 'Then: <Event> by left/right' for {Offside}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4018000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-19 - 20-00 AS Roma 4 - 1 Torino/segment_003970_004030.json",
-  "segment_meta": {
-    "start_seconds": 3970,
-    "end_seconds": 4030,
-    "length_seconds": 60,
-    "start_time_mmss": "66:10",
-    "end_time_mmss": "67:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Trigger: Shots off target by left"
+    },
+    {
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Then: Offside by left"
+    }
+  ]
 }

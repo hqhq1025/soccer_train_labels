@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20060,
   "video_id": "6695cbd5-d603-5d29-a0a9-fe7a6ea03615",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that team. Answer format: at trigger reply 'Trigger: {Foul} by left/right'; for each {Yellow card}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4762.0,
-      "end": 4762.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 4764.0,
-      "end": 4764.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4762000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-02-10 - 22-45 Napoli 2 - 0 Genoa/segment_004730_004830.json",
-  "segment_meta": {
-    "start_seconds": 4730,
-    "end_seconds": 4830,
-    "length_seconds": 100,
-    "start_time_mmss": "78:50",
-    "end_time_mmss": "80:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

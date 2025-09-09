@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 740,
   "video_id": "9f8f5af2-a85a-516e-9ae9-92b79090fd8c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Shots off target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 258.0,
-      "end": 258.0,
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 281.0,
-      "end": 281.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 258000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-08-12 - 21-00 Bastia 0 - 1 Paris SG/segment_000170_000290.json",
-  "segment_meta": {
-    "start_seconds": 170,
-    "end_seconds": 290,
-    "length_seconds": 120,
-    "start_time_mmss": "02:50",
-    "end_time_mmss": "04:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

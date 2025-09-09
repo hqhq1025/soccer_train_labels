@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13000,
   "video_id": "f91fc99b-f687-5390-a81f-7a16501d169b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Corner}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 196.0,
-      "end": 196.0,
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 224.0,
-      "end": 224.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 196000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-02-26 - 18-15 Atl. Madrid 1 - 2 Barcelona/segment_000110_000230.json",
-  "segment_meta": {
-    "start_seconds": 110,
-    "end_seconds": 230,
-    "length_seconds": 120,
-    "start_time_mmss": "01:50",
-    "end_time_mmss": "03:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

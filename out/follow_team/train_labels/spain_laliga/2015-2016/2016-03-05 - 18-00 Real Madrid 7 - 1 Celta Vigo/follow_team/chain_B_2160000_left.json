@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10086,
   "video_id": "6f611618-e16b-5114-aecf-fea150e8f3be",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2160.0,
-      "end": 2160.0,
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 2171.0,
-      "end": 2171.0,
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2160000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-05 - 18-00 Real Madrid 7 - 1 Celta Vigo/segment_002140_002240.json",
-  "segment_meta": {
-    "start_seconds": 2140,
-    "end_seconds": 2240,
-    "length_seconds": 100,
-    "start_time_mmss": "35:40",
-    "end_time_mmss": "37:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24460,
   "video_id": "c7a1b33c-9959-5383-9c73-eefad76b5f66",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, start tracking that team; notify me on its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team; answer strictly as 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4188.0,
-      "end": 4188.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 4193.0,
-      "end": 4193.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4188000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-31 - 20-30 Liverpool 1 - 0 Manchester City/segment_004130_004250.json",
-  "segment_meta": {
-    "start_seconds": 4130,
-    "end_seconds": 4250,
-    "length_seconds": 120,
-    "start_time_mmss": "68:50",
-    "end_time_mmss": "70:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

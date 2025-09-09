@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10805,
   "video_id": "d997372c-4759-5872-8331-d12cb774cb39",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Yellow card} occurs, follow the initiating team and report all {Throw-in and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Yellow card}, keep following that team. Use left/right only; 'Trigger: {Yellow card} by left/right', then 'Then: <Event> by left/right' for {Throw-in and Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4720.0,
-      "end": 4720.0,
-      "text": "Trigger: Yellow card by right @ 2 - 33:40"
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Trigger: Yellow card by right"
     },
     {
-      "start": 4788.0,
-      "end": 4788.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 4800.0,
-      "end": 4800.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4720000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2015-10-04 - 21-30 Atl. Madrid 1 - 1 Real Madrid/segment_004690_004810.json",
-  "segment_meta": {
-    "start_seconds": 4690,
-    "end_seconds": 4810,
-    "length_seconds": 120,
-    "start_time_mmss": "78:10",
-    "end_time_mmss": "80:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

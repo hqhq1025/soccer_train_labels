@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 9891,
   "video_id": "09c8302c-327c-5c1d-9c41-5cb3f74c9133",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots on target}, start tracking that team; notify me on its {Shots on target and Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, continue tracking that team. Answers must be 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Shots on target and Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3390.0,
-      "end": 3390.0,
-      "text": "Trigger: Shots on target by right @ 2 - 11:30"
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3402.0,
-      "end": 3402.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 3419.0,
-      "end": 3419.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3390000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-02-07 - 22-30 Granada CF 1 - 2 Real Madrid/segment_003320_003440.json",
-  "segment_meta": {
-    "start_seconds": 3320,
-    "end_seconds": 3440,
-    "length_seconds": 120,
-    "start_time_mmss": "55:20",
-    "end_time_mmss": "57:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20154,
   "video_id": "1a9a70f7-8595-5144-b2b9-2d2b2c9e1fa7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Corner}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 754.0,
-      "end": 754.0,
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 795.0,
-      "end": 795.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 754000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/segment_000740_000800.json",
-  "segment_meta": {
-    "start_seconds": 740,
-    "end_seconds": 800,
-    "length_seconds": 60,
-    "start_time_mmss": "12:20",
-    "end_time_mmss": "13:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

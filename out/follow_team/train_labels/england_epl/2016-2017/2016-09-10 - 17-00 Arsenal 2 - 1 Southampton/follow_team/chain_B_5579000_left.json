@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23492,
   "video_id": "1abb4dcc-b90c-51f7-85ad-18d1d37d670a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Yellow card} happens, lock onto that team and report every {Yellow card} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Yellow card}; then follow that team. Respond 'Trigger: {Yellow card} by left/right', and for {Yellow card} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5579.0,
-      "end": 5579.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Trigger: Yellow card by left"
     },
     {
-      "start": 5598.0,
-      "end": 5598.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5579000,
-  "team": "left",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-10 - 17-00 Arsenal 2 - 1 Southampton/segment_005530_005630.json",
-  "segment_meta": {
-    "start_seconds": 5530,
-    "end_seconds": 5630,
-    "length_seconds": 100,
-    "start_time_mmss": "92:10",
-    "end_time_mmss": "93:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

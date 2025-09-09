@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22891,
   "video_id": "4aa97885-001e-5d03-a4d8-5f57e7deb1d4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} occurs, follow the initiating team and report all {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 2966.0,
-      "end": 2966.0,
-      "text": "Trigger: Corner by right @ 2 - 04:26"
-    },
-    {
-      "start": 2972.0,
-      "end": 2972.0,
-      "text": "Then: Foul by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Corner}, follow the same team and list all subsequent {Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2966000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/segment_002960_003060.json",
-  "segment_meta": {
-    "start_seconds": 2960,
-    "end_seconds": 3060,
-    "length_seconds": 100,
-    "start_time_mmss": "49:20",
-    "end_time_mmss": "51:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 6.0,
+      "end": 6.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
+    },
+    {
+      "start": 12.0,
+      "end": 12.0,
+      "count": 0,
+      "text": "Then: Foul by right"
+    }
+  ]
 }

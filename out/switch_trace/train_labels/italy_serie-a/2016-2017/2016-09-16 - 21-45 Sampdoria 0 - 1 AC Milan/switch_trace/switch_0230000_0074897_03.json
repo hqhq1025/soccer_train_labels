@@ -1,0 +1,41 @@
+{
+  "source": "soccer",
+  "id": 32223,
+  "video_id": "555a16ae-638d-56c8-a23c-9d846ee77c26",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Keep an eye on {Foul}; alert me on occurrence. Answer format: 'Alert - <Event>'."
+    },
+    {
+      "time": 74.897,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Shots off target and Throw-in}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 31.725,
+      "end": 31.725,
+      "count": 0,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 82.893,
+      "end": 82.893,
+      "count": 1,
+      "text": "Alert - Throw-in"
+    },
+    {
+      "start": 89.899,
+      "end": 89.899,
+      "count": 1,
+      "text": "Alert - Shots off target"
+    }
+  ]
+}

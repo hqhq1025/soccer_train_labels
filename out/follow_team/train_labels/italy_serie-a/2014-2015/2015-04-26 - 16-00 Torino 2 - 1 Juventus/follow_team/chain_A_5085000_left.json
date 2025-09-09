@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15951,
   "video_id": "6e8a9fa9-ade6-5899-adc1-b7d7a41007a4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Substitution and Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Foul} occurs, keep following the same team and reply exactly 'Trigger: {Foul} by left/right'; then for each {Substitution and Indirect free-kick} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5085.0,
-      "end": 5085.0,
-      "text": "Trigger: Foul by left @ 2 - 39:45"
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
     },
     {
-      "start": 5122.0,
-      "end": 5122.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     },
     {
-      "start": 5126.0,
-      "end": 5126.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5085000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-04-26 - 16-00 Torino 2 - 1 Juventus/segment_005050_005170.json",
-  "segment_meta": {
-    "start_seconds": 5050,
-    "end_seconds": 5170,
-    "length_seconds": 120,
-    "start_time_mmss": "84:10",
-    "end_time_mmss": "86:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

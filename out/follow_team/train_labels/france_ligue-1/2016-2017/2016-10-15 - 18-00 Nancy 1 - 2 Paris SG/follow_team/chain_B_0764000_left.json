@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1168,
   "video_id": "46a14a52-556d-5449-adfc-51a65d17c610",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, continue tracking that team and notify me about any {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 764.0,
-      "end": 764.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 767.0,
-      "end": 767.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 764000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-10-15 - 18-00 Nancy 1 - 2 Paris SG/segment_000690_000770.json",
-  "segment_meta": {
-    "start_seconds": 690,
-    "end_seconds": 770,
-    "length_seconds": 80,
-    "start_time_mmss": "11:30",
-    "end_time_mmss": "12:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

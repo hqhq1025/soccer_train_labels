@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 12111,
   "video_id": "f6aeb370-c8f8-5af8-9108-2ad28d44ad50",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} occurs, follow the initiating team and report all {Corner}.",
-  "answer": [
+  "question": [
     {
-      "start": 4063.0,
-      "end": 4063.0,
-      "text": "Trigger: Corner by left @ 2 - 22:43"
-    },
-    {
-      "start": 4103.0,
-      "end": 4103.0,
-      "text": "Then: Corner by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Corner} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4063000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-11-19 - 22-45 Atl. Madrid 0 - 3 Real Madrid/segment_004050_004110.json",
-  "segment_meta": {
-    "start_seconds": 4050,
-    "end_seconds": 4110,
-    "length_seconds": 60,
-    "start_time_mmss": "67:30",
-    "end_time_mmss": "68:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
+      "text": "Trigger: Corner by left"
+    },
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Then: Corner by left"
+    }
+  ]
 }

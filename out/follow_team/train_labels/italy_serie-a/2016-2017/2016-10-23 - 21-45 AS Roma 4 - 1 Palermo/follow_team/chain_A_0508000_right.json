@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 17827,
   "video_id": "5f415b74-2a12-5c01-a03f-37fcc6f13141",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Foul and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team. Respond 'Trigger: {Throw-in} by left/right', and for {Foul and Throw-in} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 508.0,
-      "end": 508.0,
-      "text": "Trigger: Throw-in by right @ 1 - 08:28"
+      "start": 8.0,
+      "end": 8.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 522.0,
-      "end": 522.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 560.0,
-      "end": 560.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 508000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-23 - 21-45 AS Roma 4 - 1 Palermo/segment_000500_000580.json",
-  "segment_meta": {
-    "start_seconds": 500,
-    "end_seconds": 580,
-    "length_seconds": 80,
-    "start_time_mmss": "08:20",
-    "end_time_mmss": "09:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

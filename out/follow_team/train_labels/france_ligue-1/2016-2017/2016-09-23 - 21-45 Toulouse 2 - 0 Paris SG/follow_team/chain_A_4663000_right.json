@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1683,
   "video_id": "a8460216-364c-571c-a1bc-29466bc1b468",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Shots on target and Goal}. Use 'Then: <Event> by left/right' only (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 4663.0,
-      "end": 4663.0,
-      "text": "Trigger: Shots on target by right @ 2 - 32:43"
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
+      "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 4711.0,
-      "end": 4711.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 4712.0,
-      "end": 4712.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4663000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-09-23 - 21-45 Toulouse 2 - 0 Paris SG/segment_004630_004730.json",
-  "segment_meta": {
-    "start_seconds": 4630,
-    "end_seconds": 4730,
-    "length_seconds": 100,
-    "start_time_mmss": "77:10",
-    "end_time_mmss": "78:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 11350,
   "video_id": "de706356-3810-5f42-a2b9-baa08f42fdac",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Foul} occurs, keep following the same team and reply exactly 'Trigger: {Foul} by left/right'; then for each {Yellow card} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3067.0,
-      "end": 3067.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 3073.0,
-      "end": 3073.0,
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3067000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2014-2015/2015-02-22 - 23-00 Elche 0 - 2 Real Madrid/segment_002980_003080.json",
-  "segment_meta": {
-    "start_seconds": 2980,
-    "end_seconds": 3080,
-    "length_seconds": 100,
-    "start_time_mmss": "49:40",
-    "end_time_mmss": "51:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

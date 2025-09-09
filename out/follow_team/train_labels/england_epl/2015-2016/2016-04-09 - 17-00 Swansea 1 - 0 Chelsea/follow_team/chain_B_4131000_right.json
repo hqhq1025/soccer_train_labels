@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22036,
   "video_id": "22b298c6-9912-5598-a1d8-c476b16526c9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Direct free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, continue tracking that team. Answers must be 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Direct free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 4131.0,
-      "end": 4131.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 4211.0,
-      "end": 4211.0,
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
       "text": "Then: Direct free-kick by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4131000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-04-09 - 17-00 Swansea 1 - 0 Chelsea/segment_004110_004230.json",
-  "segment_meta": {
-    "start_seconds": 4110,
-    "end_seconds": 4230,
-    "length_seconds": 120,
-    "start_time_mmss": "68:30",
-    "end_time_mmss": "70:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

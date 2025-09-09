@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5629,
   "video_id": "e0c59fe0-e8e1-5db7-897b-0b8b054e8e37",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Shots on target and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Shots on target and Offside} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3061.0,
-      "end": 3061.0,
-      "text": "Trigger: Corner by right @ 2 - 06:01"
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
     },
     {
-      "start": 3065.0,
-      "end": 3065.0,
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 3074.0,
-      "end": 3074.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3061000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Manchester United 1 - 0 CSKA Moscow/segment_003000_003080.json",
-  "segment_meta": {
-    "start_seconds": 3000,
-    "end_seconds": 3080,
-    "length_seconds": 80,
-    "start_time_mmss": "50:00",
-    "end_time_mmss": "51:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

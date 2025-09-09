@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 23941,
   "video_id": "bc969542-d7c5-529e-82cf-ceb34d5c494a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, start tracking that team; notify me on its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3972.0,
-      "end": 3972.0,
-      "text": "Trigger: Clearance by right @ 2 - 21:12"
-    },
-    {
-      "start": 4001.0,
-      "end": 4001.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3972000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-09-16 - 22-00 Chelsea 1 - 2 Liverpool/segment_003900_004020.json",
-  "segment_meta": {
-    "start_seconds": 3900,
-    "end_seconds": 4020,
-    "length_seconds": 120,
-    "start_time_mmss": "65:00",
-    "end_time_mmss": "67:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

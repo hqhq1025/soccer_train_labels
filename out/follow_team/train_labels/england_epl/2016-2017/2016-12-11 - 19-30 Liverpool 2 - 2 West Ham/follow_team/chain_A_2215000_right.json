@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 24589,
   "video_id": "e14167cc-3b8b-5969-b0ab-b1f106402e1f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Indirect free-kick}.",
-  "answer": [
+  "question": [
     {
-      "start": 2215.0,
-      "end": 2215.0,
-      "text": "Trigger: Clearance by right @ 1 - 36:55"
-    },
-    {
-      "start": 2268.0,
-      "end": 2268.0,
-      "text": "Then: Indirect free-kick by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, continue tracking that team. Answers must be 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2215000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2016-12-11 - 19-30 Liverpool 2 - 2 West Ham/segment_002150_002270.json",
-  "segment_meta": {
-    "start_seconds": 2150,
-    "end_seconds": 2270,
-    "length_seconds": 120,
-    "start_time_mmss": "35:50",
-    "end_time_mmss": "37:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
+      "text": "Then: Indirect free-kick by right"
+    }
+  ]
 }

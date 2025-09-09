@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 12088,
   "video_id": "8cf071ff-37fc-5151-967f-1d782c33a938",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Direct free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, start tracking that team. Use responses 'Trigger: {Indirect free-kick} by left/right' and 'Then: <Event> by left/right' for {Direct free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 4668.0,
-      "end": 4668.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4740.0,
-      "end": 4740.0,
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
       "text": "Then: Direct free-kick by left"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4668000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-04 - 22-45 Barcelona 5 - 0 Celta Vigo/segment_004640_004760.json",
-  "segment_meta": {
-    "start_seconds": 4640,
-    "end_seconds": 4760,
-    "length_seconds": 120,
-    "start_time_mmss": "77:20",
-    "end_time_mmss": "79:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

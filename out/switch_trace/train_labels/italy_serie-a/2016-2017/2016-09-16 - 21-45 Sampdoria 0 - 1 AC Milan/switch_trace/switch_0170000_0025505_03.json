@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 32163,
+  "video_id": "7ed35734-93a1-50f5-90d5-d08e12116dde",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Observe {Ball out of play and Clearance} and report every time they happen. Exact text 'Alert - <Event>'."
+    },
+    {
+      "time": 25.505,
+      "count": 1,
+      "text": "Cease the prior task and start continuously tracking {Foul} now. Reply 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 25.505,
+      "end": 25.505,
+      "count": 0,
+      "text": "Alert - Ball out of play"
+    },
+    {
+      "start": 49.767,
+      "end": 49.767,
+      "count": 1,
+      "text": "Alert - Foul"
+    }
+  ]
+}

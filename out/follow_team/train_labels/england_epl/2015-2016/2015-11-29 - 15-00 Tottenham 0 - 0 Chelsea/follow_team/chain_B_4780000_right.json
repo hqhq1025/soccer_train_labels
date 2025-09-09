@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21568,
   "video_id": "8017bdcd-0f05-5d26-82f5-df4d6c3f5baf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Offside} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4780.0,
-      "end": 4780.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 4804.0,
-      "end": 4804.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4780000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea/segment_004690_004810.json",
-  "segment_meta": {
-    "start_seconds": 4690,
-    "end_seconds": 4810,
-    "length_seconds": 120,
-    "start_time_mmss": "78:10",
-    "end_time_mmss": "80:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 225,
   "video_id": "9e6fbd76-cc2a-58e3-8d04-cb9b6f15eb28",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
-  "answer": [
+  "question": [
     {
-      "start": 3888.0,
-      "end": 3888.0,
-      "text": "Trigger: Foul by left @ 2 - 19:48"
-    },
-    {
-      "start": 3892.0,
-      "end": 3892.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that team. Answer format: at trigger reply 'Trigger: {Foul} by left/right'; for each {Yellow card}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3888000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2014-2015/2015-04-05 - 22-00 Marseille 2 - 3 Paris SG/segment_003860_003900.json",
-  "segment_meta": {
-    "start_seconds": 3860,
-    "end_seconds": 3900,
-    "length_seconds": 40,
-    "start_time_mmss": "64:20",
-    "end_time_mmss": "65:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

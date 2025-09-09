@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 25315,
   "video_id": "2cf7fcd0-c076-5230-bc17-4df5eb1598ac",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2304.0,
-      "end": 2304.0,
-      "text": "Trigger: Throw-in by right @ 1 - 38:24"
-    },
-    {
-      "start": 2314.0,
-      "end": 2314.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team. Answers must be 'Trigger: {Throw-in} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2304000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2016-2017/2017-05-13 - 14-30 Manchester City 2 - 1 Leicester/segment_002200_002320.json",
-  "segment_meta": {
-    "start_seconds": 2200,
-    "end_seconds": 2320,
-    "length_seconds": 120,
-    "start_time_mmss": "36:40",
-    "end_time_mmss": "38:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

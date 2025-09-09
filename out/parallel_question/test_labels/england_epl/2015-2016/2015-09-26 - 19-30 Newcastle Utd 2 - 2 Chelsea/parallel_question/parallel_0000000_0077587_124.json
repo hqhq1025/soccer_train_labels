@@ -1,6 +1,6 @@
 {
   "source": "soccer",
-  "id": 247,
+  "id": 57762,
   "video_id": "8b0ed3d4-aa86-5653-9723-2b42314a2f57",
   "data_type": "online",
   "train_stage": 2,
@@ -10,12 +10,12 @@
     {
       "time": 0.0,
       "count": 0,
-      "text": "Observe {Clearance and Indirect free-kick} and let me know when it occurs."
+      "text": "Observe {Clearance and Indirect free-kick}; on occurrence, identify the team (left/right only). Respond 'Team left/right - <Event>'."
     },
     {
       "time": 77.587,
       "count": 1,
-      "text": "Track {Foul} and alert me whenever it happens."
+      "text": "Track {Shots on target} and alert me whenever it happens. Answer: 'Alert - <Event>'."
     }
   ],
   "answer": [
@@ -23,19 +23,19 @@
       "start": 77.587,
       "end": 77.587,
       "count": 0,
-      "text": "Alert - Clearance"
-    },
-    {
-      "start": 88.588,
-      "end": 88.588,
-      "count": 1,
-      "text": "Alert - Foul"
+      "text": "Team left - Clearance"
     },
     {
       "start": 99.899,
       "end": 99.899,
       "count": 0,
-      "text": "Alert - Indirect free-kick"
+      "text": "Team right - Indirect free-kick"
+    },
+    {
+      "start": 114.757,
+      "end": 114.757,
+      "count": 1,
+      "text": "Alert - Shots on target"
     }
   ]
 }

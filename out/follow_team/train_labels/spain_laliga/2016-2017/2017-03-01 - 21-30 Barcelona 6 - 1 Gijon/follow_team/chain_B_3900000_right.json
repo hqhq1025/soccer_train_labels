@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13280,
   "video_id": "55023d5b-8bad-5176-b794-c1b482434588",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team; answer strictly as 'Trigger: {Shots on target} by left/right' and 'Then: <Event> by left/right' for {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 3900.0,
-      "end": 3900.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3901.0,
-      "end": 3901.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3900000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/segment_003850_003910.json",
-  "segment_meta": {
-    "start_seconds": 3850,
-    "end_seconds": 3910,
-    "length_seconds": 60,
-    "start_time_mmss": "64:10",
-    "end_time_mmss": "65:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

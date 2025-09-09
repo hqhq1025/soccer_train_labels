@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13345,
   "video_id": "368c2c71-b2df-5899-98f4-1d8089cf547e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4850.0,
-      "end": 4850.0,
-      "text": "Trigger: Throw-in by left @ 2 - 35:50"
-    },
-    {
-      "start": 4855.0,
-      "end": 4855.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}. Use 'Then: <Event> by left/right' only (left/right only)."
     }
   ],
-  "match_path": "spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4850000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2016-12-10 - 22-45 Real Madrid 3 - 2 Dep. La Coruna/segment_004820_004860.json",
-  "segment_meta": {
-    "start_seconds": 4820,
-    "end_seconds": 4860,
-    "length_seconds": 40,
-    "start_time_mmss": "80:20",
-    "end_time_mmss": "81:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
+    },
+    {
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

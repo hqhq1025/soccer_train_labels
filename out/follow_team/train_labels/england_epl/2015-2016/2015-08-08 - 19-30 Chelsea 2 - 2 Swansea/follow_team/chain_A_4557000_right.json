@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22693,
   "video_id": "a59fa547-c68c-5d01-bf1a-d1119eec0547",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Offside}; then follow that team and report its {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 4557.0,
-      "end": 4557.0,
-      "text": "Trigger: Offside by right @ 2 - 30:57"
-    },
-    {
-      "start": 4616.0,
-      "end": 4616.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Offside}; then follow that team. Respond 'Trigger: {Offside} by left/right', and for {Throw-in} reply 'Then: <Event> by left/right'."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4557000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-08-08 - 19-30 Chelsea 2 - 2 Swansea/segment_004530_004650.json",
-  "segment_meta": {
-    "start_seconds": 4530,
-    "end_seconds": 4650,
-    "length_seconds": 120,
-    "start_time_mmss": "75:30",
-    "end_time_mmss": "77:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
+      "text": "Trigger: Offside by right"
+    },
+    {
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 14821,
   "video_id": "71401b0f-3f09-52dc-bc79-2aef5a66ee38",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Shots off target, Corner and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team. Respond 'Trigger: {Throw-in} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots off target, Corner and Foul}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 1184.0,
-      "end": 1184.0,
-      "text": "Trigger: Throw-in by left @ 1 - 19:44"
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 1225.0,
-      "end": 1225.0,
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     },
     {
-      "start": 1246.0,
-      "end": 1246.0,
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 1254.0,
-      "end": 1254.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1184000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-12 - 18-15 Dep. La Coruna 2 - 1 Barcelona/segment_001140_001260.json",
-  "segment_meta": {
-    "start_seconds": 1140,
-    "end_seconds": 1260,
-    "length_seconds": 120,
-    "start_time_mmss": "19:00",
-    "end_time_mmss": "21:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

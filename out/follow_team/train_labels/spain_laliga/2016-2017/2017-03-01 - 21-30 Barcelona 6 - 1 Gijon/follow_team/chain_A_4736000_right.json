@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 13323,
   "video_id": "c599f8a1-2893-5fc4-8ce7-3f037623f72c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, keep following that team and alert me whenever {Shots off target and Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team. Respond 'Trigger: {Corner} by left/right' and thereafter 'Then: <Event> by left/right' for {Shots off target and Foul}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 4736.0,
-      "end": 4736.0,
-      "text": "Trigger: Corner by right @ 2 - 33:56"
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
     },
     {
-      "start": 4740.0,
-      "end": 4740.0,
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     },
     {
-      "start": 4779.0,
-      "end": 4779.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4736000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2016-2017/2017-03-01 - 21-30 Barcelona 6 - 1 Gijon/segment_004660_004780.json",
-  "segment_meta": {
-    "start_seconds": 4660,
-    "end_seconds": 4780,
-    "length_seconds": 120,
-    "start_time_mmss": "77:40",
-    "end_time_mmss": "79:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

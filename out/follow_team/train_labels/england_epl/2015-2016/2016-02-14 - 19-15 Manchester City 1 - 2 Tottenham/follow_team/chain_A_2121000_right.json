@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 21931,
   "video_id": "16ff1821-e439-5f06-8e3d-191727ff1bd6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} occurs, follow the initiating team and report all {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 2121.0,
-      "end": 2121.0,
-      "text": "Trigger: Clearance by right @ 1 - 35:21"
-    },
-    {
-      "start": 2158.0,
-      "end": 2158.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, start tracking that team. Use responses 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Throw-in}."
     }
   ],
-  "match_path": "england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2121000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2016-02-14 - 19-15 Manchester City 1 - 2 Tottenham/segment_002080_002160.json",
-  "segment_meta": {
-    "start_seconds": 2080,
-    "end_seconds": 2160,
-    "length_seconds": 80,
-    "start_time_mmss": "34:40",
-    "end_time_mmss": "36:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
+      "text": "Trigger: Clearance by right"
+    },
+    {
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

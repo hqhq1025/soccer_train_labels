@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16759,
   "video_id": "c431581f-56cf-5758-8c87-278e0f5c1253",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}.",
-  "answer": [
+  "question": [
     {
-      "start": 3328.0,
-      "end": 3328.0,
-      "text": "Trigger: Indirect free-kick by right @ 2 - 10:28"
-    },
-    {
-      "start": 3336.0,
-      "end": 3336.0,
-      "text": "Then: Throw-in by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that team. Answer format: at trigger reply 'Trigger: {Indirect free-kick} by left/right'; for each {Throw-in}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3328000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-03-12 - 17-00 Napoli 3 - 0 Crotone/segment_003280_003360.json",
-  "segment_meta": {
-    "start_seconds": 3280,
-    "end_seconds": 3360,
-    "length_seconds": 80,
-    "start_time_mmss": "54:40",
-    "end_time_mmss": "56:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
+      "text": "Trigger: Indirect free-kick by right"
+    },
+    {
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
+      "text": "Then: Throw-in by right"
+    }
+  ]
 }

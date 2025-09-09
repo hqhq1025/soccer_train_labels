@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3807,
   "video_id": "83043a57-67a3-554f-868b-42daef13bd80",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Shots on target and Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, follow that team. Answer format: at trigger reply 'Trigger: {Corner} by left/right'; for each {Shots on target and Corner}, reply 'Then: <Event> by left/right'. Use left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 3376.0,
-      "end": 3376.0,
-      "text": "Trigger: Corner by right @ 2 - 11:16"
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
     },
     {
-      "start": 3377.0,
-      "end": 3377.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 3395.0,
-      "end": 3395.0,
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
       "text": "Then: Corner by right"
     },
     {
-      "start": 3396.0,
-      "end": 3396.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/train_labels/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3376000,
-  "team": "right",
-  "segment_path": "train/dense_segments/germany_bundesliga/2016-2017/2017-04-01 - 16-30 Schalke 1 - 1 Dortmund/segment_003280_003400.json",
-  "segment_meta": {
-    "start_seconds": 3280,
-    "end_seconds": 3400,
-    "length_seconds": 120,
-    "start_time_mmss": "54:40",
-    "end_time_mmss": "56:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

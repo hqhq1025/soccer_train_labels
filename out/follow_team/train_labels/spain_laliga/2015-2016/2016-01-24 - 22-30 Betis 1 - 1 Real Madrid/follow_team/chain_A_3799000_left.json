@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10687,
   "video_id": "5bdd49f2-252d-5353-b52d-9773456a22bc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
-  "answer": [
+  "question": [
     {
-      "start": 3799.0,
-      "end": 3799.0,
-      "text": "Trigger: Foul by left @ 2 - 18:19"
-    },
-    {
-      "start": 3807.0,
-      "end": 3807.0,
-      "text": "Then: Yellow card by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Yellow card}."
     }
   ],
-  "match_path": "spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3799000,
-  "team": "left",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-01-24 - 22-30 Betis 1 - 1 Real Madrid/segment_003770_003810.json",
-  "segment_meta": {
-    "start_seconds": 3770,
-    "end_seconds": 3810,
-    "length_seconds": 40,
-    "start_time_mmss": "62:50",
-    "end_time_mmss": "63:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
+      "text": "Then: Yellow card by left"
+    }
+  ]
 }

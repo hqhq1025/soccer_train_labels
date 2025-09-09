@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 16159,
   "video_id": "d25486f5-b43b-5fa4-a2db-4d259eae233d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Foul}.",
-  "answer": [
+  "question": [
     {
-      "start": 4530.0,
-      "end": 4530.0,
-      "text": "Trigger: Foul by left @ 2 - 30:30"
-    },
-    {
-      "start": 4559.0,
-      "end": 4559.0,
-      "text": "Then: Foul by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team; answer strictly as 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Foul}."
     }
   ],
-  "match_path": "italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4530000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2014-2015/2015-05-16 - 19-00 Inter 1 - 2 Juventus/segment_004500_004620.json",
-  "segment_meta": {
-    "start_seconds": 4500,
-    "end_seconds": 4620,
-    "length_seconds": 120,
-    "start_time_mmss": "75:00",
-    "end_time_mmss": "77:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
+      "text": "Trigger: Foul by left"
+    },
+    {
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
+      "text": "Then: Foul by left"
+    }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19517,
   "video_id": "0a36b06d-ff52-5f54-9239-ce7ade9ba98e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Offside and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, keep following that team. Use left/right only; 'Trigger: {Corner} by left/right', then 'Then: <Event> by left/right' for {Offside and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4625.0,
-      "end": 4625.0,
-      "text": "Trigger: Corner by right @ 2 - 32:05"
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
     },
     {
-      "start": 4642.0,
-      "end": 4642.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Then: Offside by right"
     },
     {
-      "start": 4686.0,
-      "end": 4686.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4625000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2017-05-28 - 19-00 Sampdoria 2 - 4 Napoli/segment_004610_004690.json",
-  "segment_meta": {
-    "start_seconds": 4610,
-    "end_seconds": 4690,
-    "length_seconds": 80,
-    "start_time_mmss": "76:50",
-    "end_time_mmss": "78:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

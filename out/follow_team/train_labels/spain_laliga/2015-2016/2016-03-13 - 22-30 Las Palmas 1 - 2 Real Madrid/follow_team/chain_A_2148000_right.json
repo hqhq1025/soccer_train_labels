@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10449,
   "video_id": "db1d8fc3-2286-586c-8be7-164d4f5b9108",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Indirect free-kick and Throw-in} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team. Answers must be 'Trigger: {Foul} by left/right' and 'Then: <Event> by left/right' for {Indirect free-kick and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2148.0,
-      "end": 2148.0,
-      "text": "Trigger: Foul by right @ 1 - 35:48"
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
+      "text": "Trigger: Foul by right"
     },
     {
-      "start": 2211.0,
-      "end": 2211.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     },
     {
-      "start": 2232.0,
-      "end": 2232.0,
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2148000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-03-13 - 22-30 Las Palmas 1 - 2 Real Madrid/segment_002120_002240.json",
-  "segment_meta": {
-    "start_seconds": 2120,
-    "end_seconds": 2240,
-    "length_seconds": 120,
-    "start_time_mmss": "35:20",
-    "end_time_mmss": "37:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

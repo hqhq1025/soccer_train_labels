@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 15751,
   "video_id": "045f79b6-45db-5dc5-9891-00b9fdce22e7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Yellow card}, start tracking that team; notify me on its {Clearance}.",
-  "answer": [
+  "question": [
     {
-      "start": 5633.0,
-      "end": 5633.0,
-      "text": "Trigger: Yellow card by right @ 2 - 48:53"
-    },
-    {
-      "start": 5689.0,
-      "end": 5689.0,
-      "text": "Then: Clearance by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Yellow card} occurs, follow the initiating team; answer strictly as 'Trigger: {Yellow card} by left/right' and 'Then: <Event> by left/right' for {Clearance}."
     }
   ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5633000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 13-30 Chievo 0 - 1 Inter/segment_005590_005690.json",
-  "segment_meta": {
-    "start_seconds": 5590,
-    "end_seconds": 5690,
-    "length_seconds": 100,
-    "start_time_mmss": "93:10",
-    "end_time_mmss": "94:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
+      "text": "Trigger: Yellow card by right"
+    },
+    {
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
+      "text": "Then: Clearance by right"
+    }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 22843,
   "video_id": "08209de9-be34-536c-a806-a10447c33366",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Offside}.",
-  "answer": [
+  "question": [
     {
-      "start": 922.0,
-      "end": 922.0,
-      "text": "Trigger: Throw-in by right @ 1 - 15:22"
-    },
-    {
-      "start": 928.0,
-      "end": 928.0,
-      "text": "Then: Offside by right"
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that team. Answer format: at trigger reply 'Trigger: {Throw-in} by left/right'; for each {Offside}, reply 'Then: <Event> by left/right'. Use left/right only."
     }
   ],
-  "match_path": "england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/",
-  "raw_source_file": "raw_jsons/train_labels/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 922000,
-  "team": "right",
-  "segment_path": "train/dense_segments/england_epl/2015-2016/2015-09-19 - 19-30 Manchester City 1 - 2 West Ham/segment_000830_000930.json",
-  "segment_meta": {
-    "start_seconds": 830,
-    "end_seconds": 930,
-    "length_seconds": 100,
-    "start_time_mmss": "13:50",
-    "end_time_mmss": "15:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
+      "text": "Trigger: Throw-in by right"
+    },
+    {
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
+      "text": "Then: Offside by right"
+    }
+  ]
 }

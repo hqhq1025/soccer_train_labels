@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1482,
   "video_id": "a250f0a7-4aa0-56b0-8d40-eacbf172cb1e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Direct free-kick}, start tracking that team; notify me on its {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Direct free-kick}, stick with that team. For {Corner}, reply 'Then: <Event> by left/right' (left/right only)."
+    }
+  ],
   "answer": [
     {
-      "start": 2928.0,
-      "end": 2928.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 2948.0,
-      "end": 2948.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2928000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-11-06 - 22-45 Paris SG 4 - 0 Rennes/segment_002870_002990.json",
-  "segment_meta": {
-    "start_seconds": 2870,
-    "end_seconds": 2990,
-    "length_seconds": 120,
-    "start_time_mmss": "47:50",
-    "end_time_mmss": "49:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

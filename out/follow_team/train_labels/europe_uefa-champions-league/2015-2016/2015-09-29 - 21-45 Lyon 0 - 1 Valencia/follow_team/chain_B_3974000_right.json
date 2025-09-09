@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5526,
   "video_id": "1c793e11-2952-5709-b0b4-ae247b815025",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team. Use left/right only; 'Trigger: {Foul} by left/right', then 'Then: <Event> by left/right' for {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 3974.0,
-      "end": 3974.0,
+      "start": 24.0,
+      "end": 24.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 3986.0,
-      "end": 3986.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/",
-  "raw_source_file": "raw_jsons/train_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3974000,
-  "team": "right",
-  "segment_path": "train/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Lyon 0 - 1 Valencia/segment_003950_003990.json",
-  "segment_meta": {
-    "start_seconds": 3950,
-    "end_seconds": 3990,
-    "length_seconds": 40,
-    "start_time_mmss": "65:50",
-    "end_time_mmss": "66:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

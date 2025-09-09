@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 18903,
   "video_id": "94c93fe9-b68e-599c-b0c8-82e5b9130ab1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, keep following that team and alert me whenever {Goal and Shots on target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team. Respond 'Trigger: {Corner} by left/right', and for {Goal and Shots on target} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 5492.0,
-      "end": 5492.0,
-      "text": "Trigger: Corner by right @ 2 - 46:32"
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
+      "text": "Trigger: Corner by right"
     },
     {
-      "start": 5494.0,
-      "end": 5494.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Goal by right"
     },
     {
-      "start": 5494.0,
-      "end": 5494.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5492000,
-  "team": "right",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 22-45 AC Milan 2 - 2 Inter/segment_005420_005500.json",
-  "segment_meta": {
-    "start_seconds": 5420,
-    "end_seconds": 5500,
-    "length_seconds": 80,
-    "start_time_mmss": "90:20",
-    "end_time_mmss": "91:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

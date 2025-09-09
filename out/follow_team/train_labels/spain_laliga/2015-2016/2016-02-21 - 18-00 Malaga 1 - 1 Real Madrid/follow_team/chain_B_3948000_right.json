@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10336,
   "video_id": "3176b054-dada-5cc1-a553-7a42d57a2aed",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and reply exactly 'Trigger: {Shots on target} by left/right'; then for each {Goal} reply 'Then: <Event> by left/right'."
+    }
+  ],
   "answer": [
     {
-      "start": 3948.0,
-      "end": 3948.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3949.0,
-      "end": 3949.0,
+      "start": 119.0,
+      "end": 119.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/train_labels/spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3948000,
-  "team": "right",
-  "segment_path": "train/dense_segments/spain_laliga/2015-2016/2016-02-21 - 18-00 Malaga 1 - 1 Real Madrid/segment_003830_003950.json",
-  "segment_meta": {
-    "start_seconds": 3830,
-    "end_seconds": 3950,
-    "length_seconds": 120,
-    "start_time_mmss": "63:50",
-    "end_time_mmss": "65:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

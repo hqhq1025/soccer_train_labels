@@ -1,0 +1,35 @@
+{
+  "source": "soccer",
+  "id": 258,
+  "video_id": "6f9a5904-31c4-55ed-9392-7b4d57f40241",
+  "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
+  "question_category": "switch_trace",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Observe {Foul} and report every time it happens. Respond 'Alert - <Event>'."
+    },
+    {
+      "time": 30.368,
+      "count": 1,
+      "text": "Stop the previous tracking and switch to continuously monitor {Yellow card}. Respond as 'Alert - <Event>'."
+    }
+  ],
+  "answer": [
+    {
+      "start": 30.368,
+      "end": 30.368,
+      "count": 0,
+      "text": "Alert - Foul"
+    },
+    {
+      "start": 39.0,
+      "end": 39.0,
+      "count": 1,
+      "text": "Alert - Yellow card"
+    }
+  ]
+}

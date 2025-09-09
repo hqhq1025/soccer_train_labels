@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1528,
   "video_id": "081e5e5a-0957-54d3-9bf0-b86d66f2f5ae",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} happens, lock onto that team and report every {Foul} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team; answer strictly as 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 1645.0,
-      "end": 1645.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 1654.0,
-      "end": 1654.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 1645000,
-  "team": "left",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2016-12-21 - 22-50 Paris SG 5 - 0 Lorient/segment_001590_001710.json",
-  "segment_meta": {
-    "start_seconds": 1590,
-    "end_seconds": 1710,
-    "length_seconds": 120,
-    "start_time_mmss": "26:30",
-    "end_time_mmss": "28:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

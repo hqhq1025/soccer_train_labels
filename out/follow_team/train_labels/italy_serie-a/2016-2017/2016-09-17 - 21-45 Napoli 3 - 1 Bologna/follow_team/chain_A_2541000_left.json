@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 19653,
   "video_id": "1344702e-f95f-5794-87c5-8b60fa41438f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Direct free-kick}, follow that same team and alert me whenever it has {Throw-in and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Direct free-kick} happens, lock onto that team. Respond 'Trigger: {Direct free-kick} by left/right' and thereafter 'Then: <Event> by left/right' for {Throw-in and Shots on target}. Left/right only."
+    }
+  ],
   "answer": [
     {
-      "start": 2541.0,
-      "end": 2541.0,
-      "text": "Trigger: Direct free-kick by left @ 1 - 42:21"
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
+      "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 2553.0,
-      "end": 2553.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2561.0,
-      "end": 2561.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2541000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-09-17 - 21-45 Napoli 3 - 1 Bologna/segment_002490_002570.json",
-  "segment_meta": {
-    "start_seconds": 2490,
-    "end_seconds": 2570,
-    "length_seconds": 80,
-    "start_time_mmss": "41:30",
-    "end_time_mmss": "42:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

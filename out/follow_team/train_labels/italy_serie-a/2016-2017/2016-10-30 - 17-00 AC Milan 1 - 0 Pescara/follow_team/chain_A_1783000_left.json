@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 20191,
   "video_id": "ade07978-3fcb-5379-aaaf-cfaa2f6c3f61",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Clearance}, follow the same team and list all subsequent {Clearance}.",
-  "answer": [
+  "question": [
     {
-      "start": 1783.0,
-      "end": 1783.0,
-      "text": "Trigger: Clearance by left @ 1 - 29:43"
-    },
-    {
-      "start": 1816.0,
-      "end": 1816.0,
-      "text": "Then: Clearance by left"
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team. Use left/right only; 'Trigger: {Clearance} by left/right', then 'Then: <Event> by left/right' for {Clearance}."
     }
   ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/",
-  "raw_source_file": "raw_jsons/train_labels/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1783000,
-  "team": "left",
-  "segment_path": "train/dense_segments/italy_serie-a/2016-2017/2016-10-30 - 17-00 AC Milan 1 - 0 Pescara/segment_001730_001850.json",
-  "segment_meta": {
-    "start_seconds": 1730,
-    "end_seconds": 1850,
-    "length_seconds": 120,
-    "start_time_mmss": "28:50",
-    "end_time_mmss": "30:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  "answer": [
+    {
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
+      "text": "Trigger: Clearance by left"
+    },
+    {
+      "start": 86.0,
+      "end": 86.0,
+      "count": 0,
+      "text": "Then: Clearance by left"
+    }
+  ]
 }

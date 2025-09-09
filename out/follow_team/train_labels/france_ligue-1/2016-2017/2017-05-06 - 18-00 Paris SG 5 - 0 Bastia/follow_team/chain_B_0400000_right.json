@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1278,
   "video_id": "d7aa4a96-0625-58d6-99f5-32130a06fd91",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, start tracking that team. Use responses 'Trigger: {Clearance} by left/right' and 'Then: <Event> by left/right' for {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 400.0,
-      "end": 400.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 457.0,
-      "end": 457.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2017-05-06 - 18-00 Paris SG 5 - 0 Bastia/",
-  "raw_source_file": "raw_jsons/train_labels/france_ligue-1/2016-2017/2017-05-06 - 18-00 Paris SG 5 - 0 Bastia/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 400000,
-  "team": "right",
-  "segment_path": "train/dense_segments/france_ligue-1/2016-2017/2017-05-06 - 18-00 Paris SG 5 - 0 Bastia/segment_000370_000470.json",
-  "segment_meta": {
-    "start_seconds": 370,
-    "end_seconds": 470,
-    "length_seconds": 100,
-    "start_time_mmss": "06:10",
-    "end_time_mmss": "07:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }
