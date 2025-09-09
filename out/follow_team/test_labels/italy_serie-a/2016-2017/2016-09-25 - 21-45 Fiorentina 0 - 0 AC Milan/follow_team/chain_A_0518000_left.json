@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6933,
   "video_id": "6c245fa6-df82-5ac2-88be-090897eae010",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 518.0,
-      "end": 518.0,
+      "start": 8.0,
+      "end": 8.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 552.0,
-      "end": 552.0,
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 518000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/segment_000510_000570.json",
-  "segment_meta": {
-    "start_seconds": 510,
-    "end_seconds": 570,
-    "length_seconds": 60,
-    "start_time_mmss": "08:30",
-    "end_time_mmss": "09:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 326,
   "video_id": "afa8bbca-f155-52d0-94b7-f3a3cda4572e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team and report all {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3193.0,
-      "end": 3193.0,
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 3247.0,
-      "end": 3247.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3193000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/segment_003150_003250.json",
-  "segment_meta": {
-    "start_seconds": 3150,
-    "end_seconds": 3250,
-    "length_seconds": 100,
-    "start_time_mmss": "52:30",
-    "end_time_mmss": "54:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

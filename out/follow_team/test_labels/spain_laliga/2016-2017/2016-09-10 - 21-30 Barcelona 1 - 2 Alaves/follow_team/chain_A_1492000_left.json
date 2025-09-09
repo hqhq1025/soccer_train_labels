@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4569,
   "video_id": "f263d555-3729-51b4-8bcd-30a3357de97d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team and report all {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 1492.0,
-      "end": 1492.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 1514.0,
-      "end": 1514.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2016-09-10 - 21-30 Barcelona 1 - 2 Alaves/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2016-09-10 - 21-30 Barcelona 1 - 2 Alaves/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1492000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2016-09-10 - 21-30 Barcelona 1 - 2 Alaves/segment_001460_001520.json",
-  "segment_meta": {
-    "start_seconds": 1460,
-    "end_seconds": 1520,
-    "length_seconds": 60,
-    "start_time_mmss": "24:20",
-    "end_time_mmss": "25:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

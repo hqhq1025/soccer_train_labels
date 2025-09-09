@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6740,
   "video_id": "a1c75790-bb9d-54ba-a100-42361e8b3d5b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots off target} occurs, keep following the same team and tell me whenever they perform {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3075.0,
-      "end": 3075.0,
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 3099.0,
-      "end": 3099.0,
+      "start": 109.0,
+      "end": 109.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3075000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/segment_002990_003110.json",
-  "segment_meta": {
-    "start_seconds": 2990,
-    "end_seconds": 3110,
-    "length_seconds": 120,
-    "start_time_mmss": "49:50",
-    "end_time_mmss": "51:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

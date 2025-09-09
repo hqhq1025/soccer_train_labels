@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3232,
   "video_id": "76611504-6ac9-5012-9883-c45945d4f502",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, continue tracking that team and notify me about any {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 3648.0,
-      "end": 3648.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 3676.0,
-      "end": 3676.0,
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3648000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/segment_003570_003690.json",
-  "segment_meta": {
-    "start_seconds": 3570,
-    "end_seconds": 3690,
-    "length_seconds": 120,
-    "start_time_mmss": "59:30",
-    "end_time_mmss": "61:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

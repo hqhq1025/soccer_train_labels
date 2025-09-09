@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4319,
   "video_id": "7116c715-e5f7-509b-b03f-463f4aaff125",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in, Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in, Foul and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 4882.0,
-      "end": 4882.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 4940.0,
-      "end": 4940.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 4954.0,
-      "end": 4954.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 4960.0,
-      "end": 4960.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4882000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/segment_004850_004970.json",
-  "segment_meta": {
-    "start_seconds": 4850,
-    "end_seconds": 4970,
-    "length_seconds": 120,
-    "start_time_mmss": "80:50",
-    "end_time_mmss": "82:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

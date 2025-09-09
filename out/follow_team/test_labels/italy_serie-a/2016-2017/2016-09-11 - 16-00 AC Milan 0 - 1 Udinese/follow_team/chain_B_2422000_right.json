@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6690,
   "video_id": "23cba8c9-3818-5add-a391-7e91e3886b8f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, follow that same team and alert me whenever it has {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2422.0,
-      "end": 2422.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2455.0,
-      "end": 2455.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2422000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/segment_002400_002460.json",
-  "segment_meta": {
-    "start_seconds": 2400,
-    "end_seconds": 2460,
-    "length_seconds": 60,
-    "start_time_mmss": "40:00",
-    "end_time_mmss": "41:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

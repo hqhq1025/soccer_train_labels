@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6654,
   "video_id": "e5460f3f-5e0a-56bd-bc88-5e72e9573009",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team and report its {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 241.0,
-      "end": 241.0,
+      "start": 11.0,
+      "end": 11.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 269.0,
-      "end": 269.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 241000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/segment_000230_000310.json",
-  "segment_meta": {
-    "start_seconds": 230,
-    "end_seconds": 310,
-    "length_seconds": 80,
-    "start_time_mmss": "03:50",
-    "end_time_mmss": "05:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

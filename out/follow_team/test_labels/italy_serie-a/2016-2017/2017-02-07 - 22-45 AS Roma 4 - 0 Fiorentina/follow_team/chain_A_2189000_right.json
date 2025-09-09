@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6529,
   "video_id": "2f4a616c-4c9c-5e1c-aede-d00ef70893f5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team and alert me for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2189.0,
-      "end": 2189.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 2192.0,
-      "end": 2192.0,
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2189000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/segment_002100_002200.json",
-  "segment_meta": {
-    "start_seconds": 2100,
-    "end_seconds": 2200,
-    "length_seconds": 100,
-    "start_time_mmss": "35:00",
-    "end_time_mmss": "36:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

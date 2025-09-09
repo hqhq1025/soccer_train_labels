@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1689,
   "video_id": "0e7c899e-f099-5c2e-9dd2-6af95a6a394f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 1608.0,
-      "end": 1608.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 1609.0,
-      "end": 1609.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1608000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/segment_001570_001610.json",
-  "segment_meta": {
-    "start_seconds": 1570,
-    "end_seconds": 1610,
-    "length_seconds": 40,
-    "start_time_mmss": "26:10",
-    "end_time_mmss": "26:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

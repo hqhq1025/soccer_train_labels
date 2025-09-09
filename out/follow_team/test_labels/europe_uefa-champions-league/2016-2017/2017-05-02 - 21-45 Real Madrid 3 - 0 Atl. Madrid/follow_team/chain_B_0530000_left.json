@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2978,
   "video_id": "eaa6a5ce-cf5c-5dd9-a007-73846fb8d3cf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team and report its {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 530.0,
-      "end": 530.0,
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 543.0,
-      "end": 543.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 530000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/segment_000430_000550.json",
-  "segment_meta": {
-    "start_seconds": 430,
-    "end_seconds": 550,
-    "length_seconds": 120,
-    "start_time_mmss": "07:10",
-    "end_time_mmss": "09:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

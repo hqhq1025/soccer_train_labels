@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 446,
   "video_id": "2ec38b79-ec52-53e3-81fc-b1217585c434",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, keep following that team and alert me whenever {Foul} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 3190.0,
-      "end": 3190.0,
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 3242.0,
-      "end": 3242.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3190000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_003170_003250.json",
-  "segment_meta": {
-    "start_seconds": 3170,
-    "end_seconds": 3250,
-    "length_seconds": 80,
-    "start_time_mmss": "52:50",
-    "end_time_mmss": "54:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4155,
   "video_id": "1fb70175-6fe0-5af3-9c23-c3502ae575ce",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team and report its {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 3004.0,
-      "end": 3004.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3005.0,
-      "end": 3005.0,
+      "start": 65.0,
+      "end": 65.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3004000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/segment_002940_003020.json",
-  "segment_meta": {
-    "start_seconds": 2940,
-    "end_seconds": 3020,
-    "length_seconds": 80,
-    "start_time_mmss": "49:00",
-    "end_time_mmss": "50:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

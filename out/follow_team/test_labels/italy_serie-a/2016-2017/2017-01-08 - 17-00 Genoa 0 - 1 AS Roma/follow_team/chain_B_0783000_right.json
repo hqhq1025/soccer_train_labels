@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7124,
   "video_id": "a5d98834-c5cb-5cd5-940c-efbee1cef53a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 783.0,
-      "end": 783.0,
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 847.0,
-      "end": 847.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 783000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/segment_000770_000850.json",
-  "segment_meta": {
-    "start_seconds": 770,
-    "end_seconds": 850,
-    "length_seconds": 80,
-    "start_time_mmss": "12:50",
-    "end_time_mmss": "14:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

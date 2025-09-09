@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4252,
   "video_id": "736007a8-b4fe-5f9a-ac05-5eef6a245ae3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team and alert me whenever {Foul} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 3300.0,
-      "end": 3300.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 3316.0,
-      "end": 3316.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3300000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/segment_003240_003340.json",
-  "segment_meta": {
-    "start_seconds": 3240,
-    "end_seconds": 3340,
-    "length_seconds": 100,
-    "start_time_mmss": "54:00",
-    "end_time_mmss": "55:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

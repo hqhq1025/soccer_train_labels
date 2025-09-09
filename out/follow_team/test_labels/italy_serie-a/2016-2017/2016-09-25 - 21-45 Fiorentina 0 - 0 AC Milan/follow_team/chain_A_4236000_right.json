@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6917,
   "video_id": "baad9c0d-0c9c-51b1-9a05-7cd2cb58e638",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Offside}; then follow that team and report its {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Offside}; then follow that team and report its {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 4236.0,
-      "end": 4236.0,
+      "start": 16.0,
+      "end": 16.0,
+      "count": 0,
       "text": "Trigger: Offside by right"
     },
     {
-      "start": 4260.0,
-      "end": 4260.0,
+      "start": 40.0,
+      "end": 40.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4236000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/segment_004220_004340.json",
-  "segment_meta": {
-    "start_seconds": 4220,
-    "end_seconds": 4340,
-    "length_seconds": 120,
-    "start_time_mmss": "70:20",
-    "end_time_mmss": "72:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

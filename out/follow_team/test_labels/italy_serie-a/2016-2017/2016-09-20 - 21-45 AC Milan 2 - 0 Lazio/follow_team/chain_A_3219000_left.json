@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6091,
   "video_id": "f7fda05e-e03f-5ade-a92a-c9a6edbdb59b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team and alert me for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3219.0,
-      "end": 3219.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3265.0,
-      "end": 3265.0,
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3219000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/segment_003180_003300.json",
-  "segment_meta": {
-    "start_seconds": 3180,
-    "end_seconds": 3300,
-    "length_seconds": 120,
-    "start_time_mmss": "53:00",
-    "end_time_mmss": "55:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

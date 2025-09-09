@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3615,
   "video_id": "e0dbaef1-d0d3-549d-9791-c883ee8b7ea5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, follow that same team and alert me whenever it has {Foul and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 3547.0,
-      "end": 3547.0,
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 3566.0,
-      "end": 3566.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 3577.0,
-      "end": 3577.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3547000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/segment_003520_003580.json",
-  "segment_meta": {
-    "start_seconds": 3520,
-    "end_seconds": 3580,
-    "length_seconds": 60,
-    "start_time_mmss": "58:40",
-    "end_time_mmss": "59:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

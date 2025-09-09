@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5813,
   "video_id": "6ef455b9-86ec-5884-805e-bb02122d651d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 3150.0,
-      "end": 3150.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 3152.0,
-      "end": 3152.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3150000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/segment_003100_003160.json",
-  "segment_meta": {
-    "start_seconds": 3100,
-    "end_seconds": 3160,
-    "length_seconds": 60,
-    "start_time_mmss": "51:40",
-    "end_time_mmss": "52:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

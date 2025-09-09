@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7448,
   "video_id": "dfdf373a-d51e-5942-9442-39daa1315167",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Throw-in} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team and alert me whenever {Throw-in} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 2161.0,
-      "end": 2161.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 2194.0,
-      "end": 2194.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2161000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/segment_002090_002210.json",
-  "segment_meta": {
-    "start_seconds": 2090,
-    "end_seconds": 2210,
-    "length_seconds": 120,
-    "start_time_mmss": "34:50",
-    "end_time_mmss": "36:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

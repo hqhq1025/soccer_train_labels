@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3395,
   "video_id": "be68ebdf-8dd8-5a4e-9e68-4d80768bcdee",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 2956.0,
-      "end": 2956.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 2974.0,
-      "end": 2974.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2956000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/segment_002860_002980.json",
-  "segment_meta": {
-    "start_seconds": 2860,
-    "end_seconds": 2980,
-    "length_seconds": 120,
-    "start_time_mmss": "47:40",
-    "end_time_mmss": "49:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

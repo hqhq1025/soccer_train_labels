@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8868,
   "video_id": "7bd8b9cc-6658-5908-ab9e-ee3b8d6cbe64",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team and report all {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 923.0,
-      "end": 923.0,
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 935.0,
-      "end": 935.0,
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 923000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/segment_000840_000940.json",
-  "segment_meta": {
-    "start_seconds": 840,
-    "end_seconds": 940,
-    "length_seconds": 100,
-    "start_time_mmss": "14:00",
-    "end_time_mmss": "15:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

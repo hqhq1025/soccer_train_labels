@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 926,
   "video_id": "7afb52a0-e4e1-5f94-b716-4fa830699900",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team and alert me for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3575.0,
-      "end": 3575.0,
+      "start": 85.0,
+      "end": 85.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 3584.0,
-      "end": 3584.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3575000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/segment_003490_003610.json",
-  "segment_meta": {
-    "start_seconds": 3490,
-    "end_seconds": 3610,
-    "length_seconds": 120,
-    "start_time_mmss": "58:10",
-    "end_time_mmss": "60:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

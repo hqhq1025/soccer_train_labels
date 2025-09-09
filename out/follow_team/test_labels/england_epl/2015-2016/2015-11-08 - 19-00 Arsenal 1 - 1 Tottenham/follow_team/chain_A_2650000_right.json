@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7829,
   "video_id": "ebeeff76-3c96-5fb9-aa61-b98482f1cb30",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2650.0,
-      "end": 2650.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 2655.0,
-      "end": 2655.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2650000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/segment_002620_002660.json",
-  "segment_meta": {
-    "start_seconds": 2620,
-    "end_seconds": 2660,
-    "length_seconds": 40,
-    "start_time_mmss": "43:40",
-    "end_time_mmss": "44:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

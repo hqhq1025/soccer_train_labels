@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 468,
   "video_id": "9ce65281-b6c2-5fc7-9e8d-bed5b0e3eebb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, start tracking that team; notify me on its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, start tracking that team; notify me on its {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 967.0,
-      "end": 967.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 981.0,
-      "end": 981.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 967000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_000930_000990.json",
-  "segment_meta": {
-    "start_seconds": 930,
-    "end_seconds": 990,
-    "length_seconds": 60,
-    "start_time_mmss": "15:30",
-    "end_time_mmss": "16:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

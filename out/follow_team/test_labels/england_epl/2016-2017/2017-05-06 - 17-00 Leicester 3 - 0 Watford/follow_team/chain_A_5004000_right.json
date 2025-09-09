@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8885,
   "video_id": "22d6102c-c88d-5ee8-a8c7-9ae3b8d87166",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Indirect free-kick and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Foul}, follow the same team and list all subsequent {Indirect free-kick and Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 5004.0,
-      "end": 5004.0,
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 5066.0,
-      "end": 5066.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     },
     {
-      "start": 5070.0,
-      "end": 5070.0,
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5004000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-05-06 - 17-00 Leicester 3 - 0 Watford/segment_004990_005090.json",
-  "segment_meta": {
-    "start_seconds": 4990,
-    "end_seconds": 5090,
-    "length_seconds": 100,
-    "start_time_mmss": "83:10",
-    "end_time_mmss": "84:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

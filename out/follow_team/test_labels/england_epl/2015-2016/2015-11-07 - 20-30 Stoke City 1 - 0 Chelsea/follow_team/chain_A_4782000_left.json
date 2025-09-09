@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7873,
   "video_id": "ec2c4987-fadc-50dd-aaea-9c55997b544b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4782.0,
-      "end": 4782.0,
+      "start": 82.0,
+      "end": 82.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 4790.0,
-      "end": 4790.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4782000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/segment_004700_004800.json",
-  "segment_meta": {
-    "start_seconds": 4700,
-    "end_seconds": 4800,
-    "length_seconds": 100,
-    "start_time_mmss": "78:20",
-    "end_time_mmss": "80:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

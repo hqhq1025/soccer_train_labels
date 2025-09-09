@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7234,
   "video_id": "41763099-38cb-52fd-9b9b-0b16107a6893",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 3800.0,
-      "end": 3800.0,
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 3803.0,
-      "end": 3803.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3800000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-10-02 - 21-45 AS Roma 2 - 1 Inter/segment_003700_003820.json",
-  "segment_meta": {
-    "start_seconds": 3700,
-    "end_seconds": 3820,
-    "length_seconds": 120,
-    "start_time_mmss": "61:40",
-    "end_time_mmss": "63:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

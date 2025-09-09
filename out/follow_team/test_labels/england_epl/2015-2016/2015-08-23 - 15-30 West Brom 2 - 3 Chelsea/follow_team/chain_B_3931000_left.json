@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8352,
   "video_id": "cf763d36-838a-54a9-a186-09f267ab92bf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3931.0,
-      "end": 3931.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3951.0,
-      "end": 3951.0,
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3931000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/segment_003910_004030.json",
-  "segment_meta": {
-    "start_seconds": 3910,
-    "end_seconds": 4030,
-    "length_seconds": 120,
-    "start_time_mmss": "65:10",
-    "end_time_mmss": "67:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

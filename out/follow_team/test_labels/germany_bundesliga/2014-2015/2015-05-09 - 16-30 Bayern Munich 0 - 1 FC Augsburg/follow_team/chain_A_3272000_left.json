@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 505,
   "video_id": "30c1bef8-b4c1-5b64-ae16-86c525ba8727",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 3272.0,
-      "end": 3272.0,
+      "start": 12.0,
+      "end": 12.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 3311.0,
-      "end": 3311.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3272000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_003260_003320.json",
-  "segment_meta": {
-    "start_seconds": 3260,
-    "end_seconds": 3320,
-    "length_seconds": 60,
-    "start_time_mmss": "54:20",
-    "end_time_mmss": "55:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

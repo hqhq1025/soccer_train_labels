@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7572,
   "video_id": "fc71ca18-d41b-541b-9a15-1e27b5cac4a1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 4824.0,
-      "end": 4824.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 4830.0,
-      "end": 4830.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4824000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/segment_004760_004880.json",
-  "segment_meta": {
-    "start_seconds": 4760,
-    "end_seconds": 4880,
-    "length_seconds": 120,
-    "start_time_mmss": "79:20",
-    "end_time_mmss": "81:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

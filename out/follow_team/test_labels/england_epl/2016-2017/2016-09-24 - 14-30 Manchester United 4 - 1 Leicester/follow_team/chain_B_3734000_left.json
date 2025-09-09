@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8648,
   "video_id": "56c99385-1e68-5f04-8292-407b73b307e3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3734.0,
-      "end": 3734.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3741.0,
-      "end": 3741.0,
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3734000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/segment_003680_003800.json",
-  "segment_meta": {
-    "start_seconds": 3680,
-    "end_seconds": 3800,
-    "length_seconds": 120,
-    "start_time_mmss": "61:20",
-    "end_time_mmss": "63:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

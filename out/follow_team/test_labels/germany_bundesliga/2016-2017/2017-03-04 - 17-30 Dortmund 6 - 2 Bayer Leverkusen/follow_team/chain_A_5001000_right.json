@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1437,
   "video_id": "4a29a9ac-bcbd-5f8b-86f0-ec40ea2ff733",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Goal and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team and report its {Goal and Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 5001.0,
-      "end": 5001.0,
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 5056.0,
-      "end": 5056.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Goal by right"
     },
     {
-      "start": 5056.0,
-      "end": 5056.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5001000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/segment_004940_005060.json",
-  "segment_meta": {
-    "start_seconds": 4940,
-    "end_seconds": 5060,
-    "length_seconds": 120,
-    "start_time_mmss": "82:20",
-    "end_time_mmss": "84:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

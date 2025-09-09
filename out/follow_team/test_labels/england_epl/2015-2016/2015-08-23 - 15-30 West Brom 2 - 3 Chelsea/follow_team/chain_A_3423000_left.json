@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8379,
   "video_id": "9700c329-6a2b-5010-9148-a9a2a4ff239a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team and report its {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 3423.0,
-      "end": 3423.0,
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 3446.0,
-      "end": 3446.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3423000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/segment_003330_003450.json",
-  "segment_meta": {
-    "start_seconds": 3330,
-    "end_seconds": 3450,
-    "length_seconds": 120,
-    "start_time_mmss": "55:30",
-    "end_time_mmss": "57:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

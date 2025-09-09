@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5969,
   "video_id": "fa8a18db-839a-5322-bc9f-fcfa2fded4ac",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Throw-in, Goal and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team and notify me about any {Throw-in, Goal and Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4177.0,
-      "end": 4177.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 4189.0,
-      "end": 4189.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 4203.0,
-      "end": 4203.0,
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
       "text": "Then: Goal by left"
     },
     {
-      "start": 4203.0,
-      "end": 4203.0,
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4177000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/segment_004120_004220.json",
-  "segment_meta": {
-    "start_seconds": 4120,
-    "end_seconds": 4220,
-    "length_seconds": 100,
-    "start_time_mmss": "68:40",
-    "end_time_mmss": "70:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

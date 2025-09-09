@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3299,
   "video_id": "8eacc2c0-fd31-5e01-8564-9a641fa45238",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Direct free-kick}, keep following that team and alert me whenever {Shots off target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Direct free-kick}, keep following that team and alert me whenever {Shots off target} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 4297.0,
-      "end": 4297.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 4301.0,
-      "end": 4301.0,
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4297000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/segment_004260_004380.json",
-  "segment_meta": {
-    "start_seconds": 4260,
-    "end_seconds": 4380,
-    "length_seconds": 120,
-    "start_time_mmss": "71:00",
-    "end_time_mmss": "73:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3817,
   "video_id": "f0360d7e-a3c5-57aa-b7da-259d55983e5b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team and alert me whenever {Yellow card} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 4493.0,
-      "end": 4493.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 4502.0,
-      "end": 4502.0,
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4493000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/segment_004390_004510.json",
-  "segment_meta": {
-    "start_seconds": 4390,
-    "end_seconds": 4510,
-    "length_seconds": 120,
-    "start_time_mmss": "73:10",
-    "end_time_mmss": "75:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1894,
   "video_id": "d399caed-4945-506d-9123-f7e6673bc0bb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team and report all {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 213.0,
-      "end": 213.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 248.0,
-      "end": 248.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 213000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/segment_000150_000250.json",
-  "segment_meta": {
-    "start_seconds": 150,
-    "end_seconds": 250,
-    "length_seconds": 100,
-    "start_time_mmss": "02:30",
-    "end_time_mmss": "04:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

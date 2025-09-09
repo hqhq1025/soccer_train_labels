@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3685,
   "video_id": "bd3cf03e-159f-567e-9ea2-94b119b48652",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots on target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team and report every {Shots on target} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 3054.0,
-      "end": 3054.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3081.0,
-      "end": 3081.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-03-02 - 23-00 Levante 1 - 3 Real Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-03-02 - 23-00 Levante 1 - 3 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3054000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-03-02 - 23-00 Levante 1 - 3 Real Madrid/segment_002970_003090.json",
-  "segment_meta": {
-    "start_seconds": 2970,
-    "end_seconds": 3090,
-    "length_seconds": 120,
-    "start_time_mmss": "49:30",
-    "end_time_mmss": "51:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

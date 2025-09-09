@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1518,
   "video_id": "fa9fc2ba-cc94-5c09-969f-2892234b2015",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots off target}, stick with that team and alert me for {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots off target}, stick with that team and alert me for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4577.0,
-      "end": 4577.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 4651.0,
-      "end": 4651.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4577000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-09-10 - 19-30 RB Leipzig 1 - 0 Dortmund/segment_004540_004660.json",
-  "segment_meta": {
-    "start_seconds": 4540,
-    "end_seconds": 4660,
-    "length_seconds": 120,
-    "start_time_mmss": "75:40",
-    "end_time_mmss": "77:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

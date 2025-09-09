@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6520,
   "video_id": "4a4e56e4-ab8b-57f7-ac27-f8ffdac5018d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Offside}, keep following that team and alert me whenever {Kick-off} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Offside}, keep following that team and alert me whenever {Kick-off} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 2668.0,
-      "end": 2668.0,
+      "start": 18.0,
+      "end": 18.0,
+      "count": 0,
       "text": "Trigger: Offside by left"
     },
     {
-      "start": 2700.0,
-      "end": 2700.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Kick-off by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2668000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/segment_002650_002710.json",
-  "segment_meta": {
-    "start_seconds": 2650,
-    "end_seconds": 2710,
-    "length_seconds": 60,
-    "start_time_mmss": "44:10",
-    "end_time_mmss": "45:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

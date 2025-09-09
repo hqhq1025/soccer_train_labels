@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8641,
   "video_id": "a9a3004e-0b01-546f-b277-9091881f6cb3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team and report its {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 3538.0,
-      "end": 3538.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 3539.0,
-      "end": 3539.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3538000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/segment_003500_003540.json",
-  "segment_meta": {
-    "start_seconds": 3500,
-    "end_seconds": 3540,
-    "length_seconds": 40,
-    "start_time_mmss": "58:20",
-    "end_time_mmss": "59:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5776,
   "video_id": "bc9a9ecd-4046-5018-a695-a3b478e53d90",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team and alert me for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 591.0,
-      "end": 591.0,
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 629.0,
-      "end": 629.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 591000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-20 - 17-00 Atalanta 2 - 1 AS Roma/segment_000550_000630.json",
-  "segment_meta": {
-    "start_seconds": 550,
-    "end_seconds": 630,
-    "length_seconds": 80,
-    "start_time_mmss": "09:10",
-    "end_time_mmss": "10:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

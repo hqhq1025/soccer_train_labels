@@ -1,51 +1,48 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2655,
   "video_id": "e9a40b1b-993c-5dc2-a600-851edd72a1ce",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Throw-in, Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team and report its {Throw-in, Foul and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 3451.0,
-      "end": 3451.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 3493.0,
-      "end": 3493.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 3502.0,
-      "end": 3502.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 3539.0,
-      "end": 3539.0,
+      "start": 109.0,
+      "end": 109.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 3544.0,
-      "end": 3544.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3451000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 22-45 Manchester City 3 - 1 Barcelona/segment_003430_003550.json",
-  "segment_meta": {
-    "start_seconds": 3430,
-    "end_seconds": 3550,
-    "length_seconds": 120,
-    "start_time_mmss": "57:10",
-    "end_time_mmss": "59:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

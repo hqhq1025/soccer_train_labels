@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 116,
   "video_id": "f25f9b3b-8371-51de-907a-c885514d1088",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that same team and alert me whenever it has {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2645.0,
-      "end": 2645.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 2712.0,
-      "end": 2712.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2645000,
-  "team": "left",
-  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/segment_002610_002730.json",
-  "segment_meta": {
-    "start_seconds": 2610,
-    "end_seconds": 2730,
-    "length_seconds": 120,
-    "start_time_mmss": "43:30",
-    "end_time_mmss": "45:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

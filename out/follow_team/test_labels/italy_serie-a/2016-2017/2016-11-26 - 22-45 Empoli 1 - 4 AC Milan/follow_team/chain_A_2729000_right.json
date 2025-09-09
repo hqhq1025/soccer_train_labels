@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7033,
   "video_id": "32e922bc-65a7-5021-bb02-c8ed755caf6a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2729.0,
-      "end": 2729.0,
+      "start": 9.0,
+      "end": 9.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 2739.0,
-      "end": 2739.0,
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2729000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/segment_002720_002760.json",
-  "segment_meta": {
-    "start_seconds": 2720,
-    "end_seconds": 2760,
-    "length_seconds": 40,
-    "start_time_mmss": "45:20",
-    "end_time_mmss": "46:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1683,
   "video_id": "23130dc4-5bf5-5aca-8a1c-403fc46840b2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2050.0,
-      "end": 2050.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2066.0,
-      "end": 2066.0,
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2050000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-09-29 - 21-45 Bayern Munich 5 - 0 D. Zagreb/segment_002000_002080.json",
-  "segment_meta": {
-    "start_seconds": 2000,
-    "end_seconds": 2080,
-    "length_seconds": 80,
-    "start_time_mmss": "33:20",
-    "end_time_mmss": "34:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

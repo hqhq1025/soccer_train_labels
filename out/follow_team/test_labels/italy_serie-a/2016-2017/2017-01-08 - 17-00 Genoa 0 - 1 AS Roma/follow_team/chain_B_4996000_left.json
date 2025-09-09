@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7108,
   "video_id": "df7934f4-41d9-58d6-8107-cad9074cccb9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4996.0,
-      "end": 4996.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 5013.0,
-      "end": 5013.0,
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4996000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/segment_004920_005020.json",
-  "segment_meta": {
-    "start_seconds": 4920,
-    "end_seconds": 5020,
-    "length_seconds": 100,
-    "start_time_mmss": "82:00",
-    "end_time_mmss": "83:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

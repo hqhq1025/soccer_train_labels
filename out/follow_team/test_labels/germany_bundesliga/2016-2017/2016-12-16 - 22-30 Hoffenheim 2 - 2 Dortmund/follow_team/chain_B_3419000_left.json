@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 660,
   "video_id": "97e2ea1a-76b4-5475-bb0d-1d6ff9c38249",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Yellow card}, follow the same team and list all subsequent {Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Yellow card}, follow the same team and list all subsequent {Substitution}."
+    }
+  ],
   "answer": [
     {
-      "start": 3419.0,
-      "end": 3419.0,
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
       "text": "Trigger: Yellow card by left"
     },
     {
-      "start": 3459.0,
-      "end": 3459.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3419000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_003390_003490.json",
-  "segment_meta": {
-    "start_seconds": 3390,
-    "end_seconds": 3490,
-    "length_seconds": 100,
-    "start_time_mmss": "56:30",
-    "end_time_mmss": "58:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6779,
   "video_id": "20c8c17a-8b08-5612-a339-66b7d7a9e2e2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team and report all {Clearance}."
+    }
+  ],
   "answer": [
     {
-      "start": 1798.0,
-      "end": 1798.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 1860.0,
-      "end": 1860.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1798000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/segment_001770_001890.json",
-  "segment_meta": {
-    "start_seconds": 1770,
-    "end_seconds": 1890,
-    "length_seconds": 120,
-    "start_time_mmss": "29:30",
-    "end_time_mmss": "31:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

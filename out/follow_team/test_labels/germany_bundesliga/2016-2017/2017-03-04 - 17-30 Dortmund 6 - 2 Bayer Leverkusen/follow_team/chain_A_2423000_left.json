@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1409,
   "video_id": "ccdf6334-1101-5424-9904-4cb4aebee65f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Shots on target and Foul} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team and report every {Shots on target and Foul} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 2423.0,
-      "end": 2423.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2440.0,
-      "end": 2440.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 2457.0,
-      "end": 2457.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2423000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/segment_002370_002490.json",
-  "segment_meta": {
-    "start_seconds": 2370,
-    "end_seconds": 2490,
-    "length_seconds": 120,
-    "start_time_mmss": "39:30",
-    "end_time_mmss": "41:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

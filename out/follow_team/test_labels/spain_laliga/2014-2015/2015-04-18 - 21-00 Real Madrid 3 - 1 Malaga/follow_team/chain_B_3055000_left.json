@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4062,
   "video_id": "a78180f0-bac0-5c79-a5d3-4c1af278765d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team and report every {Foul} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 3055.0,
-      "end": 3055.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3061.0,
-      "end": 3061.0,
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3055000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/segment_003000_003120.json",
-  "segment_meta": {
-    "start_seconds": 3000,
-    "end_seconds": 3120,
-    "length_seconds": 120,
-    "start_time_mmss": "50:00",
-    "end_time_mmss": "52:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

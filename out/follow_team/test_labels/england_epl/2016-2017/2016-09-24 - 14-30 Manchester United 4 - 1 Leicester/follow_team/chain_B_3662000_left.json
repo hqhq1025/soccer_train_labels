@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8664,
   "video_id": "9a4e7702-9646-596b-84bc-8ba64d0c9d52",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Substitution} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team and report every {Substitution} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 3662.0,
-      "end": 3662.0,
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3679.0,
-      "end": 3679.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3662000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/segment_003600_003680.json",
-  "segment_meta": {
-    "start_seconds": 3600,
-    "end_seconds": 3680,
-    "length_seconds": 80,
-    "start_time_mmss": "60:00",
-    "end_time_mmss": "61:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

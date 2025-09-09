@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3872,
   "video_id": "7b7e88f4-7d63-5420-80a9-a0cf1c34700b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team and report all {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4193.0,
-      "end": 4193.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 4236.0,
-      "end": 4236.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4193000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/segment_004140_004260.json",
-  "segment_meta": {
-    "start_seconds": 4140,
-    "end_seconds": 4260,
-    "length_seconds": 120,
-    "start_time_mmss": "69:00",
-    "end_time_mmss": "71:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2295,
   "video_id": "433a9f27-1247-5ef0-8ae7-a82b8176234d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul and Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul and Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 2756.0,
-      "end": 2756.0,
+      "start": 6.0,
+      "end": 6.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2765.0,
-      "end": 2765.0,
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 2856.0,
-      "end": 2856.0,
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2756000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/segment_002750_002870.json",
-  "segment_meta": {
-    "start_seconds": 2750,
-    "end_seconds": 2870,
-    "length_seconds": 120,
-    "start_time_mmss": "45:50",
-    "end_time_mmss": "47:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

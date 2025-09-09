@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4229,
   "video_id": "4ed78472-c650-58da-9479-d5a4ea3cec09",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots on target}, stick with that team and alert me for {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots on target}, stick with that team and alert me for {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 2784.0,
-      "end": 2784.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 2810.0,
-      "end": 2810.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2784000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/segment_002700_002820.json",
-  "segment_meta": {
-    "start_seconds": 2700,
-    "end_seconds": 2820,
-    "length_seconds": 120,
-    "start_time_mmss": "45:00",
-    "end_time_mmss": "47:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

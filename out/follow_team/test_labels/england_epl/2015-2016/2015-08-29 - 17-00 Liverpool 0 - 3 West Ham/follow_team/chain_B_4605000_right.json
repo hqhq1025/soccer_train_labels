@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8108,
   "video_id": "b8b1ba4f-73c8-53b9-9c7f-4f1f94accc04",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots off target}, stick with that team and alert me for {Red card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots off target}, stick with that team and alert me for {Red card}."
+    }
+  ],
   "answer": [
     {
-      "start": 4605.0,
-      "end": 4605.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 4671.0,
-      "end": 4671.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Red card by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-29 - 17-00 Liverpool 0 - 3 West Ham/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-29 - 17-00 Liverpool 0 - 3 West Ham/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4605000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-29 - 17-00 Liverpool 0 - 3 West Ham/segment_004580_004700.json",
-  "segment_meta": {
-    "start_seconds": 4580,
-    "end_seconds": 4700,
-    "length_seconds": 120,
-    "start_time_mmss": "76:20",
-    "end_time_mmss": "78:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

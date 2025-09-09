@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3408,
   "video_id": "ffd63b17-43da-55cf-b6bc-18cffe9a3e8f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 4288.0,
-      "end": 4288.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 4294.0,
-      "end": 4294.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4288000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/segment_004260_004320.json",
-  "segment_meta": {
-    "start_seconds": 4260,
-    "end_seconds": 4320,
-    "length_seconds": 60,
-    "start_time_mmss": "71:00",
-    "end_time_mmss": "72:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

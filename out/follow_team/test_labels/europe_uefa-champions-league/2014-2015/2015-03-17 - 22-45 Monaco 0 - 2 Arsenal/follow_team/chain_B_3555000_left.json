@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2584,
   "video_id": "b89cd2f7-31ac-5f16-91bc-29e5c6cddcf6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team and alert me whenever {Indirect free-kick} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 3555.0,
-      "end": 3555.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 3611.0,
-      "end": 3611.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3555000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/segment_003520_003640.json",
-  "segment_meta": {
-    "start_seconds": 3520,
-    "end_seconds": 3640,
-    "length_seconds": 120,
-    "start_time_mmss": "58:40",
-    "end_time_mmss": "60:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

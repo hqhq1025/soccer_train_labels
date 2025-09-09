@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7423,
   "video_id": "f0903dc5-463c-593a-b88c-e7ae899ce225",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 2289.0,
-      "end": 2289.0,
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 2295.0,
-      "end": 2295.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2289000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2016-03-01 - 22-45 Norwich 1 - 2 Chelsea/segment_002260_002300.json",
-  "segment_meta": {
-    "start_seconds": 2260,
-    "end_seconds": 2300,
-    "length_seconds": 40,
-    "start_time_mmss": "37:40",
-    "end_time_mmss": "38:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

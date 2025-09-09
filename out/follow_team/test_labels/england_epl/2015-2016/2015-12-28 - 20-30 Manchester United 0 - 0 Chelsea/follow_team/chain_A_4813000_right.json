@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8335,
   "video_id": "d99377e8-d7c4-5eed-94a9-3999344b3eff",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Yellow card} happens, lock onto that team and report every {Substitution} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Yellow card} happens, lock onto that team and report every {Substitution} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 4813.0,
-      "end": 4813.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Trigger: Yellow card by right"
     },
     {
-      "start": 4833.0,
-      "end": 4833.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4813000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/segment_004780_004860.json",
-  "segment_meta": {
-    "start_seconds": 4780,
-    "end_seconds": 4860,
-    "length_seconds": 80,
-    "start_time_mmss": "79:40",
-    "end_time_mmss": "81:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

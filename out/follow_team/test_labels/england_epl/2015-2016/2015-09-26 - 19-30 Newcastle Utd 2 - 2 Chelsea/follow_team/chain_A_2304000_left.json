@@ -1,51 +1,48 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7975,
   "video_id": "307c8e35-df66-502e-8a6e-5acf81888417",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in, Shots on target and Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in, Shots on target and Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 2304.0,
-      "end": 2304.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2319.0,
-      "end": 2319.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2324.0,
-      "end": 2324.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 2350.0,
-      "end": 2350.0,
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 2372.0,
-      "end": 2372.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2304000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/segment_002270_002390.json",
-  "segment_meta": {
-    "start_seconds": 2270,
-    "end_seconds": 2390,
-    "length_seconds": 120,
-    "start_time_mmss": "37:50",
-    "end_time_mmss": "39:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3814,
   "video_id": "f0360d7e-a3c5-57aa-b7da-259d55983e5b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, start tracking that team; notify me on its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, start tracking that team; notify me on its {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4422.0,
-      "end": 4422.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 4456.0,
-      "end": 4456.0,
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4422000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-29 - 21-00 Real Madrid 3 - 0 Almeria/segment_004390_004510.json",
-  "segment_meta": {
-    "start_seconds": 4390,
-    "end_seconds": 4510,
-    "length_seconds": 120,
-    "start_time_mmss": "73:10",
-    "end_time_mmss": "75:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

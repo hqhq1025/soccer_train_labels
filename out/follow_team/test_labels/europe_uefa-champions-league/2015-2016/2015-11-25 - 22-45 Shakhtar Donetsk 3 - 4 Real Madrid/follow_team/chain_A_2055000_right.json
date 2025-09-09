@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1735,
   "video_id": "1e575147-5ec5-5276-9317-c232f3c5ed4a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that same team and alert me whenever it has {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 2055.0,
-      "end": 2055.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 2064.0,
-      "end": 2064.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2055000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/segment_002030_002070.json",
-  "segment_meta": {
-    "start_seconds": 2030,
-    "end_seconds": 2070,
-    "length_seconds": 40,
-    "start_time_mmss": "33:50",
-    "end_time_mmss": "34:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

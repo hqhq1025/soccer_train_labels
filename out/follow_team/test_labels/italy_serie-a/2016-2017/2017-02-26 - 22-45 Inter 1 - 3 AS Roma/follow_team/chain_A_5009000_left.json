@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5525,
   "video_id": "a66a4fef-7536-5982-bdab-f17b4a12e4fe",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Substitution}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Substitution}, continue tracking that team and notify me about any {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 5009.0,
-      "end": 5009.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 5021.0,
-      "end": 5021.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-26 - 22-45 Inter 1 - 3 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-26 - 22-45 Inter 1 - 3 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5009000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-26 - 22-45 Inter 1 - 3 AS Roma/segment_004970_005030.json",
-  "segment_meta": {
-    "start_seconds": 4970,
-    "end_seconds": 5030,
-    "length_seconds": 60,
-    "start_time_mmss": "82:50",
-    "end_time_mmss": "83:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

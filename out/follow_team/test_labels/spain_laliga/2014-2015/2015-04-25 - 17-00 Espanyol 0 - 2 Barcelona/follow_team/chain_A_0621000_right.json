@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4315,
   "video_id": "fe2dff31-13d4-5e70-a050-f5d3137f2dd8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Shots off target and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team and report all {Shots off target and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 621.0,
-      "end": 621.0,
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 637.0,
-      "end": 637.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     },
     {
-      "start": 678.0,
-      "end": 678.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 621000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/segment_000560_000680.json",
-  "segment_meta": {
-    "start_seconds": 560,
-    "end_seconds": 680,
-    "length_seconds": 120,
-    "start_time_mmss": "09:20",
-    "end_time_mmss": "11:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

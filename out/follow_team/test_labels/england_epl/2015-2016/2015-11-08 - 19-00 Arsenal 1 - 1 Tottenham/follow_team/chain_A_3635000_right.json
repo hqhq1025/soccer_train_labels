@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7775,
   "video_id": "5304190c-e86e-58b4-af2d-2bc296f24519",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Indirect free-kick and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Indirect free-kick and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3635.0,
-      "end": 3635.0,
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 3640.0,
-      "end": 3640.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     },
     {
-      "start": 3670.0,
-      "end": 3670.0,
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3635000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/segment_003590_003710.json",
-  "segment_meta": {
-    "start_seconds": 3590,
-    "end_seconds": 3710,
-    "length_seconds": 120,
-    "start_time_mmss": "59:50",
-    "end_time_mmss": "61:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

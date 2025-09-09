@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8627,
   "video_id": "f19e259c-73b8-5397-81f7-6ef21c6c8b0e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Kick-off}, stick with that team and alert me for {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Kick-off}, stick with that team and alert me for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2234.0,
-      "end": 2234.0,
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
       "text": "Trigger: Kick-off by right"
     },
     {
-      "start": 2268.0,
-      "end": 2268.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2234000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-09-24 - 14-30 Manchester United 4 - 1 Leicester/segment_002190_002290.json",
-  "segment_meta": {
-    "start_seconds": 2190,
-    "end_seconds": 2290,
-    "length_seconds": 100,
-    "start_time_mmss": "36:30",
-    "end_time_mmss": "38:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1884,
   "video_id": "d12d9089-e92a-5f1f-b429-f22e90486542",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2325.0,
-      "end": 2325.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 2328.0,
-      "end": 2328.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2325000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/segment_002250_002370.json",
-  "segment_meta": {
-    "start_seconds": 2250,
-    "end_seconds": 2370,
-    "length_seconds": 120,
-    "start_time_mmss": "37:30",
-    "end_time_mmss": "39:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

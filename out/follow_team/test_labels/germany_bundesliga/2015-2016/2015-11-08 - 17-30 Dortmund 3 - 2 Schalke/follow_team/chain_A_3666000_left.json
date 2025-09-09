@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 409,
   "video_id": "f5caaa4a-90c1-572d-8207-0e5bc5679d23",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team; notify me on its {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 3666.0,
-      "end": 3666.0,
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3678.0,
-      "end": 3678.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3666000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/segment_003600_003680.json",
-  "segment_meta": {
-    "start_seconds": 3600,
-    "end_seconds": 3680,
-    "length_seconds": 80,
-    "start_time_mmss": "60:00",
-    "end_time_mmss": "61:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

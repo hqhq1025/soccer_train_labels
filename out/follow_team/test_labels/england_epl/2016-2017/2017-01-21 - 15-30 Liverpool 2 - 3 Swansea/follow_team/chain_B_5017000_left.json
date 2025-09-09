@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8768,
   "video_id": "d3b61b86-886b-5792-a826-eccf5a519794",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5017.0,
-      "end": 5017.0,
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 5043.0,
-      "end": 5043.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5017000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/segment_004990_005110.json",
-  "segment_meta": {
-    "start_seconds": 4990,
-    "end_seconds": 5110,
-    "length_seconds": 120,
-    "start_time_mmss": "83:10",
-    "end_time_mmss": "85:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

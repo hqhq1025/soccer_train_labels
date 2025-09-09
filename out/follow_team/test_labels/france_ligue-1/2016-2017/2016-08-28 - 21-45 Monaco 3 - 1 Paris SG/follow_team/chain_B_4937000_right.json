@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 70,
   "video_id": "331d0ca0-f7b9-53cf-868a-b33c5f67635c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Clearance}; then follow that team and report its {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4937.0,
-      "end": 4937.0,
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 4971.0,
-      "end": 4971.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4937000,
-  "team": "right",
-  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/segment_004890_005010.json",
-  "segment_meta": {
-    "start_seconds": 4890,
-    "end_seconds": 5010,
-    "length_seconds": 120,
-    "start_time_mmss": "81:30",
-    "end_time_mmss": "83:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

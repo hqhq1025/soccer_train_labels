@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6199,
   "video_id": "27cb3d21-6c6d-55bd-9cb1-4f5fb5e3ec0b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team; notify me on its {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 325.0,
-      "end": 325.0,
+      "start": 45.0,
+      "end": 45.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 334.0,
-      "end": 334.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 325000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 13-30 Torino 3 - 1 AS Roma/segment_000280_000340.json",
-  "segment_meta": {
-    "start_seconds": 280,
-    "end_seconds": 340,
-    "length_seconds": 60,
-    "start_time_mmss": "04:40",
-    "end_time_mmss": "05:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

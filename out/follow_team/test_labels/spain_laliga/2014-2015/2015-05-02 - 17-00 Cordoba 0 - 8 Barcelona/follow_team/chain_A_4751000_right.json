@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3931,
   "video_id": "929bcc14-e3b5-59aa-a50f-8ce72d6d516f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots on target and Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 4751.0,
-      "end": 4751.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 4752.0,
-      "end": 4752.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 4753.0,
-      "end": 4753.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4751000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/segment_004700_004760.json",
-  "segment_meta": {
-    "start_seconds": 4700,
-    "end_seconds": 4760,
-    "length_seconds": 60,
-    "start_time_mmss": "78:20",
-    "end_time_mmss": "79:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

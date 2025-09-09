@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7887,
   "video_id": "ee44ab12-ca1d-5191-a8e0-61be04c50d07",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Substitution}, start tracking that team; notify me on its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Substitution}, start tracking that team; notify me on its {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4223.0,
-      "end": 4223.0,
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
       "text": "Trigger: Substitution by right"
     },
     {
-      "start": 4240.0,
-      "end": 4240.0,
+      "start": 40.0,
+      "end": 40.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4223000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/segment_004200_004320.json",
-  "segment_meta": {
-    "start_seconds": 4200,
-    "end_seconds": 4320,
-    "length_seconds": 120,
-    "start_time_mmss": "70:00",
-    "end_time_mmss": "72:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

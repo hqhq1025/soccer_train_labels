@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5286,
   "video_id": "bb6d21d2-8a9e-5e10-9828-495d52128daa",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that same team and alert me whenever it has {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2332.0,
-      "end": 2332.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 2427.0,
-      "end": 2427.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2332000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/segment_002310_002430.json",
-  "segment_meta": {
-    "start_seconds": 2310,
-    "end_seconds": 2430,
-    "length_seconds": 120,
-    "start_time_mmss": "38:30",
-    "end_time_mmss": "40:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

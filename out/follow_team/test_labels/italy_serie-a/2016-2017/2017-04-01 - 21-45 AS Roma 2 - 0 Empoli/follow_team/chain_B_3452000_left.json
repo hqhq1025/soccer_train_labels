@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6314,
   "video_id": "0cb0b519-aca9-59be-b2ff-23db92b42dca",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Substitution}, keep following that team and alert me whenever {Throw-in} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Substitution}, keep following that team and alert me whenever {Throw-in} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 3452.0,
-      "end": 3452.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 3465.0,
-      "end": 3465.0,
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3452000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-01 - 21-45 AS Roma 2 - 0 Empoli/segment_003350_003470.json",
-  "segment_meta": {
-    "start_seconds": 3350,
-    "end_seconds": 3470,
-    "length_seconds": 120,
-    "start_time_mmss": "55:50",
-    "end_time_mmss": "57:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

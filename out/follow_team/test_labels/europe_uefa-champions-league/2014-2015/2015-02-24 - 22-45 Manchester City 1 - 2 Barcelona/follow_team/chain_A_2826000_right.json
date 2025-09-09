@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2029,
   "video_id": "9cd8de2a-548b-5888-a197-2758c6752207",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team; notify me on its {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2826.0,
-      "end": 2826.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2828.0,
-      "end": 2828.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2826000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/segment_002770_002830.json",
-  "segment_meta": {
-    "start_seconds": 2770,
-    "end_seconds": 2830,
-    "length_seconds": 60,
-    "start_time_mmss": "46:10",
-    "end_time_mmss": "47:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

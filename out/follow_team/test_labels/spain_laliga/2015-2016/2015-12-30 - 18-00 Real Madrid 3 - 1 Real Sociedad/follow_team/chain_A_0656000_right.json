@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3245,
   "video_id": "aa99a31e-3f24-559e-b97d-038f9e357006",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Shots off target and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, continue tracking that team and notify me about any {Shots off target and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 656.0,
-      "end": 656.0,
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 658.0,
-      "end": 658.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     },
     {
-      "start": 698.0,
-      "end": 698.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 656000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/segment_000630_000750.json",
-  "segment_meta": {
-    "start_seconds": 630,
-    "end_seconds": 750,
-    "length_seconds": 120,
-    "start_time_mmss": "10:30",
-    "end_time_mmss": "12:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

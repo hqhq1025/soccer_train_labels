@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1414,
   "video_id": "650f06fe-ffbd-597f-aa07-b78c6c7abd50",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Shots on target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team and alert me whenever {Shots on target} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 2837.0,
-      "end": 2837.0,
+      "start": 7.0,
+      "end": 7.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 2894.0,
-      "end": 2894.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2837000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/segment_002830_002950.json",
-  "segment_meta": {
-    "start_seconds": 2830,
-    "end_seconds": 2950,
-    "length_seconds": 120,
-    "start_time_mmss": "47:10",
-    "end_time_mmss": "49:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

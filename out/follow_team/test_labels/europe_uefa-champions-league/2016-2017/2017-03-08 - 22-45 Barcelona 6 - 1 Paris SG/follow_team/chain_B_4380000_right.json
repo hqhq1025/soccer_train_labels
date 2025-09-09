@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2690,
   "video_id": "fdae65bb-a102-5d3b-afe0-5b0c82eacd2b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots off target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots off target} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 4380.0,
-      "end": 4380.0,
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 4422.0,
-      "end": 4422.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4380000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/segment_004370_004430.json",
-  "segment_meta": {
-    "start_seconds": 4370,
-    "end_seconds": 4430,
-    "length_seconds": 60,
-    "start_time_mmss": "72:50",
-    "end_time_mmss": "73:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

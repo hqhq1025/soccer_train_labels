@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 608,
   "video_id": "91d822d2-597d-505d-90cc-849d2b9a1fed",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 2751.0,
-      "end": 2751.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 2783.0,
-      "end": 2783.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2751000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_002730_002850.json",
-  "segment_meta": {
-    "start_seconds": 2730,
-    "end_seconds": 2850,
-    "length_seconds": 120,
-    "start_time_mmss": "45:30",
-    "end_time_mmss": "47:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

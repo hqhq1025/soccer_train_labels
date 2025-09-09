@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2576,
   "video_id": "e893b7f8-4b32-52a1-ab4f-d2dd6e7fd8e7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, continue tracking that team and notify me about any {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, continue tracking that team and notify me about any {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2937.0,
-      "end": 2937.0,
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2943.0,
-      "end": 2943.0,
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2937000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/segment_002920_002960.json",
-  "segment_meta": {
-    "start_seconds": 2920,
-    "end_seconds": 2960,
-    "length_seconds": 40,
-    "start_time_mmss": "48:40",
-    "end_time_mmss": "49:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

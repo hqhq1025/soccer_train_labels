@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1737,
   "video_id": "a898b5b2-0f79-5181-8d50-30a95699d21f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team and alert me for {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 4941.0,
-      "end": 4941.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 4944.0,
-      "end": 4944.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4941000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/segment_004870_004950.json",
-  "segment_meta": {
-    "start_seconds": 4870,
-    "end_seconds": 4950,
-    "length_seconds": 80,
-    "start_time_mmss": "81:10",
-    "end_time_mmss": "82:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

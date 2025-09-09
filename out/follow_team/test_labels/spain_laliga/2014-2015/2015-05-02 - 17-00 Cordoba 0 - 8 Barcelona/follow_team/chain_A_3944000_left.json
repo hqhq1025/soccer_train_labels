@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3897,
   "video_id": "9d44b530-39e8-5f56-b3a8-0dedc0f29b84",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Kick-off} happens, lock onto that team and report every {Throw-in} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Kick-off} happens, lock onto that team and report every {Throw-in} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 3944.0,
-      "end": 3944.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Trigger: Kick-off by left"
     },
     {
-      "start": 3965.0,
-      "end": 3965.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3944000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/segment_003910_003970.json",
-  "segment_meta": {
-    "start_seconds": 3910,
-    "end_seconds": 3970,
-    "length_seconds": 60,
-    "start_time_mmss": "65:10",
-    "end_time_mmss": "66:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

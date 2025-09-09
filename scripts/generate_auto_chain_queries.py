@@ -614,7 +614,52 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     if args.output:
         out_path = Path(args.output)
         out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8")
+        payloads: List[Dict[str, object]] = []
+        for it in items:
+            seg_meta = it.get("segment_meta") or it.get("_segment_meta")
+            s0 = 0.0
+            slen = 0.0
+            try:
+                if isinstance(seg_meta, dict):
+                    s0 = float(seg_meta.get("start_seconds", 0.0))
+                    e0 = float(seg_meta.get("end_seconds", 0.0))
+                    slen = max(0.0, e0 - s0)
+            except Exception:
+                pass
+            # Build question array (single question for follow_team)
+            q_arr = [
+                {"time": 0.0, "count": 0, "text": str(it.get("question", ""))},
+            ]
+            # Build answers with relative time and count mapping
+            a_arr = []
+            for a in it.get("answer", []) or []:
+                try:
+                    st = float(a.get("start", 0.0))
+                    en = float(a.get("end", st))
+                except Exception:
+                    st = 0.0
+                    en = st
+                a_arr.append(
+                    {
+                        "start": round(max(0.0, st - s0), 6),
+                        "end": round(max(0.0, en - s0), 6),
+                        "count": 0,
+                        "text": str(a.get("text", "")),
+                    }
+                )
+            pub = {
+                "source": "soccer",
+                "id": int(it.get("id", 0)),
+                "video_id": str(it.get("video_id", "")),
+                "data_type": "online",
+                "train_stage": 2,
+                "length": round(slen, 6),
+                "question_category": str(it.get("question_category", "follow_team")),
+                "question": q_arr,
+                "answer": a_arr,
+            }
+            payloads.append(pub)
+        out_path.write_text(json.dumps(payloads, ensure_ascii=False, indent=2), encoding="utf-8")
         print(f"Wrote {len(items)} chain samples to: {out_path}")
 
     # 单文件输出：按 raw_jsons 的比赛目录结构组织
@@ -625,7 +670,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         subdir_name_raw = args.per_file_subdir
         subdir_name = None if subdir_name_raw is None else subdir_name_raw.strip()
         for it in items:
-            raw_src = it.get("raw_source_file")
+            raw_src = it.get("raw_source_file") or it.get("_raw_source_file")
             if not raw_src:
                 continue
             raw_src_path = Path(str(raw_src))
@@ -648,7 +693,48 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             chain_type = str(it.get("chain_type", "A"))
             fname = f"chain_{chain_type}_{trig_ms:07d}_{team}.json"
             fp = target_dir / fname
-            fp.write_text(json.dumps(it, ensure_ascii=False, indent=2), encoding="utf-8")
+            # Build schema-compliant payload as above
+            seg_meta = it.get("segment_meta") or it.get("_segment_meta")
+            s0 = 0.0
+            slen = 0.0
+            try:
+                if isinstance(seg_meta, dict):
+                    s0 = float(seg_meta.get("start_seconds", 0.0))
+                    e0 = float(seg_meta.get("end_seconds", 0.0))
+                    slen = max(0.0, e0 - s0)
+            except Exception:
+                pass
+            q_arr = [
+                {"time": 0.0, "count": 0, "text": str(it.get("question", ""))},
+            ]
+            a_arr = []
+            for a in it.get("answer", []) or []:
+                try:
+                    st = float(a.get("start", 0.0))
+                    en = float(a.get("end", st))
+                except Exception:
+                    st = 0.0
+                    en = st
+                a_arr.append(
+                    {
+                        "start": round(max(0.0, st - s0), 6),
+                        "end": round(max(0.0, en - s0), 6),
+                        "count": 0,
+                        "text": str(a.get("text", "")),
+                    }
+                )
+            pub = {
+                "source": "soccer",
+                "id": int(it.get("id", 0)),
+                "video_id": str(it.get("video_id", "")),
+                "data_type": "online",
+                "train_stage": 2,
+                "length": round(slen, 6),
+                "question_category": str(it.get("question_category", "follow_team")),
+                "question": q_arr,
+                "answer": a_arr,
+            }
+            fp.write_text(json.dumps(pub, ensure_ascii=False, indent=2), encoding="utf-8")
             written += 1
         print(
             f"Wrote {written} per-file chain QA JSONs under mirror root: {mirror_root}"

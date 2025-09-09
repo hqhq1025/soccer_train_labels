@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7486,
   "video_id": "358f7b5b-7680-54c0-99cb-ea7d29b21584",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 2483.0,
-      "end": 2483.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2486.0,
-      "end": 2486.0,
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2483000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/segment_002380_002500.json",
-  "segment_meta": {
-    "start_seconds": 2380,
-    "end_seconds": 2500,
-    "length_seconds": 120,
-    "start_time_mmss": "39:40",
-    "end_time_mmss": "41:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

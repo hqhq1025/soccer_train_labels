@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2368,
   "video_id": "3d5ceb4a-f9ea-59bb-afed-5414b0d70bcb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, start tracking that team; notify me on its {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 5533.0,
-      "end": 5533.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 5539.0,
-      "end": 5539.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5533000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/segment_005480_005540.json",
-  "segment_meta": {
-    "start_seconds": 5480,
-    "end_seconds": 5540,
-    "length_seconds": 60,
-    "start_time_mmss": "91:20",
-    "end_time_mmss": "92:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

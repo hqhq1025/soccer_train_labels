@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 960,
   "video_id": "d45ed5b0-a132-513a-9105-b0d986e78d2f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4212.0,
-      "end": 4212.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4293.0,
-      "end": 4293.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4212000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/segment_004190_004310.json",
-  "segment_meta": {
-    "start_seconds": 4190,
-    "end_seconds": 4310,
-    "length_seconds": 120,
-    "start_time_mmss": "69:50",
-    "end_time_mmss": "71:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

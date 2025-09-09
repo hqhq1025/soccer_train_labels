@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1005,
   "video_id": "d9ffafcc-26e5-5a0b-8355-35e3f18bba18",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Offside} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Offside} occurs, keep following the same team and tell me whenever they perform {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2870.0,
-      "end": 2870.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Trigger: Offside by left"
     },
     {
-      "start": 2936.0,
-      "end": 2936.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2870000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/segment_002820_002940.json",
-  "segment_meta": {
-    "start_seconds": 2820,
-    "end_seconds": 2940,
-    "length_seconds": 120,
-    "start_time_mmss": "47:00",
-    "end_time_mmss": "49:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

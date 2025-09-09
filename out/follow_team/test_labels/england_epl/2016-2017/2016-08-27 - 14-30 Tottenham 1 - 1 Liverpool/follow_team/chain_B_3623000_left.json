@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8574,
   "video_id": "453d671c-5bd4-5ac4-a89a-fb04ee7fe387",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 3623.0,
-      "end": 3623.0,
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3674.0,
-      "end": 3674.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3623000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/segment_003610_003730.json",
-  "segment_meta": {
-    "start_seconds": 3610,
-    "end_seconds": 3730,
-    "length_seconds": 120,
-    "start_time_mmss": "60:10",
-    "end_time_mmss": "62:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

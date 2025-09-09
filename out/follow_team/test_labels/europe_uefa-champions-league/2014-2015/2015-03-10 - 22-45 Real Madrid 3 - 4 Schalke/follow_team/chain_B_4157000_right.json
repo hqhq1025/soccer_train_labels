@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2332,
   "video_id": "53d099b9-235a-5d61-aa52-fc8b12a968a6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 4157.0,
-      "end": 4157.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 4187.0,
-      "end": 4187.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4157000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-10 - 22-45 Real Madrid 3 - 4 Schalke/segment_004100_004220.json",
-  "segment_meta": {
-    "start_seconds": 4100,
-    "end_seconds": 4220,
-    "length_seconds": 120,
-    "start_time_mmss": "68:20",
-    "end_time_mmss": "70:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

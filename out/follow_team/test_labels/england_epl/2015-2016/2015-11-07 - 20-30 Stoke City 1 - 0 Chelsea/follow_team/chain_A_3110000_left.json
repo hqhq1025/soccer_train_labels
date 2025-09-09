@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7927,
   "video_id": "b165b486-452c-55a6-a617-3570c2ef925b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Foul}, keep following that team and alert me whenever {Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Foul}, keep following that team and alert me whenever {Foul} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 3110.0,
-      "end": 3110.0,
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 3147.0,
-      "end": 3147.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3110000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/segment_003090_003170.json",
-  "segment_meta": {
-    "start_seconds": 3090,
-    "end_seconds": 3170,
-    "length_seconds": 80,
-    "start_time_mmss": "51:30",
-    "end_time_mmss": "52:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

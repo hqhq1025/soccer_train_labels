@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 331,
   "video_id": "9345720b-011d-55bc-8572-898ec783ca3e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team and report its {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5042.0,
-      "end": 5042.0,
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 5059.0,
-      "end": 5059.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5042000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/segment_005000_005080.json",
-  "segment_meta": {
-    "start_seconds": 5000,
-    "end_seconds": 5080,
-    "length_seconds": 80,
-    "start_time_mmss": "83:20",
-    "end_time_mmss": "84:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

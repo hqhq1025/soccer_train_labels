@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 378,
   "video_id": "3cd891ef-1581-5fcb-b74a-8e9f7dafb694",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team and alert me for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 1891.0,
-      "end": 1891.0,
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 1925.0,
-      "end": 1925.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 1891000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-11-08 - 17-30 Dortmund 3 - 2 Schalke/segment_001850_001930.json",
-  "segment_meta": {
-    "start_seconds": 1850,
-    "end_seconds": 1930,
-    "length_seconds": 80,
-    "start_time_mmss": "30:50",
-    "end_time_mmss": "32:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

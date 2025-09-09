@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 227,
   "video_id": "46c64240-da5a-5c7c-9a80-38d177eb21a4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, follow that same team and alert me whenever it has {Direct free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, follow that same team and alert me whenever it has {Direct free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 3574.0,
-      "end": 3574.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 3619.0,
-      "end": 3619.0,
+      "start": 109.0,
+      "end": 109.0,
+      "count": 0,
       "text": "Then: Direct free-kick by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3574000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-10-24 - 16-30 Bayern Munich 4 - 0 FC Koln/segment_003510_003630.json",
-  "segment_meta": {
-    "start_seconds": 3510,
-    "end_seconds": 3630,
-    "length_seconds": 120,
-    "start_time_mmss": "58:30",
-    "end_time_mmss": "60:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 869,
   "video_id": "dbb20a4a-eaf4-5071-ad0c-3d42d0955ac5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2013.0,
-      "end": 2013.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 2058.0,
-      "end": 2058.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2013000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-29 - 19-30 1. FSV Mainz 05 1 - 1 Dortmund/segment_001960_002060.json",
-  "segment_meta": {
-    "start_seconds": 1960,
-    "end_seconds": 2060,
-    "length_seconds": 100,
-    "start_time_mmss": "32:40",
-    "end_time_mmss": "34:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

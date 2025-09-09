@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2160,
   "video_id": "0b761df9-9674-56cf-9479-b522f655bb01",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots on target}, stick with that team and alert me for {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots on target}, stick with that team and alert me for {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 4190.0,
-      "end": 4190.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 4210.0,
-      "end": 4210.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4190000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/segment_004100_004220.json",
-  "segment_meta": {
-    "start_seconds": 4100,
-    "end_seconds": 4220,
-    "length_seconds": 120,
-    "start_time_mmss": "68:20",
-    "end_time_mmss": "70:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

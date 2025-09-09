@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 41,
   "video_id": "c528e400-d979-5d99-88e1-1ac8f3af9f34",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Throw-in and Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Throw-in and Clearance}."
+    }
+  ],
   "answer": [
     {
-      "start": 2780.0,
-      "end": 2780.0,
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 2794.0,
-      "end": 2794.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2808.0,
-      "end": 2808.0,
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/",
-  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2780000,
-  "team": "left",
-  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/segment_002700_002820.json",
-  "segment_meta": {
-    "start_seconds": 2700,
-    "end_seconds": 2820,
-    "length_seconds": 120,
-    "start_time_mmss": "45:00",
-    "end_time_mmss": "47:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

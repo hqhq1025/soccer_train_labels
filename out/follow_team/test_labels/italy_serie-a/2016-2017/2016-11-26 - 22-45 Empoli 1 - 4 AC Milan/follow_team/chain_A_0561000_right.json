@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6953,
   "video_id": "3d850ae7-9508-5236-8e2a-4292ff6e185c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Substitution and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Clearance} occurs, keep following the same team and tell me whenever they perform {Substitution and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 561.0,
-      "end": 561.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 592.0,
-      "end": 592.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     },
     {
-      "start": 608.0,
-      "end": 608.0,
+      "start": 118.0,
+      "end": 118.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 561000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/segment_000490_000610.json",
-  "segment_meta": {
-    "start_seconds": 490,
-    "end_seconds": 610,
-    "length_seconds": 120,
-    "start_time_mmss": "08:10",
-    "end_time_mmss": "10:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

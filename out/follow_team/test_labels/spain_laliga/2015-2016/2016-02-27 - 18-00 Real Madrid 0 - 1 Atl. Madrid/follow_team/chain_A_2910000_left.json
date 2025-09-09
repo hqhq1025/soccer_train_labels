@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3393,
   "video_id": "be68ebdf-8dd8-5a4e-9e68-4d80768bcdee",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2910.0,
-      "end": 2910.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2962.0,
-      "end": 2962.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2910000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/segment_002860_002980.json",
-  "segment_meta": {
-    "start_seconds": 2860,
-    "end_seconds": 2980,
-    "length_seconds": 120,
-    "start_time_mmss": "47:40",
-    "end_time_mmss": "49:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7262,
   "video_id": "fe8134c4-beb9-5abc-9968-ceed4ff3975f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 5572.0,
-      "end": 5572.0,
+      "start": 112.0,
+      "end": 112.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 5573.0,
-      "end": 5573.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5572000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/segment_005460_005580.json",
-  "segment_meta": {
-    "start_seconds": 5460,
-    "end_seconds": 5580,
-    "length_seconds": 120,
-    "start_time_mmss": "91:00",
-    "end_time_mmss": "93:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

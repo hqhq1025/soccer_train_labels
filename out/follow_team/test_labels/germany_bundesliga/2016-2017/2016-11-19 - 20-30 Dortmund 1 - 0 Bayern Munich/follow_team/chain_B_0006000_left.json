@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 934,
   "video_id": "54003758-9ff4-51f2-988e-5b90d7086c14",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team and notify me about any {Throw-in}."
+    }
+  ],
   "answer": [
     {
       "start": 6.0,
       "end": 6.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
       "start": 60.0,
       "end": 60.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 6000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/segment_000000_000080.json",
-  "segment_meta": {
-    "start_seconds": 0,
-    "end_seconds": 80,
-    "length_seconds": 80,
-    "start_time_mmss": "00:00",
-    "end_time_mmss": "01:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

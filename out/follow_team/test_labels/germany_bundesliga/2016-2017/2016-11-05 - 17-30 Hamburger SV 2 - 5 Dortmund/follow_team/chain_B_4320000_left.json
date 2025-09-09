@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1358,
   "video_id": "b0c2d6e1-7406-5ac7-8c8b-39837527e898",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4320.0,
-      "end": 4320.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4385.0,
-      "end": 4385.0,
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4320000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/segment_004270_004390.json",
-  "segment_meta": {
-    "start_seconds": 4270,
-    "end_seconds": 4390,
-    "length_seconds": 120,
-    "start_time_mmss": "71:10",
-    "end_time_mmss": "73:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

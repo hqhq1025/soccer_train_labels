@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2390,
   "video_id": "e379ac00-797d-5a1e-bb0b-2a3dd73bdc52",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4089.0,
-      "end": 4089.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4107.0,
-      "end": 4107.0,
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4089000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-04-22 - 21-45 Real Madrid 1 - 0 Atl. Madrid/segment_004040_004140.json",
-  "segment_meta": {
-    "start_seconds": 4040,
-    "end_seconds": 4140,
-    "length_seconds": 100,
-    "start_time_mmss": "67:20",
-    "end_time_mmss": "69:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

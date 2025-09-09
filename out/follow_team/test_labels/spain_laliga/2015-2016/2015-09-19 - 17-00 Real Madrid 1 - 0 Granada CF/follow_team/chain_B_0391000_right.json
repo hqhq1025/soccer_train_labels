@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3716,
   "video_id": "96c08214-4073-5c96-8dee-275591b1ac8b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 391.0,
-      "end": 391.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 434.0,
-      "end": 434.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 391000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/segment_000340_000460.json",
-  "segment_meta": {
-    "start_seconds": 340,
-    "end_seconds": 460,
-    "length_seconds": 120,
-    "start_time_mmss": "05:40",
-    "end_time_mmss": "07:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

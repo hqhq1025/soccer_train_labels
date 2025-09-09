@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7521,
   "video_id": "d5e2dbd7-600f-5af2-a5ec-b866e2abb862",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target, Throw-in and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Shots off target, Throw-in and Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 5247.0,
-      "end": 5247.0,
+      "start": 37.0,
+      "end": 37.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 5251.0,
-      "end": 5251.0,
+      "start": 41.0,
+      "end": 41.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     },
     {
-      "start": 5264.0,
-      "end": 5264.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 5270.0,
-      "end": 5270.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5247000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/segment_005210_005290.json",
-  "segment_meta": {
-    "start_seconds": 5210,
-    "end_seconds": 5290,
-    "length_seconds": 80,
-    "start_time_mmss": "86:50",
-    "end_time_mmss": "88:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

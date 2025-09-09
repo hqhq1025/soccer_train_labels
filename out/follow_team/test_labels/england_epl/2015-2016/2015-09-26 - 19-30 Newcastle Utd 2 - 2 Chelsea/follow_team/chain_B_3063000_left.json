@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8010,
   "video_id": "60ff8712-124e-5af7-95b0-fa6e9df0c619",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3063.0,
-      "end": 3063.0,
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 3099.0,
-      "end": 3099.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3063000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/segment_003040_003120.json",
-  "segment_meta": {
-    "start_seconds": 3040,
-    "end_seconds": 3120,
-    "length_seconds": 80,
-    "start_time_mmss": "50:40",
-    "end_time_mmss": "52:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

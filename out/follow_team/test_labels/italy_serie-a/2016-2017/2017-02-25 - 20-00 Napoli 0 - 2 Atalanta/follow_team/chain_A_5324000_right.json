@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5849,
   "video_id": "8d4bad6b-414a-54b7-8d7b-d2658424b8b9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team and alert me for {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 5324.0,
-      "end": 5324.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 5327.0,
-      "end": 5327.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5324000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/segment_005270_005330.json",
-  "segment_meta": {
-    "start_seconds": 5270,
-    "end_seconds": 5330,
-    "length_seconds": 60,
-    "start_time_mmss": "87:50",
-    "end_time_mmss": "88:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

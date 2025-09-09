@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5939,
   "video_id": "0da1adb5-2f76-528d-801c-24986ea0a5f1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team and report its {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4785.0,
-      "end": 4785.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 4809.0,
-      "end": 4809.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4785000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/segment_004750_004810.json",
-  "segment_meta": {
-    "start_seconds": 4750,
-    "end_seconds": 4810,
-    "length_seconds": 60,
-    "start_time_mmss": "79:10",
-    "end_time_mmss": "80:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

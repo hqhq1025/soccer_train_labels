@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 503,
   "video_id": "eb188bcb-a164-59eb-8891-a49295a33597",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that same team and alert me whenever it has {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 5283.0,
-      "end": 5283.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 5294.0,
-      "end": 5294.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5283000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_005230_005350.json",
-  "segment_meta": {
-    "start_seconds": 5230,
-    "end_seconds": 5350,
-    "length_seconds": 120,
-    "start_time_mmss": "87:10",
-    "end_time_mmss": "89:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

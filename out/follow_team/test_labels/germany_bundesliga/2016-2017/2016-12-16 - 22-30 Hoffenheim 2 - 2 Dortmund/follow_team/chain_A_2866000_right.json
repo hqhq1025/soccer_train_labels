@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 557,
   "video_id": "6aed96a8-d62d-5210-90a5-cbf6ff664342",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 2866.0,
-      "end": 2866.0,
+      "start": 16.0,
+      "end": 16.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 2867.0,
-      "end": 2867.0,
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2866000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-12-16 - 22-30 Hoffenheim 2 - 2 Dortmund/segment_002850_002890.json",
-  "segment_meta": {
-    "start_seconds": 2850,
-    "end_seconds": 2890,
-    "length_seconds": 40,
-    "start_time_mmss": "47:30",
-    "end_time_mmss": "48:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

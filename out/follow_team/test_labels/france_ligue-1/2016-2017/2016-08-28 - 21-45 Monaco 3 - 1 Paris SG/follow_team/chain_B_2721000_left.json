@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 122,
   "video_id": "f25f9b3b-8371-51de-907a-c885514d1088",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Yellow card}, keep following that team and alert me whenever {Kick-off} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Yellow card}, keep following that team and alert me whenever {Kick-off} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 2721.0,
-      "end": 2721.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Trigger: Yellow card by left"
     },
     {
-      "start": 2700.0,
-      "end": 2700.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Kick-off by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2721000,
-  "team": "left",
-  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/segment_002610_002730.json",
-  "segment_meta": {
-    "start_seconds": 2610,
-    "end_seconds": 2730,
-    "length_seconds": 120,
-    "start_time_mmss": "43:30",
-    "end_time_mmss": "45:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

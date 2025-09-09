@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3228,
   "video_id": "bad1c666-320a-5129-91f6-aa91dc162576",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 408.0,
-      "end": 408.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 466.0,
-      "end": 466.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 408000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/segment_000370_000470.json",
-  "segment_meta": {
-    "start_seconds": 370,
-    "end_seconds": 470,
-    "length_seconds": 100,
-    "start_time_mmss": "06:10",
-    "end_time_mmss": "07:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8182,
   "video_id": "968d2720-698c-5156-9463-ea5e69cca47c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Corner}, stick with that team and alert me for {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Corner}, stick with that team and alert me for {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 5178.0,
-      "end": 5178.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 5208.0,
-      "end": 5208.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5178000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/segment_005110_005230.json",
-  "segment_meta": {
-    "start_seconds": 5110,
-    "end_seconds": 5230,
-    "length_seconds": 120,
-    "start_time_mmss": "85:10",
-    "end_time_mmss": "87:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

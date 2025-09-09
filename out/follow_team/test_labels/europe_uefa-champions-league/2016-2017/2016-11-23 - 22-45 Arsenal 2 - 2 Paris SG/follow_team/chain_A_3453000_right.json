@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2883,
   "video_id": "0ac1ea8a-28cc-542d-ba3b-223e9c995475",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Corner} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team and report every {Corner} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 3453.0,
-      "end": 3453.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 3485.0,
-      "end": 3485.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3453000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/segment_003380_003500.json",
-  "segment_meta": {
-    "start_seconds": 3380,
-    "end_seconds": 3500,
-    "length_seconds": 120,
-    "start_time_mmss": "56:20",
-    "end_time_mmss": "58:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

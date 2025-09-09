@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5161,
   "video_id": "ec53447b-b645-5c09-a8ab-a802ea1e19c3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Kick-off} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Kick-off} occurs, follow the initiating team and report all {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4611.0,
-      "end": 4611.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Trigger: Kick-off by left"
     },
     {
-      "start": 4640.0,
-      "end": 4640.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4611000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/segment_004590_004650.json",
-  "segment_meta": {
-    "start_seconds": 4590,
-    "end_seconds": 4650,
-    "length_seconds": 60,
-    "start_time_mmss": "76:30",
-    "end_time_mmss": "77:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

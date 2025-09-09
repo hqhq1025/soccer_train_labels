@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6637,
   "video_id": "a7c28e69-2dd1-5947-8ae6-1e4acd4ec89a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Foul}, follow the same team and list all subsequent {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 5626.0,
-      "end": 5626.0,
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 5635.0,
-      "end": 5635.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5626000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-11 - 16-00 AC Milan 0 - 1 Udinese/segment_005560_005680.json",
-  "segment_meta": {
-    "start_seconds": 5560,
-    "end_seconds": 5680,
-    "length_seconds": 120,
-    "start_time_mmss": "92:40",
-    "end_time_mmss": "94:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

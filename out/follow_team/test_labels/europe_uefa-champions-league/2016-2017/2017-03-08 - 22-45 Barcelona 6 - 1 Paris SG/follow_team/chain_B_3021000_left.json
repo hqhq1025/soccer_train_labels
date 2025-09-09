@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2706,
   "video_id": "04e52080-147a-55c3-a966-8a2603652582",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Shots off target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} happens, lock onto that team and report every {Shots off target} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 3021.0,
-      "end": 3021.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 3088.0,
-      "end": 3088.0,
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3021000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/segment_003000_003120.json",
-  "segment_meta": {
-    "start_seconds": 3000,
-    "end_seconds": 3120,
-    "length_seconds": 120,
-    "start_time_mmss": "50:00",
-    "end_time_mmss": "52:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

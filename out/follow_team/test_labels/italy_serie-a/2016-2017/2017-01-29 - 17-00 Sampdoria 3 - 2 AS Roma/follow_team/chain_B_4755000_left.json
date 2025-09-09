@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5980,
   "video_id": "d5b90939-6ba0-529a-b7c1-a826128c3ad1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 4755.0,
-      "end": 4755.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4799.0,
-      "end": 4799.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4755000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/segment_004700_004820.json",
-  "segment_meta": {
-    "start_seconds": 4700,
-    "end_seconds": 4820,
-    "length_seconds": 120,
-    "start_time_mmss": "78:20",
-    "end_time_mmss": "80:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

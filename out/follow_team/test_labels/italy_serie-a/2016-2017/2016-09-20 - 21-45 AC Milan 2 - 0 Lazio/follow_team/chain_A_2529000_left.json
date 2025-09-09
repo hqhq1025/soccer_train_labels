@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6071,
   "video_id": "c61203af-f5b8-5691-bb5a-2f08b827f3c1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Throw-in and Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Throw-in and Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 2529.0,
-      "end": 2529.0,
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2579.0,
-      "end": 2579.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 2610.0,
-      "end": 2610.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2529000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/segment_002500_002620.json",
-  "segment_meta": {
-    "start_seconds": 2500,
-    "end_seconds": 2620,
-    "length_seconds": 120,
-    "start_time_mmss": "41:40",
-    "end_time_mmss": "43:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5180,
   "video_id": "9f84eb5f-eba6-5938-9469-3ff52856aca4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, follow that same team and alert me whenever it has {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4149.0,
-      "end": 4149.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4152.0,
-      "end": 4152.0,
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4149000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/segment_004090_004190.json",
-  "segment_meta": {
-    "start_seconds": 4090,
-    "end_seconds": 4190,
-    "length_seconds": 100,
-    "start_time_mmss": "68:10",
-    "end_time_mmss": "69:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

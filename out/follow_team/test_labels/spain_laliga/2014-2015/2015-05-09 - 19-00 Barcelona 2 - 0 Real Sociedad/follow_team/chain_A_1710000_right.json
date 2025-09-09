@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4151,
   "video_id": "7d64be5e-c773-5993-992e-b8fd27ad07e0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team and report its {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 1710.0,
-      "end": 1710.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 1719.0,
-      "end": 1719.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1710000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-09 - 19-00 Barcelona 2 - 0 Real Sociedad/segment_001680_001720.json",
-  "segment_meta": {
-    "start_seconds": 1680,
-    "end_seconds": 1720,
-    "length_seconds": 40,
-    "start_time_mmss": "28:00",
-    "end_time_mmss": "28:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

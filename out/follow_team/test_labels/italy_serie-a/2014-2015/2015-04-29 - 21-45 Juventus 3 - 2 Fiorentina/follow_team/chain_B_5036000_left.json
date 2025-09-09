@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5512,
   "video_id": "cb998daf-2877-5941-bb05-a49faabc7a89",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team and report its {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5036.0,
-      "end": 5036.0,
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 5063.0,
-      "end": 5063.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5036000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/segment_005010_005110.json",
-  "segment_meta": {
-    "start_seconds": 5010,
-    "end_seconds": 5110,
-    "length_seconds": 100,
-    "start_time_mmss": "83:30",
-    "end_time_mmss": "85:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

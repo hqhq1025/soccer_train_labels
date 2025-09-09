@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6858,
   "video_id": "617d79ed-a491-5cfb-a47d-f659a09677bf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 792.0,
-      "end": 792.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 799.0,
-      "end": 799.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 792000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/segment_000760_000800.json",
-  "segment_meta": {
-    "start_seconds": 760,
-    "end_seconds": 800,
-    "length_seconds": 40,
-    "start_time_mmss": "12:40",
-    "end_time_mmss": "13:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

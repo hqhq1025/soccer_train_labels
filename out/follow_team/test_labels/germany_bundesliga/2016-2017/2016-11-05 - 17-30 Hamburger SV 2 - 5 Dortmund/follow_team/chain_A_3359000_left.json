@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1337,
   "video_id": "6e4e2164-0630-5dff-9ce3-56328debb5c4",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Offside and Throw-in} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team and report every {Offside and Throw-in} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 3359.0,
-      "end": 3359.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3364.0,
-      "end": 3364.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Offside by left"
     },
     {
-      "start": 3393.0,
-      "end": 3393.0,
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3359000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/segment_003300_003420.json",
-  "segment_meta": {
-    "start_seconds": 3300,
-    "end_seconds": 3420,
-    "length_seconds": 120,
-    "start_time_mmss": "55:00",
-    "end_time_mmss": "57:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

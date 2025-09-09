@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6716,
   "video_id": "0bbd3c7a-0962-58f3-bf1d-124728e96b4b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team and alert me for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5202.0,
-      "end": 5202.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5217.0,
-      "end": 5217.0,
+      "start": 67.0,
+      "end": 67.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5202000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/segment_005150_005250.json",
-  "segment_meta": {
-    "start_seconds": 5150,
-    "end_seconds": 5250,
-    "length_seconds": 100,
-    "start_time_mmss": "85:50",
-    "end_time_mmss": "87:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

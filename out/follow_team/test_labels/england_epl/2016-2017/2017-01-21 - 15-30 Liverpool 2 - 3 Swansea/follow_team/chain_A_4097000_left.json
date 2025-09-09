@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8775,
   "video_id": "5cb017a5-5833-5cd8-9126-7ed641d5946e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} occurs, follow the initiating team and report all {Goal and Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} occurs, follow the initiating team and report all {Goal and Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4097.0,
-      "end": 4097.0,
+      "start": 47.0,
+      "end": 47.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 4125.0,
-      "end": 4125.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Goal by left"
     },
     {
-      "start": 4125.0,
-      "end": 4125.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4097000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/segment_004050_004130.json",
-  "segment_meta": {
-    "start_seconds": 4050,
-    "end_seconds": 4130,
-    "length_seconds": 80,
-    "start_time_mmss": "67:30",
-    "end_time_mmss": "68:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

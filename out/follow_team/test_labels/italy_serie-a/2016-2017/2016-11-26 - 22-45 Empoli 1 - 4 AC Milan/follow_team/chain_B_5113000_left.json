@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7054,
   "video_id": "b2343037-e700-53cb-beee-1234245201f6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 5113.0,
-      "end": 5113.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 5146.0,
-      "end": 5146.0,
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5113000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/segment_005080_005180.json",
-  "segment_meta": {
-    "start_seconds": 5080,
-    "end_seconds": 5180,
-    "length_seconds": 100,
-    "start_time_mmss": "84:40",
-    "end_time_mmss": "86:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1177,
   "video_id": "d92ad5b4-4759-5ae2-ba43-f6e63fbbd34f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4763.0,
-      "end": 4763.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4792.0,
-      "end": 4792.0,
+      "start": 62.0,
+      "end": 62.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4763000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-01-21 - 17-30 SV Werder Bremen 1 - 2 Dortmund/segment_004730_004810.json",
-  "segment_meta": {
-    "start_seconds": 4730,
-    "end_seconds": 4810,
-    "length_seconds": 80,
-    "start_time_mmss": "78:50",
-    "end_time_mmss": "80:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

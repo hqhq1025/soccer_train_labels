@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2722,
   "video_id": "cc0f171f-557c-54a2-95f0-9d4004595206",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Offside}; then follow that team and report its {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Offside}; then follow that team and report its {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 4014.0,
-      "end": 4014.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Trigger: Offside by left"
     },
     {
-      "start": 4074.0,
-      "end": 4074.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4014000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/segment_003980_004100.json",
-  "segment_meta": {
-    "start_seconds": 3980,
-    "end_seconds": 4100,
-    "length_seconds": 120,
-    "start_time_mmss": "66:20",
-    "end_time_mmss": "68:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

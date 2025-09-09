@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2822,
   "video_id": "e2a5f01f-182a-54ac-b96d-6ee43d586647",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Foul} occurs, keep following the same team and tell me whenever they perform {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 225.0,
-      "end": 225.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 243.0,
-      "end": 243.0,
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 225000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/segment_000200_000300.json",
-  "segment_meta": {
-    "start_seconds": 200,
-    "end_seconds": 300,
-    "length_seconds": 100,
-    "start_time_mmss": "03:20",
-    "end_time_mmss": "05:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

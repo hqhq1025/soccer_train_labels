@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5993,
   "video_id": "3a405a21-81a3-524d-88f2-0fa41b141aae",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 273.0,
-      "end": 273.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 274.0,
-      "end": 274.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 273000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/segment_000240_000280.json",
-  "segment_meta": {
-    "start_seconds": 240,
-    "end_seconds": 280,
-    "length_seconds": 40,
-    "start_time_mmss": "04:00",
-    "end_time_mmss": "04:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8356,
   "video_id": "4b62855a-408f-5386-9af4-03a79f2806d9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 5136.0,
-      "end": 5136.0,
+      "start": 16.0,
+      "end": 16.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 5217.0,
-      "end": 5217.0,
+      "start": 97.0,
+      "end": 97.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5136000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/segment_005120_005220.json",
-  "segment_meta": {
-    "start_seconds": 5120,
-    "end_seconds": 5220,
-    "length_seconds": 100,
-    "start_time_mmss": "85:20",
-    "end_time_mmss": "87:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2468,
   "video_id": "79eed255-bf60-53da-8cb3-9154f7d5ab73",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3868.0,
-      "end": 3868.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3881.0,
-      "end": 3881.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3868000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/segment_003770_003890.json",
-  "segment_meta": {
-    "start_seconds": 3770,
-    "end_seconds": 3890,
-    "length_seconds": 120,
-    "start_time_mmss": "62:50",
-    "end_time_mmss": "64:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

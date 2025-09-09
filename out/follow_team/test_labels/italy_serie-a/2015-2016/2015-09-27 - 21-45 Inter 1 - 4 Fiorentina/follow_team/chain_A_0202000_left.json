@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5213,
   "video_id": "5c243b27-d11a-5b22-aeed-4f6861f3f3e7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 202.0,
-      "end": 202.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 203.0,
-      "end": 203.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 202000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/segment_000150_000210.json",
-  "segment_meta": {
-    "start_seconds": 150,
-    "end_seconds": 210,
-    "length_seconds": 60,
-    "start_time_mmss": "02:30",
-    "end_time_mmss": "03:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

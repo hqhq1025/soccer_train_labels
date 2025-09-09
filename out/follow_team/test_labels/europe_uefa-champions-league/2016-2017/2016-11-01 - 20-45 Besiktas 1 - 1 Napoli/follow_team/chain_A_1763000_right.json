@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3085,
   "video_id": "bb8a91f9-d607-5f19-852d-b9063cb567c5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team and report its {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 1763.0,
-      "end": 1763.0,
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 1848.0,
-      "end": 1848.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     },
     {
-      "start": 1865.0,
-      "end": 1865.0,
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1763000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/segment_001750_001870.json",
-  "segment_meta": {
-    "start_seconds": 1750,
-    "end_seconds": 1870,
-    "length_seconds": 120,
-    "start_time_mmss": "29:10",
-    "end_time_mmss": "31:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

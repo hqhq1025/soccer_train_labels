@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 268,
   "video_id": "169ee0e9-22f1-5ca6-8fd7-721c7144a7e0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 308.0,
-      "end": 308.0,
+      "start": 88.0,
+      "end": 88.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 315.0,
-      "end": 315.0,
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 308000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/segment_000220_000320.json",
-  "segment_meta": {
-    "start_seconds": 220,
-    "end_seconds": 320,
-    "length_seconds": 100,
-    "start_time_mmss": "03:40",
-    "end_time_mmss": "05:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

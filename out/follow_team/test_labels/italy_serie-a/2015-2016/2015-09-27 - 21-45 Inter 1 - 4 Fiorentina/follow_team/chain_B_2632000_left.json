@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5208,
   "video_id": "39b2a70d-c359-50ee-8e66-bc236b36bca3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Throw-in} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} happens, lock onto that team and report every {Throw-in} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 2632.0,
-      "end": 2632.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 2675.0,
-      "end": 2675.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2632000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/segment_002600_002680.json",
-  "segment_meta": {
-    "start_seconds": 2600,
-    "end_seconds": 2680,
-    "length_seconds": 80,
-    "start_time_mmss": "43:20",
-    "end_time_mmss": "44:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

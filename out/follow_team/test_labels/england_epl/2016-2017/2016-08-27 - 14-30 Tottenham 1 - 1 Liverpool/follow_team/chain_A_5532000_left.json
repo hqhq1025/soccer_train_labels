@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8489,
   "video_id": "fea9c7d7-a7ad-5fe0-ae5a-2e74e3da0665",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Offside}, follow that same team and alert me whenever it has {Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Offside}, follow that same team and alert me whenever it has {Substitution}."
+    }
+  ],
   "answer": [
     {
-      "start": 5532.0,
-      "end": 5532.0,
+      "start": 12.0,
+      "end": 12.0,
+      "count": 0,
       "text": "Trigger: Offside by left"
     },
     {
-      "start": 5575.0,
-      "end": 5575.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5532000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-08-27 - 14-30 Tottenham 1 - 1 Liverpool/segment_005520_005620.json",
-  "segment_meta": {
-    "start_seconds": 5520,
-    "end_seconds": 5620,
-    "length_seconds": 100,
-    "start_time_mmss": "92:00",
-    "end_time_mmss": "93:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

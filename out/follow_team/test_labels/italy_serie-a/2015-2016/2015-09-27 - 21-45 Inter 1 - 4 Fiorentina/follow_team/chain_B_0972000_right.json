@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5164,
   "video_id": "9bd2c8d3-773f-5418-8835-1b6a5168b529",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team and report its {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 972.0,
-      "end": 972.0,
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 983.0,
-      "end": 983.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 972000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/segment_000930_001030.json",
-  "segment_meta": {
-    "start_seconds": 930,
-    "end_seconds": 1030,
-    "length_seconds": 100,
-    "start_time_mmss": "15:30",
-    "end_time_mmss": "17:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

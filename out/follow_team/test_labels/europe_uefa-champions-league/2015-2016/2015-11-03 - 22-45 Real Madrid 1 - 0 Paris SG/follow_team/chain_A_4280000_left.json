@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1887,
   "video_id": "384c4edd-169f-5f3a-b237-2d5aa36fc46e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Foul}, stick with that team and alert me for {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 4280.0,
-      "end": 4280.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 4329.0,
-      "end": 4329.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4280000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/segment_004250_004330.json",
-  "segment_meta": {
-    "start_seconds": 4250,
-    "end_seconds": 4330,
-    "length_seconds": 80,
-    "start_time_mmss": "70:50",
-    "end_time_mmss": "72:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

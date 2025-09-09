@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 746,
   "video_id": "b29066af-5370-538b-8e37-dd78328cf4a6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 110.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Foul} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} happens, lock onto that team and report every {Foul} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 5373.0,
-      "end": 5373.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 5378.0,
-      "end": 5378.0,
+      "start": 108.0,
+      "end": 108.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5373000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/segment_005270_005380.json",
-  "segment_meta": {
-    "start_seconds": 5270,
-    "end_seconds": 5380,
-    "length_seconds": 110,
-    "start_time_mmss": "87:50",
-    "end_time_mmss": "89:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

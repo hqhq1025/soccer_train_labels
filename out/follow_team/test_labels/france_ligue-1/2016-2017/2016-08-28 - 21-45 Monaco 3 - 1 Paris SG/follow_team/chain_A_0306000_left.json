@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 107,
   "video_id": "8ad7ee39-0ad1-5bf9-a568-9ea6e33e219d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in and Foul} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, keep following that team and alert me whenever {Throw-in and Foul} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 306.0,
-      "end": 306.0,
+      "start": 6.0,
+      "end": 6.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 334.0,
-      "end": 334.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 338.0,
-      "end": 338.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 373.0,
-      "end": 373.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 306000,
-  "team": "left",
-  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-08-28 - 21-45 Monaco 3 - 1 Paris SG/segment_000300_000400.json",
-  "segment_meta": {
-    "start_seconds": 300,
-    "end_seconds": 400,
-    "length_seconds": 100,
-    "start_time_mmss": "05:00",
-    "end_time_mmss": "06:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

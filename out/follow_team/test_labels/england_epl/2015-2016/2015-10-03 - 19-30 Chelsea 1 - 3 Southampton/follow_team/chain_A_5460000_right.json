@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7613,
   "video_id": "c52f4bca-2ec7-5dd7-8c5a-b1b789079e3a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Substitution}, continue tracking that team and notify me about any {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Substitution}, continue tracking that team and notify me about any {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 5460.0,
-      "end": 5460.0,
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
       "text": "Trigger: Substitution by right"
     },
     {
-      "start": 5473.0,
-      "end": 5473.0,
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5460000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-03 - 19-30 Chelsea 1 - 3 Southampton/segment_005380_005480.json",
-  "segment_meta": {
-    "start_seconds": 5380,
-    "end_seconds": 5480,
-    "length_seconds": 100,
-    "start_time_mmss": "89:40",
-    "end_time_mmss": "91:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

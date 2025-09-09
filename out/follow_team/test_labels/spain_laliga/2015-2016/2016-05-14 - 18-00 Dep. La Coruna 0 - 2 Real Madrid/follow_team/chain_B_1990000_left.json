@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3146,
   "video_id": "2ad8728f-f3ba-5f13-9182-5c8e1dc40356",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 1990.0,
-      "end": 1990.0,
+      "start": 40.0,
+      "end": 40.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 2007.0,
-      "end": 2007.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-05-14 - 18-00 Dep. La Coruna 0 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-05-14 - 18-00 Dep. La Coruna 0 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 1990000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-05-14 - 18-00 Dep. La Coruna 0 - 2 Real Madrid/segment_001950_002050.json",
-  "segment_meta": {
-    "start_seconds": 1950,
-    "end_seconds": 2050,
-    "length_seconds": 100,
-    "start_time_mmss": "32:30",
-    "end_time_mmss": "34:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

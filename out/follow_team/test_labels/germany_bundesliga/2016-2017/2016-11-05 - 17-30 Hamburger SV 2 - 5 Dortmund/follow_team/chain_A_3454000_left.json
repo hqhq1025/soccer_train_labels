@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1319,
   "video_id": "1aa41a03-2ea7-5c2f-9958-77a1c308e70e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Offside}, continue tracking that team and notify me about any {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Offside}, continue tracking that team and notify me about any {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3454.0,
-      "end": 3454.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Trigger: Offside by left"
     },
     {
-      "start": 3533.0,
-      "end": 3533.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3454000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/segment_003420_003540.json",
-  "segment_meta": {
-    "start_seconds": 3420,
-    "end_seconds": 3540,
-    "length_seconds": 120,
-    "start_time_mmss": "57:00",
-    "end_time_mmss": "59:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5258,
   "video_id": "10657ba9-232f-52c1-ae77-534c6ebd8fc1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Foul}, stick with that team and alert me for {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Foul}, stick with that team and alert me for {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 893.0,
-      "end": 893.0,
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 938.0,
-      "end": 938.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 893000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/segment_000880_000940.json",
-  "segment_meta": {
-    "start_seconds": 880,
-    "end_seconds": 940,
-    "length_seconds": 60,
-    "start_time_mmss": "14:40",
-    "end_time_mmss": "15:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

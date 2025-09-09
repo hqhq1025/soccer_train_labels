@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8802,
   "video_id": "c0ef2807-8e9f-59af-b6ad-65a1b3672133",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team and report its {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 579.0,
-      "end": 579.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 606.0,
-      "end": 606.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 579000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/segment_000530_000650.json",
-  "segment_meta": {
-    "start_seconds": 530,
-    "end_seconds": 650,
-    "length_seconds": 120,
-    "start_time_mmss": "08:50",
-    "end_time_mmss": "10:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

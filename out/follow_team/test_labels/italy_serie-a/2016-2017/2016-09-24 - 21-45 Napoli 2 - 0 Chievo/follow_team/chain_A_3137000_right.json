@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6785,
   "video_id": "5d533d60-eecd-594d-90d4-16f1dbb95dd9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3137.0,
-      "end": 3137.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 3161.0,
-      "end": 3161.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3137000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/segment_003080_003180.json",
-  "segment_meta": {
-    "start_seconds": 3080,
-    "end_seconds": 3180,
-    "length_seconds": 100,
-    "start_time_mmss": "51:20",
-    "end_time_mmss": "53:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

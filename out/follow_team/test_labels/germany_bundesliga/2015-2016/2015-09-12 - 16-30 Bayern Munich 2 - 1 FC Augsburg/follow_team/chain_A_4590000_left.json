@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 161,
   "video_id": "dd9e4f32-6cf3-5150-80d0-ebf456d0e180",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 4590.0,
-      "end": 4590.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 4591.0,
-      "end": 4591.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4590000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-09-12 - 16-30 Bayern Munich 2 - 1 FC Augsburg/segment_004520_004620.json",
-  "segment_meta": {
-    "start_seconds": 4520,
-    "end_seconds": 4620,
-    "length_seconds": 100,
-    "start_time_mmss": "75:20",
-    "end_time_mmss": "77:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

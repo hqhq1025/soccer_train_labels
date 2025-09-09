@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4249,
   "video_id": "736007a8-b4fe-5f9a-ac05-5eef6a245ae3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Red card} occurs, follow the initiating team and report all {Indirect free-kick and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Red card} occurs, follow the initiating team and report all {Indirect free-kick and Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 3250.0,
-      "end": 3250.0,
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
       "text": "Trigger: Red card by left"
     },
     {
-      "start": 3330.0,
-      "end": 3330.0,
+      "start": 90.0,
+      "end": 90.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     },
     {
-      "start": 3336.0,
-      "end": 3336.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3250000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/segment_003240_003340.json",
-  "segment_meta": {
-    "start_seconds": 3240,
-    "end_seconds": 3340,
-    "length_seconds": 100,
-    "start_time_mmss": "54:00",
-    "end_time_mmss": "55:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

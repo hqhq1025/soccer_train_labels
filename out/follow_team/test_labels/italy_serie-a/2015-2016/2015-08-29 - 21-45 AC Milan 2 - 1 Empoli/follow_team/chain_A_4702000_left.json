@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5373,
   "video_id": "acb461fa-b58a-59f3-aac3-07b0fdc997c8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Shots on target and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Shots on target and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4702.0,
-      "end": 4702.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4723.0,
-      "end": 4723.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 4744.0,
-      "end": 4744.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4702000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/segment_004670_004770.json",
-  "segment_meta": {
-    "start_seconds": 4670,
-    "end_seconds": 4770,
-    "length_seconds": 100,
-    "start_time_mmss": "77:50",
-    "end_time_mmss": "79:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

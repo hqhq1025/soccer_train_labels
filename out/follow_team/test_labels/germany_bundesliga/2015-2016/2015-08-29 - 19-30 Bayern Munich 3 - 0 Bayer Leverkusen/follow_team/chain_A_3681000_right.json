@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 303,
   "video_id": "d5a5b2dd-0beb-5072-9d2e-76bcc86d39d2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Direct free-kick} occurs, follow the initiating team and report all {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 3681.0,
-      "end": 3681.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 3693.0,
-      "end": 3693.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3681000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/segment_003660_003700.json",
-  "segment_meta": {
-    "start_seconds": 3660,
-    "end_seconds": 3700,
-    "length_seconds": 40,
-    "start_time_mmss": "61:00",
-    "end_time_mmss": "61:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

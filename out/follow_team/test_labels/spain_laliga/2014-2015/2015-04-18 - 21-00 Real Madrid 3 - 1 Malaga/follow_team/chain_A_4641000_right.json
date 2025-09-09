@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4091,
   "video_id": "aba271c6-94c2-59b1-8030-cd1adbdbef43",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 4641.0,
-      "end": 4641.0,
+      "start": 51.0,
+      "end": 51.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 4642.0,
-      "end": 4642.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4641000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/segment_004590_004650.json",
-  "segment_meta": {
-    "start_seconds": 4590,
-    "end_seconds": 4650,
-    "length_seconds": 60,
-    "start_time_mmss": "76:30",
-    "end_time_mmss": "77:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

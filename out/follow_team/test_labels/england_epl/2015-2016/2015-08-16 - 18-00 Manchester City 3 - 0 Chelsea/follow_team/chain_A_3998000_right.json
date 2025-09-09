@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7587,
   "video_id": "e2033831-25b8-53fe-9319-a22124b62500",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Indirect free-kick}, continue tracking that team and notify me about any {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3998.0,
-      "end": 3998.0,
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 4014.0,
-      "end": 4014.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 4041.0,
-      "end": 4041.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3998000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-16 - 18-00 Manchester City 3 - 0 Chelsea/segment_003950_004050.json",
-  "segment_meta": {
-    "start_seconds": 3950,
-    "end_seconds": 4050,
-    "length_seconds": 100,
-    "start_time_mmss": "65:50",
-    "end_time_mmss": "67:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

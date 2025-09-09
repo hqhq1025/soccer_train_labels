@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1793,
   "video_id": "05a5afa4-8fcd-5732-81b6-adaf3ecf7e06",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Corner} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team and alert me whenever {Corner} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 2412.0,
-      "end": 2412.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 2449.0,
-      "end": 2449.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2412000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/segment_002360_002480.json",
-  "segment_meta": {
-    "start_seconds": 2360,
-    "end_seconds": 2480,
-    "length_seconds": 120,
-    "start_time_mmss": "39:20",
-    "end_time_mmss": "41:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5451,
   "video_id": "7ea41da7-07de-5c10-a655-4bbdff68e2ed",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team and report its {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 2750.0,
-      "end": 2750.0,
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 2823.0,
-      "end": 2823.0,
+      "start": 93.0,
+      "end": 93.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2750000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/segment_002730_002830.json",
-  "segment_meta": {
-    "start_seconds": 2730,
-    "end_seconds": 2830,
-    "length_seconds": 100,
-    "start_time_mmss": "45:30",
-    "end_time_mmss": "47:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

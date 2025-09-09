@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2156,
   "video_id": "126d8529-1078-5cbb-b764-9b51a4829c7e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2505.0,
-      "end": 2505.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 2507.0,
-      "end": 2507.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2505000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/segment_002430_002550.json",
-  "segment_meta": {
-    "start_seconds": 2430,
-    "end_seconds": 2550,
-    "length_seconds": 120,
-    "start_time_mmss": "40:30",
-    "end_time_mmss": "42:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1787,
   "video_id": "7af78192-dab9-5537-b8d2-ef0cfeb5a897",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3615.0,
-      "end": 3615.0,
+      "start": 55.0,
+      "end": 55.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3617.0,
-      "end": 3617.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3615000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2016-04-05 - 21-45 Bayern Munich 1 - 0 Benfica/segment_003560_003620.json",
-  "segment_meta": {
-    "start_seconds": 3560,
-    "end_seconds": 3620,
-    "length_seconds": 60,
-    "start_time_mmss": "59:20",
-    "end_time_mmss": "60:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8365,
   "video_id": "a62ace24-9ec5-5e10-8260-97f9244420b1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team; notify me on its {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4901.0,
-      "end": 4901.0,
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 4905.0,
-      "end": 4905.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4901000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/segment_004800_004920.json",
-  "segment_meta": {
-    "start_seconds": 4800,
-    "end_seconds": 4920,
-    "length_seconds": 120,
-    "start_time_mmss": "80:00",
-    "end_time_mmss": "82:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

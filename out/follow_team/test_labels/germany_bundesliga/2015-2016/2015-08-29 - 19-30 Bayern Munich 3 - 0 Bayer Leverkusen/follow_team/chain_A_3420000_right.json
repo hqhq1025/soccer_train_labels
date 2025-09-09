@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 269,
   "video_id": "c9210fde-735f-50e5-bc7c-e8ecd93fa95c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team and report its {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3420.0,
-      "end": 3420.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 3446.0,
-      "end": 3446.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3420000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2015-2016/2015-08-29 - 19-30 Bayern Munich 3 - 0 Bayer Leverkusen/segment_003390_003450.json",
-  "segment_meta": {
-    "start_seconds": 3390,
-    "end_seconds": 3450,
-    "length_seconds": 60,
-    "start_time_mmss": "56:30",
-    "end_time_mmss": "57:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

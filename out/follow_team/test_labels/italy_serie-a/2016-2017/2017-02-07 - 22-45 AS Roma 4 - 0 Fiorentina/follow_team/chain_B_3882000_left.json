@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6504,
   "video_id": "36194ea0-2362-5292-8835-8f217b39a811",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team and report its {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3882.0,
-      "end": 3882.0,
+      "start": 42.0,
+      "end": 42.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3899.0,
-      "end": 3899.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3882000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/segment_003840_003900.json",
-  "segment_meta": {
-    "start_seconds": 3840,
-    "end_seconds": 3900,
-    "length_seconds": 60,
-    "start_time_mmss": "64:00",
-    "end_time_mmss": "65:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

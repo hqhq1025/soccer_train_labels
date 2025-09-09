@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3576,
   "video_id": "0fd54e4f-b4e9-50f1-9c65-51ff8b579c5d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, follow that same team and alert me whenever it has {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 970.0,
-      "end": 970.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 990.0,
-      "end": 990.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 970000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-08-29 - 23-30 Real Madrid 5 - 0 Betis/segment_000940_001000.json",
-  "segment_meta": {
-    "start_seconds": 940,
-    "end_seconds": 1000,
-    "length_seconds": 60,
-    "start_time_mmss": "15:40",
-    "end_time_mmss": "16:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 10,
   "video_id": "a92daa9b-b9b1-52d9-bba9-55a216a09139",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Foul}; then follow that team and report its {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Foul}; then follow that team and report its {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 4747.0,
-      "end": 4747.0,
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 4753.0,
-      "end": 4753.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/",
-  "raw_source_file": "raw_jsons/test_labels/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4747000,
-  "team": "left",
-  "segment_path": "test/dense_segments/france_ligue-1/2016-2017/2016-11-30 - 23-00 Paris SG 2 - 0 Angers/segment_004720_004760.json",
-  "segment_meta": {
-    "start_seconds": 4720,
-    "end_seconds": 4760,
-    "length_seconds": 40,
-    "start_time_mmss": "78:40",
-    "end_time_mmss": "79:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

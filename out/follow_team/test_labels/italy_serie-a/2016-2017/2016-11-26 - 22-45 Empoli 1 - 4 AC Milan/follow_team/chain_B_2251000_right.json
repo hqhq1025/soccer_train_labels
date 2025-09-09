@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7028,
   "video_id": "e0f4c5fe-971a-511c-844b-0a65de6cf299",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team and report its {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2251.0,
-      "end": 2251.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 2256.0,
-      "end": 2256.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2251000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-11-26 - 22-45 Empoli 1 - 4 AC Milan/segment_002140_002260.json",
-  "segment_meta": {
-    "start_seconds": 2140,
-    "end_seconds": 2260,
-    "length_seconds": 120,
-    "start_time_mmss": "35:40",
-    "end_time_mmss": "37:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

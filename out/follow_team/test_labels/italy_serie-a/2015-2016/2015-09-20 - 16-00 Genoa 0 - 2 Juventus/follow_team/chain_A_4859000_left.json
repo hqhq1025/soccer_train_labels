@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5263,
   "video_id": "69817c11-6bdb-5a67-8b4c-b595e3b6617c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 4859.0,
-      "end": 4859.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4862.0,
-      "end": 4862.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4859000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/segment_004810_004870.json",
-  "segment_meta": {
-    "start_seconds": 4810,
-    "end_seconds": 4870,
-    "length_seconds": 60,
-    "start_time_mmss": "80:10",
-    "end_time_mmss": "81:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

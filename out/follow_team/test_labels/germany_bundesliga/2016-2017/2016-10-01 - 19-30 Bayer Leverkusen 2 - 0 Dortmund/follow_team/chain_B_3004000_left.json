@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 992,
   "video_id": "b2cc0a2c-fffc-5823-aeb0-eac834467b02",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 3004.0,
-      "end": 3004.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 3015.0,
-      "end": 3015.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3004000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-10-01 - 19-30 Bayer Leverkusen 2 - 0 Dortmund/segment_002940_003060.json",
-  "segment_meta": {
-    "start_seconds": 2940,
-    "end_seconds": 3060,
-    "length_seconds": 120,
-    "start_time_mmss": "49:00",
-    "end_time_mmss": "51:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

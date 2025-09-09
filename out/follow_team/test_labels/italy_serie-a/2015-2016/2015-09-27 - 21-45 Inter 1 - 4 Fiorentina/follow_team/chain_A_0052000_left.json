@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5139,
   "video_id": "ff92f174-463d-5f26-a74a-be5953e890c6",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Indirect free-kick and Offside} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team and alert me whenever {Indirect free-kick and Offside} happen."
+    }
+  ],
   "answer": [
     {
       "start": 52.0,
       "end": 52.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
       "start": 74.0,
       "end": 74.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     },
     {
       "start": 95.0,
       "end": 95.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 52000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-27 - 21-45 Inter 1 - 4 Fiorentina/segment_000000_000120.json",
-  "segment_meta": {
-    "start_seconds": 0,
-    "end_seconds": 120,
-    "length_seconds": 120,
-    "start_time_mmss": "00:00",
-    "end_time_mmss": "02:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

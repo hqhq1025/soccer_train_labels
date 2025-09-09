@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6605,
   "video_id": "8e6efcb3-56c2-5c14-b097-a7462a554a02",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Shots off target} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team and alert me whenever {Shots off target} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 4656.0,
-      "end": 4656.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 4690.0,
-      "end": 4690.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4656000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/segment_004620_004700.json",
-  "segment_meta": {
-    "start_seconds": 4620,
-    "end_seconds": 4700,
-    "length_seconds": 80,
-    "start_time_mmss": "77:00",
-    "end_time_mmss": "78:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

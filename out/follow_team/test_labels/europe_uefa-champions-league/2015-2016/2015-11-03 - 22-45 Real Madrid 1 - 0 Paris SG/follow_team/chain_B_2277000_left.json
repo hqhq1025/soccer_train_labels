@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1882,
   "video_id": "d12d9089-e92a-5f1f-b429-f22e90486542",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team and report all {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2277.0,
-      "end": 2277.0,
+      "start": 27.0,
+      "end": 27.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 2360.0,
-      "end": 2360.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2277000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/segment_002250_002370.json",
-  "segment_meta": {
-    "start_seconds": 2250,
-    "end_seconds": 2370,
-    "length_seconds": 120,
-    "start_time_mmss": "37:30",
-    "end_time_mmss": "39:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

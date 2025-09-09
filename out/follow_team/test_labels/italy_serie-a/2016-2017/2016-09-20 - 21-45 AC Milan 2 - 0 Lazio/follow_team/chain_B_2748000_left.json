@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6068,
   "video_id": "ca119aac-54ef-523b-8c09-fcf81428c87b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Indirect free-kick}, stick with that team and alert me for {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Indirect free-kick}, stick with that team and alert me for {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2748.0,
-      "end": 2748.0,
+      "start": 8.0,
+      "end": 8.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 2766.0,
-      "end": 2766.0,
+      "start": 26.0,
+      "end": 26.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2748000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/segment_002740_002860.json",
-  "segment_meta": {
-    "start_seconds": 2740,
-    "end_seconds": 2860,
-    "length_seconds": 120,
-    "start_time_mmss": "45:40",
-    "end_time_mmss": "47:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

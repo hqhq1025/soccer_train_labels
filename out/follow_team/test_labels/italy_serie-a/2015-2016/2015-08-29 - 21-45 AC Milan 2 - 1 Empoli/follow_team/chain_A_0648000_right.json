@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5343,
   "video_id": "0f04c531-285b-5c88-a918-36ff78953bf8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} occurs, follow the initiating team and report all {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 648.0,
-      "end": 648.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 658.0,
-      "end": 658.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 685.0,
-      "end": 685.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 648000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/segment_000580_000700.json",
-  "segment_meta": {
-    "start_seconds": 580,
-    "end_seconds": 700,
-    "length_seconds": 120,
-    "start_time_mmss": "09:40",
-    "end_time_mmss": "11:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8331,
   "video_id": "d8aa5e37-1f1e-560b-8d49-852113d1b86f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 179.0,
-      "end": 179.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 246.0,
-      "end": 246.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 179000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/segment_000130_000250.json",
-  "segment_meta": {
-    "start_seconds": 130,
-    "end_seconds": 250,
-    "length_seconds": 120,
-    "start_time_mmss": "02:10",
-    "end_time_mmss": "04:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

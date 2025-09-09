@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1407,
   "video_id": "115ced34-c3d2-50ca-9c3e-dce23edb6675",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team and report its {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 343.0,
-      "end": 343.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 344.0,
-      "end": 344.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 343000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/segment_000310_000350.json",
-  "segment_meta": {
-    "start_seconds": 310,
-    "end_seconds": 350,
-    "length_seconds": 40,
-    "start_time_mmss": "05:10",
-    "end_time_mmss": "05:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

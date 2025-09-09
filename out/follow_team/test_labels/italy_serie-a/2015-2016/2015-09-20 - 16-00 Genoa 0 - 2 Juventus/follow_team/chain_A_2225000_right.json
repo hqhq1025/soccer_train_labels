@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5309,
   "video_id": "c7702a24-ee6b-5937-a3b3-90fb6f9bbec8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "At the next {Kick-off}, keep following that team and alert me whenever {Throw-in} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Kick-off}, keep following that team and alert me whenever {Throw-in} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 2225.0,
-      "end": 2225.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Kick-off by right"
     },
     {
-      "start": 2299.0,
-      "end": 2299.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2225000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/segment_002200_002300.json",
-  "segment_meta": {
-    "start_seconds": 2200,
-    "end_seconds": 2300,
-    "length_seconds": 100,
-    "start_time_mmss": "36:40",
-    "end_time_mmss": "38:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

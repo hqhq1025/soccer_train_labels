@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5276,
   "video_id": "8e640126-14dd-50eb-8561-95c8ac522be1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Clearance}, stick with that team and alert me for {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Clearance}, stick with that team and alert me for {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 4306.0,
-      "end": 4306.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 4373.0,
-      "end": 4373.0,
+      "start": 113.0,
+      "end": 113.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4306000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/segment_004260_004380.json",
-  "segment_meta": {
-    "start_seconds": 4260,
-    "end_seconds": 4380,
-    "length_seconds": 120,
-    "start_time_mmss": "71:00",
-    "end_time_mmss": "73:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

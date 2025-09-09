@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7835,
   "video_id": "093d233d-dc53-5190-b6a4-33a1e6d5c375",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Corner}, start tracking that team; notify me on its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Corner}, start tracking that team; notify me on its {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4014.0,
-      "end": 4014.0,
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 4073.0,
-      "end": 4073.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4014000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-08 - 19-00 Arsenal 1 - 1 Tottenham/segment_003970_004090.json",
-  "segment_meta": {
-    "start_seconds": 3970,
-    "end_seconds": 4090,
-    "length_seconds": 120,
-    "start_time_mmss": "66:10",
-    "end_time_mmss": "68:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

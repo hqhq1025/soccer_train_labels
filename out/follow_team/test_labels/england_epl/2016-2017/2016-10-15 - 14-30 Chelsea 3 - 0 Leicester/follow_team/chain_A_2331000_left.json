@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8743,
   "video_id": "7a62937b-4eb9-5585-9afa-3d08eb9bb90d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Corner}, follow the same team and list all subsequent {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2331.0,
-      "end": 2331.0,
+      "start": 11.0,
+      "end": 11.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 2355.0,
-      "end": 2355.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2331000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/segment_002320_002360.json",
-  "segment_meta": {
-    "start_seconds": 2320,
-    "end_seconds": 2360,
-    "length_seconds": 40,
-    "start_time_mmss": "38:40",
-    "end_time_mmss": "39:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

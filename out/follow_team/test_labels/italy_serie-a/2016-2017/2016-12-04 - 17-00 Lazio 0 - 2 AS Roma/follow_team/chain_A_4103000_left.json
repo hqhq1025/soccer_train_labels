@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6435,
   "video_id": "f4af5a15-55b7-5f08-9fe3-d4c5a4c77b21",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Foul} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} happens, lock onto that team and report every {Foul} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 4103.0,
-      "end": 4103.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4116.0,
-      "end": 4116.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4103000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/segment_004040_004140.json",
-  "segment_meta": {
-    "start_seconds": 4040,
-    "end_seconds": 4140,
-    "length_seconds": 100,
-    "start_time_mmss": "67:20",
-    "end_time_mmss": "69:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

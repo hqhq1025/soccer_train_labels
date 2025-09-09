@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8754,
   "video_id": "2ac3882f-7a6e-5af0-b70c-c11df7294ce1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Shots on target} occurs, keep following the same team and tell me whenever they perform {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 4769.0,
-      "end": 4769.0,
+      "start": 29.0,
+      "end": 29.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 4770.0,
-      "end": 4770.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4769000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/segment_004740_004780.json",
-  "segment_meta": {
-    "start_seconds": 4740,
-    "end_seconds": 4780,
-    "length_seconds": 40,
-    "start_time_mmss": "79:00",
-    "end_time_mmss": "79:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

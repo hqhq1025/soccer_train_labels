@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2997,
   "video_id": "bfb709d2-5478-512d-88d0-00b5a1db5a67",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team and report its {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 971.0,
-      "end": 971.0,
+      "start": 111.0,
+      "end": 111.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 976.0,
-      "end": 976.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-04-12 - 21-45 Bayern Munich 1 - 2 Real Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-04-12 - 21-45 Bayern Munich 1 - 2 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 971000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-04-12 - 21-45 Bayern Munich 1 - 2 Real Madrid/segment_000860_000980.json",
-  "segment_meta": {
-    "start_seconds": 860,
-    "end_seconds": 980,
-    "length_seconds": 120,
-    "start_time_mmss": "14:20",
-    "end_time_mmss": "16:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

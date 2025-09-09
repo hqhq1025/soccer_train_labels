@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3204,
   "video_id": "ee98c8f8-d857-5753-a1ba-caf64ae1a28e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that same team and alert me whenever it has {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 2498.0,
-      "end": 2498.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2503.0,
-      "end": 2503.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2498000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-05-08 - 18-00 Real Madrid 3 - 2 Valencia/segment_002470_002510.json",
-  "segment_meta": {
-    "start_seconds": 2470,
-    "end_seconds": 2510,
-    "length_seconds": 40,
-    "start_time_mmss": "41:10",
-    "end_time_mmss": "41:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

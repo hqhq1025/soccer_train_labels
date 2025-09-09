@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4039,
   "video_id": "3bccb70b-515f-5346-b9d1-43b5f5f2bccf",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3969.0,
-      "end": 3969.0,
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 4004.0,
-      "end": 4004.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3969000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-02-14 - 20-00 Real Madrid 2 - 0 Dep. La Coruna/segment_003950_004010.json",
-  "segment_meta": {
-    "start_seconds": 3950,
-    "end_seconds": 4010,
-    "length_seconds": 60,
-    "start_time_mmss": "65:50",
-    "end_time_mmss": "66:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

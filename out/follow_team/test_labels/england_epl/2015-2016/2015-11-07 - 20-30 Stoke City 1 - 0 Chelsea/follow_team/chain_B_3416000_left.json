@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7920,
   "video_id": "52442c89-3686-5353-8dd4-ed664f1212ba",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Direct free-kick}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Direct free-kick}; then follow that team and report its {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3416.0,
-      "end": 3416.0,
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 3424.0,
-      "end": 3424.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3416000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/segment_003310_003430.json",
-  "segment_meta": {
-    "start_seconds": 3310,
-    "end_seconds": 3430,
-    "length_seconds": 120,
-    "start_time_mmss": "55:10",
-    "end_time_mmss": "57:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

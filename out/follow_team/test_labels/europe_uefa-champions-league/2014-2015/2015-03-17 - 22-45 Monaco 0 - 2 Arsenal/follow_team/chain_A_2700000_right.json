@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2531,
   "video_id": "ef87b432-0241-598e-8c95-7b17778311ab",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Kick-off}, follow the same team and list all subsequent {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Kick-off}, follow the same team and list all subsequent {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 2700.0,
-      "end": 2700.0,
+      "start": 20.0,
+      "end": 20.0,
+      "count": 0,
       "text": "Trigger: Kick-off by right"
     },
     {
-      "start": 2728.0,
-      "end": 2728.0,
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2700000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/segment_002680_002760.json",
-  "segment_meta": {
-    "start_seconds": 2680,
-    "end_seconds": 2760,
-    "length_seconds": 80,
-    "start_time_mmss": "44:40",
-    "end_time_mmss": "46:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

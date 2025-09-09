@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6153,
   "video_id": "4a65b58e-e9e4-5e77-a877-f624f43de532",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Foul and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 4295.0,
-      "end": 4295.0,
+      "start": 25.0,
+      "end": 25.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 4338.0,
-      "end": 4338.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 4351.0,
-      "end": 4351.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4295000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-20 - 21-45 AC Milan 2 - 0 Lazio/segment_004270_004390.json",
-  "segment_meta": {
-    "start_seconds": 4270,
-    "end_seconds": 4390,
-    "length_seconds": 120,
-    "start_time_mmss": "71:10",
-    "end_time_mmss": "73:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

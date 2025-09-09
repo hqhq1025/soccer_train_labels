@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4676,
   "video_id": "f36d13f4-ea7e-5f65-aeea-724de48dd178",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 5182.0,
-      "end": 5182.0,
+      "start": 52.0,
+      "end": 52.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 5191.0,
-      "end": 5191.0,
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5182000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/segment_005130_005250.json",
-  "segment_meta": {
-    "start_seconds": 5130,
-    "end_seconds": 5250,
-    "length_seconds": 120,
-    "start_time_mmss": "85:30",
-    "end_time_mmss": "87:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

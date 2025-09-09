@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7330,
   "video_id": "6baa03c2-e7e6-5627-8544-052fe7a4b354",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 3620.0,
-      "end": 3620.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 3626.0,
-      "end": 3626.0,
+      "start": 56.0,
+      "end": 56.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3620000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-08-27 - 21-45 Napoli 4 - 2 AC Milan/segment_003570_003630.json",
-  "segment_meta": {
-    "start_seconds": 3570,
-    "end_seconds": 3630,
-    "length_seconds": 60,
-    "start_time_mmss": "59:30",
-    "end_time_mmss": "60:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

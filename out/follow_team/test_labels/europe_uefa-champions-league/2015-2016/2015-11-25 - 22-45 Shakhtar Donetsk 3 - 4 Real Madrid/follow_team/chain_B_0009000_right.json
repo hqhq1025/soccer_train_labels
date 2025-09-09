@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1764,
   "video_id": "a1e851ab-eb8a-510b-b889-1eb59539e22d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Kick-off}, continue tracking that team and notify me about any {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Kick-off}, continue tracking that team and notify me about any {Offside}."
+    }
+  ],
   "answer": [
     {
       "start": 9.0,
       "end": 9.0,
+      "count": 0,
       "text": "Trigger: Kick-off by right"
     },
     {
       "start": 20.0,
       "end": 20.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 9000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/segment_000000_000040.json",
-  "segment_meta": {
-    "start_seconds": 0,
-    "end_seconds": 40,
-    "length_seconds": 40,
-    "start_time_mmss": "00:00",
-    "end_time_mmss": "00:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

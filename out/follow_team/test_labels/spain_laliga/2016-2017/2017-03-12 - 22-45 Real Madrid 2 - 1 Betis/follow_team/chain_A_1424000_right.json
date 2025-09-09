@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4993,
   "video_id": "5e32cc1c-c8bd-545d-af1f-875d93ab75dc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Shots on target and Goal} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team and alert me whenever {Shots on target and Goal} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 1424.0,
-      "end": 1424.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 1439.0,
-      "end": 1439.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 1440.0,
-      "end": 1440.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-03-12 - 22-45 Real Madrid 2 - 1 Betis/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-03-12 - 22-45 Real Madrid 2 - 1 Betis/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1424000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-03-12 - 22-45 Real Madrid 2 - 1 Betis/segment_001370_001450.json",
-  "segment_meta": {
-    "start_seconds": 1370,
-    "end_seconds": 1450,
-    "length_seconds": 80,
-    "start_time_mmss": "22:50",
-    "end_time_mmss": "24:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

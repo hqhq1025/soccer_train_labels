@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2434,
   "video_id": "85cec66d-c803-542c-a02a-660539edb186",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 50.0,
   "question_category": "follow_team",
-  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Direct free-kick}, stick with that team and alert me for {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 5553.0,
-      "end": 5553.0,
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 5578.0,
-      "end": 5578.0,
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5553000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-05-05 - 21-45 Juventus 2 - 1 Real Madrid/segment_005530_005580.json",
-  "segment_meta": {
-    "start_seconds": 5530,
-    "end_seconds": 5580,
-    "length_seconds": 50,
-    "start_time_mmss": "92:10",
-    "end_time_mmss": "93:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

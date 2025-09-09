@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8295,
   "video_id": "aa3cf916-5860-54b6-b253-fb08b1ecaa4a",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Foul}, continue tracking that team and notify me about any {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 5419.0,
-      "end": 5419.0,
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 5430.0,
-      "end": 5430.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5419000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea/segment_005400_005440.json",
-  "segment_meta": {
-    "start_seconds": 5400,
-    "end_seconds": 5440,
-    "length_seconds": 40,
-    "start_time_mmss": "90:00",
-    "end_time_mmss": "90:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

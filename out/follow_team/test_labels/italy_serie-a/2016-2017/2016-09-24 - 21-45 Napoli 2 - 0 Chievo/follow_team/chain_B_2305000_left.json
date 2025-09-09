@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6834,
   "video_id": "b53d417d-e792-5c82-b27b-56456d2184cd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots on target}, follow the same team and list all subsequent {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 2305.0,
-      "end": 2305.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2306.0,
-      "end": 2306.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2305000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-24 - 21-45 Napoli 2 - 0 Chievo/segment_002270_002310.json",
-  "segment_meta": {
-    "start_seconds": 2270,
-    "end_seconds": 2310,
-    "length_seconds": 40,
-    "start_time_mmss": "37:50",
-    "end_time_mmss": "38:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

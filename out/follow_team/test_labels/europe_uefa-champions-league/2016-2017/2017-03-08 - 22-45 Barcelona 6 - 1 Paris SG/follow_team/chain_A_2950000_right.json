@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2817,
   "video_id": "7cc306c6-d98a-573c-99ef-65724fc9aef3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Goal} occurs, keep following the same team and tell me whenever they perform {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Goal} occurs, keep following the same team and tell me whenever they perform {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2950.0,
-      "end": 2950.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Trigger: Goal by right"
     },
     {
-      "start": 2995.0,
-      "end": 2995.0,
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2950000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-03-08 - 22-45 Barcelona 6 - 1 Paris SG/segment_002900_003000.json",
-  "segment_meta": {
-    "start_seconds": 2900,
-    "end_seconds": 3000,
-    "length_seconds": 100,
-    "start_time_mmss": "48:20",
-    "end_time_mmss": "50:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

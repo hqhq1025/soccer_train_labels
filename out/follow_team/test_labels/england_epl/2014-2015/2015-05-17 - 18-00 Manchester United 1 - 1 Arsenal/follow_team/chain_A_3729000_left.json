@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8455,
   "video_id": "efdfb119-b4ba-5f6e-bc45-80a41a22eb31",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that same team and alert me whenever it has {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 3729.0,
-      "end": 3729.0,
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 3774.0,
-      "end": 3774.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Corner by left"
     }
-  ],
-  "match_path": "england_epl/2014-2015/2015-05-17 - 18-00 Manchester United 1 - 1 Arsenal/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2014-2015/2015-05-17 - 18-00 Manchester United 1 - 1 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3729000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2014-2015/2015-05-17 - 18-00 Manchester United 1 - 1 Arsenal/segment_003710_003810.json",
-  "segment_meta": {
-    "start_seconds": 3710,
-    "end_seconds": 3810,
-    "length_seconds": 100,
-    "start_time_mmss": "61:50",
-    "end_time_mmss": "63:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

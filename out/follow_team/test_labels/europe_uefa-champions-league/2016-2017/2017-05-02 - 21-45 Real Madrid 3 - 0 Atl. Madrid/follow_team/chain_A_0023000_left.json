@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2905,
   "video_id": "55b077b4-1570-5068-b5a2-32f0f0bc4dd1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Throw-in} happens, lock onto that team and report every {Throw-in} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Throw-in} happens, lock onto that team and report every {Throw-in} it makes."
+    }
+  ],
   "answer": [
     {
       "start": 23.0,
       "end": 23.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
       "start": 45.0,
       "end": 45.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 23000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/segment_000000_000120.json",
-  "segment_meta": {
-    "start_seconds": 0,
-    "end_seconds": 120,
-    "length_seconds": 120,
-    "start_time_mmss": "00:00",
-    "end_time_mmss": "02:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

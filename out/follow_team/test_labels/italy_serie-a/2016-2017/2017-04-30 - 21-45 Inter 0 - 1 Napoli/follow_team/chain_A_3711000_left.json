@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6711,
   "video_id": "9b4180bb-f1a5-5af2-bfb4-2daf546fa68d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team and notify me about any {Substitution}."
+    }
+  ],
   "answer": [
     {
-      "start": 3711.0,
-      "end": 3711.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3749.0,
-      "end": 3749.0,
+      "start": 59.0,
+      "end": 59.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3711000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/segment_003690_003770.json",
-  "segment_meta": {
-    "start_seconds": 3690,
-    "end_seconds": 3770,
-    "length_seconds": 80,
-    "start_time_mmss": "61:30",
-    "end_time_mmss": "62:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

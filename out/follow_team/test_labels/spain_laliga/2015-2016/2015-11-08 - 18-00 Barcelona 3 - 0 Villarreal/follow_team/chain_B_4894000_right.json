@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3534,
   "video_id": "de7d10b2-a763-5751-9762-5a238ef56ac0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 4894.0,
-      "end": 4894.0,
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 4952.0,
-      "end": 4952.0,
+      "start": 102.0,
+      "end": 102.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4894000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/segment_004850_004970.json",
-  "segment_meta": {
-    "start_seconds": 4850,
-    "end_seconds": 4970,
-    "length_seconds": 120,
-    "start_time_mmss": "80:50",
-    "end_time_mmss": "82:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

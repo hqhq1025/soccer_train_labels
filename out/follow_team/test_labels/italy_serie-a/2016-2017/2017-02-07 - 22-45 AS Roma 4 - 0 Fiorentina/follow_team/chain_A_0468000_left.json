@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6505,
   "video_id": "e5a9e2fe-e6d2-56c4-969f-61abe1b55767",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots off target} occurs, follow the initiating team and report all {Corner and Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots off target} occurs, follow the initiating team and report all {Corner and Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 468.0,
-      "end": 468.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 494.0,
-      "end": 494.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Then: Corner by left"
     },
     {
-      "start": 506.0,
-      "end": 506.0,
+      "start": 96.0,
+      "end": 96.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 468000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-07 - 22-45 AS Roma 4 - 0 Fiorentina/segment_000410_000510.json",
-  "segment_meta": {
-    "start_seconds": 410,
-    "end_seconds": 510,
-    "length_seconds": 100,
-    "start_time_mmss": "06:50",
-    "end_time_mmss": "08:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

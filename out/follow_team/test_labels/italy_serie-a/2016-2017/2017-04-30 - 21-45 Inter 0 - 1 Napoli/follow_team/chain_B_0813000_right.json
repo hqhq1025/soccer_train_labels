@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6710,
   "video_id": "f80e9172-6c20-5bcd-9f8f-098945c92cdc",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Throw-in} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, keep following that team and alert me whenever {Throw-in} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 813.0,
-      "end": 813.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 851.0,
-      "end": 851.0,
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 813000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-04-30 - 21-45 Inter 0 - 1 Napoli/segment_000750_000870.json",
-  "segment_meta": {
-    "start_seconds": 750,
-    "end_seconds": 870,
-    "length_seconds": 120,
-    "start_time_mmss": "12:30",
-    "end_time_mmss": "14:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

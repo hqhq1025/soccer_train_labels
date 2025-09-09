@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7090,
   "video_id": "343079b7-d42c-5257-8e63-7862ace5b797",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 2327.0,
-      "end": 2327.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by left"
     },
     {
-      "start": 2329.0,
-      "end": 2329.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2327000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/segment_002240_002340.json",
-  "segment_meta": {
-    "start_seconds": 2240,
-    "end_seconds": 2340,
-    "length_seconds": 100,
-    "start_time_mmss": "37:20",
-    "end_time_mmss": "39:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

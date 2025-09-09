@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8154,
   "video_id": "708a2d43-bf57-57d3-9fa2-cfd047e06308",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Clearance}, stick with that team and alert me for {Direct free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Clearance}, stick with that team and alert me for {Direct free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 3803.0,
-      "end": 3803.0,
+      "start": 43.0,
+      "end": 43.0,
+      "count": 0,
       "text": "Trigger: Clearance by right"
     },
     {
-      "start": 3874.0,
-      "end": 3874.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Direct free-kick by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3803000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/segment_003760_003880.json",
-  "segment_meta": {
-    "start_seconds": 3760,
-    "end_seconds": 3880,
-    "length_seconds": 120,
-    "start_time_mmss": "62:40",
-    "end_time_mmss": "64:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

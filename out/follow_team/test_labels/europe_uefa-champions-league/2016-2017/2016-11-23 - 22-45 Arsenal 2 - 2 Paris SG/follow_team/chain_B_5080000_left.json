@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2862,
   "video_id": "87f8ad53-0cf6-5520-ac47-d6daf7a8d9bb",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Indirect free-kick} occurs, keep following the same team and tell me whenever they perform {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5080.0,
-      "end": 5080.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 5086.0,
-      "end": 5086.0,
+      "start": 66.0,
+      "end": 66.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5080000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-23 - 22-45 Arsenal 2 - 2 Paris SG/segment_005020_005120.json",
-  "segment_meta": {
-    "start_seconds": 5020,
-    "end_seconds": 5120,
-    "length_seconds": 100,
-    "start_time_mmss": "83:40",
-    "end_time_mmss": "85:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

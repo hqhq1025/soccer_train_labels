@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3423,
   "video_id": "8ffbfcac-72e5-583d-a02b-855f6c8897f1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Shots off target and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Indirect free-kick}, follow the same team and list all subsequent {Shots off target and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 5096.0,
-      "end": 5096.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 5114.0,
-      "end": 5114.0,
+      "start": 54.0,
+      "end": 54.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     },
     {
-      "start": 5133.0,
-      "end": 5133.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5096000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-02-27 - 18-00 Real Madrid 0 - 1 Atl. Madrid/segment_005060_005160.json",
-  "segment_meta": {
-    "start_seconds": 5060,
-    "end_seconds": 5160,
-    "length_seconds": 100,
-    "start_time_mmss": "84:20",
-    "end_time_mmss": "86:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

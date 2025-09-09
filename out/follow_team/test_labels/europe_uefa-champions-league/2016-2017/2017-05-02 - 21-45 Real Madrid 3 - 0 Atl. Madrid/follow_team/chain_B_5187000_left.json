@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2944,
   "video_id": "9200c343-46a0-574b-8f12-a142994fb861",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Kick-off}; then follow that team and report its {Clearance}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Kick-off}; then follow that team and report its {Clearance}."
+    }
+  ],
   "answer": [
     {
-      "start": 5187.0,
-      "end": 5187.0,
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
       "text": "Trigger: Kick-off by left"
     },
     {
-      "start": 5284.0,
-      "end": 5284.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Clearance by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5187000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2017-05-02 - 21-45 Real Madrid 3 - 0 Atl. Madrid/segment_005170_005290.json",
-  "segment_meta": {
-    "start_seconds": 5170,
-    "end_seconds": 5290,
-    "length_seconds": 120,
-    "start_time_mmss": "86:10",
-    "end_time_mmss": "88:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

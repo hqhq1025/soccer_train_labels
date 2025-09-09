@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5434,
   "video_id": "a82b185a-21f8-52f2-ac73-a543520f1e25",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Offside} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, keep following that team and alert me whenever {Offside} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 914.0,
-      "end": 914.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 916.0,
-      "end": 916.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 914000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2014-2015/2015-04-29 - 21-45 Juventus 3 - 2 Fiorentina/segment_000840_000920.json",
-  "segment_meta": {
-    "start_seconds": 840,
-    "end_seconds": 920,
-    "length_seconds": 80,
-    "start_time_mmss": "14:00",
-    "end_time_mmss": "15:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3274,
   "video_id": "618f78a0-50ee-5b7d-b0cc-e2326ce02e49",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Shots off target}, follow the same team and list all subsequent {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Shots off target}, follow the same team and list all subsequent {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 3012.0,
-      "end": 3012.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 3057.0,
-      "end": 3057.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3012000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-12-30 - 18-00 Real Madrid 3 - 1 Real Sociedad/segment_002980_003060.json",
-  "segment_meta": {
-    "start_seconds": 2980,
-    "end_seconds": 3060,
-    "length_seconds": 80,
-    "start_time_mmss": "49:40",
-    "end_time_mmss": "51:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

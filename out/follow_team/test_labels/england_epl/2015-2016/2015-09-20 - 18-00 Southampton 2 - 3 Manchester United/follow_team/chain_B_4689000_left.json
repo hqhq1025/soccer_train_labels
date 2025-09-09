@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7498,
   "video_id": "865229b7-0a49-5c0e-9c83-efb2c742c615",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Shots off target}, keep following that team and alert me whenever {Offside} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Shots off target}, keep following that team and alert me whenever {Offside} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 4689.0,
-      "end": 4689.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 4738.0,
-      "end": 4738.0,
+      "start": 98.0,
+      "end": 98.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4689000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-20 - 18-00 Southampton 2 - 3 Manchester United/segment_004640_004760.json",
-  "segment_meta": {
-    "start_seconds": 4640,
-    "end_seconds": 4760,
-    "length_seconds": 120,
-    "start_time_mmss": "77:20",
-    "end_time_mmss": "79:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

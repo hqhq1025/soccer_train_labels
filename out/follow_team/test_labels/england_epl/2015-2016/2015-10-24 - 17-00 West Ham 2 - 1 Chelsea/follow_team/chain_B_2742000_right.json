@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8206,
   "video_id": "44b65e8d-67e4-56e1-a572-41f4a9f7c195",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Direct free-kick}, follow the same team and list all subsequent {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 2742.0,
-      "end": 2742.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 2747.0,
-      "end": 2747.0,
+      "start": 77.0,
+      "end": 77.0,
+      "count": 0,
       "text": "Then: Offside by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2742000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/segment_002670_002750.json",
-  "segment_meta": {
-    "start_seconds": 2670,
-    "end_seconds": 2750,
-    "length_seconds": 80,
-    "start_time_mmss": "44:30",
-    "end_time_mmss": "45:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7133,
   "video_id": "07734a14-219b-5294-a117-5c81488faa7b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team and report all {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 142.0,
-      "end": 142.0,
+      "start": 22.0,
+      "end": 22.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 148.0,
-      "end": 148.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 142000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-08 - 17-00 Genoa 0 - 1 AS Roma/segment_000120_000180.json",
-  "segment_meta": {
-    "start_seconds": 120,
-    "end_seconds": 180,
-    "length_seconds": 60,
-    "start_time_mmss": "02:00",
-    "end_time_mmss": "03:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8691,
   "video_id": "d1aae19f-9b4d-55a1-90d1-3bac247a1db7",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Indirect free-kick}; then follow that team and report its {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3074.0,
-      "end": 3074.0,
+      "start": 74.0,
+      "end": 74.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 3079.0,
-      "end": 3079.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3074000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/segment_003000_003100.json",
-  "segment_meta": {
-    "start_seconds": 3000,
-    "end_seconds": 3100,
-    "length_seconds": 100,
-    "start_time_mmss": "50:00",
-    "end_time_mmss": "51:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

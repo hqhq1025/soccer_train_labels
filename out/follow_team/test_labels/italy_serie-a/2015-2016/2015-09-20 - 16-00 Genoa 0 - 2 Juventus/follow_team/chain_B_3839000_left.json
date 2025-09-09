@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5294,
   "video_id": "121289e3-2a37-56df-bd49-d984945c1b3e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Substitution}, follow the same team and list all subsequent {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Substitution}, follow the same team and list all subsequent {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 3839.0,
-      "end": 3839.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Trigger: Substitution by left"
     },
     {
-      "start": 3854.0,
-      "end": 3854.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3839000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-09-20 - 16-00 Genoa 0 - 2 Juventus/segment_003770_003870.json",
-  "segment_meta": {
-    "start_seconds": 3770,
-    "end_seconds": 3870,
-    "length_seconds": 100,
-    "start_time_mmss": "62:50",
-    "end_time_mmss": "64:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

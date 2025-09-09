@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1499,
   "video_id": "e83b7841-8ab4-5053-ade7-0ec5721c7044",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Indirect free-kick and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team and notify me about any {Indirect free-kick and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2089.0,
-      "end": 2089.0,
+      "start": 49.0,
+      "end": 49.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 2123.0,
-      "end": 2123.0,
+      "start": 83.0,
+      "end": 83.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     },
     {
-      "start": 2132.0,
-      "end": 2132.0,
+      "start": 92.0,
+      "end": 92.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2089000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-03-04 - 17-30 Dortmund 6 - 2 Bayer Leverkusen/segment_002040_002140.json",
-  "segment_meta": {
-    "start_seconds": 2040,
-    "end_seconds": 2140,
-    "length_seconds": 100,
-    "start_time_mmss": "34:00",
-    "end_time_mmss": "35:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

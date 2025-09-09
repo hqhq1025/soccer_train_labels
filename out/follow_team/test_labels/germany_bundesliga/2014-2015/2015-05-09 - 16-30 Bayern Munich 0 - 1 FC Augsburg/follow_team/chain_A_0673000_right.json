@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 479,
   "video_id": "dcda503f-7e10-5011-b369-d3a3c43a68c3",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Foul and Red card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team and report all {Foul and Red card}."
+    }
+  ],
   "answer": [
     {
-      "start": 673.0,
-      "end": 673.0,
+      "start": 13.0,
+      "end": 13.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 724.0,
-      "end": 724.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 731.0,
-      "end": 731.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Then: Red card by right"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 673000,
-  "team": "right",
-  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_000660_000740.json",
-  "segment_meta": {
-    "start_seconds": 660,
-    "end_seconds": 740,
-    "length_seconds": 80,
-    "start_time_mmss": "11:00",
-    "end_time_mmss": "12:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

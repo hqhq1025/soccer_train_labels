@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6015,
   "video_id": "e90cb519-30c8-535e-b503-d3ee28c9d6f2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Throw-in}; then follow that team and report its {Shots on target and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Throw-in}; then follow that team and report its {Shots on target and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 450.0,
-      "end": 450.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 478.0,
-      "end": 478.0,
+      "start": 58.0,
+      "end": 58.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     },
     {
-      "start": 500.0,
-      "end": 500.0,
+      "start": 80.0,
+      "end": 80.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 450000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-01-29 - 17-00 Sampdoria 3 - 2 AS Roma/segment_000420_000520.json",
-  "segment_meta": {
-    "start_seconds": 420,
-    "end_seconds": 520,
-    "length_seconds": 100,
-    "start_time_mmss": "07:00",
-    "end_time_mmss": "08:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

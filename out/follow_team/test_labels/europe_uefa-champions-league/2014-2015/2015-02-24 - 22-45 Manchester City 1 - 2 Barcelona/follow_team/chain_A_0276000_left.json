@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1999,
   "video_id": "9a1ddbe8-d2b4-585a-82d0-07dd293b69ca",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "At the next {Clearance}, keep following that team and alert me whenever {Indirect free-kick} happen.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Clearance}, keep following that team and alert me whenever {Indirect free-kick} happen."
+    }
+  ],
   "answer": [
     {
-      "start": 276.0,
-      "end": 276.0,
+      "start": 36.0,
+      "end": 36.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 318.0,
-      "end": 318.0,
+      "start": 78.0,
+      "end": 78.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 276000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-02-24 - 22-45 Manchester City 1 - 2 Barcelona/segment_000240_000320.json",
-  "segment_meta": {
-    "start_seconds": 240,
-    "end_seconds": 320,
-    "length_seconds": 80,
-    "start_time_mmss": "04:00",
-    "end_time_mmss": "05:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

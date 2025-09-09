@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 474,
   "video_id": "c5f923e4-7c4b-57c1-8948-1a5f5088bd68",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots on target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} happens, lock onto that team and report every {Shots on target} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 3550.0,
-      "end": 3550.0,
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 3572.0,
-      "end": 3572.0,
+      "start": 32.0,
+      "end": 32.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3550000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2014-2015/2015-05-09 - 16-30 Bayern Munich 0 - 1 FC Augsburg/segment_003540_003580.json",
-  "segment_meta": {
-    "start_seconds": 3540,
-    "end_seconds": 3580,
-    "length_seconds": 40,
-    "start_time_mmss": "59:00",
-    "end_time_mmss": "59:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 939,
   "video_id": "5f3638cf-3db8-55ce-917a-87bef24d68ad",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots on target}; then follow that team and report its {Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots on target}; then follow that team and report its {Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 600.0,
-      "end": 600.0,
+      "start": 30.0,
+      "end": 30.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 601.0,
-      "end": 601.0,
+      "start": 31.0,
+      "end": 31.0,
+      "count": 0,
       "text": "Then: Goal by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 600000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-19 - 20-30 Dortmund 1 - 0 Bayern Munich/segment_000570_000610.json",
-  "segment_meta": {
-    "start_seconds": 570,
-    "end_seconds": 610,
-    "length_seconds": 40,
-    "start_time_mmss": "09:30",
-    "end_time_mmss": "10:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

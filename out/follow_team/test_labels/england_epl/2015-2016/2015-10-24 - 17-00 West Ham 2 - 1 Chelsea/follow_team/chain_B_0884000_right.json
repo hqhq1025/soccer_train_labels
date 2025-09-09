@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8162,
   "video_id": "9b61d520-0e18-5097-8708-e235ee4e83c1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Throw-in}, start tracking that team; notify me on its {Direct free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Throw-in}, start tracking that team; notify me on its {Direct free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 884.0,
-      "end": 884.0,
+      "start": 14.0,
+      "end": 14.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 965.0,
-      "end": 965.0,
+      "start": 95.0,
+      "end": 95.0,
+      "count": 0,
       "text": "Then: Direct free-kick by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 884000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-10-24 - 17-00 West Ham 2 - 1 Chelsea/segment_000870_000990.json",
-  "segment_meta": {
-    "start_seconds": 870,
-    "end_seconds": 990,
-    "length_seconds": 120,
-    "start_time_mmss": "14:30",
-    "end_time_mmss": "16:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

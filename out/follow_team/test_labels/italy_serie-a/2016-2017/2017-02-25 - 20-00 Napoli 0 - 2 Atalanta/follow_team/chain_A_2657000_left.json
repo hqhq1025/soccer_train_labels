@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5863,
   "video_id": "cb332a68-dfb0-5cad-8e7d-de2bc9921212",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Shots off target, Kick-off and Shots on target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team and report every {Shots off target, Kick-off and Shots on target} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 2657.0,
-      "end": 2657.0,
+      "start": 17.0,
+      "end": 17.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 2688.0,
-      "end": 2688.0,
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     },
     {
-      "start": 2700.0,
-      "end": 2700.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Then: Kick-off by left"
     },
     {
-      "start": 2727.0,
-      "end": 2727.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2657000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-02-25 - 20-00 Napoli 0 - 2 Atalanta/segment_002640_002760.json",
-  "segment_meta": {
-    "start_seconds": 2640,
-    "end_seconds": 2760,
-    "length_seconds": 120,
-    "start_time_mmss": "44:00",
-    "end_time_mmss": "46:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

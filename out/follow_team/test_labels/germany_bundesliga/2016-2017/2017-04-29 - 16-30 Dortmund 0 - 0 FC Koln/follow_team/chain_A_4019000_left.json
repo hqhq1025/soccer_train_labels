@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 759,
   "video_id": "1ca3a39d-cf97-5a7b-9acd-0272a3dfe068",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 4019.0,
-      "end": 4019.0,
+      "start": 69.0,
+      "end": 69.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 4037.0,
-      "end": 4037.0,
+      "start": 87.0,
+      "end": 87.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4019000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/segment_003950_004050.json",
-  "segment_meta": {
-    "start_seconds": 3950,
-    "end_seconds": 4050,
-    "length_seconds": 100,
-    "start_time_mmss": "65:50",
-    "end_time_mmss": "67:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

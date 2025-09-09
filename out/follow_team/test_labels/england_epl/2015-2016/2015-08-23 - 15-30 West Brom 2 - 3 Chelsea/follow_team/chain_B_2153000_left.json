@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8412,
   "video_id": "07a60d7a-6d22-5af5-a364-7556c2250750",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} happens, lock onto that team and report every {Yellow card} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 2153.0,
-      "end": 2153.0,
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
       "text": "Trigger: Foul by left"
     },
     {
-      "start": 2163.0,
-      "end": 2163.0,
+      "start": 33.0,
+      "end": 33.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2153000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-08-23 - 15-30 West Brom 2 - 3 Chelsea/segment_002130_002210.json",
-  "segment_meta": {
-    "start_seconds": 2130,
-    "end_seconds": 2210,
-    "length_seconds": 80,
-    "start_time_mmss": "35:30",
-    "end_time_mmss": "36:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

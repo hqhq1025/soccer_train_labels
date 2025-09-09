@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2133,
   "video_id": "d5f091b9-2e4e-5548-977b-bafb4990071b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Shots off target, Shots on target and Goal}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Indirect free-kick} occurs, follow the initiating team and report all {Shots off target, Shots on target and Goal}."
+    }
+  ],
   "answer": [
     {
-      "start": 4258.0,
-      "end": 4258.0,
+      "start": 38.0,
+      "end": 38.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by right"
     },
     {
-      "start": 4293.0,
-      "end": 4293.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     },
     {
-      "start": 4325.0,
-      "end": 4325.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Then: Shots on target by right"
     },
     {
-      "start": 4326.0,
-      "end": 4326.0,
+      "start": 106.0,
+      "end": 106.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4258000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2014-11-04 - 20-00 Zenit Petersburg 1 - 2 Bayer Leverkusen/segment_004220_004340.json",
-  "segment_meta": {
-    "start_seconds": 4220,
-    "end_seconds": 4340,
-    "length_seconds": 120,
-    "start_time_mmss": "70:20",
-    "end_time_mmss": "72:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6897,
   "video_id": "6375561d-4417-534d-a822-bc84e5550320",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Clearance}; then follow that team and report its {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Clearance}; then follow that team and report its {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 4496.0,
-      "end": 4496.0,
+      "start": 46.0,
+      "end": 46.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 4541.0,
-      "end": 4541.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4496000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/segment_004450_004570.json",
-  "segment_meta": {
-    "start_seconds": 4450,
-    "end_seconds": 4570,
-    "length_seconds": 120,
-    "start_time_mmss": "74:10",
-    "end_time_mmss": "76:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

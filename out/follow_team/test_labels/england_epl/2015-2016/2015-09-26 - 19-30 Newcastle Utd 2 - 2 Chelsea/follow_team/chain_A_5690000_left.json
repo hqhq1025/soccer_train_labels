@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8051,
   "video_id": "4e3ecbbd-84a6-52ef-a776-b4d5471bab2d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Corner}; then follow that team and report its {Throw-in and Offside}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Corner}; then follow that team and report its {Throw-in and Offside}."
+    }
+  ],
   "answer": [
     {
-      "start": 5690.0,
-      "end": 5690.0,
+      "start": 50.0,
+      "end": 50.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 5734.0,
-      "end": 5734.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 5739.0,
-      "end": 5739.0,
+      "start": 99.0,
+      "end": 99.0,
+      "count": 0,
       "text": "Then: Offside by left"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5690000,
-  "team": "left",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/segment_005640_005740.json",
-  "segment_meta": {
-    "start_seconds": 5640,
-    "end_seconds": 5740,
-    "length_seconds": 100,
-    "start_time_mmss": "94:00",
-    "end_time_mmss": "95:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7957,
   "video_id": "3689681a-31e6-5179-9bee-c67c5c54bd1e",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, continue tracking that team and notify me about any {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, continue tracking that team and notify me about any {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 938.0,
-      "end": 938.0,
+      "start": 68.0,
+      "end": 68.0,
+      "count": 0,
       "text": "Trigger: Shots off target by right"
     },
     {
-      "start": 986.0,
-      "end": 986.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 938000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-09-26 - 19-30 Newcastle Utd 2 - 2 Chelsea/segment_000870_000990.json",
-  "segment_meta": {
-    "start_seconds": 870,
-    "end_seconds": 990,
-    "length_seconds": 120,
-    "start_time_mmss": "14:30",
-    "end_time_mmss": "16:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

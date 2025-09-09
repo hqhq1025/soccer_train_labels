@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3126,
   "video_id": "1763f53d-465b-533d-a696-fcc2ead3b379",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Corner} happens, lock onto that team and report every {Shots off target} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 3721.0,
-      "end": 3721.0,
+      "start": 61.0,
+      "end": 61.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 3735.0,
-      "end": 3735.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3721000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2016-2017/2016-11-01 - 20-45 Besiktas 1 - 1 Napoli/segment_003660_003740.json",
-  "segment_meta": {
-    "start_seconds": 3660,
-    "end_seconds": 3740,
-    "length_seconds": 80,
-    "start_time_mmss": "61:00",
-    "end_time_mmss": "62:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

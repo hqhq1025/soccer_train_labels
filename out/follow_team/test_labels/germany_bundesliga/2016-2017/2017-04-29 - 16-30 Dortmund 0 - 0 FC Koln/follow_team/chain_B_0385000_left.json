@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 736,
   "video_id": "4d85fe89-c3d2-5fac-a12d-c57c954de2ea",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots off target}, follow that same team and alert me whenever it has {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots off target}, follow that same team and alert me whenever it has {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 385.0,
-      "end": 385.0,
+      "start": 75.0,
+      "end": 75.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 386.0,
-      "end": 386.0,
+      "start": 76.0,
+      "end": 76.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 385000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/segment_000310_000390.json",
-  "segment_meta": {
-    "start_seconds": 310,
-    "end_seconds": 390,
-    "length_seconds": 80,
-    "start_time_mmss": "05:10",
-    "end_time_mmss": "06:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

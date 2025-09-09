@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4113,
   "video_id": "ea0d9779-cfd9-57b1-b050-d541971af44f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Throw-in}."
+    }
+  ],
   "answer": [
     {
-      "start": 2381.0,
-      "end": 2381.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 2406.0,
-      "end": 2406.0,
+      "start": 116.0,
+      "end": 116.0,
+      "count": 0,
       "text": "Then: Throw-in by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 2381000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/segment_002290_002410.json",
-  "segment_meta": {
-    "start_seconds": 2290,
-    "end_seconds": 2410,
-    "length_seconds": 120,
-    "start_time_mmss": "38:10",
-    "end_time_mmss": "40:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

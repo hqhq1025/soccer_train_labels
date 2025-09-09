@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3908,
   "video_id": "1b34e234-e149-5012-9ed5-f1b98905cff2",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Clearance} occurs, follow the initiating team and report all {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Clearance} occurs, follow the initiating team and report all {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4988.0,
-      "end": 4988.0,
+      "start": 48.0,
+      "end": 48.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 5000.0,
-      "end": 5000.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4988000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-05-02 - 17-00 Cordoba 0 - 8 Barcelona/segment_004940_005060.json",
-  "segment_meta": {
-    "start_seconds": 4940,
-    "end_seconds": 5060,
-    "length_seconds": 120,
-    "start_time_mmss": "82:20",
-    "end_time_mmss": "84:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

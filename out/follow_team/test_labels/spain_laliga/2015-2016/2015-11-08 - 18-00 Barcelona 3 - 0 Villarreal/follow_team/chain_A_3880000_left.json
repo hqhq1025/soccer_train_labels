@@ -1,46 +1,42 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3463,
   "video_id": "3c684b01-1676-5262-8875-e7d4d08c67bd",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} occurs, follow the initiating team and report all {Substitution, Throw-in and Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} occurs, follow the initiating team and report all {Substitution, Throw-in and Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3880.0,
-      "end": 3880.0,
+      "start": 60.0,
+      "end": 60.0,
+      "count": 0,
       "text": "Trigger: Shots on target by left"
     },
     {
-      "start": 3904.0,
-      "end": 3904.0,
+      "start": 84.0,
+      "end": 84.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     },
     {
-      "start": 3925.0,
-      "end": 3925.0,
+      "start": 105.0,
+      "end": 105.0,
+      "count": 0,
       "text": "Then: Throw-in by left"
     },
     {
-      "start": 3937.0,
-      "end": 3937.0,
+      "start": 117.0,
+      "end": 117.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3880000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-11-08 - 18-00 Barcelona 3 - 0 Villarreal/segment_003820_003940.json",
-  "segment_meta": {
-    "start_seconds": 3820,
-    "end_seconds": 3940,
-    "length_seconds": 120,
-    "start_time_mmss": "63:40",
-    "end_time_mmss": "65:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

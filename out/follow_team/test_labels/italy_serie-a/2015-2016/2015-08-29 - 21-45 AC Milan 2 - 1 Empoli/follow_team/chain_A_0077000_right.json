@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5401,
   "video_id": "9f8e1165-3109-5e06-b71d-26c2ab969336",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, continue tracking that team and notify me about any {Indirect free-kick}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, continue tracking that team and notify me about any {Indirect free-kick}."
+    }
+  ],
   "answer": [
     {
-      "start": 77.0,
-      "end": 77.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 92.0,
-      "end": 92.0,
+      "start": 72.0,
+      "end": 72.0,
+      "count": 0,
       "text": "Then: Indirect free-kick by right"
     }
-  ],
-  "match_path": "italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 77000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2015-2016/2015-08-29 - 21-45 AC Milan 2 - 1 Empoli/segment_000020_000140.json",
-  "segment_meta": {
-    "start_seconds": 20,
-    "end_seconds": 140,
-    "length_seconds": 120,
-    "start_time_mmss": "00:20",
-    "end_time_mmss": "02:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

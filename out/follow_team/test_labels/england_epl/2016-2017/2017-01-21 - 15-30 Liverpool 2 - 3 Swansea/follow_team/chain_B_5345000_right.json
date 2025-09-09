@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8834,
   "video_id": "1537e9b3-90c5-59a4-9cd8-705148fe74c8",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 5345.0,
-      "end": 5345.0,
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 5351.0,
-      "end": 5351.0,
+      "start": 21.0,
+      "end": 21.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 5345000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2017-01-21 - 15-30 Liverpool 2 - 3 Swansea/segment_005330_005450.json",
-  "segment_meta": {
-    "start_seconds": 5330,
-    "end_seconds": 5450,
-    "length_seconds": 120,
-    "start_time_mmss": "88:50",
-    "end_time_mmss": "90:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

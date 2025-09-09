@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1258,
   "video_id": "ffb8fff3-ffb0-58d4-ac02-5491154f74f9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Throw-in}, follow that same team and alert me whenever it has {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2514.0,
-      "end": 2514.0,
+      "start": 34.0,
+      "end": 34.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 2590.0,
-      "end": 2590.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2514000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2016-11-05 - 17-30 Hamburger SV 2 - 5 Dortmund/segment_002480_002600.json",
-  "segment_meta": {
-    "start_seconds": 2480,
-    "end_seconds": 2600,
-    "length_seconds": 120,
-    "start_time_mmss": "41:20",
-    "end_time_mmss": "43:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

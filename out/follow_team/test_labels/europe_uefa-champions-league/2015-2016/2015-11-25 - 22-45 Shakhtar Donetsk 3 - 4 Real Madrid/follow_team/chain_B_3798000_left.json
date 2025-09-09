@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1748,
   "video_id": "ba8d978c-a8d3-5808-b34b-8d7623fc5fb9",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "On the next {Throw-in}, stick with that team and alert me for {Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Throw-in}, stick with that team and alert me for {Substitution}."
+    }
+  ],
   "answer": [
     {
-      "start": 3798.0,
-      "end": 3798.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 3827.0,
-      "end": 3827.0,
+      "start": 57.0,
+      "end": 57.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3798000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/segment_003770_003830.json",
-  "segment_meta": {
-    "start_seconds": 3770,
-    "end_seconds": 3830,
-    "length_seconds": 60,
-    "start_time_mmss": "62:50",
-    "end_time_mmss": "63:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

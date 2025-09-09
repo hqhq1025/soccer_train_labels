@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 7885,
   "video_id": "3dc1fe05-1632-5c17-9047-6787ede45c25",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Once the next {Throw-in} occurs, keep following the same team and tell me whenever they perform {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 120.0,
-      "end": 120.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Trigger: Throw-in by right"
     },
     {
-      "start": 125.0,
-      "end": 125.0,
+      "start": 115.0,
+      "end": 115.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 120000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2015-2016/2015-11-07 - 20-30 Stoke City 1 - 0 Chelsea/segment_000010_000130.json",
-  "segment_meta": {
-    "start_seconds": 10,
-    "end_seconds": 130,
-    "length_seconds": 120,
-    "start_time_mmss": "00:10",
-    "end_time_mmss": "02:10",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

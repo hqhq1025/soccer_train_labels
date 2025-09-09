@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4325,
   "video_id": "6f23bd80-c159-5491-a301-f4314c5880ff",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul and Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Shots on target}, follow that same team and alert me whenever it has {Foul and Substitution}."
+    }
+  ],
   "answer": [
     {
-      "start": 4120.0,
-      "end": 4120.0,
+      "start": 10.0,
+      "end": 10.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 4154.0,
-      "end": 4154.0,
+      "start": 44.0,
+      "end": 44.0,
+      "count": 0,
       "text": "Then: Foul by right"
     },
     {
-      "start": 4174.0,
-      "end": 4174.0,
+      "start": 64.0,
+      "end": 64.0,
+      "count": 0,
       "text": "Then: Substitution by right"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4120000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-25 - 17-00 Espanyol 0 - 2 Barcelona/segment_004110_004190.json",
-  "segment_meta": {
-    "start_seconds": 4110,
-    "end_seconds": 4190,
-    "length_seconds": 80,
-    "start_time_mmss": "68:30",
-    "end_time_mmss": "69:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

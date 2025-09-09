@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3677,
   "video_id": "3b04869b-a934-57ab-be39-ae68b389679f",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "After the next {Corner}, follow that same team and alert me whenever it has {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Corner}, follow that same team and alert me whenever it has {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 1256.0,
-      "end": 1256.0,
+      "start": 16.0,
+      "end": 16.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 1259.0,
-      "end": 1259.0,
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
       "text": "Then: Foul by right"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2016-03-02 - 23-00 Levante 1 - 3 Real Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2016-03-02 - 23-00 Levante 1 - 3 Real Madrid/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 1256000,
-  "team": "right",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2016-03-02 - 23-00 Levante 1 - 3 Real Madrid/segment_001240_001280.json",
-  "segment_meta": {
-    "start_seconds": 1240,
-    "end_seconds": 1280,
-    "length_seconds": 40,
-    "start_time_mmss": "20:40",
-    "end_time_mmss": "21:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

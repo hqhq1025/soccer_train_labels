@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 729,
   "video_id": "a5b0791b-cb7b-5e76-abef-7903baafbbe1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul and Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Throw-in}, follow the same team and list all subsequent {Foul and Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 479.0,
-      "end": 479.0,
+      "start": 89.0,
+      "end": 89.0,
+      "count": 0,
       "text": "Trigger: Throw-in by left"
     },
     {
-      "start": 490.0,
-      "end": 490.0,
+      "start": 100.0,
+      "end": 100.0,
+      "count": 0,
       "text": "Then: Foul by left"
     },
     {
-      "start": 494.0,
-      "end": 494.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Yellow card by left"
     }
-  ],
-  "match_path": "germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/",
-  "raw_source_file": "raw_jsons/test_labels/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 479000,
-  "team": "left",
-  "segment_path": "test/dense_segments/germany_bundesliga/2016-2017/2017-04-29 - 16-30 Dortmund 0 - 0 FC Koln/segment_000390_000510.json",
-  "segment_meta": {
-    "start_seconds": 390,
-    "end_seconds": 510,
-    "length_seconds": 120,
-    "start_time_mmss": "06:30",
-    "end_time_mmss": "08:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

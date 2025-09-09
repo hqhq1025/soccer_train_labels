@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4109,
   "video_id": "8520b3f7-f39d-5113-aff5-47f0fb141667",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "At the next {Indirect free-kick}, start tracking that team; notify me on its {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3374.0,
-      "end": 3374.0,
+      "start": 94.0,
+      "end": 94.0,
+      "count": 0,
       "text": "Trigger: Indirect free-kick by left"
     },
     {
-      "start": 3390.0,
-      "end": 3390.0,
+      "start": 110.0,
+      "end": 110.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 3374000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2014-2015/2015-04-18 - 21-00 Real Madrid 3 - 1 Malaga/segment_003280_003400.json",
-  "segment_meta": {
-    "start_seconds": 3280,
-    "end_seconds": 3400,
-    "length_seconds": 120,
-    "start_time_mmss": "54:40",
-    "end_time_mmss": "56:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

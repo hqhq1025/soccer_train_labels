@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6868,
   "video_id": "8ca80fa4-05e4-57f8-a207-343fb85008ce",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Corner}, follow the same team and list all subsequent {Shots off target}."
+    }
+  ],
   "answer": [
     {
-      "start": 915.0,
-      "end": 915.0,
+      "start": 15.0,
+      "end": 15.0,
+      "count": 0,
       "text": "Trigger: Corner by left"
     },
     {
-      "start": 919.0,
-      "end": 919.0,
+      "start": 19.0,
+      "end": 19.0,
+      "count": 0,
       "text": "Then: Shots off target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 915000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/segment_000900_000960.json",
-  "segment_meta": {
-    "start_seconds": 900,
-    "end_seconds": 960,
-    "length_seconds": 60,
-    "start_time_mmss": "15:00",
-    "end_time_mmss": "16:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

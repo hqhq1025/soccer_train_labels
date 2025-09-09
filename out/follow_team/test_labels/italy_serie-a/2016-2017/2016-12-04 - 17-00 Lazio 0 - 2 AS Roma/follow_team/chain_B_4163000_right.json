@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6428,
   "video_id": "fbdc2905-7065-53c0-9144-872159ed207b",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 40.0,
   "question_category": "follow_team",
-  "question": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Foul} occurs, follow the initiating team and report all {Yellow card}."
+    }
+  ],
   "answer": [
     {
-      "start": 4163.0,
-      "end": 4163.0,
+      "start": 23.0,
+      "end": 23.0,
+      "count": 0,
       "text": "Trigger: Foul by right"
     },
     {
-      "start": 4168.0,
-      "end": 4168.0,
+      "start": 28.0,
+      "end": 28.0,
+      "count": 0,
       "text": "Then: Yellow card by right"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 4163000,
-  "team": "right",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-12-04 - 17-00 Lazio 0 - 2 AS Roma/segment_004140_004180.json",
-  "segment_meta": {
-    "start_seconds": 4140,
-    "end_seconds": 4180,
-    "length_seconds": 40,
-    "start_time_mmss": "69:00",
-    "end_time_mmss": "69:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

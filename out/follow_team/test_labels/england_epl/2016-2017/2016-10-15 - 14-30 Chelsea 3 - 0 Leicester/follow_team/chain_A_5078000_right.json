@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 8735,
   "video_id": "0526ad1e-3914-5ce6-a6c4-bf885593cc8c",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 60.0,
   "question_category": "follow_team",
-  "question": "Upon the next {Corner}, follow the same team and list all subsequent {Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Upon the next {Corner}, follow the same team and list all subsequent {Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 5078.0,
-      "end": 5078.0,
+      "start": 18.0,
+      "end": 18.0,
+      "count": 0,
       "text": "Trigger: Corner by right"
     },
     {
-      "start": 5095.0,
-      "end": 5095.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/",
-  "raw_source_file": "raw_jsons/test_labels/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 5078000,
-  "team": "right",
-  "segment_path": "test/dense_segments/england_epl/2016-2017/2016-10-15 - 14-30 Chelsea 3 - 0 Leicester/segment_005060_005120.json",
-  "segment_meta": {
-    "start_seconds": 5060,
-    "end_seconds": 5120,
-    "length_seconds": 60,
-    "start_time_mmss": "84:20",
-    "end_time_mmss": "85:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

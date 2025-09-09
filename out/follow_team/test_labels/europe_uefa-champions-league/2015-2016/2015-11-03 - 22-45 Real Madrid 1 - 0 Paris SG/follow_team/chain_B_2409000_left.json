@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1872,
   "video_id": "c250b472-edb4-594c-9f0e-874972c41ca1",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, continue tracking that team and notify me about any {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 2409.0,
-      "end": 2409.0,
+      "start": 39.0,
+      "end": 39.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 2433.0,
-      "end": 2433.0,
+      "start": 63.0,
+      "end": 63.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 2409000,
-  "team": "left",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-03 - 22-45 Real Madrid 1 - 0 Paris SG/segment_002370_002490.json",
-  "segment_meta": {
-    "start_seconds": 2370,
-    "end_seconds": 2490,
-    "length_seconds": 120,
-    "start_time_mmss": "39:30",
-    "end_time_mmss": "41:30",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

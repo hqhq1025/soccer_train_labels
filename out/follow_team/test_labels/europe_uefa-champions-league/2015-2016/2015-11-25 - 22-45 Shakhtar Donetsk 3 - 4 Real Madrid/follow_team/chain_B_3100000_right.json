@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 1752,
   "video_id": "170ac282-86d2-53ff-8522-5820249ab974",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "When the next {Shots on target} happens, lock onto that team and report every {Goal} it makes."
+    }
+  ],
   "answer": [
     {
-      "start": 3100.0,
-      "end": 3100.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Trigger: Shots on target by right"
     },
     {
-      "start": 3101.0,
-      "end": 3101.0,
+      "start": 71.0,
+      "end": 71.0,
+      "count": 0,
       "text": "Then: Goal by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3100000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2015-2016/2015-11-25 - 22-45 Shakhtar Donetsk 3 - 4 Real Madrid/segment_003030_003110.json",
-  "segment_meta": {
-    "start_seconds": 3030,
-    "end_seconds": 3110,
-    "length_seconds": 80,
-    "start_time_mmss": "50:30",
-    "end_time_mmss": "51:50",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

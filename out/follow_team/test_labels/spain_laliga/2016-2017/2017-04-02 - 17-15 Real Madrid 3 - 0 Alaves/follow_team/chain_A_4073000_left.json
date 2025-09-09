@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 4685,
   "video_id": "a016d89d-f921-5d14-9f5d-11ab4d23cb22",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 80.0,
   "question_category": "follow_team",
-  "question": "After the next {Clearance}, continue tracking that team and notify me about any {Substitution}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "After the next {Clearance}, continue tracking that team and notify me about any {Substitution}."
+    }
+  ],
   "answer": [
     {
-      "start": 4073.0,
-      "end": 4073.0,
+      "start": 53.0,
+      "end": 53.0,
+      "count": 0,
       "text": "Trigger: Clearance by left"
     },
     {
-      "start": 4090.0,
-      "end": 4090.0,
+      "start": 70.0,
+      "end": 70.0,
+      "count": 0,
       "text": "Then: Substitution by left"
     }
-  ],
-  "match_path": "spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4073000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2016-2017/2017-04-02 - 17-15 Real Madrid 3 - 0 Alaves/segment_004020_004100.json",
-  "segment_meta": {
-    "start_seconds": 4020,
-    "end_seconds": 4100,
-    "length_seconds": 80,
-    "start_time_mmss": "67:00",
-    "end_time_mmss": "68:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

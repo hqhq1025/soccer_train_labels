@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 6935,
   "video_id": "159fd438-83d5-5adc-b7de-03e714130955",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Shots off target}, stick with that team and alert me for {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Shots off target}, stick with that team and alert me for {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 4173.0,
-      "end": 4173.0,
+      "start": 73.0,
+      "end": 73.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 4203.0,
-      "end": 4203.0,
+      "start": 103.0,
+      "end": 103.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4173000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2016-09-25 - 21-45 Fiorentina 0 - 0 AC Milan/segment_004100_004220.json",
-  "segment_meta": {
-    "start_seconds": 4100,
-    "end_seconds": 4220,
-    "length_seconds": 120,
-    "start_time_mmss": "68:20",
-    "end_time_mmss": "70:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

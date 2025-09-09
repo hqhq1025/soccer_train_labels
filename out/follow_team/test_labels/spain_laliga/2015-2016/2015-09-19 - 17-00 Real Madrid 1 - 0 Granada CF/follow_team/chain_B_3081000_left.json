@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 3794,
   "video_id": "d14265de-7a6b-5aa1-bec4-8f2d72718bf0",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots off target}; then follow that team and report its {Foul}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots off target}; then follow that team and report its {Foul}."
+    }
+  ],
   "answer": [
     {
-      "start": 3081.0,
-      "end": 3081.0,
+      "start": 101.0,
+      "end": 101.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 3094.0,
-      "end": 3094.0,
+      "start": 114.0,
+      "end": 114.0,
+      "count": 0,
       "text": "Then: Foul by left"
     }
-  ],
-  "match_path": "spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/",
-  "raw_source_file": "raw_jsons/test_labels/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3081000,
-  "team": "left",
-  "segment_path": "test/dense_segments/spain_laliga/2015-2016/2015-09-19 - 17-00 Real Madrid 1 - 0 Granada CF/segment_002980_003100.json",
-  "segment_meta": {
-    "start_seconds": 2980,
-    "end_seconds": 3100,
-    "length_seconds": 120,
-    "start_time_mmss": "49:40",
-    "end_time_mmss": "51:40",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

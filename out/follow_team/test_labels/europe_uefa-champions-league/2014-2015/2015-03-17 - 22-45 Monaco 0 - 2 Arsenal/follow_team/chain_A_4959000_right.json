@@ -1,41 +1,36 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 2525,
   "video_id": "ac1a54d8-14ed-5060-9aba-8642b8a3c89d",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 120.0,
   "question_category": "follow_team",
-  "question": "On the next {Direct free-kick}, stick with that team and alert me for {Shots off target and Corner}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "On the next {Direct free-kick}, stick with that team and alert me for {Shots off target and Corner}."
+    }
+  ],
   "answer": [
     {
-      "start": 4959.0,
-      "end": 4959.0,
+      "start": 79.0,
+      "end": 79.0,
+      "count": 0,
       "text": "Trigger: Direct free-kick by right"
     },
     {
-      "start": 4961.0,
-      "end": 4961.0,
+      "start": 81.0,
+      "end": 81.0,
+      "count": 0,
       "text": "Then: Shots off target by right"
     },
     {
-      "start": 4984.0,
-      "end": 4984.0,
+      "start": 104.0,
+      "end": 104.0,
+      "count": 0,
       "text": "Then: Corner by right"
     }
-  ],
-  "match_path": "europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/",
-  "raw_source_file": "raw_jsons/test_labels/europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/Labels-v2.json",
-  "chain_type": "A",
-  "trigger_ms": 4959000,
-  "team": "right",
-  "segment_path": "test/dense_segments/europe_uefa-champions-league/2014-2015/2015-03-17 - 22-45 Monaco 0 - 2 Arsenal/segment_004880_005000.json",
-  "segment_meta": {
-    "start_seconds": 4880,
-    "end_seconds": 5000,
-    "length_seconds": 120,
-    "start_time_mmss": "81:20",
-    "end_time_mmss": "83:20",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }

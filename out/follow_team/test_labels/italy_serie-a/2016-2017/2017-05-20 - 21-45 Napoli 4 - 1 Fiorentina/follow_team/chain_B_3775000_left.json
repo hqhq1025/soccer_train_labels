@@ -1,36 +1,30 @@
 {
-  "source": "soccernet-dense-chain",
+  "source": "soccer",
   "id": 5654,
   "video_id": "ac2e2670-eeb4-50d9-9e92-22edcd3750d5",
   "data_type": "online",
+  "train_stage": 2,
+  "length": 100.0,
   "question_category": "follow_team",
-  "question": "Watch for the next {Shots off target}; then follow that team and report its {Shots on target}.",
+  "question": [
+    {
+      "time": 0.0,
+      "count": 0,
+      "text": "Watch for the next {Shots off target}; then follow that team and report its {Shots on target}."
+    }
+  ],
   "answer": [
     {
-      "start": 3775.0,
-      "end": 3775.0,
+      "start": 35.0,
+      "end": 35.0,
+      "count": 0,
       "text": "Trigger: Shots off target by left"
     },
     {
-      "start": 3831.0,
-      "end": 3831.0,
+      "start": 91.0,
+      "end": 91.0,
+      "count": 0,
       "text": "Then: Shots on target by left"
     }
-  ],
-  "match_path": "italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/",
-  "raw_source_file": "raw_jsons/test_labels/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/Labels-v2.json",
-  "chain_type": "B",
-  "trigger_ms": 3775000,
-  "team": "left",
-  "segment_path": "test/dense_segments/italy_serie-a/2016-2017/2017-05-20 - 21-45 Napoli 4 - 1 Fiorentina/segment_003740_003840.json",
-  "segment_meta": {
-    "start_seconds": 3740,
-    "end_seconds": 3840,
-    "length_seconds": 100,
-    "start_time_mmss": "62:20",
-    "end_time_mmss": "64:00",
-    "bin_size_seconds": 10,
-    "threshold_per_bin": 0.5,
-    "mode": "avg"
-  }
+  ]
 }
